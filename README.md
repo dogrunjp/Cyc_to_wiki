@@ -13,7 +13,7 @@ This repository contains the pipeline to transform data from Biopax format (comm
 python build_pathways.py ./data ./output_oryzacyc --include-reactions --layout forceatlas2
 ```
 - 最初の位置引数に当たるinput dirの指定が効いていなかったのでパッチを充ました。
-- 直し、モジュールの依存関係など複雑で本格的なパッチではなく"./data"があることを前提としたハードコードで修正しています。
+- 直し、モジュールの依存関係など複雑で本格的なパッチではなく **"./data"に取り込むデータがあることを前提とした** ハードコードで修正しています。
 - 自分の場合、"./data"にはsymlinkで既に端末で保存済みのPlantCysのデータを紐づけるようにしました
     - 例：ln -sfn /mnt/pmn/PMN17_December2025/anothercyc/18.0.1/data ./data
 
