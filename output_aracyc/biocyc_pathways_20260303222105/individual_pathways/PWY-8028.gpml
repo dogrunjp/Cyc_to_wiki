@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="cycloartenol biosynthesis" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Description>Oxidosqualene cyclases (OSCs) are among the most conserved sterol bosynthetic enzymes at the sequence level, and homologues have been detected in all species capable of sterol synthesis. There are two main types of sterols-producing OSCs based on the end product of the cyclization: |FRAME: EC-5.4.99.7 EC 5.4.99.7, lanosterol synthase|, which is found in animals, fungi, choanozoa, trypanosomatids, dinoflagellates, and some bacteria such as |FRAME: TAX-414 &lt;i&gt;Methylococcus capsulatus&lt;/i&gt;|; and |FRAME: EC-5.4.99.8 EC 5.4.99.8, cycloartenol synthase|, which is found in higher plants, red and green algae, amoebozoa, diatoms, euglenids, heterolobosea and some bacteria such as |FRAME: TAX-41 &lt;i&gt;Stigmatella aurantiaca&lt;/i&gt;| (see |FRAME: PWY-8028 cycloartenol biosynthesis|) |CITS: [12519197][24596261]|. A rare third type is |FRAME: EC-5.4.99.47 EC 5.4.99.47, parkeol synthase| |CITS: [21526825]|. The reaction catalyzed by OSCs is remarkably complex |CITS: [16754609]|. The key steps in the cyclization include: 1. Positioning of squalene 2,3-epoxide in a prefolded configuration within the active site. 2. Protonation of the epoxide group by a catalytic acid. 3. Ring formation, during which cation intermediates are stabilized by cation&amp;ndash;&amp;pi; interactions with aromatic residues of the active site, followed by migration of the cation out to C20. 4. Skeletal rearrangement via hydride- and methyl-shifts (largely spontaneous) as the proton migrates back to a region of high &amp;pi;-electron density around the B/C rings. 5. Deprotonation by basic residues to quench the final protosteryl cation; the position of the deprotonation determines the OSC product (lanosterol versus cycloartenol). It has been proposed that the ancestral sterol biosynthesis pathway produced cycloartenol as a final product, and that the evolution of the pathway beyond cycloartenol took place only as a result of the rising concentrations of oxygen in the atmosphere following the onset of photosynthesis |CITS: [9383366]|.</Description>
+  <Authors>
+    <Author name="SRI" />
+    <Author name="caspi" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-8028" />
+  <Property key="Type_1" value="Sterol-Biosynthesis" />
+  <Property key="Type_2" value="TRITERPENOID-SYN" />
+  <Property key="ReactionIDs" value="CYCLOARTENOL-SYNTHASE-RXN" />
+  <Property key="PathwayLinks" value="(CYCLOARTENOL PWY-2541), (EPOXYSQUALENE PWY-5670)" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_18154734" />
+  <CitationRef elementRef="citation_PUB_21526825" />
+  <CitationRef elementRef="citation_PUB_16754609" />
+  <CitationRef elementRef="citation_PUB_9383366" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="AT2G07050" textLabel="CAS1" type="GeneProduct">
+      <Xref identifier="U02555" dataSource="Entrez Gene" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>cycloartenol synthase</Comment>
+      <Property key="UniqueID" value="AT2G07050" />
+      <Property key="AlternativeId_Tair" value="AT2G07050" />
+      <Property key="AlternativeId_String" value="3702.AT2G07050.1" />
+      <Property key="AlternativeId_Entrez" value="U02555" />
+      <Property key="Synonym_1" value="At2g07050" />
+      <Property key="Synonym_2" value="cycloartenol synthase 1" />
+      <Property key="Product" value="AT2G07050-MONOMER" />
+      <Property key="StartPosition" value="2924444" />
+      <Property key="EndPosition" value="2930669" />
+      <Property key="ComponentOf" value="CHROMOSOME-2-0" />
+      <Property key="CentisomePosition" value="14.840857" />
+      <Property key="GeneType" value="Genes" />
+      <Property key="Operon" value="CHROMOSOME-2-0" />
+      <Property key="Accession1" value="AT2G07050" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <CitationRef elementRef="citation__7505443_" />
+    </DataNode>
+    <DataNode elementId="AT2G07050-MONOMER" textLabel="cycloartenol synthase" type="Protein">
+      <Xref identifier="P38605" dataSource="uniprot" />
+      <Graphics centerX="150" centerY="215" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT2G07050-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT2G07050.1" />
+      <Property key="AlternativeId_Pfam" value="PF00432" />
+      <Property key="AlternativeId_Interpro" value="IPR008930" />
+      <Property key="AlternativeId_Smr" value="P38605" />
+      <Property key="AlternativeId_Arrayexpress" value="P38605" />
+      <Property key="AlternativeId_Pride" value="P38605" />
+      <Property key="AlternativeId_Phylomedb" value="P38605" />
+      <Property key="AlternativeId_Prosite" value="PS01074" />
+      <Property key="AlternativeId_String" value="3702.AT2G07050.1-P" />
+      <Property key="AlternativeId_Uniprot" value="P38605" />
+      <Property key="AlternativeId_Pid" value="AAC04931" />
+      <Property key="AlternativeId_Swissmodel" value="P38605" />
+      <Property key="AlternativeId_Modbase" value="P38605" />
+      <Property key="Synonym_1" value="CAS1" />
+      <Property key="Catalyzes" value="RXN-1F-1118" />
+      <Property key="Accession1" value="AT2G07050.1" />
+      <Property key="Gene" value="AT2G07050" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <CitationRef elementRef="citation_cit_7505443_TargetP_location" />
+    </DataNode>
+    <DataNode elementId="CYCLOARTENOL" textLabel="cycloartenol" type="Metabolite">
+      <Xref identifier="ONQRKEUAIJMULO-YBXTVTTCSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>|FRAME: CYCLOARTENOL Cycloartenol| is a precursor for all the steroids produced by plants and diatoms. It is also produced by some prokaryotes, such as the myxobacteria |FRAME: TAX-41| and |FRAME: TAX-43| |CITS: [12519197]|.</Comment>
+      <Property key="UniqueID" value="CYCLOARTENOL" />
+      <Property key="AlternativeId_Pubchem" value="92110" />
+      <Property key="AlternativeId_Zinc" value="ZINC000118915285" />
+      <Property key="AlternativeId_Seed" value="cpd01306" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1323" />
+      <Property key="AlternativeId_Hmdb" value="HMDB36591" />
+      <Property key="AlternativeId_Chebi" value="17030" />
+      <Property key="AlternativeId_LigandCpd" value="C01902" />
+      <Property key="AlternativeId_Cas" value="469-38-5" />
+      <Property key="Synonym_1" value="9&amp;beta;,19-cyclo-24-lanosten-3&amp;beta;-ol" />
+      <Property key="Synonym_2" value="cycloart-24(25)-enol" />
+      <Property key="Synonym_3" value="(3&amp;beta;,9&amp;beta;)-9,19-cyclolanost-24-en-3-ol" />
+      <Property key="ChemicalFormula" value="(C 30) (H 50) (O 1)" />
+      <Property key="Gibbs0" value="540.616" />
+      <Property key="Inchi" value="InChI=1S/C30H50O/c1-20(2)9-8-10-21(3)22-13-15-28(7)24-12-11-23-26(4,5)25(31)14-16-29(23)19-30(24,29)18-17-27(22,28)6/h9,21-25,31H,8,10-19H2,1-7H3/t21-,22-,23+,24+,25+,27-,28+,29-,30+/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=ONQRKEUAIJMULO-YBXTVTTCSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="426.724" />
+      <Property key="MonoisotopicMw" value="426.3861662271" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="CC(C)=CCC[C@@H](C)[C@H]3(CC[C@@]4(C)([C@@H]1(CC[C@H]5(C(C)(C)[C@@H](O)CC[C@@]2(C[C@@]12CC[C@](C)34)5))))" />
+      <CitationRef elementRef="citation_PUB_12519197" />
+    </DataNode>
+    <DataNode elementId="EPOXYSQUALENE" textLabel="(3S)-2,3-epoxy-2,3-dihydrosqualene" type="Metabolite">
+      <Xref identifier="QYIMSPSDBYKPPY-RSKUXYSASA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="EPOXYSQUALENE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004095521" />
+      <Property key="AlternativeId_ReactomeCpd" value="191309" />
+      <Property key="AlternativeId_Seed" value="cpd00776" />
+      <Property key="AlternativeId_Metanetx" value="MNXM130" />
+      <Property key="AlternativeId_Pubchem" value="5459811" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15441" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01188" />
+      <Property key="AlternativeId_Chebi" value="15441" />
+      <Property key="AlternativeId_Chemspider" value="4444080" />
+      <Property key="AlternativeId_LigandCpd" value="C01054" />
+      <Property key="AlternativeId_Cas" value="9029-62-3" />
+      <Property key="Synonym_1" value="squalene 2,3-epoxide" />
+      <Property key="Synonym_2" value="squalene 2,3-oxide" />
+      <Property key="Synonym_3" value="(S)-squalene-2,3-epoxide" />
+      <Property key="Synonym_4" value="2,3-EDSQ" />
+      <Property key="Synonym_5" value="2,3-epoxisqualene" />
+      <Property key="Synonym_6" value="oxidosqualene" />
+      <Property key="Synonym_7" value="2,3-oxidosqualene" />
+      <Property key="Synonym_8" value="(3&lt;i&gt;S&lt;/i&gt;)-2,3-epoxysqualene" />
+      <Property key="ChemicalFormula" value="(C 30) (H 50) (O 1)" />
+      <Property key="Gibbs0" value="632.8661" />
+      <Property key="Inchi" value="InChI=1S/C30H50O/c1-24(2)14-11-17-27(5)20-12-18-25(3)15-9-10-16-26(4)19-13-21-28(6)22-23-29-30(7,8)31-29/h14-16,20-21,29H,9-13,17-19,22-23H2,1-8H3/b25-15+,26-16+,27-20+,28-21+/t29-/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=QYIMSPSDBYKPPY-RSKUXYSASA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="426.724" />
+      <Property key="MonoisotopicMw" value="426.3861662271" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="CC(C)=CCCC(\C)=C/CCC(\C)=C/CC/C=C(C)/CC/C=C(C)/CC[C@H]1(C(C)(C)O1)" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="AT2G07050" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="215" elementRef="AT2G07050-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="CYCLOARTENOL-SYNTHASE-RXN">
+      <Xref identifier="21311" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="CYCLOARTENOL-SYNTHASE-RXN_start" x="395.0" y="400" elementRef="EPOXYSQUALENE" relX="1.0" relY="0.0" />
+        <Point elementId="CYCLOARTENOL-SYNTHASE-RXN_end" arrowHead="Conversion" x="155.0" y="400" elementRef="CYCLOARTENOL" relX="-1.0" relY="0.0" />
+        <Anchor elementId="CYCLOARTENOL-SYNTHASE-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="AlternativeId_Uniprot" value="O23909" />
+      <Property key="AlternativeId_Rhea" value="21311" />
+      <Property key="AlternativeId_Pir" value="A49398" />
+      <Property key="UniqueID" value="CYCLOARTENOL-SYNTHASE-RXN" />
+      <Property key="EC_Number" value="EC-5.4.99.8" />
+      <Property key="Pathways" value="PWY-8028, PWY-6115" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="EPOXYSQUALENE =&gt; CYCLOARTENOL" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXN1F-1118" />
+      <Property key="Synonym_1" value="2,3-epoxysqualene--cycloartenol cyclase" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 6 3 2 18 5 4 11 10 7 12 13 8 23 22 9 14 24 21 15 29 17 19 27 25 20 28 16 26 30) (((&quot;CYCLOARTENOL&quot; 0 30)) ((&quot;EPOXYSQUALENE&quot; 0 30))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-92.25006" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="Synonyms" value="2,3-epoxysqualene--cycloartenol cyclase" />
+    </Interaction>
+    <Interaction elementId="CYCLOARTENOL-SYNTHASE-RXN_ENZRXN1F-1118">
+      <Waypoints>
+        <Point elementId="CYCLOARTENOL-SYNTHASE-RXN_ENZRXN1F-1118_start" x="150" y="227.5" elementRef="AT2G07050-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="CYCLOARTENOL-SYNTHASE-RXN_ENZRXN1F-1118_end" arrowHead="Catalysis" x="0" y="0" elementRef="CYCLOARTENOL-SYNTHASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_16754609">
+      <Xref identifier="16754609" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation__7505443_">
+      <Xref identifier="[7505443]" dataSource="PlantCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_12519197">
+      <Xref identifier="12519197" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_18154734">
+      <Xref identifier="18154734" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_21526825">
+      <Xref identifier="21526825" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_cit_7505443_TargetP_location">
+      <Xref identifier="7505443
+TargetP location" dataSource="PlantCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_9383366">
+      <Xref identifier="9383366" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="putrescine biosynthesis II" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Xref identifier="PWY-43" dataSource="MetaCyc" />
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Arabidopsis thaliana col&lt;/i&gt;: This pathway is on the list of Common Viridiplantae Pathways (CVP) generated for the COMET project, which includes pathways that are thought to be present in all or most Viridiplantae species including algae. All UPP pathways are automatically imported into databases regardless of Pathologic predictions. &lt;A href=&quot;http://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; &lt;b&gt;General Backround&lt;/b&gt; The polyamines (the most common of which are |FRAME:PUTRESCINE|, |FRAME:SPERMIDINE|, and |FRAME:SPERMINE|) are a group of positively charged organic polycations that are involved in many biological processes, including binding to nucleic acids, stabilizing membranes, and stimulating several enzymes |CITS: [3157043][4873311][1409623][2185470]|. While it is clear that polyamines are essential for normal cell growth, we still do not fully understand their specific molecular functions &lt;i&gt;in vivo&lt;/i&gt; |CITS:[3157043]|. |FRAME:PUTRESCINE| and |FRAME:SPERMIDINE| are found in all life forms, and |FRAME:SPERMINE| is found mostly in eukaryotes. |FRAME:PUTRESCINE Putrescine| can be formed either directly from |FRAME:L-ORNITHINE| by ornithine decarboxylase (ODC) (see |FRAME:PWY-46|) or indirectly from |FRAME:ARG| by arginine decarboxylase (ADC) (see |FRAME:PWY-40| and |FRAME:PWY-43|). While the ODC pathway was considered the only mammalian pathway for polyamine biosynthesis, recently the presence of the ADC pathway in mammals has been demonstrated |CITS:[11804860] [14738999]|. In higher plants the presence of both pathways has been known for some time |CITS: [11537482]|. In bacteria, both pathways are common, and are often found side by side in the same organism |CITS:[3157043]|. &lt;b&gt;About This Pathway&lt;/b&gt; There are two flavors of the ADC pathway. In both cases |FRAME:ARG| is first converted to |FRAME:AGMATHINE| by a biosynthetic arginine decarboxylase. However, in enterobacteria and mycobacteria |FRAME:AGMATHINE| is converted directly to |FRAME:PUTRESCINE| by the enzyme |FRAME:AGMATIN-CPLX| (see |FRAME:PWY-40|), while in higher plants, |FRAME:TAX-286| spp., |FRAME:TAX-642| spp., and lactic bacteria, |FRAME:AGMATHINE| is first hydrolyzed by |FRAME:CPLX-31| into |FRAME:CPD-597| and |FRAME:AMMONIA|, and |FRAME:PUTRESCINE| is formed by removal of the ureido group from |FRAME:CPD-597| by the enzyme |FRAME:CPLX-39|. It should be mentioned that it has been suggested that in |FRAME: TAX-287| this pathway can operate in a catabolic manner |CITS:[6768836][3534538][11673419]|, catalyzing the degradation of |FRAME:ARG| through |FRAME:PUTRESCINE| into succinate, supplying the bacteria with carbon and nitrogen (see |FRAME:ARGDEG-III-PWY|). Since the main catabolic arginine pathway in these bacteria is the succinyltransferase pathway (see |FRAME:AST-PWY|), there is still some debate whether this is a true arginine degradation pathway. However, it is agreed that the last two steps of the pathway are used for catabolic |FRAME:AGMATHINE| degradation |CITS:[12634339]|.</Description>
+  <Authors>
+    <Author name="SRI" />
+    <Author name="caspi" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-43" />
+  <Property key="Type" value="Putrescine-Biosynthesis" />
+  <Property key="ReactionCount" value="3" />
+  <Property key="ReactionIDs" value="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN, AGMATINE-DEIMINASE-RXN, ARGDECARBOX-RXN" />
+  <Property key="PredecessorCount" value="2" />
+  <Property key="PathwayLinks" value="(PUTRESCINE BSUBPOLYAMSYN-PWY)" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_PMNCVP2024" />
+  <CitationRef elementRef="citation_PUB_0012435743" />
+  <CitationRef elementRef="citation_PUB_11537482" />
+  <CitationRef elementRef="citation_PUB_17097300" />
+  <CitationRef elementRef="citation_PUB_12782327" />
+  <CitationRef elementRef="citation_PUB_3157043" />
+  <CitationRef elementRef="citation_PUB_12634339" />
+  <Graphics boardWidth="1200" boardHeight="880" />
+  <DataNodes>
+    <DataNode elementId="AT4G34710" textLabel="ADC2" type="GeneProduct">
+      <Xref identifier="AT4G34710" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G34710" />
+      <Property key="Synonym_1" value="SPE2" />
+      <Property key="Product" value="AT4G34710-MONOMER" />
+      <Property key="StartPosition" value="16560067" />
+      <Property key="EndPosition" value="16562974" />
+      <Property key="ComponentOf" value="CHROMOSOME-4-4" />
+      <Property key="CentisomePosition" value="89.10428" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-4-4" />
+      <Property key="Accession1" value="AT4G34710" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT2G16500" textLabel="AT2G16500" type="GeneProduct">
+      <Xref identifier="AT2G16500" dataSource="TAIR gene name" />
+      <Graphics centerX="220" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT2G16500" />
+      <Property key="Synonym_1" value="SPE1" />
+      <Property key="Synonym_2" value="ARGDC1" />
+      <Property key="Synonym_3" value="ARGDC" />
+      <Property key="Synonym_4" value="ADC1" />
+      <Property key="Product" value="AT2G16500-MONOMER" />
+      <Property key="StartPosition" value="7157704" />
+      <Property key="EndPosition" value="7160421" />
+      <Property key="ComponentOf" value="CHROMOSOME-2-1" />
+      <Property key="CentisomePosition" value="36.32364" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-2-1" />
+      <Property key="Accession1" value="AT2G16500" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT2G16500-MONOMER" textLabel="Arginine decarboxylase 1" type="Protein">
+      <Xref identifier="Q9SI64" dataSource="uniprot" />
+      <Graphics centerX="150" centerY="215" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT2G16500-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT2G16500.1" />
+      <Property key="AlternativeId_Uniprot" value="Q9SI64" />
+      <Property key="Synonym_1" value="ADC 1" />
+      <Property key="Synonym_2" value="ADC-O" />
+      <Property key="Synonym_3" value="ARGDC 1" />
+      <Property key="Synonym_4" value="AtADC1" />
+      <Property key="Catalyzes" value="RXN-7055, RXN-7054" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="AT2G16500.1" />
+      <Property key="FunctionalAssignmentStatus" value=":AMBIGUOUS" />
+      <Property key="Gene" value="AT2G16500" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT5G08170-MONOMER" textLabel="Agmatine deiminase" type="Protein" groupRef="CPLX-2242">
+      <Xref identifier="AT5G08170-MONOMER" dataSource="plantcyc" />
+      <Graphics centerX="300.0" centerY="215" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G08170-MONOMER" />
+      <Property key="Synonym_1" value="Agmatine iminohydrolase" />
+      <Property key="Synonym_2" value="EMBRYO DEFECTIVE 1873" />
+      <Property key="Accession1" value="AT5G08170.1" />
+      <Property key="ComponentOf" value="CPLX-2242" />
+      <Property key="Gene" value="AT5G08170" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightKd" value="43." />
+      <Property key="MolecularWeightSeq" value="43." />
+      <Property key="Species" value="ARA" />
+    </DataNode>
+    <DataNode elementId="AT4G34710-MONOMER" textLabel="Arginine decarboxylase 2" type="Protein">
+      <Xref identifier="O23141" dataSource="uniprot" />
+      <Graphics centerX="150" centerY="295" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G34710-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT4G34710.1" />
+      <Property key="AlternativeId_Uniprot" value="O23141" />
+      <Property key="Synonym_1" value="ADC 2" />
+      <Property key="Synonym_2" value="ARGDC 2" />
+      <Property key="Synonym_3" value="AtADC2" />
+      <Property key="Synonym_4" value="ADC-N" />
+      <Property key="Catalyzes" value="RXN-7240, RXN-7239" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="AT4G34710.1" />
+      <Property key="FunctionalAssignmentStatus" value=":AMBIGUOUS" />
+      <Property key="Gene" value="AT4G34710" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="PUTRESCINE" textLabel="putrescine" type="Metabolite">
+      <Xref identifier="KIDHWZJUCRJVML-UHFFFAOYSA-P" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="480" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PUTRESCINE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000005828633" />
+      <Property key="AlternativeId_Metanetx" value="MNXM118" />
+      <Property key="AlternativeId_Refmet" value="Putrescine" />
+      <Property key="AlternativeId_Bigg" value="ptrc" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC326268" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01414" />
+      <Property key="AlternativeId_Chemspider" value="2695170" />
+      <Property key="AlternativeId_Chebi" value="326268" />
+      <Property key="AlternativeId_Pubchem" value="3452892" />
+      <Property key="AlternativeId_LigandCpd" value="C00134" />
+      <Property key="AlternativeId_Cas" value="110-60-1" />
+      <Property key="Synonym_1" value="diaminobutane" />
+      <Property key="Synonym_2" value="1,4-diaminobutane" />
+      <Property key="Synonym_3" value="1,4-butanediamine" />
+      <Property key="Synonym_4" value="tetramethylenediamine" />
+      <Property key="ChemicalFormula" value="(C 4) (H 14) (N 2)" />
+      <Property key="AtomCharges" value="(5 1), (6 1)" />
+      <Property key="Gibbs0" value="136.52745" />
+      <Property key="Inchi" value="InChI=1S/C4H12N2/c5-3-1-2-4-6/h1-6H2/p+2" />
+      <Property key="InchiKey" value="InChIKey=KIDHWZJUCRJVML-UHFFFAOYSA-P" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="90.168" />
+      <Property key="MonoisotopicMw" value="88.1000483956" />
+      <Property key="NonStandardInchi" value="InChI=1S/C4H12N2/c5-3-1-2-4-6/h1-6H2/p+2" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-6950, REG0-9969, REG0-8768, REG0-10620, REG-6932, REG-8624, REG-13010, REG-13007" />
+      <Property key="Smiles" value="C([NH3+])CCC[NH3+]" />
+      <Property key="SystematicName" value="1,4-butanediamine" />
+    </DataNode>
+    <DataNode elementId="WATER" textLabel="H₂O" type="Metabolite">
+      <Xref identifier="XLYOFNOQVPJJNP-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="480" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="WATER" />
+      <Property key="AlternativeId_Bigg" value="h2o" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15377" />
+      <Property key="AlternativeId_Hmdb" value="HMDB02111" />
+      <Property key="AlternativeId_Chemspider" value="937" />
+      <Property key="AlternativeId_Chebi" value="15377" />
+      <Property key="AlternativeId_Pubchem" value="962" />
+      <Property key="AlternativeId_LigandCpd" value="C00001" />
+      <Property key="AlternativeId_Cas" value="7732-18-5" />
+      <Property key="Synonym_1" value="H20" />
+      <Property key="Synonym_2" value="H&lt;sub&gt;2&lt;/sub&gt;0" />
+      <Property key="Synonym_3" value="H2O" />
+      <Property key="Synonym_4" value="hydrogen oxide" />
+      <Property key="Synonym_5" value="water" />
+      <Property key="ChemicalFormula" value="(H 2) (O 1)" />
+      <Property key="Gibbs0" value="-36.144756" />
+      <Property key="Inchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="InchiKey" value="InChIKey=XLYOFNOQVPJJNP-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="18.015" />
+      <Property key="MonoisotopicMw" value="18.0105646863" />
+      <Property key="NonStandardInchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="O" />
+    </DataNode>
+    <DataNode elementId="CARBON-DIOXIDE" textLabel="CO₂" type="Metabolite">
+      <Xref identifier="CURLTUGMZLYLDI-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="480" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CARBON-DIOXIDE" />
+      <Property key="AlternativeId_Bigg" value="co2" />
+      <Property key="AlternativeId_Seed" value="cpd00011" />
+      <Property key="AlternativeId_Metanetx" value="MNXM13" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC16526" />
+      <Property key="AlternativeId_LigandCpd" value="C00011" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01967" />
+      <Property key="AlternativeId_UmBbdCpd" value="c0131" />
+      <Property key="AlternativeId_Chemspider" value="274" />
+      <Property key="AlternativeId_Chebi" value="16526" />
+      <Property key="AlternativeId_Pubchem" value="280" />
+      <Property key="AlternativeId_Cas" value="124-38-9" />
+      <Property key="Synonym_1" value="carbonic anhydride" />
+      <Property key="Synonym_2" value="carbonic acid gas" />
+      <Property key="Synonym_3" value="carbon dioxide" />
+      <Property key="ChemicalFormula" value="(C 1) (O 2)" />
+      <Property key="Gibbs0" value="-92.26" />
+      <Property key="Inchi" value="InChI=1S/CO2/c2-1-3" />
+      <Property key="InchiKey" value="InChIKey=CURLTUGMZLYLDI-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="44.01" />
+      <Property key="MonoisotopicMw" value="43.989829244199996" />
+      <Property key="NonStandardInchi" value="InChI=1S/CO2/c2-1-3" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REGQT-541" />
+      <Property key="Smiles" value="C(=O)=O" />
+    </DataNode>
+    <DataNode elementId="CPD-597" textLabel="N-carbamoylputrescine" type="Metabolite">
+      <Xref identifier="YANFYYGANIYHGI-UHFFFAOYSA-O" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="580" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-597" />
+      <Property key="AlternativeId_Zinc" value="ZINC000001532656" />
+      <Property key="AlternativeId_Seed" value="cpd00341" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1243" />
+      <Property key="AlternativeId_Refmet" value="N-Carbamoylputrescine" />
+      <Property key="AlternativeId_Hmdb" value="HMDB33458" />
+      <Property key="AlternativeId_Chebi" value="58318" />
+      <Property key="AlternativeId_Pubchem" value="25244388" />
+      <Property key="AlternativeId_LigandCpd" value="C00436" />
+      <Property key="AlternativeId_Cas" value="6851-51-0" />
+      <Property key="ChemicalFormula" value="(C 5) (H 14) (N 3) (O 1)" />
+      <Property key="AtomCharges" value="(6 1)" />
+      <Property key="Gibbs0" value="99.253624" />
+      <Property key="Inchi" value="InChI=1S/C5H13N3O/c6-3-1-2-4-8-5(7)9/h1-4,6H2,(H3,7,8,9)/p+1" />
+      <Property key="InchiKey" value="InChIKey=YANFYYGANIYHGI-UHFFFAOYSA-O" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="132.185" />
+      <Property key="MonoisotopicMw" value="131.10586205500002" />
+      <Property key="NonStandardInchi" value="InChI=1S/C5H13N3O/c6-3-1-2-4-8-5(7)9/h1-4,6H2,(H3,7,8,9)/p+1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C(CCCNC(N)=O)[NH3+]" />
+    </DataNode>
+    <DataNode elementId="ARG" textLabel="L-arginine" type="Metabolite">
+      <Xref identifier="ODKSFYDXXFIFQN-BYPYZUCNSA-O" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="580" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ARG" />
+      <Property key="AlternativeId_Zinc" value="ZINC000001532525" />
+      <Property key="AlternativeId_Mediadb" value="compounds/60/" />
+      <Property key="AlternativeId_Metanetx" value="MNXM70" />
+      <Property key="AlternativeId_Refmet" value="Arginine" />
+      <Property key="AlternativeId_Bigg" value="arg__L" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC32682" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00517" />
+      <Property key="AlternativeId_Chemspider" value="1266045" />
+      <Property key="AlternativeId_Chebi" value="32682" />
+      <Property key="AlternativeId_Pubchem" value="1549073" />
+      <Property key="AlternativeId_LigandCpd" value="C00062" />
+      <Property key="AlternativeId_Cas" value="74-79-3" />
+      <Property key="Synonym_1" value="2-amino-5-guanidinovaleric acid" />
+      <Property key="Synonym_2" value="R" />
+      <Property key="Synonym_3" value="arginine" />
+      <Property key="Synonym_4" value="arg" />
+      <Property key="Synonym_5" value="L-arg" />
+      <Property key="ChemicalFormula" value="(C 6) (H 15) (N 4) (O 2)" />
+      <Property key="AbbrevName" value="arg" />
+      <Property key="AtomCharges" value="(11 -1), (8 1), (7 1)" />
+      <Property key="Gibbs0" value="79.88474" />
+      <Property key="Inchi" value="InChI=1S/C6H14N4O2/c7-4(5(11)12)2-1-3-10-6(8)9/h4H,1-3,7H2,(H,11,12)(H4,8,9,10)/p+1/t4-/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=ODKSFYDXXFIFQN-BYPYZUCNSA-O" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="175.21" />
+      <Property key="MonoisotopicMw" value="174.1116757144" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Pka1" value="2.18" />
+      <Property key="Regulates" value="REG0-8420, REG-10990, REG-6934, REG-9620" />
+      <Property key="Smiles" value="C(NC(N)=[NH2+])CC[C@H]([NH3+])C(=O)[O-]" />
+    </DataNode>
+    <DataNode elementId="AMMONIUM" textLabel="ammonium" type="Metabolite">
+      <Xref identifier="QGZKDVFQNNGYKY-UHFFFAOYSA-O" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="580" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AMMONIUM" />
+      <Property key="AlternativeId_Mediadb" value="compounds/1211/" />
+      <Property key="AlternativeId_Bigg" value="nh4" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC28938" />
+      <Property key="AlternativeId_Hmdb" value="HMDB41827" />
+      <Property key="AlternativeId_Chebi" value="28938" />
+      <Property key="AlternativeId_Chemspider" value="218" />
+      <Property key="AlternativeId_Pubchem" value="223" />
+      <Property key="AlternativeId_LigandCpd" value="C01342" />
+      <Property key="AlternativeId_Cas" value="14798-03-9" />
+      <Property key="Synonym_1" value="NH&lt;SUB&gt;4&lt;/SUB&gt;&lt;SUP&gt;+&lt;/SUP&gt;" />
+      <Property key="ChemicalFormula" value="(H 4) (N 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="ComponentOf" value="NH4CL" />
+      <Property key="Gibbs0" value="21.812426" />
+      <Property key="Inchi" value="InChI=1S/H3N/h1H3/p+1" />
+      <Property key="InchiKey" value="InChIKey=QGZKDVFQNNGYKY-UHFFFAOYSA-O" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="InternalsOfGroup" value="GLYCO-CT-AMINO" />
+      <Property key="MolecularWeight" value="18.038" />
+      <Property key="MonoisotopicMw" value="18.0343741336" />
+      <Property key="NonStandardInchi" value="InChI=1S/H3N/h1H3/p+1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG0-6780, REG-14198, REG0-8381, REG0-12168, REG0-7616, REG-6320, REG-6227, REG0-7391, REG-13167, REG-13071, REG0-7382, REGQT-273" />
+      <Property key="Smiles" value="[NH4+]" />
+    </DataNode>
+    <DataNode elementId="PROTON" textLabel="H⁺" type="Metabolite">
+      <Xref identifier="GPRLSGONYQIRFK-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="680" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PROTON" />
+      <Property key="AlternativeId_Bigg" value="h" />
+      <Property key="AlternativeId_Seed" value="cpd00067" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1" />
+      <Property key="AlternativeId_Hmdb" value="HMDB59597" />
+      <Property key="AlternativeId_Chemspider" value="1010" />
+      <Property key="AlternativeId_Pubchem" value="1038" />
+      <Property key="AlternativeId_Chebi" value="15378" />
+      <Property key="AlternativeId_Cas" value="12408-02-5" />
+      <Property key="AlternativeId_LigandCpd" value="C00080" />
+      <Property key="Synonym_1" value="H" />
+      <Property key="Synonym_2" value="hydrogen ion" />
+      <Property key="Synonym_3" value="proton" />
+      <Property key="ChemicalFormula" value="(H 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="0.42906138" />
+      <Property key="Inchi" value="InChI=1S/p+1" />
+      <Property key="InchiKey" value="InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1.008" />
+      <Property key="MonoisotopicMw" value="1.0078250321" />
+      <Property key="NonStandardInchi" value="InChI=1S/p+1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="[H+]" />
+    </DataNode>
+    <DataNode elementId="AGMATHINE" textLabel="agmatine" type="Metabolite">
+      <Xref identifier="QYPPJABKJHAVHS-UHFFFAOYSA-P" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="680" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AGMATHINE" />
+      <Property key="AlternativeId_Pubchem" value="5257176" />
+      <Property key="AlternativeId_Zinc" value="ZINC000001532560" />
+      <Property key="AlternativeId_ReactomeCpd" value="351164" />
+      <Property key="AlternativeId_Seed" value="cpd00152" />
+      <Property key="AlternativeId_Metanetx" value="MNXM328" />
+      <Property key="AlternativeId_Refmet" value="Agmatine" />
+      <Property key="AlternativeId_Bigg" value="agm" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC58145" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01432" />
+      <Property key="AlternativeId_Chemspider" value="4422891" />
+      <Property key="AlternativeId_Chebi" value="58145" />
+      <Property key="AlternativeId_LigandCpd" value="C00179" />
+      <Property key="AlternativeId_Cas" value="306-60-5" />
+      <Property key="Synonym_1" value="(4-aminobutyl)guanidine" />
+      <Property key="Synonym_2" value="N-(4-aminobutyl)guanidine" />
+      <Property key="ChemicalFormula" value="(C 5) (H 16) (N 4)" />
+      <Property key="AtomCharges" value="(6 1), (8 1)" />
+      <Property key="Gibbs0" value="168.8597" />
+      <Property key="Inchi" value="InChI=1S/C5H14N4/c6-3-1-2-4-9-5(7)8/h1-4,6H2,(H4,7,8,9)/p+2" />
+      <Property key="InchiKey" value="InChIKey=QYPPJABKJHAVHS-UHFFFAOYSA-P" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="132.208" />
+      <Property key="MonoisotopicMw" value="130.1218464702" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-6931" />
+      <Property key="Smiles" value="C(CCC[NH3+])NC(N)=[NH2+]" />
+      <Property key="SystematicName" value="1-(4-aminobutyl)guanidine" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="AT4G34710" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="295" elementRef="AT4G34710-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_1_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_1_0_0" x="265.0" y="50" elementRef="AT2G16500" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_1_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="215" elementRef="AT2G16500-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN">
+      <Xref identifier="EC-3.5.1.53" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_start" x="245.0" y="580" elementRef="CPD-597" relX="1.0" relY="0.0" />
+        <Point elementId="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_end" arrowHead="Conversion" x="155.0" y="480" elementRef="PUTRESCINE" relX="-1.0" relY="0.0" />
+        <Anchor elementId="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN" />
+      <Property key="EC_Number" value="EC-3.5.1.53" />
+      <Property key="Pathways" value="PWYQT-94, PWY-43" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="PROTON + CPD-597 + WATER =&gt; PUTRESCINE + CARBON-DIOXIDE + AMMONIUM" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXN-1921" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 6 4 9 5 8 7) (((PUTRESCINE 0 5) (CARBON-DIOXIDE 6 8) (AMMONIUM 9 9)) ((CPD-597 0 8) (WATER 9 9))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="2.1128807" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^coefficient" value="2" />
+    </Interaction>
+    <Interaction elementId="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_anchor_reactant_0">
+      <Xref identifier="EC-3.5.1.53" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_anchor_reactant_start_0" x="245.0" y="680" elementRef="PROTON" relX="1.0" relY="0.0" />
+        <Point elementId="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_anchor_reactant_end_0" x="0" y="0" elementRef="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_anchor_reactant_2">
+      <Xref identifier="EC-3.5.1.53" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_anchor_reactant_start_2" x="395.0" y="480" elementRef="WATER" relX="1.0" relY="0.0" />
+        <Point elementId="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_anchor_reactant_end_2" x="0" y="0" elementRef="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_anchor_product_1">
+      <Xref identifier="EC-3.5.1.53" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_anchor_product_start_1" x="0" y="0" elementRef="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_anchor_product_end_1" arrowHead="Conversion" x="455.0" y="480" elementRef="CARBON-DIOXIDE" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_anchor_product_2">
+      <Xref identifier="EC-3.5.1.53" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_anchor_product_start_2" x="0" y="0" elementRef="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="N-CARBAMOYLPUTRESCINE-AMIDASE-RXN_anchor_product_end_2" arrowHead="Conversion" x="455.0" y="580" elementRef="AMMONIUM" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="AGMATINE-DEIMINASE-RXN">
+      <Xref identifier="EC-3.5.3.12" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="AGMATINE-DEIMINASE-RXN_start" x="395.0" y="680" elementRef="AGMATHINE" relX="1.0" relY="0.0" />
+        <Point elementId="AGMATINE-DEIMINASE-RXN_end" arrowHead="Conversion" x="155.0" y="580" elementRef="CPD-597" relX="-1.0" relY="0.0" />
+        <Anchor elementId="AGMATINE-DEIMINASE-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="AGMATINE-DEIMINASE-RXN" />
+      <Property key="EC_Number" value="EC-3.5.3.12" />
+      <Property key="Pathways" value="PWYQT-94, PWY-43" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="WATER + AGMATHINE =&gt; AMMONIUM + CPD-597" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXN-2782" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 9 7 8) (((&quot;CPD-597&quot; 0 8) (&quot;AMMONIUM&quot; 9 9)) ((&quot;AGMATHINE&quot; 0 8) (&quot;WATER&quot; 9 9))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-11.648888" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="AGMATINE-DEIMINASE-RXN_ENZRXN-2782">
+      <Waypoints>
+        <Point elementId="AGMATINE-DEIMINASE-RXN_ENZRXN-2782_start" x="300.0" y="227.5" elementRef="AT5G08170-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="AGMATINE-DEIMINASE-RXN_ENZRXN-2782_end" arrowHead="Catalysis" x="0" y="0" elementRef="AGMATINE-DEIMINASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="AGMATINE-DEIMINASE-RXN_anchor_reactant_0">
+      <Xref identifier="EC-3.5.3.12" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="AGMATINE-DEIMINASE-RXN_anchor_reactant_start_0" x="395.0" y="480" elementRef="WATER" relX="1.0" relY="0.0" />
+        <Point elementId="AGMATINE-DEIMINASE-RXN_anchor_reactant_end_0" x="0" y="0" elementRef="AGMATINE-DEIMINASE-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="AGMATINE-DEIMINASE-RXN_anchor_product_0">
+      <Xref identifier="EC-3.5.3.12" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="AGMATINE-DEIMINASE-RXN_anchor_product_start_0" x="0" y="0" elementRef="AGMATINE-DEIMINASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="AGMATINE-DEIMINASE-RXN_anchor_product_end_0" arrowHead="Conversion" x="455.0" y="580" elementRef="AMMONIUM" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="ARGDECARBOX-RXN">
+      <Xref identifier="17641" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="ARGDECARBOX-RXN_start" x="395.0" y="580" elementRef="ARG" relX="1.0" relY="0.0" />
+        <Point elementId="ARGDECARBOX-RXN_end" arrowHead="Conversion" x="305.0" y="680" elementRef="AGMATHINE" relX="-1.0" relY="0.0" />
+        <Anchor elementId="ARGDECARBOX-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="AlternativeId_Rhea" value="17641" />
+      <Property key="AlternativeId_Uniprot" value="O64453" />
+      <Property key="AlternativeId_Pir" value="T15046" />
+      <Property key="UniqueID" value="ARGDECARBOX-RXN" />
+      <Property key="EC_Number" value="EC-4.1.1.19" />
+      <Property key="Pathways" value="PWY-40, PWY-43" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="PROTON + ARG =&gt; CARBON-DIOXIDE + AGMATHINE" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNQT-7055, ENZRXNQT-7240" />
+      <Property key="EnzymaticReactionCount" value="2" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (1 0 3 2 9 4 5 6 7 8 10 11) (((&quot;AGMATHINE&quot; 0 8) (&quot;CARBON-DIOXIDE&quot; 9 11)) ((&quot;ARG&quot; 0 11))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-3.7141113" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="ARGDECARBOX-RXN_ENZRXNQT-7240">
+      <Waypoints>
+        <Point elementId="ARGDECARBOX-RXN_ENZRXNQT-7240_start" x="150" y="307.5" elementRef="AT4G34710-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="ARGDECARBOX-RXN_ENZRXNQT-7240_end" arrowHead="Catalysis" x="0" y="0" elementRef="ARGDECARBOX-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="ARGDECARBOX-RXN_ENZRXNQT-7055">
+      <Waypoints>
+        <Point elementId="ARGDECARBOX-RXN_ENZRXNQT-7055_start" x="150" y="227.5" elementRef="AT2G16500-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="ARGDECARBOX-RXN_ENZRXNQT-7055_end" arrowHead="Catalysis" x="0" y="0" elementRef="ARGDECARBOX-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="ARGDECARBOX-RXN_anchor_reactant_0">
+      <Xref identifier="17641" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="ARGDECARBOX-RXN_anchor_reactant_start_0" x="245.0" y="680" elementRef="PROTON" relX="1.0" relY="0.0" />
+        <Point elementId="ARGDECARBOX-RXN_anchor_reactant_end_0" x="0" y="0" elementRef="ARGDECARBOX-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="ARGDECARBOX-RXN_anchor_product_0">
+      <Xref identifier="17641" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="ARGDECARBOX-RXN_anchor_product_start_0" x="0" y="0" elementRef="ARGDECARBOX-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="ARGDECARBOX-RXN_anchor_product_end_0" arrowHead="Conversion" x="455.0" y="480" elementRef="CARBON-DIOXIDE" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Groups>
+    <Group elementId="CPLX-2242" textLabel="CPLX-2242" type="Complex">
+      <Xref identifier="CPLX-2242" dataSource="plantcyc" />
+      <Graphics centerX="300" centerY="215" width="140" height="100" textColor="666666" fontName="Arial" fontSize="10" borderColor="9900CC" borderStyle="Dashed" borderWidth="2.0" fillColor="F5E6FF" shapeType="Rectangle" zOrder="-1" />
+      <Comment>The Arabidopsis gene encoding agmatine iminohydrolase was expressed in &lt;i&gt;E. coli&lt;/i&gt;. The protein was expressed as a C-terminal His&lt;sub&gt;6&lt;/sub&gt; tag fusion protein and purified by Ni&lt;sup&gt;2+&lt;/sup&gt;-chelate affinity chromatography to apparent homogeneity |CITS:[12782327]|. The purified recombinant protein was shown to convert agmatine to &lt;i&gt;N&lt;/i&gt;-carbamoylputrescine and ammonia.</Comment>
+      <Property key="UniqueID" value="CPLX-2242" />
+      <Property key="Synonym_1" value="agmatine deiminase" />
+      <Property key="ComplexComponents" value="AT5G08170-MONOMER" />
+      <Property key="ComponentCount" value="1" />
+      <Property key="IsComplex" value="true" />
+      <Property key="Catalyzes" value="RXN-2782" />
+      <Property key="^coefficient" value="2" />
+      <Property key="InstanceNameTemplate" value="CPLX-*" />
+      <Property key="MolecularWeightExp" value="81." />
+      <Property key="MolecularWeightKd" value="81." />
+      <Property key="Species" value="ARA" />
+      <CitationRef elementRef="citation_PUB_12782327" />
+    </Group>
+  </Groups>
+  <Citations>
+    <Citation elementId="citation_PUB_11537482">
+      <Xref identifier="11537482" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_12634339">
+      <Xref identifier="12634339" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_12782327">
+      <Xref identifier="12782327" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_0012435743">
+      <Xref identifier="12435743" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_3157043">
+      <Xref identifier="3157043" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_17097300">
+      <Xref identifier="17097300" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_PMNCVP2024">
+      <Xref identifier="PUB-PMNCVP2024 | This pathway was predicted to exist in this species using PathoLogic (version 23.0) and was accepted... (2024)" dataSource="BioCyc" />
+    </Citation>
+  </Citations>
+</Pathway>

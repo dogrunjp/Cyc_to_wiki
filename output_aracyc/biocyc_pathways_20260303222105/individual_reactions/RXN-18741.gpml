@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="RXN-18741" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Description>Single reaction view for RXN-18741: RXN-18741</Description>
+  <Authors>
+    <Author name="BioCyc" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from BioCyc single reaction data.</Comment>
+  <Property key="UniqueID" value="RXN-18741" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="AT4G36800" textLabel="AT4G36800" type="GeneProduct">
+      <Xref identifier="AT4G36800" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G36800" />
+      <Property key="Products" value="AT4G36800.2, AT4G36800.1" />
+      <Property key="ProductCount" value="2" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT4G36800" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT2G18600" textLabel="AT2G18600" type="GeneProduct">
+      <Xref identifier="AT2G18600" dataSource="TAIR gene name" />
+      <Graphics centerX="220" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT2G18600" />
+      <Property key="Products" value="AT2G18600.2, AT2G18600.1" />
+      <Property key="ProductCount" value="2" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT2G18600" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT4G36800.2" textLabel="AT4G36800.2" type="Protein">
+      <Xref identifier="AT4G36800.2" dataSource="plantcyc" />
+      <Graphics centerX="150" centerY="215" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G36800.2" />
+      <Property key="Catalyzes" value="RXN-28471" />
+      <Property key="Accession1" value="AT4G36800.2" />
+      <Property key="Gene" value="AT4G36800" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT2G18600.2" textLabel="AT2G18600.2" type="Protein">
+      <Xref identifier="AT2G18600.2" dataSource="plantcyc" />
+      <Graphics centerX="300" centerY="215" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT2G18600.2" />
+      <Property key="Catalyzes" value="RXN-31207" />
+      <Property key="Accession1" value="AT2G18600.2" />
+      <Property key="Gene" value="AT2G18600" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="S-NEDD8-yl-NEDD8-E2-L-cysteine" textLabel="an [E2 NEDD8-conjugating enzyme]-S-[NEDD8-protein]-yl-L-cysteine" type="Metabolite">
+      <Graphics centerX="200" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xu, SRI, caspi">The |FRAME: NEDD8-carrier-proteins-E2 &quot;E2 NEDD8-conjugating enzymes&quot;| perform the second step in the neddylation process. The activity of the enzyme starts with the transfer of |FRAME: NEDD8| from an |FRAME: NEDD8-activating-proteins-E1 &quot;[E1 NEDD8-activating enzyme]&quot;|-|FRAME: NEDD8 NEDD8| complex to a catalytic L-cysteine residue at the active site by transesterification. In the presence of the appropriate E3 ligases, the NEDD8 protein is then transferred to a lysine residue of specific substrates.</Comment>
+      <Property key="UniqueID" value="S-NEDD8-yl-NEDD8-E2-L-cysteine" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NName" value="protein cysteines" />
+      <Property key="NonStandardInchi" value="InChI=1S/C5H10N2O2S/c6-1-5(9)10-3-4(7)2-8/h2,4H,1,3,6-7H2/t4-/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C(N[a NEDD8 protein])C(=O)SC[C@@H](C(=O)[an [E2 NEDD8-conjugating enzyme]])N[an [E2 NEDD8-conjugating enzyme]]" />
+    </DataNode>
+    <DataNode elementId="NEDD8-conjugating-proteins-E2-L-cys" textLabel="an [E2 NEDD8-conjugating enzyme]-L-cysteine" type="Metabolite">
+      <Graphics centerX="350" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="PMN, zhang, SRI, caspi">The |FRAME: NEDD8-carrier-proteins-E2 &quot;E2 NEDD8-conjugating enzymes&quot;| perform the second step in the neddylation process. The activity of the enzyme starts with the transfer of |FRAME: NEDD8| from an |FRAME: NEDD8-activating-proteins-E1 &quot;[E1 NEDD8-activating enzyme]&quot;|-|FRAME: NEDD8 NEDD8| complex to a catalytic L-cysteine residue at the active site by transesterification. In the presence of the appropriate E3 ligases, the NEDD8 protein is then transferred to a lysine residue of specific substrates.</Comment>
+      <Property key="UniqueID" value="NEDD8-conjugating-proteins-E2-L-cys" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NName" value="protein cysteines" />
+      <Property key="NonStandardInchi" value="InChI=1S/C3H7NOS/c4-3(1-5)2-6/h1,3,6H,2,4H2/t3-/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C(=O)([an [E2 NEDD8-conjugating enzyme]])[C@@H](N[an [E2 NEDD8-conjugating enzyme]])CS" />
+    </DataNode>
+    <DataNode elementId="NEDD8-Activating-Enzyme-E1-L-cys" textLabel="an [E1 NEDD8-activating enzyme]-L-cysteine" type="Metabolite">
+      <Graphics centerX="500" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="PMN, zhang, SRI, caspi">NEDD8-activating enzymes, also known as E1 enzymes, catalyze the first step in the neddylation process. The E1 enzyme, which is a herodimeric complex, binds ATP-Mg&lt;sup&gt;2+&lt;/sup&gt; and |FRAME: NEDD8| and catalyzes C-terminal acyl adenylation of NEDD8. A catalytic L-cysteine residue of the E1 enzyme then attacks the NEDD8-AMP complex through acyl substitution, creating a thioester bond and an AMP leaving group. This active form of NEDD8, bound to the E1 enzyme, is transferred to |FRAME: NEDD8-carrier-proteins-E2| through a transthioesterification reaction, in which an E2 catalytic L-cysteine attacks the backside of the E1-NEDD8 complex.</Comment>
+      <Property key="UniqueID" value="NEDD8-Activating-Enzyme-E1-L-cys" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NName" value="protein cysteines" />
+      <Property key="NonStandardInchi" value="InChI=1S/C3H7NOS/c4-3(1-5)2-6/h1,3,6H,2,4H2/t3-/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C(=O)([an [E1 NEDD8-activating enzyme]])[C@@H](N[an [E1 NEDD8-activating enzyme]])CS" />
+    </DataNode>
+    <DataNode elementId="S-NEDD8-yl-NEDD8-E1-L-cysteine" textLabel="an [E1 NEDD8-activating enzyme]-S-[NEDD8 protein]-yl-L-cysteine" type="Metabolite">
+      <Graphics centerX="200" centerY="500" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xu, SRI, caspi">NEDD8-activating enzymes, also known as E1 enzymes, catalyze the first step in the neddylation process. The E1 enzyme, which is a herodimeric complex, binds ATP-Mg&lt;sup&gt;2+&lt;/sup&gt; and |FRAME: NEDD8| and catalyzes C-terminal acyl adenylation of NEDD8. A catalytic L-cysteine residue of the E1 enzyme then attacks the NEDD8-AMP complex through acyl substitution, creating a thioester bond and an AMP leaving group. This active form of NEDD8, bound to the E1 enzyme, is transferred to |FRAME: NEDD8-carrier-proteins-E2| through a transthioesterification reaction, in which an E2 catalytic L-cysteine attacks the backside of the E1-NEDD8 complex.</Comment>
+      <Property key="UniqueID" value="S-NEDD8-yl-NEDD8-E1-L-cysteine" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NName" value="protein cysteines" />
+      <Property key="NonStandardInchi" value="InChI=1S/C5H10N2O2S/c6-1-5(9)10-3-4(7)2-8/h2,4H,1,3,6-7H2/t4-/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C(N[a NEDD8 protein])C(=O)SC[C@@H](C(=O)[an [E1 NEDD8-activating enzyme]])N[an [E1 NEDD8-activating enzyme]]" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="AT4G36800" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="215" elementRef="AT4G36800.2" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_1_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_1_0_0" x="265.0" y="50" elementRef="AT2G18600" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_1_0_0" arrowHead="TranscriptionTranslation" x="255.0" y="215" elementRef="AT2G18600.2" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-18741">
+      <Xref identifier="EC-2.3.2.34" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-18741_start" x="245.0" y="500" elementRef="S-NEDD8-yl-NEDD8-E1-L-cysteine" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-18741_end" arrowHead="Conversion" x="455.0" y="400" elementRef="NEDD8-Activating-Enzyme-E1-L-cys" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-18741_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-18741" />
+      <Property key="EC_Number" value="EC-2.3.2.34" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="ReactionEquation" value="S-NEDD8-yl-NEDD8-E1-L-cysteine + NEDD8-conjugating-proteins-E2-L-cys =&gt; NEDD8-Activating-Enzyme-E1-L-cys + S-NEDD8-yl-NEDD8-E2-L-cysteine" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNQT-31207, ENZRXNQT-28471" />
+      <Property key="EnzymaticReactionCount" value="2" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (9 10 11 14 15 17 19 20 8 0 1 2 12 13 3 4 16 5 18 6 7) (((&quot;NEDD8-conjugating-proteins-E2-L-cys&quot; 0 7) (&quot;S-NEDD8-yl-NEDD8-E1-L-cysteine&quot; 8 20)) ((&quot;NEDD8-Activating-Enzyme-E1-L-cys&quot; 0 7) (&quot;S-NEDD8-yl-NEDD8-E2-L-cysteine&quot; 8 20))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="0." />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-18741_ENZRXNQT-31207">
+      <Waypoints>
+        <Point elementId="RXN-18741_ENZRXNQT-31207_start" x="300" y="227.5" elementRef="AT2G18600.2" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-18741_ENZRXNQT-31207_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-18741_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-18741_ENZRXNQT-28471">
+      <Waypoints>
+        <Point elementId="RXN-18741_ENZRXNQT-28471_start" x="150" y="227.5" elementRef="AT4G36800.2" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-18741_ENZRXNQT-28471_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-18741_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-18741_anchor_reactant_1">
+      <Xref identifier="EC-2.3.2.34" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-18741_anchor_reactant_start_1" x="395.0" y="400" elementRef="NEDD8-conjugating-proteins-E2-L-cys" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-18741_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-18741_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-18741_anchor_product_1">
+      <Xref identifier="EC-2.3.2.34" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-18741_anchor_product_start_1" x="0" y="0" elementRef="RXN-18741_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-18741_anchor_product_end_1" arrowHead="Conversion" x="155.0" y="400" elementRef="S-NEDD8-yl-NEDD8-E2-L-cysteine" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+</Pathway>

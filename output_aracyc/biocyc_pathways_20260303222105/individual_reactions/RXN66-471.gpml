@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="2-hydroxy-3-methyl-branched fatty acyl-CoA lyase" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Description>Single reaction view for RXN66-471: 2-hydroxy-3-methyl-branched fatty acyl-CoA lyase</Description>
+  <Authors>
+    <Author name="BioCyc" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from BioCyc single reaction data.</Comment>
+  <Property key="UniqueID" value="RXN66-471" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="AT5G17380" textLabel="AT5G17380" type="GeneProduct">
+      <Xref identifier="AT5G17380" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G17380" />
+      <Property key="Product" value="AT5G17380-MONOMER" />
+      <Property key="StartPosition" value="5724761" />
+      <Property key="EndPosition" value="5726748" />
+      <Property key="ComponentOf" value="CHROMOSOME-5-1" />
+      <Property key="CentisomePosition" value="21.208563" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-5-1" />
+      <Property key="Accession1" value="AT5G17380" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT5G17380-MONOMER" textLabel="2-hydroxyacyl-CoA lyase" type="Protein">
+      <Xref identifier="Q9LF46" dataSource="uniprot" />
+      <Graphics centerX="150" centerY="215" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G17380-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT5G17380.1" />
+      <Property key="AlternativeId_Uniprot" value="Q9LF46" />
+      <Property key="Synonym_1" value="2-hydroxyphytanoyl-CoA lyase" />
+      <Property key="Synonym_2" value="2-HPCL" />
+      <Property key="Synonym_3" value="Oxalyl-CoA decarboxylase" />
+      <Property key="Catalyzes" value="RXN-26868, RXN-26867" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="AT5G17380.1" />
+      <Property key="FunctionalAssignmentStatus" value=":AMBIGUOUS" />
+      <Property key="Gene" value="AT5G17380" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <CitationRef elementRef="citation_PUB_CHI09A" />
+    </DataNode>
+    <DataNode elementId="_2-OH-3-Methyl-Saturated-Fatty-Acyl-CoA" textLabel="a 2-hydroxy-3-methyl-branched 2,3,4-saturated fatty acyl-CoA" type="Metabolite">
+      <Xref identifier="MNXM97423" dataSource="MetaNetX" />
+      <Graphics centerX="200" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="PMN, zhang, SRI, fulcher">This acyl-CoA contains a hydroxyl group at C-2 and a methyl group at C-3.</Comment>
+      <Property key="UniqueID" value="2-OH-3-Methyl-Saturated-Fatty-Acyl-CoA" />
+      <Property key="AlternativeId_Metanetx" value="MNXM97423" />
+      <Property key="AtomCharges" value="(45 -1), (43 -1), (42 -1), (40 -1)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="N+1Name" value="a long-chain acyl&lt;sub&gt;n+2&lt;/sub&gt;-CoA" />
+      <Property key="N1Name" value="a long-chain acyl&lt;sub&gt;n-2&lt;/sub&gt;-CoA" />
+      <Property key="NName" value="a long-chain acyl&lt;sub&gt;n&lt;/sub&gt;-CoA" />
+      <Property key="NonStandardInchi" value="InChI=1S/C26H44N7O18P3S/c1-13(2)17(35)25(39)55-8-7-28-15(34)5-6-29-23(38)20(37)26(3,4)10-48-54(45,46)51-53(43,44)47-9-14-19(50-52(40,41)42)18(36)24(49-14)33-12-32-16-21(27)30-11-31-22(16)33/h11-14,17-20,24,35-37H,5-10H2,1-4H3,(H,28,34)(H,29,38)(H,43,44)(H,45,46)(H2,27,30,31)(H2,40,41,42)/p-4/t14-,17?,18-,19-,20+,24-/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="CC(C[R])C(O)C(SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)COP(=O)(OP(=O)(OC[C@H]1(O[C@H]([C@@H]([C@@H]1OP([O-])(=O)[O-])O)N2(C3(\N=C/N=C(C(\N=C/2)=3)/N))))[O-])[O-])=O" />
+      <Property key="Superatoms" value="COA-GROUP" />
+    </DataNode>
+    <DataNode elementId="FORMYL-COA" textLabel="formyl-CoA" type="Metabolite">
+      <Xref identifier="SXMOKYXNAPLNCW-GORZOVPNSA-J" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="FORMYL-COA" />
+      <Property key="AlternativeId_ReactomeCpd" value="389578" />
+      <Property key="AlternativeId_Seed" value="cpd00592" />
+      <Property key="AlternativeId_Metanetx" value="MNXM563" />
+      <Property key="AlternativeId_Pubchem" value="45266602" />
+      <Property key="AlternativeId_Chebi" value="57376" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57376" />
+      <Property key="AlternativeId_Hmdb" value="HMDB03419" />
+      <Property key="AlternativeId_LigandCpd" value="C00798" />
+      <Property key="ChemicalFormula" value="(C 22) (H 32) (N 7) (O 17) (P 3) (S 1)" />
+      <Property key="AtomCharges" value="(37 -1), (35 -1), (40 -1), (38 -1)" />
+      <Property key="Gibbs0" value="-525.75616" />
+      <Property key="Inchi" value="InChI=1S/C22H36N7O17P3S/c1-22(2,17(33)20(34)25-4-3-13(31)24-5-6-50-11-30)8-43-49(40,41)46-48(38,39)42-7-12-16(45-47(35,36)37)15(32)21(44-12)29-10-28-14-18(23)26-9-27-19(14)29/h9-12,15-17,21,32-33H,3-8H2,1-2H3,(H,24,31)(H,25,34)(H,38,39)(H,40,41)(H2,23,26,27)(H2,35,36,37)/p-4/t12-,15-,16-,17+,21-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=SXMOKYXNAPLNCW-GORZOVPNSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="791.513" />
+      <Property key="MonoisotopicMw" value="795.1101229877" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="CC(C)([C@@H](O)C(=O)NCCC(=O)NCCSC=O)COP(=O)(OP(=O)(OC[C@@H]1([C@@H](OP([O-])(=O)[O-])[C@@H](O)[C@@H](O1)N2(C3(\N=C/N=C(C(\N=C/2)=3)/N))))[O-])[O-]" />
+      <Property key="Superatoms" value="COA-GROUP" />
+    </DataNode>
+    <DataNode elementId="_2-Me-Branched-234-Sat-FALD" textLabel="a 2-methyl branched 2,3,4-saturated fatty aldehyde" type="Metabolite">
+      <Xref identifier="MNXM114476" dataSource="MetaNetX" />
+      <Graphics centerX="500" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="2-Me-Branched-234-Sat-FALD" />
+      <Property key="AlternativeId_Metanetx" value="MNXM114476" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/C5H10O/c1-3-5(2)4-6/h4-5H,3H2,1-2H3" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C([R])CC(C)C=O" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="AT5G17380" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="215" elementRef="AT5G17380-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN66-471">
+      <Xref identifier="EC-4.1.2.63" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN66-471_start" x="245.0" y="400" elementRef="_2-OH-3-Methyl-Saturated-Fatty-Acyl-CoA" relX="1.0" relY="0.0" />
+        <Point elementId="RXN66-471_end" arrowHead="Conversion" x="455.0" y="400" elementRef="_2-Me-Branched-234-Sat-FALD" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN66-471_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN66-471" />
+      <Property key="ReactionName" value="2-hydroxy-3-methyl-branched fatty acyl-CoA lyase" />
+      <Property key="EC_Number" value="EC-4.1.2.63" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="ReactionEquation" value="2-OH-3-Methyl-Saturated-Fatty-Acyl-CoA =&gt; 2-Me-Branched-234-Sat-FALD + FORMYL-COA" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":UNBALANCED-UNFIXABLE" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXNQT-26868" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="CannotBalance?" value="T" />
+      <Property key="^official?" value="T" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN66-471_ENZRXNQT-26868">
+      <Waypoints>
+        <Point elementId="RXN66-471_ENZRXNQT-26868_start" x="150" y="227.5" elementRef="AT5G17380-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="RXN66-471_ENZRXNQT-26868_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN66-471_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN66-471_anchor_product_1">
+      <Xref identifier="EC-4.1.2.63" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN66-471_anchor_product_start_1" x="0" y="0" elementRef="RXN66-471_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN66-471_anchor_product_end_1" arrowHead="Conversion" x="305.0" y="400" elementRef="FORMYL-COA" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_CHI09A">
+      <Xref identifier="PUB-CHI09A | The functional annotation of Arabidopsis protein sequences was performed by BLAST queries against a ... (Chi A, Rhee S, 2009)" dataSource="BioCyc" />
+    </Citation>
+  </Citations>
+</Pathway>

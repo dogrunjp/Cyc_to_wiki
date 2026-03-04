@@ -93,6 +93,7 @@ def main():
     Returns:
         tuple: (builder, built_pathways, failed_pathways)
     """
+
     # Create output directories
     base_output_dir, individual_pathways_dir = create_output_directories()
 

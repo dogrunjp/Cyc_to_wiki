@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="RXN-8902" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Description>Single reaction view for RXN-8902: RXN-8902</Description>
+  <Authors>
+    <Author name="BioCyc" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from BioCyc single reaction data.</Comment>
+  <Property key="UniqueID" value="RXN-8902" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="CPD-9296" textLabel="3-vinyl-[4H]-1,2-dithin" type="Metabolite">
+      <Xref identifier="NLHCAGKOLUBCBZ-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-9296" />
+      <Property key="AlternativeId_Zinc" value="ZINC000005157974" />
+      <Property key="AlternativeId_Seed" value="cpd25635" />
+      <Property key="AlternativeId_Metanetx" value="MNXM14643" />
+      <Property key="AlternativeId_Chemspider" value="132781" />
+      <Property key="AlternativeId_Pubchem" value="150636" />
+      <Property key="ChemicalFormula" value="(C 6) (H 8) (S 2)" />
+      <Property key="Gibbs0" value="128.21896" />
+      <Property key="Inchi" value="InChI=1S/C6H8S2/c1-2-6-4-3-5-7-8-6/h2-3,5-6H,1,4H2" />
+      <Property key="InchiKey" value="InChIKey=NLHCAGKOLUBCBZ-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="Logp" value="2.1" />
+      <Property key="MolecularWeight" value="144.249" />
+      <Property key="MonoisotopicMw" value="144.0067416368" />
+      <Property key="NonStandardInchi" value="InChI=1S/C6H8S2/c1-2-6-4-3-5-7-8-6/h2-3,5-6H,1,4H2" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="PolarSurfaceArea" value="50.6" />
+      <Property key="Smiles" value="C=CC1(C\C=C/SS1)" />
+    </DataNode>
+    <DataNode elementId="CPD-9293" textLabel="thioacrolein" type="Metabolite">
+      <Xref identifier="GPRPXLGCWOJFQZ-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-9293" />
+      <Property key="AlternativeId_Zinc" value="ZINC000062592082" />
+      <Property key="AlternativeId_Seed" value="cpd25632" />
+      <Property key="AlternativeId_Metanetx" value="MNXM13030" />
+      <Property key="AlternativeId_Chemspider" value="126194" />
+      <Property key="AlternativeId_Chebi" value="59787" />
+      <Property key="AlternativeId_Pubchem" value="143049" />
+      <Property key="Synonym_1" value="prop-2-enethial" />
+      <Property key="ChemicalFormula" value="(C 3) (H 4) (S 1)" />
+      <Property key="Gibbs0" value="73.55449" />
+      <Property key="Inchi" value="InChI=1S/C3H4S/c1-2-3-4/h2-3H,1H2" />
+      <Property key="InchiKey" value="InChIKey=GPRPXLGCWOJFQZ-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="Logp" value="0.9" />
+      <Property key="MolecularWeight" value="72.125" />
+      <Property key="MonoisotopicMw" value="72.0033708184" />
+      <Property key="NonStandardInchi" value="InChI=1S/C3H4S/c1-2-3-4/h2-3H,1H2" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="PolarSurfaceArea" value="32.1" />
+      <Property key="Smiles" value="C=CC=S" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="RXN-8902">
+      <Xref identifier="RXN-8902" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-8902_start" x="395.0" y="210" elementRef="CPD-9293" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-8902_end" arrowHead="Conversion" x="155.0" y="210" elementRef="CPD-9296" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-8902_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-8902" />
+      <Property key="Spontaneous" value="T" />
+      <Property key="Orphan" value=":YES-PUTATIVE" />
+      <Property key="ReactionEquation" value="CPD-9293 =&gt; CPD-9296" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (4 5 1 0 2 6 3 7) ((((CPD-9293 1) 0 3) ((CPD-9293 2) 4 7)) ((CPD-9296 0 7))))" />
+      <Property key="Gibbs0" value="-18.890015" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^coefficient" value="2" />
+    </Interaction>
+  </Interactions>
+</Pathway>

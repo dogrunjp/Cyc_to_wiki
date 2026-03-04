@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="lanosterol biosynthesis" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Xref identifier="PWY-6132" dataSource="MetaCyc" />
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Arabidopsis thaliana col&lt;/i&gt;: Enzyme(s) that catalyzes one or more of the key reactions in this pathway were predicted in Arabidopsis thaliana col. &lt;A href=&quot;http://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; Oxidosqualene cyclases (OSCs) are among the most conserved sterol bosynthetic enzymes at the sequence level, and homologues have been detected in all species capable of sterol synthesis. There are two main types of sterols-producing OSCs based on the end product of the cyclization: |FRAME: EC-5.4.99.7|, which is found in animals, fungi, choanozoa, trypanosomatids, dinoflagellates, and some bacteria such as |FRAME: TAX-414|; and |FRAME: EC-5.4.99.8|, which is found in higher plants, red and green algae, amoebozoa, diatoms, euglenids, heterolobosea and some bacteria such as |FRAME: TAX-41| (see |FRAME: PWY-8028|) |CITS: [12519197][24596261]|. A rare third type is |FRAME: EC-5.4.99.47| |CITS: [21526825]|. The reaction catalyzed by OSCs is one of the most complicated biochemical reactions catalyzed by a single protein |CITS: [16754609]|. The key steps in the cyclization include: 1. Positioning of squalene 2,3-epoxide in a prefolded configuration within the active site. 2. Protonation of the epoxide group by a catalytic acid. 3. Ring formation, during which cation intermediates are stabilized by cation&amp;ndash;&amp;pi; interactions with aromatic residues of the active site, followed by migration of the cation out to C20. 4. Skeletal rearrangement via hydride- and methyl-shifts (largely spontaneous) as the proton migrates back to a region of high &amp;pi;-electron density around the B/C rings. 5. Deprotonation by basic residues to quench the final protosteryl cation; the position of the deprotonation determines the OSC product (lanosterol versus cycloartenol). |FRAME: LANOSTEROL Lanosterol| is produced in vertebrates and fungi as an intermediate in the synthesis of |FRAME: CHOLESTEROL| and |FRAME: ERGOSTEROL|, respectively. In addition, lanosterol has been found in several prokaryotes, including the |FRAME: TAX-29| species |FRAME: TAX-41| |CITS: [12519197]| and |FRAME: TAX-54| |CITS: [Kohl83]|, some aerobic methylotrophs such as |FRAME: TAX-243233|, the Planctomycete |FRAME: TAX-114| |CITS: [14660793]|, and |FRAME: TAX-51353| |CITS: [10802170]|. A prokaryotic enzyme has been cloned from |FRAME: TAX-414| and expressed in |FRAME: TAX-562|, confirming activity |CITS: [17928701]|. The enzymatic reaction proceeded in a regio- and stereospecific fashion identical to those from eukaryotic species, implying that the bacterial gene may have been acquired from ancient eukaryotes (along with the gene encoding |FRAME: MONOMER-14485|) through lateral gene transfer |CITS: [17928701]|.</Description>
+  <Authors>
+    <Author name="SRI" />
+    <Author name="caspi" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-6132" />
+  <Property key="Type" value="Sterol-Biosynthesis" />
+  <Property key="ReactionIDs" value="LANOSTEROL-SYNTHASE-RXN" />
+  <Property key="PathwayLinks" value="(EPOXYSQUALENE PWY-5670)" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_PMNRXN2024" />
+  <CitationRef elementRef="citation_PUB_BENVENISTE02" />
+  <CitationRef elementRef="citation_PUB_16445886" />
+  <CitationRef elementRef="citation_PUB_21526825" />
+  <CitationRef elementRef="citation_PUB_16754609" />
+  <CitationRef elementRef="citation_PUB_12519197" />
+  <CitationRef elementRef="citation_PUB_14660793" />
+  <CitationRef elementRef="citation_PUB_10802170" />
+  <CitationRef elementRef="citation_PUB_17928701" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="AT3G45130" textLabel="LAS1" type="GeneProduct">
+      <Xref identifier="AT3G45130" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G45130" />
+      <Property key="Product" value="AT3G45130-MONOMER" />
+      <Property key="StartPosition" value="16523256" />
+      <Property key="EndPosition" value="16528507" />
+      <Property key="ComponentOf" value="CHROMOSOME-3-3" />
+      <Property key="CentisomePosition" value="70.399185" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-3-3" />
+      <Property key="Accession1" value="AT3G45130" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT3G45130-MONOMER" textLabel="lanosterol synthase" type="Protein">
+      <Xref identifier="Q1G1A4" dataSource="uniprot" />
+      <Graphics centerX="150" centerY="215" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G45130-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT3G45130.2" />
+      <Property key="AlternativeId_Uniprot" value="Q1G1A4" />
+      <Property key="Synonym_1" value="AT3G45130.2" />
+      <Property key="Catalyzes" value="RXN-ARA-822" />
+      <Property key="Accession1" value="AT3G45130.2" />
+      <Property key="Gene" value="AT3G45130" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="EPOXYSQUALENE" textLabel="(3S)-2,3-epoxy-2,3-dihydrosqualene" type="Metabolite">
+      <Xref identifier="QYIMSPSDBYKPPY-RSKUXYSASA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="EPOXYSQUALENE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004095521" />
+      <Property key="AlternativeId_ReactomeCpd" value="191309" />
+      <Property key="AlternativeId_Seed" value="cpd00776" />
+      <Property key="AlternativeId_Metanetx" value="MNXM130" />
+      <Property key="AlternativeId_Pubchem" value="5459811" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15441" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01188" />
+      <Property key="AlternativeId_Chebi" value="15441" />
+      <Property key="AlternativeId_Chemspider" value="4444080" />
+      <Property key="AlternativeId_LigandCpd" value="C01054" />
+      <Property key="AlternativeId_Cas" value="9029-62-3" />
+      <Property key="Synonym_1" value="squalene 2,3-epoxide" />
+      <Property key="Synonym_2" value="squalene 2,3-oxide" />
+      <Property key="Synonym_3" value="(S)-squalene-2,3-epoxide" />
+      <Property key="Synonym_4" value="2,3-EDSQ" />
+      <Property key="Synonym_5" value="2,3-epoxisqualene" />
+      <Property key="Synonym_6" value="oxidosqualene" />
+      <Property key="Synonym_7" value="2,3-oxidosqualene" />
+      <Property key="Synonym_8" value="(3&lt;i&gt;S&lt;/i&gt;)-2,3-epoxysqualene" />
+      <Property key="ChemicalFormula" value="(C 30) (H 50) (O 1)" />
+      <Property key="Gibbs0" value="632.8661" />
+      <Property key="Inchi" value="InChI=1S/C30H50O/c1-24(2)14-11-17-27(5)20-12-18-25(3)15-9-10-16-26(4)19-13-21-28(6)22-23-29-30(7,8)31-29/h14-16,20-21,29H,9-13,17-19,22-23H2,1-8H3/b25-15+,26-16+,27-20+,28-21+/t29-/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=QYIMSPSDBYKPPY-RSKUXYSASA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="426.724" />
+      <Property key="MonoisotopicMw" value="426.3861662271" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="CC(C)=CCCC(\C)=C/CCC(\C)=C/CC/C=C(C)/CC/C=C(C)/CC[C@H]1(C(C)(C)O1)" />
+    </DataNode>
+    <DataNode elementId="LANOSTEROL" textLabel="lanosterol" type="Metabolite">
+      <Xref identifier="CAHGCLMLTWQZNJ-BQNIITSRSA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>Lanosterol is a tetracyclic triterpenoid. It is a precursor for all steroids produced by fungi and animals.</Comment>
+      <Property key="UniqueID" value="LANOSTEROL" />
+      <Property key="AlternativeId_Pubchem" value="246983" />
+      <Property key="AlternativeId_Wikipedia" value="Lanosterol" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01251" />
+      <Property key="AlternativeId_Drugbank" value="DB03696" />
+      <Property key="AlternativeId_LigandCpd" value="C01724" />
+      <Property key="AlternativeId_Knapsack" value="C00003657" />
+      <Property key="AlternativeId_ReactomeCpd" value="194634" />
+      <Property key="AlternativeId_Seed" value="cpd01188" />
+      <Property key="AlternativeId_Metanetx" value="MNXM482" />
+      <Property key="AlternativeId_Refmet" value="Lanosterol" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC16521" />
+      <Property key="AlternativeId_Chebi" value="16521" />
+      <Property key="AlternativeId_Cas" value="79-63-0" />
+      <Property key="Synonym_1" value="(3beta)-lanosta-8,24-dien-3-ol" />
+      <Property key="Synonym_2" value="(3beta,5alpha)-4,4,14-trimethylcholesta-8,24-dien-3-ol" />
+      <Property key="Synonym_3" value="4,4&apos;,14alpha-trimethyl-5alpha-cholesta-8,24-dien-3beta-ol" />
+      <Property key="Synonym_4" value="lanosterin" />
+      <Property key="ChemicalFormula" value="(C 30) (H 50) (O 1)" />
+      <Property key="Gibbs0" value="546.2961" />
+      <Property key="Inchi" value="InChI=1S/C30H50O/c1-20(2)10-9-11-21(3)22-14-18-30(8)24-12-13-25-27(4,5)26(31)16-17-28(25,6)23(24)15-19-29(22,30)7/h10,21-22,25-26,31H,9,11-19H2,1-8H3/t21-,22-,25+,26+,28-,29-,30+/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=CAHGCLMLTWQZNJ-BQNIITSRSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="426.724" />
+      <Property key="MonoisotopicMw" value="426.3861662271" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="CC(C)=CCC[C@H]([C@@H]1([C@]3(C)([C@@](C)(CC1)C4(\CC[C@@H]2(C(C)(C)[C@@H](O)CC[C@@]2(C(\CC3)=4)C)))))C" />
+      <Property key="SystematicName" value="lanosta-8,24-dien-3beta-ol" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="AT3G45130" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="215" elementRef="AT3G45130-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="LANOSTEROL-SYNTHASE-RXN">
+      <Xref identifier="EC-5.4.99.7" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="LANOSTEROL-SYNTHASE-RXN_start" x="245.0" y="400" elementRef="EPOXYSQUALENE" relX="1.0" relY="0.0" />
+        <Point elementId="LANOSTEROL-SYNTHASE-RXN_end" arrowHead="Conversion" x="305.0" y="400" elementRef="LANOSTEROL" relX="-1.0" relY="0.0" />
+        <Anchor elementId="LANOSTEROL-SYNTHASE-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="AlternativeId_Pir" value="JC4194" />
+      <Property key="UniqueID" value="LANOSTEROL-SYNTHASE-RXN" />
+      <Property key="EC_Number" value="EC-5.4.99.7" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-6132" />
+      <Property key="ReactionEquation" value="EPOXYSQUALENE =&gt; LANOSTEROL" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXNARA-822" />
+      <Property key="Synonym_1" value="2,3-epoxysqualene--lanosterol cyclase" />
+      <Property key="Synonym_2" value="Oxidosqualene--lanosterol cyclase" />
+      <Property key="Synonym_3" value="Squalene-2,3-oxide-lanosterol cyclase" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 6 7 2 5 4 3 18 14 8 28 12 9 13 22 10 29 11 21 24 16 15 19 17 23 20 27 25 26 30) (((&quot;LANOSTEROL&quot; 0 30)) ((&quot;EPOXYSQUALENE&quot; 0 30)))), (:NO-HYDROGEN-ENCODING (0 1 7 6 2 5 4 3 18 14 8 28 12 9 13 22 10 29 11 21 24 16 15 19 17 23 20 27 25 26 30) (((&quot;LANOSTEROL&quot; 0 30)) ((&quot;EPOXYSQUALENE&quot; 0 30))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-86.57000" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="Synonyms" value="2,3-epoxysqualene--lanosterol cyclase, Oxidosqualene--lanosterol cyclase, Squalene-2,3-oxide-lanosterol cyclase" />
+    </Interaction>
+    <Interaction elementId="LANOSTEROL-SYNTHASE-RXN_ENZRXNARA-822">
+      <Waypoints>
+        <Point elementId="LANOSTEROL-SYNTHASE-RXN_ENZRXNARA-822_start" x="150" y="227.5" elementRef="AT3G45130-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="LANOSTEROL-SYNTHASE-RXN_ENZRXNARA-822_end" arrowHead="Catalysis" x="0" y="0" elementRef="LANOSTEROL-SYNTHASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_BENVENISTE02">
+      <Xref identifier="PUB-BENVENISTE02 | Sterol Metabolism (Benveniste, P., 2002)" dataSource="BioCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_12519197">
+      <Xref identifier="12519197" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_PMNRXN2024">
+      <Xref identifier="PUB-PMNRXN2024 | This pathway, a member of the Conditionally Accepted PMN Pathways (CAPP version 6.0), was predicted ... (2024)" dataSource="BioCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_10802170">
+      <Xref identifier="10802170" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_21526825">
+      <Xref identifier="21526825" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_16754609">
+      <Xref identifier="16754609" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_14660793">
+      <Xref identifier="14660793" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_17928701">
+      <Xref identifier="17928701" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_16445886">
+      <Xref identifier="16445886" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

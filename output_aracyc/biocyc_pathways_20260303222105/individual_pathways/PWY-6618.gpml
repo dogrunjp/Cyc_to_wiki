@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="guanine and guanosine salvage III" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Xref identifier="PWY-6618" dataSource="MetaCyc" />
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Arabidopsis thaliana col&lt;/i&gt;: This pathway is on the list of Ubiquitous Plant Pathways (UPP) that was generated for the COMET project, which includes pathways that are thought to be present in all or most land plants. All UPP pathways are automatically imported into databases regardless of Pathologic predictions. &lt;A href=&quot;https://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; Guanosine nucleotides can be synthesized &lt;i&gt;de novo&lt;/i&gt;. In that route |FRAME: GMP| (GMP) is synthesized via |FRAME: IMP| (IMP) and |FRAME: XANTHOSINE-5-PHOSPHATE| (XMP) , which is converted to GMP by the action of |FRAME: GMP-SYN-CPLX|, an enzyme that can use either glutamine or ammonia as substrate (see |FRAME: PWY-6125|). Note that the free base |FRAME: GUANINE| or the ribonucleoside |FRAME: GUANOSINE| are not produced via the &lt;i&gt;de novo&lt;/i&gt; pathway. Many organisms can also recycle guanosine nucleotides by a combination of degradation and salvage pathways. The degradation pathway is responsible for the degradation of the nucleotides to the nucleoside |FRAME: GUANOSINE| and the base |FRAME: GUANINE|, which can be further degraded via |FRAME: XANTHINE| and |FRAME: URATE|, and eventually catabolized to basic building blocks (see |FRAME: PWY-6595|). However, both |FRAME: GUANOSINE| and |FRAME: GUANINE| can be salvaged by certain enzymes, and be converted back to nucleotide form. The enzyme |FRAME: CPLX0-322| (EC 2.7.1.73), which has been studied in |FRAME:TAX-562|, can phosphorylate |FRAME: GUANOSINE| directly to the mono-nucleotide |FRAME: GMP|. Even though genes encoding this enzyme have been identified only in bacteria and archaea |CITS: [10879466]|, this activity has also been reported for artichoke, |FRAME: TAX-4233| |CITS: [Combes89]|. Other routes from |FRAME: GUANOSINE| to |FRAME: GMP| are described in |FRAME: PWY-6620| and |FRAME: PWY-6599|. Either of these routes enables the organism to salvage the degradation products of guanosine nucleotides, and recycle them back to nucleotide form.</Description>
+  <Authors>
+    <Author name="SRI" />
+    <Author name="caspi" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-6618" />
+  <Property key="Type" value="Guanine-Guanosine-Salvage" />
+  <Property key="ReactionIDs" value="GUANOSINEKIN-RXN" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_PMNUPP2024" />
+  <CitationRef elementRef="citation_PUB_11115893" />
+  <CitationRef elementRef="citation_PUB_12010467" />
+  <CitationRef elementRef="citation_PUB_ASHIHARA97" />
+  <CitationRef elementRef="citation_PUB_10879466" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="GMP" textLabel="GMP" type="Metabolite">
+      <Xref identifier="RQFCJASXJCIDSX-UUOKFMHZSA-L" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="GMP" />
+      <Property key="AlternativeId_Pubchem" value="135398630" />
+      <Property key="AlternativeId_Zinc" value="ZINC000002159505" />
+      <Property key="AlternativeId_Seed" value="cpd00126" />
+      <Property key="AlternativeId_Metanetx" value="MNXM113" />
+      <Property key="AlternativeId_Refmet" value="GMP" />
+      <Property key="AlternativeId_Bigg" value="gmp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC58115" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01397" />
+      <Property key="AlternativeId_Chemspider" value="1413162" />
+      <Property key="AlternativeId_Chebi" value="58115" />
+      <Property key="AlternativeId_LigandCpd" value="C00144" />
+      <Property key="AlternativeId_Cas" value="85-32-5" />
+      <Property key="Synonym_1" value="guanylate" />
+      <Property key="Synonym_2" value="guanylic acid" />
+      <Property key="Synonym_3" value="guanosine phosphate" />
+      <Property key="Synonym_4" value="guanosine 5&apos;-phosphate" />
+      <Property key="Synonym_5" value="guanosine monophosphate" />
+      <Property key="Synonym_6" value="guanosine-5&apos;-monophosphate" />
+      <Property key="Synonym_7" value="guanine ribotide" />
+      <Property key="ChemicalFormula" value="(C 10) (H 12) (N 5) (O 8) (P 1)" />
+      <Property key="AtomCharges" value="(21 -1), (20 -1)" />
+      <Property key="Gibbs0" value="-229.97382" />
+      <Property key="Inchi" value="InChI=1S/C10H14N5O8P/c11-10-13-7-4(8(18)14-10)12-2-15(7)9-6(17)5(16)3(23-9)1-22-24(19,20)21/h2-3,5-6,9,16-17H,1H2,(H2,19,20,21)(H3,11,13,14,18)/p-2/t3-,5-,6-,9-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=RQFCJASXJCIDSX-UUOKFMHZSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="361.207" />
+      <Property key="MonoisotopicMw" value="363.0579989622" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-6594, REG0-7387, REG-7187, REG0-8826, REG0-9457, REG0-6911" />
+      <Property key="Smiles" value="C(OP(=O)([O-])[O-])[C@H]3(O[C@@H](N1(C2(\N=C(N)/NC(=O)C(\N=C/1)=2)))[C@H](O)[C@H](O)3)" />
+    </DataNode>
+    <DataNode elementId="GUANOSINE" textLabel="guanosine" type="Metabolite">
+      <Xref identifier="NYHBQMYGNKIUIF-UUOKFMHZSA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="GUANOSINE" />
+      <Property key="AlternativeId_Pubchem" value="135398635" />
+      <Property key="AlternativeId_Zinc" value="ZINC000001550030" />
+      <Property key="AlternativeId_Seed" value="cpd00311" />
+      <Property key="AlternativeId_Metanetx" value="MNXM401" />
+      <Property key="AlternativeId_Refmet" value="Guanosine" />
+      <Property key="AlternativeId_Bigg" value="gsn" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC16750" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00133" />
+      <Property key="AlternativeId_Drugbank" value="DB02857" />
+      <Property key="AlternativeId_Chemspider" value="6544" />
+      <Property key="AlternativeId_Chebi" value="16750" />
+      <Property key="AlternativeId_LigandCpd" value="C00387" />
+      <Property key="AlternativeId_Cas" value="118-00-3" />
+      <Property key="Synonym_1" value="nucleoside Q" />
+      <Property key="Synonym_2" value="guanine riboside" />
+      <Property key="Synonym_3" value="guanine-9-&amp;beta;-D-ribofuranoside" />
+      <Property key="ChemicalFormula" value="(C 10) (H 13) (N 5) (O 5)" />
+      <Property key="Gibbs0" value="-5.9544377" />
+      <Property key="Inchi" value="InChI=1S/C10H13N5O5/c11-10-13-7-4(8(19)14-10)12-2-15(7)9-6(18)5(17)3(1-16)20-9/h2-3,5-6,9,16-18H,1H2,(H3,11,13,14,19)/t3-,5-,6-,9-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=NYHBQMYGNKIUIF-UUOKFMHZSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="283.243" />
+      <Property key="MonoisotopicMw" value="283.0916685538" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG0-11595, REG0-8374" />
+      <Property key="Smiles" value="C(O)[C@H]3(O[C@@H](N1(C2(\N=C(N)/NC(=O)C(\N=C/1)=2)))[C@H](O)[C@H](O)3)" />
+      <Property key="SystematicName" value="2-amino-9-&amp;beta;-D-ribofuranosyl-1,9-dihydro-6H-purin-6-one" />
+    </DataNode>
+    <DataNode elementId="ADP" textLabel="ADP" type="Metabolite">
+      <Xref identifier="XTWYTFMLZFPYCI-KQYNXXCUSA-K" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ADP" />
+      <Property key="AlternativeId_Zinc" value="ZINC000012360703" />
+      <Property key="AlternativeId_Seed" value="cpd00008" />
+      <Property key="AlternativeId_Metanetx" value="MNXM7" />
+      <Property key="AlternativeId_Refmet" value="ADP" />
+      <Property key="AlternativeId_Bigg" value="adp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC456216" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01341" />
+      <Property key="AlternativeId_Chemspider" value="5414423" />
+      <Property key="AlternativeId_Chebi" value="456216" />
+      <Property key="AlternativeId_Pubchem" value="7058055" />
+      <Property key="AlternativeId_LigandCpd" value="C00008" />
+      <Property key="AlternativeId_Cas" value="58-64-0" />
+      <Property key="Synonym_1" value="adenosine pyrophosphate" />
+      <Property key="Synonym_2" value="adenosine 5&apos;-pyrophosphate" />
+      <Property key="Synonym_3" value="adenosine-5&apos;-diphosphate" />
+      <Property key="Synonym_4" value="adenosine-diphosphate" />
+      <Property key="Synonym_5" value="adenosine-5-diphosphate" />
+      <Property key="ChemicalFormula" value="(C 10) (H 12) (N 5) (O 10) (P 2)" />
+      <Property key="AtomCharges" value="(20 -1), (19 -1), (22 -1)" />
+      <Property key="Gibbs0" value="-344.92508" />
+      <Property key="Inchi" value="InChI=1S/C10H15N5O10P2/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(24-10)1-23-27(21,22)25-26(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H2,11,12,13)(H2,18,19,20)/p-3/t4-,6-,7-,10-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=XTWYTFMLZFPYCI-KQYNXXCUSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="424.18" />
+      <Property key="MonoisotopicMw" value="427.0294147485" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-15215, REG0-8154, REG0-8726, REG0-6887, REG0-8479, REG-6552, REG-11598, REG0-10568, REG-8233, REG-13527, REG-8041, REG-8051, REG0-8748, REG-10984, REG-8119, REG0-8828, REG0-6846, REG-13336, REG-8584, REG-12492, REG-9856, REG-9477, REGQT-440, REGQT-338" />
+      <Property key="Smiles" value="C(OP(=O)([O-])OP(=O)([O-])[O-])[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3)" />
+    </DataNode>
+    <DataNode elementId="PROTON" textLabel="H⁺" type="Metabolite">
+      <Xref identifier="GPRLSGONYQIRFK-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="310" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PROTON" />
+      <Property key="AlternativeId_Bigg" value="h" />
+      <Property key="AlternativeId_Seed" value="cpd00067" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1" />
+      <Property key="AlternativeId_Hmdb" value="HMDB59597" />
+      <Property key="AlternativeId_Chemspider" value="1010" />
+      <Property key="AlternativeId_Pubchem" value="1038" />
+      <Property key="AlternativeId_Chebi" value="15378" />
+      <Property key="AlternativeId_Cas" value="12408-02-5" />
+      <Property key="AlternativeId_LigandCpd" value="C00080" />
+      <Property key="Synonym_1" value="H" />
+      <Property key="Synonym_2" value="hydrogen ion" />
+      <Property key="Synonym_3" value="proton" />
+      <Property key="ChemicalFormula" value="(H 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="0.42906138" />
+      <Property key="Inchi" value="InChI=1S/p+1" />
+      <Property key="InchiKey" value="InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1.008" />
+      <Property key="MonoisotopicMw" value="1.0078250321" />
+      <Property key="NonStandardInchi" value="InChI=1S/p+1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="[H+]" />
+    </DataNode>
+    <DataNode elementId="ATP" textLabel="ATP" type="Metabolite">
+      <Xref identifier="ZKHQWZAMYRWXGA-KQYNXXCUSA-J" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="310" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ATP" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004261765" />
+      <Property key="AlternativeId_Mediadb" value="compounds/2/" />
+      <Property key="AlternativeId_Seed" value="cpd00002" />
+      <Property key="AlternativeId_Metanetx" value="MNXM3" />
+      <Property key="AlternativeId_Refmet" value="ATP" />
+      <Property key="AlternativeId_Bigg" value="atp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC30616" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00538" />
+      <Property key="AlternativeId_Chemspider" value="4574455" />
+      <Property key="AlternativeId_Chebi" value="30616" />
+      <Property key="AlternativeId_Pubchem" value="5461108" />
+      <Property key="AlternativeId_LigandCpd" value="C00002" />
+      <Property key="AlternativeId_Cas" value="56-65-5" />
+      <Property key="Synonym_1" value="adenylpyrophosphate" />
+      <Property key="Synonym_2" value="adenosine-triphosphate" />
+      <Property key="Synonym_3" value="adenosine-5&apos;-triphosphate" />
+      <Property key="ChemicalFormula" value="(C 10) (H 12) (N 5) (O 13) (P 3)" />
+      <Property key="AtomCharges" value="(20 -1), (19 -1), (24 -1), (22 -1)" />
+      <Property key="Gibbs0" value="-553.6995" />
+      <Property key="Inchi" value="InChI=1S/C10H16N5O13P3/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(26-10)1-25-30(21,22)28-31(23,24)27-29(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H,23,24)(H2,11,12,13)(H2,18,19,20)/p-4/t4-,6-,7-,10-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=ZKHQWZAMYRWXGA-KQYNXXCUSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="503.152" />
+      <Property key="MonoisotopicMw" value="506.99574515689994" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG0-12909, REG-14488, REG0-7200, REG-15264, REG-8066, REG0-8732, REG0-6781, REG0-7497, REG0-7707, REG-13176, REG0-12215, REG-6554, REG-11599, REG-5951, REG-5950, REG-8022, REG0-7674, REG-6229, REG0-7802, REG-14419, REG-14422, REG0-8749, REG-10985, REG-12901, REG-12890, REG0-10640, REG-12493, REG0-6737, REGQT-558, REGQT-554, REGQT-551, REGQT-545, REG-9857, REG0-7801, REGQT-466, REGQT-446, REGQT-439, REGQT-388" />
+      <Property key="Smiles" value="C(OP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3)" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="GUANOSINEKIN-RXN">
+      <Xref identifier="EC-2.7.1.73" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="GUANOSINEKIN-RXN_start" x="395.0" y="210" elementRef="GUANOSINE" relX="1.0" relY="0.0" />
+        <Point elementId="GUANOSINEKIN-RXN_end" arrowHead="Conversion" x="155.0" y="210" elementRef="GMP" relX="-1.0" relY="0.0" />
+        <Anchor elementId="GUANOSINEKIN-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="GUANOSINEKIN-RXN" />
+      <Property key="EC_Number" value="EC-2.7.1.73" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-6618" />
+      <Property key="ReactionEquation" value="GUANOSINE + ATP =&gt; PROTON + GMP + ADP" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 21 15 16 17 22 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 18 20 19 44 45 41 43 46 47 42 48 23 50 49) (((&quot;GMP&quot; 0 23) (&quot;ADP&quot; 24 50)) ((&quot;GUANOSINE&quot; 0 19) (&quot;ATP&quot; 20 50))))" />
+      <Property key="^official?" value="NIL" />
+      <Property key="Gibbs0" value="-14.815857" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="GUANOSINEKIN-RXN_anchor_reactant_1">
+      <Xref identifier="EC-2.7.1.73" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="GUANOSINEKIN-RXN_anchor_reactant_start_1" x="395.0" y="310" elementRef="ATP" relX="1.0" relY="0.0" />
+        <Point elementId="GUANOSINEKIN-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="GUANOSINEKIN-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GUANOSINEKIN-RXN_anchor_product_0">
+      <Xref identifier="EC-2.7.1.73" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="GUANOSINEKIN-RXN_anchor_product_start_0" x="0" y="0" elementRef="GUANOSINEKIN-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="GUANOSINEKIN-RXN_anchor_product_end_0" arrowHead="Conversion" x="155.0" y="310" elementRef="PROTON" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GUANOSINEKIN-RXN_anchor_product_2">
+      <Xref identifier="EC-2.7.1.73" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="GUANOSINEKIN-RXN_anchor_product_start_2" x="0" y="0" elementRef="GUANOSINEKIN-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="GUANOSINEKIN-RXN_anchor_product_end_2" arrowHead="Conversion" x="455.0" y="210" elementRef="ADP" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_11115893">
+      <Xref identifier="11115893" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_ASHIHARA97">
+      <Xref identifier="PUB-ASHIHARA97 | Metabolism fate of guanosine in higher plants (Ashihara, Hiroshi, Takasawa, Yoko, Suzuki, Takeo, 1997)" dataSource="BioCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_12010467">
+      <Xref identifier="12010467" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_10879466">
+      <Xref identifier="10879466" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_PMNUPP2024">
+      <Xref identifier="PUB-PMNUPP2024 | This pathway was predicted to exist in this species using PathoLogic (version 28.0) and was accepted... (2024)" dataSource="BioCyc" />
+    </Citation>
+  </Citations>
+</Pathway>

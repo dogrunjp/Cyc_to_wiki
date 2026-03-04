@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="NADP biosynthesis" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Description>&lt;b&gt;General Background&lt;/b&gt; |FRAME: NAD| and |FRAME: NADP| are dinucleotides containing one |FRAME: NIACINAMIDE| base and one |FRAME: ADENINE| base. Each nucleotide is connected to a ribose sugar at position 1, and the two riboses are connected at their 5 position via a diphosphate. The only difference between the two is that in NADP there is an additional phosphate group at the 2&apos; position of the ribose that carries the adenine moiety. These molecules are biological carriers of reductive equivalents (i.e. high potential electrons). Most of the time they function as cosubstrates, and in some cases they function as |FRAME: Cofactors cofactors|. They are often referred to by the obsolete term &quot;coenzymes&quot;. The most common function of |FRAME: NAD| is to accept two electrons and a proton (a hydride ion) from a substrate that is being oxidized. This reduction converts |FRAME: NAD| to |FRAME: NADH|, the reduced form. NADH then diffuses or is transported to a terminal oxidase, where the electrons are passed on, regenerating the oxidized form. |FRAME: NADPH|, on the other hand, is mostly involved in biosynthetic reactions, where it serves as an electron donor. NADPH is formed by reduction of |FRAME: NADP|, which occurs by different mechanisms in different types of organisms. In photosynthetic organisms |FRAME: NADP| is reduced by |FRAME: CPLX-84|. In heterotrophic organisms it is reduced by central metabolism processes such as the pentose phosphate pathway (see |FRAME: OXIDATIVEPENT-PWY|). &lt;b&gt;About This Pathway&lt;/b&gt; Cells have dedicated pathway for production of NAD. The conversion of NAD to NADP is catalyzed by |FRAME: EC-2.7.1.23|, one of the key enzymes regulating the balance of NAD(H) and NADP(H). NAD kinase was discovered in 1950 by Arthur Kornberg, who partially purified it from the yeast |FRAME: TAX-4932| |CITS: [Kornberg50a]|. It was later found in organisms from all kingdoms, from bacteria to mammals. The gene encoding the enzyme was identified in 2000. All characterized NAD kinases show homomultimer (homodimer, homotetramer, homohexamer, or homooctamer) structures. However, they have been divided into three classes based on the following criteria: NAD kinases from Gram-positive bacteria and archaea phosphorylate both NAD+ and NADH and can utilize both ATP and polyphosphate as the phosphoryl donor |CITS: [Murata80][11006082]|; NAD kinases from eukaryotes can also phosphorylate both NAD+ and NADH, but utilize only ATP; NAD kinases from Gram-negative bacteria phosphorylate only NAD+ and can use only ATP |CITS: [18391451]|. Another enzyme, |FRAME: EC-2.7.1.86|, is specific to NADH and has only been found in fungi and plants |CITS: [4335000][12912900]|. In organisms that contain a single gene encoding the enzyme, a mutation is lethal. However, some organisms, such as the plant |FRAME: ORG-5993| and the yeast |FRAME: TAX-4932|, possess multiple genes that encode different isozymes |CITS: [15247403][15978040]|. Structure-function relationships in NAD kinases from archaea, bacteria, and eukaryotes have been reviewed |CITS: [16842123] [18391451] [19430699]|.</Description>
+  <Authors>
+    <Author name="AU4FS-4" />
+    <Author name="SRI" />
+    <Author name="caspi" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-8148" />
+  <Property key="Type" value="NAD-Metabolism" />
+  <Property key="ReactionIDs" value="NAD-KIN-RXN" />
+  <Property key="PathwayLinks" value="(NAD NAD-SYN)" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_18391451" />
+  <Graphics boardWidth="1200" boardHeight="920" />
+  <DataNodes>
+    <DataNode elementId="AT1G21640" textLabel="NADK2" type="GeneProduct">
+      <Xref identifier="AF337912" dataSource="Entrez Gene" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G21640" />
+      <Property key="AlternativeId_Tair" value="AT1G21640" />
+      <Property key="AlternativeId_Entrez" value="AF337912" />
+      <Property key="Synonym_1" value="At1g21640" />
+      <Property key="Product" value="AT1G21640-MONOMER" />
+      <Property key="StartPosition" value="7588586" />
+      <Property key="EndPosition" value="7592879" />
+      <Property key="ComponentOf" value="CHROMOSOME-1-1" />
+      <Property key="CentisomePosition" value="24.93579" />
+      <Property key="GeneType" value="Genes" />
+      <Property key="Operon" value="CHROMOSOME-1-1" />
+      <Property key="Accession1" value="AT1G21640" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT1G06750" textLabel="AT1G06750" type="GeneProduct">
+      <Xref identifier="AT1G06750" dataSource="TAIR gene name" />
+      <Graphics centerX="220" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G06750" />
+      <Property key="Products" value="AT1G06750.3, AT1G06750.2, AT1G06750.1" />
+      <Property key="ProductCount" value="3" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT1G06750" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT1G04280" textLabel="AT1G04280" type="GeneProduct">
+      <Xref identifier="AT1G04280" dataSource="TAIR gene name" />
+      <Graphics centerX="340" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G04280" />
+      <Property key="Products" value="AT1G04280.2, AT1G04280.1" />
+      <Property key="ProductCount" value="2" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT1G04280" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT2G30630" textLabel="AT2G30630" type="GeneProduct">
+      <Xref identifier="AT2G30630" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT2G30630" />
+      <Property key="Products" value="AT2G30630.3, AT2G30630.2, AT2G30630.1" />
+      <Property key="ProductCount" value="3" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT2G30630" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT3G21080" textLabel="AT3G21080" type="GeneProduct">
+      <Xref identifier="AT3G21080" dataSource="TAIR gene name" />
+      <Graphics centerX="220" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G21080" />
+      <Property key="Product" value="AT3G21080.1" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT3G21080" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT2G30630.3" textLabel="AT2G30630.3" type="Protein">
+      <Xref identifier="AT2G30630.3" dataSource="plantcyc" />
+      <Graphics centerX="150" centerY="275" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT2G30630.3" />
+      <Property key="Catalyzes" value="RXN-30909" />
+      <Property key="Accession1" value="AT2G30630.3" />
+      <Property key="Gene" value="AT2G30630" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT3G21080.1" textLabel="AT3G21080.1" type="Protein">
+      <Xref identifier="AT3G21080.1" dataSource="plantcyc" />
+      <Graphics centerX="300" centerY="275" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G21080.1" />
+      <Property key="Catalyzes" value="RXN-30041" />
+      <Property key="Accession1" value="AT3G21080.1" />
+      <Property key="Gene" value="AT3G21080" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT1G78590-MONOMER" textLabel="NADK3 subunit" type="Protein" groupRef="CPLX-7016">
+      <Xref identifier="AT1G78590-MONOMER" dataSource="plantcyc" />
+      <Graphics centerX="450.0" centerY="275" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G78590-MONOMER" />
+      <Property key="Synonym_1" value="NADH kinase" />
+      <Property key="Synonym_2" value="NAD+ kinase" />
+      <Property key="Accession1" value="AT1G78590.2" />
+      <Property key="ComponentOf" value="CPLX-7016" />
+      <Property key="Gene" value="AT1G78590" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightExp" value="38." />
+      <Property key="MolecularWeightKd" value="35., 38." />
+      <Property key="MolecularWeightSeq" value="35." />
+      <Property key="Species" value="ARA" />
+    </DataNode>
+    <DataNode elementId="AT1G04280.2" textLabel="AT1G04280.2" type="Protein">
+      <Xref identifier="AT1G04280.2" dataSource="plantcyc" />
+      <Graphics centerX="150" centerY="355" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G04280.2" />
+      <Property key="Catalyzes" value="RXN-32989" />
+      <Property key="Accession1" value="AT1G04280.2" />
+      <Property key="Gene" value="AT1G04280" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT1G06750.3" textLabel="AT1G06750.3" type="Protein">
+      <Xref identifier="AT1G06750.3" dataSource="plantcyc" />
+      <Graphics centerX="300" centerY="355" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G06750.3" />
+      <Property key="Catalyzes" value="RXN-32877" />
+      <Property key="Accession1" value="AT1G06750.3" />
+      <Property key="Gene" value="AT1G06750" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT3G21070-MONOMER" textLabel="NADK1 subunit" type="Protein" groupRef="CPLX-7017">
+      <Xref identifier="AT3G21070-MONOMER" dataSource="plantcyc" />
+      <Graphics centerX="450.0" centerY="355" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G21070-MONOMER" />
+      <Property key="Synonym_1" value="NADH kinase" />
+      <Property key="Synonym_2" value="NAD+ kinase" />
+      <Property key="Accession1" value="AT3G21070.3" />
+      <Property key="ComponentOf" value="CPLX-7017" />
+      <Property key="Gene" value="AT3G21070" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightKd" value="58.2" />
+      <Property key="MolecularWeightSeq" value="58.2" />
+      <Property key="Species" value="ARA" />
+    </DataNode>
+    <DataNode elementId="AT1G21640-MONOMER" textLabel="AT1G21640-MONOMER" type="Protein">
+      <Xref identifier="AT1G21640.2" dataSource="TAIR gene name" />
+      <Graphics centerX="150" centerY="435" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G21640-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT1G21640.2" />
+      <Property key="AlternativeId_Pid" value="AAG60064" />
+      <Property key="Catalyzes" value="RXN-12372" />
+      <Property key="Accession1" value="AT1G21640.2" />
+      <Property key="Gene" value="AT1G21640" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightKd" value="109.2" />
+      <Property key="MolecularWeightSeq" value="109.2" />
+      <Property key="Species" value="ARA" />
+    </DataNode>
+    <DataNode elementId="NADP" textLabel="NADP⁺" type="Metabolite">
+      <Xref identifier="XJLXINKUBYWONI-NNYOXOHSSA-K" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="620" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>|FRAME: NAD| and |FRAME: NADP| are dinucleotides containing one |FRAME: NIACINAMIDE| base and one |FRAME: ADENINE| base. Each nucleotide is connected to a ribose sugar at position 1, and the two riboses are connected at their 5 position via a diphosphate. The only difference between the two is that in NADP there is an additional phosphate group at the 2&apos; position of the ribose that carries the adenine moiety. These molecules are biological carriers of reductive equivalents (i.e. high potential electrons). Most of the time they function as cosubstrates, and in some cases they function as |FRAME: Cofactors cofactors|. They are often referred to by the obsolete term &quot;coenzymes&quot;. The most common function of |FRAME: NAD| is to accept two electrons and a proton (a hydride ion) from a substrate that is being oxidized. This reduction converts |FRAME: NAD| to |FRAME: NADH|, the reduced form. NADH then diffuses or is transported to a terminal oxidase, where the electrons are passed on, regenerating the oxidized form. |FRAME: NADPH|, on the other hand, is mostly involved in biosynthetic reactions, where it serves as an electron donor. NADPH is formed by reduction of |FRAME: NADP|, which occurs by different mechanisms in different types of organisms. In photosynthetic organisms |FRAME: NADP| is reduced by |FRAME: CPLX-84|. In heterotrophic organisms it is reduced by central metabolism processes such as the pentose phosphate pathway (see |FRAME: OXIDATIVEPENT-PWY|).</Comment>
+      <Property key="UniqueID" value="NADP" />
+      <Property key="AlternativeId_Bigg" value="nadp" />
+      <Property key="AlternativeId_Seed" value="cpd00006" />
+      <Property key="AlternativeId_Metanetx" value="MNXM5" />
+      <Property key="AlternativeId_Refmet" value="NADP+" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC58349" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00217" />
+      <Property key="AlternativeId_Chemspider" value="10239198" />
+      <Property key="AlternativeId_Chebi" value="58349" />
+      <Property key="AlternativeId_Pubchem" value="15938972" />
+      <Property key="AlternativeId_LigandCpd" value="C00006" />
+      <Property key="AlternativeId_Cas" value="53-59-8" />
+      <Property key="Synonym_1" value="NADP+" />
+      <Property key="Synonym_2" value="coenzyme II" />
+      <Property key="Synonym_3" value="triphosphopyridine nucleotide" />
+      <Property key="Synonym_4" value="nicotinamide adenine dinucleotide phosphate" />
+      <Property key="Synonym_5" value="NADP-oxidized" />
+      <Property key="Synonym_6" value="NADP-ox" />
+      <Property key="Synonym_7" value="TPN" />
+      <Property key="Synonym_8" value="TPN+" />
+      <Property key="Synonym_9" value="TPN-ox" />
+      <Property key="Synonym_10" value="nicotinamide adenine dinucleotide-P" />
+      <Property key="Synonym_11" value="NADP(+)" />
+      <Property key="Synonym_12" value="NADP" />
+      <Property key="Synonym_13" value="&amp;beta;-NADP&lt;sup&gt;+&lt;/sup&gt;" />
+      <Property key="ChemicalFormula" value="(C 21) (H 25) (N 7) (O 17) (P 3)" />
+      <Property key="AtomCharges" value="(27 1), (35 -1), (33 -1), (39 -1), (37 -1)" />
+      <Property key="CofactorsOf" value="ENZRXN-12451" />
+      <Property key="Gibbs0" value="-563.64954" />
+      <Property key="Inchi" value="InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p-3/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=XJLXINKUBYWONI-NNYOXOHSSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="740.386" />
+      <Property key="MonoisotopicMw" value="745.0911021051" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-14905, REG0-11313, REG0-8744, REG-11605" />
+      <Property key="Smiles" value="C5(/C=C\C(\C(=O)N)=C/[N+](/[C@@H]1(O[C@@H]([C@H]([C@H]1O)O)COP(OP(OC[C@H]4(O[C@@H](N2(C3(\C(\N=C/2)=C(N)/N=C\N=3)))[C@H](OP([O-])(=O)[O-])[C@H](O)4))(=O)[O-])(=O)[O-]))=5)" />
+    </DataNode>
+    <DataNode elementId="ADP" textLabel="ADP" type="Metabolite">
+      <Xref identifier="XTWYTFMLZFPYCI-KQYNXXCUSA-K" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="620" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ADP" />
+      <Property key="AlternativeId_Zinc" value="ZINC000012360703" />
+      <Property key="AlternativeId_Seed" value="cpd00008" />
+      <Property key="AlternativeId_Metanetx" value="MNXM7" />
+      <Property key="AlternativeId_Refmet" value="ADP" />
+      <Property key="AlternativeId_Bigg" value="adp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC456216" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01341" />
+      <Property key="AlternativeId_Chemspider" value="5414423" />
+      <Property key="AlternativeId_Chebi" value="456216" />
+      <Property key="AlternativeId_Pubchem" value="7058055" />
+      <Property key="AlternativeId_LigandCpd" value="C00008" />
+      <Property key="AlternativeId_Cas" value="58-64-0" />
+      <Property key="Synonym_1" value="adenosine pyrophosphate" />
+      <Property key="Synonym_2" value="adenosine 5&apos;-pyrophosphate" />
+      <Property key="Synonym_3" value="adenosine-5&apos;-diphosphate" />
+      <Property key="Synonym_4" value="adenosine-diphosphate" />
+      <Property key="Synonym_5" value="adenosine-5-diphosphate" />
+      <Property key="ChemicalFormula" value="(C 10) (H 12) (N 5) (O 10) (P 2)" />
+      <Property key="AtomCharges" value="(20 -1), (19 -1), (22 -1)" />
+      <Property key="Gibbs0" value="-344.92508" />
+      <Property key="Inchi" value="InChI=1S/C10H15N5O10P2/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(24-10)1-23-27(21,22)25-26(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H2,11,12,13)(H2,18,19,20)/p-3/t4-,6-,7-,10-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=XTWYTFMLZFPYCI-KQYNXXCUSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="424.18" />
+      <Property key="MonoisotopicMw" value="427.0294147485" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-15215, REG0-8154, REG0-8726, REG0-6887, REG0-8479, REG-6552, REG-11598, REG0-10568, REG-8233, REG-13527, REG-8041, REG-8051, REG0-8748, REG-10984, REG-8119, REG0-8828, REG0-6846, REG-13336, REG-8584, REG-12492, REG-9856, REG-9477, REGQT-440, REGQT-338" />
+      <Property key="Smiles" value="C(OP(=O)([O-])OP(=O)([O-])[O-])[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3)" />
+    </DataNode>
+    <DataNode elementId="NAD" textLabel="NAD⁺" type="Metabolite">
+      <Xref identifier="BAWFJGJZGIEFAR-NNYOXOHSSA-M" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="620" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>|FRAME: NAD| and |FRAME: NADP| are dinucleotides containing one |FRAME: NIACINAMIDE| base and one |FRAME: ADENINE| base. Each nucleotide is connected to a ribose sugar at position 1, and the two riboses are connected at their 5 position via a diphosphate. The only difference between the two is that in NADP there is an additional phosphate group at the 2&apos; position of the ribose that carries the adenine moiety. These molecules are biological carriers of reductive equivalents (i.e. high potential electrons). Most of the time they function as cosubstrates, and in some cases they function as |FRAME: Cofactors cofactors|. They are often referred to by the obsolete term &quot;coenzymes&quot;. The most common function of |FRAME: NAD| is to accept two electrons and a proton (a hydride ion) from a substrate that is being oxidized. This reduction converts |FRAME: NAD| to |FRAME: NADH|, the reduced form. NADH then diffuses or is transported to a terminal oxidase, where the electrons are passed on, regenerating the oxidized form. |FRAME: NADPH|, on the other hand, is mostly involved in biosynthetic reactions, where it serves as an electron donor. NADPH is formed by reduction of |FRAME: NADP|, which occurs by different mechanisms in different types of organisms. In photosynthetic organisms |FRAME: NADP| is reduced by |FRAME: CPLX-84|. In heterotrophic organisms it is reduced by central metabolism processes such as the pentose phosphate pathway (see |FRAME: OXIDATIVEPENT-PWY|).</Comment>
+      <Property key="UniqueID" value="NAD" />
+      <Property key="AlternativeId_Mediadb" value="compounds/3/" />
+      <Property key="AlternativeId_Seed" value="cpd00003" />
+      <Property key="AlternativeId_Metanetx" value="MNXM8" />
+      <Property key="AlternativeId_Refmet" value="NAD+" />
+      <Property key="AlternativeId_Bigg" value="nad" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57540" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00902" />
+      <Property key="AlternativeId_Chemspider" value="10239196" />
+      <Property key="AlternativeId_Chebi" value="57540" />
+      <Property key="AlternativeId_Pubchem" value="15938971" />
+      <Property key="AlternativeId_LigandCpd" value="C00003" />
+      <Property key="AlternativeId_Cas" value="53-84-9" />
+      <Property key="Synonym_1" value="NAD+" />
+      <Property key="Synonym_2" value="beta-nicotinamide adenine dinucleotide" />
+      <Property key="Synonym_3" value="coenzyme I" />
+      <Property key="Synonym_4" value="diphosphopyridine nucleotide" />
+      <Property key="Synonym_5" value="diphosphopyridine nucleotide oxidized" />
+      <Property key="Synonym_6" value="nicotinamide adenine dinucleotide" />
+      <Property key="Synonym_7" value="nicotinamide adenine dinucleotide oxidized" />
+      <Property key="Synonym_8" value="NAD-oxidized" />
+      <Property key="Synonym_9" value="NAD-ox" />
+      <Property key="Synonym_10" value="DPN+" />
+      <Property key="Synonym_11" value="DPN-ox" />
+      <Property key="Synonym_12" value="DPN" />
+      <Property key="Synonym_13" value="&amp;beta;-nicotinamide adenine dinucleotide" />
+      <Property key="Synonym_14" value="NAD" />
+      <Property key="Synonym_15" value="&amp;beta;-NAD&lt;sup&gt;+&lt;/sup&gt;" />
+      <Property key="ChemicalFormula" value="(C 21) (H 26) (N 7) (O 14) (P 2)" />
+      <Property key="AtomCharges" value="(27 1), (37 -1), (35 -1)" />
+      <Property key="CofactorsOf" value="ENZRXN-9141, ENZRXNQT-9536, ENZRXN-12451, ENZRXN-1362" />
+      <Property key="Gibbs0" value="-338.38196" />
+      <Property key="Inchi" value="InChI=1S/C21H27N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1-4,7-8,10-11,13-16,20-21,29-32H,5-6H2,(H5-,22,23,24,25,33,34,35,36,37)/p-1/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=BAWFJGJZGIEFAR-NNYOXOHSSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="662.422" />
+      <Property key="MonoisotopicMw" value="665.1247716966999" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-13857, REGQT-11, REGQT-9, REG-14487, REG-8140, REG0-7672, REG-10755, REG0-8746, REG0-6740, REG-11606, REGQT-471" />
+      <Property key="Smiles" value="C5(/C(/C(N)=O)=C\C=C/[N+](/[C@@H]4(O[C@H](COP(OP(OC[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3))(=O)[O-])(=O)[O-])[C@@H](O)[C@@H](O)4))=5)" />
+    </DataNode>
+    <DataNode elementId="PROTON" textLabel="H⁺" type="Metabolite">
+      <Xref identifier="GPRLSGONYQIRFK-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="720" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PROTON" />
+      <Property key="AlternativeId_Bigg" value="h" />
+      <Property key="AlternativeId_Seed" value="cpd00067" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1" />
+      <Property key="AlternativeId_Hmdb" value="HMDB59597" />
+      <Property key="AlternativeId_Chemspider" value="1010" />
+      <Property key="AlternativeId_Pubchem" value="1038" />
+      <Property key="AlternativeId_Chebi" value="15378" />
+      <Property key="AlternativeId_Cas" value="12408-02-5" />
+      <Property key="AlternativeId_LigandCpd" value="C00080" />
+      <Property key="Synonym_1" value="H" />
+      <Property key="Synonym_2" value="hydrogen ion" />
+      <Property key="Synonym_3" value="proton" />
+      <Property key="ChemicalFormula" value="(H 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="0.42906138" />
+      <Property key="Inchi" value="InChI=1S/p+1" />
+      <Property key="InchiKey" value="InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1.008" />
+      <Property key="MonoisotopicMw" value="1.0078250321" />
+      <Property key="NonStandardInchi" value="InChI=1S/p+1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="[H+]" />
+    </DataNode>
+    <DataNode elementId="ATP" textLabel="ATP" type="Metabolite">
+      <Xref identifier="ZKHQWZAMYRWXGA-KQYNXXCUSA-J" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="720" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ATP" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004261765" />
+      <Property key="AlternativeId_Mediadb" value="compounds/2/" />
+      <Property key="AlternativeId_Seed" value="cpd00002" />
+      <Property key="AlternativeId_Metanetx" value="MNXM3" />
+      <Property key="AlternativeId_Refmet" value="ATP" />
+      <Property key="AlternativeId_Bigg" value="atp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC30616" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00538" />
+      <Property key="AlternativeId_Chemspider" value="4574455" />
+      <Property key="AlternativeId_Chebi" value="30616" />
+      <Property key="AlternativeId_Pubchem" value="5461108" />
+      <Property key="AlternativeId_LigandCpd" value="C00002" />
+      <Property key="AlternativeId_Cas" value="56-65-5" />
+      <Property key="Synonym_1" value="adenylpyrophosphate" />
+      <Property key="Synonym_2" value="adenosine-triphosphate" />
+      <Property key="Synonym_3" value="adenosine-5&apos;-triphosphate" />
+      <Property key="ChemicalFormula" value="(C 10) (H 12) (N 5) (O 13) (P 3)" />
+      <Property key="AtomCharges" value="(20 -1), (19 -1), (24 -1), (22 -1)" />
+      <Property key="Gibbs0" value="-553.6995" />
+      <Property key="Inchi" value="InChI=1S/C10H16N5O13P3/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(26-10)1-25-30(21,22)28-31(23,24)27-29(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H,23,24)(H2,11,12,13)(H2,18,19,20)/p-4/t4-,6-,7-,10-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=ZKHQWZAMYRWXGA-KQYNXXCUSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="503.152" />
+      <Property key="MonoisotopicMw" value="506.99574515689994" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG0-12909, REG-14488, REG0-7200, REG-15264, REG-8066, REG0-8732, REG0-6781, REG0-7497, REG0-7707, REG-13176, REG0-12215, REG-6554, REG-11599, REG-5951, REG-5950, REG-8022, REG0-7674, REG-6229, REG0-7802, REG-14419, REG-14422, REG0-8749, REG-10985, REG-12901, REG-12890, REG0-10640, REG-12493, REG0-6737, REGQT-558, REGQT-554, REGQT-551, REGQT-545, REG-9857, REG0-7801, REGQT-466, REGQT-446, REGQT-439, REGQT-388" />
+      <Property key="Smiles" value="C(OP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3)" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="AT1G21640" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="435" elementRef="AT1G21640-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_1_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_1_0_0" x="265.0" y="50" elementRef="AT1G06750" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_1_0_0" arrowHead="TranscriptionTranslation" x="255.0" y="355" elementRef="AT1G06750.3" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_2_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_2_0_0" x="385.0" y="50" elementRef="AT1G04280" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_2_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="355" elementRef="AT1G04280.2" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_3_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_3_0_0" x="145.0" y="110" elementRef="AT2G30630" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_3_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="275" elementRef="AT2G30630.3" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_4_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_4_0_0" x="265.0" y="110" elementRef="AT3G21080" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_4_0_0" arrowHead="TranscriptionTranslation" x="255.0" y="275" elementRef="AT3G21080.1" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="NAD-KIN-RXN">
+      <Xref identifier="EC-2.7.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="NAD-KIN-RXN_start" x="545.0" y="620" elementRef="NAD" relX="1.0" relY="0.0" />
+        <Point elementId="NAD-KIN-RXN_end" arrowHead="Conversion" x="155.0" y="620" elementRef="NADP" relX="-1.0" relY="0.0" />
+        <Anchor elementId="NAD-KIN-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="NAD-KIN-RXN" />
+      <Property key="EC_Number_1" value="EC-2.7.1" />
+      <Property key="EC_Number_2" value="EC-2.7.1.23" />
+      <Property key="Pathways" value="PWY-8148, PWY-5083" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="NAD + ATP =&gt; PROTON + NADP + ADP" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNQT-33677, ENZRXNQT-32989, ENZRXNQT-32877, ENZRXNQT-30909, ENZRXNQT-30041, ENZRXN-12371, ENZRXN-12372" />
+      <Property key="EnzymaticReactionCount" value="7" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 60 61 59 20 21 17 19 22 23 18 24 72 26 25 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 70 58 62 63 64 65 66 67 68 69 71 73 74) (((&quot;ADP&quot; 0 26) (&quot;NADP&quot; 27 74)) ((&quot;ATP&quot; 0 30) (&quot;NAD&quot; 31 74))))" />
+      <Property key="^official?" value="T, T" />
+      <Property key="Gibbs0" value="-16.064026" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="NAD-KIN-RXN_ENZRXN-12372">
+      <Waypoints>
+        <Point elementId="NAD-KIN-RXN_ENZRXN-12372_start" x="150" y="447.5" elementRef="AT1G21640-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="NAD-KIN-RXN_ENZRXN-12372_end" arrowHead="Catalysis" x="0" y="0" elementRef="NAD-KIN-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="NAD-KIN-RXN_ENZRXNQT-32989">
+      <Waypoints>
+        <Point elementId="NAD-KIN-RXN_ENZRXNQT-32989_start" x="150" y="367.5" elementRef="AT1G04280.2" relX="0.0" relY="1.0" />
+        <Point elementId="NAD-KIN-RXN_ENZRXNQT-32989_end" arrowHead="Catalysis" x="0" y="0" elementRef="NAD-KIN-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="NAD-KIN-RXN_ENZRXNQT-30909">
+      <Waypoints>
+        <Point elementId="NAD-KIN-RXN_ENZRXNQT-30909_start" x="150" y="287.5" elementRef="AT2G30630.3" relX="0.0" relY="1.0" />
+        <Point elementId="NAD-KIN-RXN_ENZRXNQT-30909_end" arrowHead="Catalysis" x="0" y="0" elementRef="NAD-KIN-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="NAD-KIN-RXN_ENZRXN-12371">
+      <Waypoints>
+        <Point elementId="NAD-KIN-RXN_ENZRXN-12371_start" x="450.0" y="367.5" elementRef="AT3G21070-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="NAD-KIN-RXN_ENZRXN-12371_end" arrowHead="Catalysis" x="0" y="0" elementRef="NAD-KIN-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="NAD-KIN-RXN_ENZRXNQT-33677">
+      <Waypoints>
+        <Point elementId="NAD-KIN-RXN_ENZRXNQT-33677_start" x="450.0" y="287.5" elementRef="AT1G78590-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="NAD-KIN-RXN_ENZRXNQT-33677_end" arrowHead="Catalysis" x="0" y="0" elementRef="NAD-KIN-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="NAD-KIN-RXN_ENZRXNQT-30041">
+      <Waypoints>
+        <Point elementId="NAD-KIN-RXN_ENZRXNQT-30041_start" x="300" y="287.5" elementRef="AT3G21080.1" relX="0.0" relY="1.0" />
+        <Point elementId="NAD-KIN-RXN_ENZRXNQT-30041_end" arrowHead="Catalysis" x="0" y="0" elementRef="NAD-KIN-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="NAD-KIN-RXN_ENZRXNQT-32877">
+      <Waypoints>
+        <Point elementId="NAD-KIN-RXN_ENZRXNQT-32877_start" x="300" y="367.5" elementRef="AT1G06750.3" relX="0.0" relY="1.0" />
+        <Point elementId="NAD-KIN-RXN_ENZRXNQT-32877_end" arrowHead="Catalysis" x="0" y="0" elementRef="NAD-KIN-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="NAD-KIN-RXN_anchor_reactant_1">
+      <Xref identifier="EC-2.7.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="NAD-KIN-RXN_anchor_reactant_start_1" x="395.0" y="720" elementRef="ATP" relX="1.0" relY="0.0" />
+        <Point elementId="NAD-KIN-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="NAD-KIN-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="NAD-KIN-RXN_anchor_product_0">
+      <Xref identifier="EC-2.7.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="NAD-KIN-RXN_anchor_product_start_0" x="0" y="0" elementRef="NAD-KIN-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="NAD-KIN-RXN_anchor_product_end_0" arrowHead="Conversion" x="155.0" y="720" elementRef="PROTON" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="NAD-KIN-RXN_anchor_product_2">
+      <Xref identifier="EC-2.7.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="NAD-KIN-RXN_anchor_product_start_2" x="0" y="0" elementRef="NAD-KIN-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="NAD-KIN-RXN_anchor_product_end_2" arrowHead="Conversion" x="305.0" y="620" elementRef="ADP" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Groups>
+    <Group elementId="CPLX-7016" textLabel="CPLX-7016" type="Complex">
+      <Xref identifier="CPLX-7016" dataSource="plantcyc" />
+      <Graphics centerX="450" centerY="275" width="140" height="100" textColor="666666" fontName="Arial" fontSize="10" borderColor="9900CC" borderStyle="Dashed" borderWidth="2.0" fillColor="F5E6FF" shapeType="Rectangle" zOrder="-1" />
+      <Comment>The cDNA encoding the NADH kinase (NADK3) was isolated from &lt;i&gt;Arabidopsis thaliana&lt;/i&gt; and its molecular function to phosphorylate NADH confirmed with recombinant expressed protein from &lt;i&gt;E. coli.&lt;/i&gt; Although the enzyme also accepted NAD as substrate the catalytic efficiency with NADH was considerably higher and the enzyme consequently considered as NADH kinase. Unlike the NADH kinases found in yeast the &lt;i&gt;Arabidopsis&lt;/i&gt; enzyme was not confined to mitochondria but was associated to the cytosol |CITS: [15347288]|.</Comment>
+      <Property key="UniqueID" value="CPLX-7016" />
+      <Property key="ComplexComponents" value="AT1G78590-MONOMER" />
+      <Property key="ComponentCount" value="1" />
+      <Property key="IsComplex" value="true" />
+      <Property key="Catalyzes" value="RXN-33677, RXN-12373" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="^coefficient" value="2" />
+      <Property key="InstanceNameTemplate" value="CPLX-*" />
+      <Property key="MolecularWeightExp" value="88." />
+      <Property key="MolecularWeightKd" value="88." />
+      <Property key="Species" value="ARA" />
+      <CitationRef elementRef="citation_PUB_15347288" />
+      <CitationRef elementRef="citation_PUB_15711971" />
+    </Group>
+    <Group elementId="CPLX-7017" textLabel="CPLX-7017" type="Complex">
+      <Xref identifier="CPLX-7017" dataSource="plantcyc" />
+      <Graphics centerX="450" centerY="355" width="140" height="100" textColor="666666" fontName="Arial" fontSize="10" borderColor="9900CC" borderStyle="Dashed" borderWidth="2.0" fillColor="F5E6FF" shapeType="Rectangle" zOrder="-1" />
+      <Comment>NAD kinases are ubiquitously present in all organisms and catalyze the synthesis of NADP from NAD and ATP. Two isoforms of NAD kinase have been detected in &lt;i&gt;Arabidopsis thaliana&lt;/i&gt;. The cDNA encoding for NAD kinase (NADK1) was cloned and its molecular function confirmed by expression of the recombinant enzyme in &lt;i&gt;E. coli&lt;/i&gt;. The transcripts of NADK1 were found in roots, shoots, leaves and flowers of &lt;i&gt;Arabidopsis&lt;/i&gt;. |CITS: [15247403]|</Comment>
+      <Property key="UniqueID" value="CPLX-7017" />
+      <Property key="ComplexComponents" value="AT3G21070-MONOMER" />
+      <Property key="ComponentCount" value="1" />
+      <Property key="IsComplex" value="true" />
+      <Property key="Catalyzes" value="RXN-12629, RXN-12371" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="^coefficient" value="2" />
+      <Property key="InstanceNameTemplate" value="CPLX-*" />
+      <Property key="Species" value="ARA" />
+      <CitationRef elementRef="citation_PUB_15247403" />
+      <CitationRef elementRef="citation_PUB_15711971" />
+    </Group>
+  </Groups>
+  <Citations>
+    <Citation elementId="citation_PUB_15711971">
+      <Xref identifier="15711971" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_18391451">
+      <Xref identifier="18391451" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_15347288">
+      <Xref identifier="15347288" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_15247403">
+      <Xref identifier="15247403" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

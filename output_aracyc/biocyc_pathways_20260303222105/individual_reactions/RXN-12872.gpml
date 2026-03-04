@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="RXN-12872" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Description>Single reaction view for RXN-12872: RXN-12872</Description>
+  <Authors>
+    <Author name="BioCyc" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from BioCyc single reaction data.</Comment>
+  <Property key="UniqueID" value="RXN-12872" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="CPD-13910" textLabel="cyclic-3,4-O-oxalyl-L-threonate" type="Metabolite">
+      <Xref identifier="FTDFTFXOJYXVTH-UHFFFAOYSA-M" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-13910" />
+      <Property key="AlternativeId_Seed" value="cpd24088" />
+      <Property key="AlternativeId_Metanetx" value="MNXM11221" />
+      <Property key="AlternativeId_Pubchem" value="90658084" />
+      <Property key="Synonym_1" value="3,4-cyclic oxalyl theronolactone" />
+      <Property key="ChemicalFormula" value="(C 6) (H 5) (O 7)" />
+      <Property key="AtomCharges" value="(8 -1)" />
+      <Property key="Gibbs0" value="-199.99646" />
+      <Property key="Inchi" value="InChI=1S/C6H6O7/c7-3(4(8)9)2-1-12-5(10)6(11)13-2/h2-3,7H,1H2,(H,8,9)/p-1" />
+      <Property key="InchiKey" value="InChIKey=FTDFTFXOJYXVTH-UHFFFAOYSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="Logp" value="-0.2" />
+      <Property key="MolecularWeight" value="189.101" />
+      <Property key="MonoisotopicMw" value="190.0113525473" />
+      <Property key="NonStandardInchi" value="InChI=1S/C6H6O7/c7-3(4(8)9)2-1-12-5(10)6(11)13-2/h2-3,7H,1H2,(H,8,9)/p-1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="PolarSurfaceArea" value="113." />
+      <Property key="Smiles" value="C1(OC(=O)C(=O)OC(C(O)C(=O)[O-])1)" />
+    </DataNode>
+    <DataNode elementId="CPD-13914" textLabel="cyclic-2,3-O-oxalyl-L-threonate" type="Metabolite">
+      <Xref identifier="NKBSFRFTBUHMJF-UHFFFAOYSA-M" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-13914" />
+      <Property key="AlternativeId_Seed" value="cpd24092" />
+      <Property key="AlternativeId_Metanetx" value="MNXM11222" />
+      <Property key="AlternativeId_Pubchem" value="90659383" />
+      <Property key="Synonym_1" value="2,3-cyclic oxalyl theronolactone" />
+      <Property key="ChemicalFormula" value="(C 6) (H 5) (O 7)" />
+      <Property key="AtomCharges" value="(8 -1)" />
+      <Property key="Gibbs0" value="-201.79648" />
+      <Property key="Inchi" value="InChI=1S/C6H6O7/c7-1-2-3(4(8)9)13-6(11)5(10)12-2/h2-3,7H,1H2,(H,8,9)/p-1" />
+      <Property key="InchiKey" value="InChIKey=NKBSFRFTBUHMJF-UHFFFAOYSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="Logp" value="-0.2" />
+      <Property key="MolecularWeight" value="189.101" />
+      <Property key="MonoisotopicMw" value="190.0113525473" />
+      <Property key="NonStandardInchi" value="InChI=1S/C6H6O7/c7-1-2-3(4(8)9)13-6(11)5(10)12-2/h2-3,7H,1H2,(H,8,9)/p-1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="PolarSurfaceArea" value="113." />
+      <Property key="Smiles" value="C(O)C1(OC(=O)C(=O)OC(C(=O)[O-])1)" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="RXN-12872">
+      <Xref identifier="RXN-12872" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-12872_start" x="395.0" y="210" elementRef="CPD-13914" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-12872_end" arrowHead="Conversion" x="155.0" y="210" elementRef="CPD-13910" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-12872_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-12872" />
+      <Property key="Spontaneous" value="T" />
+      <Property key="Orphan" value=":YES-PUTATIVE" />
+      <Property key="ReactionEquation" value="CPD-13914 =&gt; CPD-13910" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (2 1 0 3 5 4 6 7 8 10 9 12 11) (((CPD-13914 0 12)) ((CPD-13910 0 12))))" />
+      <Property key="Gibbs0" value="1.8000183" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+  </Interactions>
+</Pathway>

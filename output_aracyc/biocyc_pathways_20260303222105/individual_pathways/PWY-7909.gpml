@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="formaldehyde oxidation VII (THF pathway)" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Xref identifier="PWY-7909" dataSource="MetaCyc" />
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Arabidopsis thaliana col&lt;/i&gt;: This pathway is on the list of Accept-If-Predicted Pathways (AIPP) generated for the COMET project, which includes pathways that are present widely throughout the plant kingdom. The AIPP list contains pathways that are automatically accepted if they are predicted for any plant species database. However, AIPP pathways are not automatically imported into databases if they are not predicted by the Pathologic program. &lt;A href=&quot;https://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; &lt;b&gt;General Background&lt;/b&gt; The detoxification of the highly toxic |FRAME: FORMALDEHYDE| is a major biochemical necessity for most life forms. In the case of methylotrophic bacteria, formaldehyde is not just a toxic compound, but also a central intermediate. It has been suggested that the formaldehyde concentration in the cytoplasm of a methylotroph would rise to 100mM in less than 1 minute if formaldehyde consumption would stop |CITS: [11073907]|. Several different pathways for |FRAME: Formaldehyde-Oxidation| are known in bacteria, encoded by unrelated or distantly related genes. &lt;b&gt;About This Pathway&lt;/b&gt; Different variations of this pathway are known - one utilizes the cofactor |FRAME: THF-GLU-N tetrahydrofolate| (H&lt;sub&gt;4&lt;/sub&gt;F), while the other uses the &quot;archaea-like&quot; cofactor |FRAME: THMPT| (H&lt;sub&gt;4&lt;/sub&gt;MPT). The reaction of formaledehyde with |FRAME: THF-GLU-N tetrahydrofolate| is spontaneous |CITS: [5954363][14645276]|, but the condensation of formaldehyde with |FRAME: THMPT| is catalyzed by an enzyme (|FRAME: EC-4.2.1.147|). It has been shown that in some well-studied methylotrophs such as |FRAME: TAX-272630| the different variants of the pathway run in opposite directions and serve very different physiological roles. The |FRAME: THF-GLU-N tetrahydrofolate|-based pathway is a major biosynthetic pathway (|FRAME: PWY-1722|), while the |FRAME: THMPT|-based pathway is used mostly for the generation of reducing power (|FRAME: PWY-1723|). However, a |FRAME: THF-GLU-N tetrahydrofolate|-based formaldehyde oxidation pathway has been reported in the facultative methylotroph |FRAME: TAX-1471| |CITS: [26303953]|. During methylotrophic growth the organism produces large amounts of |FRAME: FORMALDEHYDE| that must be processed. The presence of a linear formaldehyde oxidation pathway that includes formaldehyde dehydrogenase and formate dehydrogenase in |FRAME: TAX-1471| has been reported already in 2002, although the nature of the cofactor involved was not known at the time |CITS: [12368456]|. Surprisingly, bioinformatic analysis of the genome suggested that the pathway uses the |FRAME: THF-GLU-N tetrahydrofolate| cofactor |CITS: [22610424]|. Experiments using &lt;sup&gt;13&lt;/sup&gt;C labeled formaldehyde have confirmed that exposure to fomaldehyde results in the appearance of |FRAME: FORMYL-THF-GLU-N &quot;formyltetrahydrofolate|. THF usually carries several glutamate residues, with the exact numbers depending on the species. In the case of |FRAME: TAX-1471|, only |FRAME: CPD-1301| and |FRAME: CPD-12995| versions of |FRAME: THF-GLU-N tetrahydrofolate| are used in formaldehyde oxidation |CITS: [26303953]|. Including this pathway, four different formaldehyde-metabolizing pathways operate in |FRAME: TAX-1471|: one assimilatory pathway (|FRAME: PWY-1861|) and three dissimilatory pathways - |FRAME: RUMP-PWY|, |FRAME: PWY-7909|, and |FRAME: PWY-7908| |CITS: [26303953]|.</Description>
+  <Authors>
+    <Author name="zhang" />
+    <Author name="SRI" />
+    <Author name="caspi" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-7909" />
+  <Property key="Type" value="Formaldehyde-Oxidation" />
+  <Property key="ReactionCount" value="4" />
+  <Property key="ReactionIDs" value="FORMYLTHFDEFORMYL-RXN, RXN-2881, METHYLENETHFDEHYDROG-NADP-RXN, METHENYLTHFCYCLOHYDRO-RXN" />
+  <Property key="PredecessorCount" value="3" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_11073907" />
+  <CitationRef elementRef="citation_PUB_26303953" />
+  <CitationRef elementRef="citation_PUB_12368456" />
+  <CitationRef elementRef="citation_PUB_22610424" />
+  <Graphics boardWidth="1200" boardHeight="940" />
+  <DataNodes>
+    <DataNode elementId="AT4G17360" textLabel="AT4G17360" type="GeneProduct">
+      <Xref identifier="AT4G17360" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G17360" />
+      <Property key="Products" value="AT4G17360.3, AT4G17360.2, AT4G17360.1" />
+      <Property key="ProductCount" value="3" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT4G17360" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT5G47435" textLabel="AT5G47435" type="GeneProduct">
+      <Xref identifier="AT5G47435" dataSource="TAIR gene name" />
+      <Graphics centerX="220" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G47435" />
+      <Property key="Products" value="AT5G47435.2, AT5G47435.1" />
+      <Property key="ProductCount" value="2" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT5G47435" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT4G00600" textLabel="AT4G00600" type="GeneProduct">
+      <Xref identifier="AT4G00600" dataSource="TAIR gene name" />
+      <Graphics centerX="340" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G00600" />
+      <Property key="Product" value="AT4G00600.1" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT4G00600" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT3G12290" textLabel="AT3G12290" type="GeneProduct">
+      <Xref identifier="AT3G12290" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G12290" />
+      <Property key="Product" value="AT3G12290.1" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT3G12290" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT4G00620" textLabel="AT4G00620" type="GeneProduct">
+      <Xref identifier="AT4G00620" dataSource="TAIR gene name" />
+      <Graphics centerX="220" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G00620" />
+      <Property key="Product" value="AT4G00620.1" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT4G00620" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT2G38660" textLabel="AT2G38660" type="GeneProduct">
+      <Xref identifier="AT2G38660" dataSource="TAIR gene name" />
+      <Graphics centerX="340" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT2G38660" />
+      <Property key="Products" value="AT2G38660.8, AT2G38660.7, AT2G38660.6, AT2G38660.5, AT2G38660.4, AT2G38660.3, AT2G38660.2, AT2G38660.1" />
+      <Property key="ProductCount" value="8" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT2G38660" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT4G17360.3" textLabel="AT4G17360.3" type="Protein">
+      <Xref identifier="AT4G17360.3" dataSource="plantcyc" />
+      <Graphics centerX="150" centerY="275" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G17360.3" />
+      <Property key="Catalyzes" value="RXN-28985" />
+      <Property key="Accession1" value="AT4G17360.3" />
+      <Property key="Gene" value="AT4G17360" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT3G12290.1" textLabel="AT3G12290.1" type="Protein">
+      <Xref identifier="AT3G12290.1" dataSource="plantcyc" />
+      <Graphics centerX="300" centerY="275" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G12290.1" />
+      <Property key="Catalyzes" value="RXN-30236, RXN-30235" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="AT3G12290.1" />
+      <Property key="Gene" value="AT3G12290" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT5G47435.2" textLabel="AT5G47435.2" type="Protein">
+      <Xref identifier="AT5G47435.2" dataSource="plantcyc" />
+      <Graphics centerX="450" centerY="275" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G47435.2" />
+      <Property key="Catalyzes" value="RXN-27477" />
+      <Property key="Accession1" value="AT5G47435.2" />
+      <Property key="Gene" value="AT5G47435" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT4G00600.1" textLabel="AT4G00600.1" type="Protein">
+      <Xref identifier="AT4G00600.1" dataSource="plantcyc" />
+      <Graphics centerX="150" centerY="355" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G00600.1" />
+      <Property key="Catalyzes" value="RXN-29293, RXN-29292" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="AT4G00600.1" />
+      <Property key="Gene" value="AT4G00600" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT2G38660.8" textLabel="AT2G38660.8" type="Protein">
+      <Xref identifier="AT2G38660.8" dataSource="plantcyc" />
+      <Graphics centerX="300" centerY="355" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT2G38660.8" />
+      <Property key="Catalyzes" value="RXN-30715, RXN-30714" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="AT2G38660.8" />
+      <Property key="Gene" value="AT2G38660" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT4G00620.1" textLabel="AT4G00620.1" type="Protein">
+      <Xref identifier="AT4G00620.1" dataSource="plantcyc" />
+      <Graphics centerX="450" centerY="355" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G00620.1" />
+      <Property key="Catalyzes" value="RXN-29291, RXN-29290" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="AT4G00620.1" />
+      <Property key="Gene" value="AT4G00620" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="WATER" textLabel="H₂O" type="Metabolite">
+      <Xref identifier="XLYOFNOQVPJJNP-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="540" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="WATER" />
+      <Property key="AlternativeId_Bigg" value="h2o" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15377" />
+      <Property key="AlternativeId_Hmdb" value="HMDB02111" />
+      <Property key="AlternativeId_Chemspider" value="937" />
+      <Property key="AlternativeId_Chebi" value="15377" />
+      <Property key="AlternativeId_Pubchem" value="962" />
+      <Property key="AlternativeId_LigandCpd" value="C00001" />
+      <Property key="AlternativeId_Cas" value="7732-18-5" />
+      <Property key="Synonym_1" value="H20" />
+      <Property key="Synonym_2" value="H&lt;sub&gt;2&lt;/sub&gt;0" />
+      <Property key="Synonym_3" value="H2O" />
+      <Property key="Synonym_4" value="hydrogen oxide" />
+      <Property key="Synonym_5" value="water" />
+      <Property key="ChemicalFormula" value="(H 2) (O 1)" />
+      <Property key="Gibbs0" value="-36.144756" />
+      <Property key="Inchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="InchiKey" value="InChIKey=XLYOFNOQVPJJNP-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="18.015" />
+      <Property key="MonoisotopicMw" value="18.0105646863" />
+      <Property key="NonStandardInchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="O" />
+    </DataNode>
+    <DataNode elementId="FORMATE" textLabel="formate" type="Metabolite">
+      <Xref identifier="BDAGIHXWWSANSR-UHFFFAOYSA-M" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="540" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>Formate is a one-carbon molecule that was first isolated from distillation of ant bodies, and it was subsequently named using the Latin word for ant, formica |CITS: [Stumper21]|. Ants and other insects accumulate formate in secretory glands and release their content as a mechanism of defense. Formate serves as an intermediate in one-carbon (1C) metabolism in all organisms. It is also a key metabolite for many bacterial and archaeal species. Depending on the physiological conditions, formate serves various roles, such as to act as a reductant in anaerobic respiration, be oxidized aerobically, be secreted, or be converted to hydrogen and CO&lt;sub&gt;2&lt;/sub&gt;. Formate is particularly common in anaerobic habitats, produced as a fermentation product of some species and used as a growth substrate for others. It is crucial compound in many syntrophic associations, in which organisms live close to the thermodynamic limit (for example, sulfate-reducing bacteria and methanogens) |CITS: [18708519][20844539]|. Its redox potential is low (around -420 mV), which allows it to donate an electron for the reduction of fumarate. In eukaryotes formate is produced from a variety of nutrients, and can be fed into a number of biosynthetic pathways. A common source of formate is the catabolism of serine or glycine (via tetrahydrofolate). Another important source is formaldehyde, which is formed by many demethylation enzymes and as a degradation product of methanol. Formate is also produced during sterol synthesis, polyamine synthesis, and tryptophan degradation, and is used during purine synthesis, thymidylate synthesis, and as the source of carbon for methylation reactions via folate and methionine (formate can be assimilated into folate by |FRAME: EC-6.3.4.3| and its carbon transferred to methionine by |FRAME: EC-2.1.1.13|. Methionine is then converted to |FRAME: S-ADENOSYLMETHIONINE|, the most common methyl group donor) |CITS: [31402327]|.</Comment>
+      <Property key="UniqueID" value="FORMATE" />
+      <Property key="AlternativeId_Refmet" value="Formic acid" />
+      <Property key="AlternativeId_Bigg" value="for" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15740" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00142" />
+      <Property key="AlternativeId_Chemspider" value="277" />
+      <Property key="AlternativeId_Chebi" value="15740" />
+      <Property key="AlternativeId_Pubchem" value="283" />
+      <Property key="AlternativeId_LigandCpd" value="C00058" />
+      <Property key="AlternativeId_Cas" value="64-18-6" />
+      <Property key="Synonym_1" value="formic acid" />
+      <Property key="Synonym_2" value="methanoate" />
+      <Property key="ChemicalFormula" value="(C 1) (H 1) (O 2)" />
+      <Property key="AtomCharges" value="(3 -1)" />
+      <Property key="Gibbs0" value="-73.93095" />
+      <Property key="Inchi" value="InChI=1S/CH2O2/c2-1-3/h1H,(H,2,3)/p-1" />
+      <Property key="InchiKey" value="InChIKey=BDAGIHXWWSANSR-UHFFFAOYSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="45.018" />
+      <Property key="MonoisotopicMw" value="46.0054793084" />
+      <Property key="NonStandardInchi" value="InChI=1S/CH2O2/c2-1-3/h1H,(H,2,3)/p-1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-6186, REG0-7828" />
+      <Property key="Smiles" value="C([O-])=O" />
+      <CitationRef elementRef="citation_PUB_31402327" />
+    </DataNode>
+    <DataNode elementId="NADP" textLabel="NADP⁺" type="Metabolite">
+      <Xref identifier="XJLXINKUBYWONI-NNYOXOHSSA-K" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="540" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>|FRAME: NAD| and |FRAME: NADP| are dinucleotides containing one |FRAME: NIACINAMIDE| base and one |FRAME: ADENINE| base. Each nucleotide is connected to a ribose sugar at position 1, and the two riboses are connected at their 5 position via a diphosphate. The only difference between the two is that in NADP there is an additional phosphate group at the 2&apos; position of the ribose that carries the adenine moiety. These molecules are biological carriers of reductive equivalents (i.e. high potential electrons). Most of the time they function as cosubstrates, and in some cases they function as |FRAME: Cofactors cofactors|. They are often referred to by the obsolete term &quot;coenzymes&quot;. The most common function of |FRAME: NAD| is to accept two electrons and a proton (a hydride ion) from a substrate that is being oxidized. This reduction converts |FRAME: NAD| to |FRAME: NADH|, the reduced form. NADH then diffuses or is transported to a terminal oxidase, where the electrons are passed on, regenerating the oxidized form. |FRAME: NADPH|, on the other hand, is mostly involved in biosynthetic reactions, where it serves as an electron donor. NADPH is formed by reduction of |FRAME: NADP|, which occurs by different mechanisms in different types of organisms. In photosynthetic organisms |FRAME: NADP| is reduced by |FRAME: CPLX-84|. In heterotrophic organisms it is reduced by central metabolism processes such as the pentose phosphate pathway (see |FRAME: OXIDATIVEPENT-PWY|).</Comment>
+      <Property key="UniqueID" value="NADP" />
+      <Property key="AlternativeId_Bigg" value="nadp" />
+      <Property key="AlternativeId_Seed" value="cpd00006" />
+      <Property key="AlternativeId_Metanetx" value="MNXM5" />
+      <Property key="AlternativeId_Refmet" value="NADP+" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC58349" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00217" />
+      <Property key="AlternativeId_Chemspider" value="10239198" />
+      <Property key="AlternativeId_Chebi" value="58349" />
+      <Property key="AlternativeId_Pubchem" value="15938972" />
+      <Property key="AlternativeId_LigandCpd" value="C00006" />
+      <Property key="AlternativeId_Cas" value="53-59-8" />
+      <Property key="Synonym_1" value="NADP+" />
+      <Property key="Synonym_2" value="coenzyme II" />
+      <Property key="Synonym_3" value="triphosphopyridine nucleotide" />
+      <Property key="Synonym_4" value="nicotinamide adenine dinucleotide phosphate" />
+      <Property key="Synonym_5" value="NADP-oxidized" />
+      <Property key="Synonym_6" value="NADP-ox" />
+      <Property key="Synonym_7" value="TPN" />
+      <Property key="Synonym_8" value="TPN+" />
+      <Property key="Synonym_9" value="TPN-ox" />
+      <Property key="Synonym_10" value="nicotinamide adenine dinucleotide-P" />
+      <Property key="Synonym_11" value="NADP(+)" />
+      <Property key="Synonym_12" value="NADP" />
+      <Property key="Synonym_13" value="&amp;beta;-NADP&lt;sup&gt;+&lt;/sup&gt;" />
+      <Property key="ChemicalFormula" value="(C 21) (H 25) (N 7) (O 17) (P 3)" />
+      <Property key="AtomCharges" value="(27 1), (35 -1), (33 -1), (39 -1), (37 -1)" />
+      <Property key="CofactorsOf" value="ENZRXN-12451" />
+      <Property key="Gibbs0" value="-563.64954" />
+      <Property key="Inchi" value="InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p-3/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=XJLXINKUBYWONI-NNYOXOHSSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="740.386" />
+      <Property key="MonoisotopicMw" value="745.0911021051" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-14905, REG0-11313, REG0-8744, REG-11605" />
+      <Property key="Smiles" value="C5(/C=C\C(\C(=O)N)=C/[N+](/[C@@H]1(O[C@@H]([C@H]([C@H]1O)O)COP(OP(OC[C@H]4(O[C@@H](N2(C3(\C(\N=C/2)=C(N)/N=C\N=3)))[C@H](OP([O-])(=O)[O-])[C@H](O)4))(=O)[O-])(=O)[O-]))=5)" />
+    </DataNode>
+    <DataNode elementId="THF-GLU-N" textLabel="a tetrahydrofolate" type="Metabolite">
+      <Xref identifier="25202940" dataSource="PubChem-compound" />
+      <Graphics centerX="650" centerY="540" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>|FRAME: THF-GLU-N Tetrahydrofolate| (vitamin B9) and its derivatives, commonly termed folates, are required in a variety of reactions in both prokaryotes and eukaryotes, where they act as carriers of one-carbon units in various oxidation states. These one-carbon units are utilized in the biosynthesis of various cellular components, including glycine, methionine, formylmethionine, thymidylate, pantothenate and purine nucleotides. During folate biosynthesis (as described in |FRAME:FOLSYN-PWY|) the enzyme |FRAME: EC-6.3.2.12|, adds a glutamate residue to |FRAME: 7-8-DIHYDROPTEROATE|, resulting in |FRAME: DIHYDROFOLATE|, also known as H&lt;sub&gt;2&lt;/sub&gt;PteGlu&lt;sub&gt;1&lt;/sub&gt;. This molecule in turn is reduced by |FRAME:EC-1.5.1.3| (FolA) to |FRAME: THF| (H&lt;sub&gt;4&lt;/sub&gt;PteGlu&lt;sub&gt;1&lt;/sub&gt;, or tetrahydrofolate), which can be converted to several other folate molecules |CITS: [11501996]|. Most folate molecules are modified in cells by successive additions of glutamate residues, forming folate polyglutamates (or folylpoly-&amp;gamma;-glutamates). The glutamate residues are added by an amide linkage to the &amp;gamma;-carboxylate group of the folate or folate derivative. Since these isopeptide bonds are not the normal amide bonds they are not hydrolyzed by peptidases or proteases, which are specific for &amp;alpha;-carboxyl-linked peptide bonds. The addition of glutamyl residues probably occurs after the reduction of newly synthesized dihydrofolate to tetrahydrofolate and its conversion to other tetrahydrofolate derivatives. The glutamylation of folate residues serves several goals: it prevents the efflux of folates out of the cell, it increases the binding of folate cofactors to the enzymes of folate interconversion and biosynthesis, and in mammals, it allows the accumulation of folates in the mitochondria, which is required for glycine synthesis |CITS: [10598551]|. This class stands for tetrahydrofolates with an unspecified number of glutamate residues.</Comment>
+      <Property key="UniqueID" value="THF-GLU-N" />
+      <Property key="AlternativeId_Seed" value="cpd28218" />
+      <Property key="AlternativeId_Metanetx" value="MNXM13027" />
+      <Property key="AlternativeId_Chebi" value="28624" />
+      <Property key="AlternativeId_Pubchem" value="25202940" />
+      <Property key="AlternativeId_LigandCpd" value="C03541" />
+      <Property key="Synonym_1" value="tetrahydropteroyl polyglutamate" />
+      <Property key="Synonym_2" value="THF(glu)&lt;sub&gt;n&lt;/sub&gt;" />
+      <Property key="Synonym_3" value="H&lt;sub&gt;4&lt;/sub&gt;PteGlu&lt;sub&gt;n&lt;/sub&gt;" />
+      <Property key="Synonym_4" value="a tetrahydrofolate-glutamate" />
+      <Property key="Synonym_5" value="THF" />
+      <Property key="Synonym_6" value="THF polyglutamate" />
+      <Property key="AtomCharges" value="(31 -1)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="N+1Name" value="tetrahydropteroyl-[&amp;gamma;-Glu]&lt;sub&gt;(n+1)&lt;/sub&gt;" />
+      <Property key="N1Name" value="tetrahydropteroyl-[&amp;gamma;-Glu]&lt;sub&gt;(n-1)&lt;/sub&gt;" />
+      <Property key="NName" value="tetrahydropteroyl-[&amp;gamma;-Glu]&lt;sub&gt;(n)&lt;/sub&gt;" />
+      <Property key="NonStandardInchi" value="InChI=1S/C19H23N7O5/c20-19-25-15-14(17(29)26-19)23-12(9-22-15)8-21-11-5-3-10(4-6-11)16(28)24-13(18(30)31)2-1-7-27/h3-7,12-13,21,23H,1-2,8-9H2,(H,24,28)(H,30,31)(H4,20,22,25,26,29)/p-1/t12-,13-/m0/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C([C@@H]1(NC2(\C(NC(/N)=N/C(\NC1)=2)=O)))NC3(\C=C/C(/C(N[C@H](C(=O)[O-])CCC([R])=O)=O)=C\C=3)" />
+      <CitationRef elementRef="citation_PUB_11501996" />
+      <CitationRef elementRef="citation_PUB_10598551" />
+    </DataNode>
+    <DataNode elementId="NADPH" textLabel="NADPH" type="Metabolite">
+      <Xref identifier="ACFIXJIJDZMPPO-NNYOXOHSSA-J" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="640" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>|FRAME: NAD| and |FRAME: NADP| are dinucleotides containing one |FRAME: NIACINAMIDE| base and one |FRAME: ADENINE| base. Each nucleotide is connected to a ribose sugar at position 1, and the two riboses are connected at their 5 position via a diphosphate. The only difference between the two is that in NADP there is an additional phosphate group at the 2&apos; position of the ribose that carries the adenine moiety. These molecules are biological carriers of reductive equivalents (i.e. high potential electrons). Most of the time they function as cosubstrates, and in some cases they function as |FRAME: Cofactors cofactors|. They are often referred to by the obsolete term &quot;coenzymes&quot;. The most common function of |FRAME: NAD| is to accept two electrons and a proton (a hydride ion) from a substrate that is being oxidized. This reduction converts |FRAME: NAD| to |FRAME: NADH|, the reduced form. NADH then diffuses or is transported to a terminal oxidase, where the electrons are passed on, regenerating the oxidized form. |FRAME: NADPH|, on the other hand, is mostly involved in biosynthetic reactions, where it serves as an electron donor. NADPH is formed by reduction of |FRAME: NADP|, which occurs by different mechanisms in different types of organisms. In photosynthetic organisms |FRAME: NADP| is reduced by |FRAME: CPLX-84|. In heterotrophic organisms it is reduced by central metabolism processes such as the pentose phosphate pathway (see |FRAME: OXIDATIVEPENT-PWY|).</Comment>
+      <Property key="UniqueID" value="NADPH" />
+      <Property key="AlternativeId_Bigg" value="nadph" />
+      <Property key="AlternativeId_Seed" value="cpd00005" />
+      <Property key="AlternativeId_Metanetx" value="MNXM6" />
+      <Property key="AlternativeId_Refmet" value="NADPH" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57783" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00221" />
+      <Property key="AlternativeId_Chemspider" value="10239199" />
+      <Property key="AlternativeId_Chebi" value="57783" />
+      <Property key="AlternativeId_Pubchem" value="15983949" />
+      <Property key="AlternativeId_Cas" value="2646-71-1" />
+      <Property key="AlternativeId_LigandCpd" value="C00005" />
+      <Property key="Synonym_1" value="NADP(H)" />
+      <Property key="Synonym_2" value="NADPH&lt;SUP&gt;+&lt;/SUP&gt;H&lt;SUP&gt;+&lt;/SUP&gt;" />
+      <Property key="Synonym_3" value="NADP-reduced" />
+      <Property key="Synonym_4" value="dihydrotriphosphopyridine nucleotide reduced" />
+      <Property key="Synonym_5" value="NADPH+H+" />
+      <Property key="Synonym_6" value="Nicotinamide adenine dinucleotide phosphate - reduced" />
+      <Property key="Synonym_7" value="reduced nicotinamide adenine dinucleotide phosphate" />
+      <Property key="Synonym_8" value="NADPH2" />
+      <Property key="Synonym_9" value="NADPH&lt;SUB&gt;2&lt;/SUB&gt;" />
+      <Property key="Synonym_10" value="dihydrotriphosphopyridine nucleotide" />
+      <Property key="Synonym_11" value="reduced dihydrotriphosphopyridine nucleotide" />
+      <Property key="Synonym_12" value="dihydronicotinamide adenine dinucleotide phosphate" />
+      <Property key="Synonym_13" value="dihydronicotinamide adenine dinucleotide phosphate reduced" />
+      <Property key="Synonym_14" value="reduced NADP" />
+      <Property key="Synonym_15" value="NADP-red" />
+      <Property key="Synonym_16" value="TPNH" />
+      <Property key="Synonym_17" value="dihydronicotinamide adenine dinucleotide-P" />
+      <Property key="Synonym_18" value="&amp;beta;-NADPH" />
+      <Property key="Synonym_19" value="&amp;beta;-nicotinamide adenine dinucleotide phosphate, reduced" />
+      <Property key="ChemicalFormula" value="(C 21) (H 26) (N 7) (O 17) (P 3)" />
+      <Property key="AtomCharges" value="(35 -1), (33 -1), (39 -1), (37 -1)" />
+      <Property key="CofactorsOf" value="ENZRXN-33" />
+      <Property key="Gibbs0" value="-551.72284" />
+      <Property key="Inchi" value="InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)/p-4/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=ACFIXJIJDZMPPO-NNYOXOHSSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="741.394" />
+      <Property key="MonoisotopicMw" value="745.0911021051" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-9458, REG0-8743, REG-6520, REG-7365, REGQT-476, REGQT-404, REGQT-395, REGQT-256, REGQT-254, REGQT-253, REGQT-244" />
+      <Property key="Smiles" value="C1(\N(/C=C(C\C=1)/C(=O)N)[C@@H]2(O[C@@H]([C@H]([C@H]2O)O)COP(OP(OC[C@H]5(O[C@@H](N3(C4(\C(\N=C/3)=C(N)/N=C\N=4)))[C@H](OP([O-])(=O)[O-])[C@H](O)5))(=O)[O-])(=O)[O-]))" />
+    </DataNode>
+    <DataNode elementId="PROTON" textLabel="H⁺" type="Metabolite">
+      <Xref identifier="GPRLSGONYQIRFK-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="640" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PROTON" />
+      <Property key="AlternativeId_Bigg" value="h" />
+      <Property key="AlternativeId_Seed" value="cpd00067" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1" />
+      <Property key="AlternativeId_Hmdb" value="HMDB59597" />
+      <Property key="AlternativeId_Chemspider" value="1010" />
+      <Property key="AlternativeId_Pubchem" value="1038" />
+      <Property key="AlternativeId_Chebi" value="15378" />
+      <Property key="AlternativeId_Cas" value="12408-02-5" />
+      <Property key="AlternativeId_LigandCpd" value="C00080" />
+      <Property key="Synonym_1" value="H" />
+      <Property key="Synonym_2" value="hydrogen ion" />
+      <Property key="Synonym_3" value="proton" />
+      <Property key="ChemicalFormula" value="(H 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="0.42906138" />
+      <Property key="Inchi" value="InChI=1S/p+1" />
+      <Property key="InchiKey" value="InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1.008" />
+      <Property key="MonoisotopicMw" value="1.0078250321" />
+      <Property key="NonStandardInchi" value="InChI=1S/p+1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="[H+]" />
+    </DataNode>
+    <DataNode elementId="FORMYL-THF-GLU-N" textLabel="an N¹⁰-formyltetrahydrofolate" type="Metabolite">
+      <Xref identifier="MNXM8615" dataSource="MetaNetX" />
+      <Graphics centerX="500" centerY="640" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>|FRAME: THF-GLU-N Tetrahydrofolate| (vitamin B9) and its derivatives, commonly termed folates, are required in a variety of reactions in both prokaryotes and eukaryotes, where they act as carriers of one-carbon units in various oxidation states. These one-carbon units are utilized in the biosynthesis of various cellular components, including glycine, methionine, formylmethionine, thymidylate, pantothenate and purine nucleotides. During folate biosynthesis (as described in |FRAME:FOLSYN-PWY|) the enzyme |FRAME: EC-6.3.2.12|, adds a glutamate residue to |FRAME: 7-8-DIHYDROPTEROATE|, resulting in |FRAME: DIHYDROFOLATE|, also known as H&lt;sub&gt;2&lt;/sub&gt;PteGlu&lt;sub&gt;1&lt;/sub&gt;. This molecule in turn is reduced by |FRAME:EC-1.5.1.3| (FolA) to |FRAME: THF| (H&lt;sub&gt;4&lt;/sub&gt;PteGlu&lt;sub&gt;1&lt;/sub&gt;, or tetrahydrofolate), which can be converted to several other folate molecules |CITS: [11501996]|. Most folate molecules are modified in cells by successive additions of glutamate residues, forming folate polyglutamates (or folylpoly-&amp;gamma;-glutamates). The glutamate residues are added by an amide linkage to the &amp;gamma;-carboxylate group of the folate or folate derivative. Since these isopeptide bonds are not the normal amide bonds they are not hydrolyzed by peptidases or proteases, which are specific for &amp;alpha;-carboxyl-linked peptide bonds. The addition of glutamyl residues probably occurs after the reduction of newly synthesized dihydrofolate to tetrahydrofolate and its conversion to other tetrahydrofolate derivatives. The glutamylation of folate residues serves several goals: it prevents the efflux of folates out of the cell, it increases the binding of folate cofactors to the enzymes of folate interconversion and biosynthesis, and in mammals, it allows the accumulation of folates in the mitochondria, which is required for glycine synthesis |CITS: [10598551]|. This class stands for 10-formyltetrahydrofolates with an unspecified number of glutamate residues.</Comment>
+      <Property key="UniqueID" value="FORMYL-THF-GLU-N" />
+      <Property key="AlternativeId_Seed" value="cpd27039" />
+      <Property key="AlternativeId_Metanetx" value="MNXM8615" />
+      <Property key="Synonym_1" value="a 10-formyltetrahydrofolate" />
+      <Property key="AtomCharges" value="(32 -1)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="N+1Name" value="10-formyl-tetrahydropteroyl-[&amp;gamma;-Glu]&lt;sub&gt;(n+1)&lt;/sub&gt;" />
+      <Property key="N1Name" value="10-formyl-tetrahydropteroyl-[&amp;gamma;-Glu]&lt;sub&gt;(n-1)&lt;/sub&gt;" />
+      <Property key="NName" value="10-formyl-tetrahydropteroyl-[&amp;gamma;-Glu]&lt;sub&gt;(n)&lt;/sub&gt;" />
+      <Property key="NonStandardInchi" value="InChI=1S/C20H23N7O6/c21-20-25-16-15(18(31)26-20)23-12(8-22-16)9-27(10-29)13-5-3-11(4-6-13)17(30)24-14(19(32)33)2-1-7-28/h3-7,10,12,14,23H,1-2,8-9H2,(H,24,30)(H,32,33)(H4,21,22,25,26,31)/p-1/t12-,14+/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C([R])(CC[C@@H](C(=O)[O-])NC(=O)C3(\C=C/C(/N(C=O)C[C@H]1(CNC2(/N=C(N)\NC(=O)C(/N1)=2)))=C\C=3))=O" />
+      <CitationRef elementRef="citation_PUB_11501996" />
+      <CitationRef elementRef="citation_PUB_10598551" />
+    </DataNode>
+    <DataNode elementId="_5-10-METHENYL-THF-GLU-N" textLabel="a 5,10-methenyltetrahydrofolate" type="Metabolite">
+      <Xref identifier="MNXM146117" dataSource="MetaNetX" />
+      <Graphics centerX="650" centerY="640" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="AUN7V-2">|FRAME: THF-GLU-N Tetrahydrofolate| (vitamin B9) and its derivatives, commonly termed folates, are required in a variety of reactions in both prokaryotes and eukaryotes, where they act as carriers of one-carbon units in various oxidation states. These one-carbon units are utilized in the biosynthesis of several cellular components, including glycine, methionine, formylmethionine, thymidylate, pantothenate and purine nucleotides. During folate biosynthesis (as described in |FRAME:FOLSYN-PWY|) the enzyme |FRAME: EC-6.3.2.12|, adds a glutamate residue to |FRAME: 7-8-DIHYDROPTEROATE|, resulting in |FRAME: DIHYDROFOLATE|, also known as H&lt;sub&gt;2&lt;/sub&gt;PteGlu&lt;sub&gt;1&lt;/sub&gt;. This molecule in turn is reduced by |FRAME:EC-1.5.1.3| (FolA) to |FRAME: THF| (H&lt;sub&gt;4&lt;/sub&gt;PteGlu&lt;sub&gt;1&lt;/sub&gt;, or tetrahydrofolate), which can be converted to several other folate molecules |CITS: [11501996]|. Most folate molecules are modified in cells by successive additions of glutamate residues, forming folate polyglutamates (or folylpoly-&amp;gamma;-glutamates). The glutamate residues are added by an amide linkage to the &amp;gamma;-carboxylate group of the folate or folate derivative. Since these isopeptide bonds are not the normal amide bonds they are not hydrolyzed by peptidases or proteases, which are specific for &amp;alpha;-carboxyl-linked peptide bonds. The addition of glutamyl residues probably occurs after the reduction of newly synthesized dihydrofolate to tetrahydrofolate and its conversion to other tetrahydrofolate derivatives. The glutamylation of folate residues serves several goals: it prevents the efflux of folates out of the cell, it increases the binding of folate cofactors to the enzymes of folate interconversion and biosynthesis, and in mammals, it allows the accumulation of folates in the mitochondria, which is required for glycine synthesis |CITS: [10598551]|. This class stands for 5,10-methenyltetrahydrofolates with an unspecified number of glutamate residues.</Comment>
+      <Property key="UniqueID" value="5-10-METHENYL-THF-GLU-N" />
+      <Property key="AlternativeId_Metanetx" value="MNXM146117" />
+      <Property key="Synonym_1" value="a 5,10-methenyl-THF" />
+      <Property key="AtomCharges" value="(32 -1), (27 1)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="N+1Name" value="5,10-methenyl-tetrahydropteroyl-[&amp;gamma;-Glu]&lt;sub&gt;(n+1)&lt;/sub&gt;" />
+      <Property key="NName" value="5,10-methenyl-tetrahydropteroyl-[&amp;gamma;-Glu]&lt;sub&gt;(n)&lt;/sub&gt;" />
+      <Property key="NonStandardInchi" value="InChI=1S/C20H21N7O5/c21-20-24-16-15(18(30)25-20)27-10-26(9-13(27)8-22-16)12-5-3-11(4-6-12)17(29)23-14(19(31)32)2-1-7-28/h3-7,10,13-14H,1-2,8-9H2,(H5-,21,22,23,24,25,29,30,31,32)/t13-,14+/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C3(NC4(/N=C(N)\NC(=O)C(/[N+]2(\[C@H](CN(C1(\C=C/C(/C(=O)N[C@@H](CCC([R])=O)C([O-])=O)=C\C=1))/C=2)3))=4))" />
+      <CitationRef elementRef="citation_PUB_11501996" />
+      <CitationRef elementRef="citation_PUB_10598551" />
+    </DataNode>
+    <DataNode elementId="METHYLENE-THF-GLU-N" textLabel="a 5,10-methylenetetrahydrofolate" type="Metabolite">
+      <Xref identifier="MNXM162297" dataSource="MetaNetX" />
+      <Graphics centerX="200" centerY="740" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="keseler, SRI">|FRAME: THF-GLU-N Tetrahydrofolate| (vitamin B9) and its derivatives, commonly termed folates, are required in a variety of reactions in both prokaryotes and eukaryotes, where they act as carriers of one-carbon units in various oxidation states. These one-carbon units are utilized in the biosynthesis of various cellular components, including glycine, methionine, formylmethionine, thymidylate, pantothenate and purine nucleotides. During folate biosynthesis (as described in |FRAME:FOLSYN-PWY|) the enzyme |FRAME: EC-6.3.2.12|, adds a glutamate residue to |FRAME: 7-8-DIHYDROPTEROATE|, resulting in |FRAME: DIHYDROFOLATE|, also known as H&lt;sub&gt;2&lt;/sub&gt;PteGlu&lt;sub&gt;1&lt;/sub&gt;. This molecule in turn is reduced by |FRAME:EC-1.5.1.3| (FolA) to |FRAME: THF| (H&lt;sub&gt;4&lt;/sub&gt;PteGlu&lt;sub&gt;1&lt;/sub&gt;, or tetrahydrofolate), which can be converted to several other folate molecules |CITS: [11501996]|. Most folate molecules are modified in cells by successive additions of glutamate residues, forming folate polyglutamates (or folylpoly-&amp;gamma;-glutamates). The glutamate residues are added by an amide linkage to the &amp;gamma;-carboxylate group of the folate or folate derivative. Since these isopeptide bonds are not the normal amide bonds they are not hydrolyzed by peptidases or proteases, which are specific for &amp;alpha;-carboxyl-linked peptide bonds. The addition of glutamyl residues probably occurs after the reduction of newly synthesized dihydrofolate to tetrahydrofolate and its conversion to other tetrahydrofolate derivatives. The glutamylation of folate residues serves several goals: it prevents the efflux of folates out of the cell, it increases the binding of folate cofactors to the enzymes of folate interconversion and biosynthesis, and in mammals, it allows the accumulation of folates in the mitochondria, which is required for glycine synthesis |CITS: [10598551]|. This class stands for 5,10-methylene-tetrahydrofolates with an unspecified number of glutamate residues.</Comment>
+      <Property key="UniqueID" value="METHYLENE-THF-GLU-N" />
+      <Property key="AlternativeId_Seed" value="cpd27449" />
+      <Property key="AlternativeId_Metanetx" value="MNXM162297" />
+      <Property key="Synonym_1" value="(-)CH&lt;sub&gt;2&lt;/sub&gt;H&lt;sub&gt;4&lt;/sub&gt;folate" />
+      <Property key="Synonym_2" value="(-)5,10-methylene-5,6,7,8-tetrahydrofolate" />
+      <Property key="Synonym_3" value="methylene-H4PteGlu(n)" />
+      <Property key="Synonym_4" value="methylene-THF(glu)&lt;sub&gt;n&lt;/sub&gt;" />
+      <Property key="Synonym_5" value="methylene-H&lt;sub&gt;4&lt;/sub&gt;PteGlu&lt;sub&gt;n&lt;/sub&gt;" />
+      <Property key="Synonym_6" value="methylene-tetrahydropteroylpolyglutamates" />
+      <Property key="AtomCharges" value="(32 -1)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="N+1Name" value="methylene-tetrahydropteroyl-[&amp;gamma;-Glu]&lt;sub&gt;(n+1)&lt;/sub&gt;" />
+      <Property key="NName" value="methylene-tetrahydropteroyl-[&amp;gamma;-Glu]&lt;sub&gt;(n)&lt;/sub&gt;" />
+      <Property key="NonStandardInchi" value="InChI=1S/C20H23N7O5/c21-20-24-16-15(18(30)25-20)27-10-26(9-13(27)8-22-16)12-5-3-11(4-6-12)17(29)23-14(19(31)32)2-1-7-28/h3-7,13-14H,1-2,8-10H2,(H,23,29)(H,31,32)(H4,21,22,24,25,30)/p-1/t13-,14+/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG0-7907" />
+      <Property key="Smiles" value="C3(NC4(/N=C(N)\NC(=O)C(/N2(CN(C1(\C=C/C(/C(=O)N[C@@H](CCC([R])=O)C([O-])=O)=C\C=1))C[C@@H]23))=4))" />
+      <CitationRef elementRef="citation_PUB_11501996" />
+      <CitationRef elementRef="citation_PUB_10598551" />
+    </DataNode>
+    <DataNode elementId="FORMALDEHYDE" textLabel="formaldehyde" type="Metabolite">
+      <Xref identifier="WSFSSNUMVMOOMR-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="740" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="FORMALDEHYDE" />
+      <Property key="AlternativeId_Bigg" value="fald" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC16842" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01426" />
+      <Property key="AlternativeId_Drugbank" value="DB03843" />
+      <Property key="AlternativeId_Chemspider" value="692" />
+      <Property key="AlternativeId_Chebi" value="16842" />
+      <Property key="AlternativeId_Pubchem" value="712" />
+      <Property key="AlternativeId_LigandCpd" value="C00067" />
+      <Property key="AlternativeId_Cas" value="50-00-0" />
+      <Property key="Synonym_1" value="formalin" />
+      <Property key="Synonym_2" value="methanal" />
+      <Property key="Synonym_3" value="formol" />
+      <Property key="ChemicalFormula" value="(C 1) (H 2) (O 1)" />
+      <Property key="Gibbs0" value="-10.65776" />
+      <Property key="Inchi" value="InChI=1S/CH2O/c1-2/h1H2" />
+      <Property key="InchiKey" value="InChIKey=WSFSSNUMVMOOMR-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="30.026" />
+      <Property key="MonoisotopicMw" value="30.0105646863" />
+      <Property key="NonStandardInchi" value="InChI=1S/CH2O/c1-2/h1H2" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C=O" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="AT4G17360" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="275" elementRef="AT4G17360.3" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_1_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_1_0_0" x="265.0" y="50" elementRef="AT5G47435" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_1_0_0" arrowHead="TranscriptionTranslation" x="405.0" y="275" elementRef="AT5G47435.2" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_2_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_2_0_0" x="385.0" y="50" elementRef="AT4G00600" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_2_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="355" elementRef="AT4G00600.1" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_3_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_3_0_0" x="145.0" y="110" elementRef="AT3G12290" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_3_0_0" arrowHead="TranscriptionTranslation" x="255.0" y="275" elementRef="AT3G12290.1" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_4_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_4_0_0" x="265.0" y="110" elementRef="AT4G00620" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_4_0_0" arrowHead="TranscriptionTranslation" x="405.0" y="355" elementRef="AT4G00620.1" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_5_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_5_0_0" x="385.0" y="110" elementRef="AT2G38660" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_5_0_0" arrowHead="TranscriptionTranslation" x="255.0" y="355" elementRef="AT2G38660.8" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="FORMYLTHFDEFORMYL-RXN">
+      <Xref identifier="EC-3.5.1.10" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="FORMYLTHFDEFORMYL-RXN_start" x="545.0" y="640" elementRef="FORMYL-THF-GLU-N" relX="1.0" relY="0.0" />
+        <Point elementId="FORMYLTHFDEFORMYL-RXN_end" arrowHead="Conversion" x="305.0" y="540" elementRef="FORMATE" relX="-1.0" relY="0.0" />
+        <Anchor elementId="FORMYLTHFDEFORMYL-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Comment source="BioCyc">NIL This reaction produces formate from formyl-THF, providing the major source of formate for the purT-dependent synthesis of 5&apos;-phosphoribosyl-N-formylglycinamide (FGAR) during aerobic growth. It may also play a role in regulating the 1-carbon pool.</Comment>
+      <Property key="AlternativeId_Pir" value="T51706" />
+      <Property key="UniqueID" value="FORMYLTHFDEFORMYL-RXN" />
+      <Property key="EC_Number" value="EC-3.5.1.10" />
+      <Property key="Pathways" value="PWY-7909" />
+      <Property key="ReactionEquation" value="FORMYL-THF-GLU-N + WATER =&gt; THF-GLU-N + FORMATE + PROTON" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNQT-28985, ENZRXNQT-27477" />
+      <Property key="EnzymaticReactionCount" value="2" />
+      <Property key="Synonym_1" value="Formyltetrahydrofolate hydrolase" />
+      <Property key="Synonym_2" value="Formyl-FH(4) hydrolase" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 8 7 32 9 11 10 12 13 14 15 16 17 18 19 21 22 23 24 25 20 26 33 27 28 30 29 31 34) (((THF-GLU-N 0 31) (FORMATE 32 34)) ((FORMYL-THF-GLU-N 0 33) (WATER 34 34))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="17.842873" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="Synonyms" value="Formyltetrahydrofolate hydrolase, Formyl-FH(4) hydrolase" />
+    </Interaction>
+    <Interaction elementId="FORMYLTHFDEFORMYL-RXN_ENZRXNQT-27477">
+      <Waypoints>
+        <Point elementId="FORMYLTHFDEFORMYL-RXN_ENZRXNQT-27477_start" x="450" y="287.5" elementRef="AT5G47435.2" relX="0.0" relY="1.0" />
+        <Point elementId="FORMYLTHFDEFORMYL-RXN_ENZRXNQT-27477_end" arrowHead="Catalysis" x="0" y="0" elementRef="FORMYLTHFDEFORMYL-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="FORMYLTHFDEFORMYL-RXN_ENZRXNQT-28985">
+      <Waypoints>
+        <Point elementId="FORMYLTHFDEFORMYL-RXN_ENZRXNQT-28985_start" x="150" y="287.5" elementRef="AT4G17360.3" relX="0.0" relY="1.0" />
+        <Point elementId="FORMYLTHFDEFORMYL-RXN_ENZRXNQT-28985_end" arrowHead="Catalysis" x="0" y="0" elementRef="FORMYLTHFDEFORMYL-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="FORMYLTHFDEFORMYL-RXN_anchor_reactant_1">
+      <Xref identifier="EC-3.5.1.10" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="FORMYLTHFDEFORMYL-RXN_anchor_reactant_start_1" x="245.0" y="540" elementRef="WATER" relX="1.0" relY="0.0" />
+        <Point elementId="FORMYLTHFDEFORMYL-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="FORMYLTHFDEFORMYL-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="FORMYLTHFDEFORMYL-RXN_anchor_product_0">
+      <Xref identifier="EC-3.5.1.10" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="FORMYLTHFDEFORMYL-RXN_anchor_product_start_0" x="0" y="0" elementRef="FORMYLTHFDEFORMYL-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="FORMYLTHFDEFORMYL-RXN_anchor_product_end_0" arrowHead="Conversion" x="605.0" y="540" elementRef="THF-GLU-N" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="FORMYLTHFDEFORMYL-RXN_anchor_product_2">
+      <Xref identifier="EC-3.5.1.10" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="FORMYLTHFDEFORMYL-RXN_anchor_product_start_2" x="0" y="0" elementRef="FORMYLTHFDEFORMYL-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="FORMYLTHFDEFORMYL-RXN_anchor_product_end_2" arrowHead="Conversion" x="305.0" y="640" elementRef="PROTON" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-2881">
+      <Xref identifier="RXN-2881" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-2881_start" x="395.0" y="740" elementRef="FORMALDEHYDE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-2881_end" arrowHead="Conversion" x="155.0" y="740" elementRef="METHYLENE-THF-GLU-N" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-2881_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-2881" />
+      <Property key="Spontaneous" value="T" />
+      <Property key="Pathways" value="PWY-7909" />
+      <Property key="ReactionEquation" value="FORMALDEHYDE + THF-GLU-N =&gt; METHYLENE-THF-GLU-N + WATER" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Small-Molecule-Reactions, Chemical-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 8 7 32 9 10 11 12 13 14 15 16 17 18 19 21 23 24 25 20 22 26 27 28 29 30 31 33) (((THF-GLU-N 0 31) (FORMALDEHYDE 32 33)) ((METHYLENE-THF-GLU-N 0 32) (WATER 33 33))))" />
+      <Property key="Gibbs0" value="-5.1670074" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-2881_anchor_reactant_1">
+      <Xref identifier="RXN-2881" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-2881_anchor_reactant_start_1" x="695.0" y="540" elementRef="THF-GLU-N" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-2881_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-2881_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-2881_anchor_product_1">
+      <Xref identifier="RXN-2881" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-2881_anchor_product_start_1" x="0" y="0" elementRef="RXN-2881_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-2881_anchor_product_end_1" arrowHead="Conversion" x="155.0" y="540" elementRef="WATER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="METHYLENETHFDEHYDROG-NADP-RXN">
+      <Xref identifier="22812" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="METHYLENETHFDEHYDROG-NADP-RXN_start" x="245.0" y="740" elementRef="METHYLENE-THF-GLU-N" relX="1.0" relY="0.0" />
+        <Point elementId="METHYLENETHFDEHYDROG-NADP-RXN_end" arrowHead="Conversion" x="605.0" y="640" elementRef="_5-10-METHENYL-THF-GLU-N" relX="-1.0" relY="0.0" />
+        <Anchor elementId="METHYLENETHFDEHYDROG-NADP-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Comment source="BioCyc">This reaction is involved in folic acid synthesis and is necessary for the biosynthesis of purines, thymydylate, methionine, histidine, pantothenate and formyl tRNA-MET.</Comment>
+      <Property key="AlternativeId_Uniprot" value="P09440" />
+      <Property key="AlternativeId_Rhea" value="22812" />
+      <Property key="AlternativeId_Pir" value="A28174" />
+      <Property key="UniqueID" value="METHYLENETHFDEHYDROG-NADP-RXN" />
+      <Property key="EC_Number" value="EC-1.5.1.5" />
+      <Property key="Pathways" value="PWY-3841, PWY-1722, PWY-7909" />
+      <Property key="PathwayCount" value="3" />
+      <Property key="ReactionEquation" value="METHYLENE-THF-GLU-N + NADP &lt;=&gt; 5-10-METHENYL-THF-GLU-N + NADPH" />
+      <Property key="ReactionDirection" value="REVERSIBLE" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNQT-30714, ENZRXNQT-30235, ENZRXNQT-29292, ENZRXNQT-29290" />
+      <Property key="EnzymaticReactionCount" value="4" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32) (((&quot;5-10-METHENYL-THF-GLU-N&quot; 0 32)) ((&quot;METHYLENE-THF-GLU-N&quot; 0 32))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="8.888794" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="METHYLENETHFDEHYDROG-NADP-RXN_ENZRXNQT-30235">
+      <Waypoints>
+        <Point elementId="METHYLENETHFDEHYDROG-NADP-RXN_ENZRXNQT-30235_start" x="300" y="287.5" elementRef="AT3G12290.1" relX="0.0" relY="1.0" />
+        <Point elementId="METHYLENETHFDEHYDROG-NADP-RXN_ENZRXNQT-30235_end" arrowHead="Catalysis" x="0" y="0" elementRef="METHYLENETHFDEHYDROG-NADP-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="METHYLENETHFDEHYDROG-NADP-RXN_ENZRXNQT-29290">
+      <Waypoints>
+        <Point elementId="METHYLENETHFDEHYDROG-NADP-RXN_ENZRXNQT-29290_start" x="450" y="367.5" elementRef="AT4G00620.1" relX="0.0" relY="1.0" />
+        <Point elementId="METHYLENETHFDEHYDROG-NADP-RXN_ENZRXNQT-29290_end" arrowHead="Catalysis" x="0" y="0" elementRef="METHYLENETHFDEHYDROG-NADP-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="METHYLENETHFDEHYDROG-NADP-RXN_ENZRXNQT-29292">
+      <Waypoints>
+        <Point elementId="METHYLENETHFDEHYDROG-NADP-RXN_ENZRXNQT-29292_start" x="150" y="367.5" elementRef="AT4G00600.1" relX="0.0" relY="1.0" />
+        <Point elementId="METHYLENETHFDEHYDROG-NADP-RXN_ENZRXNQT-29292_end" arrowHead="Catalysis" x="0" y="0" elementRef="METHYLENETHFDEHYDROG-NADP-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="METHYLENETHFDEHYDROG-NADP-RXN_ENZRXNQT-30714">
+      <Waypoints>
+        <Point elementId="METHYLENETHFDEHYDROG-NADP-RXN_ENZRXNQT-30714_start" x="300" y="367.5" elementRef="AT2G38660.8" relX="0.0" relY="1.0" />
+        <Point elementId="METHYLENETHFDEHYDROG-NADP-RXN_ENZRXNQT-30714_end" arrowHead="Catalysis" x="0" y="0" elementRef="METHYLENETHFDEHYDROG-NADP-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="METHYLENETHFDEHYDROG-NADP-RXN_anchor_reactant_1">
+      <Xref identifier="22812" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="METHYLENETHFDEHYDROG-NADP-RXN_anchor_reactant_start_1" x="545.0" y="540" elementRef="NADP" relX="1.0" relY="0.0" />
+        <Point elementId="METHYLENETHFDEHYDROG-NADP-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="METHYLENETHFDEHYDROG-NADP-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="METHYLENETHFDEHYDROG-NADP-RXN_anchor_product_1">
+      <Xref identifier="22812" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="METHYLENETHFDEHYDROG-NADP-RXN_anchor_product_start_1" x="0" y="0" elementRef="METHYLENETHFDEHYDROG-NADP-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="METHYLENETHFDEHYDROG-NADP-RXN_anchor_product_end_1" arrowHead="Conversion" x="155.0" y="640" elementRef="NADPH" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="METHENYLTHFCYCLOHYDRO-RXN">
+      <Xref identifier="23700" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="METHENYLTHFCYCLOHYDRO-RXN_start" x="695.0" y="640" elementRef="_5-10-METHENYL-THF-GLU-N" relX="1.0" relY="0.0" />
+        <Point elementId="METHENYLTHFCYCLOHYDRO-RXN_end" arrowHead="Conversion" x="455.0" y="640" elementRef="FORMYL-THF-GLU-N" relX="-1.0" relY="0.0" />
+        <Anchor elementId="METHENYLTHFCYCLOHYDRO-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Comment source="BioCyc">This reaction is involved in folic acid synthesis and is necessary for the biosynthesis of purines, thymydylate, methionine, histidine, pantothenate and formyl tRNA-MET.</Comment>
+      <Property key="AlternativeId_Uniprot" value="P09440" />
+      <Property key="AlternativeId_Rhea" value="23700" />
+      <Property key="AlternativeId_Pir" value="A28174" />
+      <Property key="UniqueID" value="METHENYLTHFCYCLOHYDRO-RXN" />
+      <Property key="EC_Number" value="EC-3.5.4.9" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-3841, PWY-1722, PWY-7909, PWY-3742, PWY-6613" />
+      <Property key="PathwayCount" value="5" />
+      <Property key="ReactionEquation" value="5-10-METHENYL-THF-GLU-N + WATER &lt;=&gt; FORMYL-THF-GLU-N + PROTON" />
+      <Property key="ReactionDirection" value="REVERSIBLE" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNQT-30715, ENZRXNQT-30236, ENZRXNQT-29293, ENZRXNQT-29291" />
+      <Property key="EnzymaticReactionCount" value="4" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 12 11 13 14 15 16 17 18 19 20 21 26 22 23 24 25 27 33 28 29 31 30 32) (((5-10-METHENYL-THF-GLU-N 0 32) (WATER 33 33)) ((FORMYL-THF-GLU-N 0 33))))" />
+      <Property key="CannotBalance?" value="NIL" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-35.90825" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="METHENYLTHFCYCLOHYDRO-RXN_ENZRXNQT-30236">
+      <Waypoints>
+        <Point elementId="METHENYLTHFCYCLOHYDRO-RXN_ENZRXNQT-30236_start" x="300" y="287.5" elementRef="AT3G12290.1" relX="0.0" relY="1.0" />
+        <Point elementId="METHENYLTHFCYCLOHYDRO-RXN_ENZRXNQT-30236_end" arrowHead="Catalysis" x="0" y="0" elementRef="METHENYLTHFCYCLOHYDRO-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="METHENYLTHFCYCLOHYDRO-RXN_ENZRXNQT-29291">
+      <Waypoints>
+        <Point elementId="METHENYLTHFCYCLOHYDRO-RXN_ENZRXNQT-29291_start" x="450" y="367.5" elementRef="AT4G00620.1" relX="0.0" relY="1.0" />
+        <Point elementId="METHENYLTHFCYCLOHYDRO-RXN_ENZRXNQT-29291_end" arrowHead="Catalysis" x="0" y="0" elementRef="METHENYLTHFCYCLOHYDRO-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="METHENYLTHFCYCLOHYDRO-RXN_ENZRXNQT-29293">
+      <Waypoints>
+        <Point elementId="METHENYLTHFCYCLOHYDRO-RXN_ENZRXNQT-29293_start" x="150" y="367.5" elementRef="AT4G00600.1" relX="0.0" relY="1.0" />
+        <Point elementId="METHENYLTHFCYCLOHYDRO-RXN_ENZRXNQT-29293_end" arrowHead="Catalysis" x="0" y="0" elementRef="METHENYLTHFCYCLOHYDRO-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="METHENYLTHFCYCLOHYDRO-RXN_ENZRXNQT-30715">
+      <Waypoints>
+        <Point elementId="METHENYLTHFCYCLOHYDRO-RXN_ENZRXNQT-30715_start" x="300" y="367.5" elementRef="AT2G38660.8" relX="0.0" relY="1.0" />
+        <Point elementId="METHENYLTHFCYCLOHYDRO-RXN_ENZRXNQT-30715_end" arrowHead="Catalysis" x="0" y="0" elementRef="METHENYLTHFCYCLOHYDRO-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="METHENYLTHFCYCLOHYDRO-RXN_anchor_reactant_1">
+      <Xref identifier="23700" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="METHENYLTHFCYCLOHYDRO-RXN_anchor_reactant_start_1" x="245.0" y="540" elementRef="WATER" relX="1.0" relY="0.0" />
+        <Point elementId="METHENYLTHFCYCLOHYDRO-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="METHENYLTHFCYCLOHYDRO-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="METHENYLTHFCYCLOHYDRO-RXN_anchor_product_1">
+      <Xref identifier="23700" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="METHENYLTHFCYCLOHYDRO-RXN_anchor_product_start_1" x="0" y="0" elementRef="METHENYLTHFCYCLOHYDRO-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="METHENYLTHFCYCLOHYDRO-RXN_anchor_product_end_1" arrowHead="Conversion" x="305.0" y="640" elementRef="PROTON" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_12368456">
+      <Xref identifier="12368456" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_11501996">
+      <Xref identifier="11501996" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_22610424">
+      <Xref identifier="22610424" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_11073907">
+      <Xref identifier="11073907" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_26303953">
+      <Xref identifier="26303953" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_31402327">
+      <Xref identifier="31402327" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_10598551">
+      <Xref identifier="10598551" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

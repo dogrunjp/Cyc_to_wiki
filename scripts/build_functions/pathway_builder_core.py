@@ -156,6 +156,9 @@ class CompletePathwayBuilderWithGenes:
         self._load_regulations(regulation_file)
         self._load_pathways(pathways_file)
 
+        # 追加
+        self.gene_filesource = genes_file
+
         # Build biological mappings
         self._build_mappings()
 
@@ -340,7 +343,9 @@ class CompletePathwayBuilderWithGenes:
         gene_protein_map = {}
 
         # Load raw gene records
-        genes_processor = parsing_utils.read_and_parse("genes.dat")
+        # self._load_genes = genes_fileを使うようにする（3/3 dev）
+        # genes_processor = parsing_utils.read_and_parse("genes.dat")
+        genes_processor = parsing_utils.read_and_parse(self.gene_filesource)
 
         # Create gene lookup
         gene_by_id = {}
@@ -381,7 +386,7 @@ class CompletePathwayBuilderWithGenes:
         reaction_to_enzymes = {}
 
         # Load enzrxns.dat to get ENZRXN -> RXN mapping
-        enzrxns_processor = parsing_utils.read_and_parse("enzrxns.dat")
+        enzrxns_processor = parsing_utils.read_and_parse("./data/enzrxns.dat")
 
         enzrxn_to_reaction = {}
         for enzrxn_record in enzrxns_processor.records:
@@ -488,7 +493,7 @@ class CompletePathwayBuilderWithGenes:
         """
         # Load enzrxns.dat to get ENZRXN -> RXN mapping (reuse if available)
         if not hasattr(self, 'enzrxn_to_reaction'):
-            enzrxns_processor = parsing_utils.read_and_parse("enzrxns.dat")
+            enzrxns_processor = parsing_utils.read_and_parse("./data/enzrxns.dat")
 
             self.enzrxn_to_reaction = {}
             for enzrxn_record in enzrxns_processor.records:

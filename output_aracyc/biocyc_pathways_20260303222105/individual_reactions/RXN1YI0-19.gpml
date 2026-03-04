@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="RXN1YI0-19" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Description>Single reaction view for RXN1YI0-19: RXN1YI0-19</Description>
+  <Authors>
+    <Author name="BioCyc" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from BioCyc single reaction data.</Comment>
+  <Property key="UniqueID" value="RXN1YI0-19" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="Oxidized-Cytochromes-C6" textLabel="Oxidized-Cytochromes-C6" type="Metabolite">
+      <Xref identifier="Oxidized-Cytochromes-C6" dataSource="" />
+      <Graphics centerX="200" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="Reduced-Cytochromes-C6" textLabel="Reduced-Cytochromes-C6" type="Metabolite">
+      <Xref identifier="Reduced-Cytochromes-C6" dataSource="" />
+      <Graphics centerX="350" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="E-" textLabel="E-" type="Metabolite">
+      <Xref identifier="E-" dataSource="" />
+      <Graphics centerX="500" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="RXN1YI0-19">
+      <Xref identifier="RXN1YI0-19" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN1YI0-19_start" x="245.0" y="210" elementRef="Oxidized-Cytochromes-C6" relX="1.0" relY="0.0" />
+        <Point elementId="RXN1YI0-19_end" arrowHead="Conversion" x="305.0" y="210" elementRef="Reduced-Cytochromes-C6" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN1YI0-19_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN1YI0-19" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="RXN1YI0-20" />
+      <Property key="ReactionEquation" value="Oxidized-Cytochromes-C6 + E- =&gt; Reduced-Cytochromes-C6" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="StandardReductionPotential" value="0.319" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionType" value="Redox-Half-Reactions" />
+      <Property key="AtomMappings" value=":CPDS-LACK-STRUCTURE" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^compartment" value="CCO-IN, CCO-IN" />
+    </Interaction>
+    <Interaction elementId="RXN1YI0-19_anchor_reactant_1">
+      <Xref identifier="RXN1YI0-19" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN1YI0-19_anchor_reactant_start_1" x="545.0" y="210" elementRef="E-" relX="1.0" relY="0.0" />
+        <Point elementId="RXN1YI0-19_anchor_reactant_end_1" x="0" y="0" elementRef="RXN1YI0-19_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+</Pathway>

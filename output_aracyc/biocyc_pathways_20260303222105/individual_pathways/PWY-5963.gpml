@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="molybdenum cofactor sulfulylation (eukaryotes)" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Xref identifier="PWY-5963" dataSource="MetaCyc" />
+  <Description>&lt;b&gt;General Background&lt;/b&gt; The transition element molybdenum (Mo) has been long known as an essential micronutrient across the kingdoms of plants, animals, fungi and bacteria. However, molybdate itself is catalytically inactive and, with the exception of bacterial nitrogenase, needs to be activated through complexation by a special cofactor. This molybdenum cofactor (moco) consists of a unique tricyclic pterin compound (molybdopterin) containing a Mo-binding and -coordinating dithiolene group. Moco finally binds to diverse apoproteins and confers activity to the resulting holoproteins ubiquitously involved in essential redox reactions in the global C-, N-, and S-cycles |CITS: [11848841]| |CITS: [16307306]|. Although molybdenum enzymes are found in all organism kingdoms only four enzymes have been reported in plants so far |CITS: [12147719]|. However, the importance of those enzymes is highlighted by the fact that unavailability of Mo, hence failure to complement the apoproteins with moco is lethal for the organism. Moco enzymes in plants are subdivided into two classes, |FRAME:CPLX-7198 assimilatory nitrate reductase (NADH)| |CITS: [3393528]| and |FRAME:CPLX-7196 sulfite oxidase| |CITS: [11598126]| originating from the dioxo-form of moco and |FRAME:CPLX-6985 xanthine dehydrogenase| |CITS: [14726515]| and |FRAME:CPLX-7097 aldehyde oxidase / indole-3-acetaldehyde oxidase / abscisic aldehyde oxidase| |CITS: [11050171]| that require the addition of a terminal inorganic sulfur to the Mo center (sulfo-form of moco) for enzymatic activity. The chemical nature and biosynthesis of moco has been investigated in detail in bacteria, e.g. |CITS: [7836363][8514783][8514782][1587808][14761975]|. The group of R.R. Mendel (TU Braunschweig) has considerably contributed to the corresponding research in plants which results have been summarized in several excellent reviews |CITS: [16669776][16784786] [12147719][16234918][9421926]|. &lt;b&gt;About This Pathway&lt;/b&gt; Plant enzymes such as aldehyde oxidase (AO) and xanthine dehydrogenase (XDH) depend on the sulfo-form of molybdenum cofactor (moco). The so called maturation of moco involves the addition of sulfur to the Mo center catalyzed by the moco sulfurase (ABA3) |CITS: [11553608][15561708]|. This enzyme again is a two-domain protein that generates an enzyme-bound persulfide intermediate (ABA3-NifS domain) whereas the C-terminal domain is probably involved in recognizing target enzymes and posttranslational activation of ABA3 |CITS: [11553608]|. However, whether the sulfuration of moco is carried out before or after the insertion into the apoenzyme remains to be investigated.</Description>
+  <Authors>
+    <Author name="SRI" />
+    <Author name="caspi" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-5963" />
+  <Property key="Type" value="Molybdenum-Cofactor-Biosynthesis" />
+  <Property key="ReactionIDs" value="RXN-8351" />
+  <Property key="PathwayLinks" value="(CPD-15870 PWY-6823)" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_11553608" />
+  <CitationRef elementRef="citation_PUB_11848841" />
+  <CitationRef elementRef="citation_PUB_16307306" />
+  <CitationRef elementRef="citation_PUB_12147719" />
+  <CitationRef elementRef="citation_PUB_3393528" />
+  <CitationRef elementRef="citation_PUB_11598126" />
+  <CitationRef elementRef="citation_PUB_14726515" />
+  <CitationRef elementRef="citation_PUB_11050171" />
+  <Graphics boardWidth="1200" boardHeight="940" />
+  <DataNodes>
+    <DataNode elementId="AT5G66950" textLabel="AT5G66950" type="GeneProduct">
+      <Xref identifier="AT5G66950" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G66950" />
+      <Property key="Product" value="AT5G66950.1" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT5G66950" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT1G16540" textLabel="ABA3" type="GeneProduct">
+      <Xref identifier="AF325457" dataSource="Entrez Gene" />
+      <Graphics centerX="220" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G16540" />
+      <Property key="AlternativeId_Tair" value="AT1G16540" />
+      <Property key="AlternativeId_Entrez" value="AF325457" />
+      <Property key="Synonym_1" value="At1g16540" />
+      <Property key="Product" value="AT1G16540-MONOMER" />
+      <Property key="StartPosition" value="5659408" />
+      <Property key="EndPosition" value="5665442" />
+      <Property key="ComponentOf" value="CHROMOSOME-1-1" />
+      <Property key="CentisomePosition" value="18.596554" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-1-1" />
+      <Property key="Accession1" value="AT1G16540" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT4G37100" textLabel="AT4G37100" type="GeneProduct">
+      <Xref identifier="AT4G37100" dataSource="TAIR gene name" />
+      <Graphics centerX="340" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G37100" />
+      <Property key="Product" value="AT4G37100.1" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT4G37100" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT4G22980" textLabel="AT4G22980" type="GeneProduct">
+      <Xref identifier="AT4G22980" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G22980" />
+      <Property key="Product" value="AT4G22980.1" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT4G22980" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT5G51920" textLabel="AT5G51920" type="GeneProduct">
+      <Xref identifier="AT5G51920" dataSource="TAIR gene name" />
+      <Graphics centerX="220" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G51920" />
+      <Property key="Product" value="AT5G51920.1" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT5G51920" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT2G23520" textLabel="AT2G23520" type="GeneProduct">
+      <Xref identifier="AT2G23520" dataSource="TAIR gene name" />
+      <Graphics centerX="340" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT2G23520" />
+      <Property key="Product" value="AT2G23520.1" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT2G23520" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT5G51920.1" textLabel="AT5G51920.1" type="Protein">
+      <Xref identifier="AT5G51920.1" dataSource="plantcyc" />
+      <Graphics centerX="150" centerY="275" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G51920.1" />
+      <Property key="Catalyzes" value="RXN-27381" />
+      <Property key="Accession1" value="AT5G51920.1" />
+      <Property key="Gene" value="AT5G51920" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT2G23520.1" textLabel="AT2G23520.1" type="Protein">
+      <Xref identifier="AT2G23520.1" dataSource="plantcyc" />
+      <Graphics centerX="300" centerY="275" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT2G23520.1" />
+      <Property key="Catalyzes" value="RXN-31113" />
+      <Property key="Accession1" value="AT2G23520.1" />
+      <Property key="Gene" value="AT2G23520" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT4G37100.1" textLabel="AT4G37100.1" type="Protein">
+      <Xref identifier="AT4G37100.1" dataSource="plantcyc" />
+      <Graphics centerX="450" centerY="275" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G37100.1" />
+      <Property key="Catalyzes" value="RXN-28463" />
+      <Property key="Accession1" value="AT4G37100.1" />
+      <Property key="Gene" value="AT4G37100" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT4G22980.1" textLabel="AT4G22980.1" type="Protein">
+      <Xref identifier="AT4G22980.1" dataSource="plantcyc" />
+      <Graphics centerX="150" centerY="355" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G22980.1" />
+      <Property key="Catalyzes" value="RXN-28842" />
+      <Property key="Accession1" value="AT4G22980.1" />
+      <Property key="Gene" value="AT4G22980" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT1G16540-MONOMER" textLabel="molybdenum cofactor sulfurase//selenocysteine lyase" type="Protein">
+      <Xref identifier="AT1G16540.3" dataSource="TAIR gene name" />
+      <Graphics centerX="300" centerY="355" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">The activation of plant enzymes such as aldehyde oxidase (AO) and xanthine dehydrogenase (XDH) depends on the sulfo-form of molybdenum cofactor (moco). The sulfuration of moco is catalyzed by moco sulfurase (ABA3) that converts the dioxo-molybdenum center of the protein to a monooxo/monosulfur-molybdenum center. Moco sulfurase, isolated and cloned from &lt;i&gt;Arabidopsis thaliana&lt;/i&gt;, is a two-domain protein that possesses an N-terminal ABA3-NifS domain expressing pyridoxal phosphate (PLP)-dependent sulfurase activity and a C-terminal domain probably involved in recognizing target enzymes and posttranslational activation of ABA3 |CITS: [11553608]|. The NifS domain of moco sulfurase binds PTP cofactor generating a enzyme-bound persulfide intermediate that results from the desulfuration of cysteine. Other than comparable NifS-like proteins the donor sulfur is not used for the formation of [Fe-S] cluster assembly but transferred to moco itself. It appears that ABA3 forms homodimer mediated by ABA3-NifS which allows mobilizing of two sulfurs for the dimeric target enzymes AO and XDH |CITS: [15561708]|. Moco sulfurase (ABA3) seems to be ubiquitously expressed in plants, the expression being strongly enhanced in response to drought, salt or abscisic acid (ABA) treatment |CITS: [11549764]|. In vitro experiments suggest that this enzyme can also catalyze the decomposition of L-selenocysteine, however, this compound is not expected to be a natural substrate for this enzyme |CITS: [15561708]|.</Comment>
+      <Property key="UniqueID" value="AT1G16540-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT1G16540.3" />
+      <Property key="AlternativeId_Pid" value="AAK12939" />
+      <Property key="Synonym_1" value="AT1G16540.3" />
+      <Property key="Catalyzes" value="RXN-ARA-459, RXN-13285" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="AT1G16540.3" />
+      <Property key="FunctionalAssignmentStatus" value=":PROBABLE-ENZYME" />
+      <Property key="Gene" value="AT1G16540" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightExp" value="95." />
+      <Property key="MolecularWeightKd" value="95." />
+      <CitationRef elementRef="citation_PUB_11549764" />
+      <CitationRef elementRef="citation_PUB_15561708" />
+      <CitationRef elementRef="citation_PUB_11553608" />
+    </DataNode>
+    <DataNode elementId="AT5G66950.1" textLabel="AT5G66950.1" type="Protein">
+      <Xref identifier="AT5G66950.1" dataSource="plantcyc" />
+      <Graphics centerX="450" centerY="355" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G66950.1" />
+      <Property key="Catalyzes" value="RXN-27056, RXN-27055" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="AT5G66950.1" />
+      <Property key="Gene" value="AT5G66950" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="CPD-15871" textLabel="MoO₂(S)-molybdopterin cofactor" type="Metabolite">
+      <Xref identifier="QLTSCNIIDNTDKD-BKZHXLINSA-J" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="540" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-15871" />
+      <Property key="AlternativeId_Metanetx" value="MNXM531992" />
+      <Property key="AlternativeId_Chebi" value="60102" />
+      <Property key="Synonym_1" value="MoOOSDtpp-mP" />
+      <Property key="Synonym_2" value="molybdenum cofactor (xanthine dehydrogenase)" />
+      <Property key="Synonym_3" value="sulfurated eukaryotic molybdenum cofactor" />
+      <Property key="Synonym_4" value="Mo(=O)&lt;sub&gt;2&lt;/sub&gt;(=S)-molybdopterin cofactor" />
+      <Property key="ChemicalFormula" value="(C 10) (H 10) (N 5) (O 8) (P 1) (S 3) (MO 1)" />
+      <Property key="AtomCharges" value="(27 -1), (25 -1), (19 -1), (17 -1)" />
+      <Property key="Gibbs0" value="-212.45732" />
+      <Property key="Inchi" value="InChI=1S/C10H14N5O6PS2.Mo.2O.S/c11-10-14-7-4(8(16)15-10)12-3-6(24)5(23)2(21-9(3)13-7)1-20-22(17,18)19;;;;/h2-3,9,12,23-24H,1H2,(H2,17,18,19)(H4,11,13,14,15,16);;;;/q;+1;;-1;/p-4/t2-,3+,9-;;;;/m1..../s1" />
+      <Property key="InchiKey" value="InChIKey=QLTSCNIIDNTDKD-BKZHXLINSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="551.31104" />
+      <Property key="MonoisotopicMw" value="555.8717938001" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C(OP([O-])(=O)[O-])[C@@H]1(C4(\S[Mo-](=S)([O-])(=O)SC(/[C@H]2([C@@H](O1)NC3(/N=C(N)\NC(=O)C(/N2)=3)))=4))" />
+    </DataNode>
+    <DataNode elementId="CPD-15870" textLabel="MoO₂(OH)-molybdopterin cofactor" type="Metabolite">
+      <Xref identifier="RVADHZKSUZKIRJ-BKZHXLINSA-J" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="540" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="AU4FS-4, SRI, caspi">The transition element molybdenum is an essential micronutrient for microorganisms, plants, and animals. Molybdenum itself is catalytically inactive and needs to be complexed by a special cofactor to gain catalytic activity. It is bound to a unique pterin (molybdopterin, or MPT), forming the molybdenum cofactor, often referred to as MoCo |CITS: [23539623]|. The MoCo form that is synthesized initially is |FRAME: CPD-15870|. In eukaryotes this form is incorporated into enzymes as-is, or undergoes sulfurylation as described in |FRAME: PWY-5963|. However, in prokaryotes the initial form is modified into many different forms. For example, enzymes of the xanthine oxidase family utilize |FRAME: CPD-23445| (MCD), while enzymes of the DMSO reductase family utilize |FRAME: CPD-15873| (bis-MGD) |CITS: [21528011]|.</Comment>
+      <Property key="UniqueID" value="CPD-15870" />
+      <Property key="AlternativeId_Chebi" value="71302" />
+      <Property key="AlternativeId_LigandCpd" value="C18237" />
+      <Property key="AlternativeId_Metanetx" value="MNXM158060" />
+      <Property key="AlternativeId_Seed" value="cpd19503" />
+      <Property key="AlternativeId_Pubchem" value="90657564" />
+      <Property key="Synonym_1" value="MoO&lt;sub&gt;2&lt;/sub&gt;-Mo-MPT" />
+      <Property key="Synonym_2" value="MoO&lt;sub&gt;2&lt;/sub&gt;Dtpp-mP" />
+      <Property key="Synonym_3" value="{[(5aR,8R,9aR)-2-amino-4-oxo-6,7-di(sulfanyl-&amp;kappa;&lt;i&gt;S&lt;/i&gt;)-1,5,5a,8,9a,10-hexahydro-4H-pyrano[3,2-g]pteridin-8-yl]methyl dihydrogenato(2-) phosphate}(dioxo)molybdate" />
+      <Property key="Synonym_4" value="MoO&lt;sub&gt;2&lt;/sub&gt;-molybdopterin cofactor" />
+      <Property key="Synonym_5" value="MoO&lt;sub&gt;2&lt;/sub&gt;(OH)Dtpp-mP" />
+      <Property key="Synonym_6" value="MoO&lt;sub&gt;2&lt;/sub&gt;(OH)-MPT" />
+      <Property key="Synonym_7" value="MoCo (dioxyo)" />
+      <Property key="Synonym_8" value="molybdenum cofactor (dioxyo)" />
+      <Property key="ChemicalFormula" value="(C 10) (H 10) (N 5) (O 9) (P 1) (S 2) (MO 1)" />
+      <Property key="AtomCharges" value="(28 -1), (25 -1), (19 -1), (17 -1)" />
+      <Property key="CofactorsOf" value="ENZRXN-1303, ENZRXN-1302" />
+      <Property key="Gibbs0" value="-247.44176" />
+      <Property key="Inchi" value="InChI=1S/C10H14N5O6PS2.Mo.3O/c11-10-14-7-4(8(16)15-10)12-3-6(24)5(23)2(21-9(3)13-7)1-20-22(17,18)19;;;;/h2-3,9,12,23-24H,1H2,(H2,17,18,19)(H4,11,13,14,15,16);;;;/q;+1;;;-1/p-4/t2-,3+,9-;;;;/m1..../s1" />
+      <Property key="InchiKey" value="InChIKey=RVADHZKSUZKIRJ-BKZHXLINSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="Logp" value="238." />
+      <Property key="MolecularWeight" value="535.25104" />
+      <Property key="MonoisotopicMw" value="539.8946377322" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C(OP([O-])(=O)[O-])[C@@H]1(C4(\S[Mo-](=O)(=O)([O-])SC(/[C@H]2([C@@H](O1)NC3(/N=C(N)\NC(=O)C(/N2)=3)))=4))" />
+      <Property key="SystematicName" value="{[(5aR,8R,9aR)-2-amino-4-oxo-6,7-di(sulfanyl-&amp;kappa;&lt;i&gt;S&lt;/i&gt;)-1,5,5a,8,9a,10-hexahydro-4H-pyrano[3,2-g]pteridin-8-yl]methyl dihydrogenato(2-) phosphate}(trioxo)molybdate" />
+      <CitationRef elementRef="citation_PUB_23539623" />
+      <CitationRef elementRef="citation_PUB_21528011" />
+    </DataNode>
+    <DataNode elementId="WATER" textLabel="H₂O" type="Metabolite">
+      <Xref identifier="XLYOFNOQVPJJNP-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="540" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="WATER" />
+      <Property key="AlternativeId_Bigg" value="h2o" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15377" />
+      <Property key="AlternativeId_Hmdb" value="HMDB02111" />
+      <Property key="AlternativeId_Chemspider" value="937" />
+      <Property key="AlternativeId_Chebi" value="15377" />
+      <Property key="AlternativeId_Pubchem" value="962" />
+      <Property key="AlternativeId_LigandCpd" value="C00001" />
+      <Property key="AlternativeId_Cas" value="7732-18-5" />
+      <Property key="Synonym_1" value="H20" />
+      <Property key="Synonym_2" value="H&lt;sub&gt;2&lt;/sub&gt;0" />
+      <Property key="Synonym_3" value="H2O" />
+      <Property key="Synonym_4" value="hydrogen oxide" />
+      <Property key="Synonym_5" value="water" />
+      <Property key="ChemicalFormula" value="(H 2) (O 1)" />
+      <Property key="Gibbs0" value="-36.144756" />
+      <Property key="Inchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="InchiKey" value="InChIKey=XLYOFNOQVPJJNP-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="18.015" />
+      <Property key="MonoisotopicMw" value="18.0105646863" />
+      <Property key="NonStandardInchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="O" />
+    </DataNode>
+    <DataNode elementId="Acceptor" textLabel="Acceptor" type="Metabolite">
+      <Xref identifier="Acceptor" dataSource="" />
+      <Graphics centerX="200" centerY="640" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="Donor-H2" textLabel="Donor-H2" type="Metabolite">
+      <Xref identifier="Donor-H2" dataSource="" />
+      <Graphics centerX="350" centerY="640" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="CYS" textLabel="L-cysteine" type="Metabolite">
+      <Xref identifier="XUJNEKJLAYXESH-REOHCLBHSA-N" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="640" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CYS" />
+      <Property key="AlternativeId_Zinc" value="ZINC000000895042" />
+      <Property key="AlternativeId_Mediadb" value="compounds/95/" />
+      <Property key="AlternativeId_Metanetx" value="MNXM55" />
+      <Property key="AlternativeId_Refmet" value="Cysteine" />
+      <Property key="AlternativeId_Bigg" value="cys__L" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC35235" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00574" />
+      <Property key="AlternativeId_Chebi" value="35235" />
+      <Property key="AlternativeId_Pubchem" value="6419722" />
+      <Property key="AlternativeId_Knapsack" value="C00001351" />
+      <Property key="AlternativeId_Cas" value="52-90-4" />
+      <Property key="AlternativeId_LigandCpd" value="C00097" />
+      <Property key="Synonym_1" value="C" />
+      <Property key="Synonym_2" value="carbocysteine" />
+      <Property key="Synonym_3" value="cysteine" />
+      <Property key="Synonym_4" value="Cys" />
+      <Property key="Synonym_5" value="L-cys" />
+      <Property key="ChemicalFormula" value="(C 3) (H 7) (N 1) (O 2) (S 1)" />
+      <Property key="AbbrevName" value="cys" />
+      <Property key="AtomCharges" value="(5 -1), (4 1)" />
+      <Property key="Gibbs0" value="-9.312156" />
+      <Property key="Inchi" value="InChI=1S/C3H7NO2S/c4-2(1-7)3(5)6/h2,7H,1,4H2,(H,5,6)/t2-/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=XUJNEKJLAYXESH-REOHCLBHSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="121.154" />
+      <Property key="MonoisotopicMw" value="121.01974916409999" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-13331, REG0-7419, REG0-8162, REG-8565, REG0-8042, REG-6990, REGQT-276, REGQT-264, REGQT-258, REGQT-252, REGQT-250, REGQT-245" />
+      <Property key="Smiles" value="C(S)[C@@H](C(=O)[O-])[NH3+]" />
+      <CitationRef elementRef="citation_PUB_16306140" />
+    </DataNode>
+    <DataNode elementId="L-ALPHA-ALANINE" textLabel="L-alanine" type="Metabolite">
+      <Xref identifier="QNAYBMKLOCPYGJ-REOHCLBHSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="740" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="L-ALPHA-ALANINE" />
+      <Property key="AlternativeId_Refmet" value="Alanine" />
+      <Property key="AlternativeId_Bigg" value="ala__L" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57972" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00161" />
+      <Property key="AlternativeId_Chebi" value="57972" />
+      <Property key="AlternativeId_Pubchem" value="7311724" />
+      <Property key="AlternativeId_LigandCpd" value="C00041" />
+      <Property key="AlternativeId_Cas" value="56-41-7" />
+      <Property key="Synonym_1" value="alanine" />
+      <Property key="Synonym_2" value="L-&amp;alpha;-alanine" />
+      <Property key="Synonym_3" value="ala" />
+      <Property key="ChemicalFormula" value="(C 3) (H 7) (N 1) (O 2)" />
+      <Property key="AbbrevName" value="ala" />
+      <Property key="AtomCharges" value="(6 -1), (4 1)" />
+      <Property key="Gibbs0" value="-16.772158" />
+      <Property key="Inchi" value="InChI=1S/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=QNAYBMKLOCPYGJ-REOHCLBHSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="89.094" />
+      <Property key="MonoisotopicMw" value="89.0476784741" />
+      <Property key="NonStandardInchi" value="InChI=1S/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG0-8043, REG0-8891, REGQT-260, REGQT-251" />
+      <Property key="Smiles" value="C[C@H]([NH3+])C([O-])=O" />
+      <CitationRef elementRef="citation_PUB_16306140" />
+      <CitationRef elementRef="citation_PUB_18493048" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="AT5G66950" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="405.0" y="355" elementRef="AT5G66950.1" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_1_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_1_0_0" x="265.0" y="50" elementRef="AT1G16540" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_1_0_0" arrowHead="TranscriptionTranslation" x="255.0" y="355" elementRef="AT1G16540-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_2_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_2_0_0" x="385.0" y="50" elementRef="AT4G37100" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_2_0_0" arrowHead="TranscriptionTranslation" x="405.0" y="275" elementRef="AT4G37100.1" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_3_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_3_0_0" x="145.0" y="110" elementRef="AT4G22980" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_3_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="355" elementRef="AT4G22980.1" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_4_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_4_0_0" x="265.0" y="110" elementRef="AT5G51920" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_4_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="275" elementRef="AT5G51920.1" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_5_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_5_0_0" x="385.0" y="110" elementRef="AT2G23520" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_5_0_0" arrowHead="TranscriptionTranslation" x="255.0" y="275" elementRef="AT2G23520.1" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8351">
+      <Xref identifier="EC-2.8.1.9" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-8351_start" x="395.0" y="540" elementRef="CPD-15870" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-8351_end" arrowHead="Conversion" x="155.0" y="540" elementRef="CPD-15871" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-8351_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-8351" />
+      <Property key="EC_Number" value="EC-2.8.1.9" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-5963" />
+      <Property key="ReactionEquation" value="CPD-15870 + CYS + Donor-H2 =&gt; CPD-15871 + L-ALPHA-ALANINE + WATER + Acceptor" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNQT-31113, ENZRXNQT-28842, ENZRXNQT-28463, ENZRXNQT-27381, ENZRXNQT-27056, ENZRXN-13285" />
+      <Property key="EnzymaticReactionCount" value="6" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 18 17 16 19 20 21 22 23 24 25 26 34 28 29 30 31 33 32 27) (((&quot;CPD-15871&quot; 0 27) (&quot;L-ALPHA-ALANINE&quot; 28 33) (&quot;WATER&quot; 34 34)) ((&quot;CPD-15870&quot; 0 27) (&quot;CYS&quot; 28 34))))" />
+      <Property key="CannotBalance?" value="NIL" />
+      <Property key="^official?" value="T" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-8351_ENZRXN-13285">
+      <Waypoints>
+        <Point elementId="RXN-8351_ENZRXN-13285_start" x="300" y="367.5" elementRef="AT1G16540-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8351_ENZRXN-13285_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8351_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8351_ENZRXNQT-28463">
+      <Waypoints>
+        <Point elementId="RXN-8351_ENZRXNQT-28463_start" x="450" y="287.5" elementRef="AT4G37100.1" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8351_ENZRXNQT-28463_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8351_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8351_ENZRXNQT-28842">
+      <Waypoints>
+        <Point elementId="RXN-8351_ENZRXNQT-28842_start" x="150" y="367.5" elementRef="AT4G22980.1" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8351_ENZRXNQT-28842_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8351_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8351_ENZRXNQT-27381">
+      <Waypoints>
+        <Point elementId="RXN-8351_ENZRXNQT-27381_start" x="150" y="287.5" elementRef="AT5G51920.1" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8351_ENZRXNQT-27381_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8351_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8351_ENZRXNQT-27056">
+      <Waypoints>
+        <Point elementId="RXN-8351_ENZRXNQT-27056_start" x="450" y="367.5" elementRef="AT5G66950.1" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8351_ENZRXNQT-27056_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8351_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8351_ENZRXNQT-31113">
+      <Waypoints>
+        <Point elementId="RXN-8351_ENZRXNQT-31113_start" x="300" y="287.5" elementRef="AT2G23520.1" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8351_ENZRXNQT-31113_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8351_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8351_anchor_reactant_1">
+      <Xref identifier="EC-2.8.1.9" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-8351_anchor_reactant_start_1" x="545.0" y="640" elementRef="CYS" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-8351_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-8351_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8351_anchor_reactant_2">
+      <Xref identifier="EC-2.8.1.9" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-8351_anchor_reactant_start_2" x="395.0" y="640" elementRef="Donor-H2" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-8351_anchor_reactant_end_2" x="0" y="0" elementRef="RXN-8351_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8351_anchor_product_1">
+      <Xref identifier="EC-2.8.1.9" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-8351_anchor_product_start_1" x="0" y="0" elementRef="RXN-8351_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-8351_anchor_product_end_1" arrowHead="Conversion" x="155.0" y="740" elementRef="L-ALPHA-ALANINE" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8351_anchor_product_2">
+      <Xref identifier="EC-2.8.1.9" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-8351_anchor_product_start_2" x="0" y="0" elementRef="RXN-8351_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-8351_anchor_product_end_2" arrowHead="Conversion" x="455.0" y="540" elementRef="WATER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8351_anchor_product_3">
+      <Xref identifier="EC-2.8.1.9" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-8351_anchor_product_start_3" x="0" y="0" elementRef="RXN-8351_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-8351_anchor_product_end_3" arrowHead="Conversion" x="155.0" y="640" elementRef="Acceptor" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_12147719">
+      <Xref identifier="12147719" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_16306140">
+      <Xref identifier="16306140" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_11598126">
+      <Xref identifier="11598126" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_11549764">
+      <Xref identifier="11549764" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_15561708">
+      <Xref identifier="15561708" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_11050171">
+      <Xref identifier="11050171" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_11848841">
+      <Xref identifier="11848841" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_18493048">
+      <Xref identifier="18493048" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_11553608">
+      <Xref identifier="11553608" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_3393528">
+      <Xref identifier="3393528" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_23539623">
+      <Xref identifier="23539623" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_14726515">
+      <Xref identifier="14726515" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_21528011">
+      <Xref identifier="21528011" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_16307306">
+      <Xref identifier="16307306" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

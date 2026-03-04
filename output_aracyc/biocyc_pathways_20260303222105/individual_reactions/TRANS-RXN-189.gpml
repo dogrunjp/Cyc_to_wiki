@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="TRANS-RXN-189" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Description>Single reaction view for TRANS-RXN-189: TRANS-RXN-189</Description>
+  <Authors>
+    <Author name="BioCyc" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from BioCyc single reaction data.</Comment>
+  <Property key="UniqueID" value="TRANS-RXN-189" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="AT4G10310" textLabel="AT4G10310" type="GeneProduct">
+      <Xref identifier="AT4G10310" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G10310" />
+      <Property key="Product" value="AT4G10310.1" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT4G10310" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT4G10310.1" textLabel="AT4G10310.1" type="Protein">
+      <Xref identifier="AT4G10310.1" dataSource="plantcyc" />
+      <Graphics centerX="150" centerY="215" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G10310.1" />
+      <Property key="Catalyzes" value="RXN-29167" />
+      <Property key="Accession1" value="AT4G10310.1" />
+      <Property key="Gene" value="AT4G10310" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="NA_" textLabel="Na⁺" type="Metabolite">
+      <Xref identifier="FKNQFGJONOIPTF-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="NA+" />
+      <Property key="AlternativeId_Mediadb" value="compounds/1205/" />
+      <Property key="AlternativeId_Seed" value="cpd00971" />
+      <Property key="AlternativeId_Metanetx" value="MNXM27" />
+      <Property key="AlternativeId_Bigg" value="na1" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC29101" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00588" />
+      <Property key="AlternativeId_Chemspider" value="899" />
+      <Property key="AlternativeId_Chebi" value="29101" />
+      <Property key="AlternativeId_Pubchem" value="923" />
+      <Property key="AlternativeId_Cas" value="7440-23-5" />
+      <Property key="AlternativeId_LigandCpd" value="C01330" />
+      <Property key="Synonym_1" value="sodium(I)" />
+      <Property key="Synonym_2" value="Na&lt;sup&gt;I&lt;/sup&gt;" />
+      <Property key="ChemicalFormula" value="(NA 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="ComponentOf" value="CPD-9010, NaF, NA2SO4, NACL" />
+      <Property key="Gibbs0" value="-0.3120594" />
+      <Property key="Inchi" value="InChI=1S/Na/q+1" />
+      <Property key="InchiKey" value="InChIKey=FKNQFGJONOIPTF-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="22.99" />
+      <Property key="MonoisotopicMw" value="22.98976967" />
+      <Property key="NonStandardInchi" value="InChI=1S/Na/q+1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG0-6779, REG0-7047, REG-13208, REG-12100, REGQT-483, REGQT-272" />
+      <Property key="Smiles" value="[Na+]" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="AT4G10310" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="215" elementRef="AT4G10310.1" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="TRANS-RXN-189">
+      <Xref identifier="TRANS-RXN-189" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="TRANS-RXN-189_start" x="245.0" y="400" elementRef="NA_" relX="1.0" relY="0.0" />
+        <Point elementId="TRANS-RXN-189_end" arrowHead="Conversion" x="155.0" y="400" elementRef="NA_" relX="-1.0" relY="0.0" />
+        <Anchor elementId="TRANS-RXN-189_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="TRANS-RXN-189" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="ReactionEquation" value="NA+ =&gt; NA+" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXNQT-29167" />
+      <Property key="ReactionTypes" value="Transport-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value=":CPDS-LACK-STRUCTURE" />
+      <Property key="Gibbs0" value="0." />
+      <Property key="InstanceNameTemplate" value="TRANS-RXN-*" />
+      <Property key="^compartment" value="CCO-IN, CCO-OUT" />
+    </Interaction>
+    <Interaction elementId="TRANS-RXN-189_ENZRXNQT-29167">
+      <Waypoints>
+        <Point elementId="TRANS-RXN-189_ENZRXNQT-29167_start" x="150" y="227.5" elementRef="AT4G10310.1" relX="0.0" relY="1.0" />
+        <Point elementId="TRANS-RXN-189_ENZRXNQT-29167_end" arrowHead="Catalysis" x="0" y="0" elementRef="TRANS-RXN-189_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+</Pathway>

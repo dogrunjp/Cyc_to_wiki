@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="glycolate and glyoxylate degradation II" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Xref identifier="GLYOXDEG-PWY" dataSource="MetaCyc" />
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Arabidopsis thaliana col&lt;/i&gt;: Enzyme(s) that catalyzes one or more of the key reactions in this pathway were predicted in Arabidopsis thaliana col. &lt;A href=&quot;http://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; |FRAME:TAX-562| is able to utilize either glycolate or glyoxylate as a sole source of carbon and energy. There are two routes of this metabolism, the one shown here in which metabolism flows into the TCA cycle and an alternate route (|FRAME: GLYCOLATEMET-PWY|) in which it flows into glycolysis. The alternate route (|FRAME: GLYCOLATEMET-PWY|) is apparently essential for |FRAME:TAX-562| to be able to grow on either of these two substrates because a mutational block in its key enzyme (glyoxylate carboligase) precludes growth on either substrate. This pathway (|FRAME: GLYOXDEG-PWY|) appears to play an ancillary role because a mutational block in its key enzyme (malate synthase G) has no detectable effect on the utilization of either substrate, although it must be significant because malate synthase is strongly induced by the presence of glyoxylate. (|FRAME:TAX-562| has two malate synthases, this one, called G and another, called A, which participates in the glyoxylate cycle.) The essentiality of the other pathway (|FRAME: GLYCOLATEMET-PWY|) may reflect the fact that that it feeds into glycolysis and therefore becomes a source of acetyl-CoA which is essential for this pathway (|FRAME: GLYOXDEG-PWY|). In addition to the utilization of exogenous glycolate and glyoxylate, these pathways also allow |FRAME:TAX-562| to utilize glyoxylate that was endogenously generated as a by-product of purine metabolism and DNA repair. Review: Clark, D.P. and J. E. Cronan, EcoSal Module 3.4.4 |CITS: [ecosal]|</Description>
+  <Authors>
+    <Author name="O-18" />
+    <Author name="riley" />
+    <Author name="O0-3" />
+    <Author name="ingraham" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="GLYOXDEG-PWY" />
+  <Property key="Type" value="Glycolate-Degradation" />
+  <Property key="ReactionCount" value="2" />
+  <Property key="ReactionIDs" value="RXN0-7229, MALSYN-RXN" />
+  <Property key="PathwayLinks" value="(MAL GLYOXYLATE-BYPASS), (GLYCOLLATE PWY-181)" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_PMNRXN2024" />
+  <CitationRef elementRef="citation_PUB_14966218" />
+  <CitationRef elementRef="citation_PUB_15272001" />
+  <CitationRef elementRef="citation_PUB_2914930" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="AT5G03860" textLabel="MLS" type="GeneProduct">
+      <Xref identifier="AT5G03860" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G03860" />
+      <Property key="AlternativeId_String" value="3702.AT5G03860.1" />
+      <Property key="AlternativeId_Tair" value="AT5G03860" />
+      <Property key="Product" value="AT5G03860-MONOMER" />
+      <Property key="StartPosition" value="1032102" />
+      <Property key="EndPosition" value="1034569" />
+      <Property key="ComponentOf" value="CHROMOSOME-5-0" />
+      <Property key="CentisomePosition" value="3.8236334" />
+      <Property key="GeneType" value="Genes" />
+      <Property key="Operon" value="CHROMOSOME-5-0" />
+      <Property key="Accession1" value="AT5G03860" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT5G06580-MONOMER" textLabel="D-lactate dehydrogenase [cytochrome], mitochondrial" type="Protein" groupRef="CPLXQT-45">
+      <Xref identifier="Q94AX4" dataSource="uniprot" />
+      <Graphics centerX="150.0" centerY="215" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G06580-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT5G06580.1" />
+      <Property key="AlternativeId_Uniprot" value="Q94AX4" />
+      <Property key="Synonym_1" value="AtD-LDH" />
+      <Property key="Synonym_2" value="D-lactate ferricytochrome C oxidoreductase" />
+      <Property key="Synonym_3" value="Glycolate deshydrogenase" />
+      <Property key="Catalyzes" value="RXN-GO3-ENZRXN" />
+      <Property key="GOTerms" value="GO:0009536" />
+      <Property key="Accession1" value="AT5G06580.1" />
+      <Property key="ComponentOf" value="CPLXQT-45" />
+      <Property key="FunctionalAssignmentStatus" value=":AMBIGUOUS" />
+      <Property key="Gene" value="AT5G06580" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="Locations" value="CCO-PLASTID" />
+      <Property key="MolecularWeightExp" value="59." />
+      <Property key="MolecularWeightKd" value="59." />
+      <Property key="Species" value="ARA" />
+    </DataNode>
+    <DataNode elementId="AT5G03860-MONOMER" textLabel="malate synthase" type="Protein">
+      <Xref identifier="Q9LZC3" dataSource="uniprot" />
+      <Graphics centerX="300" centerY="215" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">&lt;i&gt;Arabidopsis thaliana&lt;/i&gt; mutants defective in this gene were shown to lack malate synthase activity |CITS:[15272001]|. It was shown that, in the mutants, compared to the levels incorporated in wild type, 60% of &lt;sup&gt;14&lt;/sup&gt;C from radiolabeled acetate was incorporated into sugars and twice as much &lt;sup&gt;14&lt;/sup&gt;CO&lt;sub&gt;2&lt;/sub&gt; was released |CITS:[15272001]|.</Comment>
+      <Property key="UniqueID" value="AT5G03860-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT5G03860.1" />
+      <Property key="AlternativeId_Uniprot" value="Q9LZC3" />
+      <Property key="AlternativeId_Smr" value="Q9LZC3" />
+      <Property key="AlternativeId_Pride" value="Q9LZC3" />
+      <Property key="AlternativeId_Interpro" value="IPR019830" />
+      <Property key="AlternativeId_Pfam" value="PF01274" />
+      <Property key="AlternativeId_Phylomedb" value="Q9LZC3" />
+      <Property key="AlternativeId_Prosite" value="PS00510" />
+      <Property key="AlternativeId_Panther" value="PTHR42902" />
+      <Property key="Catalyzes" value="RXN-6306" />
+      <Property key="Accession1" value="AT5G03860.1" />
+      <Property key="Gene" value="AT5G03860" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <CitationRef elementRef="citation_PUB_15272001" />
+    </DataNode>
+    <DataNode elementId="WATER" textLabel="H₂O" type="Metabolite">
+      <Xref identifier="XLYOFNOQVPJJNP-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="WATER" />
+      <Property key="AlternativeId_Bigg" value="h2o" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15377" />
+      <Property key="AlternativeId_Hmdb" value="HMDB02111" />
+      <Property key="AlternativeId_Chemspider" value="937" />
+      <Property key="AlternativeId_Chebi" value="15377" />
+      <Property key="AlternativeId_Pubchem" value="962" />
+      <Property key="AlternativeId_LigandCpd" value="C00001" />
+      <Property key="AlternativeId_Cas" value="7732-18-5" />
+      <Property key="Synonym_1" value="H20" />
+      <Property key="Synonym_2" value="H&lt;sub&gt;2&lt;/sub&gt;0" />
+      <Property key="Synonym_3" value="H2O" />
+      <Property key="Synonym_4" value="hydrogen oxide" />
+      <Property key="Synonym_5" value="water" />
+      <Property key="ChemicalFormula" value="(H 2) (O 1)" />
+      <Property key="Gibbs0" value="-36.144756" />
+      <Property key="Inchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="InchiKey" value="InChIKey=XLYOFNOQVPJJNP-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="18.015" />
+      <Property key="MonoisotopicMw" value="18.0105646863" />
+      <Property key="NonStandardInchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="O" />
+    </DataNode>
+    <DataNode elementId="CO-A" textLabel="coenzyme A" type="Metabolite">
+      <Xref identifier="RGJOEKWQDUBAIZ-IBOSZNHHSA-J" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>Coenzyme A (CoA) is a ubiquitous compound found in archaea, bacteria, plants, and animals. It is a common acyl carrier in prokaryotic and eukaryotic cells, and is required for a multitude of reactions for both biosynthetic and degradative pathways, including the oxidation of fatty acids, carbohydrates, and amino acids |CITS: [16415216]|. While the name &quot;coenzyme A&quot; is well established, the correct name for the function of the compound in enzymatic reactions is &quot;cosubstrate&quot;.</Comment>
+      <Property key="UniqueID" value="CO-A" />
+      <Property key="AlternativeId_Bigg" value="coa" />
+      <Property key="AlternativeId_Metanetx" value="MNXM727276" />
+      <Property key="AlternativeId_Refmet" value="Coenzyme A" />
+      <Property key="AlternativeId_Wikipedia" value="Coenzyme_a" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57287" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01423" />
+      <Property key="AlternativeId_Chebi" value="57287" />
+      <Property key="AlternativeId_Pubchem" value="25113190" />
+      <Property key="AlternativeId_Knapsack" value="C00007258" />
+      <Property key="AlternativeId_Cas" value="85-61-0" />
+      <Property key="AlternativeId_LigandCpd" value="C00010" />
+      <Property key="Synonym_1" value="co-A" />
+      <Property key="Synonym_2" value="co-enzyme-A" />
+      <Property key="Synonym_3" value="CoA" />
+      <Property key="Synonym_4" value="Co-A-SH" />
+      <Property key="Synonym_5" value="HS-CoA" />
+      <Property key="ChemicalFormula" value="(C 21) (H 32) (N 7) (O 16) (P 3) (S 1)" />
+      <Property key="AtomCharges" value="(39 -1), (37 -1), (35 -1), (33 -1)" />
+      <Property key="Gibbs0" value="-493.56613" />
+      <Property key="Inchi" value="InChI=1S/C21H36N7O16P3S/c1-21(2,16(31)19(32)24-4-3-12(29)23-5-6-48)8-41-47(38,39)44-46(36,37)40-7-11-15(43-45(33,34)35)14(30)20(42-11)28-10-27-13-17(22)25-9-26-18(13)28/h9-11,14-16,20,30-31,48H,3-8H2,1-2H3,(H,23,29)(H,24,32)(H,36,37)(H,38,39)(H2,22,25,26)(H2,33,34,35)/p-4/t11-,14-,15-,16+,20-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=RGJOEKWQDUBAIZ-IBOSZNHHSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="763.502" />
+      <Property key="MonoisotopicMw" value="767.1152083656" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG0-9520, REG-13932, REG0-7670, REG0-7409, REG0-7217, REG0-7083, REGQT-535, REGQT-521" />
+      <Property key="Smiles" value="CC(C)(COP([O-])(=O)OP(OC[C@H]3(O[C@@H](N1(C2(\N=C/N=C(C(\N=C/1)=2)/N)))[C@H](O)[C@H](OP([O-])(=O)[O-])3))(=O)[O-])[C@@H](O)C(=O)NCCC(=O)NCCS" />
+      <CitationRef elementRef="citation_PUB_16415216" />
+    </DataNode>
+    <DataNode elementId="MAL" textLabel="(S)-malate" type="Metabolite">
+      <Xref identifier="BJEPYKJPYRNKOW-REOHCLBHSA-L" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="MAL" />
+      <Property key="AlternativeId_Zinc" value="ZINC000000895074" />
+      <Property key="AlternativeId_Mediadb" value="compounds/145/" />
+      <Property key="AlternativeId_Seed" value="cpd00130" />
+      <Property key="AlternativeId_Metanetx" value="MNXM98" />
+      <Property key="AlternativeId_Refmet" value="Malic acid" />
+      <Property key="AlternativeId_Bigg" value="mal__L" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15589" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00156" />
+      <Property key="AlternativeId_Chemspider" value="4573566" />
+      <Property key="AlternativeId_Cas" value="97-67-6" />
+      <Property key="AlternativeId_Pubchem" value="5459792" />
+      <Property key="AlternativeId_Chebi" value="15589" />
+      <Property key="AlternativeId_LigandCpd" value="C00149" />
+      <Property key="Synonym_1" value="(&lt;i&gt;S&lt;/i&gt;)-malic acid" />
+      <Property key="Synonym_2" value="L-apple acid" />
+      <Property key="Synonym_3" value="L-malic acid" />
+      <Property key="Synonym_4" value="L-hydroxysuccinic acid" />
+      <Property key="Synonym_5" value="L-hydroxybutanedioic acid" />
+      <Property key="Synonym_6" value="L-malate" />
+      <Property key="ChemicalFormula" value="(C 4) (H 4) (O 5)" />
+      <Property key="AtomCharges" value="(6 -1), (9 -1)" />
+      <Property key="Gibbs0" value="-161.16376" />
+      <Property key="Inchi" value="InChI=1S/C4H6O5/c5-2(4(8)9)1-3(6)7/h2,5H,1H2,(H,6,7)(H,8,9)/p-2/t2-/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=BJEPYKJPYRNKOW-REOHCLBHSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="132.073" />
+      <Property key="MonoisotopicMw" value="134.0215233031" />
+      <Property key="NonStandardInchi" value="InChI=1S/C4H6O5/c5-2(4(8)9)1-3(6)7/h2,5H,1H2,(H,6,7)(H,8,9)/p-2/t2-/m0/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-7377, REG0-7673, REG-9346, REG0-7271" />
+      <Property key="Smiles" value="C(=O)([O-])C[C@H](O)C([O-])=O" />
+      <CitationRef elementRef="citation_PUB_18493048" />
+      <CitationRef elementRef="citation_PUB_16306140" />
+    </DataNode>
+    <DataNode elementId="GLYCOLLATE" textLabel="glycolate" type="Metabolite">
+      <Xref identifier="AEMRFAOFKBGASW-UHFFFAOYSA-M" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="500" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="GLYCOLLATE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004658557" />
+      <Property key="AlternativeId_Mediadb" value="compounds/156/" />
+      <Property key="AlternativeId_ReactomeCpd" value="389822" />
+      <Property key="AlternativeId_Metanetx" value="MNXM222" />
+      <Property key="AlternativeId_Refmet" value="Glycolic acid" />
+      <Property key="AlternativeId_Bigg" value="glyclt" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC29805" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00115" />
+      <Property key="AlternativeId_Drugbank" value="DB03085" />
+      <Property key="AlternativeId_Chemspider" value="4573887" />
+      <Property key="AlternativeId_Pubchem" value="5460308" />
+      <Property key="AlternativeId_Chebi" value="29805" />
+      <Property key="AlternativeId_LigandCpd" value="C00160" />
+      <Property key="AlternativeId_Cas" value="79-14-1" />
+      <Property key="Synonym_1" value="hydroxyacetic acid" />
+      <Property key="Synonym_2" value="glycolic acid" />
+      <Property key="Synonym_3" value="glycollate" />
+      <Property key="ChemicalFormula" value="(C 2) (H 3) (O 3)" />
+      <Property key="AtomCharges" value="(5 -1)" />
+      <Property key="Gibbs0" value="-96.398705" />
+      <Property key="Inchi" value="InChI=1S/C2H4O3/c3-1-2(4)5/h3H,1H2,(H,4,5)/p-1" />
+      <Property key="InchiKey" value="InChIKey=AEMRFAOFKBGASW-UHFFFAOYSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="75.044" />
+      <Property key="MonoisotopicMw" value="76.0160439947" />
+      <Property key="NonStandardInchi" value="InChI=1S/C2H4O3/c3-1-2(4)5/h3H,1H2,(H,4,5)/p-1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG0-7498, REG-6185, REG-11976" />
+      <Property key="Smiles" value="C(C(=O)[O-])O" />
+    </DataNode>
+    <DataNode elementId="ETR-Quinols" textLabel="ETR-Quinols" type="Metabolite">
+      <Xref identifier="ETR-Quinols" dataSource="" />
+      <Graphics centerX="350" centerY="500" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="ETR-Quinones" textLabel="ETR-Quinones" type="Metabolite">
+      <Xref identifier="ETR-Quinones" dataSource="" />
+      <Graphics centerX="500" centerY="500" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="PROTON" textLabel="H⁺" type="Metabolite">
+      <Xref identifier="GPRLSGONYQIRFK-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="600" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PROTON" />
+      <Property key="AlternativeId_Bigg" value="h" />
+      <Property key="AlternativeId_Seed" value="cpd00067" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1" />
+      <Property key="AlternativeId_Hmdb" value="HMDB59597" />
+      <Property key="AlternativeId_Chemspider" value="1010" />
+      <Property key="AlternativeId_Pubchem" value="1038" />
+      <Property key="AlternativeId_Chebi" value="15378" />
+      <Property key="AlternativeId_Cas" value="12408-02-5" />
+      <Property key="AlternativeId_LigandCpd" value="C00080" />
+      <Property key="Synonym_1" value="H" />
+      <Property key="Synonym_2" value="hydrogen ion" />
+      <Property key="Synonym_3" value="proton" />
+      <Property key="ChemicalFormula" value="(H 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="0.42906138" />
+      <Property key="Inchi" value="InChI=1S/p+1" />
+      <Property key="InchiKey" value="InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1.008" />
+      <Property key="MonoisotopicMw" value="1.0078250321" />
+      <Property key="NonStandardInchi" value="InChI=1S/p+1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="[H+]" />
+    </DataNode>
+    <DataNode elementId="ACETYL-COA" textLabel="acetyl-CoA" type="Metabolite">
+      <Xref identifier="ZSLZBFCDCINBPY-ZSJPKINUSA-J" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="600" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ACETYL-COA" />
+      <Property key="AlternativeId_Seed" value="cpd00022" />
+      <Property key="AlternativeId_Metanetx" value="MNXM21" />
+      <Property key="AlternativeId_Refmet" value="Acetyl-CoA" />
+      <Property key="AlternativeId_Bigg" value="accoa" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57288" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01206" />
+      <Property key="AlternativeId_Chebi" value="57288" />
+      <Property key="AlternativeId_Pubchem" value="45266541" />
+      <Property key="AlternativeId_Knapsack" value="C00007259" />
+      <Property key="AlternativeId_Cas" value="72-89-9" />
+      <Property key="AlternativeId_UmBbdCpd" value="c0031" />
+      <Property key="AlternativeId_LigandCpd" value="C00024" />
+      <Property key="Synonym_1" value="acetyl coenzyme-A" />
+      <Property key="Synonym_2" value="ac-CoA" />
+      <Property key="Synonym_3" value="acetylcoenzyme-A" />
+      <Property key="Synonym_4" value="acetyl-&lt;i&gt;S&lt;/i&gt;-CoA" />
+      <Property key="Synonym_5" value="ac-&lt;i&gt;S&lt;/i&gt;-CoA" />
+      <Property key="ChemicalFormula" value="(C 23) (H 34) (N 7) (O 17) (P 3) (S 1)" />
+      <Property key="AtomCharges" value="(38 -1), (37 -1), (39 -1), (41 -1)" />
+      <Property key="Gibbs0" value="-506.8639" />
+      <Property key="Inchi" value="InChI=1S/C23H38N7O17P3S/c1-12(31)51-7-6-25-14(32)4-5-26-21(35)18(34)23(2,3)9-44-50(41,42)47-49(39,40)43-8-13-17(46-48(36,37)38)16(33)22(45-13)30-11-29-15-19(24)27-10-28-20(15)30/h10-11,13,16-18,22,33-34H,4-9H2,1-3H3,(H,25,32)(H,26,35)(H,39,40)(H,41,42)(H2,24,27,28)(H2,36,37,38)/p-4/t13-,16-,17-,18+,22-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=ZSLZBFCDCINBPY-ZSJPKINUSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="805.54" />
+      <Property key="MonoisotopicMw" value="809.1257730519" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG0-7612, REG-13931, REG0-7671, REG0-7410, REG0-7082, REG0-7273, REG0-6743, REGQT-542, REGQT-534, REGQT-520" />
+      <Property key="Smiles" value="CC(=O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)COP(OP([O-])(OC[C@@H]1([C@@H](OP([O-])([O-])=O)[C@@H](O)[C@@H](O1)N2(C3(\N=C/N=C(C(\N=C/2)=3)/N))))=O)([O-])=O" />
+      <Property key="Superatoms" value="COA-GROUP" />
+    </DataNode>
+    <DataNode elementId="GLYOX" textLabel="glyoxylate" type="Metabolite">
+      <Xref identifier="HHLFWLYXYJOTON-UHFFFAOYSA-M" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="600" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="GLYOX" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004658554" />
+      <Property key="AlternativeId_Seed" value="cpd00040" />
+      <Property key="AlternativeId_Metanetx" value="MNXM69" />
+      <Property key="AlternativeId_Chebi" value="36655" />
+      <Property key="AlternativeId_Refmet" value="Glyoxylic acid" />
+      <Property key="AlternativeId_Bigg" value="glx" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC36655" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00119" />
+      <Property key="AlternativeId_Knapsack" value="C00001186" />
+      <Property key="AlternativeId_Pubchem" value="3614358" />
+      <Property key="AlternativeId_LigandCpd" value="C00048" />
+      <Property key="AlternativeId_Cas" value="298-12-4" />
+      <Property key="Synonym_1" value="glyoxalate" />
+      <Property key="Synonym_2" value="glyox" />
+      <Property key="Synonym_3" value="glyoxylic acid" />
+      <Property key="ChemicalFormula" value="(C 2) (H 1) (O 3)" />
+      <Property key="AtomCharges" value="(5 -1)" />
+      <Property key="Gibbs0" value="-102.04095" />
+      <Property key="Inchi" value="InChI=1S/C2H2O3/c3-1-2(4)5/h1H,(H,4,5)/p-1" />
+      <Property key="InchiKey" value="InChIKey=HHLFWLYXYJOTON-UHFFFAOYSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="73.028" />
+      <Property key="MonoisotopicMw" value="74.0003939305" />
+      <Property key="NonStandardInchi" value="InChI=1S/C2H2O3/c3-1-2(4)5/h1H,(H,4,5)/p-1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-6184, REG-11977, REG0-6923, REG-12098" />
+      <Property key="Smiles" value="C(C(=O)[O-])=O" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="AT5G03860" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="255.0" y="215" elementRef="AT5G03860-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN0-7229">
+      <Xref identifier="EC-1.1.99.14" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN0-7229_start" x="245.0" y="500" elementRef="GLYCOLLATE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN0-7229_end" arrowHead="Conversion" x="455.0" y="600" elementRef="GLYOX" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN0-7229_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN0-7229" />
+      <Property key="EC_Number" value="EC-1.1.99.14" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-8363, GLYOXDEG-PWY" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="ETR-Quinones + GLYCOLLATE =&gt; ETR-Quinols + GLYOX" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXNQT-33915" />
+      <Property key="ReactionTypes" value="Electron-Transfer-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4) (((&quot;GLYOX&quot; 0 4)) ((&quot;GLYCOLLATE&quot; 0 4))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-11.44223" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^compartment" value="CCO-IN, CCO-IN" />
+      <Property key="Predecessors" value="(RXN0-5259 RXN-17757)" />
+      <Property key="Primaries" value="(RXN0-5259 (E-) NIL), (RXN-17757 NIL (E-))" />
+      <Property key="ReactionList" value="RXN0-5259, RXN-17757" />
+    </Interaction>
+    <Interaction elementId="RXN0-7229_ENZRXNQT-33915">
+      <Waypoints>
+        <Point elementId="RXN0-7229_ENZRXNQT-33915_start" x="150.0" y="227.5" elementRef="AT5G06580-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="RXN0-7229_ENZRXNQT-33915_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN0-7229_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN0-7229_anchor_reactant_0">
+      <Xref identifier="EC-1.1.99.14" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN0-7229_anchor_reactant_start_0" x="545.0" y="500" elementRef="ETR-Quinones" relX="1.0" relY="0.0" />
+        <Point elementId="RXN0-7229_anchor_reactant_end_0" x="0" y="0" elementRef="RXN0-7229_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN0-7229_anchor_product_0">
+      <Xref identifier="EC-1.1.99.14" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN0-7229_anchor_product_start_0" x="0" y="0" elementRef="RXN0-7229_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN0-7229_anchor_product_end_0" arrowHead="Conversion" x="305.0" y="500" elementRef="ETR-Quinols" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="MALSYN-RXN">
+      <Xref identifier="18182" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="MALSYN-RXN_start" x="545.0" y="600" elementRef="GLYOX" relX="1.0" relY="0.0" />
+        <Point elementId="MALSYN-RXN_end" arrowHead="Conversion" x="455.0" y="400" elementRef="MAL" relX="-1.0" relY="0.0" />
+        <Anchor elementId="MALSYN-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="AlternativeId_Uniprot" value="P42450" />
+      <Property key="AlternativeId_Rhea" value="18182" />
+      <Property key="AlternativeId_Pir" value="I40715" />
+      <Property key="UniqueID" value="MALSYN-RXN" />
+      <Property key="EC_Number" value="EC-2.3.3.9" />
+      <Property key="Pathways" value="GLYOXDEG-PWY, GLYOXYLATE-BYPASS" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="ACETYL-COA + WATER + GLYOX =&gt; PROTON + MAL + CO-A" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXNQT-6306" />
+      <Property key="Synonym_1" value="glyoxylate-acetate condensation" />
+      <Property key="Synonym_2" value="glyoxylate transacetylation" />
+      <Property key="Synonym_3" value="Malate synthetase" />
+      <Property key="Synonym_4" value="Malate condensing enzyme" />
+      <Property key="Synonym_5" value="Glyoxylate transacetylase" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (48 1 0 2 3 4 5 6 7 8 9 50 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 54 28 29 30 31 33 34 32 36 35 38 37 39 40 41 42 43 44 45 46 47 49 51 52 55 56 53) (((&quot;CO-A&quot; 0 47) (&quot;MAL&quot; 48 56)) ((&quot;ACETYL-COA&quot; 0 50) (&quot;GLYOX&quot; 51 55) (&quot;WATER&quot; 56 56))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-9.251220" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="Synonyms" value="glyoxylate-acetate condensation, glyoxylate transacetylation, Malate synthetase, Malate condensing enzyme, Glyoxylate transacetylase" />
+    </Interaction>
+    <Interaction elementId="MALSYN-RXN_ENZRXNQT-6306">
+      <Waypoints>
+        <Point elementId="MALSYN-RXN_ENZRXNQT-6306_start" x="300" y="227.5" elementRef="AT5G03860-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="MALSYN-RXN_ENZRXNQT-6306_end" arrowHead="Catalysis" x="0" y="0" elementRef="MALSYN-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="MALSYN-RXN_anchor_reactant_0">
+      <Xref identifier="18182" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="MALSYN-RXN_anchor_reactant_start_0" x="395.0" y="600" elementRef="ACETYL-COA" relX="1.0" relY="0.0" />
+        <Point elementId="MALSYN-RXN_anchor_reactant_end_0" x="0" y="0" elementRef="MALSYN-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="MALSYN-RXN_anchor_reactant_1">
+      <Xref identifier="18182" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="MALSYN-RXN_anchor_reactant_start_1" x="245.0" y="400" elementRef="WATER" relX="1.0" relY="0.0" />
+        <Point elementId="MALSYN-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="MALSYN-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="MALSYN-RXN_anchor_product_0">
+      <Xref identifier="18182" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="MALSYN-RXN_anchor_product_start_0" x="0" y="0" elementRef="MALSYN-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="MALSYN-RXN_anchor_product_end_0" arrowHead="Conversion" x="155.0" y="600" elementRef="PROTON" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="MALSYN-RXN_anchor_product_2">
+      <Xref identifier="18182" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="MALSYN-RXN_anchor_product_start_2" x="0" y="0" elementRef="MALSYN-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="MALSYN-RXN_anchor_product_end_2" arrowHead="Conversion" x="305.0" y="400" elementRef="CO-A" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Groups>
+    <Group elementId="CPLXQT-45" textLabel="D-lactate dehydrogenase" type="Complex">
+      <Xref identifier="CPLXQT-45" dataSource="plantcyc" />
+      <Graphics centerX="150" centerY="215" width="140" height="100" textColor="666666" fontName="Arial" fontSize="10" borderColor="9900CC" borderStyle="Dashed" borderWidth="2.0" fillColor="F5E6FF" shapeType="Rectangle" zOrder="-1" />
+      <Comment>Biochemical characterization of the recombinant protein showed that At5g06580 encodes a D-lactate dehydrogenase (AtD-LDH). The recombinant protein is a homodimer with one FAD per monomer. Although AtD-LDH catalyzed the oxidation of D-lactate preferentially, it can also use L-lactate D-2-hydroxybutyrate, glycerate, and glycolate as substrates|CITS: [19586914]|.</Comment>
+      <Property key="UniqueID" value="CPLXQT-45" />
+      <Property key="ComplexComponents" value="AT5G06580-MONOMER" />
+      <Property key="ComponentCount" value="1" />
+      <Property key="IsComplex" value="true" />
+      <Property key="Catalyzes" value="RXN-33916, RXN-33915, RXN-7670, RXN-12714" />
+      <Property key="CatalyzesCount" value="4" />
+      <Property key="^coefficient" value="2" />
+      <Property key="InstanceNameTemplate" value="CPLX-*" />
+      <Property key="Species" value="ARA" />
+      <CitationRef elementRef="citation_PUB_14966218" />
+      <CitationRef elementRef="citation_PUB_19586914" />
+    </Group>
+  </Groups>
+  <Citations>
+    <Citation elementId="citation_PUB_PMNRXN2024">
+      <Xref identifier="PUB-PMNRXN2024 | This pathway, a member of the Conditionally Accepted PMN Pathways (CAPP version 6.0), was predicted ... (2024)" dataSource="BioCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_14966218">
+      <Xref identifier="14966218" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_16415216">
+      <Xref identifier="16415216" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_18493048">
+      <Xref identifier="18493048" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_19586914">
+      <Xref identifier="19586914" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_15272001">
+      <Xref identifier="15272001" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_2914930">
+      <Xref identifier="2914930" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_16306140">
+      <Xref identifier="16306140" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

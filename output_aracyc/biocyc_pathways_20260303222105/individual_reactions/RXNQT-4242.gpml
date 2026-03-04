@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="RXNQT-4242" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Description>Single reaction view for RXNQT-4242: RXNQT-4242</Description>
+  <Authors>
+    <Author name="BioCyc" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from BioCyc single reaction data.</Comment>
+  <Property key="UniqueID" value="RXNQT-4242" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="CPDQT-387" textLabel="14-nonacosanol" type="Metabolite">
+      <Graphics centerX="200" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>This compound has been experimentally verified in Arabidopsis |CITS: [12228482]|.</Comment>
+      <Property key="UniqueID" value="CPDQT-387" />
+      <Property key="ChemicalFormula" value="(C 29) (H 60) (O 1)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="424.792" />
+      <Property key="MonoisotopicMw" value="424.4644165481" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="CCCCCCCCCCCCCC(O)CCCCCCCCCCCCCCC" />
+      <CitationRef elementRef="citation_PUB_12228482" />
+    </DataNode>
+    <DataNode elementId="CPD-7940" textLabel="nonacosane" type="Metabolite">
+      <Xref identifier="IGGUPRCHHJZPBS-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-7940" />
+      <Property key="AlternativeId_Zinc" value="ZINC000006920421" />
+      <Property key="AlternativeId_Seed" value="cpd05296" />
+      <Property key="AlternativeId_Metanetx" value="MNXM725070" />
+      <Property key="AlternativeId_Hmdb" value="HMDB34288" />
+      <Property key="AlternativeId_Chemspider" value="11903" />
+      <Property key="AlternativeId_Pubchem" value="12409" />
+      <Property key="AlternativeId_Chebi" value="7613" />
+      <Property key="AlternativeId_LigandCpd" value="C08384" />
+      <Property key="Synonym_1" value="n-nonacosane" />
+      <Property key="ChemicalFormula" value="(C 29) (H 60)" />
+      <Property key="Gibbs0" value="656.3872" />
+      <Property key="Inchi" value="InChI=1S/C29H60/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-29-28-26-24-22-20-18-16-14-12-10-8-6-4-2/h3-29H2,1-2H3" />
+      <Property key="InchiKey" value="InChIKey=IGGUPRCHHJZPBS-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="408.793" />
+      <Property key="MonoisotopicMw" value="408.469501926" />
+      <Property key="NonStandardInchi" value="InChI=1S/C29H60/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-29-28-26-24-22-20-18-16-14-12-10-8-6-4-2/h3-29H2,1-2H3" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="CCCCCCCCCCCCCCCCCCCCCCCCCCCCC" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="RXNQT-4242">
+      <Xref identifier="RXNQT-4242" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXNQT-4242_start" x="395.0" y="210" elementRef="CPD-7940" relX="1.0" relY="0.0" />
+        <Point elementId="RXNQT-4242_end" arrowHead="Conversion" x="155.0" y="210" elementRef="CPDQT-387" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXNQT-4242_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Comment source="BioCyc">This is a hypothetical reaction created using two compounds and a generic reaction present in the AraCyc database (see |FRAME:RXN-1022|). The ideas presented by |CITS: [12228482]| and |CITS: [JENKS02]| corroborate with such possibility. The hydroxyl donor for this reaction has not been identified to date.</Comment>
+      <Property key="UniqueID" value="RXNQT-4242" />
+      <Property key="ReactionEquation" value="CPD-7940 =&gt; CPDQT-387" />
+      <Property key="BalanceStatus" value=":UNBALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <CitationRef elementRef="citation_PUB_12228482" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_12228482">
+      <Xref identifier="12228482" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

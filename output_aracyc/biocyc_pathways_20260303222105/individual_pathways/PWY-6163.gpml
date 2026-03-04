@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="chorismate biosynthesis from 3-dehydroquinate" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Xref identifier="PWY-6163" dataSource="MetaCyc" />
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Arabidopsis thaliana col&lt;/i&gt;: This pathway is on the list of Common Viridiplantae Pathways (CVP) generated for the COMET project, which includes pathways that are thought to be present in all or most Viridiplantae species including algae. All UPP pathways are automatically imported into databases regardless of Pathologic predictions. &lt;A href=&quot;http://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; &lt;b&gt;Background&lt;/b&gt; In this pathway chorismate is synthesized from |FRAME: DEHYDROQUINATE|. The pathway is found in prokaryotes (both bacteria and archaea) and several eukaryotes, including ascomycete fungi, apicomplexans, plants and algae |CITS: [16963634]|. However, its starting point, |FRAME: DEHYDROQUINATE|, can be synthesized in different routes. In most microorganisms it is synthesized from |FRAME: ERYTHROSE-4P| (see |FRAME: PWY-6164|), but the methanogens of the |FRAME: TAX-28890| phylum utilize an alternative route |CITS: [15182204]| (see |FRAME: PWY-6160|). |FRAME: CHORISMATE &quot;Chorismate&quot;| is an intermediate in the synthesis of the three aromatic amino acids: |FRAME: PHE|, |FRAME: TYR| and |FRAME: TRP|. These amino acids serve as substrates in other pathways for secondary metabolites such as alkaloids, flavonoids, lignin, coumarin, indole derivatives and other phenolic compounds |CITS: [22296303]|. |FRAME: SHIKIMATE &quot;Shikimate&quot;| is an important intermediate in the chorismate biosynthetic pathway. It was first isolated from Japanese star anise. Shikimate is used for the production of some antiviral drugs used to halt the spread of the flu virus, but as a biosynthetic intermediate, it is usually not found in high concentrations in organisms. Shikimate can be easily harvested from the needles of several species of pine trees, and biosynthetic pathways in |FRAME:TAX-562| have been enhanced to obtain sufficient amounts of the metabolite for commercial use. &lt;b&gt;About this Pathway&lt;/b&gt; The first enzyme in this section of the pathway, |FRAME: EC-4.2.1.10|, dehydrates |FRAME: DEHYDROQUINATE| to |FRAME: 3-DEHYDRO-SHIKIMATE|, which is subsequently reduced to |FRAME: SHIKIMATE| by |FRAME: EC-1.1.1.25| (or in some organisms also by |FRAME: EC-1.1.1.282|). The next enzyme, |FRAME: EC-2.7.1.71|, was shown in |FRAME: TAX-1423| to form a complex with the bifunctional |FRAME: CPLX-1101| (|FRAME: G-279|). The complex may serve as a regulatory unit |CITS: [170268] [BSUB225]|. |FRAME: EC-2.5.1.19|, catalyzes the penultimate step in chorismate biosynthesis. The synthase is activated by ammonium ions and exhibits allosteric behavior. |FRAME: CPD0-1308 Glyphosate| acts as a competitive inhibitor with respect to |FRAME: PHOSPHO-ENOL-PYRUVATE| and as a partial uncompetitive inhibitor with respect to |FRAME: SHIKIMATE-5P| |CITS: [3111378] [7744055][7589547]|. The last enzyme of the pathway, |FRAME: EC-4.2.3.5|, catalyzes the conversion of |FRAME: 3-ENOLPYRUVYL-SHIKIMATE-5P| into |FRAME: CHORISMATE|, the key branch-point intermediate in aromatic biosynthesis.</Description>
+  <Authors>
+    <Author name="SRI" />
+    <Author name="brito" />
+    <Author name="caspi" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-6163" />
+  <Property key="Type" value="Chorismate-Biosynthesis" />
+  <Property key="ReactionCount" value="5" />
+  <Property key="ReactionIDs" value="3-DEHYDROQUINATE-DEHYDRATASE-RXN, SHIKIMATE-5-DEHYDROGENASE-RXN, SHIKIMATE-KINASE-RXN, 2.5.1.19-RXN, CHORISMATE-SYNTHASE-RXN" />
+  <Property key="PredecessorCount" value="4" />
+  <Property key="PathwayLinks" value="(DEHYDROQUINATE PWY-6164)" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_PMNCVP2024" />
+  <CitationRef elementRef="citation_PUB_3481024" />
+  <CitationRef elementRef="citation_PUB_16963634" />
+  <CitationRef elementRef="citation_PUB_15182204" />
+  <CitationRef elementRef="citation_PUB_22296303" />
+  <Graphics boardWidth="1200" boardHeight="1040" />
+  <DataNodes>
+    <DataNode elementId="AT1G48850" textLabel="AT1G48850" type="GeneProduct">
+      <Xref identifier="AT1G48850" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G48850" />
+      <Property key="Products" value="AT1G48850.3, AT1G48850.2, AT1G48850.1" />
+      <Property key="ProductCount" value="3" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT1G48850" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT2G45300" textLabel="EPSP" type="GeneProduct">
+      <Xref identifier="XO6613" dataSource="Entrez Gene" />
+      <Graphics centerX="220" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT2G45300" />
+      <Property key="AlternativeId_Tair" value="AT2G45300" />
+      <Property key="AlternativeId_Entrez" value="XO6613" />
+      <Property key="Product" value="AT2G45300-MONOMER" />
+      <Property key="StartPosition" value="18684385" />
+      <Property key="EndPosition" value="18687146" />
+      <Property key="ComponentOf" value="CHROMOSOME-2-4" />
+      <Property key="CentisomePosition" value="94.81879" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-2-4" />
+      <Property key="Accession1" value="AT2G45300" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT1G48860" textLabel="AT1G48860" type="GeneProduct">
+      <Xref identifier="AT1G48860" dataSource="TAIR gene name" />
+      <Graphics centerX="340" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G48860" />
+      <Property key="Products" value="AT1G48860.2, AT1G48860.1" />
+      <Property key="ProductCount" value="2" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT1G48860" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT4G39540" textLabel="SK2" type="GeneProduct">
+      <Xref identifier="AT4G39540" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G39540" />
+      <Property key="Product" value="AT4G39540-MONOMER" />
+      <Property key="StartPosition" value="18378227" />
+      <Property key="EndPosition" value="18380411" />
+      <Property key="ComponentOf" value="CHROMOSOME-4-4" />
+      <Property key="CentisomePosition" value="98.8872" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-4-4" />
+      <Property key="Accession1" value="AT4G39540" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT3G06350" textLabel="AT3G06350" type="GeneProduct">
+      <Xref identifier="AT3G06350" dataSource="TAIR gene name" />
+      <Graphics centerX="220" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G06350" />
+      <Property key="Synonym_1" value="MEE32" />
+      <Property key="Synonym_2" value="EMB3004" />
+      <Property key="Synonym_3" value="DHQ-SDH" />
+      <Property key="Product" value="AT3G06350-MONOMER" />
+      <Property key="StartPosition" value="1924316" />
+      <Property key="EndPosition" value="1927765" />
+      <Property key="ComponentOf" value="CHROMOSOME-3-0" />
+      <Property key="CentisomePosition" value="8.198765" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-3-0" />
+      <Property key="Accession1" value="AT3G06350" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT2G21940" textLabel="SK1" type="GeneProduct">
+      <Xref identifier="AT2G21940" dataSource="TAIR gene name" />
+      <Graphics centerX="340" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT2G21940" />
+      <Property key="Product" value="AT2G21940-MONOMER" />
+      <Property key="StartPosition" value="9357632" />
+      <Property key="EndPosition" value="9360311" />
+      <Property key="ComponentOf" value="CHROMOSOME-2-2" />
+      <Property key="CentisomePosition" value="47.48775" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-2-2" />
+      <Property key="Accession1" value="AT2G21940" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT1G48860.2" textLabel="AT1G48860.2" type="Protein">
+      <Xref identifier="AT1G48860.2" dataSource="plantcyc" />
+      <Graphics centerX="150" centerY="275" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G48860.2" />
+      <Property key="Catalyzes" value="RXN-32144" />
+      <Property key="Accession1" value="AT1G48860.2" />
+      <Property key="Gene" value="AT1G48860" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT2G45300-MONOMER" textLabel="3-phosphoshikimate 1-carboxyvinyltransferase, chloroplastic" type="Protein">
+      <Xref identifier="P05466" dataSource="uniprot" />
+      <Graphics centerX="300" centerY="275" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">The gene encoding 5-enolpyruvylshikimate-3-phosphate synthase has been identified and partially characterized in &lt;i&gt;Arabidopsis thaliana&lt;/i&gt;. Its molecular function to catalyze the condensation of phosphoenolpyruvate with shikimate 3-phosphate to yield 5-enolpyruvylshikimate 3-phosphate (EPSP) has been shown by glyphosate tolerance gained in Arabidopsis through overexpression of the gene |CITS:[3481024]|.</Comment>
+      <Property key="UniqueID" value="AT2G45300-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT2G45300.1" />
+      <Property key="AlternativeId_Uniprot" value="P05466" />
+      <Property key="AlternativeId_Pid" value="CAA29828" />
+      <Property key="Synonym_1" value="5-enolpyruvylshikimate-3-phosphate synthase" />
+      <Property key="Synonym_2" value="EPSP synthase" />
+      <Property key="Catalyzes" value="RXN-5099" />
+      <Property key="Accession1" value="AT2G45300.1" />
+      <Property key="Gene" value="AT2G45300" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <CitationRef elementRef="citation_PUB_3481024" />
+    </DataNode>
+    <DataNode elementId="AT2G21940-MONOMER" textLabel="Shikimate kinase 1, chloroplastic" type="Protein">
+      <Xref identifier="Q9SJ05" dataSource="uniprot" />
+      <Graphics centerX="450" centerY="275" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="THE-ARABIDOPSIS-INFORMATION-RESOURCE, dreher">SK1 is one of two shikimate kinases from |FRAME: ORG-5993 Arabidopsis thaliana| that phosphorylate |FRAME: SHIKIMATE shikimate|. As part of the shikimate pathway, these enzymes help to move carbon from primary metabolism to a broad range of secondary metabolites important for plant growth, development, and survival under stress |CITS: [19057671]|. Although they have relatively similar enzymatic activities, |FRAME: AT2G21940-MONOMER SK1| and |FRAME: AT4G39540-MONOMER SK2| expression patterns are different with |FRAME: AT2G21940-MONOMER SK1| transcripts being expressed most highly in mature embryos and senescing leaves while |FRAME: AT4G39540-MONOMER SK2| transcripts are expressed throughout vegetative development and early on during embryogenesis. In addition, |FRAME: AT2G21940-MONOMER SK1| transcripts rise during heat stress and recovery, whereas |FRAME: AT4G39540-MONOMER SK2| has higher levels of transcripts following innoculation with spores of |FRAME: TAX-4787 &lt;i&gt;Phytophthora infestans&lt;/i&gt;| |CITS: [19057671]|. It is believed that this protein is found in the chloroplast based on the presence of a putative N-terminal transit peptide and based on the observation that shikimate kinases from spinach and tomato are targeted to the chloroplast |CITS: [16667533][1338949][19057671]|.</Comment>
+      <Property key="UniqueID" value="AT2G21940-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT2G21940.4" />
+      <Property key="AlternativeId_Uniprot" value="Q9SJ05" />
+      <Property key="Synonym_1" value="AtSK1" />
+      <Property key="Catalyzes" value="RXN-18397" />
+      <Property key="Accession1" value="AT2G21940.4" />
+      <Property key="Gene" value="AT2G21940" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <CitationRef elementRef="citation_PUB_19057671" />
+    </DataNode>
+    <DataNode elementId="AT3G06350-MONOMER" textLabel="Bifunctional 3-dehydroquinate dehydratase/shikimate dehydrogenase, chloroplastic" type="Protein">
+      <Xref identifier="Q9SQT8" dataSource="uniprot" />
+      <Graphics centerX="150" centerY="355" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">DHQ-SDH is a multifunctional enzyme. The enzyme atalyzes two consecutive reactions in the shikimate biosynthesis pathway, transforming |FRAME: DEHYDROQUINATE 3-dehydroquinate| (DQ) to |FRAME: 3-DEHYDRO-SHIKIMATE 3-dehydroshikimate| (DHS) and then to |FRAME: SHIKIMATE shikimate| |CITS: [16784230]|. In addition, the enzyme can catalyze the oxidation of |FRAME: 3-DEHYDRO-SHIKIMATE 3-dehydroshikimate| to |FRAME: CPD-13085 3,5-didehydroshikimate|, which immidiately and spontaneously rearranges to form |FRAME: CPD-183 gallate| |CITS: [Muir11]|. The enzyme has been co-crystalized with a few different substrates to elucidate its structure and bifunctional behavior |CITS: [16784230][SINGH07]|. These studies reveal that the enzyme has a concave architecture that places the active sites for the two different enzymatic activities in a face-to-face arrangement. Two compounds associated with the first reaction |FRAME: DEHYDROQUINATE DQ| and |FRAME: 3-DEHYDRO-SHIKIMATE DHS| can be siphoned off into quinate metabolic pathways. While quinates may act as important anti-herbivory and cell wall precursor compounds, it is likley important for plants to maintain a constant flux through the shikimate pathway. The bifunctional nature of this enzyme may promote that outcome by creating a higher effective concentration of |FRAME: 3-DEHYDRO-SHIKIMATE DHS| at the shikimate dehydrogenase active site, thus reducing the tendency for |FRAME: 3-DEHYDRO-SHIKIMATE DHS| to exit the chorismate biosynthetic pathway |CITS: [16784230]|. A series of single amino-acid change shikimate dehydrogenase active site mutants were tested &lt;i&gt;in vitro&lt;/i&gt; to better understand this phenomenon |CITS: [16784230][SINGH07]|. The dehydroquinate dehydratase activity was not extensively characterized, but, when |FRAME: DEHYDROQUINATE DQ| was added to the DHQ-SDH crystal, it led to the formation of a Lys-241-dehydroshikimate Schiff base in the dehydroquinate dehydratase active site |CITS: [SINGH07]|. This protein is localized to the cholorplast |CITS: [18633119]| and may be present in the stroma |CITS: [18431481]|. Studies on DHQ-SDH were performed using a truncated version of the protein lacking the first 88-amino acids of the full-length protein. They are predicted to serve as the N-terminal transit peptide directing this protein to the chloroplast |CITS: [16784230][SINGH07]|.</Comment>
+      <Property key="UniqueID" value="AT3G06350-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT3G06350.1" />
+      <Property key="AlternativeId_Uniprot" value="Q9SQT8" />
+      <Property key="Synonym_1" value="DHQ-SDH protein" />
+      <Property key="Synonym_2" value="DHQase-SORase" />
+      <Property key="Synonym_3" value="Protein EMBRYO DEFECTIVE 3004[Includes: Dehydroquinate dehydratase" />
+      <Property key="Synonym_4" value="DHQ" />
+      <Property key="Synonym_5" value="SDH" />
+      <Property key="Catalyzes" value="RXN-18699, RXN-18400, RXN-18401" />
+      <Property key="CatalyzesCount" value="3" />
+      <Property key="Accession1" value="AT3G06350.1" />
+      <Property key="Gene" value="AT3G06350" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <CitationRef elementRef="citation_PUB_16784230" />
+      <CitationRef elementRef="citation_PUB_18633119" />
+      <CitationRef elementRef="citation_PUB_18431481" />
+    </DataNode>
+    <DataNode elementId="AT4G39540-MONOMER" textLabel="Shikimate kinase 2, chloroplastic" type="Protein">
+      <Xref identifier="Q8GY88" dataSource="uniprot" />
+      <Graphics centerX="300" centerY="355" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">SK2 is one of two shikimate kinases from |FRAME: ORG-5993 Arabidopsis thaliana| that phosphorylate |FRAME: SHIKIMATE shikimate|. As part of the shikimate pathway, these enzymes help to move carbon from primary metabolism to a broad range of secondary metabolites important for plant growth, development, and survival under stress |CITS: [19057671]|. Although they have relatively similar enzymatic activities, |FRAME: AT2G21940-MONOMER SK1| and |FRAME: AT4G39540-MONOMER SK2| expression patterns are different with |FRAME: AT2G21940-MONOMER SK1| transcripts being expressed most highly in mature embryos and senescing leaves while |FRAME: AT4G39540-MONOMER SK2| transcripts are expressed throughout vegetative development and early on during embryogenesis. In addition, |FRAME: AT2G21940-MONOMER SK1| transcripts rise during heat stress and recovery, whereas |FRAME: AT4G39540-MONOMER SK2| has higher levels of transcripts following innoculation with spores of |FRAME: TAX-4787 &lt;i&gt;Phytophthora infestans&lt;/i&gt;| |CITS: [19057671]|. It is believed that this protein is found in the chloroplast based on the presence of a putative N-terminal transit peptide and based on the observation that shikimate kinases from spinach and tomato are targeted to the chloroplast |CITS: [16667533][1338949][19057671]|.</Comment>
+      <Property key="UniqueID" value="AT4G39540-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT4G39540.3" />
+      <Property key="AlternativeId_Uniprot" value="Q8GY88" />
+      <Property key="Synonym_1" value="AtSK2" />
+      <Property key="Catalyzes" value="RXN-18398" />
+      <Property key="Accession1" value="AT4G39540.3" />
+      <Property key="Gene" value="AT4G39540" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <CitationRef elementRef="citation_PUB_19057671" />
+    </DataNode>
+    <DataNode elementId="AT1G48850.3" textLabel="AT1G48850.3" type="Protein">
+      <Xref identifier="AT1G48850.3" dataSource="plantcyc" />
+      <Graphics centerX="450" centerY="355" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G48850.3" />
+      <Property key="Catalyzes" value="RXN-32145" />
+      <Property key="Accession1" value="AT1G48850.3" />
+      <Property key="Gene" value="AT1G48850" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="WATER" textLabel="H₂O" type="Metabolite">
+      <Xref identifier="XLYOFNOQVPJJNP-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="540" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="WATER" />
+      <Property key="AlternativeId_Bigg" value="h2o" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15377" />
+      <Property key="AlternativeId_Hmdb" value="HMDB02111" />
+      <Property key="AlternativeId_Chemspider" value="937" />
+      <Property key="AlternativeId_Chebi" value="15377" />
+      <Property key="AlternativeId_Pubchem" value="962" />
+      <Property key="AlternativeId_LigandCpd" value="C00001" />
+      <Property key="AlternativeId_Cas" value="7732-18-5" />
+      <Property key="Synonym_1" value="H20" />
+      <Property key="Synonym_2" value="H&lt;sub&gt;2&lt;/sub&gt;0" />
+      <Property key="Synonym_3" value="H2O" />
+      <Property key="Synonym_4" value="hydrogen oxide" />
+      <Property key="Synonym_5" value="water" />
+      <Property key="ChemicalFormula" value="(H 2) (O 1)" />
+      <Property key="Gibbs0" value="-36.144756" />
+      <Property key="Inchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="InchiKey" value="InChIKey=XLYOFNOQVPJJNP-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="18.015" />
+      <Property key="MonoisotopicMw" value="18.0105646863" />
+      <Property key="NonStandardInchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="O" />
+    </DataNode>
+    <DataNode elementId="NADP" textLabel="NADP⁺" type="Metabolite">
+      <Xref identifier="XJLXINKUBYWONI-NNYOXOHSSA-K" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="540" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>|FRAME: NAD| and |FRAME: NADP| are dinucleotides containing one |FRAME: NIACINAMIDE| base and one |FRAME: ADENINE| base. Each nucleotide is connected to a ribose sugar at position 1, and the two riboses are connected at their 5 position via a diphosphate. The only difference between the two is that in NADP there is an additional phosphate group at the 2&apos; position of the ribose that carries the adenine moiety. These molecules are biological carriers of reductive equivalents (i.e. high potential electrons). Most of the time they function as cosubstrates, and in some cases they function as |FRAME: Cofactors cofactors|. They are often referred to by the obsolete term &quot;coenzymes&quot;. The most common function of |FRAME: NAD| is to accept two electrons and a proton (a hydride ion) from a substrate that is being oxidized. This reduction converts |FRAME: NAD| to |FRAME: NADH|, the reduced form. NADH then diffuses or is transported to a terminal oxidase, where the electrons are passed on, regenerating the oxidized form. |FRAME: NADPH|, on the other hand, is mostly involved in biosynthetic reactions, where it serves as an electron donor. NADPH is formed by reduction of |FRAME: NADP|, which occurs by different mechanisms in different types of organisms. In photosynthetic organisms |FRAME: NADP| is reduced by |FRAME: CPLX-84|. In heterotrophic organisms it is reduced by central metabolism processes such as the pentose phosphate pathway (see |FRAME: OXIDATIVEPENT-PWY|).</Comment>
+      <Property key="UniqueID" value="NADP" />
+      <Property key="AlternativeId_Bigg" value="nadp" />
+      <Property key="AlternativeId_Seed" value="cpd00006" />
+      <Property key="AlternativeId_Metanetx" value="MNXM5" />
+      <Property key="AlternativeId_Refmet" value="NADP+" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC58349" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00217" />
+      <Property key="AlternativeId_Chemspider" value="10239198" />
+      <Property key="AlternativeId_Chebi" value="58349" />
+      <Property key="AlternativeId_Pubchem" value="15938972" />
+      <Property key="AlternativeId_LigandCpd" value="C00006" />
+      <Property key="AlternativeId_Cas" value="53-59-8" />
+      <Property key="Synonym_1" value="NADP+" />
+      <Property key="Synonym_2" value="coenzyme II" />
+      <Property key="Synonym_3" value="triphosphopyridine nucleotide" />
+      <Property key="Synonym_4" value="nicotinamide adenine dinucleotide phosphate" />
+      <Property key="Synonym_5" value="NADP-oxidized" />
+      <Property key="Synonym_6" value="NADP-ox" />
+      <Property key="Synonym_7" value="TPN" />
+      <Property key="Synonym_8" value="TPN+" />
+      <Property key="Synonym_9" value="TPN-ox" />
+      <Property key="Synonym_10" value="nicotinamide adenine dinucleotide-P" />
+      <Property key="Synonym_11" value="NADP(+)" />
+      <Property key="Synonym_12" value="NADP" />
+      <Property key="Synonym_13" value="&amp;beta;-NADP&lt;sup&gt;+&lt;/sup&gt;" />
+      <Property key="ChemicalFormula" value="(C 21) (H 25) (N 7) (O 17) (P 3)" />
+      <Property key="AtomCharges" value="(27 1), (35 -1), (33 -1), (39 -1), (37 -1)" />
+      <Property key="CofactorsOf" value="ENZRXN-12451" />
+      <Property key="Gibbs0" value="-563.64954" />
+      <Property key="Inchi" value="InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p-3/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=XJLXINKUBYWONI-NNYOXOHSSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="740.386" />
+      <Property key="MonoisotopicMw" value="745.0911021051" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-14905, REG0-11313, REG0-8744, REG-11605" />
+      <Property key="Smiles" value="C5(/C=C\C(\C(=O)N)=C/[N+](/[C@@H]1(O[C@@H]([C@H]([C@H]1O)O)COP(OP(OC[C@H]4(O[C@@H](N2(C3(\C(\N=C/2)=C(N)/N=C\N=3)))[C@H](OP([O-])(=O)[O-])[C@H](O)4))(=O)[O-])(=O)[O-]))=5)" />
+    </DataNode>
+    <DataNode elementId="ADP" textLabel="ADP" type="Metabolite">
+      <Xref identifier="XTWYTFMLZFPYCI-KQYNXXCUSA-K" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="540" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ADP" />
+      <Property key="AlternativeId_Zinc" value="ZINC000012360703" />
+      <Property key="AlternativeId_Seed" value="cpd00008" />
+      <Property key="AlternativeId_Metanetx" value="MNXM7" />
+      <Property key="AlternativeId_Refmet" value="ADP" />
+      <Property key="AlternativeId_Bigg" value="adp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC456216" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01341" />
+      <Property key="AlternativeId_Chemspider" value="5414423" />
+      <Property key="AlternativeId_Chebi" value="456216" />
+      <Property key="AlternativeId_Pubchem" value="7058055" />
+      <Property key="AlternativeId_LigandCpd" value="C00008" />
+      <Property key="AlternativeId_Cas" value="58-64-0" />
+      <Property key="Synonym_1" value="adenosine pyrophosphate" />
+      <Property key="Synonym_2" value="adenosine 5&apos;-pyrophosphate" />
+      <Property key="Synonym_3" value="adenosine-5&apos;-diphosphate" />
+      <Property key="Synonym_4" value="adenosine-diphosphate" />
+      <Property key="Synonym_5" value="adenosine-5-diphosphate" />
+      <Property key="ChemicalFormula" value="(C 10) (H 12) (N 5) (O 10) (P 2)" />
+      <Property key="AtomCharges" value="(20 -1), (19 -1), (22 -1)" />
+      <Property key="Gibbs0" value="-344.92508" />
+      <Property key="Inchi" value="InChI=1S/C10H15N5O10P2/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(24-10)1-23-27(21,22)25-26(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H2,11,12,13)(H2,18,19,20)/p-3/t4-,6-,7-,10-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=XTWYTFMLZFPYCI-KQYNXXCUSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="424.18" />
+      <Property key="MonoisotopicMw" value="427.0294147485" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-15215, REG0-8154, REG0-8726, REG0-6887, REG0-8479, REG-6552, REG-11598, REG0-10568, REG-8233, REG-13527, REG-8041, REG-8051, REG0-8748, REG-10984, REG-8119, REG0-8828, REG0-6846, REG-13336, REG-8584, REG-12492, REG-9856, REG-9477, REGQT-440, REGQT-338" />
+      <Property key="Smiles" value="C(OP(=O)([O-])OP(=O)([O-])[O-])[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3)" />
+    </DataNode>
+    <DataNode elementId="NADPH" textLabel="NADPH" type="Metabolite">
+      <Xref identifier="ACFIXJIJDZMPPO-NNYOXOHSSA-J" dataSource="InChIKey" />
+      <Graphics centerX="650" centerY="540" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>|FRAME: NAD| and |FRAME: NADP| are dinucleotides containing one |FRAME: NIACINAMIDE| base and one |FRAME: ADENINE| base. Each nucleotide is connected to a ribose sugar at position 1, and the two riboses are connected at their 5 position via a diphosphate. The only difference between the two is that in NADP there is an additional phosphate group at the 2&apos; position of the ribose that carries the adenine moiety. These molecules are biological carriers of reductive equivalents (i.e. high potential electrons). Most of the time they function as cosubstrates, and in some cases they function as |FRAME: Cofactors cofactors|. They are often referred to by the obsolete term &quot;coenzymes&quot;. The most common function of |FRAME: NAD| is to accept two electrons and a proton (a hydride ion) from a substrate that is being oxidized. This reduction converts |FRAME: NAD| to |FRAME: NADH|, the reduced form. NADH then diffuses or is transported to a terminal oxidase, where the electrons are passed on, regenerating the oxidized form. |FRAME: NADPH|, on the other hand, is mostly involved in biosynthetic reactions, where it serves as an electron donor. NADPH is formed by reduction of |FRAME: NADP|, which occurs by different mechanisms in different types of organisms. In photosynthetic organisms |FRAME: NADP| is reduced by |FRAME: CPLX-84|. In heterotrophic organisms it is reduced by central metabolism processes such as the pentose phosphate pathway (see |FRAME: OXIDATIVEPENT-PWY|).</Comment>
+      <Property key="UniqueID" value="NADPH" />
+      <Property key="AlternativeId_Bigg" value="nadph" />
+      <Property key="AlternativeId_Seed" value="cpd00005" />
+      <Property key="AlternativeId_Metanetx" value="MNXM6" />
+      <Property key="AlternativeId_Refmet" value="NADPH" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57783" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00221" />
+      <Property key="AlternativeId_Chemspider" value="10239199" />
+      <Property key="AlternativeId_Chebi" value="57783" />
+      <Property key="AlternativeId_Pubchem" value="15983949" />
+      <Property key="AlternativeId_Cas" value="2646-71-1" />
+      <Property key="AlternativeId_LigandCpd" value="C00005" />
+      <Property key="Synonym_1" value="NADP(H)" />
+      <Property key="Synonym_2" value="NADPH&lt;SUP&gt;+&lt;/SUP&gt;H&lt;SUP&gt;+&lt;/SUP&gt;" />
+      <Property key="Synonym_3" value="NADP-reduced" />
+      <Property key="Synonym_4" value="dihydrotriphosphopyridine nucleotide reduced" />
+      <Property key="Synonym_5" value="NADPH+H+" />
+      <Property key="Synonym_6" value="Nicotinamide adenine dinucleotide phosphate - reduced" />
+      <Property key="Synonym_7" value="reduced nicotinamide adenine dinucleotide phosphate" />
+      <Property key="Synonym_8" value="NADPH2" />
+      <Property key="Synonym_9" value="NADPH&lt;SUB&gt;2&lt;/SUB&gt;" />
+      <Property key="Synonym_10" value="dihydrotriphosphopyridine nucleotide" />
+      <Property key="Synonym_11" value="reduced dihydrotriphosphopyridine nucleotide" />
+      <Property key="Synonym_12" value="dihydronicotinamide adenine dinucleotide phosphate" />
+      <Property key="Synonym_13" value="dihydronicotinamide adenine dinucleotide phosphate reduced" />
+      <Property key="Synonym_14" value="reduced NADP" />
+      <Property key="Synonym_15" value="NADP-red" />
+      <Property key="Synonym_16" value="TPNH" />
+      <Property key="Synonym_17" value="dihydronicotinamide adenine dinucleotide-P" />
+      <Property key="Synonym_18" value="&amp;beta;-NADPH" />
+      <Property key="Synonym_19" value="&amp;beta;-nicotinamide adenine dinucleotide phosphate, reduced" />
+      <Property key="ChemicalFormula" value="(C 21) (H 26) (N 7) (O 17) (P 3)" />
+      <Property key="AtomCharges" value="(35 -1), (33 -1), (39 -1), (37 -1)" />
+      <Property key="CofactorsOf" value="ENZRXN-33" />
+      <Property key="Gibbs0" value="-551.72284" />
+      <Property key="Inchi" value="InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)/p-4/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=ACFIXJIJDZMPPO-NNYOXOHSSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="741.394" />
+      <Property key="MonoisotopicMw" value="745.0911021051" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-9458, REG0-8743, REG-6520, REG-7365, REGQT-476, REGQT-404, REGQT-395, REGQT-256, REGQT-254, REGQT-253, REGQT-244" />
+      <Property key="Smiles" value="C1(\N(/C=C(C\C=1)/C(=O)N)[C@@H]2(O[C@@H]([C@H]([C@H]2O)O)COP(OP(OC[C@H]5(O[C@@H](N3(C4(\C(\N=C/3)=C(N)/N=C\N=4)))[C@H](OP([O-])(=O)[O-])[C@H](O)5))(=O)[O-])(=O)[O-]))" />
+    </DataNode>
+    <DataNode elementId="DEHYDROQUINATE" textLabel="3-dehydroquinate" type="Metabolite">
+      <Xref identifier="WVMWZWGZRAXUBK-SYTVJDICSA-M" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="640" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>The numbering system used in the naming of 3-dehydroquinate is that of the recommendations on cyclitols, sections I-8 and I-9. The use of the term &apos;5-dehydroquinate&apos; for this compound is based on an earlier system of numbering.</Comment>
+      <Property key="UniqueID" value="DEHYDROQUINATE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004095505" />
+      <Property key="AlternativeId_ReactomeCpd" value="964921" />
+      <Property key="AlternativeId_Seed" value="cpd00699" />
+      <Property key="AlternativeId_Metanetx" value="MNXM478" />
+      <Property key="AlternativeId_Refmet" value="3-Dehydroquinate" />
+      <Property key="AlternativeId_Bigg" value="3dhq" />
+      <Property key="AlternativeId_Hmdb" value="HMDB12710" />
+      <Property key="AlternativeId_Chemspider" value="4573866" />
+      <Property key="AlternativeId_Pubchem" value="5460271" />
+      <Property key="AlternativeId_Chebi" value="32364" />
+      <Property key="AlternativeId_LigandCpd" value="C00944" />
+      <Property key="AlternativeId_Cas" value="10534-44-8" />
+      <Property key="Synonym_1" value="3-dehydroquinic acid" />
+      <Property key="Synonym_2" value="5-dehydroquinic acid" />
+      <Property key="Synonym_3" value="5-dehydroquinate" />
+      <Property key="Synonym_4" value="5-de-H-quinate" />
+      <Property key="Synonym_5" value="rel-(1R,3R,4S)-1,3,4-trihydroxy-5-oxocyclohexanecarboxylate" />
+      <Property key="ChemicalFormula" value="(C 7) (H 9) (O 6)" />
+      <Property key="AtomCharges" value="(11 -1)" />
+      <Property key="Gibbs0" value="-122.361984" />
+      <Property key="Inchi" value="InChI=1S/C7H10O6/c8-3-1-7(13,6(11)12)2-4(9)5(3)10/h3,5,8,10,13H,1-2H2,(H,11,12)/p-1/t3-,5+,7-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=WVMWZWGZRAXUBK-SYTVJDICSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="189.144" />
+      <Property key="MonoisotopicMw" value="190.0477380536" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C(=O)([O-])[C@]1(O)(CC(=O)[C@@H](O)[C@H](O)C1)" />
+    </DataNode>
+    <DataNode elementId="CHORISMATE" textLabel="chorismate" type="Metabolite">
+      <Xref identifier="WTFXTQVDAKGDEY-HTQZYQBOSA-L" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="640" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CHORISMATE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000003869471" />
+      <Property key="AlternativeId_ReactomeCpd" value="964856" />
+      <Property key="AlternativeId_Seed" value="cpd00216" />
+      <Property key="AlternativeId_Metanetx" value="MNXM337" />
+      <Property key="AlternativeId_Refmet" value="Chorismic acid" />
+      <Property key="AlternativeId_Bigg" value="chor" />
+      <Property key="AlternativeId_Hmdb" value="HMDB12199" />
+      <Property key="AlternativeId_Chemspider" value="4573889" />
+      <Property key="AlternativeId_Pubchem" value="5460312" />
+      <Property key="AlternativeId_Chebi" value="29748" />
+      <Property key="AlternativeId_Cas" value="55508-12-8" />
+      <Property key="AlternativeId_LigandCpd" value="C00251" />
+      <Property key="Synonym_1" value="chorismic acid" />
+      <Property key="ChemicalFormula" value="(C 10) (H 8) (O 6)" />
+      <Property key="AtomCharges" value="(13 -1), (15 -1)" />
+      <Property key="Gibbs0" value="-95.44927" />
+      <Property key="Inchi" value="InChI=1S/C10H10O6/c1-5(9(12)13)16-8-4-6(10(14)15)2-3-7(8)11/h2-4,7-8,11H,1H2,(H,12,13)(H,14,15)/p-2/t7-,8-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=WTFXTQVDAKGDEY-HTQZYQBOSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="224.17" />
+      <Property key="MonoisotopicMw" value="226.04773805359997" />
+      <Property key="NonStandardInchi" value="InChI=1S/C10H10O6/c1-5(9(12)13)16-8-4-6(10(14)15)2-3-7(8)11/h2-4,7-8,11H,1H2,(H,12,13)(H,14,15)/p-2/t7-,8-/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-8580" />
+      <Property key="Smiles" value="C=C(C(=O)[O-])O[C@H]1([C@H](O)\C=C/C(/C([O-])=O)=C\1)" />
+      <Property key="SystematicName" value="(3R,4R)-3-[(1-carboxylatoethenyl)oxy]-4-hydroxycyclohexa-1,5-diene-1-carboxylate" />
+    </DataNode>
+    <DataNode elementId="PROTON" textLabel="H⁺" type="Metabolite">
+      <Xref identifier="GPRLSGONYQIRFK-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="640" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PROTON" />
+      <Property key="AlternativeId_Bigg" value="h" />
+      <Property key="AlternativeId_Seed" value="cpd00067" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1" />
+      <Property key="AlternativeId_Hmdb" value="HMDB59597" />
+      <Property key="AlternativeId_Chemspider" value="1010" />
+      <Property key="AlternativeId_Pubchem" value="1038" />
+      <Property key="AlternativeId_Chebi" value="15378" />
+      <Property key="AlternativeId_Cas" value="12408-02-5" />
+      <Property key="AlternativeId_LigandCpd" value="C00080" />
+      <Property key="Synonym_1" value="H" />
+      <Property key="Synonym_2" value="hydrogen ion" />
+      <Property key="Synonym_3" value="proton" />
+      <Property key="ChemicalFormula" value="(H 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="0.42906138" />
+      <Property key="Inchi" value="InChI=1S/p+1" />
+      <Property key="InchiKey" value="InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1.008" />
+      <Property key="MonoisotopicMw" value="1.0078250321" />
+      <Property key="NonStandardInchi" value="InChI=1S/p+1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="[H+]" />
+    </DataNode>
+    <DataNode elementId="PHOSPHO-ENOL-PYRUVATE" textLabel="phosphoenolpyruvate" type="Metabolite">
+      <Xref identifier="DTBNBXWJWCWCIK-UHFFFAOYSA-K" dataSource="InChIKey" />
+      <Graphics centerX="650" centerY="640" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PHOSPHO-ENOL-PYRUVATE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000003870145" />
+      <Property key="AlternativeId_Seed" value="cpd00061" />
+      <Property key="AlternativeId_Metanetx" value="MNXM73" />
+      <Property key="AlternativeId_Refmet" value="Phosphoenolpyruvic acid" />
+      <Property key="AlternativeId_Bigg" value="pep" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00263" />
+      <Property key="AlternativeId_Chemspider" value="2907208" />
+      <Property key="AlternativeId_Chebi" value="58702" />
+      <Property key="AlternativeId_Pubchem" value="3674425" />
+      <Property key="AlternativeId_Cas" value="138-08-9" />
+      <Property key="AlternativeId_LigandCpd" value="C00074" />
+      <Property key="Synonym_1" value="PEP" />
+      <Property key="Synonym_2" value="2-(phosphooxy)- 2-propenoate" />
+      <Property key="ChemicalFormula" value="(C 3) (H 2) (O 6) (P 1)" />
+      <Property key="AtomCharges" value="(8 -1), (7 -1), (4 -1)" />
+      <Property key="Gibbs0" value="-293.83633" />
+      <Property key="Inchi" value="InChI=1S/C3H5O6P/c1-2(3(4)5)9-10(6,7)8/h1H2,(H,4,5)(H2,6,7,8)/p-3" />
+      <Property key="InchiKey" value="InChIKey=DTBNBXWJWCWCIK-UHFFFAOYSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="165.019" />
+      <Property key="MonoisotopicMw" value="167.9823744031" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-7378, REG0-7199, REG-8038, REG0-6859, REG-11601, REG0-8397, REG-8020, REG0-10744, REG0-10661, REG0-6847, REG0-8813, REG0-8814, REG0-10237, REGQT-536, REGQT-524" />
+      <Property key="Smiles" value="C=C(OP(=O)([O-])[O-])C([O-])=O" />
+    </DataNode>
+    <DataNode elementId="SHIKIMATE-5P" textLabel="shikimate 3-phosphate" type="Metabolite">
+      <Xref identifier="QYOJSKGCWNAKGW-PBXRRBTRSA-K" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="740" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="SHIKIMATE-5P" />
+      <Property key="AlternativeId_Zinc" value="ZINC000003870237" />
+      <Property key="AlternativeId_ReactomeCpd" value="964859" />
+      <Property key="AlternativeId_Seed" value="cpd02030" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1265" />
+      <Property key="AlternativeId_Bigg" value="skm5p" />
+      <Property key="AlternativeId_Chebi" value="145989" />
+      <Property key="AlternativeId_Pubchem" value="14506806" />
+      <Property key="AlternativeId_LigandCpd" value="C03175" />
+      <Property key="Synonym_1" value="shikimate 5-phosphate" />
+      <Property key="Synonym_2" value="shikimate-5-P" />
+      <Property key="Synonym_3" value="3-phosphoshikimate" />
+      <Property key="Synonym_4" value="shikimate-3-P" />
+      <Property key="ChemicalFormula" value="(C 7) (H 8) (O 8) (P 1)" />
+      <Property key="AtomCharges" value="(13 -1), (12 -1), (10 -1)" />
+      <Property key="Gibbs0" value="-316.12955" />
+      <Property key="Inchi" value="InChI=1S/C7H11O8P/c8-4-1-3(7(10)11)2-5(6(4)9)15-16(12,13)14/h2,4-6,8-9H,1H2,(H,10,11)(H2,12,13,14)/p-3/t4-,5-,6+/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=QYOJSKGCWNAKGW-PBXRRBTRSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="251.109" />
+      <Property key="MonoisotopicMw" value="254.01915383989999" />
+      <Property key="NonStandardInchi" value="InChI=1S/C7H11O8P/c8-4-1-3(7(10)11)2-5(6(4)9)15-16(12,13)14/h2,4-6,8-9H,1H2,(H,10,11)(H2,12,13,14)/p-3/t4-,5-,6+/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-8585" />
+      <Property key="Smiles" value="C(=O)([O-])C1(\C[C@@H](O)[C@H](O)[C@H](OP(=O)([O-])[O-])/C=1)" />
+    </DataNode>
+    <DataNode elementId="_3-ENOLPYRUVYL-SHIKIMATE-5P" textLabel="5-enolpyruvoyl-shikimate 3-phosphate" type="Metabolite">
+      <Xref identifier="QUTYKIXIUDQOLK-PRJMDXOYSA-J" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="740" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="3-ENOLPYRUVYL-SHIKIMATE-5P" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004095612" />
+      <Property key="AlternativeId_ReactomeCpd" value="964900" />
+      <Property key="AlternativeId_Seed" value="cpd00932" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1365" />
+      <Property key="AlternativeId_Bigg" value="3psme" />
+      <Property key="AlternativeId_Pubchem" value="14506801" />
+      <Property key="AlternativeId_Chebi" value="57701" />
+      <Property key="AlternativeId_LigandCpd" value="C01269" />
+      <Property key="Synonym_1" value="3-enolpyruvyl-shikimate 5-phosphate" />
+      <Property key="Synonym_2" value="3-enolpyruvyl-shikimate-5-P" />
+      <Property key="Synonym_3" value="5-O-(1-carboxyvinyl)-3-phosphoshikimate" />
+      <Property key="Synonym_4" value="5-enolpyruvyl-shikimate 3-phosphate" />
+      <Property key="ChemicalFormula" value="(C 10) (H 9) (O 10) (P 1)" />
+      <Property key="AtomCharges" value="(12 -1), (17 -1), (16 -1), (14 -1)" />
+      <Property key="Gibbs0" value="-351.82288" />
+      <Property key="Inchi" value="InChI=1S/C10H13O10P/c1-4(9(12)13)19-6-2-5(10(14)15)3-7(8(6)11)20-21(16,17)18/h3,6-8,11H,1-2H2,(H,12,13)(H,14,15)(H2,16,17,18)/p-4/t6-,7-,8+/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=QUTYKIXIUDQOLK-PRJMDXOYSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="320.149" />
+      <Property key="MonoisotopicMw" value="324.0246331483" />
+      <Property key="NonStandardInchi" value="InChI=1S/C10H13O10P/c1-4(9(12)13)19-6-2-5(10(14)15)3-7(8(6)11)20-21(16,17)18/h3,6-8,11H,1-2H2,(H,12,13)(H,14,15)(H2,16,17,18)/p-4/t6-,7-,8+/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C=C(C(=O)[O-])O[C@@H]1(CC(/C(=O)[O-])=C\[C@@H](OP(=O)([O-])[O-])[C@@H](O)1)" />
+    </DataNode>
+    <DataNode elementId="_3-DEHYDRO-SHIKIMATE" textLabel="3-dehydroshikimate" type="Metabolite">
+      <Xref identifier="SLWWJZMPHJJOPH-PHDIDXHHSA-M" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="740" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="3-DEHYDRO-SHIKIMATE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000100018238" />
+      <Property key="AlternativeId_ReactomeCpd" value="964941" />
+      <Property key="AlternativeId_Seed" value="cpd01716" />
+      <Property key="AlternativeId_Metanetx" value="MNXM611" />
+      <Property key="AlternativeId_Refmet" value="3-dehydroshikimate" />
+      <Property key="AlternativeId_Bigg" value="3dhsk" />
+      <Property key="AlternativeId_Chemspider" value="4573915" />
+      <Property key="AlternativeId_Chebi" value="16630" />
+      <Property key="AlternativeId_Pubchem" value="5460360" />
+      <Property key="AlternativeId_LigandCpd" value="C02637" />
+      <Property key="Synonym_1" value="3-dehydroshikimic acid" />
+      <Property key="Synonym_2" value="5-dehydroshikimic acid" />
+      <Property key="Synonym_3" value="5-dehydroshikimate" />
+      <Property key="ChemicalFormula" value="(C 7) (H 7) (O 5)" />
+      <Property key="AtomCharges" value="(12 -1)" />
+      <Property key="Gibbs0" value="-106.394226" />
+      <Property key="Inchi" value="InChI=1S/C7H8O5/c8-4-1-3(7(11)12)2-5(9)6(4)10/h1,5-6,9-10H,2H2,(H,11,12)/p-1/t5-,6-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=SLWWJZMPHJJOPH-PHDIDXHHSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="171.129" />
+      <Property key="MonoisotopicMw" value="172.0371733673" />
+      <Property key="NonStandardInchi" value="InChI=1S/C7H8O5/c8-4-1-3(7(11)12)2-5(9)6(4)10/h1,5-6,9-10H,2H2,(H,11,12)/p-1/t5-,6-/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C([O-])(=O)C1(\C[C@@H](O)[C@H](O)C(=O)/C=1)" />
+    </DataNode>
+    <DataNode elementId="SHIKIMATE" textLabel="shikimate" type="Metabolite">
+      <Xref identifier="JXOHGGNKMLTUBP-HSUXUTPPSA-M" dataSource="InChIKey" />
+      <Graphics centerX="650" centerY="740" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>|FRAME: SHIKIMATE &quot;Shikimate&quot;| is an important intermediate in the chorismate biosynthetic pathway. It was first isolated from Japanese star anise. Shikimate is used for the production of some antiviral drugs used to halt the spread of the flu virus, but as a biosynthetic intermediate, it is usually not found in high concentrations in organisms. Shikimate can be easily harvested from the needles of several species of pine trees, and biosynthetic pathways in |FRAME:TAX-562| have been enhanced to obtain sufficient amounts of the metabolite for commercial use.</Comment>
+      <Property key="UniqueID" value="SHIKIMATE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000003860720" />
+      <Property key="AlternativeId_ReactomeCpd" value="964932" />
+      <Property key="AlternativeId_Seed" value="cpd00383" />
+      <Property key="AlternativeId_Metanetx" value="MNXM602" />
+      <Property key="AlternativeId_Refmet" value="Shikimic acid" />
+      <Property key="AlternativeId_Bigg" value="skm" />
+      <Property key="AlternativeId_Hmdb" value="HMDB03070" />
+      <Property key="AlternativeId_Chemspider" value="5414360" />
+      <Property key="AlternativeId_Chebi" value="36208" />
+      <Property key="AlternativeId_Pubchem" value="7057976" />
+      <Property key="AlternativeId_LigandCpd" value="C00493" />
+      <Property key="AlternativeId_Cas" value="138-59-0" />
+      <Property key="Synonym_1" value="shikimic acid" />
+      <Property key="Synonym_2" value="(3R,4S,5R)--3,4,5-trihydroxycyclohex-1-ene-1-carboxylate" />
+      <Property key="ChemicalFormula" value="(C 7) (H 9) (O 5)" />
+      <Property key="AtomCharges" value="(12 -1)" />
+      <Property key="Gibbs0" value="-90.86198" />
+      <Property key="Inchi" value="InChI=1S/C7H10O5/c8-4-1-3(7(11)12)2-5(9)6(4)10/h1,4-6,8-10H,2H2,(H,11,12)/p-1/t4-,5-,6-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=JXOHGGNKMLTUBP-HSUXUTPPSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="173.145" />
+      <Property key="MonoisotopicMw" value="174.0528234315" />
+      <Property key="NonStandardInchi" value="InChI=1S/C7H10O5/c8-4-1-3(7(11)12)2-5(9)6(4)10/h1,4-6,8-10H,2H2,(H,11,12)/p-1/t4-,5-,6-/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C1(/[C@@H](O)[C@@H](O)[C@@H](CC(/C(=O)[O-])=1)O)" />
+      <Property key="SystematicName" value="3,4,5-trihydroxy-1-cyclohexene-1-carboxylate" />
+    </DataNode>
+    <DataNode elementId="Pi" textLabel="phosphate" type="Metabolite">
+      <Xref identifier="NBIIXXVUZAFLBC-UHFFFAOYSA-L" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="840" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>The most abundant form of the phosphate ion at pH 7.3 is hydrogenphosphate. To simplify the presentation of reactions taking place at physiological pH, MetaCyc does not distinguish between the two forms, and uses the name &quot;phosphate&quot; even though the structure shown is that of hydrogenphosphate.</Comment>
+      <Property key="UniqueID" value="Pi" />
+      <Property key="AlternativeId_Refmet" value="Phosphoric acid" />
+      <Property key="AlternativeId_Bigg" value="pi" />
+      <Property key="AlternativeId_Pubchem" value="3681305" />
+      <Property key="AlternativeId_Chebi" value="43474" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC43474" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00973" />
+      <Property key="AlternativeId_Knapsack" value="C00007408" />
+      <Property key="AlternativeId_Cas" value="14265-44-2" />
+      <Property key="Synonym_1" value="inorganic phosphate" />
+      <Property key="Synonym_2" value="phosphate-inorganic" />
+      <Property key="Synonym_3" value="Pi" />
+      <Property key="Synonym_4" value="orthophosphate" />
+      <Property key="Synonym_5" value="PO&lt;SUB&gt;4&lt;/SUB&gt;&lt;SUP&gt;3-&lt;/SUP&gt;" />
+      <Property key="Synonym_6" value="HPO&lt;SUB&gt;4&lt;/SUB&gt;&lt;SUP&gt;2-&lt;/SUP&gt;" />
+      <Property key="Synonym_7" value="HPO&lt;SUB&gt;4&lt;/SUB&gt;&lt;SUP&gt;-2&lt;/SUP&gt;" />
+      <Property key="Synonym_8" value="hydrogenphosphate" />
+      <Property key="ChemicalFormula" value="(H 1) (O 4) (P 1)" />
+      <Property key="AtomCharges" value="(4 -1), (1 -1)" />
+      <Property key="ComponentOf" value="CPD-9010" />
+      <Property key="Gibbs0" value="-252.94714" />
+      <Property key="Inchi" value="InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4)/p-2" />
+      <Property key="InchiKey" value="InChIKey=NBIIXXVUZAFLBC-UHFFFAOYSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="InternalsOfGroup" value="GLYCO-CT-PHOSPHATE" />
+      <Property key="MolecularWeight" value="95.979" />
+      <Property key="MonoisotopicMw" value="97.9768950947" />
+      <Property key="NonStandardInchi" value="InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4)/p-2" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG0-11039, REG-9602, REG-8534, REG-14244, REG-11141, REG-9306, REG-10770, REG-6318, REG-12908, REG-12878, REG0-8013, REG-13915, REG-8651, REG-7453, REG0-9498, REG0-9501, REG-10989, REG0-10704, REG0-7210, REG-7170, REG-7182, REG-12892, REG0-10227, REG0-10226, REGQT-360, REGQT-336" />
+      <Property key="Smiles" value="[O-]P(=O)(O)[O-]" />
+      <CitationRef elementRef="citation_PUB_18493048" />
+    </DataNode>
+    <DataNode elementId="ATP" textLabel="ATP" type="Metabolite">
+      <Xref identifier="ZKHQWZAMYRWXGA-KQYNXXCUSA-J" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="840" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ATP" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004261765" />
+      <Property key="AlternativeId_Mediadb" value="compounds/2/" />
+      <Property key="AlternativeId_Seed" value="cpd00002" />
+      <Property key="AlternativeId_Metanetx" value="MNXM3" />
+      <Property key="AlternativeId_Refmet" value="ATP" />
+      <Property key="AlternativeId_Bigg" value="atp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC30616" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00538" />
+      <Property key="AlternativeId_Chemspider" value="4574455" />
+      <Property key="AlternativeId_Chebi" value="30616" />
+      <Property key="AlternativeId_Pubchem" value="5461108" />
+      <Property key="AlternativeId_LigandCpd" value="C00002" />
+      <Property key="AlternativeId_Cas" value="56-65-5" />
+      <Property key="Synonym_1" value="adenylpyrophosphate" />
+      <Property key="Synonym_2" value="adenosine-triphosphate" />
+      <Property key="Synonym_3" value="adenosine-5&apos;-triphosphate" />
+      <Property key="ChemicalFormula" value="(C 10) (H 12) (N 5) (O 13) (P 3)" />
+      <Property key="AtomCharges" value="(20 -1), (19 -1), (24 -1), (22 -1)" />
+      <Property key="Gibbs0" value="-553.6995" />
+      <Property key="Inchi" value="InChI=1S/C10H16N5O13P3/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(26-10)1-25-30(21,22)28-31(23,24)27-29(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H,23,24)(H2,11,12,13)(H2,18,19,20)/p-4/t4-,6-,7-,10-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=ZKHQWZAMYRWXGA-KQYNXXCUSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="503.152" />
+      <Property key="MonoisotopicMw" value="506.99574515689994" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG0-12909, REG-14488, REG0-7200, REG-15264, REG-8066, REG0-8732, REG0-6781, REG0-7497, REG0-7707, REG-13176, REG0-12215, REG-6554, REG-11599, REG-5951, REG-5950, REG-8022, REG0-7674, REG-6229, REG0-7802, REG-14419, REG-14422, REG0-8749, REG-10985, REG-12901, REG-12890, REG0-10640, REG-12493, REG0-6737, REGQT-558, REGQT-554, REGQT-551, REGQT-545, REG-9857, REG0-7801, REGQT-466, REGQT-446, REGQT-439, REGQT-388" />
+      <Property key="Smiles" value="C(OP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3)" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="AT1G48850" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="405.0" y="355" elementRef="AT1G48850.3" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_1_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_1_0_0" x="265.0" y="50" elementRef="AT2G45300" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_1_0_0" arrowHead="TranscriptionTranslation" x="255.0" y="275" elementRef="AT2G45300-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_2_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_2_0_0" x="385.0" y="50" elementRef="AT1G48860" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_2_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="275" elementRef="AT1G48860.2" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_3_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_3_0_0" x="145.0" y="110" elementRef="AT4G39540" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_3_0_0" arrowHead="TranscriptionTranslation" x="255.0" y="355" elementRef="AT4G39540-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_4_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_4_0_0" x="265.0" y="110" elementRef="AT3G06350" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_4_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="355" elementRef="AT3G06350-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_5_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_5_0_0" x="385.0" y="110" elementRef="AT2G21940" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_5_0_0" arrowHead="TranscriptionTranslation" x="405.0" y="275" elementRef="AT2G21940-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_3-DEHYDROQUINATE-DEHYDRATASE-RXN">
+      <Xref identifier="EC-4.2.1.10" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_3-DEHYDROQUINATE-DEHYDRATASE-RXN_start" x="245.0" y="640" elementRef="DEHYDROQUINATE" relX="1.0" relY="0.0" />
+        <Point elementId="_3-DEHYDROQUINATE-DEHYDRATASE-RXN_end" arrowHead="Conversion" x="455.0" y="740" elementRef="_3-DEHYDRO-SHIKIMATE" relX="-1.0" relY="0.0" />
+        <Anchor elementId="_3-DEHYDROQUINATE-DEHYDRATASE-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="AlternativeId_Uniprot" value="P05195" />
+      <Property key="UniqueID" value="3-DEHYDROQUINATE-DEHYDRATASE-RXN" />
+      <Property key="EC_Number" value="EC-4.2.1.10" />
+      <Property key="Pathways" value="PWY-6163, PWY-6707" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="DEHYDROQUINATE &lt;=&gt; WATER + 3-DEHYDRO-SHIKIMATE" />
+      <Property key="ReactionDirection" value="REVERSIBLE" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXN-18401" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (1 0 6 3 2 4 5 8 7 9 10 11 12) (((DEHYDROQUINATE 0 12)) ((3-DEHYDRO-SHIKIMATE 0 11) (WATER 12 12))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-20.176987" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="_3-DEHYDROQUINATE-DEHYDRATASE-RXN_ENZRXN-18401">
+      <Waypoints>
+        <Point elementId="_3-DEHYDROQUINATE-DEHYDRATASE-RXN_ENZRXN-18401_start" x="150" y="367.5" elementRef="AT3G06350-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="_3-DEHYDROQUINATE-DEHYDRATASE-RXN_ENZRXN-18401_end" arrowHead="Catalysis" x="0" y="0" elementRef="_3-DEHYDROQUINATE-DEHYDRATASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_3-DEHYDROQUINATE-DEHYDRATASE-RXN_anchor_product_0">
+      <Xref identifier="EC-4.2.1.10" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_3-DEHYDROQUINATE-DEHYDRATASE-RXN_anchor_product_start_0" x="0" y="0" elementRef="_3-DEHYDROQUINATE-DEHYDRATASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="_3-DEHYDROQUINATE-DEHYDRATASE-RXN_anchor_product_end_0" arrowHead="Conversion" x="155.0" y="540" elementRef="WATER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SHIKIMATE-5-DEHYDROGENASE-RXN">
+      <Xref identifier="EC-1.1.1.25" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_start" x="545.0" y="740" elementRef="_3-DEHYDRO-SHIKIMATE" relX="1.0" relY="0.0" />
+        <Point elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_end" arrowHead="Conversion" x="605.0" y="740" elementRef="SHIKIMATE" relX="-1.0" relY="0.0" />
+        <Anchor elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="AlternativeId_Uniprot" value="P07547" />
+      <Property key="UniqueID" value="SHIKIMATE-5-DEHYDROGENASE-RXN" />
+      <Property key="EC_Number" value="EC-1.1.1.25" />
+      <Property key="Pathways" value="PWY-6163" />
+      <Property key="ReactionEquation" value="NADP + SHIKIMATE =&gt; PROTON + 3-DEHYDRO-SHIKIMATE + NADPH" />
+      <Property key="ReactionDirection" value="PHYSIOL-RIGHT-TO-LEFT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXN-18400" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11) (((&quot;SHIKIMATE&quot; 0 11)) ((&quot;3-DEHYDRO-SHIKIMATE&quot; 0 11))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-3.1764526" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_ENZRXN-18400">
+      <Waypoints>
+        <Point elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_ENZRXN-18400_start" x="150" y="367.5" elementRef="AT3G06350-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_ENZRXN-18400_end" arrowHead="Catalysis" x="0" y="0" elementRef="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor_reactant_0">
+      <Xref identifier="EC-1.1.1.25" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor_reactant_start_0" x="395.0" y="540" elementRef="NADP" relX="1.0" relY="0.0" />
+        <Point elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor_reactant_end_0" x="0" y="0" elementRef="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor_reactant_1">
+      <Xref identifier="EC-1.1.1.25" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor_reactant_start_1" x="695.0" y="740" elementRef="SHIKIMATE" relX="1.0" relY="0.0" />
+        <Point elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor_product_0">
+      <Xref identifier="EC-1.1.1.25" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor_product_start_0" x="0" y="0" elementRef="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor_product_end_0" arrowHead="Conversion" x="455.0" y="640" elementRef="PROTON" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor_product_1">
+      <Xref identifier="EC-1.1.1.25" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor_product_start_1" x="0" y="0" elementRef="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor_product_end_1" arrowHead="Conversion" x="455.0" y="740" elementRef="_3-DEHYDRO-SHIKIMATE" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor_product_2">
+      <Xref identifier="EC-1.1.1.25" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor_product_start_2" x="0" y="0" elementRef="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="SHIKIMATE-5-DEHYDROGENASE-RXN_anchor_product_end_2" arrowHead="Conversion" x="605.0" y="540" elementRef="NADPH" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SHIKIMATE-KINASE-RXN">
+      <Xref identifier="EC-2.7.1.71" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="SHIKIMATE-KINASE-RXN_start" x="695.0" y="740" elementRef="SHIKIMATE" relX="1.0" relY="0.0" />
+        <Point elementId="SHIKIMATE-KINASE-RXN_end" arrowHead="Conversion" x="155.0" y="740" elementRef="SHIKIMATE-5P" relX="-1.0" relY="0.0" />
+        <Anchor elementId="SHIKIMATE-KINASE-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="AlternativeId_Uniprot" value="P0A6D7" />
+      <Property key="UniqueID" value="SHIKIMATE-KINASE-RXN" />
+      <Property key="EC_Number" value="EC-2.7.1.71" />
+      <Property key="Pathways" value="PWY-6163" />
+      <Property key="ReactionEquation" value="SHIKIMATE + ATP =&gt; PROTON + SHIKIMATE-5P + ADP" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXN-18397, ENZRXN-18398" />
+      <Property key="EnzymaticReactionCount" value="2" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 40 39 38 20 21 17 19 22 23 18 24 42 26 25 28 27 29 31 30 32 33 41 34 35 37 36) (((&quot;ADP&quot; 0 26) (&quot;SHIKIMATE-5P&quot; 27 42)) ((&quot;ATP&quot; 0 30) (&quot;SHIKIMATE&quot; 31 42))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-16.064087" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="SHIKIMATE-KINASE-RXN_ENZRXN-18397">
+      <Waypoints>
+        <Point elementId="SHIKIMATE-KINASE-RXN_ENZRXN-18397_start" x="450" y="287.5" elementRef="AT2G21940-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="SHIKIMATE-KINASE-RXN_ENZRXN-18397_end" arrowHead="Catalysis" x="0" y="0" elementRef="SHIKIMATE-KINASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SHIKIMATE-KINASE-RXN_ENZRXN-18398">
+      <Waypoints>
+        <Point elementId="SHIKIMATE-KINASE-RXN_ENZRXN-18398_start" x="300" y="367.5" elementRef="AT4G39540-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="SHIKIMATE-KINASE-RXN_ENZRXN-18398_end" arrowHead="Catalysis" x="0" y="0" elementRef="SHIKIMATE-KINASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SHIKIMATE-KINASE-RXN_anchor_reactant_1">
+      <Xref identifier="EC-2.7.1.71" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="SHIKIMATE-KINASE-RXN_anchor_reactant_start_1" x="395.0" y="840" elementRef="ATP" relX="1.0" relY="0.0" />
+        <Point elementId="SHIKIMATE-KINASE-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="SHIKIMATE-KINASE-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SHIKIMATE-KINASE-RXN_anchor_product_0">
+      <Xref identifier="EC-2.7.1.71" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="SHIKIMATE-KINASE-RXN_anchor_product_start_0" x="0" y="0" elementRef="SHIKIMATE-KINASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="SHIKIMATE-KINASE-RXN_anchor_product_end_0" arrowHead="Conversion" x="455.0" y="640" elementRef="PROTON" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SHIKIMATE-KINASE-RXN_anchor_product_2">
+      <Xref identifier="EC-2.7.1.71" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="SHIKIMATE-KINASE-RXN_anchor_product_start_2" x="0" y="0" elementRef="SHIKIMATE-KINASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="SHIKIMATE-KINASE-RXN_anchor_product_end_2" arrowHead="Conversion" x="455.0" y="540" elementRef="ADP" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_2.5.1.19-RXN">
+      <Xref identifier="EC-2.5.1.19" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_2.5.1.19-RXN_start" x="245.0" y="740" elementRef="SHIKIMATE-5P" relX="1.0" relY="0.0" />
+        <Point elementId="_2.5.1.19-RXN_end" arrowHead="Conversion" x="305.0" y="740" elementRef="_3-ENOLPYRUVYL-SHIKIMATE-5P" relX="-1.0" relY="0.0" />
+        <Anchor elementId="_2.5.1.19-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="2.5.1.19-RXN" />
+      <Property key="EC_Number" value="EC-2.5.1.19" />
+      <Property key="Pathways" value="PWY-6163" />
+      <Property key="ReactionEquation" value="SHIKIMATE-5P + PHOSPHO-ENOL-PYRUVATE &lt;=&gt; 3-ENOLPYRUVYL-SHIKIMATE-5P + Pi" />
+      <Property key="ReactionDirection" value="REVERSIBLE" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNQT-32144, ENZRXNQT-5099" />
+      <Property key="EnzymaticReactionCount" value="2" />
+      <Property key="Synonym_1" value="3-enol-pyruvoylshikimate-5-phosphate synthase" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 3 8 11 12 22 24 21 23 25 1 2 4 5 6 7 9 18 10 13 14 16 15 17 19 20) (((&quot;3-ENOLPYRUVYL-SHIKIMATE-5P&quot; 0 20) (&quot;Pi&quot; 21 25)) ((&quot;PHOSPHO-ENOL-PYRUVATE&quot; 0 9) (&quot;SHIKIMATE-5P&quot; 10 25)))), (:NO-HYDROGEN-ENCODING (0 3 8 11 12 22 21 24 18 25 1 2 4 5 6 7 9 23 10 13 14 16 15 17 19 20) (((&quot;3-ENOLPYRUVYL-SHIKIMATE-5P&quot; 0 20) (&quot;Pi&quot; 21 25)) ((&quot;PHOSPHO-ENOL-PYRUVATE&quot; 0 9) (&quot;SHIKIMATE-5P&quot; 10 25))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="5.195862" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="Synonyms" value="3-enol-pyruvoylshikimate-5-phosphate synthase" />
+    </Interaction>
+    <Interaction elementId="_2.5.1.19-RXN_ENZRXNQT-32144">
+      <Waypoints>
+        <Point elementId="_2.5.1.19-RXN_ENZRXNQT-32144_start" x="150" y="287.5" elementRef="AT1G48860.2" relX="0.0" relY="1.0" />
+        <Point elementId="_2.5.1.19-RXN_ENZRXNQT-32144_end" arrowHead="Catalysis" x="0" y="0" elementRef="_2.5.1.19-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_2.5.1.19-RXN_ENZRXNQT-5099">
+      <Waypoints>
+        <Point elementId="_2.5.1.19-RXN_ENZRXNQT-5099_start" x="300" y="287.5" elementRef="AT2G45300-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="_2.5.1.19-RXN_ENZRXNQT-5099_end" arrowHead="Catalysis" x="0" y="0" elementRef="_2.5.1.19-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_2.5.1.19-RXN_anchor_reactant_1">
+      <Xref identifier="EC-2.5.1.19" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_2.5.1.19-RXN_anchor_reactant_start_1" x="695.0" y="640" elementRef="PHOSPHO-ENOL-PYRUVATE" relX="1.0" relY="0.0" />
+        <Point elementId="_2.5.1.19-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="_2.5.1.19-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_2.5.1.19-RXN_anchor_product_1">
+      <Xref identifier="EC-2.5.1.19" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_2.5.1.19-RXN_anchor_product_start_1" x="0" y="0" elementRef="_2.5.1.19-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="_2.5.1.19-RXN_anchor_product_end_1" arrowHead="Conversion" x="155.0" y="840" elementRef="Pi" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="CHORISMATE-SYNTHASE-RXN">
+      <Xref identifier="EC-4.2.3.5" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="CHORISMATE-SYNTHASE-RXN_start" x="395.0" y="740" elementRef="_3-ENOLPYRUVYL-SHIKIMATE-5P" relX="1.0" relY="0.0" />
+        <Point elementId="CHORISMATE-SYNTHASE-RXN_end" arrowHead="Conversion" x="305.0" y="640" elementRef="CHORISMATE" relX="-1.0" relY="0.0" />
+        <Anchor elementId="CHORISMATE-SYNTHASE-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="CHORISMATE-SYNTHASE-RXN" />
+      <Property key="EC_Number" value="EC-4.2.3.5" />
+      <Property key="Pathways" value="PWY-6163" />
+      <Property key="ReactionEquation" value="3-ENOLPYRUVYL-SHIKIMATE-5P =&gt; Pi + CHORISMATE" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXNQT-32145" />
+      <Property key="Synonym_1" value="5-enolpyruvylshikimate-3-phosphate phospholyase" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 3 1 4 5 7 2 6 8 9 10 12 11 14 13 16 19 17 15 18 20) (((CHORISMATE 0 15) (|Pi| 16 20)) ((3-ENOLPYRUVYL-SHIKIMATE-5P 0 20))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="3.4264526" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="Synonyms" value="5-enolpyruvylshikimate-3-phosphate phospholyase" />
+    </Interaction>
+    <Interaction elementId="CHORISMATE-SYNTHASE-RXN_ENZRXNQT-32145">
+      <Waypoints>
+        <Point elementId="CHORISMATE-SYNTHASE-RXN_ENZRXNQT-32145_start" x="450" y="367.5" elementRef="AT1G48850.3" relX="0.0" relY="1.0" />
+        <Point elementId="CHORISMATE-SYNTHASE-RXN_ENZRXNQT-32145_end" arrowHead="Catalysis" x="0" y="0" elementRef="CHORISMATE-SYNTHASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="CHORISMATE-SYNTHASE-RXN_anchor_product_0">
+      <Xref identifier="EC-4.2.3.5" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="CHORISMATE-SYNTHASE-RXN_anchor_product_start_0" x="0" y="0" elementRef="CHORISMATE-SYNTHASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="CHORISMATE-SYNTHASE-RXN_anchor_product_end_0" arrowHead="Conversion" x="155.0" y="840" elementRef="Pi" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_19057671">
+      <Xref identifier="19057671" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_16784230">
+      <Xref identifier="16784230" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_22296303">
+      <Xref identifier="22296303" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_18431481">
+      <Xref identifier="18431481" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_3481024">
+      <Xref identifier="3481024" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_15182204">
+      <Xref identifier="15182204" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_18493048">
+      <Xref identifier="18493048" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_18633119">
+      <Xref identifier="18633119" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_16963634">
+      <Xref identifier="16963634" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_PMNCVP2024">
+      <Xref identifier="PUB-PMNCVP2024 | This pathway was predicted to exist in this species using PathoLogic (version 23.0) and was accepted... (2024)" dataSource="BioCyc" />
+    </Citation>
+  </Citations>
+</Pathway>

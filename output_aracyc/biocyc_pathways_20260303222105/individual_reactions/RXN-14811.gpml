@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="RXN-14811" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Description>Single reaction view for RXN-14811: RXN-14811</Description>
+  <Authors>
+    <Author name="BioCyc" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from BioCyc single reaction data.</Comment>
+  <Property key="UniqueID" value="RXN-14811" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="CPD-9569" textLabel="L-sorbopyranose" type="Metabolite">
+      <Xref identifier="LKDRXBCSQODPBY-AMVSKUEXSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-9569" />
+      <Property key="AlternativeId_Chemspider" value="388332" />
+      <Property key="AlternativeId_Pubchem" value="439192" />
+      <Property key="AlternativeId_LigandCpd" value="C00247" />
+      <Property key="AlternativeId_Chebi" value="48649" />
+      <Property key="ChemicalFormula" value="(C 6) (H 12) (O 6)" />
+      <Property key="Gibbs0" value="-94.35655" />
+      <Property key="Inchi" value="InChI=1S/C6H12O6/c7-2-6(11)5(10)4(9)3(8)1-12-6/h3-5,7-11H,1-2H2/t3-,4+,5-,6?/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=LKDRXBCSQODPBY-AMVSKUEXSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="180.157" />
+      <Property key="MonoisotopicMw" value="180.0633881178" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C(O)C(=O)[CH](O)[CH](O)[CH](O)CO" />
+    </DataNode>
+    <DataNode elementId="CPD-15616" textLabel="keto-L-sorbose" type="Metabolite">
+      <Xref identifier="BJHIKXHVCXFQLS-OTWZMJIISA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-15616" />
+      <Property key="AlternativeId_Refmet" value="Sorbose" />
+      <Property key="AlternativeId_Pubchem" value="6904" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC13172" />
+      <Property key="AlternativeId_Chebi" value="13172" />
+      <Property key="ChemicalFormula" value="(C 6) (H 12) (O 6)" />
+      <Property key="Gibbs0" value="-94.166565" />
+      <Property key="Inchi" value="InChI=1S/C6H12O6/c7-1-3(9)5(11)6(12)4(10)2-8/h3,5-9,11-12H,1-2H2/t3-,5+,6+/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=BJHIKXHVCXFQLS-OTWZMJIISA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="Logp" value="-3.2" />
+      <Property key="MolecularWeight" value="180.157" />
+      <Property key="MonoisotopicMw" value="180.0633881178" />
+      <Property key="NonStandardInchi" value="InChI=1S/C6H12O6/c7-1-3(9)5(11)6(12)4(10)2-8/h3,5-9,11-12H,1-2H2/t3-,5+,6+/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="PolarSurfaceArea" value="118." />
+      <Property key="Smiles" value="C(O)C(=O)[CH](O)[CH](O)[CH](O)CO" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="RXN-14811">
+      <Xref identifier="RXN-14811" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-14811_start" x="395.0" y="210" elementRef="CPD-15616" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-14811_end" arrowHead="Conversion" x="155.0" y="210" elementRef="CPD-9569" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-14811_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-14811" />
+      <Property key="Spontaneous" value="T" />
+      <Property key="Orphan" value=":YES-PUTATIVE" />
+      <Property key="ReactionEquation" value="CPD-15616 &lt;=&gt; CPD-9569" />
+      <Property key="ReactionDirection" value="REVERSIBLE" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 4 5 3 7 8 10 11 9 6) (((&quot;CPD-15616&quot; 0 11)) ((&quot;CPD-9569&quot; 0 11))))" />
+      <Property key="Gibbs0" value="-0.18998718" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+  </Interactions>
+</Pathway>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="RXN-14352" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Description>Single reaction view for RXN-14352: RXN-14352</Description>
+  <Authors>
+    <Author name="BioCyc" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from BioCyc single reaction data.</Comment>
+  <Property key="UniqueID" value="RXN-14352" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="AT5G16150" textLabel="AT5G16150" type="GeneProduct">
+      <Xref identifier="AT5G16150" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G16150" />
+      <Property key="Products" value="AT5G16150.3, AT5G16150.2, AT5G16150.1" />
+      <Property key="ProductCount" value="3" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT5G16150" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT5G16150.3" textLabel="AT5G16150.3" type="Protein">
+      <Xref identifier="AT5G16150.3" dataSource="plantcyc" />
+      <Graphics centerX="150" centerY="215" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G16150.3" />
+      <Property key="Catalyzes" value="RXN-28009" />
+      <Property key="Accession1" value="AT5G16150.3" />
+      <Property key="Gene" value="AT5G16150" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="D-Glucose" textLabel="D-glucose" type="Metabolite">
+      <Xref identifier="GZCGUPFRVQAUEE-SLPGGIOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>D-Glucose is an extremely abundant monosaccharide that is used as an energy source in most organisms, from bacteria to humans. In humans D-glucose is the key source of energy, through aerobic respiration, but other organisms can also metabolize glucose by anaerobic respiration and fermentation. D-Glucose is also one of the main products of photosynthesis, and is used as a precursor for the synthesis of several important substances, such as cellulose and chitin. Many organisms store glucose as an energy and carbon reserve in the form of polymers such as starch and glycogen. In addition, D-glucose is often added onto certain proteins and lipids through glycosylation, which is often critical for their functioning. Each aldopentose or aldohexose exists as a mixture of at least six compounds: the aldehyde, the hydrated aldehyde (gem-diol), the two pyranoses, and the two furanoses. The open-chain structure shown here is provided only as a schematic illustration of chirality. Consult the appropriate class instances for information on specific ring structures and their anomeric configuration. At 37&amp;deg;C the distribution of the different glucose tautomers is as follows |CITS: [Maple87]|: |FRAME: ALPHA-GLUCOSE| 39.1%&lt;br&gt; |FRAME: GLC| 60.2%&lt;br&gt; |FRAME: CPD-24951| 0.20%&lt;br&gt; |FRAME: CPD-24952| 0.21%&lt;br&gt; |FRAME: CPD-24953| 0.0077%&lt;br&gt; |FRAME: CPD-15374| 0.0024%</Comment>
+      <Property key="UniqueID" value="D-Glucose" />
+      <Property key="AlternativeId_Mediadb" value="compounds/31/" />
+      <Property key="AlternativeId_Wikipedia" value="Glucose" />
+      <Property key="AlternativeId_Chebi" value="17634" />
+      <Property key="Synonym_1" value="D-gluco-hexose" />
+      <Property key="Synonym_2" value="dextrose" />
+      <Property key="ChemicalFormula" value="(C 6) (H 12) (O 6)" />
+      <Property key="FastEquilibratingInstances?" value="T" />
+      <Property key="Gibbs0" value="-92.706566" />
+      <Property key="GroupCoords2d" value="(41 41)" />
+      <Property key="Inchi" value="InChI=1S/C6H12O6/c7-1-3(9)5(11)6(12)4(10)2-8/h1,3-6,8-12H,2H2/t3-,4+,5+,6+/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=GZCGUPFRVQAUEE-SLPGGIOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="InternalsOfGroup" value="X-DGLC-HEX-1:5" />
+      <Property key="MolecularWeight" value="180.157" />
+      <Property key="MonoisotopicMw" value="180.0633881178" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C(=O)[C@@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O" />
+      <Property key="StructureGroups" value="X-DGLC-HEX-X:X" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="AT5G16150" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="215" elementRef="AT5G16150.3" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-14352">
+      <Xref identifier="RXN-14352" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-14352_start" x="245.0" y="400" elementRef="D-Glucose" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-14352_end" arrowHead="Conversion" x="155.0" y="400" elementRef="D-Glucose" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-14352_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-14352" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="ReactionEquation" value="D-Glucose =&gt; D-Glucose" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXNQT-28009" />
+      <Property key="ReactionTypes" value="Small-Molecule-Reactions, Transport-Reactions" />
+      <Property key="AtomMappings" value=":CPDS-LACK-STRUCTURE" />
+      <Property key="Gibbs0" value="0." />
+      <Property key="InstanceNameTemplate" value="TRANS-RXN-*" />
+      <Property key="^compartment" value="CCO-IN, CCO-OUT" />
+    </Interaction>
+    <Interaction elementId="RXN-14352_ENZRXNQT-28009">
+      <Waypoints>
+        <Point elementId="RXN-14352_ENZRXNQT-28009_start" x="150" y="227.5" elementRef="AT5G16150.3" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-14352_ENZRXNQT-28009_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-14352_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+</Pathway>

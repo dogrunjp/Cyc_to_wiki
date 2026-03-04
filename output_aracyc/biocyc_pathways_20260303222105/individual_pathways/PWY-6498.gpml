@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="eumelanin biosynthesis" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Xref identifier="PWY-6498" dataSource="MetaCyc" />
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Arabidopsis thaliana col&lt;/i&gt;: Enzyme(s) that catalyzes one or more of the key reactions in this pathway were predicted in Arabidopsis thaliana col. &lt;A href=&quot;http://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; |FRAME: CPD-12379 &quot;Eumelanin&quot;| is a common type of |FRAME: MELANIN| pigment, which is found in hair and skin. There are two types of eumelanin, black and brown, which differ by their pattern of polymer bonds. A small amount of black eumelanin in the absence of other pigments causes grey hair, while a small amount of brown eumelanin in the absence of other pigments causes yellow (blond) color hair. Spectroscopic studies of the biosynthesis of |FRAME: CPD-12379| showed that it takes place in three chromophoric phases. The first phase corresponds to the formation of the red pigment |FRAME: L-DOPACHROME| (&amp;lambda;max 475 nm) (see |FRAME: PWY-6481|). The second phase corresponds to a purple intermediate, which was designated |FRAME: CPD-12378|, with a broad absorption maximum at 540 nm, and the third phase is characterized by a general absorption due to |FRAME: CPD-12379| |CITS: [Napolitano85]|. The oxidation of |FRAME: L-DOPACHROME| to |FRAME: CPD-12378| occurs spontaneously &lt;i&gt;in vitro&lt;/i&gt; but has been shown to be under enzymatic control &lt;i&gt;in vivo&lt;/i&gt;. |FRAME: L-DOPACHROME| is converted into two compounds - a spontaneous decarboxylation to |FRAME: DIHYDROXYINDOLE|, and an enzymatic tautomerization to |FRAME: 56-DIHYDROXYINDOLE-2-CARBOXYLATE| |CITS: [4031539]|. Both of these products are then oxidized to quinones, which are polymerized to form |FRAME: CPD-12378| and eventually |FRAME: CPD-12379|. In vertebrates, the pathway involves the activities of three related proteins, all members of the tyrosinase gene family: tyrosinase (|FRAME: HS01248|), tyrosinase-related protein 1 (|FRAME: G-11989|) and tyrosinase-related protein 2 (|FRAME: G-11991|). The enzymatic activities of |FRAME: HS01248-MONOMER| and tyrosinase-related protein 2 (|FRAME: CPLX-8053|) are well established. |FRAME: HS01248-MONOMER &quot;Tyrosinase&quot;| is the initial, rate-limiting enzyme of melanogenesis, catalyzing the first two steps from |FRAME: TYR| via |FRAME: L-DIHYDROXY-PHENYLALANINE| to |FRAME: DOPAQUINONE|, which goes through a series of spontaneous reactions yielding |FRAME: L-DOPACHROME| (see |FRAME: PWY-6481|). Subsequently, the |FRAME: G-11991|-encoded |FRAME: CPLX-8053| converts |FRAME: L-DOPACHROME| into |FRAME: 56-DIHYDROXYINDOLE-2-CARBOXYLATE| (DHICA). The role of the third family member, |FRAME: G-11989|, is less clear. Despite its structural similarity to Tyr and Dct, the enzymatic function of Tyrp1 is controversial and might be species-specific |CITS: [11775055]|. A |FRAME: MONOMER-15620| (DHICA oxidase) activity has been demonstrated for the murine |FRAME: G-11989| protein |CITS: [8027058][7813420][7855068]|, but in humans |FRAME: HS01248| and not TYRP1 performs this function |CITS: [9758418][11171088]|. As Tyr and Tyrp1 are part of the melanogenic complex and are known to form heterodimers, it is possible that the main function of human Tyrp1 is to stabilize tyrosinase |CITS: [7787879][9822646][18042623]|. The two products of |FRAME: L-DOPACHROME| oxidation, |FRAME: CPD-12373| and |FRAME: CPD-12374|, polymerize to form a mixture of different dimers and trimers, known under the name |FRAME: CPD-12378|. The polymerization can be induced by the presence of certain metal ions such as |FRAME: NI+2| or |FRAME: ZN+2| |CITS: [Napolitano85]|, but could also be catalyzed enzymatically by |FRAME: HS01248-MONOMER| or by peroxidases. Different routes were shown to result in the formation of different compounds. For example, studies using |FRAME: DIHYDROXYINDOLE| as substrate found that the predominant product was the 2-2&apos;-linked dimer |FRAME: CPD-12408| when metal ions were added, but the 2-4&apos;-linked dimer |FRAME: CPD-12409| when tyrosinase was added |CITS: [Napolitano85]|. When peroxidase was added to the reaction, the 2-4&apos;-linked dimer was still formed, but a third product, the 2-7&apos;-linked dimer |FRAME: CPD-12414| was also present |CITS: [Prota91]|. Similarly, when |FRAME: CPD-12374| was used as substrate, the predominant product was the 4-4&apos;-linked dimer |FRAME: CPD-12411| when metal ions were added, but the 4-7&apos;-linked dimer |FRAME: CPD-12412| when tyrosinase was added |CITS: [Prota91]|. Defects in TYR result in various forms of albinism. Mutations in TYRP1 in mice result in brown fur, but mutations in the human gene result in a form of oculocutaneous albinism (OCA3).</Description>
+  <Authors>
+    <Author name="PMN" />
+    <Author name="zhang" />
+    <Author name="SRI" />
+    <Author name="caspi" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-6498" />
+  <Property key="Type" value="Pigment-Biosynthesis" />
+  <Property key="ReactionCount" value="6" />
+  <Property key="ReactionIDs" value="RXN-11444, RXN-11408, DOPACHROME-DELTA-ISOMERASE-RXN, RXN-11406, RXN-11404, RXN-11403" />
+  <Property key="PredecessorCount" value="5" />
+  <Property key="PrimaryCompoundCount" value="2" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_4031539" />
+  <CitationRef elementRef="citation_PUB_11775055" />
+  <Graphics boardWidth="1200" boardHeight="900" />
+  <DataNodes>
+    <DataNode elementId="AT3G51660" textLabel="AT3G51660" type="GeneProduct">
+      <Xref identifier="AT3G51660" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G51660" />
+      <Property key="Product" value="AT3G51660.1" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT3G51660" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT5G01650" textLabel="AT5G01650" type="GeneProduct">
+      <Xref identifier="AT5G01650" dataSource="TAIR gene name" />
+      <Graphics centerX="220" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G01650" />
+      <Property key="Products" value="AT5G01650.4, AT5G01650.3, AT5G01650.2, AT5G01650.1" />
+      <Property key="ProductCount" value="4" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT5G01650" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT5G57170" textLabel="AT5G57170" type="GeneProduct">
+      <Xref identifier="AT5G57170" dataSource="TAIR gene name" />
+      <Graphics centerX="340" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G57170" />
+      <Property key="Products" value="AT5G57170.2, AT5G57170.1" />
+      <Property key="ProductCount" value="2" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT5G57170" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT5G01650.4" textLabel="AT5G01650.4" type="Protein">
+      <Xref identifier="AT5G01650.4" dataSource="plantcyc" />
+      <Graphics centerX="150" centerY="215" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G01650.4" />
+      <Property key="Catalyzes" value="RXN-28346, RXN-28345" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="AT5G01650.4" />
+      <Property key="Gene" value="AT5G01650" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT5G57170.2" textLabel="AT5G57170.2" type="Protein">
+      <Xref identifier="AT5G57170.2" dataSource="plantcyc" />
+      <Graphics centerX="300" centerY="215" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G57170.2" />
+      <Property key="Catalyzes" value="RXN-27280, RXN-27279" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="AT5G57170.2" />
+      <Property key="Gene" value="AT5G57170" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT3G51660.1" textLabel="AT3G51660.1" type="Protein">
+      <Xref identifier="AT3G51660.1" dataSource="plantcyc" />
+      <Graphics centerX="450" centerY="215" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G51660.1" />
+      <Property key="Catalyzes" value="RXN-29586, RXN-29585" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="AT3G51660.1" />
+      <Property key="Gene" value="AT3G51660" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OXYGEN-MOLECULE" textLabel="dioxygen" type="Metabolite">
+      <Xref identifier="MYMOFIZGZYHOMD-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OXYGEN-MOLECULE" />
+      <Property key="AlternativeId_Bigg" value="o2" />
+      <Property key="AlternativeId_Seed" value="cpd00007" />
+      <Property key="AlternativeId_Metanetx" value="MNXM4" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15379" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01377" />
+      <Property key="AlternativeId_Chemspider" value="952" />
+      <Property key="AlternativeId_Pubchem" value="977" />
+      <Property key="AlternativeId_Chebi" value="15379" />
+      <Property key="AlternativeId_LigandCpd" value="C00007" />
+      <Property key="AlternativeId_Cas" value="7782-44-7" />
+      <Property key="Synonym_1" value="oxygen molecule" />
+      <Property key="Synonym_2" value="molecular oxygen" />
+      <Property key="Synonym_3" value="oxygen" />
+      <Property key="ChemicalFormula" value="(O 2)" />
+      <Property key="AbbrevName" value="O&lt;sub&gt;2&lt;/sub&gt;" />
+      <Property key="Gibbs0" value="3.92" />
+      <Property key="Inchi" value="InChI=1S/O2/c1-2" />
+      <Property key="InchiKey" value="InChIKey=MYMOFIZGZYHOMD-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="31.999" />
+      <Property key="MonoisotopicMw" value="31.9898292442" />
+      <Property key="NonStandardInchi" value="InChI=1S/O2/c1-2" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="O=O" />
+      <Property key="SystematicName" value="dioxygen" />
+    </DataNode>
+    <DataNode elementId="_56-DIHYDROXYINDOLE-2-CARBOXYLATE" textLabel="5,6-dihydroxyindole-2-carboxylate" type="Metabolite">
+      <Xref identifier="YFTGOBNOJKXZJC-UHFFFAOYSA-M" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="56-DIHYDROXYINDOLE-2-CARBOXYLATE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000000901972" />
+      <Property key="AlternativeId_Seed" value="cpd02571" />
+      <Property key="AlternativeId_Metanetx" value="MNXM2947" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC16875" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01253" />
+      <Property key="AlternativeId_Chemspider" value="4573613" />
+      <Property key="AlternativeId_Pubchem" value="54691355" />
+      <Property key="AlternativeId_LigandCpd" value="C04185" />
+      <Property key="AlternativeId_Chebi" value="16875" />
+      <Property key="Synonym_1" value="5,6-dihydroxy-1&lt;i&gt;H&lt;/i&gt;-indole-2-carboxylate" />
+      <Property key="Synonym_2" value="DHICA" />
+      <Property key="ChemicalFormula" value="(C 9) (H 6) (N 1) (O 4)" />
+      <Property key="AtomCharges" value="(14 -1)" />
+      <Property key="Gibbs0" value="-66.51434" />
+      <Property key="Inchi" value="InChI=1S/C9H7NO4/c11-7-2-4-1-6(9(13)14)10-5(4)3-8(7)12/h1-3,10-12H,(H,13,14)/p-1" />
+      <Property key="InchiKey" value="InChIKey=YFTGOBNOJKXZJC-UHFFFAOYSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="192.151" />
+      <Property key="MonoisotopicMw" value="193.0375077183" />
+      <Property key="NonStandardInchi" value="InChI=1S/C9H7NO4/c11-7-2-4-1-6(9(13)14)10-5(4)3-8(7)12/h1-3,10-12H,(H,13,14)/p-1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C1(\C2(/C=C(C(/O)=C\C(NC(/C(=O)[O-])=1)=2)/O))" />
+    </DataNode>
+    <DataNode elementId="CPD-12373" textLabel="indole-5,6-quinone" type="Metabolite">
+      <Xref identifier="IGGVVGHJSQSLFO-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-12373" />
+      <Property key="AlternativeId_Zinc" value="ZINC000001530228" />
+      <Property key="AlternativeId_Seed" value="cpd03309" />
+      <Property key="AlternativeId_Metanetx" value="MNXM5183" />
+      <Property key="AlternativeId_Refmet" value="Indole-5,6-quinone" />
+      <Property key="AlternativeId_Hmdb" value="HMDB06779" />
+      <Property key="AlternativeId_Chemspider" value="389600" />
+      <Property key="AlternativeId_Chebi" value="27406" />
+      <Property key="AlternativeId_LigandCpd" value="C05579" />
+      <Property key="AlternativeId_Pubchem" value="440728" />
+      <Property key="Synonym_1" value="IQ" />
+      <Property key="Synonym_2" value="indolequinone" />
+      <Property key="ChemicalFormula" value="(C 8) (H 5) (N 1) (O 2)" />
+      <Property key="Gibbs0" value="11.956602" />
+      <Property key="Inchi" value="InChI=1S/C8H5NO2/c10-7-3-5-1-2-9-6(5)4-8(7)11/h1-4,9H" />
+      <Property key="InchiKey" value="InChIKey=IGGVVGHJSQSLFO-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="147.133" />
+      <Property key="MonoisotopicMw" value="147.0320284099" />
+      <Property key="NonStandardInchi" value="InChI=1S/C8H5NO2/c10-7-3-5-1-2-9-6(5)4-8(7)11/h1-4,9H" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C1(\C2(\C(\N\C=1)=C/C(=O)C(=O)\C=2))" />
+    </DataNode>
+    <DataNode elementId="DIHYDROXYINDOLE" textLabel="5,6-dihydroxyindole" type="Metabolite">
+      <Xref identifier="SGNZYJXNUURYCH-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="650" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="DIHYDROXYINDOLE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000000895800" />
+      <Property key="AlternativeId_ReactomeCpd" value="5662666" />
+      <Property key="AlternativeId_Seed" value="cpd03308" />
+      <Property key="AlternativeId_Metanetx" value="MNXM2336" />
+      <Property key="AlternativeId_Hmdb" value="HMDB04058" />
+      <Property key="AlternativeId_Drugbank" value="DB01811" />
+      <Property key="AlternativeId_Chemspider" value="102690" />
+      <Property key="AlternativeId_Pubchem" value="114683" />
+      <Property key="AlternativeId_Chebi" value="27404" />
+      <Property key="AlternativeId_LigandCpd" value="C05578" />
+      <Property key="Synonym_1" value="1&lt;i&gt;H&lt;/i&gt;-indole-5,6-diol" />
+      <Property key="Synonym_2" value="dopamine lutine" />
+      <Property key="Synonym_3" value="DHI" />
+      <Property key="ChemicalFormula" value="(C 8) (H 7) (N 1) (O 2)" />
+      <Property key="Gibbs0" value="26.69884" />
+      <Property key="Inchi" value="InChI=1S/C8H7NO2/c10-7-3-5-1-2-9-6(5)4-8(7)11/h1-4,9-11H" />
+      <Property key="InchiKey" value="InChIKey=SGNZYJXNUURYCH-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="149.149" />
+      <Property key="MonoisotopicMw" value="149.0476784741" />
+      <Property key="NonStandardInchi" value="InChI=1S/C8H7NO2/c10-7-3-5-1-2-9-6(5)4-8(7)11/h1-4,9-11H" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C1(\C2(/C=C(C(/O)=C\C(N\C=1)=2)/O))" />
+    </DataNode>
+    <DataNode elementId="WATER" textLabel="H₂O" type="Metabolite">
+      <Xref identifier="XLYOFNOQVPJJNP-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="500" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="WATER" />
+      <Property key="AlternativeId_Bigg" value="h2o" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15377" />
+      <Property key="AlternativeId_Hmdb" value="HMDB02111" />
+      <Property key="AlternativeId_Chemspider" value="937" />
+      <Property key="AlternativeId_Chebi" value="15377" />
+      <Property key="AlternativeId_Pubchem" value="962" />
+      <Property key="AlternativeId_LigandCpd" value="C00001" />
+      <Property key="AlternativeId_Cas" value="7732-18-5" />
+      <Property key="Synonym_1" value="H20" />
+      <Property key="Synonym_2" value="H&lt;sub&gt;2&lt;/sub&gt;0" />
+      <Property key="Synonym_3" value="H2O" />
+      <Property key="Synonym_4" value="hydrogen oxide" />
+      <Property key="Synonym_5" value="water" />
+      <Property key="ChemicalFormula" value="(H 2) (O 1)" />
+      <Property key="Gibbs0" value="-36.144756" />
+      <Property key="Inchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="InchiKey" value="InChIKey=XLYOFNOQVPJJNP-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="18.015" />
+      <Property key="MonoisotopicMw" value="18.0105646863" />
+      <Property key="NonStandardInchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="O" />
+    </DataNode>
+    <DataNode elementId="CARBON-DIOXIDE" textLabel="CO₂" type="Metabolite">
+      <Xref identifier="CURLTUGMZLYLDI-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="500" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CARBON-DIOXIDE" />
+      <Property key="AlternativeId_Bigg" value="co2" />
+      <Property key="AlternativeId_Seed" value="cpd00011" />
+      <Property key="AlternativeId_Metanetx" value="MNXM13" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC16526" />
+      <Property key="AlternativeId_LigandCpd" value="C00011" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01967" />
+      <Property key="AlternativeId_UmBbdCpd" value="c0131" />
+      <Property key="AlternativeId_Chemspider" value="274" />
+      <Property key="AlternativeId_Chebi" value="16526" />
+      <Property key="AlternativeId_Pubchem" value="280" />
+      <Property key="AlternativeId_Cas" value="124-38-9" />
+      <Property key="Synonym_1" value="carbonic anhydride" />
+      <Property key="Synonym_2" value="carbonic acid gas" />
+      <Property key="Synonym_3" value="carbon dioxide" />
+      <Property key="ChemicalFormula" value="(C 1) (O 2)" />
+      <Property key="Gibbs0" value="-92.26" />
+      <Property key="Inchi" value="InChI=1S/CO2/c2-1-3" />
+      <Property key="InchiKey" value="InChIKey=CURLTUGMZLYLDI-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="44.01" />
+      <Property key="MonoisotopicMw" value="43.989829244199996" />
+      <Property key="NonStandardInchi" value="InChI=1S/CO2/c2-1-3" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REGQT-541" />
+      <Property key="Smiles" value="C(=O)=O" />
+    </DataNode>
+    <DataNode elementId="CPD-12374" textLabel="indole-5,6-quinone-2-carboxylate" type="Metabolite">
+      <Xref identifier="FXURFKFOPCZEKG-UHFFFAOYSA-M" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="500" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-12374" />
+      <Property key="AlternativeId_Zinc" value="ZINC000056874819" />
+      <Property key="AlternativeId_Chebi" value="177869" />
+      <Property key="AlternativeId_ReactomeCpd" value="8878586" />
+      <Property key="AlternativeId_Seed" value="cpd17924" />
+      <Property key="AlternativeId_Metanetx" value="MNXM6292" />
+      <Property key="AlternativeId_LigandCpd" value="C17938" />
+      <Property key="AlternativeId_Pubchem" value="46173450" />
+      <Property key="Synonym_1" value="ICQA" />
+      <Property key="ChemicalFormula" value="(C 9) (H 4) (N 1) (O 4)" />
+      <Property key="AtomCharges" value="(14 -1)" />
+      <Property key="Gibbs0" value="-81.25658" />
+      <Property key="Inchi" value="InChI=1S/C9H5NO4/c11-7-2-4-1-6(9(13)14)10-5(4)3-8(7)12/h1-3,10H,(H,13,14)/p-1" />
+      <Property key="InchiKey" value="InChIKey=FXURFKFOPCZEKG-UHFFFAOYSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="190.135" />
+      <Property key="MonoisotopicMw" value="191.0218576541" />
+      <Property key="NonStandardInchi" value="InChI=1S/C9H5NO4/c11-7-2-4-1-6(9(13)14)10-5(4)3-8(7)12/h1-3,10H,(H,13,14)/p-1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C([O-])(=O)C1(\NC2(\C(/C=1)=C/C(=O)C(=O)/C=2))" />
+    </DataNode>
+    <DataNode elementId="Acceptor" textLabel="Acceptor" type="Metabolite">
+      <Xref identifier="Acceptor" dataSource="" />
+      <Graphics centerX="650" centerY="500" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="Donor-H2" textLabel="Donor-H2" type="Metabolite">
+      <Xref identifier="Donor-H2" dataSource="" />
+      <Graphics centerX="200" centerY="600" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="L-DOPACHROME" textLabel="L-dopachrome" type="Metabolite">
+      <Xref identifier="VJNCICVKUHKIIV-LURJTMIESA-M" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="600" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="PMN, zhang">The precursor of |FRAME: L-DOPACHROME|, |FRAME: CPD-8652|, is very easily autoxidized, resulting in accumulation of |FRAME: L-DOPACHROME| during the the early phase of eumelanogenesis. Dopachrome is fairly stable, with a half-life of about 30 min, but also decomposes spontaneously, giving mostly |FRAME: DIHYDROXYINDOLE|.</Comment>
+      <Property key="UniqueID" value="L-DOPACHROME" />
+      <Property key="AlternativeId_Zinc" value="ZINC000030724207" />
+      <Property key="AlternativeId_Seed" value="cpd01169" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1564" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57509" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01430" />
+      <Property key="AlternativeId_Chebi" value="57509" />
+      <Property key="AlternativeId_Pubchem" value="46173181" />
+      <Property key="AlternativeId_LigandCpd" value="C01693" />
+      <Property key="Synonym_1" value="indole-5,6-quinoneimine" />
+      <Property key="Synonym_2" value="2-L-carboxy-2,3-dihydroindole-5,6-quinone" />
+      <Property key="ChemicalFormula" value="(C 9) (H 6) (N 1) (O 4)" />
+      <Property key="AtomCharges" value="(14 -1)" />
+      <Property key="Gibbs0" value="-43.47534" />
+      <Property key="Inchi" value="InChI=1S/C9H7NO4/c11-7-2-4-1-6(9(13)14)10-5(4)3-8(7)12/h2-3,6,10H,1H2,(H,13,14)/p-1/t6-/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=VJNCICVKUHKIIV-LURJTMIESA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="192.151" />
+      <Property key="MonoisotopicMw" value="193.0375077183" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C([O-])(=O)[C@H]1(NC2(\C(/C1)=C/C(C(=O)/C=2)=O))" />
+      <Property key="SystematicName" value="(2S)-5,6-dioxo-2,3,5,6-tetrahydro-1H-indole-2-carboxylate" />
+    </DataNode>
+    <DataNode elementId="CPD-12378" textLabel="melanochrome" type="Metabolite">
+      <Xref identifier="MNXM11170" dataSource="MetaNetX" />
+      <Graphics centerX="500" centerY="600" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="SRI, caspi">Spectroscopic studies of the biosynthesis of |FRAME: CPD-12379| showed that it takes place in three chromophoric phases. The first phase corresponds to the formation of a red pigment (&amp;lambda;max 475 nm), |FRAME: L-DOPACHROME|. The second phase corresponds to a purple intermediate, which was designated |FRAME: CPD-12378|, with a broad absorption maximum at 540 nm, and the third phase is characterized by a general absorption due to |FRAME: CPD-12379| |CITS: [Napolitano85]|. Chemical analysis of |FRAME: CPD-12378| suggests that it is composed of different oligomers (mostly dimers and trimers) of |FRAME: DIHYDROXYINDOLE| (DHI) and |FRAME: 56-DIHYDROXYINDOLE-2-CARBOXYLATE| linked by 2-4&apos; and 2-7&apos; linkages |CITS: [Prota91]|.</Comment>
+      <Property key="UniqueID" value="CPD-12378" />
+      <Property key="AlternativeId_Seed" value="cpd23380" />
+      <Property key="AlternativeId_Metanetx" value="MNXM11170" />
+      <Property key="HasNoStructure?" value="T" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="Osmolarity" value="0" />
+      <CitationRef elementRef="citation_PUB_PROTA91" />
+    </DataNode>
+    <DataNode elementId="PROTON" textLabel="H⁺" type="Metabolite">
+      <Xref identifier="GPRLSGONYQIRFK-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="650" centerY="600" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PROTON" />
+      <Property key="AlternativeId_Bigg" value="h" />
+      <Property key="AlternativeId_Seed" value="cpd00067" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1" />
+      <Property key="AlternativeId_Hmdb" value="HMDB59597" />
+      <Property key="AlternativeId_Chemspider" value="1010" />
+      <Property key="AlternativeId_Pubchem" value="1038" />
+      <Property key="AlternativeId_Chebi" value="15378" />
+      <Property key="AlternativeId_Cas" value="12408-02-5" />
+      <Property key="AlternativeId_LigandCpd" value="C00080" />
+      <Property key="Synonym_1" value="H" />
+      <Property key="Synonym_2" value="hydrogen ion" />
+      <Property key="Synonym_3" value="proton" />
+      <Property key="ChemicalFormula" value="(H 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="0.42906138" />
+      <Property key="Inchi" value="InChI=1S/p+1" />
+      <Property key="InchiKey" value="InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1.008" />
+      <Property key="MonoisotopicMw" value="1.0078250321" />
+      <Property key="NonStandardInchi" value="InChI=1S/p+1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="[H+]" />
+    </DataNode>
+    <DataNode elementId="CPD-12379" textLabel="eumelanin" type="Metabolite">
+      <Graphics centerX="200" centerY="700" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="PMN, zhang, SRI, caspi">|FRAME: CPD-12379 &quot;Eumelanin&quot;| is a common type of |FRAME: MELANIN| pigment, which is found in hair and skin. There are two types of eumelanin, black and brown, which differ by their pattern of polymer bonds. A small amount of black eumelanin in the absence of other pigments causes grey hair, while a small amount of brown eumelanin in the absence of other pigments causes yellow (blond) color hair. Eumelanin polymers have long been thought to comprise numerous cross-linked |FRAME: DIHYDROXYINDOLE| (DHI) and |FRAME: 56-DIHYDROXYINDOLE-2-CARBOXYLATE| (DHICA) polymers.</Comment>
+      <Property key="UniqueID" value="CPD-12379" />
+      <Property key="Synonym_1" value="eu-melanin" />
+      <Property key="AtomCharges" value="(41 -1), (38 -1), (28 -1), (14 -1)" />
+      <Property key="HasNoStructure?" value="T" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C([O-])(=O)C1(\NC5(\C(/C=1)=C([R])/C(=O)C(=O)C(\C3(C4(\C=C(C([O-])=O)/NC(\C(\C(C2(\C=C(C([O-])=O)/NC(\C([O-])=O)=2))=O)=C(C(O)=3)\O)=4)))=5))" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="AT3G51660" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="405.0" y="215" elementRef="AT3G51660.1" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_1_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_1_0_0" x="265.0" y="50" elementRef="AT5G01650" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_1_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="215" elementRef="AT5G01650.4" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_2_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_2_0_0" x="385.0" y="50" elementRef="AT5G57170" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_2_0_0" arrowHead="TranscriptionTranslation" x="255.0" y="215" elementRef="AT5G57170.2" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-11444">
+      <Xref identifier="RXN-11444" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-11444_start" x="545.0" y="600" elementRef="CPD-12378" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-11444_end" arrowHead="Conversion" x="155.0" y="700" elementRef="CPD-12379" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-11444_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-11444" />
+      <Property key="Pathways" value="PWY-6498" />
+      <Property key="ReactionEquation" value="CPD-12378 =&gt; CPD-12379" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":UNBALANCED-UNFIXABLE" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value=":NON-INTEGER-STOICHIOMETRY" />
+      <Property key="CannotBalance?" value="T" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^coefficient" value="n" />
+    </Interaction>
+    <Interaction elementId="RXN-11408">
+      <Xref identifier="RXN-11408" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-11408_start" x="545.0" y="400" elementRef="CPD-12373" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-11408_end" arrowHead="Conversion" x="455.0" y="600" elementRef="CPD-12378" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-11408_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-11408" />
+      <Property key="Pathways" value="PWY-6498" />
+      <Property key="ReactionEquation" value="CPD-12373 + CPD-12374 + 56-DIHYDROXYINDOLE-2-CARBOXYLATE + DIHYDROXYINDOLE =&gt; CPD-12378" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":UNBALANCED-UNFIXABLE" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value=":CPDS-LACK-STRUCTURE" />
+      <Property key="CannotBalance?" value="T" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-11408_anchor_reactant_1">
+      <Xref identifier="RXN-11408" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-11408_anchor_reactant_start_1" x="545.0" y="500" elementRef="CPD-12374" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-11408_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-11408_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-11408_anchor_reactant_2">
+      <Xref identifier="RXN-11408" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-11408_anchor_reactant_start_2" x="395.0" y="400" elementRef="_56-DIHYDROXYINDOLE-2-CARBOXYLATE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-11408_anchor_reactant_end_2" x="0" y="0" elementRef="RXN-11408_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-11408_anchor_reactant_3">
+      <Xref identifier="RXN-11408" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-11408_anchor_reactant_start_3" x="695.0" y="400" elementRef="DIHYDROXYINDOLE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-11408_anchor_reactant_end_3" x="0" y="0" elementRef="RXN-11408_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="DOPACHROME-DELTA-ISOMERASE-RXN">
+      <Xref identifier="EC-5.3.3.12" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="DOPACHROME-DELTA-ISOMERASE-RXN_start" x="395.0" y="600" elementRef="L-DOPACHROME" relX="1.0" relY="0.0" />
+        <Point elementId="DOPACHROME-DELTA-ISOMERASE-RXN_end" arrowHead="Conversion" x="305.0" y="400" elementRef="_56-DIHYDROXYINDOLE-2-CARBOXYLATE" relX="-1.0" relY="0.0" />
+        <Anchor elementId="DOPACHROME-DELTA-ISOMERASE-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="DOPACHROME-DELTA-ISOMERASE-RXN" />
+      <Property key="EC_Number" value="EC-5.3.3.12" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-6498" />
+      <Property key="ReactionEquation" value="L-DOPACHROME =&gt; 56-DIHYDROXYINDOLE-2-CARBOXYLATE" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNQT-29586, ENZRXNQT-28346, ENZRXNQT-27280" />
+      <Property key="EnzymaticReactionCount" value="3" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13) (((&quot;56-DIHYDROXYINDOLE-2-CARBOXYLATE&quot; 0 13)) ((&quot;L-DOPACHROME&quot; 0 13))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-23.039001" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="DOPACHROME-DELTA-ISOMERASE-RXN_ENZRXNQT-27280">
+      <Waypoints>
+        <Point elementId="DOPACHROME-DELTA-ISOMERASE-RXN_ENZRXNQT-27280_start" x="300" y="227.5" elementRef="AT5G57170.2" relX="0.0" relY="1.0" />
+        <Point elementId="DOPACHROME-DELTA-ISOMERASE-RXN_ENZRXNQT-27280_end" arrowHead="Catalysis" x="0" y="0" elementRef="DOPACHROME-DELTA-ISOMERASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="DOPACHROME-DELTA-ISOMERASE-RXN_ENZRXNQT-28346">
+      <Waypoints>
+        <Point elementId="DOPACHROME-DELTA-ISOMERASE-RXN_ENZRXNQT-28346_start" x="150" y="227.5" elementRef="AT5G01650.4" relX="0.0" relY="1.0" />
+        <Point elementId="DOPACHROME-DELTA-ISOMERASE-RXN_ENZRXNQT-28346_end" arrowHead="Catalysis" x="0" y="0" elementRef="DOPACHROME-DELTA-ISOMERASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="DOPACHROME-DELTA-ISOMERASE-RXN_ENZRXNQT-29586">
+      <Waypoints>
+        <Point elementId="DOPACHROME-DELTA-ISOMERASE-RXN_ENZRXNQT-29586_start" x="450" y="227.5" elementRef="AT3G51660.1" relX="0.0" relY="1.0" />
+        <Point elementId="DOPACHROME-DELTA-ISOMERASE-RXN_ENZRXNQT-29586_end" arrowHead="Catalysis" x="0" y="0" elementRef="DOPACHROME-DELTA-ISOMERASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-11406">
+      <Xref identifier="RXN-11406" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-11406_start" x="395.0" y="400" elementRef="_56-DIHYDROXYINDOLE-2-CARBOXYLATE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-11406_end" arrowHead="Conversion" x="455.0" y="500" elementRef="CPD-12374" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-11406_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-11406" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-6498" />
+      <Property key="ReactionEquation" value="56-DIHYDROXYINDOLE-2-CARBOXYLATE + OXYGEN-MOLECULE + Donor-H2 =&gt; CPD-12374 + WATER + Acceptor" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value=":CURATED, (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15) (((&quot;CPD-12374&quot; 0 13) ((&quot;WATER&quot; 1) 14 14) ((&quot;WATER&quot; 2) 15 15)) ((&quot;56-DIHYDROXYINDOLE-2-CARBOXYLATE&quot; 0 13) (&quot;OXYGEN-MOLECULE&quot; 14 15))))" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^coefficient" value="2" />
+    </Interaction>
+    <Interaction elementId="RXN-11406_anchor_reactant_1">
+      <Xref identifier="RXN-11406" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-11406_anchor_reactant_start_1" x="245.0" y="400" elementRef="OXYGEN-MOLECULE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-11406_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-11406_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-11406_anchor_reactant_2">
+      <Xref identifier="RXN-11406" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-11406_anchor_reactant_start_2" x="245.0" y="600" elementRef="Donor-H2" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-11406_anchor_reactant_end_2" x="0" y="0" elementRef="RXN-11406_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-11406_anchor_product_1">
+      <Xref identifier="RXN-11406" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-11406_anchor_product_start_1" x="0" y="0" elementRef="RXN-11406_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-11406_anchor_product_end_1" arrowHead="Conversion" x="155.0" y="500" elementRef="WATER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-11406_anchor_product_2">
+      <Xref identifier="RXN-11406" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-11406_anchor_product_start_2" x="0" y="0" elementRef="RXN-11406_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-11406_anchor_product_end_2" arrowHead="Conversion" x="605.0" y="500" elementRef="Acceptor" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-11404">
+      <Xref identifier="RXN-11404" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-11404_start" x="695.0" y="400" elementRef="DIHYDROXYINDOLE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-11404_end" arrowHead="Conversion" x="455.0" y="400" elementRef="CPD-12373" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-11404_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-11404" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-6498" />
+      <Property key="ReactionEquation" value="DIHYDROXYINDOLE + OXYGEN-MOLECULE + Donor-H2 =&gt; CPD-12373 + WATER + Acceptor" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value=":CURATED, (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 12 11) (((&quot;CPD-12373&quot; 0 10) ((&quot;WATER&quot; 1) 11 11) ((&quot;WATER&quot; 2) 12 12)) ((&quot;DIHYDROXYINDOLE&quot; 0 10) (&quot;OXYGEN-MOLECULE&quot; 11 12))))" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^coefficient" value="2" />
+    </Interaction>
+    <Interaction elementId="RXN-11404_anchor_reactant_1">
+      <Xref identifier="RXN-11404" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-11404_anchor_reactant_start_1" x="245.0" y="400" elementRef="OXYGEN-MOLECULE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-11404_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-11404_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-11404_anchor_reactant_2">
+      <Xref identifier="RXN-11404" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-11404_anchor_reactant_start_2" x="245.0" y="600" elementRef="Donor-H2" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-11404_anchor_reactant_end_2" x="0" y="0" elementRef="RXN-11404_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-11404_anchor_product_1">
+      <Xref identifier="RXN-11404" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-11404_anchor_product_start_1" x="0" y="0" elementRef="RXN-11404_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-11404_anchor_product_end_1" arrowHead="Conversion" x="155.0" y="500" elementRef="WATER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-11404_anchor_product_2">
+      <Xref identifier="RXN-11404" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-11404_anchor_product_start_2" x="0" y="0" elementRef="RXN-11404_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-11404_anchor_product_end_2" arrowHead="Conversion" x="605.0" y="500" elementRef="Acceptor" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-11403">
+      <Xref identifier="RXN-11403" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-11403_start" x="395.0" y="600" elementRef="L-DOPACHROME" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-11403_end" arrowHead="Conversion" x="605.0" y="400" elementRef="DIHYDROXYINDOLE" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-11403_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-11403" />
+      <Property key="Spontaneous" value="T" />
+      <Property key="Pathways" value="PWY-6498" />
+      <Property key="ReactionEquation" value="PROTON + L-DOPACHROME =&gt; DIHYDROXYINDOLE + CARBON-DIOXIDE" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 2 3 4 5 1 6 7 11 8 9 10 12 13) (((&quot;DIHYDROXYINDOLE&quot; 0 10) (&quot;CARBON-DIOXIDE&quot; 11 13)) ((&quot;L-DOPACHROME&quot; 0 13))))" />
+      <Property key="Gibbs0" value="-22.514885" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-11403_anchor_reactant_0">
+      <Xref identifier="RXN-11403" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-11403_anchor_reactant_start_0" x="695.0" y="600" elementRef="PROTON" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-11403_anchor_reactant_end_0" x="0" y="0" elementRef="RXN-11403_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-11403_anchor_product_1">
+      <Xref identifier="RXN-11403" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-11403_anchor_product_start_1" x="0" y="0" elementRef="RXN-11403_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-11403_anchor_product_end_1" arrowHead="Conversion" x="305.0" y="500" elementRef="CARBON-DIOXIDE" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_11775055">
+      <Xref identifier="11775055" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_4031539">
+      <Xref identifier="4031539" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_PROTA91">
+      <Xref identifier="PUB-PROTA91 | Regulatory mechanisms in melanin pigmentation: a biomimetic approach (Prota, G., Misuraca, G., Napolitano, A. et al., 1991)" dataSource="BioCyc" />
+    </Citation>
+  </Citations>
+</Pathway>

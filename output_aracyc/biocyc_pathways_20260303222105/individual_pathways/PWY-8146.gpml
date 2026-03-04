@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="cytochrome c biogenesis (system II type)" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Description>&lt;b&gt;General background&lt;/b&gt; &lt;i&gt;C&lt;/i&gt;-type cytochromes (cytC) are electron-transfer proteins that have one or more |FRAME: HEME_C| groups. They are characterized by the covalent attachment of the heme to the polypeptide chain via two (or rarely one) thioether bonds formed between thiol groups of cysteine residues and vinyl groups of a |FRAME: PROTOHEME| molecule. The two cysteine residues almost always occur in the amino-acid sequence CXXCH |CITS: [10647174]|. &lt;i&gt;C&lt;/i&gt;-type cytochromes possess a wide range of properties and function in a large number of different redox processes. In general, the differences in &lt;i&gt;c&lt;/i&gt;-type cytochromes among bacteria are much larger than those among animal species. The use of the term term &quot;&lt;i&gt;c&lt;/i&gt;-type cytochromes&quot; was introduced to distinguish this family of diverse proteins from the well-characterized mitochondrial protein, which is often referred to as &quot;cytochrome &lt;i&gt;c&lt;/i&gt;&quot;. Bacterial &lt;i&gt;c&lt;/i&gt;-type cytochromes function in the electron transport chains of bacteria with many different types of energy metabolism, including phototrophs, methylotrophs, denitrifiers, sulfate reducers and the nitrogen-fixers. The biogenesis of &lt;i&gt;c&lt;/i&gt;-type cytochromes involves covalent attachment of |FRAME: PROTOHEME| to two cysteines at a conserved CXXCH sequence in the apocytochrome. The histidine residue acts as an axial ligand to the heme iron. Three unique cytochrome &lt;i&gt;c&lt;/i&gt; assembly pathways, known as systems I, II, and III, have ben described. This pathway describes system III, which is found in the mitochondria of fungi, vertebrates, invertebrates, and sme protozoa. &lt;b&gt;About This Pathway&lt;/b&gt; The first indication for the existence of the system II pathway was the discovery that the &lt;i&gt;ccsA&lt;/i&gt; gene (named for cytochrome &lt;i&gt;c&lt;/i&gt; synthesis) in chloroplasts contains a WWD domain (a tryptophan-rich domain that is known to maintain a heme molecule in the reduced state by two external histidines) that is different from that found in the bacterial CcmF genes of system I |CITS: [1310666]|. The gene was later shown to be required for cytochrome &lt;i&gt;f&lt;/i&gt; biosynthesis (cytochrome &lt;i&gt;f&lt;/i&gt;, a part of the cytochrome &lt;i&gt;b&lt;/i&gt;&lt;sub&gt;6&lt;/sub&gt;&lt;i&gt;f&lt;/i&gt; complex, is analogous to cytochrome &lt;i&gt;c&lt;/i&gt;&lt;sub&gt;1&lt;/sub&gt; of the &lt;i&gt;bc&lt;/i&gt;&lt;sub&gt;1&lt;/sub&gt; complex and contains the CXXCH motif), and led to the discovery of the rest of the involved genes |CITS: [8617725][ 9395519][9504916]|. Analogous genes were discovered in the Gram-positive bacterium |FRAME: TAX-1423| |CITS: [9068642][9226261][10844653]| and the &amp;beta;-proteobacterium |FRAME: TAX-520| |CITS: [11069671][11881892][15937156]|. The system is now known to operate in a wide range of organisms, including chloroplasts, Gram-positive bacteria, cyanobacteria, most &amp;beta;-proteobacteria, some &amp;delta;-proteobacteria, and all &amp;epsilon;-proteobacteria |CITS: [19721088]|. In organisms that utilize system II the apocytochrome polypeptide, upon translocation from the cytosol, is exposed to the activity of |FRAME: EC-1.8.4.15|, which forms a disulfide bridge between the two cysteines in the CXXCH motif. This bridge must be reduced before the heme molecule can be attached to the polypeptide. System II uses reducing equivalents from inside the cell (likely thioredoxin) to reduce the cysteine residues. Dedicated thioredoxin-related proteins called ResA (in |FRAME: TAX-1423|) and CcsX (in |FRAME: TAX-520|) can reduce the cysteines directly |CITS: [11069671][12637552][15667290]|. These proteins are kept in their reduced active form by the DsbD protein, or by the similar, smaller protein CcdA |CITS: [9068642][9226261][11844773]|. The other components of system II are the CcsA and CcsB proteins, which form a tight complex with the activity of |FRAME: EC-4.4.1.17|. In a few bacterial species (such as |FRAME: TAX-209|, |FRAME: TAX-816|, and |FRAME: TAX-843|) the two proteins are fused into one large ORF called CcsBA. The two proteins are membrane-bound. CcsA, which has either eight or six transmembrane domains |CITS: [9560218][12427766][17706591]|, contains the WWD domain that binds the heme molecule, as well as conserved histidine residues that are believed to help keep the heme iron in its reduced form. The reduced heme molecule moves from the cytosol through CcsA until it reaches the WWD domain, where it is liganded in place. CcsB has four transmembrane domains, with the third and fourth separated by a large periplasmic domain that includes the apocytochrome &lt;i&gt;c&lt;/i&gt; CXXCH recognition function. CcsB thus recruites the apocytochrome polypeptide and presents it to the heme bound to CcsA |CITS: [30563894]|.</Description>
+  <Authors>
+    <Author name="AU4FS-4" />
+    <Author name="SRI" />
+    <Author name="caspi" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-8146" />
+  <Property key="Type_1" value="Cytochrome-C-Biogenesis" />
+  <Property key="Type_2" value="Protein-Modification" />
+  <Property key="ReactionCount" value="3" />
+  <Property key="ReactionIDs" value="RXN-21406, RXN-21403, HOLOCYTOCHROME-C-SYNTHASE-RXN" />
+  <Property key="PredecessorCount" value="2" />
+  <Property key="PrimaryCompoundCount" value="3" />
+  <Property key="PathwayLinks" value="(PROTOHEME HEME-BIOSYNTHESIS-II)" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_10647174" />
+  <CitationRef elementRef="citation_PUB_1310666" />
+  <CitationRef elementRef="citation_PUB_19721088" />
+  <CitationRef elementRef="citation_PUB_30563894" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="AT1G21350" textLabel="AT1G21350" type="GeneProduct">
+      <Xref identifier="AT1G21350" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G21350" />
+      <Property key="Products" value="AT1G21350.5, AT1G21350.4, AT1G21350.3, AT1G21350.1" />
+      <Property key="ProductCount" value="4" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT1G21350" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT1G21350.5" textLabel="AT1G21350.5" type="Protein">
+      <Xref identifier="AT1G21350.5" dataSource="plantcyc" />
+      <Graphics centerX="150" centerY="215" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G21350.5" />
+      <Property key="Catalyzes" value="RXN-32562" />
+      <Property key="Accession1" value="AT1G21350.5" />
+      <Property key="Gene" value="AT1G21350" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="Cytochromes-c" textLabel="Cytochromes-c" type="Metabolite">
+      <Xref identifier="Cytochromes-c" dataSource="" />
+      <Graphics centerX="200" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="Oxidized-ResA-Proteins" textLabel="Oxidized-ResA-Proteins" type="Metabolite">
+      <Xref identifier="Oxidized-ResA-Proteins" dataSource="" />
+      <Graphics centerX="350" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="Apocytochromes-c-Disulfide" textLabel="Apocytochromes-c-Disulfide" type="Metabolite">
+      <Xref identifier="Apocytochromes-c-Disulfide" dataSource="" />
+      <Graphics centerX="500" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="Red-Thioredoxin" textLabel="Red-Thioredoxin" type="Metabolite">
+      <Xref identifier="Red-Thioredoxin" dataSource="" />
+      <Graphics centerX="200" centerY="500" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="Reduced-ResA-Proteins" textLabel="Reduced-ResA-Proteins" type="Metabolite">
+      <Xref identifier="Reduced-ResA-Proteins" dataSource="" />
+      <Graphics centerX="350" centerY="500" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="PROTOHEME" textLabel="protoheme" type="Metabolite">
+      <Xref identifier="KABFMIBPWCXCRK-RGGAHWMASA-J" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="500" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>&apos;Heme&apos; is usually understood as any tetrapyrrolic chelate of iron. The terms &apos;ferroheme&apos; and &apos;ferriheme&apos; refer to the Fe(II) and Fe(III) oxidation states in heme (even though Fe(IV) is found as a catalytic intermediate in some systems). |FRAME: Heme-b &quot;Heme &lt;i&gt;b&lt;/i&gt;&quot;|, whose |FRAME: PROTOHEME &quot;ferrous form&quot;| is known as protoheme IX, is the immediate product of the heme biosynthesis pathways (by ferro-chelation of |FRAME: PROTOPORPHYRIN_IX|) and the most abundant heme form. It is found in common proteins such as hemoglobin and myoglobin. Heme &lt;i&gt;b&lt;/i&gt; is part of |FRAME: Cytochromes-B &quot;&lt;i&gt;b&lt;/i&gt;-type cytochromes&quot;|.</Comment>
+      <Property key="UniqueID" value="PROTOHEME" />
+      <Property key="AlternativeId_Metanetx" value="MNXM249" />
+      <Property key="AlternativeId_Refmet" value="Heme" />
+      <Property key="AlternativeId_Bigg" value="pheme" />
+      <Property key="Synonym_1" value="protoheme IX" />
+      <Property key="Synonym_2" value="ferroprotoporphyrin IX" />
+      <Property key="Synonym_3" value="ferroheme &lt;i&gt;b&lt;/i&gt;" />
+      <Property key="ChemicalFormula" value="(C 34) (H 30) (N 4) (O 4) (FE 1)" />
+      <Property key="AtomCharges" value="(43 -2), (41 -1), (39 -1), (37 1), (36 1)" />
+      <Property key="Gibbs0" value="313.88535" />
+      <Property key="Inchi" value="InChI=1S/C34H34N4O4.Fe/c1-7-21-17(3)25-13-26-19(5)23(9-11-33(39)40)31(37-26)16-32-24(10-12-34(41)42)20(6)28(38-32)15-30-22(8-2)18(4)27(36-30)14-29(21)35-25;/h7-8,13-16H,1-2,9-12H2,3-6H3,(H4,35,36,37,38,39,40,41,42);/q;+2/p-4/b25-13-,26-13-,27-14-,28-15-,29-14-,30-15-,31-16-,32-16-;" />
+      <Property key="InchiKey" value="InChIKey=KABFMIBPWCXCRK-RGGAHWMASA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="614.482" />
+      <Property key="MonoisotopicMw" value="618.1929477006001" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C=CC4(\C(/C)=C5(\C=C6(C(/C)=C(CCC(=O)[O-])/C7(\C=C8(C(/CCC(=O)[O-])=C(C)/C1(/N([Fe-2]3(N(C(/C=C2(C(/C)=C(C=C)/C(\C=1)=[N+]2/3))=4)5)([N+]/6=7))8))))))" />
+      <CitationRef elementRef="citation_PUB_19564403" />
+    </DataNode>
+    <DataNode elementId="Apocytochromes-c" textLabel="Apocytochromes-c" type="Metabolite">
+      <Xref identifier="Apocytochromes-c" dataSource="" />
+      <Graphics centerX="200" centerY="600" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="Ox-Thioredoxin" textLabel="Ox-Thioredoxin" type="Metabolite">
+      <Xref identifier="Ox-Thioredoxin" dataSource="" />
+      <Graphics centerX="350" centerY="600" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="AT1G21350" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="215" elementRef="AT1G21350.5" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-21406">
+      <Xref identifier="RXN-21406" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-21406_start" x="245.0" y="500" elementRef="Red-Thioredoxin" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-21406_end" arrowHead="Conversion" x="305.0" y="500" elementRef="Reduced-ResA-Proteins" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-21406_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-21406" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-8146" />
+      <Property key="ReactionEquation" value="Reduced-ResA-Proteins + Ox-Thioredoxin =&gt; Oxidized-ResA-Proteins + Red-Thioredoxin" />
+      <Property key="ReactionDirection" value="PHYSIOL-RIGHT-TO-LEFT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionType" value="Membrane-Protein-Modification-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (24 25 29 30 31 32 33 35 36 37 38 39 40 41 45 46 42 28 27 44 34 26 43 47 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23) (((&quot;Oxidized-ResA-Proteins&quot; 0 23) (&quot;Red-Thioredoxin&quot; 24 47)) ((&quot;Ox-Thioredoxin&quot; 0 23) (&quot;Reduced-ResA-Proteins&quot; 24 47))))" />
+      <Property key="Gibbs0" value="0." />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^compartment" value="CCO-CYTOSOL, CCO-CYTOSOL, CCO-CYTOSOL, CCO-CYTOSOL" />
+    </Interaction>
+    <Interaction elementId="RXN-21406_anchor_reactant_0">
+      <Xref identifier="RXN-21406" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-21406_anchor_reactant_start_0" x="395.0" y="500" elementRef="Reduced-ResA-Proteins" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-21406_anchor_reactant_end_0" x="0" y="0" elementRef="RXN-21406_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-21406_anchor_reactant_1">
+      <Xref identifier="RXN-21406" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-21406_anchor_reactant_start_1" x="395.0" y="600" elementRef="Ox-Thioredoxin" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-21406_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-21406_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-21406_anchor_product_0">
+      <Xref identifier="RXN-21406" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-21406_anchor_product_start_0" x="0" y="0" elementRef="RXN-21406_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-21406_anchor_product_end_0" arrowHead="Conversion" x="305.0" y="400" elementRef="Oxidized-ResA-Proteins" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-21406_anchor_product_1">
+      <Xref identifier="RXN-21406" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-21406_anchor_product_start_1" x="0" y="0" elementRef="RXN-21406_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-21406_anchor_product_end_1" arrowHead="Conversion" x="155.0" y="500" elementRef="Red-Thioredoxin" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-21403">
+      <Xref identifier="RXN-21403" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-21403_start" x="545.0" y="400" elementRef="Apocytochromes-c-Disulfide" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-21403_end" arrowHead="Conversion" x="155.0" y="600" elementRef="Apocytochromes-c" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-21403_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-21403" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-8146" />
+      <Property key="ReactionEquation" value="Apocytochromes-c + Oxidized-ResA-Proteins =&gt; Apocytochromes-c-Disulfide + Reduced-ResA-Proteins" />
+      <Property key="ReactionDirection" value="PHYSIOL-RIGHT-TO-LEFT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXNQT-32562" />
+      <Property key="ReactionType" value="Protein-Modification-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58) (((&quot;Reduced-ResA-Proteins&quot; 0 23) (&quot;Apocytochromes-c-Disulfide&quot; 24 58)) ((&quot;Oxidized-ResA-Proteins&quot; 0 23) (&quot;Apocytochromes-c&quot; 24 58))))" />
+      <Property key="Gibbs0" value="1.525878900000e-5" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-21403_ENZRXNQT-32562">
+      <Waypoints>
+        <Point elementId="RXN-21403_ENZRXNQT-32562_start" x="150" y="227.5" elementRef="AT1G21350.5" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-21403_ENZRXNQT-32562_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-21403_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-21403_anchor_reactant_0">
+      <Xref identifier="RXN-21403" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-21403_anchor_reactant_start_0" x="245.0" y="600" elementRef="Apocytochromes-c" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-21403_anchor_reactant_end_0" x="0" y="0" elementRef="RXN-21403_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-21403_anchor_reactant_1">
+      <Xref identifier="RXN-21403" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-21403_anchor_reactant_start_1" x="395.0" y="400" elementRef="Oxidized-ResA-Proteins" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-21403_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-21403_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-21403_anchor_product_0">
+      <Xref identifier="RXN-21403" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-21403_anchor_product_start_0" x="0" y="0" elementRef="RXN-21403_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-21403_anchor_product_end_0" arrowHead="Conversion" x="455.0" y="400" elementRef="Apocytochromes-c-Disulfide" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-21403_anchor_product_1">
+      <Xref identifier="RXN-21403" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-21403_anchor_product_start_1" x="0" y="0" elementRef="RXN-21403_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-21403_anchor_product_end_1" arrowHead="Conversion" x="305.0" y="500" elementRef="Reduced-ResA-Proteins" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="HOLOCYTOCHROME-C-SYNTHASE-RXN">
+      <Xref identifier="EC-4.4.1.17" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="HOLOCYTOCHROME-C-SYNTHASE-RXN_start" x="545.0" y="500" elementRef="PROTOHEME" relX="1.0" relY="0.0" />
+        <Point elementId="HOLOCYTOCHROME-C-SYNTHASE-RXN_end" arrowHead="Conversion" x="155.0" y="400" elementRef="Cytochromes-c" relX="-1.0" relY="0.0" />
+        <Anchor elementId="HOLOCYTOCHROME-C-SYNTHASE-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="HOLOCYTOCHROME-C-SYNTHASE-RXN" />
+      <Property key="EC_Number" value="EC-4.4.1.17" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-8146" />
+      <Property key="ReactionEquation" value="Cytochromes-c =&gt; PROTOHEME + Apocytochromes-c" />
+      <Property key="ReactionDirection" value="PHYSIOL-RIGHT-TO-LEFT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionType" value="Protein-Modification-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (39 40 37 38 35 36 43 44 45 46 0 47 49 48 50 1 2 3 4 5 6 53 54 51 52 41 42 7 57 58 8 60 62 59 61 65 66 64 63 9 10 11 12 67 68 55 56 13 14 15 16 17 18 19 20 71 72 69 70 21 22 23 24 73 74 75 76 25 26 27 28 29 30 77 31 32 33 34) (((&quot;Apocytochromes-c&quot; 0 34) (&quot;PROTOHEME&quot; 35 77)) ((&quot;Cytochromes-c&quot; 0 77))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="315.95358" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="HOLOCYTOCHROME-C-SYNTHASE-RXN_anchor_reactant_0">
+      <Xref identifier="EC-4.4.1.17" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="HOLOCYTOCHROME-C-SYNTHASE-RXN_anchor_reactant_start_0" x="245.0" y="400" elementRef="Cytochromes-c" relX="1.0" relY="0.0" />
+        <Point elementId="HOLOCYTOCHROME-C-SYNTHASE-RXN_anchor_reactant_end_0" x="0" y="0" elementRef="HOLOCYTOCHROME-C-SYNTHASE-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="HOLOCYTOCHROME-C-SYNTHASE-RXN_anchor_product_0">
+      <Xref identifier="EC-4.4.1.17" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="HOLOCYTOCHROME-C-SYNTHASE-RXN_anchor_product_start_0" x="0" y="0" elementRef="HOLOCYTOCHROME-C-SYNTHASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="HOLOCYTOCHROME-C-SYNTHASE-RXN_anchor_product_end_0" arrowHead="Conversion" x="455.0" y="500" elementRef="PROTOHEME" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="HOLOCYTOCHROME-C-SYNTHASE-RXN_anchor_product_1">
+      <Xref identifier="EC-4.4.1.17" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="HOLOCYTOCHROME-C-SYNTHASE-RXN_anchor_product_start_1" x="0" y="0" elementRef="HOLOCYTOCHROME-C-SYNTHASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="HOLOCYTOCHROME-C-SYNTHASE-RXN_anchor_product_end_1" arrowHead="Conversion" x="155.0" y="600" elementRef="Apocytochromes-c" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_30563894">
+      <Xref identifier="30563894" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_19721088">
+      <Xref identifier="19721088" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_10647174">
+      <Xref identifier="10647174" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_19564403">
+      <Xref identifier="19564403" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_1310666">
+      <Xref identifier="1310666" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

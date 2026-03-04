@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="lipoate--GcvH protein ligase" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Description>Single reaction view for RXN0-1141: lipoate--GcvH protein ligase</Description>
+  <Authors>
+    <Author name="BioCyc" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from BioCyc single reaction data.</Comment>
+  <Property key="UniqueID" value="RXN0-1141" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="Gcv-H" textLabel="[glycine cleavage system lipoyl-carrier protein]-L-lysine" type="Metabolite">
+      <Xref identifier="MNXM97327" dataSource="MetaNetX" />
+      <Graphics centerX="200" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="Gcv-H" />
+      <Property key="AlternativeId_Seed" value="cpd27144" />
+      <Property key="AlternativeId_Metanetx" value="MNXM97327" />
+      <Property key="AbbrevName" value="lysine within gcv protein H" />
+      <Property key="AtomCharges" value="(7 1)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/C6H14N2O/c7-4-2-1-3-6(8)5-9/h5-6H,1-4,7-8H2/p+1/t6-/m0/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C([NH3+])CCC[C@@H](C(=O)[a glycine-cleavage complex H protein])N[a glycine-cleavage complex H protein]" />
+    </DataNode>
+    <DataNode elementId="PPI" textLabel="pyrophosphate" type="Metabolite">
+      <Xref identifier="XPPKVPWEQAFLFU-UHFFFAOYSA-K" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PPI" />
+      <Property key="AlternativeId_Chebi" value="33019" />
+      <Property key="AlternativeId_Pubchem" value="4097574" />
+      <Property key="AlternativeId_Bigg" value="ppi" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC33019" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00250" />
+      <Property key="AlternativeId_Drugbank" value="DB04160" />
+      <Property key="AlternativeId_Chemspider" value="996" />
+      <Property key="AlternativeId_LigandCpd" value="C00013" />
+      <Property key="AlternativeId_Cas" value="2466-09-3" />
+      <Property key="Synonym_1" value="PPi" />
+      <Property key="Synonym_2" value="PP" />
+      <Property key="Synonym_3" value="pyrophosphate" />
+      <Property key="ChemicalFormula" value="(H 1) (O 7) (P 2)" />
+      <Property key="AtomCharges" value="(3 -1), (5 -1), (4 -1)" />
+      <Property key="Gibbs0" value="-473.4674" />
+      <Property key="Inchi" value="InChI=1S/H4O7P2/c1-8(2,3)7-9(4,5)6/h(H2,1,2,3)(H2,4,5,6)/p-3" />
+      <Property key="InchiKey" value="InChIKey=XPPKVPWEQAFLFU-UHFFFAOYSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="174.951" />
+      <Property key="MonoisotopicMw" value="177.9432255031" />
+      <Property key="NonStandardInchi" value="InChI=1S/H4O7P2/c1-8(2,3)7-9(4,5)6/h(H2,1,2,3)(H2,4,5,6)/p-3" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG0-8724, REG0-8365, REG0-7537, REG0-8912, REG-9488, REG0-8483, REG-8030, REG-9450, REG-11188, REG-12877, REG0-8756, REG-13025, REG-8675, REG-5995, REG0-7229, REG-13335, REG0-8467, REGQT-331" />
+      <Property key="Smiles" value="O=P(O)(OP([O-])([O-])=O)[O-]" />
+      <CitationRef elementRef="citation_PUB_18493048" />
+    </DataNode>
+    <DataNode elementId="PROTEIN-LIPOYLLYSINE" textLabel="a [glycine-cleavage complex H protein] N⁶-[(R)-lipoyl]-L-lysine" type="Metabolite">
+      <Xref identifier="MNXM7712" dataSource="MetaNetX" />
+      <Graphics centerX="500" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>|FRAME: LIPOIC-ACID &quot;Lipoate&quot;| is an organosulfur compound that is used as an essential cofactor by many enzyme complexes. The functional group of lipoate is a ditholane ring, which is a cyclic disulfide. The enzyme complexes that require lipoate have a dedicated |FRAME: Lipoyl-Protein &quot;lipoyl domain&quot;|, and lipoate is actually produced on this domain. The precursor |FRAME: CPD-195| molecule is first attached to a specific |FRAME: LYS| residue within the lipoyl domain (producing |FRAME: Octanoylated-domains|), and is then converted to lipoate by the enzyme |FRAME: EC-2.8.1.8|, resulting in |FRAME: Lipoyl-Protein-N6-lipoyllysine|. |FRAME: CPLX0-782 &quot;Lipoate synthase&quot;| not only catalyzes the reaction, but is also the source of the two sulfur atoms (see several pathway variants under |FRAME: Lipoate-Biosynthesis|).</Comment>
+      <Property key="UniqueID" value="PROTEIN-LIPOYLLYSINE" />
+      <Property key="AlternativeId_Seed" value="cpd27820" />
+      <Property key="AlternativeId_Metanetx" value="MNXM7712" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/C14H26N2O2S2/c15-12(11-17)5-3-4-9-16-14(18)7-2-1-6-13-8-10-19-20-13/h11-13H,1-10,15H2,(H,16,18)/t12-,13-/m0/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C(NC(=O)CCCC[C@@H]1(SSCC1))CCC[C@@H](C(=O)[a glycine-cleavage complex H protein])N[a glycine-cleavage complex H protein]" />
+    </DataNode>
+    <DataNode elementId="AMP" textLabel="AMP" type="Metabolite">
+      <Xref identifier="UDMBCSSLTHHNCD-KQYNXXCUSA-L" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="310" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AMP" />
+      <Property key="AlternativeId_Zinc" value="ZINC000003860156" />
+      <Property key="AlternativeId_Refmet" value="AMP" />
+      <Property key="AlternativeId_Bigg" value="amp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC456215" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00045" />
+      <Property key="AlternativeId_Chemspider" value="10239183" />
+      <Property key="AlternativeId_Chebi" value="456215" />
+      <Property key="AlternativeId_Pubchem" value="15938965" />
+      <Property key="AlternativeId_LigandCpd" value="C00020" />
+      <Property key="AlternativeId_Cas" value="61-19-8" />
+      <Property key="AlternativeId_Nci" value="20264" />
+      <Property key="Synonym_1" value="5&apos;-AMP" />
+      <Property key="Synonym_2" value="adenosine-monophosphate" />
+      <Property key="Synonym_3" value="adenylic acid" />
+      <Property key="Synonym_4" value="adenosine 5&apos;-phosphate" />
+      <Property key="Synonym_5" value="adenosine 5&apos;-monophosphate" />
+      <Property key="Synonym_6" value="adenylate" />
+      <Property key="Synonym_7" value="5&apos;-adenylic acid" />
+      <Property key="Synonym_8" value="5&apos;-adenosine monophosphate" />
+      <Property key="Synonym_9" value="adenine ribotide" />
+      <Property key="ChemicalFormula" value="(C 10) (H 12) (N 5) (O 7) (P 1)" />
+      <Property key="AtomCharges" value="(20 -1), (19 -1)" />
+      <Property key="Gibbs0" value="-135.89479" />
+      <Property key="Inchi" value="InChI=1S/C10H14N5O7P/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(22-10)1-21-23(18,19)20/h2-4,6-7,10,16-17H,1H2,(H2,11,12,13)(H2,18,19,20)/p-2/t4-,6-,7-,10-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=UDMBCSSLTHHNCD-KQYNXXCUSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="345.208" />
+      <Property key="MonoisotopicMw" value="347.0630843401" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-15683, REG0-8911, REG0-8379, REG-6551, REG-11597, REG0-8398, REG-14416, REG-14425, REG-8449, REG0-8757, REG-10983, REG-6593, REG0-7230, REG-8538, REG0-8812, REG0-8901, REGQT-445, REGQT-444, REGQT-443, REGQT-437" />
+      <Property key="Smiles" value="C(OP(=O)([O-])[O-])[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3)" />
+    </DataNode>
+    <DataNode elementId="LIPOIC-ACID" textLabel="(R)-lipoate" type="Metabolite">
+      <Xref identifier="AGBQKNBQESQNJD-SSDOTTSWSA-M" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="310" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>|FRAME: LIPOIC-ACID &quot;Lipoate&quot;| is an organosulfur compound that is used as an essential cofactor by several important enzyme complexes. The functional group of lipoate is a ditholane ring, which is a cyclic disulfide. The enzyme complexes that require lipoate have a dedicated lipoyl domain, and lipoate is actually produced on this domain. The precursor |FRAME: CPD-195| molecule is first attached to a specific |FRAME: LYS| residue within the lipoyl domain, and is then converted to lipoate by |FRAME: EC-2.8.1.8|, which is also the source of the two sulfur atoms. Lipoate can be detached from the enzyme complex by |FRAME: EC-3.5.1.138|, and be re-attached to the complex by |FRAME: EC-6.3.1.20|. Enzyme known to require lipate include |FRAME: EC-1.2.1.105|, |FRAME: EC-1.2.1.104|, |FRAME: EC-1.4.1.27|, |FRAME: EC-1.2.1.25|, and |FRAME: EC-2.3.1.190|.</Comment>
+      <Property key="UniqueID" value="LIPOIC-ACID" />
+      <Property key="AlternativeId_Zinc" value="ZINC000001544807" />
+      <Property key="AlternativeId_Mediadb" value="compounds/671/" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1484" />
+      <Property key="AlternativeId_Refmet" value="Lipoic acid" />
+      <Property key="AlternativeId_Chebi" value="83088" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC30313" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01451" />
+      <Property key="AlternativeId_Chemspider" value="841" />
+      <Property key="AlternativeId_Pubchem" value="1549144" />
+      <Property key="AlternativeId_LigandCpd" value="C16241" />
+      <Property key="AlternativeId_Cas" value="62-46-4" />
+      <Property key="Synonym_1" value="&amp;alpha;-liponic acid" />
+      <Property key="Synonym_2" value="5-(1,2-dithiolan-3-yl)-pentanoate" />
+      <Property key="Synonym_3" value="lipoic acid" />
+      <Property key="Synonym_4" value="6,8-thioctic acid" />
+      <Property key="Synonym_5" value="6,8-thioctate" />
+      <Property key="Synonym_6" value="D-thioctic acid" />
+      <Property key="Synonym_7" value="D-thioctate" />
+      <Property key="ChemicalFormula" value="(C 8) (H 13) (O 2) (S 2)" />
+      <Property key="AtomCharges" value="(9 -1)" />
+      <Property key="Gibbs0" value="69.232506" />
+      <Property key="Inchi" value="InChI=1S/C8H14O2S2/c9-8(10)4-2-1-3-7-5-6-11-12-7/h7H,1-6H2,(H,9,10)/p-1/t7-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=AGBQKNBQESQNJD-SSDOTTSWSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="205.309" />
+      <Property key="MonoisotopicMw" value="206.0435210736" />
+      <Property key="NonStandardInchi" value="InChI=1S/C8H14O2S2/c9-8(10)4-2-1-3-7-5-6-11-12-7/h7H,1-6H2,(H,9,10)/p-1/t7-/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C(CCC(=O)[O-])C[C@@H]1(CCSS1)" />
+      <Property key="SystematicName" value="1,2-dithiolane-3-pentanoic acid" />
+    </DataNode>
+    <DataNode elementId="PROTON" textLabel="H⁺" type="Metabolite">
+      <Xref identifier="GPRLSGONYQIRFK-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="310" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PROTON" />
+      <Property key="AlternativeId_Bigg" value="h" />
+      <Property key="AlternativeId_Seed" value="cpd00067" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1" />
+      <Property key="AlternativeId_Hmdb" value="HMDB59597" />
+      <Property key="AlternativeId_Chemspider" value="1010" />
+      <Property key="AlternativeId_Pubchem" value="1038" />
+      <Property key="AlternativeId_Chebi" value="15378" />
+      <Property key="AlternativeId_Cas" value="12408-02-5" />
+      <Property key="AlternativeId_LigandCpd" value="C00080" />
+      <Property key="Synonym_1" value="H" />
+      <Property key="Synonym_2" value="hydrogen ion" />
+      <Property key="Synonym_3" value="proton" />
+      <Property key="ChemicalFormula" value="(H 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="0.42906138" />
+      <Property key="Inchi" value="InChI=1S/p+1" />
+      <Property key="InchiKey" value="InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1.008" />
+      <Property key="MonoisotopicMw" value="1.0078250321" />
+      <Property key="NonStandardInchi" value="InChI=1S/p+1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="[H+]" />
+    </DataNode>
+    <DataNode elementId="ATP" textLabel="ATP" type="Metabolite">
+      <Xref identifier="ZKHQWZAMYRWXGA-KQYNXXCUSA-J" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="410" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ATP" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004261765" />
+      <Property key="AlternativeId_Mediadb" value="compounds/2/" />
+      <Property key="AlternativeId_Seed" value="cpd00002" />
+      <Property key="AlternativeId_Metanetx" value="MNXM3" />
+      <Property key="AlternativeId_Refmet" value="ATP" />
+      <Property key="AlternativeId_Bigg" value="atp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC30616" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00538" />
+      <Property key="AlternativeId_Chemspider" value="4574455" />
+      <Property key="AlternativeId_Chebi" value="30616" />
+      <Property key="AlternativeId_Pubchem" value="5461108" />
+      <Property key="AlternativeId_LigandCpd" value="C00002" />
+      <Property key="AlternativeId_Cas" value="56-65-5" />
+      <Property key="Synonym_1" value="adenylpyrophosphate" />
+      <Property key="Synonym_2" value="adenosine-triphosphate" />
+      <Property key="Synonym_3" value="adenosine-5&apos;-triphosphate" />
+      <Property key="ChemicalFormula" value="(C 10) (H 12) (N 5) (O 13) (P 3)" />
+      <Property key="AtomCharges" value="(20 -1), (19 -1), (24 -1), (22 -1)" />
+      <Property key="Gibbs0" value="-553.6995" />
+      <Property key="Inchi" value="InChI=1S/C10H16N5O13P3/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(26-10)1-25-30(21,22)28-31(23,24)27-29(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H,23,24)(H2,11,12,13)(H2,18,19,20)/p-4/t4-,6-,7-,10-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=ZKHQWZAMYRWXGA-KQYNXXCUSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="503.152" />
+      <Property key="MonoisotopicMw" value="506.99574515689994" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG0-12909, REG-14488, REG0-7200, REG-15264, REG-8066, REG0-8732, REG0-6781, REG0-7497, REG0-7707, REG-13176, REG0-12215, REG-6554, REG-11599, REG-5951, REG-5950, REG-8022, REG0-7674, REG-6229, REG0-7802, REG-14419, REG-14422, REG0-8749, REG-10985, REG-12901, REG-12890, REG0-10640, REG-12493, REG0-6737, REGQT-558, REGQT-554, REGQT-551, REGQT-545, REG-9857, REG0-7801, REGQT-466, REGQT-446, REGQT-439, REGQT-388" />
+      <Property key="Smiles" value="C(OP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3)" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="RXN0-1141">
+      <Xref identifier="EC-6.3.1.20" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN0-1141_start" x="245.0" y="210" elementRef="Gcv-H" relX="1.0" relY="0.0" />
+        <Point elementId="RXN0-1141_end" arrowHead="Conversion" x="155.0" y="310" elementRef="AMP" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN0-1141_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN0-1141" />
+      <Property key="ReactionName" value="lipoate--GcvH protein ligase" />
+      <Property key="EC_Number" value="EC-6.3.1.20" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="ReactionEquation" value="Gcv-H + ATP + LIPOIC-ACID =&gt; AMP + PPI + PROTEIN-LIPOYLLYSINE + PROTON" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Composite-Reactions, Protein-Modification-Reactions" />
+      <Property key="AtomMappings" value=":CURATED, (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 20 21 27 24 25 29 42 43 31 32 33 44 45 46 34 47 35 36 48 49 38 37 39 51 52 53 40 41 22 23 50 18 19 17 26 30 28) (((&quot;ATP&quot; 0 30) (&quot;Gcv-H&quot; 31 41) (&quot;LIPOIC-ACID&quot; 42 53)) ((&quot;AMP&quot; 0 22) (&quot;PROTEIN-LIPOYLLYSINE&quot; 23 44) (&quot;PPI&quot; 45 53))))" />
+      <Property key="Gibbs0" value="-130.98404" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="ReactionList" value="RXN-8654, RXN-13039" />
+    </Interaction>
+    <Interaction elementId="RXN0-1141_anchor_reactant_1">
+      <Xref identifier="EC-6.3.1.20" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN0-1141_anchor_reactant_start_1" x="245.0" y="410" elementRef="ATP" relX="1.0" relY="0.0" />
+        <Point elementId="RXN0-1141_anchor_reactant_end_1" x="0" y="0" elementRef="RXN0-1141_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN0-1141_anchor_reactant_2">
+      <Xref identifier="EC-6.3.1.20" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN0-1141_anchor_reactant_start_2" x="395.0" y="310" elementRef="LIPOIC-ACID" relX="1.0" relY="0.0" />
+        <Point elementId="RXN0-1141_anchor_reactant_end_2" x="0" y="0" elementRef="RXN0-1141_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN0-1141_anchor_product_1">
+      <Xref identifier="EC-6.3.1.20" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN0-1141_anchor_product_start_1" x="0" y="0" elementRef="RXN0-1141_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN0-1141_anchor_product_end_1" arrowHead="Conversion" x="305.0" y="210" elementRef="PPI" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN0-1141_anchor_product_2">
+      <Xref identifier="EC-6.3.1.20" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN0-1141_anchor_product_start_2" x="0" y="0" elementRef="RXN0-1141_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN0-1141_anchor_product_end_2" arrowHead="Conversion" x="455.0" y="210" elementRef="PROTEIN-LIPOYLLYSINE" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN0-1141_anchor_product_3">
+      <Xref identifier="EC-6.3.1.20" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN0-1141_anchor_product_start_3" x="0" y="0" elementRef="RXN0-1141_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN0-1141_anchor_product_end_3" arrowHead="Conversion" x="455.0" y="310" elementRef="PROTON" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_18493048">
+      <Xref identifier="18493048" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

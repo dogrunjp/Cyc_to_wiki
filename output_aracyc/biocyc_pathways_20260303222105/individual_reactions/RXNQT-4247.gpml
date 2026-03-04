@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="RXNQT-4247" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Description>Single reaction view for RXNQT-4247: RXNQT-4247</Description>
+  <Authors>
+    <Author name="BioCyc" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from BioCyc single reaction data.</Comment>
+  <Property key="UniqueID" value="RXNQT-4247" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="CPDQT-386" textLabel="14-heptacosanol" type="Metabolite">
+      <Graphics centerX="200" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>This compound has been experimentally verified in Arabidopsis |CITS: [12228482]|.</Comment>
+      <Property key="UniqueID" value="CPDQT-386" />
+      <Property key="ChemicalFormula" value="(C 27) (H 56) (O 1)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="396.739" />
+      <Property key="MonoisotopicMw" value="396.4331164197" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="CCCCCCCCCCCCCC(O)CCCCCCCCCCCCC" />
+      <CitationRef elementRef="citation_PUB_12228482" />
+    </DataNode>
+    <DataNode elementId="CPD-7939" textLabel="heptacosane" type="Metabolite">
+      <Xref identifier="BJQWYEJQWHSSCJ-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-7939" />
+      <Property key="AlternativeId_Zinc" value="ZINC000006920430" />
+      <Property key="AlternativeId_Seed" value="cpd24985" />
+      <Property key="AlternativeId_Metanetx" value="MNXM724799" />
+      <Property key="AlternativeId_Chemspider" value="11146" />
+      <Property key="AlternativeId_Pubchem" value="11636" />
+      <Property key="AlternativeId_Chebi" value="32941" />
+      <Property key="Synonym_1" value="n-heptacosane" />
+      <Property key="ChemicalFormula" value="(C 27) (H 56)" />
+      <Property key="Gibbs0" value="612.06274" />
+      <Property key="Inchi" value="InChI=1S/C27H56/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-26-24-22-20-18-16-14-12-10-8-6-4-2/h3-27H2,1-2H3" />
+      <Property key="InchiKey" value="InChIKey=BJQWYEJQWHSSCJ-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="380.739" />
+      <Property key="MonoisotopicMw" value="380.4382017976" />
+      <Property key="NonStandardInchi" value="InChI=1S/C27H56/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-26-24-22-20-18-16-14-12-10-8-6-4-2/h3-27H2,1-2H3" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="CCCCCCCCCCCCCCCCCCCCCCCCCCC" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="RXNQT-4247">
+      <Xref identifier="RXNQT-4247" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXNQT-4247_start" x="395.0" y="210" elementRef="CPD-7939" relX="1.0" relY="0.0" />
+        <Point elementId="RXNQT-4247_end" arrowHead="Conversion" x="155.0" y="210" elementRef="CPDQT-386" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXNQT-4247_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Comment source="BioCyc">This is a hypothetical reaction created using two compounds and a generic reaction present in the AraCyc database (see |FRAME:RXN-1022|). The model proposed by |CITS: [12228482]| corroborates with this information. The hydroxyl donor for this reaction has not been identified to date.</Comment>
+      <Property key="UniqueID" value="RXNQT-4247" />
+      <Property key="ReactionEquation" value="CPD-7939 =&gt; CPDQT-386" />
+      <Property key="BalanceStatus" value=":UNBALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <CitationRef elementRef="citation_PUB_12228482" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_12228482">
+      <Xref identifier="12228482" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

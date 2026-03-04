@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="RXN-9640" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Description>Single reaction view for RXN-9640: RXN-9640</Description>
+  <Authors>
+    <Author name="BioCyc" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from BioCyc single reaction data.</Comment>
+  <Property key="UniqueID" value="RXN-9640" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="CPD-10273" textLabel="(1E,2S)-2-methylbutanal oxime" type="Metabolite">
+      <Xref identifier="SEWWFHKIKWFJNV-WHEKYOLUSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-10273" />
+      <Property key="AlternativeId_Pubchem" value="12917320" />
+      <Property key="AlternativeId_Zinc" value="ZINC000100084807" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1606" />
+      <Property key="AlternativeId_Chebi" value="134628" />
+      <Property key="AlternativeId_LigandCpd" value="C19491" />
+      <Property key="AlternativeId_Chemspider" value="4515321" />
+      <Property key="ChemicalFormula" value="(C 5) (H 11) (N 1) (O 1)" />
+      <Property key="Gibbs0" value="83.68233" />
+      <Property key="Inchi" value="InChI=1S/C5H11NO/c1-3-5(2)4-6-7/h4-5,7H,3H2,1-2H3/b6-4+/t5-/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=SEWWFHKIKWFJNV-WHEKYOLUSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="101.148" />
+      <Property key="MonoisotopicMw" value="101.0840639804" />
+      <Property key="NonStandardInchi" value="InChI=1S/C5H11NO/c1-3-5(2)4-6-7/h4-5,7H,3H2,1-2H3/b6-4+" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="CC[C@H](C)/C=N/O" />
+      <Property key="SystematicName" value="&lt;i&gt;N&lt;/i&gt;-[(1&lt;i&gt;E&lt;/i&gt;,2&lt;i&gt;S&lt;/i&gt;)-2-methylbutylidene]hydroxylamine" />
+    </DataNode>
+    <DataNode elementId="CPD-10274" textLabel="(1Z,2S)-2-methylbutanal oxime" type="Metabolite">
+      <Xref identifier="SEWWFHKIKWFJNV-YIWIKUPCSA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-10274" />
+      <Property key="AlternativeId_Chebi" value="61136" />
+      <Property key="AlternativeId_Pubchem" value="71448984" />
+      <Property key="AlternativeId_Zinc" value="ZINC000013540375" />
+      <Property key="AlternativeId_Seed" value="cpd22627" />
+      <Property key="AlternativeId_Metanetx" value="MNXM90382" />
+      <Property key="AlternativeId_LigandCpd" value="C20312" />
+      <Property key="AlternativeId_Chemspider" value="4515244" />
+      <Property key="ChemicalFormula" value="(C 5) (H 11) (N 1) (O 1)" />
+      <Property key="Gibbs0" value="83.68233" />
+      <Property key="Inchi" value="InChI=1S/C5H11NO/c1-3-5(2)4-6-7/h4-5,7H,3H2,1-2H3/b6-4-/t5-/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=SEWWFHKIKWFJNV-YIWIKUPCSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="101.148" />
+      <Property key="MonoisotopicMw" value="101.0840639804" />
+      <Property key="NonStandardInchi" value="InChI=1S/C5H11NO/c1-3-5(2)4-6-7/h4-5,7H,3H2,1-2H3/b6-4-" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="CC[C@H](C)\C=N/O" />
+      <Property key="SystematicName" value="&lt;i&gt;N&lt;/i&gt;-[(1&lt;i&gt;Z&lt;/i&gt;,2&lt;i&gt;S&lt;/i&gt;)-2-methylbutylidene]hydroxylamine" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="RXN-9640">
+      <Xref identifier="RXN-9640" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-9640_start" x="245.0" y="210" elementRef="CPD-10273" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-9640_end" arrowHead="Conversion" x="305.0" y="210" elementRef="CPD-10274" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-9640_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-9640" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="RXN-14132" />
+      <Property key="ReactionEquation" value="CPD-10273 =&gt; CPD-10274" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Small-Molecule-Reactions, Chemical-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6) (((CPD-10273 0 6)) ((CPD-10274 0 6))))" />
+      <Property key="Gibbs0" value="0." />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+  </Interactions>
+</Pathway>

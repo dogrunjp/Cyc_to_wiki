@@ -1,0 +1,1901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="starch biosynthesis" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Xref identifier="PWY-622" dataSource="MetaCyc" />
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Arabidopsis thaliana col&lt;/i&gt;: This pathway is on the list of Common Viridiplantae Pathways (CVP) generated for the COMET project, which includes pathways that are thought to be present in all or most Viridiplantae species including algae. All UPP pathways are automatically imported into databases regardless of Pathologic predictions. &lt;A href=&quot;http://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; &lt;b&gt;General Background&lt;/b&gt; Starch and glycogen, megadalton-sized glucose polymers, are the major reservoir of readily available energy and carbon compounds in most living organisms, ranging from archaea, eubacteria and yeasts, up to higher eukaryotes including plants and animals |CITS: [20192737][21185717]|. Only parasites seem to lack enzymes for the metabolism of these compounds |CITS: [12175798]|. The structure of |FRAME: Starch| in higher plants differs from that of its counterpart |FRAME: Glycogens| in animals and bacteria. |FRAME: Starch Starch| is a complex &amp;alpha;-glucan that can be very difficult to adequately describe. |FRAME: Starch Starch| contains at least two different major sub-classes of &amp;alpha;-glucans: |FRAME: Alpha-Amyloses amylose| and |FRAME: CPD-7043|. |FRAME: Alpha-Amyloses Amylose| contains up to several thousand &amp;alpha;-glucosyl units linked almost exclusively in &amp;alpha;(1-&gt;4) linkage with very few branches of &amp;alpha;(1-&gt;6) linkage. |FRAME: CPD-7043 Amylopectin|, on the other hand is a much more branched molecule with many &amp;alpha;(1-&gt;6) linkages and contains up to several million glucosyl residues. At least twelve different types of starch with different branching patterns and chain lengths have been reported |CITS: [ROBYT13]|. To further complicate the situation, |FRAME: Starch starch| can appears in different crystalline and soluble forms which are difficult to define and depict using standard chemical structures. It has been reported that cyanobacteria synthesize glycogen while red algae produce floridean-starch with structure that is intermediate between starch and glycogen, and that green algae accumulate amylopectin-like polysaccharides. However, some cyanobacteria (classified into group 5 by Honda et al |CITS: [10229577]| have distinct &amp;alpha;-polyglucans (which were designated as semi-amylopectin), making them a transition point between glycogen and starch biosynthesis |CITS: [Wing-Ming94][15695453]|. &lt;b&gt;About This Pathway&lt;/b&gt; |FRAME: Starch Starch| is synthesized in plastids, including chloroplasts in photosynthetic tissues and amyloplasts in non-photosynthetic tissues such as seeds, roots, and tubers. Starch synthesized in chloroplasts of photosynthetic tissues is degraded to maltose and glucose during the dark period (see |FRAME: PWY-6724|). These sugars are exported to the cytosol and used in |FRAME: PWY-7238 sucrose synthesis|. Sucrose can be readily transported to non-photosynthetic tissues to support plant growth or for starch synthesis in amyloplasts. The |FRAME: Starch| biosynthesis pathway depicted here includes both chloroplast and amyloplast pathways. The starting point for the chloroplast pathway is fructose-6-phosphate, a product of photosynthetic carbon fixation. The starting point for amyloplast pathway is glucose-1-phosphate, a product of sucrose degradation. Studies from potato, pea, and maize indicate that glucose-6-phosphate, in addition to glucose-1-phosphate, can be imported into the amyloplast and can serve as the starting point for starch biosynthesis |CITS: [10929100]|. The role of plastidial &amp;alpha;-phosphorylase enzymes (|FRAME: RXN-1826 2.4.1.1)| in starch biosynthesis remain controversial and may differ between species |CITS: [23393426][BALL09]|. For example, mutations in the |FRAME: AT3G29320| gene of Arabidopsis have no effect on starch biosynthesis |CITS: 15173560|. Following the initial production of |FRAME: ADP-D-GLUCOSE|, |FRAME:Starch| biosynthesis appears to involve reactions catalyzed by at least three classes of enzymes, i.e. starch synthases, starch branching enzymes and starch debranching enzymes |CITS: [BALL09]|. However, the exact steps involved and the order in which they are required for the formation of different types of starch may differ between species and even between different types of cells within the same species |CITS: [15743447]|. There is also evidence that |FRAME: TAX-3055| might involve an additional enzyme in |FRAME:PWY-622|, namely, a disproportionating enzyme, |FRAME: GIO2-442|. However the corresponding enzyme, |FRAME: AT5G64860-MONOMER DPE1| in Arabidopsis has been shown to play a part in |FRAME: PWY-6427 starch degradation| instead |CITS: [BALL09][23393426]|. Developing a better understanding of starch biosynthesis and its regulation is an active area of research.</Description>
+  <Authors>
+    <Author name="PMN" />
+    <Author name="dreher" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-622" />
+  <Property key="Type" value="GLYCOGEN-BIOSYN" />
+  <Property key="ReactionCount" value="10" />
+  <Property key="ReactionIDs" value="PHOSPHOGLUCMUT-RXN, PGLUCISOM-RXN, RXN-14380, RXN-14378, RXN-14374, RXN-14373, RXN-14371, RXN-14372, GLYCOGENSYN-RXN, GLUC1PADENYLTRANS-RXN" />
+  <Property key="PredecessorCount" value="11" />
+  <Property key="PrimaryCompoundCount" value="7" />
+  <Property key="PathwayLinks" value="(|Starch| PWY-6724), (FRUCTOSE-6P CALVIN-PWY), (G3P CALVIN-PWY)" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_PMNCVP2024" />
+  <CitationRef elementRef="citation__plantbiochemistry97_" />
+  <CitationRef elementRef="citation__10929100_" />
+  <CitationRef elementRef="citation__SMITH95_" />
+  <CitationRef elementRef="citation_PUB_18400487" />
+  <CitationRef elementRef="citation_PUB_BALL09" />
+  <CitationRef elementRef="citation_PUB_23393426" />
+  <CitationRef elementRef="citation_PUB_18815382" />
+  <CitationRef elementRef="citation_PUB_WING_MING94" />
+  <CitationRef elementRef="citation_PUB_11208806" />
+  <CitationRef elementRef="citation_PUB_21185717" />
+  <CitationRef elementRef="citation_PUB_12239416" />
+  <CitationRef elementRef="citation_PUB_12175798" />
+  <CitationRef elementRef="citation_PUB_10229577" />
+  <CitationRef elementRef="citation_PUB_10929100" />
+  <CitationRef elementRef="citation_PUB_15743447" />
+  <Graphics boardWidth="1200" boardHeight="1400" />
+  <DataNodes>
+    <DataNode elementId="AT4G24620" textLabel="PGI1" type="GeneProduct">
+      <Xref identifier="NP_194193" dataSource="Entrez Gene" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G24620" />
+      <Property key="AlternativeId_Tair" value="AT4G24620" />
+      <Property key="AlternativeId_Entrez" value="NP_194193" />
+      <Property key="AlternativeId_String" value="3702.AT4G24620.1" />
+      <Property key="Product" value="AT4G24620-MONOMER" />
+      <Property key="StartPosition" value="12708762" />
+      <Property key="EndPosition" value="12712835" />
+      <Property key="ComponentOf" value="CHROMOSOME-4-3" />
+      <Property key="CentisomePosition" value="68.3817" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-4-3" />
+      <Property key="Accession1" value="AT4G24620" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT2G21590" textLabel="ApL4" type="GeneProduct">
+      <Xref identifier="AT2G21590" dataSource="TAIR gene name" />
+      <Graphics centerX="220" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT2G21590" />
+      <Property key="Product" value="AT2G21590-MONOMER" />
+      <Property key="StartPosition" value="9245562" />
+      <Property key="EndPosition" value="9249520" />
+      <Property key="ComponentOf" value="CHROMOSOME-2-2" />
+      <Property key="CentisomePosition" value="46.91902" />
+      <Property key="GeneType" value="Genes" />
+      <Property key="Operon" value="CHROMOSOME-2-2" />
+      <Property key="Accession1" value="AT2G21590" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT5G65685" textLabel="AT5G65685" type="GeneProduct">
+      <Xref identifier="AT5G65685" dataSource="TAIR gene name" />
+      <Graphics centerX="340" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G65685" />
+      <Property key="Product" value="AT5G65685-MONOMER" />
+      <Property key="StartPosition" value="26290361" />
+      <Property key="EndPosition" value="26293145" />
+      <Property key="ComponentOf" value="CHROMOSOME-5-6" />
+      <Property key="CentisomePosition" value="97.397934" />
+      <Property key="GeneType" value="Genes" />
+      <Property key="Operon" value="CHROMOSOME-5-6" />
+      <Property key="Accession1" value="AT5G65685" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT2G39930" textLabel="AT2G39930" type="GeneProduct">
+      <Xref identifier="O04196" dataSource="uniprot" />
+      <Graphics centerX="460" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT2G39930" />
+      <Property key="AlternativeId_Tair" value="AT2G39930" />
+      <Property key="AlternativeId_Uniprot" value="O04196" />
+      <Property key="Synonym_1" value="ISA1" />
+      <Property key="Product" value="AT2G39930-MONOMER" />
+      <Property key="StartPosition" value="16673101" />
+      <Property key="EndPosition" value="16679572" />
+      <Property key="ComponentOf" value="CHROMOSOME-2-4" />
+      <Property key="CentisomePosition" value="84.612015" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-2-4" />
+      <Property key="Accession1" value="AT2G39930" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT1G27680" textLabel="ApL2" type="GeneProduct">
+      <Xref identifier="AT1G27680" dataSource="TAIR gene name" />
+      <Graphics centerX="580" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G27680" />
+      <Property key="Product" value="AT1G27680-MONOMER" />
+      <Property key="StartPosition" value="9631272" />
+      <Property key="EndPosition" value="9634584" />
+      <Property key="ComponentOf" value="CHROMOSOME-1-2" />
+      <Property key="CentisomePosition" value="31.647915" />
+      <Property key="GeneType" value="Genes" />
+      <Property key="Operon" value="CHROMOSOME-1-2" />
+      <Property key="Accession1" value="AT1G27680" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT5G42740" textLabel="AT5G42740" type="GeneProduct">
+      <Xref identifier="AT5G42740" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G42740" />
+      <Property key="Products" value="AT5G42740.3, AT5G42740.2, AT5G42740.1" />
+      <Property key="ProductCount" value="3" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT5G42740" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT5G17530" textLabel="AT5G17530" type="GeneProduct">
+      <Xref identifier="AT5G17530" dataSource="TAIR gene name" />
+      <Graphics centerX="220" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G17530" />
+      <Property key="Products" value="AT5G17530.7, AT5G17530.6, AT5G17530.5, AT5G17530.4, AT5G17530.3, AT5G17530.2, AT5G17530.1" />
+      <Property key="ProductCount" value="7" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT5G17530" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT5G03650" textLabel="AT5G03650" type="GeneProduct">
+      <Xref identifier="Q9LZS3" dataSource="uniprot" />
+      <Graphics centerX="340" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G03650" />
+      <Property key="AlternativeId_Tair" value="AT5G03650" />
+      <Property key="AlternativeId_Uniprot" value="Q9LZS3" />
+      <Property key="Synonym_1" value="SBE2.2" />
+      <Property key="Product" value="AT5G03650-MONOMER" />
+      <Property key="StartPosition" value="931937" />
+      <Property key="EndPosition" value="937640" />
+      <Property key="ComponentOf" value="CHROMOSOME-5-0" />
+      <Property key="CentisomePosition" value="3.4525485" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-5-0" />
+      <Property key="Accession1" value="AT5G03650" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT1G70820" textLabel="AT1G70820" type="GeneProduct">
+      <Xref identifier="AT1G70820" dataSource="TAIR gene name" />
+      <Graphics centerX="460" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G70820" />
+      <Property key="Products" value="AT1G70820.2, AT1G70820.1" />
+      <Property key="ProductCount" value="2" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT1G70820" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT1G70730" textLabel="AT1G70730" type="GeneProduct">
+      <Xref identifier="AT1G70730" dataSource="TAIR gene name" />
+      <Graphics centerX="580" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G70730" />
+      <Property key="Products" value="AT1G70730.3, AT1G70730.2, AT1G70730.1" />
+      <Property key="ProductCount" value="3" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT1G70730" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT1G05610" textLabel="AT1G05610" type="GeneProduct">
+      <Xref identifier="AT1G05610" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="170" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G05610" />
+      <Property key="Products" value="AT1G05610.2, AT1G05610.1" />
+      <Property key="ProductCount" value="2" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT1G05610" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT3G01180" textLabel="SSII" type="GeneProduct">
+      <Xref identifier="AT3G01180" dataSource="TAIR gene name" />
+      <Graphics centerX="220" centerY="170" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G01180" />
+      <Property key="Synonym_1" value="SS2" />
+      <Property key="Product" value="AT3G01180-MONOMER" />
+      <Property key="StartPosition" value="62252" />
+      <Property key="EndPosition" value="65852" />
+      <Property key="ComponentOf" value="CHROMOSOME-3-0" />
+      <Property key="CentisomePosition" value="0.26523164" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-3-0" />
+      <Property key="Accession1" value="AT3G01180" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT4G39210" textLabel="ApL3" type="GeneProduct">
+      <Xref identifier="AT4G39210" dataSource="TAIR gene name" />
+      <Graphics centerX="340" centerY="170" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G39210" />
+      <Property key="Product" value="AT4G39210-MONOMER" />
+      <Property key="StartPosition" value="18259603" />
+      <Property key="EndPosition" value="18263411" />
+      <Property key="ComponentOf" value="CHROMOSOME-4-4" />
+      <Property key="CentisomePosition" value="98.248924" />
+      <Property key="GeneType" value="Genes" />
+      <Property key="Operon" value="CHROMOSOME-4-4" />
+      <Property key="Accession1" value="AT4G39210" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT1G32900" textLabel="AT1G32900" type="GeneProduct">
+      <Xref identifier="Q9MAQ0" dataSource="uniprot" />
+      <Graphics centerX="460" centerY="170" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G32900" />
+      <Property key="AlternativeId_Tair" value="AT1G32900" />
+      <Property key="AlternativeId_Uniprot" value="Q9MAQ0" />
+      <Property key="Synonym_1" value="GBSS1" />
+      <Property key="Product" value="AT1G32900-MONOMER" />
+      <Property key="StartPosition" value="11920370" />
+      <Property key="EndPosition" value="11923746" />
+      <Property key="ComponentOf" value="CHROMOSOME-1-3" />
+      <Property key="CentisomePosition" value="39.16979" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-1-3" />
+      <Property key="Accession1" value="AT1G32900" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT5G51820" textLabel="PGM" type="GeneProduct">
+      <Xref identifier="AT5G51820" dataSource="TAIR gene name" />
+      <Graphics centerX="580" centerY="170" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G51820" />
+      <Property key="AlternativeId_Tair" value="AT5G51820" />
+      <Property key="AlternativeId_String" value="3702.AT5G51820.1" />
+      <Property key="Product" value="AT5G51820-MONOMER" />
+      <Property key="StartPosition" value="21080594" />
+      <Property key="EndPosition" value="21085283" />
+      <Property key="ComponentOf" value="CHROMOSOME-5-5" />
+      <Property key="CentisomePosition" value="78.097305" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-5-5" />
+      <Property key="Accession1" value="AT5G51820" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT1G11720" textLabel="SSIII" type="GeneProduct">
+      <Xref identifier="AT1G11720" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="230" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G11720" />
+      <Property key="Synonym_1" value="SS3" />
+      <Property key="Product" value="AT1G11720-MONOMER" />
+      <Property key="StartPosition" value="3952511" />
+      <Property key="EndPosition" value="3957044" />
+      <Property key="ComponentOf" value="CHROMOSOME-1-1" />
+      <Property key="CentisomePosition" value="12.987768" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-1-1" />
+      <Property key="Accession1" value="AT1G11720" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT5G24300" textLabel="AT5G24300" type="GeneProduct">
+      <Xref identifier="AT5G24300" dataSource="TAIR gene name" />
+      <Graphics centerX="220" centerY="230" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G24300" />
+      <Property key="AlternativeId_Tair" value="AT5G24300" />
+      <Property key="AlternativeId_Arrayexpress" value="Q9FNF2" />
+      <Property key="AlternativeId_String" value="3702.AT5G24300.1" />
+      <Property key="Synonym_1" value="SS1" />
+      <Property key="Product" value="AT5G24300-MONOMER" />
+      <Property key="StartPosition" value="8266801" />
+      <Property key="EndPosition" value="8271199" />
+      <Property key="ComponentOf" value="CHROMOSOME-5-2" />
+      <Property key="CentisomePosition" value="30.626034" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-5-2" />
+      <Property key="Accession1" value="AT5G24300" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT4G18240" textLabel="SSIV" type="GeneProduct">
+      <Xref identifier="AT4G18240" dataSource="TAIR gene name" />
+      <Graphics centerX="340" centerY="230" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G18240" />
+      <Property key="Synonym_1" value="SS4" />
+      <Property key="Product" value="AT4G18240-MONOMER" />
+      <Property key="StartPosition" value="10082119" />
+      <Property key="EndPosition" value="10087214" />
+      <Property key="ComponentOf" value="CHROMOSOME-4-2" />
+      <Property key="CentisomePosition" value="54.248566" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-4-2" />
+      <Property key="Accession1" value="AT4G18240" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT1G23190" textLabel="AT1G23190" type="GeneProduct">
+      <Xref identifier="AT1G23190" dataSource="TAIR gene name" />
+      <Graphics centerX="460" centerY="230" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G23190" />
+      <Property key="Product" value="AT1G23190.1" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT1G23190" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT1G11720-MONOMER" textLabel="soluble starch synthase III" type="Protein">
+      <Xref identifier="AT1G11720-MONOMER" dataSource="plantcyc" />
+      <Graphics centerX="300" centerY="395" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">SSIII (SS3) is a soluble starch synthase that is required for normal |FRAME: CPD-7043| formation in conjunction with |FRAME: AT3G01180 SSII| |CITS: [18811962][21624979][19666739]|. SSIII appears to have a preference for glucan chains that have more than 25 glucosyl units |CITS: [23393426]|.</Comment>
+      <Property key="UniqueID" value="AT1G11720-MONOMER" />
+      <Property key="Synonym_1" value="SSIII" />
+      <Property key="Synonym_2" value="SS3" />
+      <Property key="Catalyzes" value="RXN-ARA-391" />
+      <Property key="GOTerms" value="GO:0009507, GO:0009570" />
+      <Property key="Accession1" value="AT1G11720.2" />
+      <Property key="FunctionalAssignmentStatus" value=":PROBABLE-ENZYME" />
+      <Property key="Gene" value="AT1G11720" />
+      <Property key="^citations" value="18431481:EV-EXP-IDA:3572316798:dreher, 23393426:EV-IC:3572316811:dreher" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="Locations" value="CCI-CHLOROPLAST-PL, CCI-CHLOR-STR-PL" />
+      <CitationRef elementRef="citation_PUB_23393426" />
+    </DataNode>
+    <DataNode elementId="AT5G17530.7" textLabel="AT5G17530.7" type="Protein">
+      <Xref identifier="AT5G17530.7" dataSource="plantcyc" />
+      <Graphics centerX="450" centerY="395" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G17530.7" />
+      <Property key="Catalyzes" value="RXN-27976, RXN-27975" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="AT5G17530.7" />
+      <Property key="Gene" value="AT5G17530" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT4G18240-MONOMER" textLabel="soluble starch synthase IV" type="Protein">
+      <Xref identifier="AT4G18240-MONOMER" dataSource="plantcyc" />
+      <Graphics centerX="600" centerY="395" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">SSIV (SS4) is a soluble starch synthase that is required for normal |FRAME: CPD-7043| formation |CITS: [19666739][17217470]|. SSIV appears to play a role in starch granule initiation |CITS: [23393426]|.</Comment>
+      <Property key="UniqueID" value="AT4G18240-MONOMER" />
+      <Property key="Catalyzes" value="RXN-T9-295" />
+      <Property key="GOTerms" value="GO:0009507, GO:0009570" />
+      <Property key="Accession1" value="AT4G18240.1" />
+      <Property key="FunctionalAssignmentStatus" value=":PROBABLE-ENZYME" />
+      <Property key="Gene" value="AT4G18240" />
+      <Property key="^citations" value="18431481:EV-EXP-IDA:3572317424:dreher, 23393426:EV-IC:3572317439:dreher" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="Locations" value="CCI-CHLOROPLAST-PL, CCI-CHLOR-STR-PL" />
+      <CitationRef elementRef="citation_PUB_23393426" />
+    </DataNode>
+    <DataNode elementId="AT1G70730.3" textLabel="AT1G70730.3" type="Protein">
+      <Xref identifier="AT1G70730.3" dataSource="plantcyc" />
+      <Graphics centerX="750" centerY="395" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G70730.3" />
+      <Property key="Catalyzes" value="RXN-31671" />
+      <Property key="Accession1" value="AT1G70730.3" />
+      <Property key="Gene" value="AT1G70730" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT1G32900-MONOMER" textLabel="Granule-bound starch synthase 1, chloroplastic/amyloplastic" type="Protein">
+      <Xref identifier="Q9MAQ0" dataSource="uniprot" />
+      <Graphics centerX="150" centerY="475" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">GSSBI is a granule-bound starch synthase I involved in amylose biosynthesis |CITS: [12777053][21624979]|.</Comment>
+      <Property key="UniqueID" value="AT1G32900-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT1G32900.1" />
+      <Property key="AlternativeId_Uniprot" value="Q9MAQ0" />
+      <Property key="Synonym_1" value="AtGBS1" />
+      <Property key="Synonym_2" value="AtGBSS1" />
+      <Property key="Synonym_3" value="Granule-bound starch synthase I" />
+      <Property key="Synonym_4" value="GBSS-I" />
+      <Property key="Catalyzes" value="RXN-33616, RXN-21577" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="AT1G32900.1" />
+      <Property key="FunctionalAssignmentStatus" value=":PROBABLE-ENZYME" />
+      <Property key="Gene" value="AT1G32900" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT5G03650-MONOMER" textLabel="1,4-alpha-glucan-branching enzyme 2-2, chloroplastic/amyloplastic" type="Protein">
+      <Xref identifier="Q9LZS3" dataSource="uniprot" />
+      <Graphics centerX="300" centerY="475" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">BE2 (branching enzyme 2)</Comment>
+      <Property key="UniqueID" value="AT5G03650-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT5G03650.1" />
+      <Property key="AlternativeId_Uniprot" value="Q9LZS3" />
+      <Property key="Synonym_1" value="AtSBE II-2" />
+      <Property key="Synonym_2" value="Branching enzyme 2" />
+      <Property key="Synonym_3" value="AtBE2" />
+      <Property key="Synonym_4" value="Starch-branching enzyme 2-2" />
+      <Property key="Catalyzes" value="RXN-21578, RXN-4018, RXN-4017, RXN-5438" />
+      <Property key="CatalyzesCount" value="4" />
+      <Property key="Accession1" value="AT5G03650.1" />
+      <Property key="Gene" value="AT5G03650" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT2G21590-MONOMER" textLabel="Probable glucose-1-phosphate adenylyltransferase large subunit, chloroplastic" type="Protein">
+      <Xref identifier="AT2G21590-MONOMER" dataSource="plantcyc" />
+      <Graphics centerX="450" centerY="475" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT2G21590-MONOMER" />
+      <Property key="Synonym_1" value="ADP-glucose pyrophosphorylase" />
+      <Property key="Synonym_2" value="ADP-glucose synthase" />
+      <Property key="Synonym_3" value="AGPase S" />
+      <Property key="Synonym_4" value="Alpha-D-glucose-1-phosphate adenyl transferase" />
+      <Property key="Catalyzes" value="RXN-5002" />
+      <Property key="Accession1" value="AT2G21590.1" />
+      <Property key="Gene" value="AT2G21590" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT1G05610.2" textLabel="AT1G05610.2" type="Protein">
+      <Xref identifier="AT1G05610.2" dataSource="plantcyc" />
+      <Graphics centerX="600" centerY="475" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G05610.2" />
+      <Property key="Catalyzes" value="RXN-32959" />
+      <Property key="Accession1" value="AT1G05610.2" />
+      <Property key="Gene" value="AT1G05610" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT1G23190.1" textLabel="AT1G23190.1" type="Protein">
+      <Xref identifier="AT1G23190.1" dataSource="plantcyc" />
+      <Graphics centerX="750" centerY="475" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G23190.1" />
+      <Property key="Catalyzes" value="RXN-32500" />
+      <Property key="Accession1" value="AT1G23190.1" />
+      <Property key="Gene" value="AT1G23190" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT1G27680-MONOMER" textLabel="Glucose-1-phosphate adenylyltransferase large subunit 2, chloroplastic" type="Protein">
+      <Xref identifier="AT1G27680-MONOMER" dataSource="plantcyc" />
+      <Graphics centerX="150" centerY="555" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G27680-MONOMER" />
+      <Property key="Synonym_1" value="ADP-glucose pyrophosphorylase" />
+      <Property key="Synonym_2" value="ADP-glucose synthase" />
+      <Property key="Synonym_3" value="AGPase S" />
+      <Property key="Synonym_4" value="Alpha-D-glucose-1-phosphate adenyl transferase" />
+      <Property key="Catalyzes" value="RXN-4759" />
+      <Property key="Accession1" value="AT1G27680.1" />
+      <Property key="Gene" value="AT1G27680" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT1G70820.2" textLabel="AT1G70820.2" type="Protein">
+      <Xref identifier="AT1G70820.2" dataSource="plantcyc" />
+      <Graphics centerX="300" centerY="555" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G70820.2" />
+      <Property key="Catalyzes" value="RXN-31669, RXN-31668" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="AT1G70820.2" />
+      <Property key="Gene" value="AT1G70820" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT2G39930-MONOMER" textLabel="Isoamylase 1, chloroplastic" type="Protein" groupRef="CPLX-8667">
+      <Xref identifier="O04196" dataSource="uniprot" />
+      <Graphics centerX="450" centerY="555" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">|FRAME: AT2G39930 ISA1| is an isoamylase in the model plant |FRAME: ORG-5993 &lt;i&gt;Arabidopsis thaliana&lt;/i&gt; col|. |FRAME: AT2G39930 ISA1| and |FRAME: AT1G03310 ISA2| appear to play a role in |FRAME: PWY-622 starch biosynthesis| whereas |FRAME: AT4G09020 ISA3| seems to participate in |FRAME: PWY-6724 starch degradation| |CITS: [15743447][16495218]|. &lt;i&gt;isa1&lt;/i&gt; mutants have an altered |FRAME: CPD-7043 amylopectin| structure and an increased level of an abnormal soluble polysaccharide called phytoglycogen |CITS:[15849301][15743447]|.</Comment>
+      <Property key="UniqueID" value="AT2G39930-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT2G39930.1" />
+      <Property key="AlternativeId_Uniprot" value="O04196" />
+      <Property key="Synonym_1" value="AtISA1" />
+      <Property key="Catalyzes" value="RXN-21580, RXN-9815, RXN-ARA-182" />
+      <Property key="CatalyzesCount" value="3" />
+      <Property key="Accession1" value="AT2G39930.1" />
+      <Property key="ComponentOf" value="CPLX-8667" />
+      <Property key="EnzymeNotUsedIn" value="PWY-622" />
+      <Property key="FunctionalAssignmentStatus" value=":AMBIGUOUS" />
+      <Property key="Gene" value="AT2G39930" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT5G65685-MONOMER" textLabel="starch synthase" type="Protein">
+      <Xref identifier="Q8GWC5" dataSource="uniprot" />
+      <Graphics centerX="600" centerY="555" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G65685-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT5G65685.5" />
+      <Property key="AlternativeId_Uniprot" value="Q8GWC5" />
+      <Property key="Synonym_1" value="AT5G65685.5" />
+      <Property key="Catalyzes" value="RXN-ARA-168" />
+      <Property key="Accession1" value="AT5G65685.5" />
+      <Property key="Gene" value="AT5G65685" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT3G01180-MONOMER" textLabel="soluble starch synthase II" type="Protein">
+      <Xref identifier="AT3G01180-MONOMER" dataSource="plantcyc" />
+      <Graphics centerX="750" centerY="555" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">SSII (SS2) is a soluble starch synthase that is required for normal |FRAME: CPD-7043| formation in conjunction with |FRAME: AT1G11720 SSIII| |CITS: [18811962][21624979]|. SSII appears to have a preference for glucan chains with 13-22 glucosyl units |CITS: [23393426]|.</Comment>
+      <Property key="UniqueID" value="AT3G01180-MONOMER" />
+      <Property key="Catalyzes" value="RXN-13724" />
+      <Property key="GOTerms" value="GO:0009570, GO:0009507" />
+      <Property key="Accession1" value="AT3G01180.1" />
+      <Property key="FunctionalAssignmentStatus" value=":PROBABLE-ENZYME" />
+      <Property key="Gene" value="AT3G01180" />
+      <Property key="^citations" value="23393426:EV-IC:3572315639:dreher, 18431481:EV-EXP-IDA:3572315587:dreher" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="Locations" value="CCI-CHLOR-STR-PL, CCI-CHLOROPLAST-PL" />
+      <CitationRef elementRef="citation_PUB_23393426" />
+    </DataNode>
+    <DataNode elementId="AT5G24300-MONOMER" textLabel="Starch synthase 1, chloroplastic/amyloplastic" type="Protein">
+      <Xref identifier="Q9FNF2" dataSource="uniprot" />
+      <Graphics centerX="150" centerY="635" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">SSI (SS1) is a soluble starch synthase involved in the formation of |FRAME: CPD-7043 amylopectin|. It preferentially acts on glucan chains that have 9-10 glucans |CITS: [23393426]|. Analyses of the phenotype of &lt;i&gt;ss1&lt;/i&gt; mutants suggest that this enzyme plays an important role in transient starch biosynthesis in the leaves |CITS: [16045475 ]|.</Comment>
+      <Property key="UniqueID" value="AT5G24300-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT5G24300.1" />
+      <Property key="AlternativeId_Cazy" value="GT5" />
+      <Property key="AlternativeId_Pride" value="Q9FNF2" />
+      <Property key="AlternativeId_Smr" value="Q9FNF2" />
+      <Property key="AlternativeId_Pfam" value="PF08323" />
+      <Property key="AlternativeId_Interpro" value="IPR001296" />
+      <Property key="AlternativeId_Uniprot" value="Q9FNF2" />
+      <Property key="Synonym_1" value="AtSS1" />
+      <Property key="Synonym_2" value="SSS" />
+      <Property key="Synonym_3" value="Soluble starch synthase I" />
+      <Property key="Catalyzes" value="RXN-16347" />
+      <Property key="Accession1" value="AT5G24300.1" />
+      <Property key="FunctionalAssignmentStatus" value=":PROBABLE-ENZYME" />
+      <Property key="Gene" value="AT5G24300" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <CitationRef elementRef="citation_PUB_23393426" />
+    </DataNode>
+    <DataNode elementId="AT1G03310-MONOMER" textLabel="isoamylase non-catalytic subunit" type="Protein" groupRef="CPLX-8667">
+      <Xref identifier="Q8L735" dataSource="uniprot" />
+      <Graphics centerX="345.0" centerY="635" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup, PMN, dreher">|FRAME: AT1G03310 ISA2| is plastidial protein that shows sequence similarity with isoamylases, but, is predicted to act as a non-catalytic subunit of a |FRAME: CPLX-8667 heteromultimeric isoamylase| in the model plant |FRAME: ORG-5993 &lt;i&gt;Arabidopsis thaliana&lt;/i&gt; col| |CITS: [12509527][15743447][23393426]|. |FRAME: AT2G39930 ISA1| and |FRAME: AT1G03310 ISA2| appear to play a role in |FRAME: PWY-622 starch biosynthesis| whereas |FRAME: AT4G09020 ISA3| seems to participate in |FRAME: PWY-6724 starch degradation| |CITS: [15743447][16495218]|. Given its importance in forming a functional isoamylase complex, &lt;i&gt;isa2&lt;/i&gt; mutants have an altered |FRAME: CPD-7043 amylopectin| structure and an increased level of an abnormal soluble polysaccharide called phytoglycogen |CITS:[15849301][15743447]|.</Comment>
+      <Property key="UniqueID" value="AT1G03310-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT1G03310.1" />
+      <Property key="AlternativeId_Smart" value="SM00642" />
+      <Property key="AlternativeId_Interpro" value="IPR014756" />
+      <Property key="AlternativeId_Pfam" value="PF02922" />
+      <Property key="AlternativeId_Smr" value="Q8L735" />
+      <Property key="AlternativeId_Pride" value="Q8L735" />
+      <Property key="AlternativeId_Cazy" value="GH13" />
+      <Property key="AlternativeId_Panther" value="PTHR10357" />
+      <Property key="AlternativeId_Uniprot" value="Q8L735" />
+      <Property key="GOTerms" value="GO:0009507" />
+      <Property key="Accession1" value="AT1G03310.1" />
+      <Property key="ComponentOf" value="CPLX-8667" />
+      <Property key="Gene" value="AT1G03310" />
+      <Property key="^citations" value="18431481:EV-EXP:3572708455:dreher" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="Locations" value="CCI-CHLOROPLAST-PL" />
+      <Property key="MolecularWeightKd" value="99." />
+      <Property key="MolecularWeightSeq" value="99." />
+      <Property key="Species" value="ORG-5993" />
+    </DataNode>
+    <DataNode elementId="AT4G39210-MONOMER" textLabel="Glucose-1-phosphate adenylyltransferase large subunit 3, chloroplastic" type="Protein">
+      <Xref identifier="AT4G39210-MONOMER" dataSource="plantcyc" />
+      <Graphics centerX="450" centerY="635" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G39210-MONOMER" />
+      <Property key="Synonym_1" value="ADP-glucose pyrophosphorylase" />
+      <Property key="Synonym_2" value="ADP-glucose synthase" />
+      <Property key="Synonym_3" value="AGPase S" />
+      <Property key="Synonym_4" value="Alpha-D-glucose-1-phosphate adenyl transferase" />
+      <Property key="Catalyzes" value="RXN-5950" />
+      <Property key="Accession1" value="AT4G39210.1" />
+      <Property key="Gene" value="AT4G39210" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT5G42740.3" textLabel="AT5G42740.3" type="Protein">
+      <Xref identifier="AT5G42740.3" dataSource="plantcyc" />
+      <Graphics centerX="600" centerY="635" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G42740.3" />
+      <Property key="Catalyzes" value="RXN-27595" />
+      <Property key="Accession1" value="AT5G42740.3" />
+      <Property key="Gene" value="AT5G42740" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT5G51820-MONOMER" textLabel="phosphoglucomutase" type="Protein">
+      <Xref identifier="Q9SCY0" dataSource="uniprot" />
+      <Graphics centerX="750" centerY="635" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G51820-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT5G51820.1" />
+      <Property key="AlternativeId_Interpro" value="IPR005841" />
+      <Property key="AlternativeId_Uniprot" value="Q9SCY0" />
+      <Property key="AlternativeId_Smr" value="Q9SCY0" />
+      <Property key="AlternativeId_Prints" value="PR00509" />
+      <Property key="AlternativeId_Pride" value="Q9SCY0" />
+      <Property key="AlternativeId_Pfam" value="PF00408" />
+      <Property key="AlternativeId_Phylomedb" value="Q9SCY0" />
+      <Property key="AlternativeId_Prosite" value="PS00710" />
+      <Property key="Catalyzes" value="RXN-6415" />
+      <Property key="Accession1" value="AT5G51820.1" />
+      <Property key="Gene" value="AT5G51820" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT4G24620-MONOMER" textLabel="glucose-6-phosphate isomerase" type="Protein">
+      <Xref identifier="Q9SB57" dataSource="uniprot" />
+      <Graphics centerX="150" centerY="715" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">An &lt;i&gt;Arabidopsis&lt;/i&gt; mutant (&lt;i&gt;pgi1-1&lt;/i&gt;) with a missense mutation of the &lt;i&gt;PGI1&lt;/i&gt; gene has a reduced plastidic phosphoglucose isomerase (PGI) activity representing only 6.5% of that of the wild-type |CITS:[10806248]|. The mutant is deficient in starch synthesis.</Comment>
+      <Property key="UniqueID" value="AT4G24620-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT4G24620.1" />
+      <Property key="AlternativeId_Panther" value="PTHR11469" />
+      <Property key="AlternativeId_Prints" value="PR00662" />
+      <Property key="AlternativeId_Interpro" value="IPR018189" />
+      <Property key="AlternativeId_Pfam" value="PF00342" />
+      <Property key="AlternativeId_Uniprot" value="Q9SB57" />
+      <Property key="AlternativeId_Phylomedb" value="Q8H103" />
+      <Property key="AlternativeId_Pride" value="Q8H103" />
+      <Property key="AlternativeId_Smr" value="Q8H103" />
+      <Property key="AlternativeId_Prosite" value="PS00174" />
+      <Property key="AlternativeId_Pid" value="NP_194193" />
+      <Property key="Catalyzes" value="RXN-13424" />
+      <Property key="Accession1" value="AT4G24620.1" />
+      <Property key="EnzymeNotUsedIn" value="GLUCONEO-PWY" />
+      <Property key="Gene" value="AT4G24620" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <CitationRef elementRef="citation_PUB_10806248" />
+    </DataNode>
+    <DataNode elementId="FRUCTOSE-6P" textLabel="β-D-fructofuranose 6-phosphate" type="Metabolite">
+      <Xref identifier="BGWGXPAPYGQALX-ARQDHWQXSA-L" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="900" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="FRUCTOSE-6P" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004096690" />
+      <Property key="AlternativeId_Seed" value="cpd19035" />
+      <Property key="AlternativeId_Hmdb" value="HMDB03971" />
+      <Property key="AlternativeId_Metanetx" value="MNXM89621" />
+      <Property key="AlternativeId_LigandCpd" value="C05345" />
+      <Property key="AlternativeId_Bigg" value="f6p" />
+      <Property key="AlternativeId_Chemspider" value="10239172" />
+      <Property key="AlternativeId_Chebi" value="57634" />
+      <Property key="AlternativeId_Pubchem" value="21604863" />
+      <Property key="AlternativeId_Cas" value="643-13-0" />
+      <Property key="Synonym_1" value="D-fructose-6-phosphate" />
+      <Property key="Synonym_2" value="fructose-6P" />
+      <Property key="Synonym_3" value="fructose-6-P" />
+      <Property key="Synonym_4" value="fruc6p" />
+      <Property key="Synonym_5" value="fru-6-P" />
+      <Property key="Synonym_6" value="fructose-6-phosphate" />
+      <Property key="Synonym_7" value="A-D-fructose-6-P" />
+      <Property key="Synonym_8" value="D-fructose-6-P" />
+      <Property key="Synonym_9" value="D-fructose 6-phosphate" />
+      <Property key="Synonym_10" value="D-fructofuranose 6-phosphate" />
+      <Property key="ChemicalFormula" value="(C 6) (H 11) (O 9) (P 1)" />
+      <Property key="AbbrevName" value="F6P" />
+      <Property key="AtomCharges" value="(13 -1), (12 -1)" />
+      <Property key="Gibbs0" value="-317.66592" />
+      <Property key="GroupCoords2d" value="(41 52), (41 41)" />
+      <Property key="Inchi" value="InChI=1S/C6H13O9P/c7-2-6(10)5(9)4(8)3(15-6)1-14-16(11,12)13/h3-5,7-10H,1-2H2,(H2,11,12,13)/p-2/t3-,4-,5+,6-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=BGWGXPAPYGQALX-ARQDHWQXSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="258.121" />
+      <Property key="MonoisotopicMw" value="260.0297185262" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-8025, REG-8047, REG-8040, REG-9920" />
+      <Property key="Smiles" value="C(OP(=O)([O-])[O-])[C@H]1(O[C@@](CO)(O)[C@@H](O)[C@H](O)1)" />
+      <Property key="StructureGroups" value="B-DARA-HEX-2:5_2:KETO, GLYCO-CT-PHOSPHATE" />
+      <Property key="StructureLinks" value="(1 2 O 6 N 1)" />
+    </DataNode>
+    <DataNode elementId="WATER" textLabel="H₂O" type="Metabolite">
+      <Xref identifier="XLYOFNOQVPJJNP-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="900" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="WATER" />
+      <Property key="AlternativeId_Bigg" value="h2o" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15377" />
+      <Property key="AlternativeId_Hmdb" value="HMDB02111" />
+      <Property key="AlternativeId_Chemspider" value="937" />
+      <Property key="AlternativeId_Chebi" value="15377" />
+      <Property key="AlternativeId_Pubchem" value="962" />
+      <Property key="AlternativeId_LigandCpd" value="C00001" />
+      <Property key="AlternativeId_Cas" value="7732-18-5" />
+      <Property key="Synonym_1" value="H20" />
+      <Property key="Synonym_2" value="H&lt;sub&gt;2&lt;/sub&gt;0" />
+      <Property key="Synonym_3" value="H2O" />
+      <Property key="Synonym_4" value="hydrogen oxide" />
+      <Property key="Synonym_5" value="water" />
+      <Property key="ChemicalFormula" value="(H 2) (O 1)" />
+      <Property key="Gibbs0" value="-36.144756" />
+      <Property key="Inchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="InchiKey" value="InChIKey=XLYOFNOQVPJJNP-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="18.015" />
+      <Property key="MonoisotopicMw" value="18.0105646863" />
+      <Property key="NonStandardInchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="O" />
+    </DataNode>
+    <DataNode elementId="GLC-1-P" textLabel="α-D-glucopyranose 1-phosphate" type="Metabolite">
+      <Xref identifier="HXXFSFRBOHSIMQ-VFUOTHLCSA-L" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="900" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="GLC-1-P" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004073375" />
+      <Property key="AlternativeId_Refmet" value="Glucose-1-phosphate" />
+      <Property key="AlternativeId_Bigg" value="g1p" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC58601" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01586" />
+      <Property key="AlternativeId_Chemspider" value="5441206" />
+      <Property key="AlternativeId_Chebi" value="58601" />
+      <Property key="AlternativeId_Pubchem" value="7091266" />
+      <Property key="AlternativeId_Cas" value="59-56-3" />
+      <Property key="Synonym_1" value="glucose 1-phosphate" />
+      <Property key="Synonym_2" value="cori ester" />
+      <Property key="Synonym_3" value="D-glucose 1-phosphate" />
+      <Property key="Synonym_4" value="glucose-1P" />
+      <Property key="Synonym_5" value="&amp;alpha;-glucose-1-phosphate" />
+      <Property key="Synonym_6" value="D-glucose-&amp;alpha;-1-phosphate" />
+      <Property key="Synonym_7" value="&amp;alpha;-D-glucose-1-P" />
+      <Property key="Synonym_8" value="D-glucose-1-phosphate" />
+      <Property key="Synonym_9" value="&amp;alpha;-D-glucose 1-phosphate" />
+      <Property key="ChemicalFormula" value="(C 6) (H 11) (O 9) (P 1)" />
+      <Property key="AtomCharges" value="(12 -1), (11 -1)" />
+      <Property key="Gibbs0" value="-319.04593" />
+      <Property key="GroupCoords2d" value="(41 52), (41 64)" />
+      <Property key="Inchi" value="InChI=1S/C6H13O9P/c7-1-2-3(8)4(9)5(10)6(14-2)15-16(11,12)13/h2-10H,1H2,(H2,11,12,13)/p-2/t2-,3-,4+,5-,6-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=HXXFSFRBOHSIMQ-VFUOTHLCSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="258.121" />
+      <Property key="MonoisotopicMw" value="260.0297185262" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-8027, REG0-7407" />
+      <Property key="Smiles" value="C(O)[C@H]1(O[C@H](OP(=O)([O-])[O-])[C@H](O)[C@@H](O)[C@H](O)1)" />
+      <Property key="StructureGroups" value="A-DGLC-HEX-1:5, GLYCO-CT-PHOSPHATE" />
+      <Property key="StructureLinks" value="(1 2 O 1 N 1)" />
+    </DataNode>
+    <DataNode elementId="D-glucopyranose-6-phosphate" textLabel="D-glucopyranose 6-phosphate" type="Metabolite">
+      <Xref identifier="NBSCHQHZLSJFNQ-GASJEMHNSA-L" dataSource="InChIKey" />
+      <Graphics centerX="650" centerY="900" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="D-glucopyranose-6-phosphate" />
+      <Property key="AlternativeId_Mediadb" value="compounds/90/" />
+      <Property key="AlternativeId_ReactomeCpd" value="1629756" />
+      <Property key="AlternativeId_Metanetx" value="MNXM160" />
+      <Property key="AlternativeId_Chebi" value="4170" />
+      <Property key="AlternativeId_LigandCpd" value="C00092" />
+      <Property key="Synonym_1" value="D-glucopyranose-6-P" />
+      <Property key="ChemicalFormula" value="(C 6) (H 11) (O 9) (P 1)" />
+      <Property key="AtomCharges" value="(12 -1), (11 -1)" />
+      <Property key="FastEquilibratingInstances?" value="T" />
+      <Property key="Gibbs0" value="-319.04593" />
+      <Property key="GroupCoords2d" value="(41 52), (41 41)" />
+      <Property key="Inchi" value="InChI=1S/C6H13O9P/c7-3-2(1-14-16(11,12)13)15-6(10)5(9)4(3)8/h2-10H,1H2,(H2,11,12,13)/p-2/t2-,3-,4+,5-,6?/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=NBSCHQHZLSJFNQ-GASJEMHNSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="258.121" />
+      <Property key="MonoisotopicMw" value="260.0297185262" />
+      <Property key="NonStandardInchi" value="InChI=1S/C6H13O9P/c7-3-2(1-14-16(11,12)13)15-6(10)5(9)4(3)8/h2-10H,1H2,(H2,11,12,13)/p-2/t2-,3-,4+,5-,6?/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C([C@H]1(OC([C@@H]([C@H]([C@@H]1O)O)O)O))OP([O-])([O-])=O" />
+      <Property key="StructureGroups" value="X-DGLC-HEX-1:5, GLYCO-CT-PHOSPHATE" />
+      <Property key="StructureLinks" value="(1 2 O 6 N 1)" />
+    </DataNode>
+    <DataNode elementId="Alpha-Amyloses" textLabel="α-amylose" type="Metabolite">
+      <Xref identifier="MNXM147431" dataSource="MetaNetX" />
+      <Graphics centerX="200" centerY="1000" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>|FRAME: Starch Starch| is a mixture of the two polymeric carbohydrates (polysaccharides) |FRAME: Alpha-Amyloses| and |FRAME: CPD-7043|. |FRAME: Alpha-Amyloses &quot;&amp;alpha;-Amylose&quot;| contains up to several thousand glucosyl units linked almost exclusively in linear &amp;alpha;(1-&gt;4) linkages, with very few branches of &amp;alpha;(1-&gt;6) linkages. In |FRAME: CPD-7043|, on the other hand, branching is common, and occurs approximately every 24-30 glucose units. |FRAME: Alpha-Amyloses &quot;&amp;alpha;-Amylose&quot;| accounts for 30% of starch, while |FRAME: CPD-7043| accounts for the other 70%.</Comment>
+      <Property key="UniqueID" value="Alpha-Amyloses" />
+      <Property key="AlternativeId_Metanetx" value="MNXM147431" />
+      <Property key="Synonym_1" value="an &amp;alpha;-amylose" />
+      <Property key="GroupCoords2d" value="(717 93), (665 93), (613 93), (561 93), (509 93), (457 93), (405 93), (353 93), (301 93), (249 93), (197 93), (145 93), (93 93), (93 41), (41 41), (769 93), (41 93)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/C16H30O10/c1-7-9(2-17)25-12(16(23)13(7)20)6-24-5-8-10(3-18)26-11(4-19)15(22)14(8)21/h7-23H,2-6H2,1H3" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="StructureGroups" value="A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, R2, R1" />
+      <Property key="StructureLinks" value="(1 2 O 4 D 1), (2 3 O 4 D 1), (3 4 O 4 D 1), (4 5 O 4 D 1), (5 6 O 4 D 1), (6 7 O 4 D 1), (7 8 O 4 D 1), (8 9 O 4 D 1), (9 10 O 4 D 1), (10 11 O 4 D 1), (11 12 O 4 D 1), (12 13 O 4 D 1), (12 14 O 6 D 1), (14 15 O 4 D 1), (16 1 N 4 X 1), (13 17 X -1 N 1)" />
+    </DataNode>
+    <DataNode elementId="PPI" textLabel="pyrophosphate" type="Metabolite">
+      <Xref identifier="XPPKVPWEQAFLFU-UHFFFAOYSA-K" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="1000" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PPI" />
+      <Property key="AlternativeId_Chebi" value="33019" />
+      <Property key="AlternativeId_Pubchem" value="4097574" />
+      <Property key="AlternativeId_Bigg" value="ppi" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC33019" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00250" />
+      <Property key="AlternativeId_Drugbank" value="DB04160" />
+      <Property key="AlternativeId_Chemspider" value="996" />
+      <Property key="AlternativeId_LigandCpd" value="C00013" />
+      <Property key="AlternativeId_Cas" value="2466-09-3" />
+      <Property key="Synonym_1" value="PPi" />
+      <Property key="Synonym_2" value="PP" />
+      <Property key="Synonym_3" value="pyrophosphate" />
+      <Property key="ChemicalFormula" value="(H 1) (O 7) (P 2)" />
+      <Property key="AtomCharges" value="(3 -1), (5 -1), (4 -1)" />
+      <Property key="Gibbs0" value="-473.4674" />
+      <Property key="Inchi" value="InChI=1S/H4O7P2/c1-8(2,3)7-9(4,5)6/h(H2,1,2,3)(H2,4,5,6)/p-3" />
+      <Property key="InchiKey" value="InChIKey=XPPKVPWEQAFLFU-UHFFFAOYSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="174.951" />
+      <Property key="MonoisotopicMw" value="177.9432255031" />
+      <Property key="NonStandardInchi" value="InChI=1S/H4O7P2/c1-8(2,3)7-9(4,5)6/h(H2,1,2,3)(H2,4,5,6)/p-3" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG0-8724, REG0-8365, REG0-7537, REG0-8912, REG-9488, REG0-8483, REG-8030, REG-9450, REG-11188, REG-12877, REG0-8756, REG-13025, REG-8675, REG-5995, REG0-7229, REG-13335, REG0-8467, REGQT-331" />
+      <Property key="Smiles" value="O=P(O)(OP([O-])([O-])=O)[O-]" />
+      <CitationRef elementRef="citation_PUB_18493048" />
+    </DataNode>
+    <DataNode elementId="ADP-D-GLUCOSE" textLabel="ADP-α-D-glucose" type="Metabolite">
+      <Xref identifier="WFPZSXYXPSUOPY-ROYWQJLOSA-L" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="1000" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ADP-D-GLUCOSE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000040165520" />
+      <Property key="AlternativeId_Seed" value="cpd00387" />
+      <Property key="AlternativeId_Metanetx" value="MNXM561" />
+      <Property key="AlternativeId_Refmet" value="ADP-glucose" />
+      <Property key="AlternativeId_Bigg" value="adpglc" />
+      <Property key="AlternativeId_Pubchem" value="42609821" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57498" />
+      <Property key="AlternativeId_Hmdb" value="HMDB06557" />
+      <Property key="AlternativeId_Chebi" value="57498" />
+      <Property key="AlternativeId_LigandCpd" value="C00498" />
+      <Property key="AlternativeId_Cas" value="2140-58-1" />
+      <Property key="Synonym_1" value="adenosine diphosphate glucose" />
+      <Property key="Synonym_2" value="ADP-glucose" />
+      <Property key="Synonym_3" value="ADP-D-glucose" />
+      <Property key="Synonym_4" value="adenosine-5&apos;-diphosphoglucose" />
+      <Property key="ChemicalFormula" value="(C 16) (H 23) (N 5) (O 15) (P 2)" />
+      <Property key="AtomCharges" value="(31 -1), (29 -1)" />
+      <Property key="Gibbs0" value="-452.90146" />
+      <Property key="GroupCoords2d" value="(41 41), (93 41)" />
+      <Property key="Inchi" value="InChI=1S/C16H25N5O15P2/c17-13-7-14(19-3-18-13)21(4-20-7)15-11(26)9(24)6(33-15)2-32-37(28,29)36-38(30,31)35-16-12(27)10(25)8(23)5(1-22)34-16/h3-6,8-12,15-16,22-27H,1-2H2,(H,28,29)(H,30,31)(H2,17,18,19)/p-2/t5-,6-,8-,9-,10+,11-,12-,15-,16-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=WFPZSXYXPSUOPY-ROYWQJLOSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="587.33" />
+      <Property key="MonoisotopicMw" value="589.08223818" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C([C@@H]1([C@H]([C@@H]([C@H]([C@H](O1)OP(OP(OC[C@H]4(O[C@@H](N2(C3(\C(\N=C/2)=C(N)/N=C\N=3)))[C@H](O)[C@H](O)4))(=O)[O-])(=O)[O-])O)O)O))O" />
+      <Property key="StructureGroups" value="A-DGLC-HEX-1:5, ADP" />
+      <Property key="StructureLinks" value="(2 1 N -1 X 1)" />
+      <Property key="Superatoms" value="ADP-GROUP" />
+    </DataNode>
+    <DataNode elementId="ADP" textLabel="ADP" type="Metabolite">
+      <Xref identifier="XTWYTFMLZFPYCI-KQYNXXCUSA-K" dataSource="InChIKey" />
+      <Graphics centerX="650" centerY="1000" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ADP" />
+      <Property key="AlternativeId_Zinc" value="ZINC000012360703" />
+      <Property key="AlternativeId_Seed" value="cpd00008" />
+      <Property key="AlternativeId_Metanetx" value="MNXM7" />
+      <Property key="AlternativeId_Refmet" value="ADP" />
+      <Property key="AlternativeId_Bigg" value="adp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC456216" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01341" />
+      <Property key="AlternativeId_Chemspider" value="5414423" />
+      <Property key="AlternativeId_Chebi" value="456216" />
+      <Property key="AlternativeId_Pubchem" value="7058055" />
+      <Property key="AlternativeId_LigandCpd" value="C00008" />
+      <Property key="AlternativeId_Cas" value="58-64-0" />
+      <Property key="Synonym_1" value="adenosine pyrophosphate" />
+      <Property key="Synonym_2" value="adenosine 5&apos;-pyrophosphate" />
+      <Property key="Synonym_3" value="adenosine-5&apos;-diphosphate" />
+      <Property key="Synonym_4" value="adenosine-diphosphate" />
+      <Property key="Synonym_5" value="adenosine-5-diphosphate" />
+      <Property key="ChemicalFormula" value="(C 10) (H 12) (N 5) (O 10) (P 2)" />
+      <Property key="AtomCharges" value="(20 -1), (19 -1), (22 -1)" />
+      <Property key="Gibbs0" value="-344.92508" />
+      <Property key="Inchi" value="InChI=1S/C10H15N5O10P2/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(24-10)1-23-27(21,22)25-26(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H2,11,12,13)(H2,18,19,20)/p-3/t4-,6-,7-,10-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=XTWYTFMLZFPYCI-KQYNXXCUSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="424.18" />
+      <Property key="MonoisotopicMw" value="427.0294147485" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-15215, REG0-8154, REG0-8726, REG0-6887, REG0-8479, REG-6552, REG-11598, REG0-10568, REG-8233, REG-13527, REG-8041, REG-8051, REG0-8748, REG-10984, REG-8119, REG0-8828, REG0-6846, REG-13336, REG-8584, REG-12492, REG-9856, REG-9477, REGQT-440, REGQT-338" />
+      <Property key="Smiles" value="C(OP(=O)([O-])OP(=O)([O-])[O-])[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3)" />
+    </DataNode>
+    <DataNode elementId="Malto-Oligosaccharides" textLabel="a maltooligosaccharide" type="Metabolite">
+      <Xref identifier="17593" dataSource="ChEBI" />
+      <Graphics centerX="200" centerY="1100" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="PMN, zhang">Maltooligosaccharides are glucooligosaccharides derived from D-glucose monomers linked via &amp;alpha;-1,4 bonds as in |FRAME: MALTOSE|. More specifically, the term is applied to linear oligosaccharides composed of more than two and less than ten units of glucose. The corresponding &amp;alpha;-1,6 glucooligosaccharides are called |FRAME: Isomaltooligosaccharides isomaltooligosaccharides|.</Comment>
+      <Property key="UniqueID" value="Malto-Oligosaccharides" />
+      <Property key="AlternativeId_Chebi" value="17593" />
+      <Property key="AlternativeId_Metanetx" value="MNXM61031" />
+      <Property key="Synonym_1" value="a (1&amp;rarr;4)-&amp;alpha;-D-glucooligosaccharide" />
+      <Property key="HasNoStructure?" value="T" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="N+1Name" value="maltooligosaccharide&lt;sub&gt;(n+1)&lt;/sub&gt;" />
+      <Property key="N1Name" value="maltooligosaccharide&lt;sub&gt;(n-1)&lt;/sub&gt;" />
+      <Property key="NName" value="maltooligosaccharide&lt;sub&gt;(n)&lt;/sub&gt;" />
+      <Property key="Osmolarity" value="0" />
+    </DataNode>
+    <DataNode elementId="Starch" textLabel="starch" type="Metabolite">
+      <Xref identifier="28017" dataSource="ChEBI" />
+      <Graphics centerX="350" centerY="1100" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>Starch is a glucose-based polysaccharide produced by plants, green algae, and cyanobacteria. Starch combines two polymeric carbohydrates (polysaccharides) called |FRAME: Alpha-Amyloses &quot;&amp;alpha;-amylose&quot;| and |FRAME: CPD-7043|. |FRAME: Alpha-Amyloses &quot;&amp;alpha;-Amylose&quot;| contains up to several thousand &amp;alpha;-glucosyl units linked almost exclusively in linear &amp;alpha;(1-&gt;4) linkages, with very few branches of &amp;alpha;(1-&gt;6) linkages. In |FRAME: CPD-7043|, on the other hand, branching is common, and occurs approximately every 24-30 glucose monomer units. Amylopectin is one of (if not the) largest biological polymer known and contains from 10&lt;sup&gt;5&lt;/sup&gt;&amp;ndash;10&lt;sup&gt;6&lt;/sup&gt; glucose residues |CITS: [9730163]|. Unlike |FRAME: Glycogens glycogen| molecules, which is limited to ~55,000 glucose units, the starch branched structure leads to clusters of chains that allow for indefinite growth of the polysaccharide. |FRAME: Alpha-Amyloses &quot;&amp;alpha;-Amylose&quot;| accounts for 30% of starch, while |FRAME: CPD-7043| accounts for the other 70%. The dense packing of branches at the root of the clusters generates tightly packed glucan chains that are close enough to align and form parallel double helical structures. The helices within a single cluster and neighbouring clusters align and form sections of crystalline structures separated by sections of amorphous material (containing the branches) thereby generating the semi-crystalline nature of amylopectin and of the ensuing starch granule. The crystallized chains become insoluble and typically collapse into a macrogranular solid that is osmotically inert |CITS: [9730163]|. The enzymes of starch synthesis and mobilization are unable to interact directly with the solid structure, with the exception of |FRAME: EC-2.4.1.242 &quot;granule-bound starch synthase&quot;| |CITS: [14502990]|. The solid semi-crystalline starch and hydrosoluble |FRAME: Glycogens glycogen| define two distinct physical states of the same type of storage polysaccharide. Glycogen is by far the most widespread form of storage, as it is found in Archaea, Bacteria, and Eukaryotes. The appearance of semi-crystalline storage polysaccharides appears linked to the requirement of unicellular diazotrophic cyanobacteria to fuel nitrogenase and protect it from oxygen through respiration of large amounts of stored carbon |CITS: [21220783]|.</Comment>
+      <Property key="UniqueID" value="Starch" />
+      <Property key="AlternativeId_Mediadb" value="compounds/352/" />
+      <Property key="AlternativeId_Chebi" value="28017" />
+      <Property key="AlternativeId_LigandCpd" value="C00369" />
+      <Property key="GroupCoords2d" value="(665 119), (613 119), (561 119), (509 119), (457 119), (405 171), (353 171), (301 171), (249 171), (197 171), (145 197), (93 197), (41 197), (145 145), (93 145), (41 145), (405 67), (353 67), (301 67), (249 67), (197 67), (145 93), (93 93), (41 93), (145 41), (93 41), (41 41), (717 119)" />
+      <Property key="HasNoStructure?" value="T" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="StructureGroups" value="A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, R" />
+      <Property key="StructureLinks" value="(1 2 O 4 D 1), (2 3 O 4 D 1), (3 4 O 4 D 1), (4 5 O 4 D 1), (5 6 O 4 D 1), (6 7 O 4 D 1), (7 8 O 4 D 1), (8 9 O 4 D 1), (9 10 O 4 D 1), (10 11 O 4 D 1), (11 12 O 4 D 1), (12 13 O 4 D 1), (10 14 O 6 D 1), (14 15 O 4 D 1), (15 16 O 4 D 1), (5 17 O 6 D 1), (17 18 O 4 D 1), (18 19 O 4 D 1), (19 20 O 4 D 1), (20 21 O 4 D 1), (21 22 O 4 D 1), (22 23 O 4 D 1), (23 24 O 4 D 1), (21 25 O 6 D 1), (25 26 O 4 D 1), (26 27 O 4 D 1), (28 1 N -1 X 1)" />
+      <CitationRef elementRef="citation_PUB_9730163" />
+      <CitationRef elementRef="citation_PUB_14502990" />
+      <CitationRef elementRef="citation_PUB_21220783" />
+    </DataNode>
+    <DataNode elementId="Alpha-6-alpha-14-glucans" textLabel="a (1,6)-α-D-glucosyl-(1,4)-α-glucan" type="Metabolite">
+      <Xref identifier="MNXM146998" dataSource="MetaNetX" />
+      <Graphics centerX="500" centerY="1100" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="Alpha-6-alpha-14-glucans" />
+      <Property key="AlternativeId_Metanetx" value="MNXM146998" />
+      <Property key="GroupCoords2d" value="(249 93), (197 93), (145 93), (93 93), (197 41), (301 93), (41 93)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="N1Name" value="(1,6)-&amp;alpha;-D-glucosyl-(1,4)-&amp;alpha;-glucan &lt;sub&gt;moderately branched&lt;/sub&gt;" />
+      <Property key="NName" value="a (1,6)-&amp;alpha;-D-glucosyl-(1,4)-&amp;alpha;-glucan &lt;sub&gt;highly branched&lt;/sub&gt;" />
+      <Property key="NonStandardInchi" value="InChI=1S/C30H52O26/c31-1-6-11(35)13(37)19(43)27(50-6)48-5-10-25(17(41)22(46)30(53-10)54-23-8(3-33)49-26(47)18(42)15(23)39)56-29-21(45)16(40)24(9(4-34)52-29)55-28-20(44)14(38)12(36)7(2-32)51-28/h6-47H,1-5H2/t6-,7-,8-,9-,10-,11-,12-,13+,14+,15-,16-,17-,18-,19-,20-,21-,22-,23-,24-,25-,26+,27+,28-,29-,30-/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C(O)[C@H]5(O[C@H](OC[C@H]4(O[C@H](O[C@H]1([C@H](O)[C@@H](O)[C@@H](O[R2])O[C@H](CO)1))[C@H](O)[C@@H](O)[C@H](O[C@H]3(O[C@H](CO)[C@@H](O[C@H]2(O[C@H](CO)[C@@H](O[R1])[C@H](O)[C@@H](O)2))[C@H](O)[C@@H](O)3))4))[C@H](O)[C@@H](O)[C@H](O)5)" />
+      <Property key="StructureGroups" value="A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, R2, R1" />
+      <Property key="StructureLinks" value="(1 2 O 4 D 1), (2 3 O 4 D 1), (3 4 O 4 D 1), (2 5 O 6 D 1), (6 1 N 4 X 1), (4 7 X -1 N 1)" />
+    </DataNode>
+    <DataNode elementId="_1-4-alpha-D-Glucan" textLabel="a (1→4)-α-D-glucan" type="Metabolite">
+      <Xref identifier="28102" dataSource="ChEBI" />
+      <Graphics centerX="650" centerY="1100" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="1-4-alpha-D-Glucan" />
+      <Property key="AlternativeId_Seed" value="cpd21754" />
+      <Property key="AlternativeId_Metanetx" value="MNXM2905" />
+      <Property key="AlternativeId_Chebi" value="28102" />
+      <Property key="AlternativeId_Bigg" value="14glucan" />
+      <Property key="AlternativeId_LigandCpd" value="C00718" />
+      <Property key="Synonym_1" value="a 1,4-&amp;alpha;-D-glucan" />
+      <Property key="GroupCoords2d" value="(249 41), (197 41), (145 41), (93 41), (301 41), (41 41)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="N+1Name" value="(1,4-&amp;alpha;-D-glucosyl)&lt;sub&gt;(n+1)&lt;/sub&gt;" />
+      <Property key="N1Name" value="(1,4-&amp;alpha;-D-glucosyl)&lt;sub&gt;(n-1)&lt;/sub&gt;" />
+      <Property key="NName" value="(1,4-&amp;alpha;-D-glucosyl)&lt;sub&gt;(n)&lt;/sub&gt;" />
+      <Property key="NonStandardInchi" value="InChI=1S/C24H42O21/c25-1-5-9(29)10(30)15(35)22(40-5)44-19-7(3-27)42-24(17(37)12(19)32)45-20-8(4-28)41-23(16(36)13(20)33)43-18-6(2-26)39-21(38)14(34)11(18)31/h5-38H,1-4H2/t5-,6-,7-,8-,9-,10+,11-,12-,13-,14-,15-,16-,17-,18-,19-,20-,21+,22-,23-,24-/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C(O)[C@H]1(O[C@@H]([C@H](O)[C@@H](O)[C@H](O[R1])1)O[C@H]4([C@H](O)[C@@H](O)[C@@H](O[C@H]2([C@H](O)[C@@H](O)[C@H](O[C@H](CO)2)O[C@H]3([C@H](O)[C@@H](O)[C@@H](O[R2])O[C@H](CO)3)))O[C@H](CO)4))" />
+      <Property key="StructureGroups" value="A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, R2, R1" />
+      <Property key="StructureLinks" value="(1 2 O 4 D 1), (2 3 O 4 D 1), (3 4 O 4 D 1), (5 1 N 4 X 1), (4 6 X -1 N 1)" />
+    </DataNode>
+    <DataNode elementId="CPD-7043" textLabel="amylopectin" type="Metabolite">
+      <Xref identifier="439207" dataSource="PubChem-compound" />
+      <Graphics centerX="200" centerY="1200" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="PMN, zhang">|FRAME: Starch Starch| is a mixture of the two polymeric carbohydrates (polysaccharides) |FRAME: Alpha-Amyloses| and |FRAME: CPD-7043|. |FRAME: Alpha-Amyloses &quot;&amp;alpha;-Amylose&quot;| contains up to several thousand glucosyl units linked almost exclusively in linear &amp;alpha;(1-&gt;4) linkages, with very few branches of &amp;alpha;(1-&gt;6) linkages. In |FRAME: CPD-7043|, on the other hand, branching is common, and occurs approximately every 24-30 glucose units. |FRAME: Alpha-Amyloses &quot;&amp;alpha;-Amylose&quot;| accounts for 30% of starch, while |FRAME: CPD-7043| accounts for the other 70%.</Comment>
+      <Property key="UniqueID" value="CPD-7043" />
+      <Property key="AlternativeId_Seed" value="cpd00265" />
+      <Property key="AlternativeId_Metanetx" value="MNXM2803" />
+      <Property key="AlternativeId_Chebi" value="28057" />
+      <Property key="AlternativeId_Hmdb" value="HMDB03255" />
+      <Property key="AlternativeId_Chemspider" value="388347" />
+      <Property key="AlternativeId_Pubchem" value="439207" />
+      <Property key="AlternativeId_LigandCpd" value="C00317" />
+      <Property key="GroupCoords2d" value="(479 151), (427 223), (375 223), (323 223), (271 249), (219 249), (167 249), (115 249), (271 197), (219 197), (167 197), (115 197), (427 80), (375 80), (323 80), (271 119), (219 119), (167 119), (115 145), (63 145), (115 93), (63 93), (271 41), (219 41), (167 41), (115 41), (531 151)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/C36H62O31/c37-1-7-13(42)15(44)22(51)33(59-7)65-28-10(4-40)61-32(24(53)18(28)47)57-6-12-30(20(49)26(55)36(63-12)64-27-9(3-39)58-31(56)21(50)17(27)46)67-35-25(54)19(48)29(11(5-41)62-35)66-34-23(52)16(45)14(43)8(2-38)60-34/h7-56H,1-6H2/t7-,8-,9-,10-,11-,12-,13-,14-,15+,16+,17-,18-,19-,20-,21-,22-,23-,24-,25-,26-,27-,28-,29-,30-,31+,32+,33-,34-,35-,36-/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C(O)[C@@H]6([C@@H](O[R3])[C@H](O)[C@@H](O)[C@@H](O[C@H]5([C@H](O)[C@@H](O)[C@@H](OC[C@@H]2([C@H]([C@H](O)[C@@H](O)[C@@H](O[C@H]1([C@H](O)[C@@H](O)[C@@H](O[R2])O[C@H](CO)1))O2)O[C@H]4(O[C@H](CO)[C@@H](O[C@H]3(O[C@H](CO)[C@@H](O[R1])[C@H](O)[C@@H](O)3))[C@H](O)[C@@H](O)4)))O[C@H](CO)5))O6)" />
+      <Property key="StructureGroups" value="A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, A-DGLC-HEX-1:5, R2" />
+      <Property key="StructureLinks" value="(1 2 O 4 D 1), (2 3 O 4 D 1), (3 4 O 4 D 1), (4 5 O 4 D 1), (5 6 O 4 D 1), (6 7 O 4 D 1), (7 8 O 4 D 1), (4 9 O 6 D 1), (9 10 O 4 D 1), (10 11 O 4 D 1), (11 12 O 4 D 1), (1 13 O 6 D 1), (13 14 O 4 D 1), (14 15 O 4 D 1), (15 16 O 4 D 1), (16 17 O 4 D 1), (17 18 O 4 D 1), (18 19 O 4 D 1), (19 20 O 4 D 1), (18 21 O 6 D 1), (21 22 O 4 D 1), (15 23 O 6 D 1), (23 24 O 4 D 1), (24 25 O 4 D 1), (25 26 O 4 D 1), (27 1 N 4 X 1)" />
+    </DataNode>
+    <DataNode elementId="PROTON" textLabel="H⁺" type="Metabolite">
+      <Xref identifier="GPRLSGONYQIRFK-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="1200" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PROTON" />
+      <Property key="AlternativeId_Bigg" value="h" />
+      <Property key="AlternativeId_Seed" value="cpd00067" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1" />
+      <Property key="AlternativeId_Hmdb" value="HMDB59597" />
+      <Property key="AlternativeId_Chemspider" value="1010" />
+      <Property key="AlternativeId_Pubchem" value="1038" />
+      <Property key="AlternativeId_Chebi" value="15378" />
+      <Property key="AlternativeId_Cas" value="12408-02-5" />
+      <Property key="AlternativeId_LigandCpd" value="C00080" />
+      <Property key="Synonym_1" value="H" />
+      <Property key="Synonym_2" value="hydrogen ion" />
+      <Property key="Synonym_3" value="proton" />
+      <Property key="ChemicalFormula" value="(H 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="0.42906138" />
+      <Property key="Inchi" value="InChI=1S/p+1" />
+      <Property key="InchiKey" value="InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1.008" />
+      <Property key="MonoisotopicMw" value="1.0078250321" />
+      <Property key="NonStandardInchi" value="InChI=1S/p+1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="[H+]" />
+    </DataNode>
+    <DataNode elementId="ATP" textLabel="ATP" type="Metabolite">
+      <Xref identifier="ZKHQWZAMYRWXGA-KQYNXXCUSA-J" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="1200" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ATP" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004261765" />
+      <Property key="AlternativeId_Mediadb" value="compounds/2/" />
+      <Property key="AlternativeId_Seed" value="cpd00002" />
+      <Property key="AlternativeId_Metanetx" value="MNXM3" />
+      <Property key="AlternativeId_Refmet" value="ATP" />
+      <Property key="AlternativeId_Bigg" value="atp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC30616" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00538" />
+      <Property key="AlternativeId_Chemspider" value="4574455" />
+      <Property key="AlternativeId_Chebi" value="30616" />
+      <Property key="AlternativeId_Pubchem" value="5461108" />
+      <Property key="AlternativeId_LigandCpd" value="C00002" />
+      <Property key="AlternativeId_Cas" value="56-65-5" />
+      <Property key="Synonym_1" value="adenylpyrophosphate" />
+      <Property key="Synonym_2" value="adenosine-triphosphate" />
+      <Property key="Synonym_3" value="adenosine-5&apos;-triphosphate" />
+      <Property key="ChemicalFormula" value="(C 10) (H 12) (N 5) (O 13) (P 3)" />
+      <Property key="AtomCharges" value="(20 -1), (19 -1), (24 -1), (22 -1)" />
+      <Property key="Gibbs0" value="-553.6995" />
+      <Property key="Inchi" value="InChI=1S/C10H16N5O13P3/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(26-10)1-25-30(21,22)28-31(23,24)27-29(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H,23,24)(H2,11,12,13)(H2,18,19,20)/p-4/t4-,6-,7-,10-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=ZKHQWZAMYRWXGA-KQYNXXCUSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="503.152" />
+      <Property key="MonoisotopicMw" value="506.99574515689994" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG0-12909, REG-14488, REG0-7200, REG-15264, REG-8066, REG0-8732, REG0-6781, REG0-7497, REG0-7707, REG-13176, REG0-12215, REG-6554, REG-11599, REG-5951, REG-5950, REG-8022, REG0-7674, REG-6229, REG0-7802, REG-14419, REG-14422, REG0-8749, REG-10985, REG-12901, REG-12890, REG0-10640, REG-12493, REG0-6737, REGQT-558, REGQT-554, REGQT-551, REGQT-545, REG-9857, REG0-7801, REGQT-466, REGQT-446, REGQT-439, REGQT-388" />
+      <Property key="Smiles" value="C(OP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3)" />
+    </DataNode>
+    <DataNode elementId="ALPHA-GLC-6-P" textLabel="α-D-glucose 6-phosphate" type="Metabolite">
+      <Xref identifier="NBSCHQHZLSJFNQ-DVKNGEFBSA-L" dataSource="InChIKey" />
+      <Graphics centerX="650" centerY="1200" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ALPHA-GLC-6-P" />
+      <Property key="AlternativeId_Zinc" value="ZINC000003875375" />
+      <Property key="AlternativeId_Seed" value="cpd19006" />
+      <Property key="AlternativeId_Metanetx" value="MNXM215" />
+      <Property key="AlternativeId_Chemspider" value="10239175" />
+      <Property key="AlternativeId_Chebi" value="58225" />
+      <Property key="AlternativeId_Pubchem" value="21604864" />
+      <Property key="AlternativeId_LigandCpd" value="C00668" />
+      <Property key="Synonym_1" value="&amp;alpha;-glucose 6-phosphate" />
+      <Property key="Synonym_2" value="&amp;alpha;-D-glucose-6-P" />
+      <Property key="ChemicalFormula" value="(C 6) (H 11) (O 9) (P 1)" />
+      <Property key="AtomCharges" value="(13 -1), (12 -1)" />
+      <Property key="Gibbs0" value="-319.04593" />
+      <Property key="Inchi" value="InChI=1S/C6H13O9P/c7-3-2(1-14-16(11,12)13)15-6(10)5(9)4(3)8/h2-10H,1H2,(H2,11,12,13)/p-2/t2-,3-,4+,5-,6+/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=NBSCHQHZLSJFNQ-DVKNGEFBSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="258.121" />
+      <Property key="MonoisotopicMw" value="260.0297185262" />
+      <Property key="NonStandardInchi" value="InChI=1S/C6H13O9P/c7-3-2(1-14-16(11,12)13)15-6(10)5(9)4(3)8/h2-10H,1H2,(H2,11,12,13)/p-2/t2-,3-,4+,5-,6+/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C(OP(=O)([O-])[O-])[C@H]1(O[C@H](O)[C@H](O)[C@@H](O)[C@H](O)1)" />
+    </DataNode>
+    <DataNode elementId="G3P" textLabel="3-phospho-D-glycerate" type="Metabolite">
+      <Xref identifier="OSJPPGNTCRNQQC-UWTATZPHSA-K" dataSource="InChIKey" />
+      <Graphics centerX="350.0" centerY="900.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="G3P" />
+      <Property key="AlternativeId_Zinc" value="ZINC000003869934" />
+      <Property key="AlternativeId_Seed" value="cpd00169" />
+      <Property key="AlternativeId_Metanetx" value="MNXM126" />
+      <Property key="AlternativeId_Refmet" value="3-Phosphoglyceric acid" />
+      <Property key="AlternativeId_Bigg" value="3pg" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC58272" />
+      <Property key="AlternativeId_Hmdb" value="HMDB60180" />
+      <Property key="AlternativeId_Chebi" value="58272" />
+      <Property key="AlternativeId_Pubchem" value="25245548" />
+      <Property key="AlternativeId_LigandCpd" value="C00197" />
+      <Property key="AlternativeId_Cas" value="820-11-1" />
+      <Property key="Synonym_1" value="3-phospho-(R)-glycerate" />
+      <Property key="Synonym_2" value="3-phospho-D-glyceric acid" />
+      <Property key="Synonym_3" value="3-P-D-glycerate" />
+      <Property key="Synonym_4" value="D-glycerate-3-P" />
+      <Property key="Synonym_5" value="D-glycerate 3-phosphate" />
+      <Property key="Synonym_6" value="3-phosphoglycerate" />
+      <Property key="Synonym_7" value="D-3-phosphoglycerate" />
+      <Property key="Synonym_8" value="D-3-Phospho-glyceric acid" />
+      <Property key="ChemicalFormula" value="(C 3) (H 4) (O 7) (P 1)" />
+      <Property key="AtomCharges" value="(9 -1), (8 -1), (6 -1)" />
+      <Property key="Gibbs0" value="-331.1141" />
+      <Property key="Inchi" value="InChI=1S/C3H7O7P/c4-2(3(5)6)1-10-11(7,8)9/h2,4H,1H2,(H,5,6)(H2,7,8,9)/p-3/t2-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=OSJPPGNTCRNQQC-UWTATZPHSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="183.034" />
+      <Property key="MonoisotopicMw" value="185.9929390894" />
+      <Property key="NonStandardInchi" value="InChI=1S/C3H7O7P/c4-2(3(5)6)1-10-11(7,8)9/h2,4H,1H2,(H,5,6)(H2,7,8,9)/p-3/t2-/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-9603, REG-8535, REG-14243, REG-14245, REG-8018, REGQT-361" />
+      <Property key="Smiles" value="C(OP(=O)([O-])[O-])[C@@H](O)C(=O)[O-]" />
+    </DataNode>
+    <DataNode elementId="Pi" textLabel="phosphate" type="Metabolite">
+      <Xref identifier="NBIIXXVUZAFLBC-UHFFFAOYSA-L" dataSource="InChIKey" />
+      <Graphics centerX="350.0" centerY="900.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>The most abundant form of the phosphate ion at pH 7.3 is hydrogenphosphate. To simplify the presentation of reactions taking place at physiological pH, MetaCyc does not distinguish between the two forms, and uses the name &quot;phosphate&quot; even though the structure shown is that of hydrogenphosphate.</Comment>
+      <Property key="UniqueID" value="Pi" />
+      <Property key="AlternativeId_Refmet" value="Phosphoric acid" />
+      <Property key="AlternativeId_Bigg" value="pi" />
+      <Property key="AlternativeId_Pubchem" value="3681305" />
+      <Property key="AlternativeId_Chebi" value="43474" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC43474" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00973" />
+      <Property key="AlternativeId_Knapsack" value="C00007408" />
+      <Property key="AlternativeId_Cas" value="14265-44-2" />
+      <Property key="Synonym_1" value="inorganic phosphate" />
+      <Property key="Synonym_2" value="phosphate-inorganic" />
+      <Property key="Synonym_3" value="Pi" />
+      <Property key="Synonym_4" value="orthophosphate" />
+      <Property key="Synonym_5" value="PO&lt;SUB&gt;4&lt;/SUB&gt;&lt;SUP&gt;3-&lt;/SUP&gt;" />
+      <Property key="Synonym_6" value="HPO&lt;SUB&gt;4&lt;/SUB&gt;&lt;SUP&gt;2-&lt;/SUP&gt;" />
+      <Property key="Synonym_7" value="HPO&lt;SUB&gt;4&lt;/SUB&gt;&lt;SUP&gt;-2&lt;/SUP&gt;" />
+      <Property key="Synonym_8" value="hydrogenphosphate" />
+      <Property key="ChemicalFormula" value="(H 1) (O 4) (P 1)" />
+      <Property key="AtomCharges" value="(4 -1), (1 -1)" />
+      <Property key="ComponentOf" value="CPD-9010" />
+      <Property key="Gibbs0" value="-252.94714" />
+      <Property key="Inchi" value="InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4)/p-2" />
+      <Property key="InchiKey" value="InChIKey=NBIIXXVUZAFLBC-UHFFFAOYSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="InternalsOfGroup" value="GLYCO-CT-PHOSPHATE" />
+      <Property key="MolecularWeight" value="95.979" />
+      <Property key="MonoisotopicMw" value="97.9768950947" />
+      <Property key="NonStandardInchi" value="InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4)/p-2" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG0-11039, REG-9602, REG-8534, REG-14244, REG-11141, REG-9306, REG-10770, REG-6318, REG-12908, REG-12878, REG0-8013, REG-13915, REG-8651, REG-7453, REG0-9498, REG0-9501, REG-10989, REG0-10704, REG0-7210, REG-7170, REG-7182, REG-12892, REG0-10227, REG0-10226, REGQT-360, REGQT-336" />
+      <Property key="Smiles" value="[O-]P(=O)(O)[O-]" />
+      <CitationRef elementRef="citation_PUB_18493048" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="AT4G24620" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="715" elementRef="AT4G24620-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_1_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_1_0_0" x="265.0" y="50" elementRef="AT2G21590" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_1_0_0" arrowHead="TranscriptionTranslation" x="405.0" y="475" elementRef="AT2G21590-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_2_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_2_0_0" x="385.0" y="50" elementRef="AT5G65685" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_2_0_0" arrowHead="TranscriptionTranslation" x="555.0" y="555" elementRef="AT5G65685-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_3_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_3_0_0" x="505.0" y="50" elementRef="AT2G39930" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_3_0_0" arrowHead="TranscriptionTranslation" x="210.0" y="635" elementRef="AT2G39930-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_4_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_4_0_0" x="625.0" y="50" elementRef="AT1G27680" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_4_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="555" elementRef="AT1G27680-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_5_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_5_0_0" x="145.0" y="110" elementRef="AT5G42740" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_5_0_0" arrowHead="TranscriptionTranslation" x="555.0" y="635" elementRef="AT5G42740.3" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_6_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_6_0_0" x="265.0" y="110" elementRef="AT5G17530" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_6_0_0" arrowHead="TranscriptionTranslation" x="405.0" y="395" elementRef="AT5G17530.7" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_7_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_7_0_0" x="385.0" y="110" elementRef="AT5G03650" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_7_0_0" arrowHead="TranscriptionTranslation" x="255.0" y="475" elementRef="AT5G03650-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_8_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_8_0_0" x="505.0" y="110" elementRef="AT1G70820" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_8_0_0" arrowHead="TranscriptionTranslation" x="255.0" y="555" elementRef="AT1G70820.2" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_9_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_9_0_0" x="625.0" y="110" elementRef="AT1G70730" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_9_0_0" arrowHead="TranscriptionTranslation" x="705.0" y="395" elementRef="AT1G70730.3" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_10_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_10_0_0" x="145.0" y="170" elementRef="AT1G05610" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_10_0_0" arrowHead="TranscriptionTranslation" x="555.0" y="475" elementRef="AT1G05610.2" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_11_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_11_0_0" x="265.0" y="170" elementRef="AT3G01180" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_11_0_0" arrowHead="TranscriptionTranslation" x="705.0" y="555" elementRef="AT3G01180-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_12_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_12_0_0" x="385.0" y="170" elementRef="AT4G39210" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_12_0_0" arrowHead="TranscriptionTranslation" x="405.0" y="635" elementRef="AT4G39210-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_13_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_13_0_0" x="505.0" y="170" elementRef="AT1G32900" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_13_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="475" elementRef="AT1G32900-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_14_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_14_0_0" x="625.0" y="170" elementRef="AT5G51820" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_14_0_0" arrowHead="TranscriptionTranslation" x="705.0" y="635" elementRef="AT5G51820-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_15_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_15_0_0" x="145.0" y="230" elementRef="AT1G11720" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_15_0_0" arrowHead="TranscriptionTranslation" x="255.0" y="395" elementRef="AT1G11720-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_16_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_16_0_0" x="265.0" y="230" elementRef="AT5G24300" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_16_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="635" elementRef="AT5G24300-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_17_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_17_0_0" x="385.0" y="230" elementRef="AT4G18240" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_17_0_0" arrowHead="TranscriptionTranslation" x="555.0" y="395" elementRef="AT4G18240-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_18_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_18_0_0" x="505.0" y="230" elementRef="AT1G23190" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_18_0_0" arrowHead="TranscriptionTranslation" x="705.0" y="475" elementRef="AT1G23190.1" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PHOSPHOGLUCMUT-RXN">
+      <Xref identifier="23536" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="PHOSPHOGLUCMUT-RXN_start" x="695.0" y="900" elementRef="D-glucopyranose-6-phosphate" relX="1.0" relY="0.0" />
+        <Point elementId="PHOSPHOGLUCMUT-RXN_end" arrowHead="Conversion" x="455.0" y="900" elementRef="GLC-1-P" relX="-1.0" relY="0.0" />
+        <Anchor elementId="PHOSPHOGLUCMUT-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="AlternativeId_Rhea" value="23536" />
+      <Property key="AlternativeId_Uniprot" value="P36871" />
+      <Property key="AlternativeId_Pir" value="A41801" />
+      <Property key="UniqueID" value="PHOSPHOGLUCMUT-RXN" />
+      <Property key="EC_Number" value="EC-5.4.2.2" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWYQT-4466, PWY-5661, PWY-7343, PWY-7238, PWY-622, PWY-3801, GLUCOSE1PMETAB-PWY, PWY-6317" />
+      <Property key="PathwayCount" value="8" />
+      <Property key="ReactionEquation" value="GLC-1-P &lt;=&gt; D-glucopyranose-6-phosphate" />
+      <Property key="ReactionDirection" value="REVERSIBLE" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNQT-32500, ENZRXNQT-31671, ENZRXNQT-31668, ENZRXNQT-27975, ENZRXNQT-6415" />
+      <Property key="EnzymaticReactionCount" value="5" />
+      <Property key="Synonym_1" value="Glucose phosphomutase" />
+      <Property key="Synonym_2" value="Phosphoglucose mutase" />
+      <Property key="ReactionTypes" value="Composite-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 7 8 9 14 10 11 12 6 13 15) (((&quot;GLC-1-P&quot; 0 15)) ((&quot;D-glucopyranose-6-phosphate&quot; 0 15))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="0." />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="ReactionList" value="RXN-16997, RXN-16998" />
+      <Property key="Synonyms" value="Glucose phosphomutase, Phosphoglucose mutase" />
+    </Interaction>
+    <Interaction elementId="PHOSPHOGLUCMUT-RXN_ENZRXNQT-6415">
+      <Waypoints>
+        <Point elementId="PHOSPHOGLUCMUT-RXN_ENZRXNQT-6415_start" x="750" y="647.5" elementRef="AT5G51820-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="PHOSPHOGLUCMUT-RXN_ENZRXNQT-6415_end" arrowHead="Catalysis" x="0" y="0" elementRef="PHOSPHOGLUCMUT-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PHOSPHOGLUCMUT-RXN_ENZRXNQT-27975">
+      <Waypoints>
+        <Point elementId="PHOSPHOGLUCMUT-RXN_ENZRXNQT-27975_start" x="450" y="407.5" elementRef="AT5G17530.7" relX="0.0" relY="1.0" />
+        <Point elementId="PHOSPHOGLUCMUT-RXN_ENZRXNQT-27975_end" arrowHead="Catalysis" x="0" y="0" elementRef="PHOSPHOGLUCMUT-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PHOSPHOGLUCMUT-RXN_ENZRXNQT-32500">
+      <Waypoints>
+        <Point elementId="PHOSPHOGLUCMUT-RXN_ENZRXNQT-32500_start" x="750" y="487.5" elementRef="AT1G23190.1" relX="0.0" relY="1.0" />
+        <Point elementId="PHOSPHOGLUCMUT-RXN_ENZRXNQT-32500_end" arrowHead="Catalysis" x="0" y="0" elementRef="PHOSPHOGLUCMUT-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PHOSPHOGLUCMUT-RXN_ENZRXNQT-31668">
+      <Waypoints>
+        <Point elementId="PHOSPHOGLUCMUT-RXN_ENZRXNQT-31668_start" x="300" y="567.5" elementRef="AT1G70820.2" relX="0.0" relY="1.0" />
+        <Point elementId="PHOSPHOGLUCMUT-RXN_ENZRXNQT-31668_end" arrowHead="Catalysis" x="0" y="0" elementRef="PHOSPHOGLUCMUT-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PHOSPHOGLUCMUT-RXN_ENZRXNQT-31671">
+      <Waypoints>
+        <Point elementId="PHOSPHOGLUCMUT-RXN_ENZRXNQT-31671_start" x="750" y="407.5" elementRef="AT1G70730.3" relX="0.0" relY="1.0" />
+        <Point elementId="PHOSPHOGLUCMUT-RXN_ENZRXNQT-31671_end" arrowHead="Catalysis" x="0" y="0" elementRef="PHOSPHOGLUCMUT-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PHOSPHOGLUCMUT-RXN_anchor_reactant_0">
+      <Xref identifier="23536" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="PHOSPHOGLUCMUT-RXN_anchor_reactant_start_0" x="545.0" y="900" elementRef="GLC-1-P" relX="1.0" relY="0.0" />
+        <Point elementId="PHOSPHOGLUCMUT-RXN_anchor_reactant_end_0" x="0" y="0" elementRef="PHOSPHOGLUCMUT-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PHOSPHOGLUCMUT-RXN_anchor_product_0">
+      <Xref identifier="23536" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="PHOSPHOGLUCMUT-RXN_anchor_product_start_0" x="0" y="0" elementRef="PHOSPHOGLUCMUT-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="PHOSPHOGLUCMUT-RXN_anchor_product_end_0" arrowHead="Conversion" x="605.0" y="900" elementRef="D-glucopyranose-6-phosphate" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PGLUCISOM-RXN">
+      <Xref identifier="11816" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="PGLUCISOM-RXN_start" x="245.0" y="900" elementRef="FRUCTOSE-6P" relX="1.0" relY="0.0" />
+        <Point elementId="PGLUCISOM-RXN_end" arrowHead="Conversion" x="605.0" y="1200" elementRef="ALPHA-GLC-6-P" relX="-1.0" relY="0.0" />
+        <Anchor elementId="PGLUCISOM-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="AlternativeId_Uniprot" value="P06744" />
+      <Property key="AlternativeId_Rhea" value="11816" />
+      <Property key="AlternativeId_Pir" value="A35333" />
+      <Property key="UniqueID" value="PGLUCISOM-RXN" />
+      <Property key="EC_Number" value="EC-5.3.1.9" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="SUCSYN-PWY, GLYCOLYSIS, UDPNACETYLGALSYN-PWY, PWY-7238, PWY-622, GLUCONEO-PWY, PWY-3801, PWY-621, PWY-5659" />
+      <Property key="PathwayCount" value="9" />
+      <Property key="ReactionEquation" value="ALPHA-GLC-6-P &lt;=&gt; FRUCTOSE-6P" />
+      <Property key="ReactionDirection" value="REVERSIBLE" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNQT-27595, ENZRXN-13424" />
+      <Property key="EnzymaticReactionCount" value="2" />
+      <Property key="Synonym_1" value="Phosphoglucose isomerase" />
+      <Property key="Synonym_2" value="Phosphohexose isomerase" />
+      <Property key="Synonym_3" value="Phosphohexomutase" />
+      <Property key="Synonym_4" value="Oxoisomerase" />
+      <Property key="Synonym_5" value="Hexosephosphate isomerase" />
+      <Property key="Synonym_6" value="Phosphosaccharomutase" />
+      <Property key="Synonym_7" value="Phosphoglucoisomerase" />
+      <Property key="Synonym_8" value="Phosphohexoisomerase" />
+      <Property key="Synonym_9" value="Hexose monophosphate isomerase" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 2 3 4 5 1 7 8 9 6 10 12 11 13 14 15) (((&quot;FRUCTOSE-6P&quot; 0 15)) ((&quot;ALPHA-GLC-6-P&quot; 0 15))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="1.3800049" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="Synonyms" value="Phosphoglucose isomerase, Phosphohexose isomerase, Phosphohexomutase, Oxoisomerase, Hexosephosphate isomerase, Phosphosaccharomutase, Phosphoglucoisomerase, Phosphohexoisomerase, Hexose monophosphate isomerase" />
+    </Interaction>
+    <Interaction elementId="PGLUCISOM-RXN_ENZRXNQT-27595">
+      <Waypoints>
+        <Point elementId="PGLUCISOM-RXN_ENZRXNQT-27595_start" x="600" y="647.5" elementRef="AT5G42740.3" relX="0.0" relY="1.0" />
+        <Point elementId="PGLUCISOM-RXN_ENZRXNQT-27595_end" arrowHead="Catalysis" x="0" y="0" elementRef="PGLUCISOM-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PGLUCISOM-RXN_ENZRXN-13424">
+      <Waypoints>
+        <Point elementId="PGLUCISOM-RXN_ENZRXN-13424_start" x="150" y="727.5" elementRef="AT4G24620-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="PGLUCISOM-RXN_ENZRXN-13424_end" arrowHead="Catalysis" x="0" y="0" elementRef="PGLUCISOM-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PGLUCISOM-RXN_anchor_reactant_0">
+      <Xref identifier="11816" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="PGLUCISOM-RXN_anchor_reactant_start_0" x="695.0" y="1200" elementRef="ALPHA-GLC-6-P" relX="1.0" relY="0.0" />
+        <Point elementId="PGLUCISOM-RXN_anchor_reactant_end_0" x="0" y="0" elementRef="PGLUCISOM-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PGLUCISOM-RXN_anchor_product_0">
+      <Xref identifier="11816" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="PGLUCISOM-RXN_anchor_product_start_0" x="0" y="0" elementRef="PGLUCISOM-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="PGLUCISOM-RXN_anchor_product_end_0" arrowHead="Conversion" x="155.0" y="900" elementRef="FRUCTOSE-6P" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-14380">
+      <Xref identifier="EC-3.2.1.68" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-14380_start" x="545.0" y="1100" elementRef="Alpha-6-alpha-14-glucans" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-14380_end" arrowHead="Conversion" x="455.0" y="1100" elementRef="Alpha-6-alpha-14-glucans" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-14380_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-14380" />
+      <Property key="EC_Number" value="EC-3.2.1.68" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-622" />
+      <Property key="ReactionEquation" value="Alpha-6-alpha-14-glucans + WATER =&gt; Malto-Oligosaccharides + Alpha-6-alpha-14-glucans" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":UNBALANCED-UNFIXABLE" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXN-21580, ENZRXN-21581" />
+      <Property key="EnzymaticReactionCount" value="2" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value=":NON-INTEGER-STOICHIOMETRY" />
+      <Property key="CannotBalance?" value="T" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^coefficient" value="n, n, n, n" />
+    </Interaction>
+    <Interaction elementId="RXN-14380_ENZRXN-21581_0">
+      <Waypoints>
+        <Point elementId="RXN-14380_ENZRXN-21581_start_0" x="255.0" y="647.5" elementRef="AT2G39930-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-14380_ENZRXN-21581_end_0" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-14380_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-14380_ENZRXN-21581_1">
+      <Waypoints>
+        <Point elementId="RXN-14380_ENZRXN-21581_start_1" x="345.0" y="647.5" elementRef="AT1G03310-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-14380_ENZRXN-21581_end_1" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-14380_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-14380_ENZRXN-21580">
+      <Waypoints>
+        <Point elementId="RXN-14380_ENZRXN-21580_start" x="255.0" y="647.5" elementRef="AT2G39930-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-14380_ENZRXN-21580_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-14380_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-14380_anchor_reactant_1">
+      <Xref identifier="EC-3.2.1.68" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-14380_anchor_reactant_start_1" x="395.0" y="900" elementRef="WATER" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-14380_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-14380_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-14380_anchor_product_0">
+      <Xref identifier="EC-3.2.1.68" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-14380_anchor_product_start_0" x="0" y="0" elementRef="RXN-14380_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-14380_anchor_product_end_0" arrowHead="Conversion" x="155.0" y="1100" elementRef="Malto-Oligosaccharides" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-14378">
+      <Xref identifier="EC-2.4.1.242" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-14378_start" x="545.0" y="1000" elementRef="ADP-D-GLUCOSE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-14378_end" arrowHead="Conversion" x="155.0" y="1000" elementRef="Alpha-Amyloses" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-14378_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-14378" />
+      <Property key="EC_Number" value="EC-2.4.1.242" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-622" />
+      <Property key="ReactionEquation" value="ADP-D-GLUCOSE + 1-4-alpha-D-Glucan =&gt; ADP + Alpha-Amyloses" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":UNBALANCED-UNFIXABLE" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXN-21577" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="CannotBalance?" value="T" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^coefficient" value="n, n" />
+    </Interaction>
+    <Interaction elementId="RXN-14378_ENZRXN-21577">
+      <Waypoints>
+        <Point elementId="RXN-14378_ENZRXN-21577_start" x="150" y="487.5" elementRef="AT1G32900-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-14378_ENZRXN-21577_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-14378_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-14378_anchor_reactant_1">
+      <Xref identifier="EC-2.4.1.242" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-14378_anchor_reactant_start_1" x="695.0" y="1100" elementRef="_1-4-alpha-D-Glucan" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-14378_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-14378_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-14378_anchor_product_0">
+      <Xref identifier="EC-2.4.1.242" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-14378_anchor_product_start_0" x="0" y="0" elementRef="RXN-14378_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-14378_anchor_product_end_0" arrowHead="Conversion" x="605.0" y="1000" elementRef="ADP" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-14374">
+      <Xref identifier="RXN-14374" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-14374_start" x="545.0" y="1100" elementRef="Alpha-6-alpha-14-glucans" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-14374_end" arrowHead="Conversion" x="155.0" y="1200" elementRef="CPD-7043" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-14374_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-14374" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-622" />
+      <Property key="ReactionEquation" value="Alpha-6-alpha-14-glucans =&gt; CPD-7043" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":UNBALANCED-UNFIXABLE" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Small-Molecule-Reactions, Complex-Processes, Chemical-Reactions" />
+      <Property key="AtomMappings" value=":NON-INTEGER-STOICHIOMETRY" />
+      <Property key="CannotBalance?" value="T" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^coefficient" value="n, n" />
+    </Interaction>
+    <Interaction elementId="RXN-14373">
+      <Xref identifier="RXN-14373" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-14373_start" x="245.0" y="1200" elementRef="CPD-7043" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-14373_end" arrowHead="Conversion" x="305.0" y="1100" elementRef="Starch" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-14373_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-14373" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-622" />
+      <Property key="ReactionEquation" value="CPD-7043 + Alpha-Amyloses =&gt; Starch" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":UNBALANCED-UNFIXABLE" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Small-Molecule-Reactions, Complex-Processes, Chemical-Reactions" />
+      <Property key="AtomMappings" value=":NON-INTEGER-STOICHIOMETRY" />
+      <Property key="CannotBalance?" value="T" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^coefficient" value="n, n" />
+    </Interaction>
+    <Interaction elementId="RXN-14373_anchor_reactant_1">
+      <Xref identifier="RXN-14373" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-14373_anchor_reactant_start_1" x="245.0" y="1000" elementRef="Alpha-Amyloses" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-14373_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-14373_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-14371">
+      <Xref identifier="EC-2.4.1.18" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-14371_start" x="695.0" y="1100" elementRef="_1-4-alpha-D-Glucan" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-14371_end" arrowHead="Conversion" x="455.0" y="1100" elementRef="Alpha-6-alpha-14-glucans" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-14371_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-14371" />
+      <Property key="EC_Number" value="EC-2.4.1.18" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-622" />
+      <Property key="ReactionEquation" value="1-4-alpha-D-Glucan =&gt; Alpha-6-alpha-14-glucans" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":UNBALANCED-UNFIXABLE" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXN-21578" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value=":NON-INTEGER-STOICHIOMETRY" />
+      <Property key="CannotBalance?" value="T" />
+      <Property key="^official?" value="NIL" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-14371_ENZRXN-21578">
+      <Waypoints>
+        <Point elementId="RXN-14371_ENZRXN-21578_start" x="300" y="487.5" elementRef="AT5G03650-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-14371_ENZRXN-21578_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-14371_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-14372">
+      <Xref identifier="EC-2.4.1.18" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-14372_start" x="245.0" y="1000" elementRef="Alpha-Amyloses" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-14372_end" arrowHead="Conversion" x="155.0" y="1200" elementRef="CPD-7043" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-14372_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-14372" />
+      <Property key="EC_Number" value="EC-2.4.1.18" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-622" />
+      <Property key="ReactionEquation" value="Alpha-Amyloses =&gt; CPD-7043" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":UNBALANCED-UNFIXABLE" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value=":NON-INTEGER-STOICHIOMETRY" />
+      <Property key="CannotBalance?" value="T" />
+      <Property key="^official?" value="NIL" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^coefficient" value="n, n" />
+    </Interaction>
+    <Interaction elementId="GLYCOGENSYN-RXN">
+      <Xref identifier="EC-2.4.1.21" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="GLYCOGENSYN-RXN_start" x="695.0" y="1100" elementRef="_1-4-alpha-D-Glucan" relX="1.0" relY="0.0" />
+        <Point elementId="GLYCOGENSYN-RXN_end" arrowHead="Conversion" x="605.0" y="1100" elementRef="_1-4-alpha-D-Glucan" relX="-1.0" relY="0.0" />
+        <Anchor elementId="GLYCOGENSYN-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="AlternativeId_Uniprot" value="P45179" />
+      <Property key="AlternativeId_Pir" value="C64119" />
+      <Property key="UniqueID" value="GLYCOGENSYN-RXN" />
+      <Property key="EC_Number" value="EC-2.4.1.21" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-622" />
+      <Property key="ReactionEquation" value="1-4-alpha-D-Glucan + ADP-D-GLUCOSE &lt;=&gt; ADP + 1-4-alpha-D-Glucan" />
+      <Property key="ReactionDirection" value="REVERSIBLE" />
+      <Property key="BalanceStatus" value=":UNBALANCED-UNFIXABLE" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNQT-16347, ENZRXNQT-13724, ENZRXNT9-295, ENZRXNARA-391, ENZRXNARA-168" />
+      <Property key="EnzymaticReactionCount" value="5" />
+      <Property key="Synonym_1" value="Glycogen synthase" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="CannotBalance?" value="T" />
+      <Property key="^official?" value="T" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="Synonyms" value="Glycogen synthase" />
+    </Interaction>
+    <Interaction elementId="GLYCOGENSYN-RXN_ENZRXNARA-168">
+      <Waypoints>
+        <Point elementId="GLYCOGENSYN-RXN_ENZRXNARA-168_start" x="600" y="567.5" elementRef="AT5G65685-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="GLYCOGENSYN-RXN_ENZRXNARA-168_end" arrowHead="Catalysis" x="0" y="0" elementRef="GLYCOGENSYN-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GLYCOGENSYN-RXN_ENZRXNQT-16347">
+      <Waypoints>
+        <Point elementId="GLYCOGENSYN-RXN_ENZRXNQT-16347_start" x="150" y="647.5" elementRef="AT5G24300-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="GLYCOGENSYN-RXN_ENZRXNQT-16347_end" arrowHead="Catalysis" x="0" y="0" elementRef="GLYCOGENSYN-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GLYCOGENSYN-RXN_ENZRXNARA-391">
+      <Waypoints>
+        <Point elementId="GLYCOGENSYN-RXN_ENZRXNARA-391_start" x="300" y="407.5" elementRef="AT1G11720-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="GLYCOGENSYN-RXN_ENZRXNARA-391_end" arrowHead="Catalysis" x="0" y="0" elementRef="GLYCOGENSYN-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GLYCOGENSYN-RXN_ENZRXNQT-13724">
+      <Waypoints>
+        <Point elementId="GLYCOGENSYN-RXN_ENZRXNQT-13724_start" x="750" y="567.5" elementRef="AT3G01180-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="GLYCOGENSYN-RXN_ENZRXNQT-13724_end" arrowHead="Catalysis" x="0" y="0" elementRef="GLYCOGENSYN-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GLYCOGENSYN-RXN_ENZRXNT9-295">
+      <Waypoints>
+        <Point elementId="GLYCOGENSYN-RXN_ENZRXNT9-295_start" x="600" y="407.5" elementRef="AT4G18240-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="GLYCOGENSYN-RXN_ENZRXNT9-295_end" arrowHead="Catalysis" x="0" y="0" elementRef="GLYCOGENSYN-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GLYCOGENSYN-RXN_anchor_reactant_1">
+      <Xref identifier="EC-2.4.1.21" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="GLYCOGENSYN-RXN_anchor_reactant_start_1" x="545.0" y="1000" elementRef="ADP-D-GLUCOSE" relX="1.0" relY="0.0" />
+        <Point elementId="GLYCOGENSYN-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="GLYCOGENSYN-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GLYCOGENSYN-RXN_anchor_product_0">
+      <Xref identifier="EC-2.4.1.21" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="GLYCOGENSYN-RXN_anchor_product_start_0" x="0" y="0" elementRef="GLYCOGENSYN-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="GLYCOGENSYN-RXN_anchor_product_end_0" arrowHead="Conversion" x="605.0" y="1000" elementRef="ADP" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GLUC1PADENYLTRANS-RXN">
+      <Xref identifier="12120" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="GLUC1PADENYLTRANS-RXN_start" x="545.0" y="900" elementRef="GLC-1-P" relX="1.0" relY="0.0" />
+        <Point elementId="GLUC1PADENYLTRANS-RXN_end" arrowHead="Conversion" x="455.0" y="1000" elementRef="ADP-D-GLUCOSE" relX="-1.0" relY="0.0" />
+        <Anchor elementId="GLUC1PADENYLTRANS-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="AlternativeId_Uniprot" value="P15280" />
+      <Property key="AlternativeId_Rhea" value="12120" />
+      <Property key="AlternativeId_Pir" value="A34318" />
+      <Property key="UniqueID" value="GLUC1PADENYLTRANS-RXN" />
+      <Property key="EC_Number" value="EC-2.7.7.27" />
+      <Property key="Pathways" value="PWY-622" />
+      <Property key="ReactionEquation" value="PROTON + GLC-1-P + ATP =&gt; ADP-D-GLUCOSE + PPI" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNQT-32959, ENZRXN-1903, ENZRXNQT-5950, ENZRXNQT-5002, ENZRXNQT-4759" />
+      <Property key="EnzymaticReactionCount" value="5" />
+      <Property key="Synonym_1" value="ADP-glucose diphosphorylase" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value=":CURATED, (:NO-HYDROGEN-ENCODING (31 0 1 2 32 3 4 33 5 34 6 35 7 8 9 36 10 11 12 13 14 37 38 15 39 16 40 20 21 43 41 24 25 44 45 27 29 46 22 23 42 19 18 17 26 30 28) (((&quot;ATP&quot; 0 30) (&quot;GLC-1-P&quot; 31 46)) ((&quot;ADP-D-GLUCOSE&quot; 0 37) (&quot;PPI&quot; 38 46))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-54.05249" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="Synonyms" value="ADP-glucose diphosphorylase" />
+    </Interaction>
+    <Interaction elementId="GLUC1PADENYLTRANS-RXN_ENZRXNQT-32959">
+      <Waypoints>
+        <Point elementId="GLUC1PADENYLTRANS-RXN_ENZRXNQT-32959_start" x="600" y="487.5" elementRef="AT1G05610.2" relX="0.0" relY="1.0" />
+        <Point elementId="GLUC1PADENYLTRANS-RXN_ENZRXNQT-32959_end" arrowHead="Catalysis" x="0" y="0" elementRef="GLUC1PADENYLTRANS-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GLUC1PADENYLTRANS-RXN_ENZRXNQT-5950">
+      <Waypoints>
+        <Point elementId="GLUC1PADENYLTRANS-RXN_ENZRXNQT-5950_start" x="450" y="647.5" elementRef="AT4G39210-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="GLUC1PADENYLTRANS-RXN_ENZRXNQT-5950_end" arrowHead="Catalysis" x="0" y="0" elementRef="GLUC1PADENYLTRANS-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GLUC1PADENYLTRANS-RXN_ENZRXNQT-4759">
+      <Waypoints>
+        <Point elementId="GLUC1PADENYLTRANS-RXN_ENZRXNQT-4759_start" x="150" y="567.5" elementRef="AT1G27680-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="GLUC1PADENYLTRANS-RXN_ENZRXNQT-4759_end" arrowHead="Catalysis" x="0" y="0" elementRef="GLUC1PADENYLTRANS-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GLUC1PADENYLTRANS-RXN_ENZRXNQT-5002">
+      <Waypoints>
+        <Point elementId="GLUC1PADENYLTRANS-RXN_ENZRXNQT-5002_start" x="450" y="487.5" elementRef="AT2G21590-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="GLUC1PADENYLTRANS-RXN_ENZRXNQT-5002_end" arrowHead="Catalysis" x="0" y="0" elementRef="GLUC1PADENYLTRANS-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GLUC1PADENYLTRANS-RXN_anchor_reactant_0">
+      <Xref identifier="12120" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="GLUC1PADENYLTRANS-RXN_anchor_reactant_start_0" x="395.0" y="1200" elementRef="PROTON" relX="1.0" relY="0.0" />
+        <Point elementId="GLUC1PADENYLTRANS-RXN_anchor_reactant_end_0" x="0" y="0" elementRef="GLUC1PADENYLTRANS-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GLUC1PADENYLTRANS-RXN_anchor_reactant_2">
+      <Xref identifier="12120" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="GLUC1PADENYLTRANS-RXN_anchor_reactant_start_2" x="545.0" y="1200" elementRef="ATP" relX="1.0" relY="0.0" />
+        <Point elementId="GLUC1PADENYLTRANS-RXN_anchor_reactant_end_2" x="0" y="0" elementRef="GLUC1PADENYLTRANS-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GLUC1PADENYLTRANS-RXN_anchor_product_1">
+      <Xref identifier="12120" dataSource="Rhea" />
+      <Waypoints>
+        <Point elementId="GLUC1PADENYLTRANS-RXN_anchor_product_start_1" x="0" y="0" elementRef="GLUC1PADENYLTRANS-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="GLUC1PADENYLTRANS-RXN_anchor_product_end_1" arrowHead="Conversion" x="305.0" y="1000" elementRef="PPI" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GLUC1PADENYLTRANS-RXN_regulation_0">
+      <Waypoints>
+        <Point elementId="GLUC1PADENYLTRANS-RXN_regulation_start_0" x="395.0" y="900.0" elementRef="G3P" relX="1.0" relY="0.0" />
+        <Point elementId="GLUC1PADENYLTRANS-RXN_regulation_end_0" arrowHead="Stimulation" x="500.0" y="950.0" elementRef="GLUC1PADENYLTRANS-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="RegulationID" value="REGQT-361" />
+      <Property key="RegulationMode" value="+" />
+      <Property key="RegulationType" value="activation" />
+      <Property key="Mechanism" value=":ALLOSTERIC" />
+      <Property key="RegulatedEntity" value="ENZRXN-1903" />
+      <Property key="Regulator" value="G3P" />
+      <Property key="RegulationType" value="Regulation-of-Enzyme-Activity" />
+      <Property key="InstanceNameTemplate" value="REG-*" />
+      <CitationRef elementRef="citation__12111225_" />
+    </Interaction>
+    <Interaction elementId="GLUC1PADENYLTRANS-RXN_regulation_1">
+      <Waypoints>
+        <Point elementId="GLUC1PADENYLTRANS-RXN_regulation_start_1" x="395.0" y="900.0" elementRef="Pi" relX="1.0" relY="0.0" />
+        <Point elementId="GLUC1PADENYLTRANS-RXN_regulation_end_1" arrowHead="Inhibition" x="500.0" y="950.0" elementRef="GLUC1PADENYLTRANS-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="RegulationID" value="REGQT-360" />
+      <Property key="RegulationMode" value="-" />
+      <Property key="RegulationType" value="inhibition" />
+      <Property key="Mechanism" value=":ALLOSTERIC" />
+      <Property key="RegulatedEntity" value="ENZRXN-1903" />
+      <Property key="Regulator" value="Pi" />
+      <Property key="RegulationType" value="Regulation-of-Enzyme-Activity" />
+      <Property key="InstanceNameTemplate" value="REG-*" />
+      <CitationRef elementRef="citation__12111225_" />
+    </Interaction>
+    <Interaction elementId="GLUC1PADENYLTRANS-RXN_regulation_2">
+      <Waypoints>
+        <Point elementId="GLUC1PADENYLTRANS-RXN_regulation_start_2" x="395.0" y="900.0" elementRef="Pi" relX="1.0" relY="0.0" />
+        <Point elementId="GLUC1PADENYLTRANS-RXN_regulation_end_2" arrowHead="Inhibition" x="500.0" y="950.0" elementRef="GLUC1PADENYLTRANS-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="RegulationID" value="REG-9602" />
+      <Property key="RegulationMode" value="-" />
+      <Property key="RegulationType" value="inhibition" />
+      <Property key="Mechanism" value=":ALLOSTERIC" />
+      <Property key="RegulatedEntity" value="ENZRXN-1903" />
+      <Property key="Regulator" value="Pi" />
+      <Property key="RegulationType" value="Regulation-of-Enzyme-Activity" />
+      <Property key="InstanceNameTemplate" value="REG-*" />
+      <CitationRef elementRef="citation__12111225_" />
+    </Interaction>
+    <Interaction elementId="GLUC1PADENYLTRANS-RXN_regulation_3">
+      <Waypoints>
+        <Point elementId="GLUC1PADENYLTRANS-RXN_regulation_start_3" x="395.0" y="900.0" elementRef="G3P" relX="1.0" relY="0.0" />
+        <Point elementId="GLUC1PADENYLTRANS-RXN_regulation_end_3" arrowHead="Stimulation" x="500.0" y="950.0" elementRef="GLUC1PADENYLTRANS-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="RegulationID" value="REG-9603" />
+      <Property key="RegulationMode" value="+" />
+      <Property key="RegulationType" value="activation" />
+      <Property key="Mechanism" value=":ALLOSTERIC" />
+      <Property key="RegulatedEntity" value="ENZRXN-1903" />
+      <Property key="Regulator" value="G3P" />
+      <Property key="RegulationType" value="Regulation-of-Enzyme-Activity" />
+      <Property key="InstanceNameTemplate" value="REG-*" />
+      <CitationRef elementRef="citation__12111225_" />
+    </Interaction>
+  </Interactions>
+  <Groups>
+    <Group elementId="CPLX-8667" textLabel="isoamylase" type="Complex">
+      <Xref identifier="CPLX-8667" dataSource="plantcyc" />
+      <Graphics centerX="300" centerY="635" width="230" height="100" textColor="666666" fontName="Arial" fontSize="10" borderColor="9900CC" borderStyle="Dashed" borderWidth="2.0" fillColor="F5E6FF" shapeType="Rectangle" zOrder="-1" />
+      <Comment source="PMN, dreher">The isoamylase enzyme involved in starch biosynthesis in the chloroplasts of leaves is a large heteromultimeric complex composed of catalytically active |FRAME: AT2G39930 ISA1| subunits as well as the |FRAME: AT1G03310 ISA2| subunit which is assumed to lack catalytic activity based on findings from potato |CITS: [15743447][15849301][12509527]|. The stoichiometry of this complex has not been determined in |FRAME: ORG-5993 &lt;i&gt;Arabidopsis thaliana&lt;/i&gt; col| but in rice, the heteromeric isoamylase is a hexamer composed of five |FRAME: AT2G39930 ISA1| subunits and one |FRAME:AT1G03310 ISA2| subunit |CITS: [16953433]|. This enzymatic complex is believed to play a role in partially debranching preamylopectin to allow the formation of the normal crystalline starch structure.Both &lt;i&gt;isa1&lt;/i&gt; and &lt;i&gt;isa2&lt;/i&gt; mutants have reduced starch levels and altered polysaccharide compositions consistent with a decrease in debranching activity |CITS: [15743447][15849301]|.</Comment>
+      <Property key="UniqueID" value="CPLX-8667" />
+      <Property key="ComplexComponents" value="AT2G39930-MONOMER, AT1G03310-MONOMER" />
+      <Property key="ComponentCount" value="2" />
+      <Property key="IsComplex" value="true" />
+      <Property key="Catalyzes" value="RXN-21581" />
+      <Property key="InstanceNameTemplate" value="CPLX-*" />
+      <Property key="MolecularWeightExp" value="500." />
+      <Property key="MolecularWeightKd" value="500." />
+      <Property key="Species" value="ORG-5993" />
+      <CitationRef elementRef="citation_PUB_16953433" />
+    </Group>
+  </Groups>
+  <Citations>
+    <Citation elementId="citation_PUB_WING_MING94">
+      <Xref identifier="10.1007/BF01570154" dataSource="doi" />
+    </Citation>
+    <Citation elementId="citation_PUB_BALL09">
+      <Xref identifier="10.1016/B978-0-12-370873-1.00009-5" dataSource="doi" />
+    </Citation>
+    <Citation elementId="citation__SMITH95_">
+      <Xref identifier="[SMITH95]" dataSource="PlantCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_23393426">
+      <Xref identifier="23393426" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_18493048">
+      <Xref identifier="18493048" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_18815382">
+      <Xref identifier="18815382" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_15743447">
+      <Xref identifier="15743447" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_12239416">
+      <Xref identifier="12239416" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation__plantbiochemistry97_">
+      <Xref identifier="[plantbiochemistry97]" dataSource="PlantCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_PMNCVP2024">
+      <Xref identifier="PUB-PMNCVP2024 | This pathway was predicted to exist in this species using PathoLogic (version 23.0) and was accepted... (2024)" dataSource="BioCyc" />
+    </Citation>
+    <Citation elementId="citation__12111225_">
+      <Xref identifier="[12111225]" dataSource="PlantCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_9730163">
+      <Xref identifier="9730163" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation__10929100_">
+      <Xref identifier="[10929100]" dataSource="PlantCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_16953433">
+      <Xref identifier="16953433" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation__8292792_">
+      <Xref identifier="[8292792]" dataSource="PlantCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_10806248">
+      <Xref identifier="10806248" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation__9841881_">
+      <Xref identifier="[9841881]" dataSource="PlantCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_10929100">
+      <Xref identifier="10929100" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation__10431387_">
+      <Xref identifier="[10431387]" dataSource="PlantCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_11208806">
+      <Xref identifier="11208806" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_18400487">
+      <Xref identifier="18400487" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_21220783">
+      <Xref identifier="21220783" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_10229577">
+      <Xref identifier="10229577" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_21185717">
+      <Xref identifier="21185717" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_14502990">
+      <Xref identifier="14502990" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_12175798">
+      <Xref identifier="12175798" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

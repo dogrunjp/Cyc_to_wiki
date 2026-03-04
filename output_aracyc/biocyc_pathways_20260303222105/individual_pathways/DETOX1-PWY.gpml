@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="superoxide radicals degradation" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Xref identifier="DETOX1-PWY" dataSource="MetaCyc" />
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Arabidopsis thaliana col&lt;/i&gt;: This pathway is on the list of Common Viridiplantae Pathways (CVP) generated for the COMET project, which includes pathways that are thought to be present in all or most Viridiplantae species including algae. All UPP pathways are automatically imported into databases regardless of Pathologic predictions. &lt;A href=&quot;http://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; &lt;b&gt;General Background&lt;/b&gt; All organisms living in an aerobic environment are exposed to reactive oxygen species (ROS) that are formed through metabolic processes and various environmental stresses such as drought, air pollutants, UV light and high light intensities, chilling temperatures and external chemicals |CITS: [VANBREUSGEM99][11997379]|. For example, active oxygen species are produced during the &amp;beta;-oxidation of fatty acids or as a result of photorespiration in photosynthetic organisms |CITS: [8819328]|. ROS such as |FRAME: SUPER-OXIDE| and hydroxyl radicals as well as |FRAME: HYDROGEN-PEROXIDE| can cause significant damage to proteins, nucleic acids and cell organelles. Most of the aerobic organisms have developed defense systems to face oxidative stress and to scavenge oxidative radicals in the form of enzymes that can detoxify ROS, such as |FRAME: SUPEROX-DISMUTMN-ENZRXN| (SOD) and |FRAME: HYDROPEROXIDI-ENZRXN| (CAT) |CITS: [BEYER87]|. For example, |FRAME: TAX-3702|, a member of the mustard family (oilseed plants), stores energy reserves preliminary as lipids that undergo &amp;beta;-oxidation during germination. The |FRAME: HYDROGEN-PEROXIDE| that is produced during this metabolic process is detoxified by catalase. Another form of ROS, |FRAME: SUPER-OXIDE| radicals, are by-products of aerobic electron transfer chains, and are disposed of by the action of superoxide dismutase. Since ROS can be found in any compartment of the eukaryotic cell, organisms have developed small gene families encoding for several SOD and CAT enzymes that operate in the various cell compartments |CITS: [9765550][9214587]|. &lt;b&gt;About This Pathway&lt;/b&gt; SODs represent the first line of defense against ROS, converting |FRAME: SUPER-OXIDE| radicals to |FRAME: HYDROGEN-PEROXIDE| and water. SODs are differentiated with regard to their metal cofactor. There are iron-dependent, manganese-dependent and copper/zinc-dependent SODs, which differ not only in their metal cofactor but also in their subcellular location. In plants, FeSODs are located in chloroplasts and are regarded the most ancient SOD group. MnSODs are found in the mitochondrion and the peroxisome and are structurally very similar to FeSODs. The last group, the Cu-ZnSODs operates in chloroplasts, the cytosol and even the extracellular space. They are structurally very different from the other two SOD groups because of the different electrical properties of copper in comparison to iron or manganese, which resulted in a major structural change in the protein |CITS: [11997379]|. To date seven SODs have been identified in |FRAME: TAX-3702|, three of them iron-dependent, three having copper as metal cofactor and one manganese-dependent SOD |CITS: [1731963][2263641][9765550]|. It has been demonstrated that a copper-chaperone (AtCCS, At1g12520) is crucial for the activation of all three Cu/Zn-dependent SODs in this organism. The SOD holoenzyme usually constitutes either a homodimer or a homotetramer. However, the exact composition of the SODs in Arabidopsis is currently not known and remains to be verified (here displayed as polypeptides). Catalase is second in the defense line against active oxygen, converting |FRAME: HYDROGEN-PEROXIDE| into water and oxygen. Three genes encoding subunits of catalase and at least 6 catalase isoenzymes have been identified in Arabidopsis so far |CITS: [12232134][9214587][8819328][8668130]|. Besides their implication in detoxifying ROS, catalases are thought to play a role in the signal transduction pathway in plants leading to the development of SAR (systemic aquired resistance) |CITS: [7953568]|. The functional protein of catalase is a tetramer but the question whether it exists as homo- or heterotetramer of different subunits remains to be investigated.</Description>
+  <Authors>
+    <Author name="SRI" />
+    <Author name="caspi" />
+    <Author name="O-18" />
+    <Author name="riley" />
+    <Author name="THE-ARABIDOPSIS-INFORMATION-RESOURCE" />
+    <Author name="hartmut" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="DETOX1-PWY" />
+  <Property key="Type" value="REACTIVE-OXYGEN-SPECIES-DEGRADATION" />
+  <Property key="ReactionCount" value="2" />
+  <Property key="ReactionIDs" value="CATAL-RXN, SUPEROX-DISMUT-RXN" />
+  <Property key="PredecessorCount" value="2" />
+  <Property key="PrimaryCompoundCount" value="2" />
+  <Property key="PathwayLinks" value="(HYDROGEN-PEROXIDE PWY-181)" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_PMNCVP2024" />
+  <CitationRef elementRef="citation_PUB_VANBREUSGEM99" />
+  <CitationRef elementRef="citation_PUB_11997379" />
+  <CitationRef elementRef="citation_PUB_BEYER87" />
+  <CitationRef elementRef="citation_PUB_8819328" />
+  <CitationRef elementRef="citation_PUB_9765550" />
+  <CitationRef elementRef="citation_PUB_9214587" />
+  <CitationRef elementRef="citation_PUB_1731963" />
+  <CitationRef elementRef="citation_PUB_2263641" />
+  <CitationRef elementRef="citation_PUB_16126858" />
+  <CitationRef elementRef="citation_PUB_12232134" />
+  <CitationRef elementRef="citation_PUB_8668130" />
+  <CitationRef elementRef="citation_PUB_7953568" />
+  <Graphics boardWidth="1200" boardHeight="1060" />
+  <DataNodes>
+    <DataNode elementId="AT3G10920" textLabel="MSD1" type="GeneProduct">
+      <Xref identifier="AF061518" dataSource="Entrez Gene" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G10920" />
+      <Property key="AlternativeId_Tair" value="AT3G10920" />
+      <Property key="AlternativeId_Entrez" value="AF061518" />
+      <Property key="Synonym_1" value="At3g10920" />
+      <Property key="Product" value="AT3G10920-MONOMER" />
+      <Property key="StartPosition" value="3417959" />
+      <Property key="EndPosition" value="3419858" />
+      <Property key="ComponentOf" value="CHROMOSOME-3-0" />
+      <Property key="CentisomePosition" value="14.562696" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-3-0" />
+      <Property key="Accession1" value="AT3G10920" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT5G51100" textLabel="FSD2" type="GeneProduct">
+      <Xref identifier="M55910" dataSource="Entrez Gene" />
+      <Graphics centerX="220" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G51100" />
+      <Property key="AlternativeId_Tair" value="AT5G51100" />
+      <Property key="AlternativeId_Entrez" value="M55910" />
+      <Property key="Synonym_1" value="At5g51100" />
+      <Property key="Product" value="AT5G51100-MONOMER" />
+      <Property key="StartPosition" value="20790522" />
+      <Property key="EndPosition" value="20792927" />
+      <Property key="ComponentOf" value="CHROMOSOME-5-5" />
+      <Property key="CentisomePosition" value="77.022675" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-5-5" />
+      <Property key="Accession1" value="AT5G51100" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT5G18100" textLabel="CSD3" type="GeneProduct">
+      <Xref identifier="AF061520" dataSource="Entrez Gene" />
+      <Graphics centerX="340" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G18100" />
+      <Property key="AlternativeId_Tair" value="AT5G18100" />
+      <Property key="AlternativeId_Entrez" value="AF061520" />
+      <Property key="Synonym_1" value="At5g18100" />
+      <Property key="Product" value="AT5G18100-MONOMER" />
+      <Property key="StartPosition" value="5987189" />
+      <Property key="EndPosition" value="5988887" />
+      <Property key="ComponentOf" value="CHROMOSOME-5-1" />
+      <Property key="CentisomePosition" value="22.180788" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-5-1" />
+      <Property key="Accession1" value="AT5G18100" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT2G28190" textLabel="CSD2" type="GeneProduct">
+      <Xref identifier="AF061519" dataSource="Entrez Gene" />
+      <Graphics centerX="460" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT2G28190" />
+      <Property key="AlternativeId_Tair" value="AT2G28190" />
+      <Property key="AlternativeId_Entrez" value="AF061519" />
+      <Property key="Synonym_1" value="At2g28190" />
+      <Property key="Product" value="AT2G28190-MONOMER" />
+      <Property key="StartPosition" value="12021575" />
+      <Property key="EndPosition" value="12023646" />
+      <Property key="ComponentOf" value="CHROMOSOME-2-3" />
+      <Property key="CentisomePosition" value="61.00665" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-2-3" />
+      <Property key="Accession1" value="AT2G28190" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT3G56350" textLabel="AT3G56350" type="GeneProduct">
+      <Xref identifier="AT3G56350" dataSource="TAIR gene name" />
+      <Graphics centerX="100" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G56350" />
+      <Property key="Product" value="AT3G56350.1" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT3G56350" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT5G23310" textLabel="FSD3" type="GeneProduct">
+      <Xref identifier="AF061852" dataSource="Entrez Gene" />
+      <Graphics centerX="220" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT5G23310" />
+      <Property key="AlternativeId_Tair" value="AT5G23310" />
+      <Property key="AlternativeId_Entrez" value="AF061852" />
+      <Property key="Synonym_1" value="At5g23310" />
+      <Property key="Product" value="AT5G23310-MONOMER" />
+      <Property key="StartPosition" value="7850526" />
+      <Property key="EndPosition" value="7852535" />
+      <Property key="ComponentOf" value="CHROMOSOME-5-2" />
+      <Property key="CentisomePosition" value="29.083942" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-5-2" />
+      <Property key="Accession1" value="AT5G23310" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT1G08830" textLabel="CSD1" type="GeneProduct">
+      <Xref identifier="X60935" dataSource="Entrez Gene" />
+      <Graphics centerX="340" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G08830" />
+      <Property key="AlternativeId_Tair" value="AT1G08830" />
+      <Property key="AlternativeId_Entrez" value="X60935" />
+      <Property key="Synonym_1" value="At1g08830" />
+      <Property key="Product" value="AT1G08830-MONOMER" />
+      <Property key="StartPosition" value="2827064" />
+      <Property key="EndPosition" value="2829318" />
+      <Property key="ComponentOf" value="CHROMOSOME-1-0" />
+      <Property key="CentisomePosition" value="9.289684" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-1-0" />
+      <Property key="Accession1" value="AT1G08830" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT1G47980" textLabel="AT1G47980" type="GeneProduct">
+      <Xref identifier="AT1G47980" dataSource="TAIR gene name" />
+      <Graphics centerX="460" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G47980" />
+      <Property key="Product" value="AT1G47980.1" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT1G47980" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT4G25100" textLabel="FSD1" type="GeneProduct">
+      <Xref identifier="M55910" dataSource="Entrez Gene" />
+      <Graphics centerX="100" centerY="170" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G25100" />
+      <Property key="AlternativeId_Tair" value="AT4G25100" />
+      <Property key="AlternativeId_Entrez" value="M55910" />
+      <Property key="Synonym_1" value="At4g25100" />
+      <Property key="Product" value="AT4G25100-MONOMER" />
+      <Property key="StartPosition" value="12884310" />
+      <Property key="EndPosition" value="12886831" />
+      <Property key="ComponentOf" value="CHROMOSOME-4-3" />
+      <Property key="CentisomePosition" value="69.32623" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-4-3" />
+      <Property key="Accession1" value="AT4G25100" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT3G62730" textLabel="AT3G62730" type="GeneProduct">
+      <Xref identifier="AT3G62730" dataSource="TAIR gene name" />
+      <Graphics centerX="220" centerY="170" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G62730" />
+      <Property key="Products" value="AT3G62730.2, AT3G62730.1" />
+      <Property key="ProductCount" value="2" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT3G62730" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT4G00651" textLabel="AT4G00651" type="GeneProduct">
+      <Xref identifier="AT4G00651" dataSource="TAIR gene name" />
+      <Graphics centerX="340" centerY="170" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G00651" />
+      <Property key="Product" value="AT4G00651.1" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT4G00651" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT1G08830-MONOMER" textLabel="Superoxide dismutase [Cu-Zn] 1" type="Protein">
+      <Xref identifier="P24704" dataSource="uniprot" />
+      <Graphics centerX="150" centerY="335" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">NIL The cDNA encoding the copper/zinc-dependent superoxide dismutase (SOD) CSD1 has been isolated from &lt;i&gt;Arabidopsis thaliana&lt;/i&gt; |CITS: [1731963]|. CSD1 belongs to a small gene family in Arabidopsis with at least three copper/zinc-dependent SOD&apos;s. Its molecular function (Cu/Zn-dependent SOD) could be confirmed in a non-denaturative PAGE assay and assigned to CSD1 by immunodetection of the corresponding antiserum. The CSD1 gene was expressed in rosette leaves under standard 16-h-photoperiod growth conditions to about 25% compared to CSD2 but increased upon ozone fumigation, UV-B exposure |CITS: [ 9765550]| and salicylic acid analogs |CITS: [10550898]|, indicating that CSD1 could be a general stress-response enzyme. It has been demonstrated that a copper-chaperone (AtCCS, At1g12520) is crucial for the activation of all three Cu/Zn-dependent SOD&apos;s in Arabdiopsis (Chu et al. 2005 - 16126858).</Comment>
+      <Property key="UniqueID" value="AT1G08830-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT1G08830.1" />
+      <Property key="AlternativeId_Pid" value="CAA43270" />
+      <Property key="AlternativeId_Uniprot" value="P24704" />
+      <Property key="Synonym_1" value="Copper/zinc superoxide dismutase 1" />
+      <Property key="Catalyzes" value="RXN-13457" />
+      <Property key="Accession1" value="AT1G08830.1" />
+      <Property key="FunctionalAssignmentStatus" value=":PROBABLE-ENZYME" />
+      <Property key="Gene" value="AT1G08830" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightExp" value="15." />
+      <Property key="MolecularWeightKd" value="15." />
+      <Property key="Pi" value="5.09" />
+      <CitationRef elementRef="citation_PUB_16126858" />
+      <CitationRef elementRef="citation_PUB_9765550" />
+      <CitationRef elementRef="citation_PUB_1731963" />
+      <CitationRef elementRef="citation_PUB_10550898" />
+    </DataNode>
+    <DataNode elementId="AT5G18100-MONOMER" textLabel="Superoxide dismutase [Cu-Zn] 3" type="Protein">
+      <Xref identifier="AT5G18100.1" dataSource="TAIR gene name" />
+      <Graphics centerX="450" centerY="335" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">NIL The cDNA encoding the copper/zinc -dependent superoxide dismutase (SOD) CSD3 has been isolated from &lt;i&gt;Arabidopsis thaliana&lt;/i&gt;. CSD3 belongs to a small gene family in Arabidopsis with at least three copper/zinc-dependent SOD&apos;s. The CSD3 gene was expressed in rosette leaves under standard 16-h-photoperiod growth conditions but only approximately 5% compared to CSD2 |CITS: [9765550]|. CSD3 was induced by high-light pulse, ozone fumigation and UV-B irradiation, indicating the role of this peroxisomal SOD to detoxify reactive oxygen species (ROS) that may be generated in this compartment. It has been demonstrated that a copper-chaperone (AtCCS, At1g12520) is crucial for the activation of all three Cu/Zn-dependent SOD&apos;s in Arabdiopsis |CITS: [16126858]|.</Comment>
+      <Property key="UniqueID" value="AT5G18100-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT5G18100.1" />
+      <Property key="AlternativeId_Pid" value="AAC24833" />
+      <Property key="Synonym_1" value="Copper/zinc superoxide dismutase 3" />
+      <Property key="Catalyzes" value="RXN-13459" />
+      <Property key="Accession1" value="AT5G18100.1" />
+      <Property key="FunctionalAssignmentStatus" value=":PROBABLE-ENZYME" />
+      <Property key="Gene" value="AT5G18100" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightExp" value="17." />
+      <Property key="MolecularWeightKd" value="17." />
+      <CitationRef elementRef="citation_PUB_16126858" />
+      <CitationRef elementRef="citation_PUB_9765550" />
+    </DataNode>
+    <DataNode elementId="AT1G47980.1" textLabel="AT1G47980.1" type="Protein">
+      <Xref identifier="AT1G47980.1" dataSource="plantcyc" />
+      <Graphics centerX="600" centerY="335" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G47980.1" />
+      <Property key="Catalyzes" value="RXN-32178" />
+      <Property key="Accession1" value="AT1G47980.1" />
+      <Property key="Gene" value="AT1G47980" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT4G00651.1" textLabel="AT4G00651.1" type="Protein">
+      <Xref identifier="AT4G00651.1" dataSource="plantcyc" />
+      <Graphics centerX="150" centerY="415" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT4G00651.1" />
+      <Property key="Catalyzes" value="RXN-29289" />
+      <Property key="Accession1" value="AT4G00651.1" />
+      <Property key="Gene" value="AT4G00651" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT4G25100-MONOMER" textLabel="Superoxide dismutase [Fe] 1, chloroplastic" type="Protein">
+      <Xref identifier="AT4G25100.1" dataSource="TAIR gene name" />
+      <Graphics centerX="300" centerY="415" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">NIL The cDNA encoding the iron-dependent superoxide dismutase (SOD) FSD1 has been isolated from &lt;i&gt;Arabidopsis thaliana&lt;/i&gt;. FSD1 belongs to a small gene family in Arabidopsis with at least three iron-dependent SOD&apos;s. Its molecular function could be confirmed by functional complementation of a mutant &lt;i&gt;E. coli&lt;/i&gt; |CITS: [2263641]|. The FSD1 gene was the only SOD that was expressed due to diurnal oscillation and appears to be under circadian control accumulating in rosette leaves under standard 16-h-photoperiod growth conditions. It was discussed that FSD1 among other plastitic SOD&apos;s provides adaptation towards a number of different oxidative stresses and responds to diurnal-light-mediated reactive oxygen species (ROS) fluctuations |CITS: [9765550]|.</Comment>
+      <Property key="UniqueID" value="AT4G25100-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT4G25100.1" />
+      <Property key="AlternativeId_Pid" value="AAA32791" />
+      <Property key="Synonym_1" value="FE SUPEROXIDE DISMUTASE 1" />
+      <Property key="Catalyzes" value="RXN-13451" />
+      <Property key="Accession1" value="AT4G25100.1" />
+      <Property key="FunctionalAssignmentStatus" value=":PROBABLE-ENZYME" />
+      <Property key="Gene" value="AT4G25100" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightExp" value="23." />
+      <Property key="MolecularWeightKd" value="23." />
+      <CitationRef elementRef="citation_PUB_9765550" />
+      <CitationRef elementRef="citation_PUB_2263641" />
+    </DataNode>
+    <DataNode elementId="AT3G62730.2" textLabel="AT3G62730.2" type="Protein">
+      <Xref identifier="AT3G62730.2" dataSource="plantcyc" />
+      <Graphics centerX="450" centerY="415" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G62730.2" />
+      <Property key="Catalyzes" value="RXN-29324" />
+      <Property key="Accession1" value="AT3G62730.2" />
+      <Property key="Gene" value="AT3G62730" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT5G23310-MONOMER" textLabel="Superoxide dismutase [Fe] 3, chloroplastic" type="Protein">
+      <Xref identifier="AT5G23310.1" dataSource="TAIR gene name" />
+      <Graphics centerX="600" centerY="415" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">NIL The cDNA encoding the iron-dependent superoxide dismutase (SOD) FSD3 has been isolated from &lt;i&gt;Arabidopsis thaliana&lt;/i&gt;. FSD3 belongs to a small gene family in Arabidopsis with at least three iron-dependent SOD&apos;s. The FSD3 gene was the SOD that was lowest expressed in rosette leaves under standard 16-h-photoperiod growth conditions |CITS: [9765550]|.</Comment>
+      <Property key="UniqueID" value="AT5G23310-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT5G23310.1" />
+      <Property key="AlternativeId_Pid" value="AAC24834" />
+      <Property key="Synonym_1" value="FE SUPEROXIDE DISMUTASE 3" />
+      <Property key="Catalyzes" value="RXN-13456" />
+      <Property key="Accession1" value="AT5G23310.1" />
+      <Property key="FunctionalAssignmentStatus" value=":PROBABLE-ENZYME" />
+      <Property key="Gene" value="AT5G23310" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <CitationRef elementRef="citation_PUB_9765550" />
+    </DataNode>
+    <DataNode elementId="AT5G51100-MONOMER" textLabel="Superoxide dismutase [Fe] 2, chloroplastic" type="Protein">
+      <Xref identifier="O04879" dataSource="uniprot" />
+      <Graphics centerX="150" centerY="495" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">NIL The cDNA encoding the iron-dependent superoxide dismutase (SOD) FSD2 has been isolated from &lt;i&gt;Arabidopsis thaliana&lt;/i&gt;. FSD2 belongs to a small gene family in Arabidopsis with at least three iron-dependent SOD&apos;s. The FSD2 gene was expressed in rosette leaves of Arabidopsis and has been discussed to contribute to the adaptation of transient, photoproduced reactive oxygen species (ROS) fluctuations |CITS: [9765550]|.</Comment>
+      <Property key="UniqueID" value="AT5G51100-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT5G51100.1" />
+      <Property key="AlternativeId_Pid" value="CAA73188" />
+      <Property key="AlternativeId_Uniprot" value="O04879" />
+      <Property key="Synonym_1" value="ALBINO OR PALE GREEN 8" />
+      <Property key="Synonym_2" value="FE SUPEROXIDE DISMUTASE 2" />
+      <Property key="Catalyzes" value="RXN-13455" />
+      <Property key="Accession1" value="AT5G51100.1" />
+      <Property key="FunctionalAssignmentStatus" value=":PROBABLE-ENZYME" />
+      <Property key="Gene" value="AT5G51100" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <CitationRef elementRef="citation_PUB_9765550" />
+    </DataNode>
+    <DataNode elementId="AT2G28190-MONOMER" textLabel="Superoxide dismutase [Cu-Zn] 2, chloroplastic" type="Protein">
+      <Xref identifier="AT2G28190.1" dataSource="TAIR gene name" />
+      <Graphics centerX="300" centerY="495" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">NIL The cDNA encoding the copper/zinc -dependent superoxide dismutase (SOD) CSD2 has been isolated from &lt;i&gt;Arabidopsis thaliana&lt;/i&gt;. CSD2 belongs to a small gene family in Arabidopsis with at least three copper/zinc-dependent SOD&apos;s. Its molecular function (Cu/Zn-dependent SOD) could be confirmed in a non-denaturative PAGE assay and assigned to CSD2 by immunodetection of the corresponding antiserum. The CSD2 gene showed the highest expression in rosette leaves under standard 16-h-photoperiod growth conditions |CITS: [9765550]| and increased upon salicylic acid analogs |CITS: [10550898]|. It was discussed that CSD2 contributes to the adaptation to long-term changes in photoproduced reactive oxygen species (ROS). It has been demonstrated that a copper-chaperone (AtCCS, At1g12520) is crucial for the activation of all three Cu/Zn-dependent SOD&apos;s in Arabdiopsis |CITS: [16126858]|.</Comment>
+      <Property key="UniqueID" value="AT2G28190-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT2G28190.1" />
+      <Property key="AlternativeId_Pid" value="AAD10208" />
+      <Property key="Synonym_1" value="Copper/zinc superoxide dismutase 2" />
+      <Property key="Catalyzes" value="RXN-13458" />
+      <Property key="Accession1" value="AT2G28190.1" />
+      <Property key="FunctionalAssignmentStatus" value=":PROBABLE-ENZYME" />
+      <Property key="Gene" value="AT2G28190" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightExp" value="20." />
+      <Property key="MolecularWeightKd" value="20." />
+      <CitationRef elementRef="citation_PUB_16126858" />
+      <CitationRef elementRef="citation_PUB_9765550" />
+      <CitationRef elementRef="citation_PUB_10550898" />
+    </DataNode>
+    <DataNode elementId="AT3G56350.1" textLabel="AT3G56350.1" type="Protein">
+      <Xref identifier="AT3G56350.1" dataSource="plantcyc" />
+      <Graphics centerX="450" centerY="495" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G56350.1" />
+      <Property key="Catalyzes" value="RXN-29437" />
+      <Property key="Accession1" value="AT3G56350.1" />
+      <Property key="Gene" value="AT3G56350" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT3G10920-MONOMER" textLabel="manganese superoxide dismutase" type="Protein">
+      <Xref identifier="AT3G10920.1" dataSource="TAIR gene name" />
+      <Graphics centerX="150" centerY="575" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">NIL The cDNA encoding the mangan-dependent superoxide dismutase (SOD) MSD1 has been isolated from &lt;i&gt;Arabidopsis thaliana&lt;/i&gt;. MSD1 belongs to a small gene family in Arabidopsis with at least seven SOD&apos;s. Its molecular function (Mn-dependent SOD) could be confirmed in a non-denaturative PAGE assay and assigned to MSD1 by immunodetection of the corresponding antiserum. The MSD1 gene was expressed in rosette leaves under standard 16-h-photoperiod growth conditions but was otherwise unresponsive to all environmental stimuli tested |CITS: [9765550]|.</Comment>
+      <Property key="UniqueID" value="AT3G10920-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT3G10920.1" />
+      <Property key="AlternativeId_Pid" value="AAC24832" />
+      <Property key="Catalyzes" value="RXN-13460" />
+      <Property key="Accession1" value="AT3G10920.1" />
+      <Property key="FunctionalAssignmentStatus" value=":PROBABLE-ENZYME" />
+      <Property key="Gene" value="AT3G10920" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightExp" value="23." />
+      <Property key="MolecularWeightKd" value="23." />
+      <CitationRef elementRef="citation_PUB_9765550" />
+    </DataNode>
+    <DataNode elementId="OXYGEN-MOLECULE" textLabel="dioxygen" type="Metabolite">
+      <Xref identifier="MYMOFIZGZYHOMD-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="760" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OXYGEN-MOLECULE" />
+      <Property key="AlternativeId_Bigg" value="o2" />
+      <Property key="AlternativeId_Seed" value="cpd00007" />
+      <Property key="AlternativeId_Metanetx" value="MNXM4" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15379" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01377" />
+      <Property key="AlternativeId_Chemspider" value="952" />
+      <Property key="AlternativeId_Pubchem" value="977" />
+      <Property key="AlternativeId_Chebi" value="15379" />
+      <Property key="AlternativeId_LigandCpd" value="C00007" />
+      <Property key="AlternativeId_Cas" value="7782-44-7" />
+      <Property key="Synonym_1" value="oxygen molecule" />
+      <Property key="Synonym_2" value="molecular oxygen" />
+      <Property key="Synonym_3" value="oxygen" />
+      <Property key="ChemicalFormula" value="(O 2)" />
+      <Property key="AbbrevName" value="O&lt;sub&gt;2&lt;/sub&gt;" />
+      <Property key="Gibbs0" value="3.92" />
+      <Property key="Inchi" value="InChI=1S/O2/c1-2" />
+      <Property key="InchiKey" value="InChIKey=MYMOFIZGZYHOMD-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="31.999" />
+      <Property key="MonoisotopicMw" value="31.9898292442" />
+      <Property key="NonStandardInchi" value="InChI=1S/O2/c1-2" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="O=O" />
+      <Property key="SystematicName" value="dioxygen" />
+    </DataNode>
+    <DataNode elementId="WATER" textLabel="H₂O" type="Metabolite">
+      <Xref identifier="XLYOFNOQVPJJNP-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="760" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="WATER" />
+      <Property key="AlternativeId_Bigg" value="h2o" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15377" />
+      <Property key="AlternativeId_Hmdb" value="HMDB02111" />
+      <Property key="AlternativeId_Chemspider" value="937" />
+      <Property key="AlternativeId_Chebi" value="15377" />
+      <Property key="AlternativeId_Pubchem" value="962" />
+      <Property key="AlternativeId_LigandCpd" value="C00001" />
+      <Property key="AlternativeId_Cas" value="7732-18-5" />
+      <Property key="Synonym_1" value="H20" />
+      <Property key="Synonym_2" value="H&lt;sub&gt;2&lt;/sub&gt;0" />
+      <Property key="Synonym_3" value="H2O" />
+      <Property key="Synonym_4" value="hydrogen oxide" />
+      <Property key="Synonym_5" value="water" />
+      <Property key="ChemicalFormula" value="(H 2) (O 1)" />
+      <Property key="Gibbs0" value="-36.144756" />
+      <Property key="Inchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="InchiKey" value="InChIKey=XLYOFNOQVPJJNP-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="18.015" />
+      <Property key="MonoisotopicMw" value="18.0105646863" />
+      <Property key="NonStandardInchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="O" />
+    </DataNode>
+    <DataNode elementId="HYDROGEN-PEROXIDE" textLabel="hydrogen peroxide" type="Metabolite">
+      <Xref identifier="MHAJPDPJQMAIIY-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="760" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="HYDROGEN-PEROXIDE" />
+      <Property key="AlternativeId_Seed" value="cpd00025" />
+      <Property key="AlternativeId_Metanetx" value="MNXM22" />
+      <Property key="AlternativeId_Bigg" value="h2o2" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC16240" />
+      <Property key="AlternativeId_Hmdb" value="HMDB03125" />
+      <Property key="AlternativeId_Pubchem" value="784" />
+      <Property key="AlternativeId_Chemspider" value="763" />
+      <Property key="AlternativeId_Chebi" value="16240" />
+      <Property key="AlternativeId_LigandCpd" value="C00027" />
+      <Property key="AlternativeId_Cas" value="7722-84-1" />
+      <Property key="Synonym_1" value="hydroperoxide" />
+      <Property key="Synonym_2" value="perhydrol" />
+      <Property key="Synonym_3" value="H&lt;SUB&gt;2&lt;/SUB&gt;O&lt;SUB&gt;2&lt;/SUB&gt;" />
+      <Property key="ChemicalFormula" value="(H 2) (O 2)" />
+      <Property key="Gibbs0" value="-11.457759" />
+      <Property key="Inchi" value="InChI=1S/H2O2/c1-2/h1-2H" />
+      <Property key="InchiKey" value="InChIKey=MHAJPDPJQMAIIY-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="34.015" />
+      <Property key="MonoisotopicMw" value="34.0054793084" />
+      <Property key="NonStandardInchi" value="InChI=1S/H2O2/c1-2/h1-2H" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="OO" />
+    </DataNode>
+    <DataNode elementId="PROTON" textLabel="H⁺" type="Metabolite">
+      <Xref identifier="GPRLSGONYQIRFK-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="860" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PROTON" />
+      <Property key="AlternativeId_Bigg" value="h" />
+      <Property key="AlternativeId_Seed" value="cpd00067" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1" />
+      <Property key="AlternativeId_Hmdb" value="HMDB59597" />
+      <Property key="AlternativeId_Chemspider" value="1010" />
+      <Property key="AlternativeId_Pubchem" value="1038" />
+      <Property key="AlternativeId_Chebi" value="15378" />
+      <Property key="AlternativeId_Cas" value="12408-02-5" />
+      <Property key="AlternativeId_LigandCpd" value="C00080" />
+      <Property key="Synonym_1" value="H" />
+      <Property key="Synonym_2" value="hydrogen ion" />
+      <Property key="Synonym_3" value="proton" />
+      <Property key="ChemicalFormula" value="(H 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="0.42906138" />
+      <Property key="Inchi" value="InChI=1S/p+1" />
+      <Property key="InchiKey" value="InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1.008" />
+      <Property key="MonoisotopicMw" value="1.0078250321" />
+      <Property key="NonStandardInchi" value="InChI=1S/p+1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="[H+]" />
+    </DataNode>
+    <DataNode elementId="SUPER-OXIDE" textLabel="superoxide" type="Metabolite">
+      <Xref identifier="OUUQCZGPVNCOIJ-UHFFFAOYSA-M" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="860" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="SUPER-OXIDE" />
+      <Property key="AlternativeId_Metanetx" value="MNXM330" />
+      <Property key="AlternativeId_Bigg" value="o2s" />
+      <Property key="AlternativeId_Pubchem" value="5359597" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC18421" />
+      <Property key="AlternativeId_Hmdb" value="HMDB02168" />
+      <Property key="AlternativeId_Chebi" value="18421" />
+      <Property key="AlternativeId_LigandCpd" value="C00704" />
+      <Property key="Synonym_1" value="superoxide anion" />
+      <Property key="Synonym_2" value="peroxide radical" />
+      <Property key="ChemicalFormula" value="(O 2)" />
+      <Property key="AtomCharges" value="(1 -1)" />
+      <Property key="Gibbs0" value="-74.61207" />
+      <Property key="Inchi" value="InChI=1S/HO2/c1-2/h1H/p-1" />
+      <Property key="InchiKey" value="InChIKey=OUUQCZGPVNCOIJ-UHFFFAOYSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="31.999" />
+      <Property key="MonoisotopicMw" value="32.9976542763" />
+      <Property key="NonStandardInchi" value="InChI=1S/HO2/c1-2/h1H/p-1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="RadicalAtoms" value="(2 :DOUBLET)" />
+      <Property key="Regulates" value="REG0-11398, REG0-11401" />
+      <Property key="Smiles" value="[O-]O" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="AT3G10920" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="575" elementRef="AT3G10920-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_1_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_1_0_0" x="265.0" y="50" elementRef="AT5G51100" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_1_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="495" elementRef="AT5G51100-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_2_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_2_0_0" x="385.0" y="50" elementRef="AT5G18100" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_2_0_0" arrowHead="TranscriptionTranslation" x="405.0" y="335" elementRef="AT5G18100-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_3_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_3_0_0" x="505.0" y="50" elementRef="AT2G28190" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_3_0_0" arrowHead="TranscriptionTranslation" x="255.0" y="495" elementRef="AT2G28190-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_4_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_4_0_0" x="145.0" y="110" elementRef="AT3G56350" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_4_0_0" arrowHead="TranscriptionTranslation" x="405.0" y="495" elementRef="AT3G56350.1" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_5_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_5_0_0" x="265.0" y="110" elementRef="AT5G23310" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_5_0_0" arrowHead="TranscriptionTranslation" x="555.0" y="415" elementRef="AT5G23310-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_6_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_6_0_0" x="385.0" y="110" elementRef="AT1G08830" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_6_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="335" elementRef="AT1G08830-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_7_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_7_0_0" x="505.0" y="110" elementRef="AT1G47980" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_7_0_0" arrowHead="TranscriptionTranslation" x="555.0" y="335" elementRef="AT1G47980.1" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_8_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_8_0_0" x="145.0" y="170" elementRef="AT4G25100" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_8_0_0" arrowHead="TranscriptionTranslation" x="255.0" y="415" elementRef="AT4G25100-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_9_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_9_0_0" x="265.0" y="170" elementRef="AT3G62730" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_9_0_0" arrowHead="TranscriptionTranslation" x="405.0" y="415" elementRef="AT3G62730.2" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_10_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_10_0_0" x="385.0" y="170" elementRef="AT4G00651" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_10_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="415" elementRef="AT4G00651.1" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="CATAL-RXN">
+      <Xref identifier="EC-1.11.1.21" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="CATAL-RXN_start" x="545.0" y="760" elementRef="HYDROGEN-PEROXIDE" relX="1.0" relY="0.0" />
+        <Point elementId="CATAL-RXN_end" arrowHead="Conversion" x="155.0" y="760" elementRef="OXYGEN-MOLECULE" relX="-1.0" relY="0.0" />
+        <Anchor elementId="CATAL-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="AlternativeId_Pir" value="T45480" />
+      <Property key="UniqueID" value="CATAL-RXN" />
+      <Property key="EC_Number_1" value="EC-1.11.1.21" />
+      <Property key="EC_Number_2" value="EC-1.11.1.6" />
+      <Property key="Pathways" value="DETOX1-PWY-1, DETOX1-PWY" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="HYDROGEN-PEROXIDE =&gt; WATER + OXYGEN-MOLECULE" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNQT-32178, ENZRXNQT-29324, ENZRXN-13470, ENZRXN-13471, ENZRXN-13472" />
+      <Property key="EnzymaticReactionCount" value="5" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (3 2 0 1) (((WATER 0 0) ((WATER 1) 1 1) (OXYGEN-MOLECULE 2 3)) ((HYDROGEN-PEROXIDE 0 1) ((HYDROGEN-PEROXIDE 1) 2 3))))" />
+      <Property key="^official?" value="T, T" />
+      <Property key="Gibbs0" value="-45.454002" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^coefficient" value="2, 2" />
+    </Interaction>
+    <Interaction elementId="CATAL-RXN_ENZRXNQT-32178">
+      <Waypoints>
+        <Point elementId="CATAL-RXN_ENZRXNQT-32178_start" x="600" y="347.5" elementRef="AT1G47980.1" relX="0.0" relY="1.0" />
+        <Point elementId="CATAL-RXN_ENZRXNQT-32178_end" arrowHead="Catalysis" x="0" y="0" elementRef="CATAL-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="CATAL-RXN_ENZRXNQT-29324">
+      <Waypoints>
+        <Point elementId="CATAL-RXN_ENZRXNQT-29324_start" x="450" y="427.5" elementRef="AT3G62730.2" relX="0.0" relY="1.0" />
+        <Point elementId="CATAL-RXN_ENZRXNQT-29324_end" arrowHead="Catalysis" x="0" y="0" elementRef="CATAL-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="CATAL-RXN_anchor_product_0">
+      <Xref identifier="EC-1.11.1.21" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="CATAL-RXN_anchor_product_start_0" x="0" y="0" elementRef="CATAL-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="CATAL-RXN_anchor_product_end_0" arrowHead="Conversion" x="305.0" y="760" elementRef="WATER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SUPEROX-DISMUT-RXN">
+      <Xref identifier="EC-1.15.1.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="SUPEROX-DISMUT-RXN_start" x="395.0" y="860" elementRef="SUPER-OXIDE" relX="1.0" relY="0.0" />
+        <Point elementId="SUPEROX-DISMUT-RXN_end" arrowHead="Conversion" x="455.0" y="760" elementRef="HYDROGEN-PEROXIDE" relX="-1.0" relY="0.0" />
+        <Anchor elementId="SUPEROX-DISMUT-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="AlternativeId_Pir" value="T51732" />
+      <Property key="UniqueID" value="SUPEROX-DISMUT-RXN" />
+      <Property key="EC_Number" value="EC-1.15.1.1" />
+      <Property key="Pathways" value="DETOX1-PWY-1, DETOX1-PWY" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="SUPER-OXIDE + PROTON =&gt; HYDROGEN-PEROXIDE + OXYGEN-MOLECULE" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNQT-29437, ENZRXNQT-29289, ENZRXN-13451, ENZRXN-13455, ENZRXN-13456, ENZRXN-13457, ENZRXN-13458, ENZRXN-13459, ENZRXN-13460" />
+      <Property key="EnzymaticReactionCount" value="9" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 3 2) (((HYDROGEN-PEROXIDE 0 1) (OXYGEN-MOLECULE 2 3)) ((SUPER-OXIDE 0 1) ((SUPER-OXIDE 1) 2 3))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="140.82825" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^coefficient" value="2, 2" />
+    </Interaction>
+    <Interaction elementId="SUPEROX-DISMUT-RXN_ENZRXN-13456">
+      <Waypoints>
+        <Point elementId="SUPEROX-DISMUT-RXN_ENZRXN-13456_start" x="600" y="427.5" elementRef="AT5G23310-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="SUPEROX-DISMUT-RXN_ENZRXN-13456_end" arrowHead="Catalysis" x="0" y="0" elementRef="SUPEROX-DISMUT-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SUPEROX-DISMUT-RXN_ENZRXN-13457">
+      <Waypoints>
+        <Point elementId="SUPEROX-DISMUT-RXN_ENZRXN-13457_start" x="150" y="347.5" elementRef="AT1G08830-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="SUPEROX-DISMUT-RXN_ENZRXN-13457_end" arrowHead="Catalysis" x="0" y="0" elementRef="SUPEROX-DISMUT-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SUPEROX-DISMUT-RXN_ENZRXN-13455">
+      <Waypoints>
+        <Point elementId="SUPEROX-DISMUT-RXN_ENZRXN-13455_start" x="150" y="507.5" elementRef="AT5G51100-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="SUPEROX-DISMUT-RXN_ENZRXN-13455_end" arrowHead="Catalysis" x="0" y="0" elementRef="SUPEROX-DISMUT-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SUPEROX-DISMUT-RXN_ENZRXN-13458">
+      <Waypoints>
+        <Point elementId="SUPEROX-DISMUT-RXN_ENZRXN-13458_start" x="300" y="507.5" elementRef="AT2G28190-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="SUPEROX-DISMUT-RXN_ENZRXN-13458_end" arrowHead="Catalysis" x="0" y="0" elementRef="SUPEROX-DISMUT-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SUPEROX-DISMUT-RXN_ENZRXN-13460">
+      <Waypoints>
+        <Point elementId="SUPEROX-DISMUT-RXN_ENZRXN-13460_start" x="150" y="587.5" elementRef="AT3G10920-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="SUPEROX-DISMUT-RXN_ENZRXN-13460_end" arrowHead="Catalysis" x="0" y="0" elementRef="SUPEROX-DISMUT-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SUPEROX-DISMUT-RXN_ENZRXNQT-29289">
+      <Waypoints>
+        <Point elementId="SUPEROX-DISMUT-RXN_ENZRXNQT-29289_start" x="150" y="427.5" elementRef="AT4G00651.1" relX="0.0" relY="1.0" />
+        <Point elementId="SUPEROX-DISMUT-RXN_ENZRXNQT-29289_end" arrowHead="Catalysis" x="0" y="0" elementRef="SUPEROX-DISMUT-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SUPEROX-DISMUT-RXN_ENZRXN-13459">
+      <Waypoints>
+        <Point elementId="SUPEROX-DISMUT-RXN_ENZRXN-13459_start" x="450" y="347.5" elementRef="AT5G18100-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="SUPEROX-DISMUT-RXN_ENZRXN-13459_end" arrowHead="Catalysis" x="0" y="0" elementRef="SUPEROX-DISMUT-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SUPEROX-DISMUT-RXN_ENZRXN-13451">
+      <Waypoints>
+        <Point elementId="SUPEROX-DISMUT-RXN_ENZRXN-13451_start" x="300" y="427.5" elementRef="AT4G25100-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="SUPEROX-DISMUT-RXN_ENZRXN-13451_end" arrowHead="Catalysis" x="0" y="0" elementRef="SUPEROX-DISMUT-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SUPEROX-DISMUT-RXN_ENZRXNQT-29437">
+      <Waypoints>
+        <Point elementId="SUPEROX-DISMUT-RXN_ENZRXNQT-29437_start" x="450" y="507.5" elementRef="AT3G56350.1" relX="0.0" relY="1.0" />
+        <Point elementId="SUPEROX-DISMUT-RXN_ENZRXNQT-29437_end" arrowHead="Catalysis" x="0" y="0" elementRef="SUPEROX-DISMUT-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SUPEROX-DISMUT-RXN_anchor_reactant_1">
+      <Xref identifier="EC-1.15.1.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="SUPEROX-DISMUT-RXN_anchor_reactant_start_1" x="245.0" y="860" elementRef="PROTON" relX="1.0" relY="0.0" />
+        <Point elementId="SUPEROX-DISMUT-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="SUPEROX-DISMUT-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SUPEROX-DISMUT-RXN_anchor_product_1">
+      <Xref identifier="EC-1.15.1.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="SUPEROX-DISMUT-RXN_anchor_product_start_1" x="0" y="0" elementRef="SUPEROX-DISMUT-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="SUPEROX-DISMUT-RXN_anchor_product_end_1" arrowHead="Conversion" x="155.0" y="760" elementRef="OXYGEN-MOLECULE" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_12232134">
+      <Xref identifier="12232134" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_9765550">
+      <Xref identifier="9765550" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_11997379">
+      <Xref identifier="11997379" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_VANBREUSGEM99">
+      <Xref identifier="PUB-VANBREUSGEM99 | Effects of overproduction of tobacco MnSOD in maize chloroplasts on foliar tolerance to cold and oxi... (Van Breusegem F, Slooten L, Stassart J-M et al., 1999)" dataSource="BioCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_1731963">
+      <Xref identifier="1731963" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_9214587">
+      <Xref identifier="9214587" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_8668130">
+      <Xref identifier="8668130" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_2263641">
+      <Xref identifier="2263641" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_8819328">
+      <Xref identifier="8819328" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_10550898">
+      <Xref identifier="10550898" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_16669103">
+      <Xref identifier="16669103" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_BEYER87">
+      <Xref identifier="PUB-BEYER87 | Catalases-with and without heme (Beyer WF Jr, Fridovich I, 1987)" dataSource="BioCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_16126858">
+      <Xref identifier="16126858" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_7953568">
+      <Xref identifier="7953568" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_PMNCVP2024">
+      <Xref identifier="PUB-PMNCVP2024 | This pathway was predicted to exist in this species using PathoLogic (version 23.0) and was accepted... (2024)" dataSource="BioCyc" />
+    </Citation>
+  </Citations>
+</Pathway>

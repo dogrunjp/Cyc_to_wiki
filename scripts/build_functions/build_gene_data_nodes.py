@@ -561,7 +561,9 @@ def print_gene_datanode_summary(datanode: DataNode, index):
 
 
 if __name__ == "__main__":
-    datanodes, citations = create_enhanced_datanodes_from_genes("genes.dat")
+    # fixed path to genes.dat
+    # datanodes, citations = create_enhanced_datanodes_from_genes("genes.dat") 呼び出しもとはgenes_fileを渡している
+    datanodes, citations = create_enhanced_datanodes_from_genes(genes_file)
     print(f"Created {len(datanodes)} enhanced Gene DataNodes")
     print(f"Found {len(citations)} citations")
 

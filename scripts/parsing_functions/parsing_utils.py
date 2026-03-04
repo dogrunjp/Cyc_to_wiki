@@ -2,6 +2,9 @@ import chardet
 from pathlib import Path
 from typing import Optional, List, Dict, Any
 
+# for testing
+import os
+
 
 class FileReader:
     """Find and read a file with encoding handling."""
@@ -30,6 +33,14 @@ class FileReader:
         return encoding if confidence >= 0.7 else None
 
     def read(self, filename: str) -> str:
+        """ add test codes to check if the file is read correctly with the detected encoding, and if not, try other encodings. """
+        print("DEBUG cwd:", os.getcwd())
+        print("DEBUG filename:", filename)
+        p = Path(filename)
+        print("DEBUG abs:", p.resolve())
+        print("DEBUG exists:", p.exists())
+
+
         """Find the file and read it with the appropriate encoding."""
         file_path = self.find(filename)
         if file_path is None:

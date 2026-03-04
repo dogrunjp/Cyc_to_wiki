@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="diacylglycerol biosynthesis (PUFA enrichment in oilseed)" organism="cellular organisms" source="PlantCyc" version="20260303222105">
+  <Xref identifier="PWY-6804" dataSource="MetaCyc" />
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Arabidopsis thaliana col&lt;/i&gt;: This pathway is on the list of Accept-If-Predicted Pathways (AIPP) generated for the COMET project, which includes pathways that are present widely throughout the plant kingdom. The AIPP list contains pathways that are automatically accepted if they are predicted for any plant species database. However, AIPP pathways are not automatically imported into databases if they are not predicted by the Pathologic program. &lt;A href=&quot;https://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; Triacyglycerols (TAG) from vegetable oils are a major source of essential fatty acids in human diet, namely polyunsaturated fatty acids (PUFA) linoleate (18:2) and linolenate (18:3). In oilseeds, TAG is synthesized via the |FRAME: TRIGLSYN-PWY &quot;Kennedy pathway&quot;|, where the precursor diacylglycerol (DAG) is de novo synthesized from glycerol-3-phosphate. In addition to the Kennedy pathway, there are several other paths supplying DAG for TAG biosynthesis during seed development in plants |CITS: [19329563]|. Since further desaturation of 18:1 to form 18:2 and 18:3 occurs mainly in phosphatidylcholine (PC, see |FRAME: PWY-762|), together, these alternative paths in converting PC to DAG can provide enrichment of the PUFA content in TAG. 1) reverse reaction of CDP-choline:1,2-diacylglycerol cholinephosphotransferase (CPT, 2.7.8.2) Radio tracer studies using microsomes isolated from developing safflower cotyledons indicated that CPT catalyzes a reversible exchange of diacylglycerol moieties between pools of PC and DAG |CITS: [Slack85]|. The maximum activity of CPT coincides with the maximum rate of accumulation of PC and TAG. It is very plausible that the releasing of PUFA-contained DAG from PC, catalyzed by the reverse activity of CPT, may contribute to the enrichment of PUFA in TAG. 2) phosphatidylcholine:diacylglycerol cholinephosphotransferase A novel enzyme was recently isolated from Arabidopsis |CITS: [19833868]|. The Arabidopsis phosphatidylcholine:diacylglycerol cholinephosphotransferase, encoded by ROD1, catalyzes the transfer of phosphocholine head group from PC to DAG. The interconversion of PC and DAG catalyzed by ROD1 provides a major route through which 18:1 (in DAG) enters PC for further desaturation, and in turn the PUFAs 18:2 and 18:3 (in PC) re-enter to the DAG pool for TAG biosynthesis. Arabidopsis ROD1 mutants had a 40% reduction of 18:2 and 18:3 in the seed TAG. It was postulated that a phospholipase C (3.1.4.3) activity may also generate DAG for TAG synthesis. However no such activity has been reported in developing seeds |CITS: [19329563]|. Besides the paths depicted here, an |FRAME: PWY-6803 &quot;acyl editing mechanism&quot;| also exists that can further enrich PUFA in oilseed TAG |CITS: [19329563]|.</Description>
+  <Authors>
+    <Author name="PMN" />
+    <Author name="zhang" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-6804" />
+  <Property key="Type" value="Lipid-Biosynthesis" />
+  <Property key="ReactionCount" value="2" />
+  <Property key="ReactionIDs" value="RXN-12386, RXN-5781" />
+  <Property key="PredecessorCount" value="2" />
+  <Property key="PrimaryCompoundCount" value="2" />
+  <Property key="PathwayLinks" value="(PHOSPHATIDYLCHOLINE PWY-762), (DIACYLGLYCEROL (TRIGLSYN-PWY . :OUTGOING))" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_PMNAIPP2024" />
+  <CitationRef elementRef="citation_PUB_SLACK85" />
+  <CitationRef elementRef="citation_PUB_19833868" />
+  <CitationRef elementRef="citation_PUB_19329563" />
+  <Graphics boardWidth="1200" boardHeight="840" />
+  <DataNodes>
+    <DataNode elementId="AT1G13560" textLabel="AT1G13560" type="GeneProduct">
+      <Xref identifier="AF091843" dataSource="Entrez Gene" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G13560" />
+      <Property key="AlternativeId_Tair" value="AT1G13560" />
+      <Property key="AlternativeId_Entrez" value="AF091843" />
+      <Property key="Synonym_1" value="ATAAPT1" />
+      <Property key="Synonym_2" value="AT1g13560" />
+      <Property key="Synonym_3" value="AAPT1" />
+      <Property key="Product" value="AT1G13560-MONOMER" />
+      <Property key="StartPosition" value="4638511" />
+      <Property key="EndPosition" value="4642101" />
+      <Property key="ComponentOf" value="CHROMOSOME-1-1" />
+      <Property key="CentisomePosition" value="15.241933" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-1-1" />
+      <Property key="Accession1" value="AT1G13560" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT3G15830" textLabel="AT3G15830" type="GeneProduct">
+      <Xref identifier="AT3G15830" dataSource="TAIR gene name" />
+      <Graphics centerX="220" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G15830" />
+      <Property key="Product" value="AT3G15830.1" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="AT3G15830" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT3G15820" textLabel="AT3G15820" type="GeneProduct">
+      <Xref identifier="AT3G15820" dataSource="TAIR gene name" />
+      <Graphics centerX="340" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G15820" />
+      <Property key="Synonym_1" value="ROD1" />
+      <Property key="Product" value="AT3G15820-MONOMER" />
+      <Property key="GeneType" value="Genes" />
+      <Property key="Accession1" value="AT3G15820" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT3G25585" textLabel="ATAAPT2" type="GeneProduct">
+      <Xref identifier="AF091844" dataSource="Entrez Gene" />
+      <Graphics centerX="100" centerY="110" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G25585" />
+      <Property key="AlternativeId_Tair" value="AT3G25585" />
+      <Property key="AlternativeId_Entrez" value="AF091844" />
+      <Property key="Synonym_1" value="AT3g25585" />
+      <Property key="Synonym_2" value="AAPT2" />
+      <Property key="Product" value="AT3G25585-MONOMER" />
+      <Property key="StartPosition" value="9296546" />
+      <Property key="EndPosition" value="9299983" />
+      <Property key="ComponentOf" value="CHROMOSOME-3-1" />
+      <Property key="CentisomePosition" value="39.60898" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Operon" value="CHROMOSOME-3-1" />
+      <Property key="Accession1" value="AT3G25585" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="AT1G13560-MONOMER" textLabel="Choline/ethanolaminephosphotransferase 1" type="Protein">
+      <Xref identifier="O82567" dataSource="uniprot" />
+      <Graphics centerX="150" centerY="275" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT1G13560-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT1G13560.1" />
+      <Property key="AlternativeId_Uniprot" value="O82567" />
+      <Property key="AlternativeId_Pid" value="AAC61768" />
+      <Property key="Synonym_1" value="Aminoalcohol phosphotransferase 1" />
+      <Property key="Synonym_2" value="AtAAPT1" />
+      <Property key="Catalyzes" value="RXN-10862, RXN-8624" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="AT1G13560.1" />
+      <Property key="EnzymeNotUsedIn" value="PWY-6804" />
+      <Property key="FunctionalAssignmentStatus" value=":PROBABLE-ENZYME" />
+      <Property key="Gene" value="AT1G13560" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT3G15830.1" textLabel="AT3G15830.1" type="Protein">
+      <Xref identifier="AT3G15830.1" dataSource="plantcyc" />
+      <Graphics centerX="300" centerY="275" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G15830.1" />
+      <Property key="Catalyzes" value="RXN-30134" />
+      <Property key="Accession1" value="AT3G15830.1" />
+      <Property key="Gene" value="AT3G15830" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT3G15820-MONOMER" textLabel="AT3G15820-MONOMER" type="Protein">
+      <Xref identifier="Q9LVZ7" dataSource="uniprot" />
+      <Graphics centerX="450" centerY="275" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G15820-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT3G15820.1" />
+      <Property key="AlternativeId_Uniprot" value="Q9LVZ7" />
+      <Property key="Catalyzes" value="RXN-19149" />
+      <Property key="Accession1" value="AT3G15820.1" />
+      <Property key="Gene" value="AT3G15820" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="AT3G25585-MONOMER" textLabel="Choline/ethanolaminephosphotransferase 2" type="Protein">
+      <Xref identifier="O82568" dataSource="uniprot" />
+      <Graphics centerX="150" centerY="355" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AT3G25585-MONOMER" />
+      <Property key="AlternativeId_Araport" value="AT3G25585.1" />
+      <Property key="AlternativeId_Uniprot" value="O82568" />
+      <Property key="AlternativeId_Pid" value="AAC61769" />
+      <Property key="Synonym_1" value="Aminoalcohol phosphotransferase 2" />
+      <Property key="Synonym_2" value="AtAAPT2" />
+      <Property key="Catalyzes" value="RXN-10881, RXN-8625" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="AT3G25585.1" />
+      <Property key="EnzymeNotUsedIn" value="PWY-6804" />
+      <Property key="FunctionalAssignmentStatus" value=":PROBABLE-ENZYME" />
+      <Property key="Gene" value="AT3G25585" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="CMP" textLabel="CMP" type="Metabolite">
+      <Xref identifier="IERHLVCPSMICTF-XVFCMESISA-L" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="540" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CMP" />
+      <Property key="AlternativeId_Zinc" value="ZINC000003861744" />
+      <Property key="AlternativeId_Seed" value="cpd00046" />
+      <Property key="AlternativeId_Metanetx" value="MNXM31" />
+      <Property key="AlternativeId_Refmet" value="CMP" />
+      <Property key="AlternativeId_Bigg" value="cmp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC60377" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00095" />
+      <Property key="AlternativeId_Chemspider" value="5414497" />
+      <Property key="AlternativeId_Chebi" value="60377" />
+      <Property key="AlternativeId_Pubchem" value="7058165" />
+      <Property key="AlternativeId_LigandCpd" value="C00055" />
+      <Property key="AlternativeId_Cas" value="63-37-6" />
+      <Property key="Synonym_1" value="5&apos;-cytidylic acid" />
+      <Property key="Synonym_2" value="cytidine 5&apos;-monophosphate" />
+      <Property key="Synonym_3" value="cytidylate" />
+      <Property key="Synonym_4" value="cytidylic acid" />
+      <Property key="Synonym_5" value="cytidine-P" />
+      <Property key="Synonym_6" value="cytidine-monophosphate" />
+      <Property key="Synonym_7" value="cytidine-phosphate" />
+      <Property key="Synonym_8" value="cytidine 5&apos;-phosphate" />
+      <Property key="Synonym_9" value="cytosine ribotide" />
+      <Property key="ChemicalFormula" value="(C 9) (H 12) (N 3) (O 8) (P 1)" />
+      <Property key="AtomCharges" value="(18 -1), (17 -1)" />
+      <Property key="Gibbs0" value="-246.14482" />
+      <Property key="Inchi" value="InChI=1S/C9H14N3O8P/c10-5-1-2-12(9(15)11-5)8-7(14)6(13)4(20-8)3-19-21(16,17)18/h1-2,4,6-8,13-14H,3H2,(H2,10,11,15)(H2,16,17,18)/p-2/t4-,6-,7-,8-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=IERHLVCPSMICTF-XVFCMESISA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="321.183" />
+      <Property key="MonoisotopicMw" value="323.05185095179996" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-6595, REG-8094, REG-13413, REG0-8832, REG0-7277, REG-11325, REG4FS-3, REG4FS-1, REG-9549, REG-9954, REGQT-430, REGQT-408, REGQT-405, REGQT-400, REGQT-398" />
+      <Property key="Smiles" value="C(OP(=O)([O-])[O-])[C@@H]2([C@H]([C@H]([C@H](N1(\C=C/C(/N)=N\C1=O))O2)O)O)" />
+    </DataNode>
+    <DataNode elementId="PHOSPHATIDYLCHOLINE" textLabel="a phosphatidylcholine" type="Metabolite">
+      <Xref identifier="24398047" dataSource="PubChem-compound" />
+      <Graphics centerX="350" centerY="540" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment>|FRAME: PHOSPHATIDYLCHOLINE &quot;A phosphatidylcholine&quot;| is |FRAME: Phosphoglycerides| composed of a |FRAME: GLYCEROL| backbone esterified to |FRAME: PHOSPHORYL-CHOLINE| and two |FRAME: Fatty-Acids &quot;fatty acids&quot;|. Phosphatidylcholine is a major component of eukaryotic cell membranes, in which it accounts for 40-60% of total phospholipids. It is also found in an estimated 1015% of bacterial taxa, and especially in bacterial symbionts and pathogens of eukaryotes. Phosphatidylcholine is often referred to by the name lecithin, obtained from ancient Greek for egg yolk (lekithos), from which it was originally isolated. There are two variations of the molecular structure, since either an end carbon or a middle carbon of the glycerol can be attached to the phosphocholine. We have illustrated only one here.</Comment>
+      <Property key="UniqueID" value="PHOSPHATIDYLCHOLINE" />
+      <Property key="AlternativeId_Pubchem" value="24398047" />
+      <Property key="AlternativeId_LigandCpd" value="C00157" />
+      <Property key="AlternativeId_Metanetx" value="MNXM96952" />
+      <Property key="AlternativeId_Chebi" value="16110" />
+      <Property key="AlternativeId_Cas" value="8002-43-5" />
+      <Property key="Synonym_1" value="a (3-&lt;i&gt;sn&lt;/i&gt;-phosphatidyl)choline" />
+      <Property key="Synonym_2" value="a 1,2-diacyl-&lt;i&gt;sn&lt;/i&gt;-glycero-3-phosphocholine" />
+      <Property key="Synonym_3" value="a choline phosphatide" />
+      <Property key="Synonym_4" value="an L-alpha-phosphatidylcholine" />
+      <Property key="Synonym_5" value="lecithin" />
+      <Property key="Synonym_6" value="a phosphatidyl-&lt;i&gt;N&lt;/i&gt;-trimethylethanolamine" />
+      <Property key="AbbrevName" value="PC" />
+      <Property key="AtomCharges" value="(15 -1), (11 1)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/C10H20NO8P/c1-11(2,3)4-5-18-20(14,15)19-7-10(17-9-13)6-16-8-12/h8-10H,4-7H2,1-3H3/t10-/m1/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="C([N+](C)(C)C)COP(=O)(OC[C@H](OC([R2])=O)COC([R1])=O)[O-]" />
+      <Property key="SystematicName" value="1,2-diacyl-sn-glycero-3-phosphocholine" />
+    </DataNode>
+    <DataNode elementId="CDP-CHOLINE" textLabel="CDP-choline" type="Metabolite">
+      <Xref identifier="RZZPDXZPRHQOCG-OJAKKHQRSA-M" dataSource="InChIKey" />
+      <Graphics centerX="500" centerY="540" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CDP-CHOLINE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000006507065" />
+      <Property key="AlternativeId_ReactomeCpd" value="1524060" />
+      <Property key="AlternativeId_Seed" value="cpd00256" />
+      <Property key="AlternativeId_Metanetx" value="MNXM283" />
+      <Property key="AlternativeId_Refmet" value="Cytidine 5&apos;-diphosphocholine" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01413" />
+      <Property key="AlternativeId_Chebi" value="58779" />
+      <Property key="AlternativeId_Pubchem" value="25202509" />
+      <Property key="AlternativeId_LigandCpd" value="C00307" />
+      <Property key="AlternativeId_Cas" value="987-78-0" />
+      <Property key="Synonym_1" value="citicoline" />
+      <Property key="Synonym_2" value="citicholine" />
+      <Property key="Synonym_3" value="cidifos" />
+      <Property key="Synonym_4" value="cyticholine" />
+      <Property key="Synonym_5" value="cytidine 5&apos;-diphosphocholine" />
+      <Property key="Synonym_6" value="cytidine diphosphate choline" />
+      <Property key="ChemicalFormula" value="(C 14) (H 25) (N 4) (O 11) (P 2)" />
+      <Property key="AtomCharges" value="(25 -1), (23 -1), (18 1)" />
+      <Property key="Gibbs0" value="-327.39398" />
+      <Property key="Inchi" value="InChI=1S/C14H26N4O11P2/c1-18(2,3)6-7-26-30(22,23)29-31(24,25)27-8-9-11(19)12(20)13(28-9)17-5-4-10(15)16-14(17)21/h4-5,9,11-13,19-20H,6-8H2,1-3H3,(H3-,15,16,21,22,23,24,25)/p-1/t9-,11-,12-,13-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=RZZPDXZPRHQOCG-OJAKKHQRSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="487.319" />
+      <Property key="MonoisotopicMw" value="490.12298078270004" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-8097" />
+      <Property key="Smiles" value="C[N+](C)(C)CCOP(OP(OC[C@@H]2([C@H]([C@H]([C@H](N1(\C=C/C(/N)=N\C1=O))O2)O)O))(=O)[O-])([O-])=O" />
+      <Property key="Superatoms" value="CDP-GROUP" />
+    </DataNode>
+    <DataNode elementId="PROTON" textLabel="H⁺" type="Metabolite">
+      <Xref identifier="GPRLSGONYQIRFK-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="640" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PROTON" />
+      <Property key="AlternativeId_Bigg" value="h" />
+      <Property key="AlternativeId_Seed" value="cpd00067" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1" />
+      <Property key="AlternativeId_Hmdb" value="HMDB59597" />
+      <Property key="AlternativeId_Chemspider" value="1010" />
+      <Property key="AlternativeId_Pubchem" value="1038" />
+      <Property key="AlternativeId_Chebi" value="15378" />
+      <Property key="AlternativeId_Cas" value="12408-02-5" />
+      <Property key="AlternativeId_LigandCpd" value="C00080" />
+      <Property key="Synonym_1" value="H" />
+      <Property key="Synonym_2" value="hydrogen ion" />
+      <Property key="Synonym_3" value="proton" />
+      <Property key="ChemicalFormula" value="(H 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="0.42906138" />
+      <Property key="Inchi" value="InChI=1S/p+1" />
+      <Property key="InchiKey" value="InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1.008" />
+      <Property key="MonoisotopicMw" value="1.0078250321" />
+      <Property key="NonStandardInchi" value="InChI=1S/p+1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Smiles" value="[H+]" />
+    </DataNode>
+    <DataNode elementId="DIACYLGLYCEROL" textLabel="a 1,2-diacyl-sn-glycerol" type="Metabolite">
+      <Xref identifier="17815" dataSource="ChEBI" />
+      <Graphics centerX="350" centerY="640" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="DIACYLGLYCEROL" />
+      <Property key="AlternativeId_Metanetx" value="MNXM59" />
+      <Property key="AlternativeId_Bigg" value="1" />
+      <Property key="AlternativeId_Chebi" value="17815" />
+      <Property key="AlternativeId_LigandCpd" value="C00641" />
+      <Property key="Synonym_1" value="a D-1,2-diglyceride" />
+      <Property key="Synonym_2" value="a 1,2-diacylglycerol" />
+      <Property key="Synonym_3" value="a D-1,2-diacylglycerol" />
+      <Property key="Synonym_4" value="DAG" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/C5H8O5/c6-1-5(10-4-8)2-9-3-7/h3-6H,1-2H2/t5-/m0/s1" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG0-9617, REG-13027" />
+      <Property key="Smiles" value="C(O)[C@@H](COC(=O)[R1])OC(=O)[R2]" />
+    </DataNode>
+    <DataNode elementId="CA_2" textLabel="Ca²⁺" type="Metabolite">
+      <Xref identifier="BHPQYMZQTOCNFJ-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200.0" centerY="540.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CA+2" />
+      <Property key="AlternativeId_Mediadb" value="compounds/74/" />
+      <Property key="AlternativeId_Metanetx" value="MNXM128" />
+      <Property key="AlternativeId_Bigg" value="ca2" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC29108" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00464" />
+      <Property key="AlternativeId_Chemspider" value="266" />
+      <Property key="AlternativeId_Pubchem" value="271" />
+      <Property key="AlternativeId_LigandCpd" value="C00076" />
+      <Property key="AlternativeId_Chebi" value="29108" />
+      <Property key="Synonym_1" value="calcium(II)" />
+      <Property key="Synonym_2" value="Ca&lt;SUP&gt;++&lt;/SUP&gt;" />
+      <Property key="Synonym_3" value="calcium ion" />
+      <Property key="Synonym_4" value="Ca&lt;sup&gt;II&lt;/sup&gt;" />
+      <Property key="ChemicalFormula" value="(CA 1)" />
+      <Property key="AtomCharges" value="(1 2)" />
+      <Property key="CofactorsOf" value="ENZRXN-12779, ENZRXN-12780" />
+      <Property key="ComponentOf" value="CPD0-1589" />
+      <Property key="Gibbs0" value="-1.2482376" />
+      <Property key="Inchi" value="InChI=1S/Ca/q+2" />
+      <Property key="InchiKey" value="InChIKey=BHPQYMZQTOCNFJ-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="40.08" />
+      <Property key="MonoisotopicMw" value="39.9625912" />
+      <Property key="NonStandardInchi" value="InChI=1S/Ca/q+2" />
+      <Property key="Osmolarity" value="0" />
+      <Property key="Regulates" value="REG-7098, REG0-11593, REG-14600, REG-14807, REG-10936, REG-12867, REG-12866, REG-12868, REG-13951, REG-13172, REG-8032, REG-9449, REG-14854, REG-14849, REG-14864, REG-12880, REG-8226, REG-12885, REG-12884, REG-12894, REG0-8014, REG0-8758, REG-13699, REG0-8523, REG-13702, REG-8561, REG-8557, REG-8553, REG-13022, REG0-7232, REG-10416, REG-13207, REG-7398, REG-12430, REG0-7024, REG-12102, REG-11101, REG-11324, REG-8095, REG4FS-4, REG4FS-2, REG-9548, REG-9955, REG-10487, REG-6407, REGQT-458, REGQT-429, REGQT-415, REGQT-409, REGQT-406, REGQT-401, REGQT-399, REGQT-363, REGQT-354, REGQT-351, REGQT-269" />
+      <Property key="Smiles" value="[Ca+2]" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="AT1G13560" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="275" elementRef="AT1G13560-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_1_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_1_0_0" x="265.0" y="50" elementRef="AT3G15830" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_1_0_0" arrowHead="TranscriptionTranslation" x="255.0" y="275" elementRef="AT3G15830.1" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_2_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_2_0_0" x="385.0" y="50" elementRef="AT3G15820" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_2_0_0" arrowHead="TranscriptionTranslation" x="405.0" y="275" elementRef="AT3G15820-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_3_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_3_0_0" x="145.0" y="110" elementRef="AT3G25585" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_3_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="355" elementRef="AT3G25585-MONOMER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-12386">
+      <Xref identifier="EC-2.7.8" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-12386_start" x="395.0" y="540" elementRef="PHOSPHATIDYLCHOLINE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-12386_end" arrowHead="Conversion" x="305.0" y="640" elementRef="DIACYLGLYCEROL" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-12386_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-12386" />
+      <Property key="EC_Number" value="EC-2.7.8" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-6804" />
+      <Property key="ReactionEquation" value="PHOSPHATIDYLCHOLINE + DIACYLGLYCEROL =&gt; DIACYLGLYCEROL + PHOSPHATIDYLCHOLINE" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNQT-30134, ENZRXN-19149" />
+      <Property key="EnzymaticReactionCount" value="2" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value=":CURATED, (:NO-HYDROGEN-ENCODING (0 2 1 3 4 23 22 24 25 26 10 28 29 13 14 30 31 17 18 19 32 33 6 5 7 8 9 27 11 12 15 16 20 21) (((&quot;PHOSPHATIDYLCHOLINE&quot; 0 21) (&quot;DIACYLGLYCEROL&quot; 22 33)) ((&quot;PHOSPHATIDYLCHOLINE&quot; 0 21) (&quot;DIACYLGLYCEROL&quot; 22 33))))" />
+      <Property key="Gibbs0" value="0." />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-12386_ENZRXN-19149">
+      <Waypoints>
+        <Point elementId="RXN-12386_ENZRXN-19149_start" x="450" y="287.5" elementRef="AT3G15820-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-12386_ENZRXN-19149_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-12386_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-12386_ENZRXNQT-30134">
+      <Waypoints>
+        <Point elementId="RXN-12386_ENZRXNQT-30134_start" x="300" y="287.5" elementRef="AT3G15830.1" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-12386_ENZRXNQT-30134_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-12386_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-12386_anchor_reactant_1">
+      <Xref identifier="EC-2.7.8" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-12386_anchor_reactant_start_1" x="395.0" y="640" elementRef="DIACYLGLYCEROL" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-12386_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-12386_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-12386_anchor_product_1">
+      <Xref identifier="EC-2.7.8" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-12386_anchor_product_start_1" x="0" y="0" elementRef="RXN-12386_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-12386_anchor_product_end_1" arrowHead="Conversion" x="305.0" y="540" elementRef="PHOSPHATIDYLCHOLINE" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-5781">
+      <Xref identifier="EC-2.7.8.2" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-5781_start" x="395.0" y="540" elementRef="PHOSPHATIDYLCHOLINE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-5781_end" arrowHead="Conversion" x="305.0" y="640" elementRef="DIACYLGLYCEROL" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-5781_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="AlternativeId_Uniprot" value="P17898" />
+      <Property key="AlternativeId_Pir" value="S63075" />
+      <Property key="UniqueID" value="RXN-5781" />
+      <Property key="EC_Number" value="EC-2.7.8.2" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-6804, PWY4FS-2, PWY3O-450, PWY-3561" />
+      <Property key="PathwayCount" value="4" />
+      <Property key="ReactionEquation" value="DIACYLGLYCEROL + CDP-CHOLINE &lt;=&gt; PHOSPHATIDYLCHOLINE + CMP + PROTON" />
+      <Property key="ReactionDirection" value="REVERSIBLE" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXN-8625, ENZRXN-8624" />
+      <Property key="EnzymaticReactionCount" value="2" />
+      <Property key="Synonym_1" value="Cholinephosphotransferase" />
+      <Property key="Synonym_2" value="Alkylacylglycerol cholinephosphotransferase" />
+      <Property key="Synonym_3" value="Phosphorylcholine--glyceride transferase" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (2 0 1 22 23 3 4 24 25 26 27 28 29 30 31 32 33 10 34 35 36 13 14 37 39 17 40 41 38 19 42 6 5 7 8 9 18 11 12 15 16 20 21) (((&quot;PHOSPHATIDYLCHOLINE&quot; 0 21) (&quot;CMP&quot; 22 42)) ((&quot;CDP-CHOLINE&quot; 0 30) (&quot;DIACYLGLYCEROL&quot; 31 42))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-138.53177" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="Synonyms" value="Cholinephosphotransferase, Alkylacylglycerol cholinephosphotransferase, Phosphorylcholine--glyceride transferase" />
+    </Interaction>
+    <Interaction elementId="RXN-5781_ENZRXN-8625">
+      <Waypoints>
+        <Point elementId="RXN-5781_ENZRXN-8625_start" x="150" y="367.5" elementRef="AT3G25585-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-5781_ENZRXN-8625_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-5781_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-5781_ENZRXN-8624">
+      <Waypoints>
+        <Point elementId="RXN-5781_ENZRXN-8624_start" x="150" y="287.5" elementRef="AT1G13560-MONOMER" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-5781_ENZRXN-8624_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-5781_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-5781_anchor_reactant_0">
+      <Xref identifier="EC-2.7.8.2" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-5781_anchor_reactant_start_0" x="395.0" y="640" elementRef="DIACYLGLYCEROL" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-5781_anchor_reactant_end_0" x="0" y="0" elementRef="RXN-5781_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-5781_anchor_reactant_1">
+      <Xref identifier="EC-2.7.8.2" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-5781_anchor_reactant_start_1" x="545.0" y="540" elementRef="CDP-CHOLINE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-5781_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-5781_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-5781_anchor_product_0">
+      <Xref identifier="EC-2.7.8.2" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-5781_anchor_product_start_0" x="0" y="0" elementRef="RXN-5781_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-5781_anchor_product_end_0" arrowHead="Conversion" x="305.0" y="540" elementRef="PHOSPHATIDYLCHOLINE" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-5781_anchor_product_1">
+      <Xref identifier="EC-2.7.8.2" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-5781_anchor_product_start_1" x="0" y="0" elementRef="RXN-5781_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-5781_anchor_product_end_1" arrowHead="Conversion" x="155.0" y="540" elementRef="CMP" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-5781_anchor_product_2">
+      <Xref identifier="EC-2.7.8.2" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-5781_anchor_product_start_2" x="0" y="0" elementRef="RXN-5781_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-5781_anchor_product_end_2" arrowHead="Conversion" x="155.0" y="640" elementRef="PROTON" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-5781_regulation_0">
+      <Waypoints>
+        <Point elementId="RXN-5781_regulation_start_0" x="245.0" y="540" elementRef="CMP" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-5781_regulation_end_0" arrowHead="Inhibition" x="350.0" y="590.0" elementRef="RXN-5781_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="RegulationID" value="REGQT-398" />
+      <Property key="RegulationMode" value="-" />
+      <Property key="RegulationType" value="inhibition" />
+      <Property key="Mechanism" value=":ALLOSTERIC" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="RegulatedEntity" value="ENZRXN-8624" />
+      <Property key="Regulator" value="CMP" />
+      <Property key="RegulationType" value="Regulation-of-Enzyme-Activity" />
+      <Property key="InstanceNameTemplate" value="REG-*" />
+      <CitationRef elementRef="citation_PUB_GOODE99" />
+    </Interaction>
+    <Interaction elementId="RXN-5781_regulation_1">
+      <Waypoints>
+        <Point elementId="RXN-5781_regulation_start_1" x="245.0" y="540.0" elementRef="CA_2" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-5781_regulation_end_1" arrowHead="Inhibition" x="350.0" y="590.0" elementRef="RXN-5781_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="RegulationID" value="REG-9955" />
+      <Property key="RegulationMode" value="-" />
+      <Property key="RegulationType" value="inhibition" />
+      <Property key="RegulatedEntity" value="ENZRXN-8624" />
+      <Property key="Regulator" value="CA+2" />
+      <Property key="RegulationType" value="Regulation-of-Enzyme-Activity" />
+      <Property key="InstanceNameTemplate" value="REG-*" />
+      <CitationRef elementRef="citation_PUB_GOODE99" />
+    </Interaction>
+    <Interaction elementId="RXN-5781_regulation_2">
+      <Waypoints>
+        <Point elementId="RXN-5781_regulation_start_2" x="245.0" y="540.0" elementRef="CA_2" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-5781_regulation_end_2" arrowHead="Inhibition" x="350.0" y="590.0" elementRef="RXN-5781_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="RegulationID" value="REGQT-399" />
+      <Property key="RegulationMode" value="-" />
+      <Property key="RegulationType" value="inhibition" />
+      <Property key="Mechanism" value=":UNKMECH" />
+      <Property key="RegulatedEntity" value="ENZRXN-8624" />
+      <Property key="Regulator" value="CA+2" />
+      <Property key="RegulationType" value="Regulation-of-Enzyme-Activity" />
+      <Property key="InstanceNameTemplate" value="REG-*" />
+      <CitationRef elementRef="citation_PUB_GOODE99" />
+    </Interaction>
+    <Interaction elementId="RXN-5781_regulation_3">
+      <Waypoints>
+        <Point elementId="RXN-5781_regulation_start_3" x="245.0" y="540.0" elementRef="CA_2" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-5781_regulation_end_3" arrowHead="Inhibition" x="350.0" y="590.0" elementRef="RXN-5781_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="RegulationID" value="REG-8095" />
+      <Property key="RegulationMode" value="-" />
+      <Property key="RegulationType" value="inhibition" />
+      <Property key="RegulatedEntity" value="ENZRXN-8625" />
+      <Property key="Regulator" value="CA+2" />
+      <Property key="RegulationType" value="Regulation-of-Enzyme-Activity" />
+      <Property key="InstanceNameTemplate" value="REG-*" />
+      <CitationRef elementRef="citation_PUB_GOODE99" />
+    </Interaction>
+    <Interaction elementId="RXN-5781_regulation_4">
+      <Waypoints>
+        <Point elementId="RXN-5781_regulation_start_4" x="245.0" y="540.0" elementRef="CA_2" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-5781_regulation_end_4" arrowHead="Inhibition" x="350.0" y="590.0" elementRef="RXN-5781_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="RegulationID" value="REGQT-401" />
+      <Property key="RegulationMode" value="-" />
+      <Property key="RegulationType" value="inhibition" />
+      <Property key="Mechanism" value=":UNKMECH" />
+      <Property key="RegulatedEntity" value="ENZRXN-8625" />
+      <Property key="Regulator" value="CA+2" />
+      <Property key="RegulationType" value="Regulation-of-Enzyme-Activity" />
+      <Property key="InstanceNameTemplate" value="REG-*" />
+      <CitationRef elementRef="citation_PUB_GOODE99" />
+    </Interaction>
+    <Interaction elementId="RXN-5781_regulation_5">
+      <Waypoints>
+        <Point elementId="RXN-5781_regulation_start_5" x="245.0" y="540" elementRef="CMP" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-5781_regulation_end_5" arrowHead="Inhibition" x="350.0" y="590.0" elementRef="RXN-5781_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="RegulationID" value="REG-8094" />
+      <Property key="RegulationMode" value="-" />
+      <Property key="RegulationType" value="inhibition" />
+      <Property key="Mechanism" value=":ALLOSTERIC" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="RegulatedEntity" value="ENZRXN-8625" />
+      <Property key="Regulator" value="CMP" />
+      <Property key="RegulationType" value="Regulation-of-Enzyme-Activity" />
+      <Property key="InstanceNameTemplate" value="REG-*" />
+      <CitationRef elementRef="citation_PUB_GOODE99" />
+    </Interaction>
+    <Interaction elementId="RXN-5781_regulation_6">
+      <Waypoints>
+        <Point elementId="RXN-5781_regulation_start_6" x="245.0" y="540" elementRef="CMP" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-5781_regulation_end_6" arrowHead="Inhibition" x="350.0" y="590.0" elementRef="RXN-5781_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="RegulationID" value="REG-9954" />
+      <Property key="RegulationMode" value="-" />
+      <Property key="RegulationType" value="inhibition" />
+      <Property key="Mechanism" value=":ALLOSTERIC" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="RegulatedEntity" value="ENZRXN-8624" />
+      <Property key="Regulator" value="CMP" />
+      <Property key="RegulationType" value="Regulation-of-Enzyme-Activity" />
+      <Property key="InstanceNameTemplate" value="REG-*" />
+      <CitationRef elementRef="citation_PUB_GOODE99" />
+    </Interaction>
+    <Interaction elementId="RXN-5781_regulation_7">
+      <Waypoints>
+        <Point elementId="RXN-5781_regulation_start_7" x="245.0" y="540" elementRef="CMP" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-5781_regulation_end_7" arrowHead="Inhibition" x="350.0" y="590.0" elementRef="RXN-5781_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="RegulationID" value="REGQT-400" />
+      <Property key="RegulationMode" value="-" />
+      <Property key="RegulationType" value="inhibition" />
+      <Property key="Mechanism" value=":ALLOSTERIC" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="RegulatedEntity" value="ENZRXN-8625" />
+      <Property key="Regulator" value="CMP" />
+      <Property key="RegulationType" value="Regulation-of-Enzyme-Activity" />
+      <Property key="InstanceNameTemplate" value="REG-*" />
+      <CitationRef elementRef="citation_PUB_GOODE99" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_19329563">
+      <Xref identifier="19329563" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_SLACK85">
+      <Xref identifier="PUB-SLACK85 | Some properties of cholinephosphotransferase from developing safflower cotyledons (Slack CR, Roughan PG, Browse JA et al., 1985)" dataSource="BioCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_PMNAIPP2024">
+      <Xref identifier="PUB-PMNAIPP2024 | This pathway was predicted to exist in this species using PathoLogic (version 28.0) and was accepted... (2024)" dataSource="BioCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_19833868">
+      <Xref identifier="19833868" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_GOODE99">
+      <Xref identifier="PUB-GOODE99 | Characterization of aminoalcoholphosphotransferases from &lt;i&gt;Arabidopsis thaliana&lt;/i&gt; and soybean (Goode JH, Dewey RE, 1999)" dataSource="BioCyc" />
+    </Citation>
+  </Citations>
+</Pathway>
