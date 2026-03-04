@@ -5,7 +5,7 @@
 This repository contains the pipeline to transform data from Biopax format (common in PlantCyc and Biocyc repositories) to GPML2021 format [(Graphical Pathway Markup Language)](https://pathvisio.org/documentation/GPML). 
 
 
-## Explanation regarding this fork-branch (oec@dogrun.jp)
+## Explanation regarding this fork-branch (oec)
 
 ### 修正箇所
 このツールはレポジトリのルートをWDにして以下のようにして呼びますが
