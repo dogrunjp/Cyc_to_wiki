@@ -4,6 +4,36 @@
 
 This repository contains the pipeline to transform data from Biopax format (common in PlantCyc and Biocyc repositories) to GPML2021 format [(Graphical Pathway Markup Language)](https://pathvisio.org/documentation/GPML). 
 
+
+## Explanation regarding this fork-branch (oec@dogrun.jp)
+
+### 修正箇所
+このツールはレポジトリのルートをWDにして以下のようにして呼びますが
+```
+python build_pathways.py ./data ./output_oryzacyc --include-reactions --layout forceatlas2
+```
+- 最初の位置引数に当たるinput dirの指定が効いていなかったのでパッチを充ました。
+- 直し、モジュールの依存関係など複雑で本格的なパッチではなく"./data"があることを前提としたハードコードで修正しています。
+- 自分の場合、"./data"にはsymlinkで既に端末で保存済みのPlantCysのデータを紐づけるようにしました
+    - 例：ln -sfn /mnt/pmn/PMN17_December2025/anothercyc/18.0.1/data ./data
+
+### レイアウトのオプションについて
+
+--include-reactions --layout forceatlas2 以外試していません。
+
+### PathVisioでは現状表示できない
+
+変換自体は完了してgpmlファイルが出力されるようになりました。（例：output_oryzacyc）
+直し、現在出力されるファイルは、GPMLのスキーマとの不一致で現在Cyc_to_wikiで変換したgpmlファイルはPathVisioで表示することができません。
+GPML 2013aスキーマと比較して何が一致していないか特定し変換ツールを作ろうと思います。
+
+以上devブランチのコメントです
+
+
+### 変換済みのデータ
+
+output_oryzacyc
+
 ## Installation
 
 ```bash

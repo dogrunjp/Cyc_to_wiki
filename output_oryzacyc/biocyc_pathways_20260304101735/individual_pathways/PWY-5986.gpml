@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="ammonium transport" organism="cellular organisms" source="PlantCyc" version="20260304101735">
+  <Description>Ammonium transport is necessary to transport |FRAME: AMMONIUM ammonium| from the soil into the root plasma. They play a role in making available |FRAME: AMMONIUM ammonium| for several metabolic processes, like the conversion of glycine to serine in the photorespiratory nitrogen cycle, deamination of pheylalanine, and degradation of amino acids. The protonated form of |FRAME: AMMONIUM ammonium| is the one that is available from the soil. It is common in the cytosol, mitochondria, vacoules and in the phloem and xylem of plants. Physiological studies have shown that there are two types of ammonium transporters, HAT and LAT i.e high and low affinity transporters in plants |CITS: [1261225]|. The expression of these transporters in shoots and roots indicate that they could be involved in intracellular transport within the plant in addition to transporting |FRAME: AMMONIUM ammonium| from the soil across the root plasma membrane |CITS: [14701935]|. These are transmembrane proteins belonging to ammonium transporter/methylamine permease/rhesus (AMT/MEP/Rh) protein family, present in all organisms |CITS: [17026539]|.</Description>
+  <Authors>
+    <Author name="O-27" />
+    <Author name="pujar" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-5986" />
+  <Property key="Type_1" value="NITROGEN-DEG" />
+  <Property key="Type_2" value="Transport-Pathways" />
+  <Property key="ReactionIDs" value="RXN-9615" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_17026539" />
+  <CitationRef elementRef="citation_PUB_1261225" />
+  <CitationRef elementRef="citation_PUB_14701935" />
+  <Graphics boardWidth="1800.0" boardHeight="1750.0" />
+  <DataNodes>
+    <DataNode elementId="G-10769" textLabel="AMT2.1" type="GeneProduct">
+      <Xref identifier="G-10769" dataSource="plantcyc" />
+      <Graphics centerX="204.20089721679688" centerY="1550.0" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="G-10769" />
+      <Property key="Synonym_1" value="OsAMT2;1" />
+      <Property key="Product" value="MONOMER-14094" />
+      <Property key="GeneType" value="Genes" />
+      <Property key="Accession1" value="Os05g0468700" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <CitationRef elementRef="citation_PUB_12610225" />
+    </DataNode>
+    <DataNode elementId="G-10767" textLabel="AMT2.2" type="GeneProduct">
+      <Xref identifier="G-10767" dataSource="plantcyc" />
+      <Graphics centerX="1505.697998046875" centerY="50.0" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="G-10767" />
+      <Property key="Synonym_1" value="OsAMT2;2" />
+      <Property key="Product" value="MONOMER-14092" />
+      <Property key="GeneType" value="Genes" />
+      <Property key="Accession1" value="Os01g0870300" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <CitationRef elementRef="citation_PUB_12610225" />
+    </DataNode>
+    <DataNode elementId="MONOMER-14094" textLabel="MONOMER-14094" type="Protein">
+      <Xref identifier="Q84KJ7" dataSource="uniprot" />
+      <Graphics centerX="100.0" centerY="198.18359375" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="O-27, pujar">Physiological studies have shown that plants have two types of ammonium transporters, optimized for high and low affinity transporters (named HAT and LAT, respectively) |CITS: [12232018]|. The expression of these tansporters in shoots and roots indicate that they could be involved in intracellular transport within the plant in addition to transporting |FRAME: AMMONIUM ammonium| from the soil across the root plasma membrane |CITS: [14701935]|. The transporters are transmembrane proteins, and belong to the ammonium transporter/methylamine permease/rhesus (AMT/MEP/Rh) protein family, which is present in all organisms |CITS: [17026539]|. A cDNA clone of the |FRAME: G-10769 AMT2.1| gene was isolated from |FRAME: TAX-4530 &lt;i&gt;Oryza sativa&lt;/i&gt;| leaf blades. The cDNA was expressed in an ammonium-uptake-defective yeast mutant, and restored ammonium uptake, confirming that the gene encodes a functional ammonium transporter. The gene is constitutively expressed in both roots and shoots of the |FRAME: TAX-4530 &lt;i&gt;Oryza sativa&lt;/i&gt;| plants, irrespective of the supply of inorganic nitrogen supply |CITS: [12610225]|.</Comment>
+      <Property key="UniqueID" value="MONOMER-14094" />
+      <Property key="AlternativeId_Phytozome" value="Os05t0468700-01" />
+      <Property key="AlternativeId_Uniprot" value="Q84KJ7" />
+      <Property key="AlternativeId_Pid" value="BAC65231" />
+      <Property key="Synonym_1" value="ammonium transporter (Os05g0468700 protein)" />
+      <Property key="Synonym_2" value="OsAMT2;1" />
+      <Property key="Catalyzes" value="RXN-15156" />
+      <Property key="Accession1" value="Os05t0468700-01" />
+      <Property key="Gene" value="G-10769" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightExp" value="51.4" />
+      <Property key="MolecularWeightKd" value="51.4" />
+      <CitationRef elementRef="citation_PUB_12232018" />
+      <CitationRef elementRef="citation_PUB_14701935" />
+      <CitationRef elementRef="citation_PUB_17026539" />
+      <CitationRef elementRef="citation_PUB_12610225" />
+    </DataNode>
+    <DataNode elementId="MONOMER-14092" textLabel="MONOMER-14092" type="Protein">
+      <Xref identifier="Q84KJ6" dataSource="uniprot" />
+      <Graphics centerX="861.0296020507812" centerY="802.5557861328125" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="O-27, pujar">Physiological studies have shown that plants have two types of ammonium transporters, optimized for high and low affinity transporters (named HAT and LAT, respectively) |CITS: [12232018]|. The expression of these tansporters in shoots and roots indicate that they could be involved in intracellular transport within the plant in addition to transporting |FRAME: AMMONIUM ammonium| from the soil across the root plasma membrane |CITS: [14701935]|. The transporters are transmembrane proteins, and belong to the ammonium transporter/methylamine permease/rhesus (AMT/MEP/Rh) protein family, which is present in all organisms |CITS: [17026539]|. A cDNA clone of the |FRAME: G-10767 AMT2.2| gene was isolated from |FRAME: TAX-4530 &lt;i&gt;Oryza sativa&lt;/i&gt;| leaf blades. The cDNA was expressed in an ammonium-uptake-defective yeast mutant, restoring ammonium uptake and confirming that it encodes a functional ammonium transporter. The gene is constitutively expressed in both roots and shoots of the |FRAME: TAX-4530 &lt;i&gt;Oryza sativa&lt;/i&gt;| plants, irrespective of the supply of inorganic nitrogen supply |CITS: [12610225]|.</Comment>
+      <Property key="UniqueID" value="MONOMER-14092" />
+      <Property key="AlternativeId_Phytozome" value="Os01t0870300-02" />
+      <Property key="AlternativeId_Uniprot" value="Q84KJ6" />
+      <Property key="AlternativeId_Pid" value="BAC65232" />
+      <Property key="Synonym_1" value="Os01g0870300 protein" />
+      <Property key="Catalyzes" value="RXN-15154" />
+      <Property key="Accession1" value="Os01t0870300-02" />
+      <Property key="Gene" value="G-10767" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightExp" value="53.7" />
+      <Property key="MolecularWeightKd" value="53.7, 53.7" />
+      <Property key="MolecularWeightSeq" value="53.7" />
+      <CitationRef elementRef="citation_PUB_12232018" />
+      <CitationRef elementRef="citation_PUB_14701935" />
+      <CitationRef elementRef="citation_PUB_17026539" />
+      <CitationRef elementRef="citation_PUB_12610225" />
+    </DataNode>
+    <DataNode elementId="AMMONIUM" textLabel="ammonium" type="Metabolite">
+      <Xref identifier="QGZKDVFQNNGYKY-UHFFFAOYSA-O" dataSource="InChIKey" />
+      <Graphics centerX="1600.0" centerY="1394.527587890625" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AMMONIUM" />
+      <Property key="AlternativeId_Mediadb" value="compounds/1211/" />
+      <Property key="AlternativeId_Bigg" value="nh4" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC28938" />
+      <Property key="AlternativeId_Hmdb" value="HMDB41827" />
+      <Property key="AlternativeId_Chebi" value="28938" />
+      <Property key="AlternativeId_Chemspider" value="218" />
+      <Property key="AlternativeId_Pubchem" value="223" />
+      <Property key="AlternativeId_LigandCpd" value="C01342" />
+      <Property key="AlternativeId_Cas" value="14798-03-9" />
+      <Property key="Synonym_1" value="NH&lt;SUB&gt;4&lt;/SUB&gt;&lt;SUP&gt;+&lt;/SUP&gt;" />
+      <Property key="ChemicalFormula" value="(H 4) (N 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="21.812426" />
+      <Property key="Inchi" value="InChI=1S/H3N/h1H3/p+1" />
+      <Property key="InchiKey" value="InChIKey=QGZKDVFQNNGYKY-UHFFFAOYSA-O" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="InternalsOfGroup" value="GLYCO-CT-AMINO" />
+      <Property key="MolecularWeight" value="18.038" />
+      <Property key="MonoisotopicMw" value="18.0343741336" />
+      <Property key="NonStandardInchi" value="InChI=1S/H3N/h1H3/p+1" />
+      <Property key="Regulates" value="REG0-7616, REG-7120, REG-6227, REG0-12168" />
+      <Property key="Smiles" value="[NH4+]" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="249.20089721679688" y="1550.0" elementRef="G-10769" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="55.0" y="198.18359375" elementRef="MONOMER-14094" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_1_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_1_0_0" x="1550.697998046875" y="50.0" elementRef="G-10767" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_1_0_0" arrowHead="TranscriptionTranslation" x="816.0296020507812" y="802.5557861328125" elementRef="MONOMER-14092" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-9615">
+      <Xref identifier="RXN-9615" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-9615_start" x="1645.0" y="1394.527587890625" elementRef="AMMONIUM" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-9615_end" arrowHead="Conversion" x="1555.0" y="1394.527587890625" elementRef="AMMONIUM" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-9615_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-9615" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-5986" />
+      <Property key="ReactionEquation" value="AMMONIUM =&gt; AMMONIUM" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXN-15156, ENZRXN-15154" />
+      <Property key="EnzymaticReactionCount" value="2" />
+      <Property key="ReactionTypes" value="Small-Molecule-Reactions, Transport-Reactions" />
+      <Property key="AtomMappings" value=":CPDS-LACK-STRUCTURE" />
+      <Property key="Gibbs0" value="0." />
+      <Property key="InstanceNameTemplate" value="TRANS-RXN-*" />
+      <Property key="^compartment" value="CCO-OUT, CCO-IN" />
+    </Interaction>
+    <Interaction elementId="RXN-9615_ENZRXN-15156">
+      <Waypoints>
+        <Point elementId="RXN-9615_ENZRXN-15156_start" x="100.0" y="210.68359375" elementRef="MONOMER-14094" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-9615_ENZRXN-15156_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-9615_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-9615_ENZRXN-15154">
+      <Waypoints>
+        <Point elementId="RXN-9615_ENZRXN-15154_start" x="861.0296020507812" y="815.0557861328125" elementRef="MONOMER-14092" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-9615_ENZRXN-15154_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-9615_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_1261225">
+      <Xref identifier="1261225" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_12610225">
+      <Xref identifier="12610225" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_14701935">
+      <Xref identifier="14701935" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_17026539">
+      <Xref identifier="17026539" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_12232018">
+      <Xref identifier="12232018" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

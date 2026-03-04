@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="serine racemization" organism="cellular organisms" source="PlantCyc" version="20260304101735">
+  <Description>|FRAME: SER| biosynthesis is a major metabolic pathway in many organisms. Its end product, |FRAME: SER|, is not only used in protein synthesis, but also as a precursor for the biosynthesis of glycine, cysteine, tryptophan, and phospholipids. In addition, it directly or indirectly serves as a source of one-carbon units for the biosynthesis of various compounds. Many organisms from all domain of life are able to convert |FRAME: SER| to |FRAME: D-SERINE| by racemization. In bacteria racemization usually takes place for the sake of degradation. Some organisms can use |FRAME: D-SERINE| as the sole carbon and nitrogen sources (see |FRAME: PWY0-1535|). More recently it has been shown that the ability to utilize and/or detoxify D-serine plays a role in pathogenesis |CITS: [12823810][17088369][17785472][19674114]|. In other cases racemization evolved as an antibiotic resistance mechanism. Resistance to vancomycin that originated in |FRAME: TAX-1350| (collectively called VRE, vancomycin-resistant Enterococcus), but eventually spread to other organisms depends on D-ala-D-ala ligases with altered specificity that incorporate either |FRAME: D-LACTATE| or |FRAME: D-SERINE| instead of the second |FRAME: D-ALANINE|. When incorporated into peptidoglycan, these modified peptides do not bind glycopeptide antibiotics |CITS: [10209740][10878136]|. D-serine was thought to exist only in bacteria until it was found to serve as a signaling molecule in the vertebrate brain. D-Serine, which is synthesized in neurons by the bifunctional serine racemase/D-serine dehydratase, serves as a neuromodulator by coactivating NMDA receptors, making them able to open if they then also bind glutamate. D-serine is a potent agonist at the glycine site (NR1) of the &lt;i&gt;N&lt;/i&gt;-methyl-D-aspartate (NMDA)-type glutamate receptor (NMDAR). For the receptor to open, glutamate and either glycine or D-serine must bind to it |CITS: [20106978]|.</Description>
+  <Authors>
+    <Author name="chawkins" />
+    <Author name="SRI" />
+    <Author name="caspi" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-8140" />
+  <Property key="Type" value="Other-Amino-Acid-Biosynthesis" />
+  <Property key="ReactionIDs" value="5.1.1.18-RXN" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_20106978" />
+  <Graphics boardWidth="1800.0" boardHeight="1750.0" />
+  <DataNodes>
+    <DataNode elementId="G-11244" textLabel="SerR" type="GeneProduct">
+      <Xref identifier="G-11244" dataSource="plantcyc" />
+      <Graphics centerX="705.25634765625" centerY="703.9964599609375" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="G-11244" />
+      <Property key="Product" value="MONOMER-14689" />
+      <Property key="GeneType" value="Genes" />
+      <Property key="Accession1" value="Os04g0555900" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+    </DataNode>
+    <DataNode elementId="MONOMER-14689" textLabel="serine racemase" type="Protein">
+      <Xref identifier="MONOMER-14689" dataSource="plantcyc" />
+      <Graphics centerX="1600.0" centerY="507.6439208984375" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="O-28, pujar">A cDNA clone was isolated from germinated unpolished |FRAME: TAX-4530 &lt;i&gt;Oryza sativa&lt;/i&gt;| grains which contain a higher amount of |FRAME: D-SERINE D-serine|. This gene encoded a putative serine racemase gene called serr. This gene was recombinantly expressed in E.coli, the gene product was purified to homogeniety. This enzyme was bifunctional and catalyzed serine racemization and dehydratase activity |CITS: [19249065]|.</Comment>
+      <Property key="UniqueID" value="MONOMER-14689" />
+      <Property key="AlternativeId_Phytozome" value="Os04t0555900-01" />
+      <Property key="Catalyzes" value="RXN-N7F-69379, RXN-16269, RXN-16224" />
+      <Property key="CatalyzesCount" value="3" />
+      <Property key="Accession1" value="Os04t0555900-01" />
+      <Property key="Gene" value="G-11244" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightExp" value="34.5" />
+      <Property key="MolecularWeightKd" value="34.5, 34.5" />
+      <Property key="MolecularWeightSeq" value="34.5" />
+      <CitationRef elementRef="citation_PUB_19249065" />
+    </DataNode>
+    <DataNode elementId="D-SERINE" textLabel="D-serine" type="Metabolite">
+      <Xref identifier="MTCFGRXMJLQNBG-UWTATZPHSA-N" dataSource="InChIKey" />
+      <Graphics centerX="451.1377868652344" centerY="1550.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="D-SERINE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000000895342" />
+      <Property key="AlternativeId_Seed" value="cpd00550" />
+      <Property key="AlternativeId_Metanetx" value="MNXM694" />
+      <Property key="AlternativeId_Refmet" value="D-Serine" />
+      <Property key="AlternativeId_Bigg" value="ser__D" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC35247" />
+      <Property key="AlternativeId_Hmdb" value="HMDB03406" />
+      <Property key="AlternativeId_Chebi" value="35247" />
+      <Property key="AlternativeId_Pubchem" value="6857549" />
+      <Property key="AlternativeId_LigandCpd" value="C00740" />
+      <Property key="AlternativeId_Cas" value="312-84-5" />
+      <Property key="ChemicalFormula" value="(C 3) (H 7) (N 1) (O 3)" />
+      <Property key="AbbrevName" value="D-Ser" />
+      <Property key="AtomCharges" value="(6 -1), (4 1)" />
+      <Property key="Gibbs0" value="-52.25216" />
+      <Property key="Inchi" value="InChI=1S/C3H7NO3/c4-2(1-5)3(6)7/h2,5H,1,4H2,(H,6,7)/t2-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=MTCFGRXMJLQNBG-UWTATZPHSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="105.093" />
+      <Property key="MonoisotopicMw" value="105.0425930962" />
+      <Property key="NonStandardInchi" value="InChI=1S/C3H7NO3/c4-2(1-5)3(6)7/h2,5H,1,4H2,(H,6,7)/t2-/m1/s1" />
+      <Property key="Smiles" value="C(O)[C@@H]([NH3+])C(=O)[O-]" />
+    </DataNode>
+    <DataNode elementId="SER" textLabel="L-serine" type="Metabolite">
+      <Xref identifier="MTCFGRXMJLQNBG-REOHCLBHSA-N" dataSource="InChIKey" />
+      <Graphics centerX="100.0" centerY="50.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="SER" />
+      <Property key="AlternativeId_Zinc" value="ZINC000000895034" />
+      <Property key="AlternativeId_Mediadb" value="compounds/63/" />
+      <Property key="AlternativeId_Refmet" value="Serine" />
+      <Property key="AlternativeId_Bigg" value="ser__L" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC33384" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00187" />
+      <Property key="AlternativeId_Chebi" value="33384" />
+      <Property key="AlternativeId_Pubchem" value="6857581" />
+      <Property key="AlternativeId_LigandCpd" value="C00065" />
+      <Property key="AlternativeId_Cas" value="56-45-1" />
+      <Property key="Synonym_1" value="S" />
+      <Property key="Synonym_2" value="serine" />
+      <Property key="Synonym_3" value="L-ser" />
+      <Property key="ChemicalFormula" value="(C 3) (H 7) (N 1) (O 3)" />
+      <Property key="AbbrevName" value="ser" />
+      <Property key="AtomCharges" value="(6 -1), (4 1)" />
+      <Property key="Gibbs0" value="-50.20216" />
+      <Property key="Inchi" value="InChI=1S/C3H7NO3/c4-2(1-5)3(6)7/h2,5H,1,4H2,(H,6,7)/t2-/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=MTCFGRXMJLQNBG-REOHCLBHSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="105.093" />
+      <Property key="MonoisotopicMw" value="105.0425930962" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG0-8906, REG0-11349" />
+      <Property key="Smiles" value="C(O)[C@H]([NH3+])C(=O)[O-]" />
+      <CitationRef elementRef="citation_PUB_16306140" />
+      <CitationRef elementRef="citation_PUB_18493048" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="750.25634765625" y="703.9964599609375" elementRef="G-11244" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="1555.0" y="507.6439208984375" elementRef="MONOMER-14689" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_5.1.1.18-RXN">
+      <Xref identifier="EC-5.1.1.10" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_5.1.1.18-RXN_start" x="145.0" y="50.0" elementRef="SER" relX="1.0" relY="0.0" />
+        <Point elementId="_5.1.1.18-RXN_end" arrowHead="Conversion" x="406.1377868652344" y="1550.0" elementRef="D-SERINE" relX="-1.0" relY="0.0" />
+        <Anchor elementId="_5.1.1.18-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="5.1.1.18-RXN" />
+      <Property key="EC_Number_1" value="EC-5.1.1.10" />
+      <Property key="EC_Number_2" value="EC-5.1.1.18" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-6196, PWY-8140" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="SER &lt;=&gt; D-SERINE" />
+      <Property key="ReactionDirection" value="REVERSIBLE" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXN-16224" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6) (((&quot;SER&quot; 0 6)) ((&quot;D-SERINE&quot; 0 6))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-2.050003" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="_5.1.1.18-RXN_ENZRXN-16224">
+      <Waypoints>
+        <Point elementId="_5.1.1.18-RXN_ENZRXN-16224_start" x="1600.0" y="520.1439208984375" elementRef="MONOMER-14689" relX="0.0" relY="1.0" />
+        <Point elementId="_5.1.1.18-RXN_ENZRXN-16224_end" arrowHead="Catalysis" x="0" y="0" elementRef="_5.1.1.18-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_16306140">
+      <Xref identifier="16306140" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_18493048">
+      <Xref identifier="18493048" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_20106978">
+      <Xref identifier="20106978" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_19249065">
+      <Xref identifier="19249065" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis I" organism="cellular organisms" source="PlantCyc" version="20260304101735">
+  <Xref identifier="PWY-6890" dataSource="MetaCyc" />
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Oryza sativa Japonica Group&lt;/i&gt;: This pathway is on the list of Common Viridiplantae Pathways (CVP) generated for the COMET project, which includes pathways that are thought to be present in all or most Viridiplantae species including algae. All UPP pathways are automatically imported into databases regardless of Pathologic predictions. &lt;A href=&quot;http://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; &lt;b&gt;General Background&lt;/b&gt; |FRAME: THIAMINE-PYROPHOSPHATE &quot;Thiamin diphosphate&quot;|, also known as vitamin B1, is known to play a fundamental role in energy metabolism. It is an essential cofactor for a variety of enzymes such as |FRAME: TRANSKETOI-CPLX transketolase|, |FRAME: PYRUVATEDEH-CPLX &quot;pyruvate dehydrogenase&quot;|, |FRAME: CPLX3O-118 &quot;pyruvate decarboxylase&quot;|, and |FRAME: CPLX66-42 &quot;&amp;alpha;-ketoglutarate dehydrogenase&quot;| |CITS:[15326535]|. Its discovery followed from the original early research on the anti-beriberi factor found in rice bran. Beriberi, a neurological disease, was particularly prevalent in Asia, where the refining of rice resulted in the removal of the thiamin-containing husk |CITS: [Begley96]|. |FRAME: THIAMINE Thiamine| is synthesized &lt;i&gt;de novo&lt;/i&gt; by microorganisms, plants and some lower eukaryotes (e.g. |FRAME: TAX-5820|), but not by higher eukaryotes, which must obtain it through their diet. Thiamin biosynthesis is composed of the separate formation of the pyrimidine and thiazole moieties, which are subsequently coupled to form |FRAME: THIAMINE-P| (see for example |FRAME: PWY-6893|). &lt;b&gt;About This Pathway&lt;/b&gt; This pathway describes the synthesis of the pyrimidine moiety of |FRAME: THIAMINE|. Starting with |FRAME: 5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE|, an intermdiate in purine biosynthesis, two enzymatic steps, catalyzed by |FRAME: THIC-MONOMER &quot;ThiC&quot;| and |FRAME: HMP-P-KIN-CPLX &quot;ThiD&quot;|, produce |FRAME: AMINO-HYDROXYMETHYL-METHYLPYRIMIDINE-PP|. The first reaction is one of the most complicated rearrangement reactions known. The ThiC enzyme belongs to the radical SAM family, all members of which utilize |FRAME: S-ADENOSYLMETHIONINE| (SAM) to generate an 5&apos;-deoxyadenosyl radical that in turn serves as an oxidant for a wide variety of enzymatic reactions |CITS: [18953358]|. The first stage of catalysis is the reduction of SAM to produce |FRAME: MET| and a 5-deoxyadenosyl radical, which is generated at the active site. The radical reacts directly with the substrate to catalyze a complex rearrangement reaction that includes two iterative hydrogen atom abstractions (which necessitates the regeneration of the radical following the first abstraction). C1&apos; and C3&apos; of the substrate, which are not inorporated into the product, are converted to formate and carbon monoxide, respectively |CITS: [20886485]|. The second enzyme, ThiD, is a simple kinase. It is a bifunctional enzyme, and can also phosphorylate |FRAME: HMP|, as a part of a thiamin salvage pathway (see |FRAME: PWY-6897|) |CITS: [14973012]|.</Description>
+  <Authors>
+    <Author name="SRI" />
+    <Author name="caspi" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-6890" />
+  <Property key="Type" value="HMP-PP-Biosynthesis" />
+  <Property key="ReactionCount" value="2" />
+  <Property key="ReactionIDs" value="PYRIMSYN1-RXN, PYRIMSYN3-RXN" />
+  <Property key="PathwayLinks" value="(5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE (|AIR-Biosynthesis| . :INCOMING))" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_PMNIC2024" />
+  <CitationRef elementRef="citation_PUB_15326535" />
+  <CitationRef elementRef="citation_PUB_18953358" />
+  <CitationRef elementRef="citation_PUB_20886485" />
+  <CitationRef elementRef="citation_PUB_14973012" />
+  <Graphics boardWidth="1800.0" boardHeight="1750.0" />
+  <DataNodes>
+    <DataNode elementId="OS03G0679700" textLabel="Os03g0679700" type="GeneProduct">
+      <Xref identifier="OS03G0679700" dataSource="plantcyc" />
+      <Graphics centerX="801.5799560546875" centerY="822.7086181640625" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS03G0679700" />
+      <Property key="Products" value="OS03T0679700-04, OS03T0679700-03, OS03T0679700-02, OS03T0679700-01" />
+      <Property key="ProductCount" value="4" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os03g0679700" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS03T0679700-04" textLabel="Os03t0679700-04" type="Protein">
+      <Xref identifier="OS03T0679700-04" dataSource="plantcyc" />
+      <Graphics centerX="536.0499267578125" centerY="1160.176513671875" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS03T0679700-04" />
+      <Property key="Catalyzes" value="RXN-N7F-66421" />
+      <Property key="Accession1" value="Os03t0679700-04" />
+      <Property key="Gene" value="OS03G0679700" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="CARBON-MONOXIDE" textLabel="carbon monoxide" type="Metabolite">
+      <Xref identifier="UGFAIRIUMAVXCW-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="100.0" centerY="839.05859375" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CARBON-MONOXIDE" />
+      <Property key="AlternativeId_ReactomeCpd" value="189385" />
+      <Property key="AlternativeId_Seed" value="cpd00204" />
+      <Property key="AlternativeId_Metanetx" value="MNXM10881" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC17245" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01361" />
+      <Property key="AlternativeId_Chemspider" value="275" />
+      <Property key="AlternativeId_Chebi" value="17245" />
+      <Property key="AlternativeId_Pubchem" value="281" />
+      <Property key="AlternativeId_LigandCpd" value="C00237" />
+      <Property key="AlternativeId_Cas" value="630-08-0" />
+      <Property key="Synonym_1" value="carbon monooxide" />
+      <Property key="ChemicalFormula" value="(C 1) (O 1)" />
+      <Property key="AbbrevName" value="CO" />
+      <Property key="AtomCharges" value="(1 -1), (2 1)" />
+      <Property key="Gibbs0" value="-32.8" />
+      <Property key="Inchi" value="InChI=1S/CO/c1-2" />
+      <Property key="InchiKey" value="InChIKey=UGFAIRIUMAVXCW-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="28.01" />
+      <Property key="MonoisotopicMw" value="29.0027396542" />
+      <Property key="NonStandardInchi" value="InChI=1S/CO/c1-2" />
+      <Property key="Smiles" value="[C-]#[O+]" />
+    </DataNode>
+    <DataNode elementId="FORMATE" textLabel="formate" type="Metabolite">
+      <Xref identifier="BDAGIHXWWSANSR-UHFFFAOYSA-M" dataSource="InChIKey" />
+      <Graphics centerX="1012.5147094726562" centerY="509.7969665527344" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco">Formate is a one-carbon molecule that was first isolated from distillation of ant bodies, and it was subsequently named using the Latin word for ant, formica |CITS: [Stumper21]|. Ants and other insects accumulate formate in secretory glands and release their content as a mechanism of defense. Formate serves as an intermediate in one-carbon (1C) metabolism in all organisms. It is also a key metabolite for many bacterial and archaeal species. Depending on the physiological conditions, formate serves various roles, such as to act as a reductant in anaerobic respiration, be oxidized aerobically, be secreted, or be converted to hydrogen and CO&lt;sub&gt;2&lt;/sub&gt;. Formate is particularly common in anaerobic habitats, produced as a fermentation product of some species and used as a growth substrate for others. It is crucial compound in many syntrophic associations, in which organisms live close to the thermodynamic limit (for example, sulfate-reducing bacteria and methanogens) |CITS: [18708519][20844539]|. Its redox potential is low (around -420 mV), which allows it to donate an electron for the reduction of fumarate. In eukaryotes formate is produced from a variety of nutrients, and can be fed into a number of biosynthetic pathways. A common source of formate is the catabolism of serine or glycine (via tetrahydrofolate). Another important source is formaldehyde, which is formed by many demethylation enzymes and as a degradation product of methanol. Formate is also produced during sterol synthesis, polyamine synthesis, and tryptophan degradation, and is used during purine synthesis, thymidylate synthesis, and as the source of carbon for methylation reactions via folate and methionine (formate can be assimilated into folate by |FRAME: EC-6.3.4.3| and its carbon transferred to methionine by |FRAME: EC-2.1.1.13|. Methionine is then converted to |FRAME: S-ADENOSYLMETHIONINE|, the most common methyl group donor) |CITS: [31402327]|.</Comment>
+      <Property key="UniqueID" value="FORMATE" />
+      <Property key="AlternativeId_Refmet" value="Formic acid" />
+      <Property key="AlternativeId_Bigg" value="for" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15740" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00142" />
+      <Property key="AlternativeId_Chemspider" value="277" />
+      <Property key="AlternativeId_Chebi" value="15740" />
+      <Property key="AlternativeId_Pubchem" value="283" />
+      <Property key="AlternativeId_LigandCpd" value="C00058" />
+      <Property key="AlternativeId_Cas" value="64-18-6" />
+      <Property key="Synonym_1" value="formic acid" />
+      <Property key="Synonym_2" value="methanoate" />
+      <Property key="ChemicalFormula" value="(C 1) (H 1) (O 2)" />
+      <Property key="AtomCharges" value="(3 -1)" />
+      <Property key="Gibbs0" value="-73.93095" />
+      <Property key="Inchi" value="InChI=1S/CH2O2/c2-1-3/h1H,(H,2,3)/p-1" />
+      <Property key="InchiKey" value="InChIKey=BDAGIHXWWSANSR-UHFFFAOYSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="45.018" />
+      <Property key="MonoisotopicMw" value="46.0054793084" />
+      <Property key="NonStandardInchi" value="InChI=1S/CH2O2/c2-1-3/h1H,(H,2,3)/p-1" />
+      <Property key="Regulates" value="REG-6186" />
+      <Property key="Smiles" value="C([O-])=O" />
+      <CitationRef elementRef="citation_PUB_31402327" />
+    </DataNode>
+    <DataNode elementId="ATP" textLabel="ATP" type="Metabolite">
+      <Xref identifier="ZKHQWZAMYRWXGA-KQYNXXCUSA-J" dataSource="InChIKey" />
+      <Graphics centerX="657.489990234375" centerY="569.3721923828125" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ATP" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004261765" />
+      <Property key="AlternativeId_Mediadb" value="compounds/2/" />
+      <Property key="AlternativeId_Seed" value="cpd00002" />
+      <Property key="AlternativeId_Metanetx" value="MNXM3" />
+      <Property key="AlternativeId_Refmet" value="ATP" />
+      <Property key="AlternativeId_Bigg" value="atp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC30616" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00538" />
+      <Property key="AlternativeId_Chemspider" value="4574455" />
+      <Property key="AlternativeId_Chebi" value="30616" />
+      <Property key="AlternativeId_Pubchem" value="5461108" />
+      <Property key="AlternativeId_LigandCpd" value="C00002" />
+      <Property key="AlternativeId_Cas" value="56-65-5" />
+      <Property key="Synonym_1" value="adenylpyrophosphate" />
+      <Property key="Synonym_2" value="adenosine-triphosphate" />
+      <Property key="Synonym_3" value="adenosine-5&apos;-triphosphate" />
+      <Property key="ChemicalFormula" value="(C 10) (H 12) (N 5) (O 13) (P 3)" />
+      <Property key="AtomCharges" value="(20 -1), (19 -1), (24 -1), (22 -1)" />
+      <Property key="Gibbs0" value="-553.6995" />
+      <Property key="Inchi" value="InChI=1S/C10H16N5O13P3/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(26-10)1-25-30(21,22)28-31(23,24)27-29(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H,23,24)(H2,11,12,13)(H2,18,19,20)/p-4/t4-,6-,7-,10-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=ZKHQWZAMYRWXGA-KQYNXXCUSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="503.152" />
+      <Property key="MonoisotopicMw" value="506.99574515689994" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG0-7200, REG-8022, REG0-7674, REG-8066, REG0-8732, REG0-8749, REG-14419, REG-14422, REG-5951, REG-5950, REG-11599, REG-6554, REG0-12215" />
+      <Property key="Smiles" value="C(OP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3)" />
+    </DataNode>
+    <DataNode elementId="MET" textLabel="L-methionine" type="Metabolite">
+      <Xref identifier="FFEARJCKVFRZRR-BYPYZUCNSA-N" dataSource="InChIKey" />
+      <Graphics centerX="794.5136108398438" centerY="63.722618103027344" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco">|FRAME: MET| (met) is one of the proteinogenic amino acids. In addition to its role in proteins, L-methionine is required for a number of important cellular functions, including the initiation of protein synthesis, the methylation of DNA, rRNA and xenobiotics, and the biosynthesis of cysteine, phospholipids and polyamines. In all metzoa |FRAME: MET| is an essential amino acid (an indispensable amino acid that cannot be synthesized &lt;i&gt;de novo&lt;/i&gt;) and must be supplied in the diet.</Comment>
+      <Property key="UniqueID" value="MET" />
+      <Property key="AlternativeId_Zinc" value="ZINC000001532529" />
+      <Property key="AlternativeId_Mediadb" value="compounds/71/" />
+      <Property key="AlternativeId_Metanetx" value="MNXM61" />
+      <Property key="AlternativeId_Refmet" value="Methionine" />
+      <Property key="AlternativeId_Bigg" value="met__L" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57844" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00696" />
+      <Property key="AlternativeId_Chebi" value="57844" />
+      <Property key="AlternativeId_Pubchem" value="6992087" />
+      <Property key="AlternativeId_LigandCpd" value="C00073" />
+      <Property key="AlternativeId_Cas" value="63-68-3" />
+      <Property key="Synonym_1" value="M" />
+      <Property key="Synonym_2" value="methionine" />
+      <Property key="Synonym_3" value="L-met" />
+      <Property key="ChemicalFormula" value="(C 5) (H 11) (N 1) (O 2) (S 1)" />
+      <Property key="AbbrevName" value="met" />
+      <Property key="AtomCharges" value="(8 -1), (6 1)" />
+      <Property key="Gibbs0" value="37.072315" />
+      <Property key="Inchi" value="InChI=1S/C5H11NO2S/c1-9-3-2-4(6)5(7)8/h4H,2-3,6H2,1H3,(H,7,8)/t4-/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=FFEARJCKVFRZRR-BYPYZUCNSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="149.207" />
+      <Property key="MonoisotopicMw" value="149.0510492925" />
+      <Property key="NonStandardInchi" value="InChI=1S/C5H11NO2S/c1-9-3-2-4(6)5(7)8/h4H,2-3,6H2,1H3,(H,7,8)/t4-/m0/s1" />
+      <Property key="Smiles" value="CSCC[C@H]([NH3+])C([O-])=O" />
+    </DataNode>
+    <DataNode elementId="S-ADENOSYLMETHIONINE" textLabel="S-adenosyl-L-methionine" type="Metabolite">
+      <Xref identifier="MEFKEPWMEQBLKI-FCKMPRQPSA-O" dataSource="InChIKey" />
+      <Graphics centerX="1475.005126953125" centerY="50.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco">|FRAME: S-ADENOSYLMETHIONINE| (AdoMet, SAM) is a sulfonium compound in which each of the carbons attached to the sulfur is activated toward nucleophilic attack. It is the most common methyl group donor for methyltransferase enzymes. In addition, AdoMet is cleaved reductively by a large number of iron-sulfur cluster-containing enzymes (known as radical SAM or radical AdoMet enzymes) to produce |FRAME: CPD-15400|, which they use to activate their substrates. Another major role of AdoMet is in polyamine biosynthesis, where it is decarboxylated by |FRAME: EC-4.1.1.50|, to form |FRAME: S-ADENOSYLMETHIONINAMINE|, which serves as a propylamine group donor. AdoMet is formed by |FRAME: EC-2.5.1.6| and bears an &lt;i&gt;S&lt;/i&gt; configuration at the sulfur atom. The chiral sulfonium of AdoMet spontaneously racemizes under physiological conditions to form a mixture of &lt;i&gt;S&lt;/i&gt; and &lt;i&gt;R&lt;/i&gt; isomers. This results in reduced activity, as the |FRAME: CPD0-2554 &quot;&lt;i&gt;R&lt;/i&gt; isomer&quot;| is not accepted as a substrate for AdoMet-dependent methyltransferases |CITS: [12419350]|.</Comment>
+      <Property key="UniqueID" value="S-ADENOSYLMETHIONINE" />
+      <Property key="AlternativeId_Pubchem" value="24762165" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004214738" />
+      <Property key="AlternativeId_Seed" value="cpd00017" />
+      <Property key="AlternativeId_Metanetx" value="MNXM16" />
+      <Property key="AlternativeId_Refmet" value="S-adenosyl-L-methioninate" />
+      <Property key="AlternativeId_Bigg" value="amet" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC59789" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01185" />
+      <Property key="AlternativeId_Chebi" value="59789" />
+      <Property key="AlternativeId_LigandCpd" value="C00019" />
+      <Property key="AlternativeId_Cas" value="29908-03-0" />
+      <Property key="Synonym_1" value="(&lt;i&gt;S&lt;/i&gt;)-S-adenosyl-L-methionine" />
+      <Property key="Synonym_2" value="AdoMet" />
+      <Property key="Synonym_3" value="SAM" />
+      <Property key="Synonym_4" value="2-&lt;i&gt;S&lt;/i&gt;-adenosyl-L-methionine" />
+      <Property key="Synonym_5" value="&lt;i&gt;S&lt;/i&gt;-adenosyl-methionine" />
+      <Property key="Synonym_6" value="adenosylmethionine" />
+      <Property key="Synonym_7" value="&lt;i&gt;S&lt;/i&gt;-adenosylmethionine" />
+      <Property key="ChemicalFormula" value="(C 15) (H 23) (N 6) (O 5) (S 1)" />
+      <Property key="AbbrevName" value="SAM" />
+      <Property key="AtomCharges" value="(27 1), (24 -1), (16 1)" />
+      <Property key="Gibbs0" value="124.03472" />
+      <Property key="Inchi" value="InChI=1S/C15H22N6O5S/c1-27(3-2-7(16)15(24)25)4-8-10(22)11(23)14(26-8)21-6-20-9-12(17)18-5-19-13(9)21/h5-8,10-11,14,22-23H,2-4,16H2,1H3,(H2-,17,18,19,24,25)/p+1/t7-,8+,10+,11+,14+,27-/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=MEFKEPWMEQBLKI-FCKMPRQPSA-O" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="399.444" />
+      <Property key="MonoisotopicMw" value="400.1528886021" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG-9936, REG-9937, REG-8082, REG-7118, REG0-8461" />
+      <Property key="Smiles" value="C[S+](C[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3))CC[C@@H](C(=O)[O-])[NH3+]" />
+      <CitationRef elementRef="citation_PUB_12419350" />
+    </DataNode>
+    <DataNode elementId="ADP" textLabel="ADP" type="Metabolite">
+      <Xref identifier="XTWYTFMLZFPYCI-KQYNXXCUSA-K" dataSource="InChIKey" />
+      <Graphics centerX="1085.097412109375" centerY="917.4286499023438" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ADP" />
+      <Property key="AlternativeId_Zinc" value="ZINC000012360703" />
+      <Property key="AlternativeId_Seed" value="cpd00008" />
+      <Property key="AlternativeId_Metanetx" value="MNXM7" />
+      <Property key="AlternativeId_Refmet" value="ADP" />
+      <Property key="AlternativeId_Bigg" value="adp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC456216" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01341" />
+      <Property key="AlternativeId_Chemspider" value="5414423" />
+      <Property key="AlternativeId_Chebi" value="456216" />
+      <Property key="AlternativeId_Pubchem" value="7058055" />
+      <Property key="AlternativeId_LigandCpd" value="C00008" />
+      <Property key="AlternativeId_Cas" value="58-64-0" />
+      <Property key="Synonym_1" value="adenosine pyrophosphate" />
+      <Property key="Synonym_2" value="adenosine 5&apos;-pyrophosphate" />
+      <Property key="Synonym_3" value="adenosine-5&apos;-diphosphate" />
+      <Property key="Synonym_4" value="adenosine-diphosphate" />
+      <Property key="Synonym_5" value="adenosine-5-diphosphate" />
+      <Property key="ChemicalFormula" value="(C 10) (H 12) (N 5) (O 10) (P 2)" />
+      <Property key="AtomCharges" value="(20 -1), (19 -1), (22 -1)" />
+      <Property key="Gibbs0" value="-344.92508" />
+      <Property key="Inchi" value="InChI=1S/C10H15N5O10P2/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(24-10)1-23-27(21,22)25-26(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H2,11,12,13)(H2,18,19,20)/p-3/t4-,6-,7-,10-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=XTWYTFMLZFPYCI-KQYNXXCUSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="424.18" />
+      <Property key="MonoisotopicMw" value="427.0294147485" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG0-10568, REG-8051, REG-7113, REG0-8726, REG-8233, REG-13527, REG0-6887, REG0-8748, REG-11598, REG-6552, REG0-6846, REG-8041, REG-8731" />
+      <Property key="Smiles" value="C(OP(=O)([O-])OP(=O)([O-])[O-])[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3)" />
+    </DataNode>
+    <DataNode elementId="AMINO-HYDROXYMETHYL-METHYLPYRIMIDINE-PP" textLabel="4-amino-2-methyl-5-(diphosphooxymethyl)pyrimidine" type="Metabolite">
+      <Xref identifier="AGQJQCFEPUVXNK-UHFFFAOYSA-K" dataSource="InChIKey" />
+      <Graphics centerX="1600.0" centerY="1162.92041015625" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AMINO-HYDROXYMETHYL-METHYLPYRIMIDINE-PP" />
+      <Property key="AlternativeId_Zinc" value="ZINC000008219605" />
+      <Property key="AlternativeId_Seed" value="cpd02894" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1135" />
+      <Property key="AlternativeId_Bigg" value="2mahmp" />
+      <Property key="AlternativeId_Chebi" value="57841" />
+      <Property key="AlternativeId_Pubchem" value="25245586" />
+      <Property key="AlternativeId_Cas" value="841-01-0" />
+      <Property key="AlternativeId_LigandCpd" value="C04752" />
+      <Property key="Synonym_1" value="4-amino-5-hydroxymethyl-2-methylpyrimidine-PP" />
+      <Property key="ChemicalFormula" value="(C 6) (H 8) (N 3) (O 7) (P 2)" />
+      <Property key="AbbrevName" value="HMP-PP" />
+      <Property key="AtomCharges" value="(12 -1), (14 -1), (10 -1)" />
+      <Property key="Gibbs0" value="-350.4596" />
+      <Property key="Inchi" value="InChI=1S/C6H11N3O7P2/c1-4-8-2-5(6(7)9-4)3-15-18(13,14)16-17(10,11)12/h2H,3H2,1H3,(H,13,14)(H2,7,8,9)(H2,10,11,12)/p-3" />
+      <Property key="InchiKey" value="InChIKey=AGQJQCFEPUVXNK-UHFFFAOYSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="296.093" />
+      <Property key="MonoisotopicMw" value="299.0072227434" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Smiles" value="CC1(\N=C(C(/COP([O-])(=O)OP([O-])(=O)[O-])=C\N=1)\N)" />
+      <Property key="SystematicName" value="(4-amino-2-methylpyrimidin-5-yl)methyl diphosphate" />
+    </DataNode>
+    <DataNode elementId="AMINO-HYDROXYMETHYL-METHYL-PYR-P" textLabel="4-amino-2-methyl-5-(phosphooxymethyl)pyrimidine" type="Metabolite">
+      <Xref identifier="PKYFHKIYHBRTPI-UHFFFAOYSA-L" dataSource="InChIKey" />
+      <Graphics centerX="1448.2218017578125" centerY="624.7098999023438" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AMINO-HYDROXYMETHYL-METHYL-PYR-P" />
+      <Property key="AlternativeId_Zinc" value="ZINC000001529994" />
+      <Property key="AlternativeId_Metanetx" value="MNXM790" />
+      <Property key="AlternativeId_Bigg" value="4ampm" />
+      <Property key="AlternativeId_Chebi" value="58354" />
+      <Property key="AlternativeId_Pubchem" value="25244846" />
+      <Property key="AlternativeId_LigandCpd" value="C04556" />
+      <Property key="Synonym_1" value="4-amino-5-phosphomethyl-2-methylpyrimidine" />
+      <Property key="Synonym_2" value="4-amino-5-hydroxymethyl-2-methylpyrimidine-phosphate" />
+      <Property key="ChemicalFormula" value="(C 6) (H 8) (N 3) (O 4) (P 1)" />
+      <Property key="AbbrevName" value="HMP-P" />
+      <Property key="AtomCharges" value="(11 -1), (10 -1)" />
+      <Property key="Gibbs0" value="-140.89928" />
+      <Property key="Inchi" value="InChI=1S/C6H10N3O4P/c1-4-8-2-5(6(7)9-4)3-13-14(10,11)12/h2H,3H2,1H3,(H2,7,8,9)(H2,10,11,12)/p-2" />
+      <Property key="InchiKey" value="InChIKey=PKYFHKIYHBRTPI-UHFFFAOYSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="217.121" />
+      <Property key="MonoisotopicMw" value="219.040892335" />
+      <Property key="NonStandardInchi" value="InChI=1S/C6H10N3O4P/c1-4-8-2-5(6(7)9-4)3-13-14(10,11)12/h2H,3H2,1H3,(H2,7,8,9)(H2,10,11,12)/p-2" />
+      <Property key="Smiles" value="CC1(\N=C/C(/COP(=O)([O-])[O-])=C(N)\N=1)" />
+      <Property key="SystematicName" value="(4-amino-2-methylpyrimidin-5-yl)methyl phosphate" />
+    </DataNode>
+    <DataNode elementId="CH33ADO" textLabel="5&apos;-deoxyadenosine" type="Metabolite">
+      <Xref identifier="XGYIMTFOTBMPFP-KQYNXXCUSA-N" dataSource="InChIKey" />
+      <Graphics centerX="886.9102783203125" centerY="703.9298095703125" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco">|FRAME: CH33ADO &quot;5&apos;-Deoxyadenosine&quot;| is a common byproduct of |FRAME: Radical-AdoMet-Enzymes &quot;radical-&lt;i&gt;S&lt;/i&gt;-adenosyl-L-methionine-dependent enzymes&quot;|. Since it acts as an inhibitor of radical SAM enzymes, pathways for its removal must be present in an organism.</Comment>
+      <Property key="UniqueID" value="CH33ADO" />
+      <Property key="AlternativeId_Zinc" value="ZINC000001999286" />
+      <Property key="AlternativeId_Seed" value="cpd03091" />
+      <Property key="AlternativeId_Metanetx" value="MNXM316" />
+      <Property key="AlternativeId_Refmet" value="5&apos;-Deoxyadenosine" />
+      <Property key="AlternativeId_Bigg" value="dad_5" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC17319" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01983" />
+      <Property key="AlternativeId_Chemspider" value="388325" />
+      <Property key="AlternativeId_Pubchem" value="439182" />
+      <Property key="AlternativeId_Chebi" value="17319" />
+      <Property key="AlternativeId_LigandCpd" value="C05198" />
+      <Property key="Synonym_1" value="CH&lt;sub&gt;3&lt;/sub&gt;Ado" />
+      <Property key="ChemicalFormula" value="(C 10) (H 13) (N 5) (O 3)" />
+      <Property key="AbbrevName" value="5&apos;-dA" />
+      <Property key="Gibbs0" value="79.14557" />
+      <Property key="Inchi" value="InChI=1S/C10H13N5O3/c1-4-6(16)7(17)10(18-4)15-3-14-5-8(11)12-2-13-9(5)15/h2-4,6-7,10,16-17H,1H3,(H2,11,12,13)/t4-,6-,7-,10-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=XGYIMTFOTBMPFP-KQYNXXCUSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="251.244" />
+      <Property key="MonoisotopicMw" value="251.1018393096" />
+      <Property key="NonStandardInchi" value="InChI=1S/C10H13N5O3/c1-4-6(16)7(17)10(18-4)15-3-14-5-8(11)12-2-13-9(5)15/h2-4,6-7,10,16-17H,1H3,(H2,11,12,13)/t4-,6-,7-,10-/m1/s1" />
+      <Property key="Smiles" value="C[C@H]3(O[C@@H](N1(C2(\N=C/N=C(C(\N=C/1)=2)/N)))[C@H](O)[C@H](O)3)" />
+    </DataNode>
+    <DataNode elementId="_5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE" textLabel="5-amino-1-(5-phospho-β-D-ribosyl)imidazole" type="Metabolite">
+      <Xref identifier="PDACUKOKVHBVHJ-XVFCMESISA-M" dataSource="InChIKey" />
+      <Graphics centerX="216.89102172851562" centerY="175.37266540527344" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco">|FRAME: 5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE| (AIR) is a key intermediate in the biosynthesis of |FRAME: Purine-Nucleotides &quot;purine nocleotides&quot;| and |FRAME: THIAMINE|.</Comment>
+      <Property key="UniqueID" value="5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004096090" />
+      <Property key="AlternativeId_ReactomeCpd" value="111370" />
+      <Property key="AlternativeId_Seed" value="cpd02140" />
+      <Property key="AlternativeId_Metanetx" value="MNXM388" />
+      <Property key="AlternativeId_Chebi" value="137981" />
+      <Property key="AlternativeId_Refmet" value="5-Aminoimidazole ribonucleotide" />
+      <Property key="AlternativeId_Bigg" value="air" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01235" />
+      <Property key="AlternativeId_Pubchem" value="44229244" />
+      <Property key="AlternativeId_Cas" value="25635-88-5" />
+      <Property key="AlternativeId_LigandCpd" value="C03373" />
+      <Property key="Synonym_1" value="5-aminoimidazole ribonucleotide" />
+      <Property key="Synonym_2" value="5-amino-1-(5-phospho-D-ribosyl)imidazole" />
+      <Property key="Synonym_3" value="5-aminoimidazole ribotide" />
+      <Property key="Synonym_4" value="1-(5&apos;-phosphoribosyl)-5-aminoimidazole" />
+      <Property key="Synonym_5" value="5&apos;-phosphoribosyl-5-aminoimidazole" />
+      <Property key="Synonym_6" value="phosphoribosylaminoimidazole" />
+      <Property key="ChemicalFormula" value="(C 8) (H 13) (N 3) (O 7) (P 1)" />
+      <Property key="AbbrevName" value="AIR" />
+      <Property key="AtomCharges" value="(16 -1), (14 -1), (10 1)" />
+      <Property key="Gibbs0" value="-174.2275" />
+      <Property key="Inchi" value="InChI=1S/C8H14N3O7P/c9-5-1-10-3-11(5)8-7(13)6(12)4(18-8)2-17-19(14,15)16/h1,3-4,6-8,12-13H,2,9H2,(H2,14,15,16)/p-1/t4-,6-,7-,8-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=PDACUKOKVHBVHJ-XVFCMESISA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="294.18" />
+      <Property key="MonoisotopicMw" value="295.05693632969997" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Smiles" value="C1(\[NH+]=C/N(C(/N)=1)[C@@H]2(O[C@H](COP(=O)([O-])[O-])[C@@H](O)[C@@H](O)2))" />
+    </DataNode>
+    <DataNode elementId="PROTON" textLabel="H⁺" type="Metabolite">
+      <Xref identifier="GPRLSGONYQIRFK-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="918.3116455078125" centerY="1550.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PROTON" />
+      <Property key="AlternativeId_Bigg" value="h" />
+      <Property key="AlternativeId_Seed" value="cpd00067" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1" />
+      <Property key="AlternativeId_Hmdb" value="HMDB59597" />
+      <Property key="AlternativeId_Chemspider" value="1010" />
+      <Property key="AlternativeId_Pubchem" value="1038" />
+      <Property key="AlternativeId_Chebi" value="15378" />
+      <Property key="AlternativeId_Cas" value="12408-02-5" />
+      <Property key="AlternativeId_LigandCpd" value="C00080" />
+      <Property key="Synonym_1" value="H" />
+      <Property key="Synonym_2" value="hydrogen ion" />
+      <Property key="Synonym_3" value="proton" />
+      <Property key="ChemicalFormula" value="(H 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="0.42906138" />
+      <Property key="Inchi" value="InChI=1S/p+1" />
+      <Property key="InchiKey" value="InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1.008" />
+      <Property key="MonoisotopicMw" value="1.0078250321" />
+      <Property key="NonStandardInchi" value="InChI=1S/p+1" />
+      <Property key="Smiles" value="[H+]" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="846.5799560546875" y="822.7086181640625" elementRef="OS03G0679700" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="491.0499267578125" y="1160.176513671875" elementRef="OS03T0679700-04" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PYRIMSYN1-RXN">
+      <Xref identifier="EC-4.1.99.17" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="PYRIMSYN1-RXN_start" x="261.8910217285156" y="175.37266540527344" elementRef="_5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE" relX="1.0" relY="0.0" />
+        <Point elementId="PYRIMSYN1-RXN_end" arrowHead="Conversion" x="1403.2218017578125" y="624.7098999023438" elementRef="AMINO-HYDROXYMETHYL-METHYL-PYR-P" relX="-1.0" relY="0.0" />
+        <Anchor elementId="PYRIMSYN1-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="PYRIMSYN1-RXN" />
+      <Property key="EC_Number" value="EC-4.1.99.17" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-6890" />
+      <Property key="ReactionEquation" value="S-ADENOSYLMETHIONINE + 5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE =&gt; AMINO-HYDROXYMETHYL-METHYL-PYR-P + CH33ADO + MET + FORMATE + CARBON-MONOXIDE + PROTON" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXNN7F-66421" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (18 19 20 0 1 2 21 3 4 5 6 7 8 9 22 23 10 11 12 13 14 15 16 25 24 17 26 27 29 44 41 30 32 31 28 35 33 34 42 45 36 38 37 39 43 40) (((&quot;CH33ADO&quot; 0 17) (&quot;MET&quot; 18 26) (&quot;AMINO-HYDROXYMETHYL-METHYL-PYR-P&quot; 27 40) (&quot;FORMATE&quot; 41 43) (&quot;CARBON-MONOXIDE&quot; 44 45)) ((&quot;S-ADENOSYLMETHIONINE&quot; 0 26) (&quot;5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE&quot; 27 45)))), (:NO-HYDROGEN-ENCODING (18 19 20 0 1 2 21 3 4 5 6 7 8 9 22 23 10 11 12 13 14 15 16 25 24 17 26 27 29 44 41 30 32 31 28 35 33 34 45 42 36 38 37 39 43 40) (((&quot;CH33ADO&quot; 0 17) (&quot;MET&quot; 18 26) (&quot;AMINO-HYDROXYMETHYL-METHYL-PYR-P&quot; 27 40) (&quot;FORMATE&quot; 41 43) (&quot;CARBON-MONOXIDE&quot; 44 45)) ((&quot;S-ADENOSYLMETHIONINE&quot; 0 26) (&quot;5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE&quot; 27 45)))), (:NO-HYDROGEN-ENCODING (18 19 20 0 1 2 21 3 4 5 6 7 8 9 22 23 10 11 12 13 14 15 16 25 24 17 26 27 29 41 44 30 32 31 28 35 33 34 42 43 36 38 37 39 45 40) (((&quot;CH33ADO&quot; 0 17) (&quot;MET&quot; 18 26) (&quot;AMINO-HYDROXYMETHYL-METHYL-PYR-P&quot; 27 40) (&quot;FORMATE&quot; 41 43) (&quot;CARBON-MONOXIDE&quot; 44 45)) ((&quot;S-ADENOSYLMETHIONINE&quot; 0 26) (&quot;5-PHOSPHORIBOSYL-5-AMINOIMIDAZOLE&quot; 27 45))))" />
+      <Property key="CannotBalance?" value="NIL" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-79.93238" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^coefficient" value="3" />
+    </Interaction>
+    <Interaction elementId="PYRIMSYN1-RXN_ENZRXNN7F-66421">
+      <Waypoints>
+        <Point elementId="PYRIMSYN1-RXN_ENZRXNN7F-66421_start" x="536.0499267578125" y="1172.676513671875" elementRef="OS03T0679700-04" relX="0.0" relY="1.0" />
+        <Point elementId="PYRIMSYN1-RXN_ENZRXNN7F-66421_end" arrowHead="Catalysis" x="0" y="0" elementRef="PYRIMSYN1-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PYRIMSYN1-RXN_anchor_reactant_0">
+      <Xref identifier="EC-4.1.99.17" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="PYRIMSYN1-RXN_anchor_reactant_start_0" x="1520.005126953125" y="50.0" elementRef="S-ADENOSYLMETHIONINE" relX="1.0" relY="0.0" />
+        <Point elementId="PYRIMSYN1-RXN_anchor_reactant_end_0" x="0" y="0" elementRef="PYRIMSYN1-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PYRIMSYN1-RXN_anchor_product_1">
+      <Xref identifier="EC-4.1.99.17" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="PYRIMSYN1-RXN_anchor_product_start_1" x="0" y="0" elementRef="PYRIMSYN1-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="PYRIMSYN1-RXN_anchor_product_end_1" arrowHead="Conversion" x="841.9102783203125" y="703.9298095703125" elementRef="CH33ADO" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PYRIMSYN1-RXN_anchor_product_2">
+      <Xref identifier="EC-4.1.99.17" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="PYRIMSYN1-RXN_anchor_product_start_2" x="0" y="0" elementRef="PYRIMSYN1-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="PYRIMSYN1-RXN_anchor_product_end_2" arrowHead="Conversion" x="749.5136108398438" y="63.722618103027344" elementRef="MET" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PYRIMSYN1-RXN_anchor_product_3">
+      <Xref identifier="EC-4.1.99.17" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="PYRIMSYN1-RXN_anchor_product_start_3" x="0" y="0" elementRef="PYRIMSYN1-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="PYRIMSYN1-RXN_anchor_product_end_3" arrowHead="Conversion" x="967.5147094726562" y="509.7969665527344" elementRef="FORMATE" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PYRIMSYN1-RXN_anchor_product_4">
+      <Xref identifier="EC-4.1.99.17" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="PYRIMSYN1-RXN_anchor_product_start_4" x="0" y="0" elementRef="PYRIMSYN1-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="PYRIMSYN1-RXN_anchor_product_end_4" arrowHead="Conversion" x="55.0" y="839.05859375" elementRef="CARBON-MONOXIDE" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PYRIMSYN1-RXN_anchor_product_5">
+      <Xref identifier="EC-4.1.99.17" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="PYRIMSYN1-RXN_anchor_product_start_5" x="0" y="0" elementRef="PYRIMSYN1-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="PYRIMSYN1-RXN_anchor_product_end_5" arrowHead="Conversion" x="873.3116455078125" y="1550.0" elementRef="PROTON" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PYRIMSYN3-RXN">
+      <Xref identifier="EC-2.7.4.7" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="PYRIMSYN3-RXN_start" x="1493.2218017578125" y="624.7098999023438" elementRef="AMINO-HYDROXYMETHYL-METHYL-PYR-P" relX="1.0" relY="0.0" />
+        <Point elementId="PYRIMSYN3-RXN_end" arrowHead="Conversion" x="1555.0" y="1162.92041015625" elementRef="AMINO-HYDROXYMETHYL-METHYLPYRIMIDINE-PP" relX="-1.0" relY="0.0" />
+        <Anchor elementId="PYRIMSYN3-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="PYRIMSYN3-RXN" />
+      <Property key="EC_Number" value="EC-2.7.4.7" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-7356, PWY-6890" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="AMINO-HYDROXYMETHYL-METHYL-PYR-P + ATP =&gt; AMINO-HYDROXYMETHYL-METHYLPYRIMIDINE-PP + ADP" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 37 38 36 20 21 17 19 22 23 18 24 43 26 25 27 28 29 30 31 32 33 34 35 42 40 39 41 44) (((&quot;ADP&quot; 0 26) (&quot;AMINO-HYDROXYMETHYL-METHYLPYRIMIDINE-PP&quot; 27 44)) ((&quot;ATP&quot; 0 30) (&quot;AMINO-HYDROXYMETHYL-METHYL-PYR-P&quot; 31 44))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-0.78582764" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="PYRIMSYN3-RXN_anchor_reactant_1">
+      <Xref identifier="EC-2.7.4.7" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="PYRIMSYN3-RXN_anchor_reactant_start_1" x="702.489990234375" y="569.3721923828125" elementRef="ATP" relX="1.0" relY="0.0" />
+        <Point elementId="PYRIMSYN3-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="PYRIMSYN3-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="PYRIMSYN3-RXN_anchor_product_1">
+      <Xref identifier="EC-2.7.4.7" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="PYRIMSYN3-RXN_anchor_product_start_1" x="0" y="0" elementRef="PYRIMSYN3-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="PYRIMSYN3-RXN_anchor_product_end_1" arrowHead="Conversion" x="1040.097412109375" y="917.4286499023438" elementRef="ADP" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_31402327">
+      <Xref identifier="31402327" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_14973012">
+      <Xref identifier="14973012" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_12419350">
+      <Xref identifier="12419350" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_20886485">
+      <Xref identifier="20886485" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_PMNIC2024">
+      <Xref identifier="PUB-PMNIC2024 | This pathway was not predicted to exist in this species using PathoLogic (version 28.0), but was imp... (2024)" dataSource="BioCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_15326535">
+      <Xref identifier="15326535" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_18953358">
+      <Xref identifier="18953358" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="RXN-17879" organism="cellular organisms" source="PlantCyc" version="20260304101735">
+  <Description>Single reaction view for RXN-17879: RXN-17879</Description>
+  <Authors>
+    <Author name="BioCyc" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from BioCyc single reaction data.</Comment>
+  <Property key="UniqueID" value="RXN-17879" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="OS05G0387900" textLabel="Os05g0387900" type="GeneProduct">
+      <Xref identifier="OS05G0387900" dataSource="plantcyc" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS05G0387900" />
+      <Property key="Product" value="OS05T0387900-01" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os05g0387900" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS05T0387900-01" textLabel="Os05t0387900-01" type="Protein">
+      <Xref identifier="OS05T0387900-01" dataSource="plantcyc" />
+      <Graphics centerX="150" centerY="215" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS05T0387900-01" />
+      <Property key="Catalyzes" value="RXN-N7F-64967" />
+      <Property key="Accession1" value="Os05t0387900-01" />
+      <Property key="Gene" value="OS05G0387900" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="L-Glutaminyl-Peptides" textLabel="an N-terminal L-glutaminyl-[protein]" type="Metabolite">
+      <Xref identifier="MNXM164550" dataSource="MetaNetX" />
+      <Graphics centerX="200" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="PMN, zhang, SRI, caspi">In eukaryotes, |FRAME: N-terminal-asparagine &quot;N-terminal Asn&quot;| (N) and |FRAME: L-Glutaminyl-Peptides &quot;N-terminal Gln&quot;| (Q) are tertiary destabilizing residues in that they function, through enzymatic deamidation, to yield the secondary destabilizing N-terminal residues Asp (D) and Glu (E). Asp and Glu are conjugaed by ATE1-encoded Arg-tRNA-protein transferase, to arginine, one of the primary destabilizing N-terminal residues. Arginine is recognized by the E3 Ub ligases of the N-end rule pathway, called N-recognins. A third destabilizing residue that functions through arginylation is an |FRAME: N-terminal-L-cysteine &quot;N-terminal Cys&quot;| (C), which is arginylated after its nitric oxide (NO)-dependent oxidation to |FRAME: N-terminal-L-cysteine-sulfinate| or |FRAME: N-terminal-L-cysteine-sulfonate| (via |FRAME: Protein-nitrosothiol-L-alanine|) |CITS: [16222293]|.</Comment>
+      <Property key="UniqueID" value="L-Glutaminyl-Peptides" />
+      <Property key="AlternativeId_Metanetx" value="MNXM164550" />
+      <Property key="Synonym_1" value="a peptide with N-terminal L-glutamine" />
+      <Property key="Synonym_2" value="a [protein] N-terminal L-glutamine" />
+      <Property key="AtomCharges" value="(6 1)" />
+      <Property key="HasNoStructure?" value="T" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/C5H10N2O2/c6-4(3-8)1-2-5(7)9/h3-4H,1-2,6H2,(H2,7,9)/p+1/t4-/m0/s1" />
+      <Property key="Smiles" value="C(=O)([a protein])[C@@H]([NH3+])CCC(=O)N" />
+      <CitationRef elementRef="citation_PUB_16222293" />
+    </DataNode>
+    <DataNode elementId="WATER" textLabel="H₂O" type="Metabolite">
+      <Xref identifier="XLYOFNOQVPJJNP-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="WATER" />
+      <Property key="AlternativeId_Bigg" value="h2o" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15377" />
+      <Property key="AlternativeId_Hmdb" value="HMDB02111" />
+      <Property key="AlternativeId_Chemspider" value="937" />
+      <Property key="AlternativeId_Chebi" value="15377" />
+      <Property key="AlternativeId_Pubchem" value="962" />
+      <Property key="AlternativeId_LigandCpd" value="C00001" />
+      <Property key="AlternativeId_Cas" value="7732-18-5" />
+      <Property key="Synonym_1" value="H20" />
+      <Property key="Synonym_2" value="H&lt;sub&gt;2&lt;/sub&gt;0" />
+      <Property key="Synonym_3" value="H2O" />
+      <Property key="Synonym_4" value="hydrogen oxide" />
+      <Property key="Synonym_5" value="water" />
+      <Property key="ChemicalFormula" value="(H 2) (O 1)" />
+      <Property key="Gibbs0" value="-36.144756" />
+      <Property key="Inchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="InchiKey" value="InChIKey=XLYOFNOQVPJJNP-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="18.015" />
+      <Property key="MonoisotopicMw" value="18.0105646863" />
+      <Property key="NonStandardInchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="Smiles" value="O" />
+    </DataNode>
+    <DataNode elementId="L-Glutamyl-Peptides" textLabel="an N-terminal L-glutamyl-[protein]" type="Metabolite">
+      <Xref identifier="C21456" dataSource="KEGG Compound" />
+      <Graphics centerX="500" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="L-Glutamyl-Peptides" />
+      <Property key="AlternativeId_Seed" value="cpd27364" />
+      <Property key="AlternativeId_Metanetx" value="MNXM18908" />
+      <Property key="AlternativeId_LigandCpd" value="C21456" />
+      <Property key="Synonym_1" value="a [protein] N-terminal L-glutamate" />
+      <Property key="AtomCharges" value="(8 -1), (6 1)" />
+      <Property key="HasNoStructure?" value="T" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/C5H9NO3/c6-4(3-7)1-2-5(8)9/h3-4H,1-2,6H2,(H,8,9)/t4-/m0/s1" />
+      <Property key="Smiles" value="C(=O)([a protein])[C@@H]([NH3+])CCC(=O)[O-]" />
+    </DataNode>
+    <DataNode elementId="AMMONIUM" textLabel="ammonium" type="Metabolite">
+      <Xref identifier="QGZKDVFQNNGYKY-UHFFFAOYSA-O" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="500" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="AMMONIUM" />
+      <Property key="AlternativeId_Mediadb" value="compounds/1211/" />
+      <Property key="AlternativeId_Bigg" value="nh4" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC28938" />
+      <Property key="AlternativeId_Hmdb" value="HMDB41827" />
+      <Property key="AlternativeId_Chebi" value="28938" />
+      <Property key="AlternativeId_Chemspider" value="218" />
+      <Property key="AlternativeId_Pubchem" value="223" />
+      <Property key="AlternativeId_LigandCpd" value="C01342" />
+      <Property key="AlternativeId_Cas" value="14798-03-9" />
+      <Property key="Synonym_1" value="NH&lt;SUB&gt;4&lt;/SUB&gt;&lt;SUP&gt;+&lt;/SUP&gt;" />
+      <Property key="ChemicalFormula" value="(H 4) (N 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="21.812426" />
+      <Property key="Inchi" value="InChI=1S/H3N/h1H3/p+1" />
+      <Property key="InchiKey" value="InChIKey=QGZKDVFQNNGYKY-UHFFFAOYSA-O" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="InternalsOfGroup" value="GLYCO-CT-AMINO" />
+      <Property key="MolecularWeight" value="18.038" />
+      <Property key="MonoisotopicMw" value="18.0343741336" />
+      <Property key="NonStandardInchi" value="InChI=1S/H3N/h1H3/p+1" />
+      <Property key="Regulates" value="REG0-7616, REG-7120, REG-6227, REG0-12168" />
+      <Property key="Smiles" value="[NH4+]" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="OS05G0387900" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="215" elementRef="OS05T0387900-01" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-17879">
+      <Xref identifier="EC-3.5.1.122" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-17879_start" x="245.0" y="400" elementRef="L-Glutaminyl-Peptides" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-17879_end" arrowHead="Conversion" x="455.0" y="400" elementRef="L-Glutamyl-Peptides" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-17879_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-17879" />
+      <Property key="EC_Number" value="EC-3.5.1.122" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="ReactionEquation" value="L-Glutaminyl-Peptides + WATER =&gt; L-Glutamyl-Peptides + AMMONIUM" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXNN7F-64967" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 7 10 8 9 6) (((|L-Glutaminyl-Peptides| 0 9) (WATER 10 10)) ((|L-Glutamyl-Peptides| 0 9) (AMMONIUM 10 10))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="15.829239" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-17879_ENZRXNN7F-64967">
+      <Waypoints>
+        <Point elementId="RXN-17879_ENZRXNN7F-64967_start" x="150" y="227.5" elementRef="OS05T0387900-01" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-17879_ENZRXNN7F-64967_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-17879_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-17879_anchor_reactant_1">
+      <Xref identifier="EC-3.5.1.122" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-17879_anchor_reactant_start_1" x="395.0" y="400" elementRef="WATER" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-17879_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-17879_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-17879_anchor_product_1">
+      <Xref identifier="EC-3.5.1.122" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-17879_anchor_product_start_1" x="0" y="0" elementRef="RXN-17879_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-17879_anchor_product_end_1" arrowHead="Conversion" x="155.0" y="500" elementRef="AMMONIUM" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_16222293">
+      <Xref identifier="16222293" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

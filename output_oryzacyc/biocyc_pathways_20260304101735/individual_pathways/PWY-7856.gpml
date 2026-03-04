@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="heme a biosynthesis" organism="cellular organisms" source="PlantCyc" version="20260304101735">
+  <Xref identifier="PWY-7856" dataSource="MetaCyc" />
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Oryza sativa Japonica Group&lt;/i&gt;: This pathway is on the list of Accept-If-Predicted Pathways (AIPP) generated for the COMET project, which includes pathways that are present widely throughout the plant kingdom. The AIPP list contains pathways that are automatically accepted if they are predicted for any plant species database. However, AIPP pathways are not automatically imported into databases if they are not predicted by the Pathologic program. &lt;A href=&quot;https://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; |FRAME: HEME_O &quot;Heme &lt;i&gt;o&lt;/i&gt;&quot;| and |FRAME: HEME_A &quot;heme &lt;i&gt;a&lt;/i&gt;&quot;| are key compounds of the aerobic respiration in mitochondria and bacteria and used for the dioxygen reduction site of the heme-copper terminal oxidases (e.g. |FRAME: EC-7.1.1.9| and |FRAME: EC-7.1.1.3|). |FRAME: Heme-b &quot;Heme &lt;i&gt;b&lt;/i&gt;&quot;| (protoheme IX), the product of the initial heme biosynthetic pathways, is preferred as an electron-accepting heme and used as the dioxygen reduction site only in microaerobic cytochrome &lt;i&gt;bb3&lt;/i&gt; and &lt;i&gt;cbb3&lt;/i&gt; terminal oxidases. Both |FRAME: HEME_O| and |FRAME: HEME_A| carry a 17-hydroxyethylfarnesyl group at position 2 of pyrrole ring A. They differ only in a formyl group at position 8 of pyrrole ring D that is found in |FRAME: HEME_A|. Like in |FRAME: Cytochromes-B &quot;&lt;i&gt;b&lt;/i&gt;-type cytochromes&quot;|, heme &lt;i&gt;a&lt;/i&gt; is often attached to the apoprotein through a coordinate bond between the heme iron and a conserved amino acid side-chain. All known heme &lt;i&gt;a&lt;/i&gt;-containing oxidases belong to the hemecopper superfamily of terminal oxidases |CITS: [808315]|. |FRAME: HEME_A &quot;Heme &lt;i&gt;a&lt;/i&gt;&quot;| is derived from |FRAME: Heme-b| by two integral-membrane enzymes that were initially identified in bacteria, and later found in eukaryotes. The first step, catalyzed by |FRAME: EC-2.5.1.141|, consists of the addition of a farnesyl tail to the vinyl group on pyrrole ring A. This enzyme is well characterized. The second reaction, catalyzed by heme &lt;i&gt;a&lt;/i&gt; synthase, is less well understood. The enzyme oxidizes the methyl substituent on pyrrole ring D to an aldehyde, apparently by two successive hydroxylation. The first hydroxylation forms |FRAME: Heme_I|, the second hydroxylation results in an unstable dihydroxymethyl group, which spontaneously decomposes into a formyl group and a water molecule. However, while heme &lt;i&gt;a&lt;/i&gt; synthase is strictly dependent on molecular oxygen, the source of the oxygen atom in |FRAME: HEME_A| was shown not to be molecular oxygen. It may be derived from water, but this has not been proven, and the mechanism for such a reaction is not understood |CITS: [15236569]|. In addition, it is still unknown how electrons enter the bacterial enzyme (both a thioredoxin-like protein and menaquinol have been suggested). For a review see |CITS: [22484221]|.</Description>
+  <Authors>
+    <Author name="AU4FS-1" />
+    <Author name="SRI" />
+    <Author name="caspi" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-7856" />
+  <Property key="Type" value="HEME-SYN" />
+  <Property key="ReactionCount" value="4" />
+  <Property key="ReactionIDs" value="RXN-18431, RXN-18430, RXN-18428, HEMEOSYN-RXN" />
+  <Property key="PredecessorCount" value="4" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_808315" />
+  <CitationRef elementRef="citation_PUB_15236569" />
+  <CitationRef elementRef="citation_PUB_22484221" />
+  <Graphics boardWidth="1800.0" boardHeight="1750.0" />
+  <DataNodes>
+    <DataNode elementId="OS01G0527700" textLabel="Os01g0527700" type="GeneProduct">
+      <Xref identifier="OS01G0527700" dataSource="plantcyc" />
+      <Graphics centerX="925.16162109375" centerY="595.4088134765625" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS01G0527700" />
+      <Property key="Products" value="OS01T0527700-02, OS01T0527700-01" />
+      <Property key="ProductCount" value="2" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os01g0527700" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS01T0527700-02" textLabel="Os01t0527700-02" type="Protein">
+      <Xref identifier="OS01T0527700-02" dataSource="plantcyc" />
+      <Graphics centerX="1138.2791748046875" centerY="835.8812255859375" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS01T0527700-02" />
+      <Property key="Catalyzes" value="RXN-N7F-68914" />
+      <Property key="Accession1" value="Os01t0527700-02" />
+      <Property key="Gene" value="OS01G0527700" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="Donor-H2" textLabel="Donor-H2" type="Metabolite">
+      <Xref identifier="Donor-H2" dataSource="" />
+      <Graphics centerX="615.9423828125" centerY="233.54481506347656" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="CPD-13734" textLabel="ferroheme a" type="Metabolite">
+      <Xref identifier="ZGGYGTCPXNDTRV-PRYGPKJJSA-J" dataSource="InChIKey" />
+      <Graphics centerX="882.69873046875" centerY="786.853515625" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="AU4FS-1, SRI, caspi">&apos;Heme&apos; is usually understood as any tetrapyrrolic chelate of iron. The terms &apos;ferroheme&apos; and &apos;ferriheme&apos; refer to the Fe(II) and Fe(III) oxidation states in heme (even though Fe(IV) is found as a catalytic intermediate in some systems). Heme &lt;i&gt;a&lt;/i&gt; was first isolated in 1951 and shown to be the active component of the integral membrane metalloprotein |FRAME: EC-7.1.1.9| |CITS: [Warburg51]|. The correct structure was published in 1975 |CITS: [170266]|. The immediate product of the heme biosynthesis pathways (by ferro-chelation of |FRAME: PROTOPORPHYRIN_IX|) is |FRAME: Heme-b &quot;heme &lt;i&gt;b&lt;/i&gt;&quot;|, whose |FRAME: PROTOHEME &quot;ferrous form&quot;| is known as protoheme IX. |FRAME: HEME_A &quot;Heme &lt;i&gt;a&lt;/i&gt;&quot;| differs from heme &lt;i&gt;b&lt;/i&gt; in that a methyl side chain at ring position 8 is oxidized to a formyl group, and a hydroxyethylfarnesyl chain is attached to the vinyl side chain at ring position 2. It is synthesized from |FRAME: Heme-b| via |FRAME: HEME_O|, which lacks the formyl group but contains the hydroxyethylfarnesyl chain, and a short-lived |FRAME: Heme_I| intermediate |CITS: [7885224]|. |FRAME: HEME_A &quot;Heme &lt;i&gt;a&lt;/i&gt;&quot;| is part of |FRAME: A-type-Cytochromes &quot;&lt;i&gt;a&lt;/i&gt;-type cytochromes&quot;|. Like in |FRAME: Cytochromes-B &quot;&lt;i&gt;b&lt;/i&gt;-type cytochromes&quot;|, heme &lt;i&gt;a&lt;/i&gt; is often attached to the apoprotein through a coordinate bond between the heme iron and a conserved amino acid side-chain. Heme &lt;i&gt;a&lt;/i&gt; is found exclusively in respiratory oxidases of mitochondria and aerobic bacteria, and all known heme &lt;i&gt;a&lt;/i&gt;-containing oxidases belong to the hemecopper superfamily of terminal oxidases |CITS: [808315]|.</Comment>
+      <Property key="UniqueID" value="CPD-13734" />
+      <Property key="AlternativeId_ReactomeCpd" value="2995348" />
+      <Property key="AlternativeId_Seed" value="cpd11312" />
+      <Property key="AlternativeId_Metanetx" value="MNXM53309" />
+      <Property key="ChemicalFormula" value="(C 49) (H 54) (N 4) (O 6) (FE 1)" />
+      <Property key="AtomCharges" value="(60 -2), (58 -1), (56 -1), (53 1), (50 1)" />
+      <Property key="Gibbs0" value="561.44226" />
+      <Property key="Inchi" value="InChI=1S/C49H58N4O6.Fe/c1-9-34-31(6)39-25-45-49(46(55)18-12-17-30(5)16-11-15-29(4)14-10-13-28(2)3)33(8)40(52-45)24-44-37(27-54)36(20-22-48(58)59)43(53-44)26-42-35(19-21-47(56)57)32(7)38(51-42)23-41(34)50-39;/h9,13,15,17,23-27,46,55H,1,10-12,14,16,18-22H2,2-8H3,(H4,50,51,52,53,54,56,57,58,59);/q;+2/p-4/b29-15+,30-17+,38-23-,39-25-,40-24-,41-23-,42-26-,43-26-,44-24-,45-25-;/t46-;/m0./s1" />
+      <Property key="InchiKey" value="InChIKey=ZGGYGTCPXNDTRV-PRYGPKJJSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="850.836" />
+      <Property key="MonoisotopicMw" value="854.3705777151999" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Smiles" value="C=CC4(\C6(/C=C8(C(/C)=C(CCC(=O)[O-])/C1(/N([Fe-2]35([N+]2(\C(/C(/C=O)=C(CCC(=O)[O-])\C(/C=1)=2)=C/C7(/N3C(\C=C(C(/C)=4)/[N+]\5=6)=C(C(/C)=7)/[C@@H](O)CC/C=C(C)/CC/C=C(C)/CCC=C(C)C))))8))))" />
+      <CitationRef elementRef="citation_PUB_170266" />
+      <CitationRef elementRef="citation_PUB_7885224" />
+      <CitationRef elementRef="citation_PUB_808315" />
+    </DataNode>
+    <DataNode elementId="FARNESYL-PP" textLabel="(2E,6E)-farnesyl pyrophosphate" type="Metabolite">
+      <Xref identifier="VWFJDQUYCIWHTN-YFVJMOTDSA-K" dataSource="InChIKey" />
+      <Graphics centerX="1162.22607421875" centerY="50.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco">For polyisoprenols and polyisoprenyl phosphates nomenclature, see |FRAME: Polyisoprenoids|.</Comment>
+      <Property key="UniqueID" value="FARNESYL-PP" />
+      <Property key="AlternativeId_Zinc" value="ZINC000012494625" />
+      <Property key="AlternativeId_Seed" value="cpd00350" />
+      <Property key="AlternativeId_Metanetx" value="MNXM34" />
+      <Property key="AlternativeId_Bigg" value="frdp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC175763" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00961" />
+      <Property key="AlternativeId_Chemspider" value="11633047" />
+      <Property key="AlternativeId_Chebi" value="175763" />
+      <Property key="AlternativeId_Knapsack" value="C00007268" />
+      <Property key="AlternativeId_Pubchem" value="15983959" />
+      <Property key="AlternativeId_LigandCpd" value="C00448" />
+      <Property key="AlternativeId_Cas" value="13058-04-3" />
+      <Property key="Synonym_1" value="2-&lt;i&gt;trans&lt;/i&gt;,6-&lt;i&gt;trans&lt;/i&gt;-farnesyl diphosphate" />
+      <Property key="Synonym_2" value="2-trans,6-trans-farnesyl diphosphate" />
+      <Property key="Synonym_3" value="FPP" />
+      <Property key="Synonym_4" value="&lt;i&gt;trans, trans&lt;/i&gt;-farnesyl diphosphate" />
+      <Property key="Synonym_5" value="farnesyl-PP" />
+      <Property key="Synonym_6" value="farnesyl pyrophosphate" />
+      <Property key="Synonym_7" value="&amp;omega;,&lt;i&gt;E,E&lt;/i&gt;-farnesyl diphosphate" />
+      <Property key="Synonym_8" value="farnesyl diphosphate" />
+      <Property key="Synonym_9" value="(&lt;i&gt;E,E&lt;/i&gt;)-farnesyl diphosphate" />
+      <Property key="Synonym_10" value="&lt;i&gt;all-trans&lt;/i&gt;-farnesyl diphosphate" />
+      <Property key="Synonym_11" value="C&lt;sub&gt;15&lt;/sub&gt;-PP" />
+      <Property key="ChemicalFormula" value="(C 15) (H 25) (O 7) (P 2)" />
+      <Property key="AtomCharges" value="(20 -1), (18 -1), (16 -1)" />
+      <Property key="Gibbs0" value="-129.03052" />
+      <Property key="Inchi" value="InChI=1S/C15H28O7P2/c1-13(2)7-5-8-14(3)9-6-10-15(4)11-12-21-24(19,20)22-23(16,17)18/h7,9,11H,5-6,8,10,12H2,1-4H3,(H,19,20)(H2,16,17,18)/p-3/b14-9+,15-11+" />
+      <Property key="InchiKey" value="InChIKey=VWFJDQUYCIWHTN-YFVJMOTDSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="379.306" />
+      <Property key="MonoisotopicMw" value="382.1310262735" />
+      <Property key="N+1Name" value="&lt;i&gt;cis,trans&lt;/i&gt;-polyisoprenyl&lt;sub&gt;n+1&lt;/sub&gt;-PP" />
+      <Property key="NonStandardInchi" value="InChI=1S/C15H28O7P2/c1-13(2)7-5-8-14(3)9-6-10-15(4)11-12-21-24(19,20)22-23(16,17)18/h7,9,11H,5-6,8,10,12H2,1-4H3,(H,19,20)(H2,16,17,18)/p-3/b14-9+,15-11+" />
+      <Property key="Smiles" value="CC(C)=CCCC(\C)=C/CCC(\C)=C/COP(OP([O-])(=O)[O-])(=O)[O-]" />
+    </DataNode>
+    <DataNode elementId="WATER" textLabel="H₂O" type="Metabolite">
+      <Xref identifier="XLYOFNOQVPJJNP-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="277.49188232421875" centerY="1256.724609375" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="WATER" />
+      <Property key="AlternativeId_Bigg" value="h2o" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15377" />
+      <Property key="AlternativeId_Hmdb" value="HMDB02111" />
+      <Property key="AlternativeId_Chemspider" value="937" />
+      <Property key="AlternativeId_Chebi" value="15377" />
+      <Property key="AlternativeId_Pubchem" value="962" />
+      <Property key="AlternativeId_LigandCpd" value="C00001" />
+      <Property key="AlternativeId_Cas" value="7732-18-5" />
+      <Property key="Synonym_1" value="H20" />
+      <Property key="Synonym_2" value="H&lt;sub&gt;2&lt;/sub&gt;0" />
+      <Property key="Synonym_3" value="H2O" />
+      <Property key="Synonym_4" value="hydrogen oxide" />
+      <Property key="Synonym_5" value="water" />
+      <Property key="ChemicalFormula" value="(H 2) (O 1)" />
+      <Property key="Gibbs0" value="-36.144756" />
+      <Property key="Inchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="InchiKey" value="InChIKey=XLYOFNOQVPJJNP-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="18.015" />
+      <Property key="MonoisotopicMw" value="18.0105646863" />
+      <Property key="NonStandardInchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="Smiles" value="O" />
+    </DataNode>
+    <DataNode elementId="Acceptor" textLabel="Acceptor" type="Metabolite">
+      <Xref identifier="Acceptor" dataSource="" />
+      <Graphics centerX="917.6902465820312" centerY="1550.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="CPD-19776" textLabel="hydroxyferroheme i" type="Metabolite">
+      <Xref identifier="WLGRCQGURUMQMH-JEZRNDINSA-J" dataSource="InChIKey" />
+      <Graphics centerX="1521.139892578125" centerY="1219.484619140625" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-19776" />
+      <Property key="AlternativeId_Chebi" value="147292" />
+      <Property key="AlternativeId_Pubchem" value="145865159" />
+      <Property key="ChemicalFormula" value="(C 49) (H 56) (N 4) (O 7) (FE 1)" />
+      <Property key="AtomCharges" value="(50 1), (53 1), (55 -1), (57 -1), (61 -2)" />
+      <Property key="Gibbs0" value="536.01447" />
+      <Property key="Inchi" value="InChI=1S/C49H60N4O7.Fe/c1-9-33-30(6)37-24-42-47(44(54)18-12-17-29(5)16-11-15-28(4)14-10-13-27(2)3)32(8)38(52-42)25-43-48(49(59)60)35(20-22-46(57)58)41(53-43)26-40-34(19-21-45(55)56)31(7)36(51-40)23-39(33)50-37;/h9,13,15,17,23-26,44,49,54,59-60H,1,10-12,14,16,18-22H2,2-8H3,(H4,50,51,52,53,55,56,57,58);/q;+2/p-4/b28-15+,29-17+,36-23-,37-24-,38-25-,39-23-,40-26-,41-26-,42-24-,43-25-;/t44-;/m0./s1" />
+      <Property key="InchiKey" value="InChIKey=WLGRCQGURUMQMH-JEZRNDINSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="868.851" />
+      <Property key="MonoisotopicMw" value="872.3811424015" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Smiles" value="C=CC4(\C6(/C=C8(C(/C)=C(CCC(=O)[O-])/C1(/N([Fe-2]35([N+]2(\C(/C(/C(O)O)=C(CCC(=O)[O-])\C(/C=1)=2)=C/C7(/N3C(\C=C(C(/C)=4)/[N+]\5=6)=C(C(/C)=7)/[C@@H](O)CC/C=C(C)/CC/C=C(C)/CCC=C(C)C))))8))))" />
+    </DataNode>
+    <DataNode elementId="CPD-17063" textLabel="ferroheme o" type="Metabolite">
+      <Xref identifier="FISPASSVCDRERW-ARQJTVBPSA-J" dataSource="InChIKey" />
+      <Graphics centerX="1600.0" centerY="537.4297485351562" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-17063" />
+      <Property key="AlternativeId_Pubchem" value="51351651" />
+      <Property key="AlternativeId_Chebi" value="60530" />
+      <Property key="ChemicalFormula" value="(C 49) (H 56) (N 4) (O 5) (FE 1)" />
+      <Property key="AtomCharges" value="(59 -2), (57 -1), (55 -1), (51 1), (50 1)" />
+      <Property key="Gibbs0" value="610.2845" />
+      <Property key="Inchi" value="InChI=1S/C49H60N4O5.Fe/c1-10-35-31(6)40-26-45-49(46(54)19-13-18-30(5)17-12-16-29(4)15-11-14-28(2)3)34(9)41(53-45)24-38-32(7)36(20-22-47(55)56)43(51-38)27-44-37(21-23-48(57)58)33(8)39(52-44)25-42(35)50-40;/h10,14,16,18,24-27,46,54H,1,11-13,15,17,19-23H2,2-9H3,(H4,50,51,52,53,55,56,57,58);/q;+2/p-4/b29-16+,30-18+,38-24-,39-25-,40-26-,41-24-,42-25-,43-27-,44-27-,45-26-;/t46-;/m0./s1" />
+      <Property key="InchiKey" value="InChIKey=FISPASSVCDRERW-ARQJTVBPSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="836.852" />
+      <Property key="MonoisotopicMw" value="840.3913131573001" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Smiles" value="C=CC3(\C7(\[N+]4(\[Fe-2]16([N+]5(\C(/C(\CCC(=O)[O-])=C(C)\C(/C=C2(C(\C)=C(C(\N12)=C\C(\C(/C)=3)=4)/[C@@H](O)CC/C=C(C)/CC/C=C(C)/CCC=C(C)C))=5)=C/C8(/N6C(/C=7)=C(C)/C(\CCC(=O)[O-])=8))))))" />
+    </DataNode>
+    <DataNode elementId="CPD-19775" textLabel="ferroheme i" type="Metabolite">
+      <Xref identifier="DUDFUCVGSNDDBK-PRYGPKJJSA-J" dataSource="InChIKey" />
+      <Graphics centerX="617.195556640625" centerY="778.5057983398438" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="AU4FS-1, SRI, caspi">&apos;Heme&apos; is usually understood as any tetrapyrrolic chelate of iron. The terms &apos;ferroheme&apos; and &apos;ferriheme&apos; refer to the Fe(II) and Fe(III) oxidation states in heme (even though Fe(IV) is found as a catalytic intermediate in some systems). |FRAME: HEME_A &quot;Heme &lt;i&gt;a&lt;/i&gt;&quot;| was first isolated in 1951 and shown to be the active component of the integral membrane metalloprotein |FRAME: EC-7.1.1.9| |CITS: [Warburg51]|. The correct structure was published in 1975 |CITS: [170266]|. The immediate product of the initial heme biosynthesis pathways (by ferro-chelation of |FRAME: PROTOPORPHYRIN_IX|) is |FRAME: Heme-b &quot;heme &lt;i&gt;b&lt;/i&gt;&quot;|, whose |FRAME: PROTOHEME &quot;ferrous form&quot;| is known as protoheme IX. |FRAME: HEME_A &quot;Heme &lt;i&gt;a&lt;/i&gt;&quot;| differs from heme &lt;i&gt;b&lt;/i&gt; in that a methyl side chain at position 8 of the D ring is oxidized to a formyl group, and a hydroxyethylfarnesyl chain is attached to the vinyl side chain at position 2 of the A ring. It is synthesized from |FRAME: Heme-b| via |FRAME: HEME_O| by two enzymes - |FRAME: EC-2.5.1.141|, and |FRAME: EC-1.17.99.9|. It has been found that the latter acts by two successive hydroxylations, with the first hydroxylation forming a short-lived |FRAME: Heme_I| intermediate |CITS: [7885224][12206660]|.</Comment>
+      <Property key="UniqueID" value="CPD-19775" />
+      <Property key="AlternativeId_Chebi" value="147291" />
+      <Property key="AlternativeId_Pubchem" value="145864978" />
+      <Property key="ChemicalFormula" value="(C 49) (H 56) (N 4) (O 6) (FE 1)" />
+      <Property key="AtomCharges" value="(60 -2), (58 -1), (56 -1), (53 1), (50 1)" />
+      <Property key="Gibbs0" value="574.0545" />
+      <Property key="Inchi" value="InChI=1S/C49H60N4O6.Fe/c1-9-34-31(6)39-25-45-49(46(55)18-12-17-30(5)16-11-15-29(4)14-10-13-28(2)3)33(8)40(52-45)24-44-37(27-54)36(20-22-48(58)59)43(53-44)26-42-35(19-21-47(56)57)32(7)38(51-42)23-41(34)50-39;/h9,13,15,17,23-26,46,54-55H,1,10-12,14,16,18-22,27H2,2-8H3,(H4,50,51,52,53,56,57,58,59);/q;+2/p-4/b29-15+,30-17+,38-23-,39-25-,40-24-,41-23-,42-26-,43-26-,44-24-,45-25-;/t46-;/m0./s1" />
+      <Property key="InchiKey" value="InChIKey=DUDFUCVGSNDDBK-PRYGPKJJSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="852.852" />
+      <Property key="MonoisotopicMw" value="856.3862277794001" />
+      <Property key="Smiles" value="C=CC4(\C6(/C=C8(C(/C)=C(CCC(=O)[O-])/C1(/N([Fe-2]35([N+]2(\C(/C(/CO)=C(CCC(=O)[O-])\C(/C=1)=2)=C/C7(/N3C(\C=C(C(/C)=4)/[N+]\5=6)=C(C(/C)=7)/[C@@H](O)CC/C=C(C)/CC/C=C(C)/CCC=C(C)C))))8))))" />
+      <CitationRef elementRef="citation_PUB_170266" />
+    </DataNode>
+    <DataNode elementId="PROTOHEME" textLabel="protoheme" type="Metabolite">
+      <Xref identifier="KABFMIBPWCXCRK-RGGAHWMASA-J" dataSource="InChIKey" />
+      <Graphics centerX="850.3519897460938" centerY="1025.885986328125" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco, brito">&apos;Heme&apos; is usually understood as any tetrapyrrolic chelate of iron. The terms &apos;ferroheme&apos; and &apos;ferriheme&apos; refer to the Fe(II) and Fe(III) oxidation states in heme (even though Fe(IV) is found as a catalytic intermediate in some systems). |FRAME: Heme-b &quot;Heme &lt;i&gt;b&lt;/i&gt;&quot;|, whose |FRAME: PROTOHEME &quot;ferrous form&quot;| is known as protoheme IX, is the immediate product of the heme biosynthesis pathways (by ferro-chelation of |FRAME: PROTOPORPHYRIN_IX|) and the most abundant heme form. It is found in common proteins such as hemoglobin and myoglobin. Heme &lt;i&gt;b&lt;/i&gt; is part of |FRAME: Cytochromes-B &quot;&lt;i&gt;b&lt;/i&gt;-type cytochromes&quot;|.</Comment>
+      <Property key="UniqueID" value="PROTOHEME" />
+      <Property key="AlternativeId_Metanetx" value="MNXM249" />
+      <Property key="AlternativeId_Refmet" value="Heme" />
+      <Property key="AlternativeId_Bigg" value="pheme" />
+      <Property key="Synonym_1" value="protoheme IX" />
+      <Property key="Synonym_2" value="ferroprotoporphyrin IX" />
+      <Property key="Synonym_3" value="ferroheme &lt;i&gt;b&lt;/i&gt;" />
+      <Property key="ChemicalFormula" value="(C 34) (H 30) (N 4) (O 4) (FE 1)" />
+      <Property key="AtomCharges" value="(43 -2), (41 -1), (39 -1), (37 1), (36 1)" />
+      <Property key="Gibbs0" value="313.88535" />
+      <Property key="Inchi" value="InChI=1S/C34H34N4O4.Fe/c1-7-21-17(3)25-13-26-19(5)23(9-11-33(39)40)31(37-26)16-32-24(10-12-34(41)42)20(6)28(38-32)15-30-22(8-2)18(4)27(36-30)14-29(21)35-25;/h7-8,13-16H,1-2,9-12H2,3-6H3,(H4,35,36,37,38,39,40,41,42);/q;+2/p-4/b25-13-,26-13-,27-14-,28-15-,29-14-,30-15-,31-16-,32-16-;" />
+      <Property key="InchiKey" value="InChIKey=KABFMIBPWCXCRK-RGGAHWMASA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="614.482" />
+      <Property key="MonoisotopicMw" value="618.1929477006001" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Smiles" value="C=CC4(\C(/C)=C5(\C=C6(C(/C)=C(CCC(=O)[O-])/C7(\C=C8(C(/CCC(=O)[O-])=C(C)/C1(/N([Fe-2]3(N(C(/C=C2(C(/C)=C(C=C)/C(\C=1)=[N+]2/3))=4)5)([N+]/6=7))8))))))" />
+    </DataNode>
+    <DataNode elementId="PPI" textLabel="pyrophosphate" type="Metabolite">
+      <Xref identifier="XPPKVPWEQAFLFU-UHFFFAOYSA-K" dataSource="InChIKey" />
+      <Graphics centerX="100.0" centerY="525.5509643554688" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PPI" />
+      <Property key="AlternativeId_Chebi" value="33019" />
+      <Property key="AlternativeId_Pubchem" value="4097574" />
+      <Property key="AlternativeId_Bigg" value="ppi" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC33019" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00250" />
+      <Property key="AlternativeId_Drugbank" value="DB04160" />
+      <Property key="AlternativeId_Chemspider" value="996" />
+      <Property key="AlternativeId_LigandCpd" value="C00013" />
+      <Property key="AlternativeId_Cas" value="2466-09-3" />
+      <Property key="Synonym_1" value="PPi" />
+      <Property key="Synonym_2" value="PP" />
+      <Property key="Synonym_3" value="pyrophosphate" />
+      <Property key="ChemicalFormula" value="(H 1) (O 7) (P 2)" />
+      <Property key="AtomCharges" value="(3 -1), (5 -1), (4 -1)" />
+      <Property key="Gibbs0" value="-473.4674" />
+      <Property key="Inchi" value="InChI=1S/H4O7P2/c1-8(2,3)7-9(4,5)6/h(H2,1,2,3)(H2,4,5,6)/p-3" />
+      <Property key="InchiKey" value="InChIKey=XPPKVPWEQAFLFU-UHFFFAOYSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="174.951" />
+      <Property key="MonoisotopicMw" value="177.9432255031" />
+      <Property key="NonStandardInchi" value="InChI=1S/H4O7P2/c1-8(2,3)7-9(4,5)6/h(H2,1,2,3)(H2,4,5,6)/p-3" />
+      <Property key="Regulates" value="REG-8030, REG-9450, REG-11188, REG0-9550, REG-9934, REG-8081, REG-7117, REG0-9977, REG0-8467, REG0-8912, REG0-8756, REG-8675" />
+      <Property key="Smiles" value="O=P(O)(OP([O-])([O-])=O)[O-]" />
+      <CitationRef elementRef="citation_PUB_18493048" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="970.16162109375" y="595.4088134765625" elementRef="OS01G0527700" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="1093.2791748046875" y="835.8812255859375" elementRef="OS01T0527700-02" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-18431">
+      <Xref identifier="RXN-18431" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-18431_start" x="1566.139892578125" y="1219.484619140625" elementRef="CPD-19776" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-18431_end" arrowHead="Conversion" x="837.69873046875" y="786.853515625" elementRef="CPD-13734" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-18431_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-18431" />
+      <Property key="Spontaneous" value="T" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="RXN-18399, PWY-7856" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="CPD-19776 =&gt; CPD-13734 + WATER" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value=":CURATED, (:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 24 23 25 27 28 29 30 31 32 33 34 35 37 38 39 40 41 42 44 43 45 46 47 48 36 26 49 50 51 52 54 55 56 57 58 53 60 59) (((&quot;CPD-13734&quot; 0 59) (&quot;WATER&quot; 60 60)) ((&quot;CPD-19776&quot; 0 60))))" />
+      <Property key="Gibbs0" value="-10.71698" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-18431_anchor_product_1">
+      <Xref identifier="RXN-18431" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-18431_anchor_product_start_1" x="0" y="0" elementRef="RXN-18431_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-18431_anchor_product_end_1" arrowHead="Conversion" x="232.49188232421875" y="1256.724609375" elementRef="WATER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-18430">
+      <Xref identifier="RXN-18430" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-18430_start" x="662.195556640625" y="778.5057983398438" elementRef="CPD-19775" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-18430_end" arrowHead="Conversion" x="1476.139892578125" y="1219.484619140625" elementRef="CPD-19776" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-18430_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-18430" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="RXN-18399, PWY-7856" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="CPD-19775 + WATER + Acceptor =&gt; CPD-19776 + Donor-H2" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 24 23 25 27 28 29 30 31 32 33 34 35 37 38 39 40 41 42 44 43 45 46 47 48 36 26 49 50 51 52 54 55 56 57 58 53 60 59) (((&quot;CPD-19775&quot; 0 59) (&quot;WATER&quot; 60 60)) ((&quot;CPD-19776&quot; 0 60))))" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-18430_anchor_reactant_1">
+      <Xref identifier="RXN-18430" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-18430_anchor_reactant_start_1" x="322.49188232421875" y="1256.724609375" elementRef="WATER" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-18430_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-18430_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-18430_anchor_reactant_2">
+      <Xref identifier="RXN-18430" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-18430_anchor_reactant_start_2" x="962.6902465820312" y="1550.0" elementRef="Acceptor" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-18430_anchor_reactant_end_2" x="0" y="0" elementRef="RXN-18430_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-18430_anchor_product_1">
+      <Xref identifier="RXN-18430" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-18430_anchor_product_start_1" x="0" y="0" elementRef="RXN-18430_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-18430_anchor_product_end_1" arrowHead="Conversion" x="570.9423828125" y="233.54481506347656" elementRef="Donor-H2" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-18428">
+      <Xref identifier="RXN-18428" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-18428_start" x="1645.0" y="537.4297485351562" elementRef="CPD-17063" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-18428_end" arrowHead="Conversion" x="572.195556640625" y="778.5057983398438" elementRef="CPD-19775" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-18428_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-18428" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="RXN-18399, PWY-7856" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="CPD-17063 + WATER + Acceptor =&gt; CPD-19775 + Donor-H2" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 7 8 9 10 11 12 13 14 15 16 17 18 20 19 22 21 24 23 25 26 6 27 28 29 30 32 33 34 36 35 31 38 39 40 41 43 42 37 44 45 47 46 48 49 51 52 50 59 53 56 57 54 55 58) (((&quot;CPD-17063&quot; 0 58) (&quot;WATER&quot; 59 59)) ((&quot;CPD-19775&quot; 0 59))))" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-18428_anchor_reactant_1">
+      <Xref identifier="RXN-18428" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-18428_anchor_reactant_start_1" x="322.49188232421875" y="1256.724609375" elementRef="WATER" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-18428_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-18428_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-18428_anchor_reactant_2">
+      <Xref identifier="RXN-18428" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-18428_anchor_reactant_start_2" x="962.6902465820312" y="1550.0" elementRef="Acceptor" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-18428_anchor_reactant_end_2" x="0" y="0" elementRef="RXN-18428_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-18428_anchor_product_1">
+      <Xref identifier="RXN-18428" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-18428_anchor_product_start_1" x="0" y="0" elementRef="RXN-18428_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-18428_anchor_product_end_1" arrowHead="Conversion" x="570.9423828125" y="233.54481506347656" elementRef="Donor-H2" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="HEMEOSYN-RXN">
+      <Xref identifier="EC-2.5.1.141" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="HEMEOSYN-RXN_start" x="895.3519897460938" y="1025.885986328125" elementRef="PROTOHEME" relX="1.0" relY="0.0" />
+        <Point elementId="HEMEOSYN-RXN_end" arrowHead="Conversion" x="1555.0" y="537.4297485351562" elementRef="CPD-17063" relX="-1.0" relY="0.0" />
+        <Anchor elementId="HEMEOSYN-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="HEMEOSYN-RXN" />
+      <Property key="ReactionName" value="heme &lt;i&gt;o&lt;/i&gt; biosynthesis" />
+      <Property key="EC_Number" value="EC-2.5.1.141" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-7856" />
+      <Property key="ReactionEquation" value="PROTOHEME + FARNESYL-PP + WATER =&gt; CPD-17063 + PPI" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXNN7F-68914" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value=":CURATED, (:NO-HYDROGEN-ENCODING (25 1 0 2 3 27 28 29 26 31 4 5 11 6 7 8 9 10 24 32 33 34 35 36 38 37 39 12 13 14 41 42 43 40 45 46 47 49 51 50 48 53 54 55 52 30 56 57 44 59 60 61 58 67 62 63 64 65 66 16 15 17 20 19 18 21 22 23) (((&quot;FARNESYL-PP&quot; 0 23) (&quot;PROTOHEME&quot; 24 66) (&quot;WATER&quot; 67 67)) ((&quot;CPD-17063&quot; 0 58) (&quot;PPI&quot; 59 67))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-11.892975" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="HEMEOSYN-RXN_ENZRXNN7F-68914">
+      <Waypoints>
+        <Point elementId="HEMEOSYN-RXN_ENZRXNN7F-68914_start" x="1138.2791748046875" y="848.3812255859375" elementRef="OS01T0527700-02" relX="0.0" relY="1.0" />
+        <Point elementId="HEMEOSYN-RXN_ENZRXNN7F-68914_end" arrowHead="Catalysis" x="0" y="0" elementRef="HEMEOSYN-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="HEMEOSYN-RXN_anchor_reactant_1">
+      <Xref identifier="EC-2.5.1.141" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="HEMEOSYN-RXN_anchor_reactant_start_1" x="1207.22607421875" y="50.0" elementRef="FARNESYL-PP" relX="1.0" relY="0.0" />
+        <Point elementId="HEMEOSYN-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="HEMEOSYN-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="HEMEOSYN-RXN_anchor_reactant_2">
+      <Xref identifier="EC-2.5.1.141" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="HEMEOSYN-RXN_anchor_reactant_start_2" x="322.49188232421875" y="1256.724609375" elementRef="WATER" relX="1.0" relY="0.0" />
+        <Point elementId="HEMEOSYN-RXN_anchor_reactant_end_2" x="0" y="0" elementRef="HEMEOSYN-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="HEMEOSYN-RXN_anchor_product_1">
+      <Xref identifier="EC-2.5.1.141" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="HEMEOSYN-RXN_anchor_product_start_1" x="0" y="0" elementRef="HEMEOSYN-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="HEMEOSYN-RXN_anchor_product_end_1" arrowHead="Conversion" x="55.0" y="525.5509643554688" elementRef="PPI" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_808315">
+      <Xref identifier="808315" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_22484221">
+      <Xref identifier="22484221" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_15236569">
+      <Xref identifier="15236569" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_170266">
+      <Xref identifier="170266" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_18493048">
+      <Xref identifier="18493048" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_7885224">
+      <Xref identifier="7885224" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

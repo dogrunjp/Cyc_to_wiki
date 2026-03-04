@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="RXN-21000" organism="cellular organisms" source="PlantCyc" version="20260304101735">
+  <Description>Single reaction view for RXN-21000: RXN-21000</Description>
+  <Authors>
+    <Author name="BioCyc" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from BioCyc single reaction data.</Comment>
+  <Property key="UniqueID" value="RXN-21000" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="CPD-14202" textLabel="L-erythro-7,8-dihydrobiopterin" type="Metabolite">
+      <Xref identifier="FEMXZDUTFRTWPE-DZSWIPIPSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-14202" />
+      <Property key="AlternativeId_Pubchem" value="135398687" />
+      <Property key="AlternativeId_LigandCpd" value="C02953" />
+      <Property key="AlternativeId_Chebi" value="43029" />
+      <Property key="Synonym_1" value="L-erythro-q-dihydrobiopterin" />
+      <Property key="ChemicalFormula" value="(C 9) (H 13) (N 5) (O 3)" />
+      <Property key="Gibbs0" value="55.544563" />
+      <Property key="Inchi" value="InChI=1S/C9H13N5O3/c1-3(15)6(16)4-2-11-7-5(12-4)8(17)14-9(10)13-7/h3,6,15-16H,2H2,1H3,(H4,10,11,13,14,17)/t3-,6-/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=FEMXZDUTFRTWPE-DZSWIPIPSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="Logp" value="-2.2" />
+      <Property key="MolecularWeight" value="239.233" />
+      <Property key="MonoisotopicMw" value="239.1018393096" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="PolarSurfaceArea" value="132." />
+      <Property key="Smiles" value="C[C@H](O)[C@H](O)C1(\CNC2(NC(/N)=N/C(C(/N=1)=2)=O))" />
+    </DataNode>
+    <DataNode elementId="CPD-15159" textLabel="(6R)-L-erythro-6,7-dihydrobiopterin" type="Metabolite">
+      <Xref identifier="ZHQJVZLJDXWFFX-RPDRRWSUSA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-15159" />
+      <Property key="AlternativeId_Pubchem" value="135398653" />
+      <Property key="AlternativeId_LigandCpd" value="C00268" />
+      <Property key="AlternativeId_ReactomeCpd" value="71129" />
+      <Property key="AlternativeId_Metanetx" value="MNXM162257" />
+      <Property key="AlternativeId_Chebi" value="43120" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC20680" />
+      <Property key="AlternativeId_Hmdb" value="HMDB02215" />
+      <Property key="Synonym_1" value="&lt;i&gt;erythro&lt;/i&gt;-quinonoid dihydro-(6H)-biopterin" />
+      <Property key="Synonym_2" value="&lt;i&gt;erythro&lt;/i&gt;-quinoid dihydrobiopterin" />
+      <Property key="Synonym_3" value="(6R)-&lt;i&gt;erythro&lt;/i&gt;-6,7-dihydrobiopterin" />
+      <Property key="ChemicalFormula" value="(C 9) (H 13) (N 5) (O 3)" />
+      <Property key="Gibbs0" value="56.904564" />
+      <Property key="Inchi" value="InChI=1S/C9H13N5O3/c1-3(15)6(16)4-2-11-7-5(12-4)8(17)14-9(10)13-7/h3-4,6,15-16H,2H2,1H3,(H3,10,11,13,14,17)/t3-,4+,6-/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=ZHQJVZLJDXWFFX-RPDRRWSUSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="Logp" value="-2.6" />
+      <Property key="MolecularWeight" value="239.233" />
+      <Property key="MonoisotopicMw" value="239.1018393096" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="PolarSurfaceArea" value="133." />
+      <Property key="Smiles" value="C[C@H](O)[C@H](O)[C@@H]1(/N=C2(C(/NC1)=N\C(/N)=N/C(=O)2))" />
+      <Property key="SystematicName" value="(6R)-2-amino-6-[(1R,2S)-1,2-dihydroxypropyl]-6,7-dihydropteridin-4(1H)-one" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="RXN-21000">
+      <Xref identifier="RXN-21000" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-21000_start" x="395.0" y="210" elementRef="CPD-15159" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-21000_end" arrowHead="Conversion" x="155.0" y="210" elementRef="CPD-14202" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-21000_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-21000" />
+      <Property key="Spontaneous" value="T" />
+      <Property key="Orphan" value=":YES-PUTATIVE" />
+      <Property key="ReactionEquation" value="CPD-15159 =&gt; CPD-14202" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16) (((&quot;CPD-14202&quot; 0 16)) ((&quot;CPD-15159&quot; 0 16))))" />
+      <Property key="Gibbs0" value="-1.3600006" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+  </Interactions>
+</Pathway>

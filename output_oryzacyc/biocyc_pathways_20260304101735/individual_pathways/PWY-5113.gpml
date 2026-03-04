@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="UDP-D-apiose biosynthesis (from UDP-D-glucuronate)" organism="cellular organisms" source="PlantCyc" version="20260304101735">
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Oryza sativa Japonica Group&lt;/i&gt;: This pathway is on the list of Ubiquitous Plant Pathways (UPP) that was generated for the COMET project, which includes pathways that are thought to be present in all or most land plants. All UPP pathways are automatically imported into databases regardless of Pathologic predictions. &lt;A href=&quot;https://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; &lt;b&gt;General Background&lt;/b&gt; |FRAME: D-APIOSE| is the only plant cell wall monosaccharide with a branched carbon skeleton. In higher plants it is mainly found as a component of the |FRAME: CPD-14581 &quot;rhamnogalacturonan II&quot;| (RGII) pectin fraction of the primary cell walls. In this pectic polysaccharide D-apiose acts as an attachment point for two complex side chains |CITS:[8798473]|. The linkage occurs through the formation of a cyclic diester between the hydroxyl groups of the furanose ring of D-apiose and borate. The two remaining hydroxyl groups of the RGII-bound borate diester react with a second D-apiose residue from another RGII chain to form a borate tetraester |CITS:[8798473],[10224062]|. The exact pathway leading to the incorporation of D-apiose into RGII remains largely unknown, although it is known that apiose is transferred from its activated form |FRAME: UDP-APIOSE|. &lt;b&gt;About This Pathway&lt;/b&gt; |FRAME: UDP-APIOSE| is formed by the decarboxylation of |FRAME: UDP-GLUCURONATE|. This conversion occurs in a single enzymatic reaction that involves decarboxylation followed by re-arrangement of the carbon skeleton and ring contraction. The mechanism of formation of UDP-D-apiose has been proposed in |CITS:[12969423]|. The enzyme responsible for this reaction is bifunctional and also catalyze the decarboxylation of |FRAME: UDP-GLUCURONATE| to |FRAME: UDP-D-XYLOSE|, and has thus been named UDP-apiose/UDP-xylose synthase |CITS:[12969423]|.</Description>
+  <Authors>
+    <Author name="chawkins" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-5113" />
+  <Property key="Type" value="UDP-Sugar-Biosynthesis" />
+  <Property key="ReactionIDs" value="RXN-7770" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_PMNIC2024" />
+  <CitationRef elementRef="citation_PUB_8798473" />
+  <CitationRef elementRef="citation_PUB_12969423" />
+  <Graphics boardWidth="1800.0" boardHeight="1750.0" />
+  <DataNodes>
+    <DataNode elementId="CARBON-DIOXIDE" textLabel="CO₂" type="Metabolite">
+      <Xref identifier="CURLTUGMZLYLDI-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="705.25634765625" centerY="703.9964599609375" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CARBON-DIOXIDE" />
+      <Property key="AlternativeId_Seed" value="cpd00011" />
+      <Property key="AlternativeId_Metanetx" value="MNXM13" />
+      <Property key="AlternativeId_Bigg" value="co2" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC16526" />
+      <Property key="AlternativeId_LigandCpd" value="C00011" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01967" />
+      <Property key="AlternativeId_UmBbdCpd" value="c0131" />
+      <Property key="AlternativeId_Chemspider" value="274" />
+      <Property key="AlternativeId_Chebi" value="16526" />
+      <Property key="AlternativeId_Pubchem" value="280" />
+      <Property key="AlternativeId_Cas" value="124-38-9" />
+      <Property key="Synonym_1" value="carbonic anhydride" />
+      <Property key="Synonym_2" value="carbonic acid gas" />
+      <Property key="Synonym_3" value="carbon dioxide" />
+      <Property key="ChemicalFormula" value="(C 1) (O 2)" />
+      <Property key="Gibbs0" value="-92.26" />
+      <Property key="Inchi" value="InChI=1S/CO2/c2-1-3" />
+      <Property key="InchiKey" value="InChIKey=CURLTUGMZLYLDI-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="44.01" />
+      <Property key="MonoisotopicMw" value="43.989829244199996" />
+      <Property key="NonStandardInchi" value="InChI=1S/CO2/c2-1-3" />
+      <Property key="Smiles" value="C(=O)=O" />
+    </DataNode>
+    <DataNode elementId="UDP-GLUCURONATE" textLabel="UDP-α-D-glucuronate" type="Metabolite">
+      <Xref identifier="HDYANYHVCAPMJV-LXQIFKJMSA-K" dataSource="InChIKey" />
+      <Graphics centerX="1600.0" centerY="507.6439208984375" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="UDP-GLUCURONATE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000008215691" />
+      <Property key="AlternativeId_Seed" value="cpd00144" />
+      <Property key="AlternativeId_Metanetx" value="MNXM87" />
+      <Property key="AlternativeId_Refmet" value="UDP-glucuronic acid" />
+      <Property key="AlternativeId_Bigg" value="udpglcur" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC58052" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00935" />
+      <Property key="AlternativeId_Chebi" value="58052" />
+      <Property key="AlternativeId_Pubchem" value="25202620" />
+      <Property key="AlternativeId_LigandCpd" value="C00167" />
+      <Property key="AlternativeId_Cas" value="2616-64-0" />
+      <Property key="Synonym_1" value="UDP-D-glucuronic acid" />
+      <Property key="Synonym_2" value="UDP-glucuronic acid" />
+      <Property key="Synonym_3" value="UDP-glucuronate" />
+      <Property key="Synonym_4" value="uridine diphosphate glucuronate" />
+      <Property key="Synonym_5" value="uridine diphosphate glucuronic acid" />
+      <Property key="Synonym_6" value="UDP-D-glucuronate" />
+      <Property key="Synonym_7" value="UDP-GlcA" />
+      <Property key="ChemicalFormula" value="(C 15) (H 19) (N 2) (O 18) (P 2)" />
+      <Property key="AtomCharges" value="(25 -1), (30 -1), (28 -1)" />
+      <Property key="Gibbs0" value="-642.4373" />
+      <Property key="GroupCoords2d" value="(41 41), (96 41)" />
+      <Property key="Inchi" value="InChI=1S/C15H22N2O18P2/c18-5-1-2-17(15(26)16-5)12-9(22)6(19)4(32-12)3-31-36(27,28)35-37(29,30)34-14-10(23)7(20)8(21)11(33-14)13(24)25/h1-2,4,6-12,14,19-23H,3H2,(H,24,25)(H,27,28)(H,29,30)(H,16,18,26)/p-3/t4-,6-,7+,8+,9-,10-,11+,12-,14-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=HDYANYHVCAPMJV-LXQIFKJMSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="577.265" />
+      <Property key="MonoisotopicMw" value="580.0342849344" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG-9459" />
+      <Property key="Smiles" value="C(OP(=O)([O-])OP(O[C@H]1(O[C@H](C([O-])=O)[C@@H](O)[C@H](O)[C@@H](O)1))(=O)[O-])[C@@H]3([C@H]([C@H]([C@H](N2(\C=C/C(=O)NC2=O))O3)O)O)" />
+      <Property key="StructureGroups" value="A-DGLC-HEX-1:5_6:A, UDP" />
+      <Property key="StructureLinks" value="(2 1 N -1 X 1)" />
+      <Property key="Superatoms" value="UDP-GROUP" />
+    </DataNode>
+    <DataNode elementId="PROTON" textLabel="H⁺" type="Metabolite">
+      <Xref identifier="GPRLSGONYQIRFK-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="451.1377868652344" centerY="1550.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PROTON" />
+      <Property key="AlternativeId_Bigg" value="h" />
+      <Property key="AlternativeId_Seed" value="cpd00067" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1" />
+      <Property key="AlternativeId_Hmdb" value="HMDB59597" />
+      <Property key="AlternativeId_Chemspider" value="1010" />
+      <Property key="AlternativeId_Pubchem" value="1038" />
+      <Property key="AlternativeId_Chebi" value="15378" />
+      <Property key="AlternativeId_Cas" value="12408-02-5" />
+      <Property key="AlternativeId_LigandCpd" value="C00080" />
+      <Property key="Synonym_1" value="H" />
+      <Property key="Synonym_2" value="hydrogen ion" />
+      <Property key="Synonym_3" value="proton" />
+      <Property key="ChemicalFormula" value="(H 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="0.42906138" />
+      <Property key="Inchi" value="InChI=1S/p+1" />
+      <Property key="InchiKey" value="InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1.008" />
+      <Property key="MonoisotopicMw" value="1.0078250321" />
+      <Property key="NonStandardInchi" value="InChI=1S/p+1" />
+      <Property key="Smiles" value="[H+]" />
+    </DataNode>
+    <DataNode elementId="UDP-APIOSE" textLabel="UDP-D-apiose" type="Metabolite">
+      <Xref identifier="SYVORCSTSYHSPN-UXAZDEAISA-L" dataSource="InChIKey" />
+      <Graphics centerX="100.0" centerY="50.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="UDP-APIOSE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000040165566" />
+      <Property key="AlternativeId_Seed" value="cpd01140" />
+      <Property key="AlternativeId_Metanetx" value="MNXM5324" />
+      <Property key="AlternativeId_Pubchem" value="71581050" />
+      <Property key="AlternativeId_Hmdb" value="HMDB12301" />
+      <Property key="AlternativeId_Chebi" value="73883" />
+      <Property key="AlternativeId_LigandCpd" value="C01623" />
+      <Property key="ChemicalFormula" value="(C 14) (H 20) (N 2) (O 16) (P 2)" />
+      <Property key="AtomCharges" value="(27 -1), (25 -1)" />
+      <Property key="Gibbs0" value="-550.05585" />
+      <Property key="Inchi" value="InChI=1S/C14H22N2O16P2/c17-4-14(23)5-28-12(10(14)21)31-34(26,27)32-33(24,25)29-3-6-8(19)9(20)11(30-6)16-2-1-7(18)15-13(16)22/h1-2,6,8-12,17,19-21,23H,3-5H2,(H,24,25)(H,26,27)(H,15,18,22)/p-2/t6-,8-,9-,10+,11-,12-,14-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=SYVORCSTSYHSPN-UXAZDEAISA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="534.263" />
+      <Property key="MonoisotopicMw" value="536.0444556901999" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Smiles" value="C(OP(=O)([O-])OP(O[C@H]1(OC[C@](O)(CO)[C@@H](O)1))(=O)[O-])[C@@H]3([C@H]([C@H]([C@H](N2(\C=C/C(=O)NC2=O))O3)O)O)" />
+      <Property key="Superatoms" value="UDP-GROUP" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="RXN-7770">
+      <Xref identifier="EC-4.1.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-7770_start" x="1645.0" y="507.6439208984375" elementRef="UDP-GLUCURONATE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-7770_end" arrowHead="Conversion" x="55.0" y="50.0" elementRef="UDP-APIOSE" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-7770_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-7770" />
+      <Property key="EC_Number" value="EC-4.1.1" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-5113" />
+      <Property key="ReactionEquation" value="PROTON + UDP-GLUCURONATE =&gt; UDP-APIOSE + CARBON-DIOXIDE" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Small-Molecule-Reactions, Chemical-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 5 6 7 3 13 8 9 4 10 34 11 12 14 15 17 18 16 22 19 20 36 35 21 23 24 25 26 28 29 27 30 31 32 33) (((&quot;UDP-APIOSE&quot; 0 33) (&quot;CARBON-DIOXIDE&quot; 34 36)) ((&quot;UDP-GLUCURONATE&quot; 0 36))))" />
+      <Property key="Gibbs0" value="-0.3076172" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-7770_anchor_reactant_0">
+      <Xref identifier="EC-4.1.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-7770_anchor_reactant_start_0" x="496.1377868652344" y="1550.0" elementRef="PROTON" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-7770_anchor_reactant_end_0" x="0" y="0" elementRef="RXN-7770_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-7770_anchor_product_1">
+      <Xref identifier="EC-4.1.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-7770_anchor_product_start_1" x="0" y="0" elementRef="RXN-7770_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-7770_anchor_product_end_1" arrowHead="Conversion" x="660.25634765625" y="703.9964599609375" elementRef="CARBON-DIOXIDE" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_12969423">
+      <Xref identifier="12969423" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_PMNIC2024">
+      <Xref identifier="PUB-PMNIC2024 | This pathway was not predicted to exist in this species using PathoLogic (version 28.0), but was imp... (2024)" dataSource="BioCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_8798473">
+      <Xref identifier="8798473" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

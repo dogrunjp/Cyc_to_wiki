@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="N¹-methyl-N³-aminocarboxypropyl-pseudouridine-modified rRNA biosynthesis" organism="cellular organisms" source="PlantCyc" version="20260304101735">
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Oryza sativa Japonica Group&lt;/i&gt;: This pathway is on the list of Accept-If-Predicted Pathways (AIPP) generated for the COMET project, which includes pathways that are present widely throughout the plant kingdom. The AIPP list contains pathways that are automatically accepted if they are predicted for any plant species database. However, AIPP pathways are not automatically imported into databases if they are not predicted by the Pathologic program. &lt;A href=&quot;https://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; &lt;i&gt;N&lt;/i&gt;&lt;sup&gt;1&lt;/sup&gt;-methyl-&lt;i&gt;N&lt;/i&gt;&lt;sup&gt;3&lt;/sup&gt;-aminocarboxypropyl-pseudouridine (m&lt;sup&gt;1&lt;/sup&gt;acp&lt;sup&gt;3&lt;/sup&gt;&amp;psi;) is considered the most complex modification found in eukaryotic rRNA. The modified base is located at the tip of helix 31 of the 18S rRNA , and is strongly conserved in eukaryotes. The formation of this modified nucleotide requires three successive modification reactions. The process begins with the snR35 H/ACA snoRNP guided conversion of |FRAME: URIDINE| into |FRAME: CPD-497| |CITS: [7630735]|. In a second step, the essential SPOUT-class methyltransferase |FRAME: EC-2.1.1.260| (Nep1/Emg1) modifies the pseudouridine to |FRAME: CPD-25378| |CITS: [18208838][20047967][20972225]|, and finally |FRAME: EC-2.5.1.157| (Str3) transfers an &lt;i&gt;N&lt;/i&gt;&lt;sup&gt;3&lt;/sup&gt;-aminocarboxypropyl moiety from |FRAME: S-ADENOSYLMETHIONINE|, forming the final |FRAME: CPD-25379| modification |CITS: [27084949]|. The two former reactions take place early, in the nucleolus and nucleus, while the third reaction occurs late during 40S rRNA biogenesis in the cytoplasm |CITS: [629754][25200078]|.</Description>
+  <Authors>
+    <Author name="chawkins" />
+    <Author name="SRI" />
+    <Author name="caspi" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-8341" />
+  <Property key="Type" value="Nucleic-Acid-Processing" />
+  <Property key="ReactionCount" value="3" />
+  <Property key="ReactionIDs" value="RXN-22911, RXN-13327, RXN-22910" />
+  <Property key="PredecessorCount" value="2" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_PMNAIPP2024" />
+  <CitationRef elementRef="citation_PUB_7630735" />
+  <CitationRef elementRef="citation_PUB_27084949" />
+  <Graphics boardWidth="1800.0" boardHeight="1750.0" />
+  <DataNodes>
+    <DataNode elementId="OS04G0576300" textLabel="Os04g0576300" type="GeneProduct">
+      <Xref identifier="OS04G0576300" dataSource="plantcyc" />
+      <Graphics centerX="925.16162109375" centerY="595.4088134765625" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS04G0576300" />
+      <Property key="Product" value="OS04T0576300-01" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os04g0576300" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS11G0598700" textLabel="Os11g0598700" type="GeneProduct">
+      <Xref identifier="OS11G0598700" dataSource="plantcyc" />
+      <Graphics centerX="1138.2791748046875" centerY="835.8812255859375" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS11G0598700" />
+      <Property key="Product" value="OS11T0598700-00" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os11g0598700" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS11T0598700-00" textLabel="Os11t0598700-00" type="Protein">
+      <Xref identifier="OS11T0598700-00" dataSource="plantcyc" />
+      <Graphics centerX="615.9423828125" centerY="233.54481506347656" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS11T0598700-00" />
+      <Property key="Catalyzes" value="RXN-N7F-60954" />
+      <Property key="Accession1" value="Os11t0598700-00" />
+      <Property key="Gene" value="OS11G0598700" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS04T0576300-01" textLabel="Os04t0576300-01" type="Protein">
+      <Xref identifier="OS04T0576300-01" dataSource="plantcyc" />
+      <Graphics centerX="882.69873046875" centerY="786.853515625" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS04T0576300-01" />
+      <Property key="Catalyzes" value="RXN-N7F-65498" />
+      <Property key="Accession1" value="Os04t0576300-01" />
+      <Property key="Gene" value="OS04G0576300" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="_18S-rRNAs-Pseudouridines" textLabel="a 18S rRNA pseudouridine" type="Metabolite">
+      <Graphics centerX="1162.22607421875" centerY="50.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="18S-rRNAs-Pseudouridines" />
+      <Property key="Synonym_1" value="a pseudouridine in 18S rRNA" />
+      <Property key="AtomCharges" value="(20 -1), (16 -1)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/C9H14N2O12P2/c12-5-6(3-1-10-9(14)11-8(3)13)22-4(2-21-24(15,16)17)7(5)23-25(18,19)20/h1,4-7,12H,2H2,(H2,15,16,17)(H2,18,19,20)(H2,10,11,13,14)/p-2/t4-,5+,6+,7-/m1/s1" />
+      <Property key="Smiles" value="C2(\NC(=O)NC(=O)C(/[C@@H]1(O[C@H](COP(=O)([O-])O[an 18S rRNA])[C@@H](OP(=O)(O[an 18S rRNA])[O-])[C@@H](O)1))=2)" />
+    </DataNode>
+    <DataNode elementId="_18S-N1mN3acp-pseudoU" textLabel="an N¹-methyl-N³-aminocarboxypropyl-pseudouridine in 18S rRNA" type="Metabolite">
+      <Graphics centerX="277.49188232421875" centerY="1256.724609375" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="chawkins, SRI, caspi">&lt;i&gt;N&lt;/i&gt;&lt;sup&gt;1&lt;/sup&gt;-methyl-&lt;i&gt;N&lt;/i&gt;&lt;sup&gt;3&lt;/sup&gt;-aminocarboxypropyl-pseudouridine (m&lt;sup&gt;1&lt;/sup&gt;acp&lt;sup&gt;3&lt;/sup&gt;&amp;psi;) is considered the most complex modification found in eukaryotic rRNA. The modified base is located at the tip of helix 31 of the 18S rRNA , and is strongly conserved in eukaryotes. The formation of this modified nucleotide requires three successive modification reactions involving one H/ACA snoRNP (snR35) and two enzymes (Nep1/Emg1 and Tsr3).</Comment>
+      <Property key="UniqueID" value="18S-N1mN3acp-pseudoU" />
+      <Property key="Synonym_1" value="m&lt;sup&gt;1&lt;/sup&gt;acp&lt;sup&gt;3&lt;/sup&gt;&amp;psi; in 18S rRNA" />
+      <Property key="Synonym_2" value="an &lt;i&gt;N&lt;/i&gt;&lt;sup&gt;1&lt;/sup&gt;-methyl-&lt;i&gt;N&lt;/i&gt;&lt;sup&gt;3&lt;/sup&gt;-[(3&lt;i&gt;S&lt;/i&gt;-3-amino-3-carboxypropyl]-pseudouridine in 18S rRNA" />
+      <Property key="AtomCharges" value="(28 -1), (24 -1), (21 -1), (15 1)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/C14H23N3O14P2/c1-16-4-6(12(19)17(14(16)22)3-2-7(15)13(20)21)10-9(18)11(31-33(26,27)28)8(30-10)5-29-32(23,24)25/h4,7-11,18H,2-3,5,15H2,1H3,(H,20,21)(H2,23,24,25)(H2,26,27,28)/p-2/t7?,8-,9+,10+,11-/m1/s1" />
+      <Property key="Smiles" value="CN2(C(=O)N(CC[C@H]([NH3+])C([O-])=O)C(=O)C(/[C@@H]1(O[C@H](COP(=O)([O-])O[an 18S rRNA])[C@@H](OP(=O)(O[an 18S rRNA])[O-])[C@@H](O)1))=C/2)" />
+    </DataNode>
+    <DataNode elementId="ADENOSYL-HOMO-CYS" textLabel="S-adenosyl-L-homocysteine" type="Metabolite">
+      <Xref identifier="ZJUKTBDSGOFHSH-WFMPWKQPSA-N" dataSource="InChIKey" />
+      <Graphics centerX="917.6902465820312" centerY="1550.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ADENOSYL-HOMO-CYS" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004228232" />
+      <Property key="AlternativeId_Seed" value="cpd00019" />
+      <Property key="AlternativeId_Metanetx" value="MNXM19" />
+      <Property key="AlternativeId_Pubchem" value="25246222" />
+      <Property key="AlternativeId_Refmet" value="S-Adenosylhomocysteine" />
+      <Property key="AlternativeId_Bigg" value="ahcys" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57856" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00939" />
+      <Property key="AlternativeId_Chebi" value="57856" />
+      <Property key="AlternativeId_LigandCpd" value="C00021" />
+      <Property key="AlternativeId_Cas" value="979-92-0" />
+      <Property key="Synonym_1" value="S-adenosyl-L-homocysteine" />
+      <Property key="Synonym_2" value="SAH" />
+      <Property key="Synonym_3" value="S-adenosylhomocysteine" />
+      <Property key="Synonym_4" value="2-S-adenosyl-L-homocysteine" />
+      <Property key="Synonym_5" value="AdoHcy" />
+      <Property key="Synonym_6" value="2-&lt;i&gt;S&lt;/i&gt;-adenosyl-L-homocysteine" />
+      <Property key="Synonym_7" value="&lt;i&gt;S&lt;/i&gt;-adenosyl-homocysteine" />
+      <Property key="Synonym_8" value="&lt;i&gt;S&lt;/i&gt;-adenosylhomocysteine" />
+      <Property key="Synonym_9" value="adenosyl-homo-cys" />
+      <Property key="Synonym_10" value="adenosylhomocysteine" />
+      <Property key="Synonym_11" value="adenosylhomo-cys" />
+      <Property key="Synonym_12" value="&lt;i&gt;S&lt;/i&gt;-(5&apos;-adenosyl)-homocysteine" />
+      <Property key="ChemicalFormula" value="(C 14) (H 20) (N 6) (O 5) (S 1)" />
+      <Property key="AbbrevName" value="SAH" />
+      <Property key="AtomCharges" value="(23 -1), (15 1)" />
+      <Property key="Gibbs0" value="84.0534" />
+      <Property key="Inchi" value="InChI=1S/C14H20N6O5S/c15-6(14(23)24)1-2-26-3-7-9(21)10(22)13(25-7)20-5-19-8-11(16)17-4-18-12(8)20/h4-7,9-10,13,21-22H,1-3,15H2,(H,23,24)(H2,16,17,18)/t6-,7+,9+,10+,13+/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=ZJUKTBDSGOFHSH-WFMPWKQPSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="384.409" />
+      <Property key="MonoisotopicMw" value="384.1215884737" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG0-10277, REG-8730" />
+      <Property key="Smiles" value="C(SC[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3))C[C@@H](C(=O)[O-])[NH3+]" />
+    </DataNode>
+    <DataNode elementId="S-ADENOSYLMETHIONINE" textLabel="S-adenosyl-L-methionine" type="Metabolite">
+      <Xref identifier="MEFKEPWMEQBLKI-FCKMPRQPSA-O" dataSource="InChIKey" />
+      <Graphics centerX="1521.139892578125" centerY="1219.484619140625" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco">|FRAME: S-ADENOSYLMETHIONINE| (AdoMet, SAM) is a sulfonium compound in which each of the carbons attached to the sulfur is activated toward nucleophilic attack. It is the most common methyl group donor for methyltransferase enzymes. In addition, AdoMet is cleaved reductively by a large number of iron-sulfur cluster-containing enzymes (known as radical SAM or radical AdoMet enzymes) to produce |FRAME: CPD-15400|, which they use to activate their substrates. Another major role of AdoMet is in polyamine biosynthesis, where it is decarboxylated by |FRAME: EC-4.1.1.50|, to form |FRAME: S-ADENOSYLMETHIONINAMINE|, which serves as a propylamine group donor. AdoMet is formed by |FRAME: EC-2.5.1.6| and bears an &lt;i&gt;S&lt;/i&gt; configuration at the sulfur atom. The chiral sulfonium of AdoMet spontaneously racemizes under physiological conditions to form a mixture of &lt;i&gt;S&lt;/i&gt; and &lt;i&gt;R&lt;/i&gt; isomers. This results in reduced activity, as the |FRAME: CPD0-2554 &quot;&lt;i&gt;R&lt;/i&gt; isomer&quot;| is not accepted as a substrate for AdoMet-dependent methyltransferases |CITS: [12419350]|.</Comment>
+      <Property key="UniqueID" value="S-ADENOSYLMETHIONINE" />
+      <Property key="AlternativeId_Pubchem" value="24762165" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004214738" />
+      <Property key="AlternativeId_Seed" value="cpd00017" />
+      <Property key="AlternativeId_Metanetx" value="MNXM16" />
+      <Property key="AlternativeId_Refmet" value="S-adenosyl-L-methioninate" />
+      <Property key="AlternativeId_Bigg" value="amet" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC59789" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01185" />
+      <Property key="AlternativeId_Chebi" value="59789" />
+      <Property key="AlternativeId_LigandCpd" value="C00019" />
+      <Property key="AlternativeId_Cas" value="29908-03-0" />
+      <Property key="Synonym_1" value="(&lt;i&gt;S&lt;/i&gt;)-S-adenosyl-L-methionine" />
+      <Property key="Synonym_2" value="AdoMet" />
+      <Property key="Synonym_3" value="SAM" />
+      <Property key="Synonym_4" value="2-&lt;i&gt;S&lt;/i&gt;-adenosyl-L-methionine" />
+      <Property key="Synonym_5" value="&lt;i&gt;S&lt;/i&gt;-adenosyl-methionine" />
+      <Property key="Synonym_6" value="adenosylmethionine" />
+      <Property key="Synonym_7" value="&lt;i&gt;S&lt;/i&gt;-adenosylmethionine" />
+      <Property key="ChemicalFormula" value="(C 15) (H 23) (N 6) (O 5) (S 1)" />
+      <Property key="AbbrevName" value="SAM" />
+      <Property key="AtomCharges" value="(27 1), (24 -1), (16 1)" />
+      <Property key="Gibbs0" value="124.03472" />
+      <Property key="Inchi" value="InChI=1S/C15H22N6O5S/c1-27(3-2-7(16)15(24)25)4-8-10(22)11(23)14(26-8)21-6-20-9-12(17)18-5-19-13(9)21/h5-8,10-11,14,22-23H,2-4,16H2,1H3,(H2-,17,18,19,24,25)/p+1/t7-,8+,10+,11+,14+,27-/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=MEFKEPWMEQBLKI-FCKMPRQPSA-O" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="399.444" />
+      <Property key="MonoisotopicMw" value="400.1528886021" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG-9936, REG-9937, REG-8082, REG-7118, REG0-8461" />
+      <Property key="Smiles" value="C[S+](C[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3))CC[C@@H](C(=O)[O-])[NH3+]" />
+      <CitationRef elementRef="citation_PUB_12419350" />
+    </DataNode>
+    <DataNode elementId="_5-METHYLTHIOADENOSINE" textLabel="S-methyl-5&apos;-thioadenosine" type="Metabolite">
+      <Xref identifier="WUUGFSXJNOTRMR-IOSLPCCCSA-N" dataSource="InChIKey" />
+      <Graphics centerX="1600.0" centerY="537.4297485351562" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="5-METHYLTHIOADENOSINE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004228245" />
+      <Property key="AlternativeId_Seed" value="cpd00147" />
+      <Property key="AlternativeId_Metanetx" value="MNXM150" />
+      <Property key="AlternativeId_Refmet" value="5&apos;-Methylthioadenosine" />
+      <Property key="AlternativeId_Bigg" value="5mta" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC17509" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01173" />
+      <Property key="AlternativeId_Drugbank" value="DB02282" />
+      <Property key="AlternativeId_Chemspider" value="388321" />
+      <Property key="AlternativeId_Pubchem" value="439176" />
+      <Property key="AlternativeId_Chebi" value="17509" />
+      <Property key="AlternativeId_LigandCpd" value="C00170" />
+      <Property key="AlternativeId_Cas" value="2457-80-9" />
+      <Property key="Synonym_1" value="methylthioadenosine" />
+      <Property key="Synonym_2" value="5&apos;-methylthioadenosine" />
+      <Property key="Synonym_3" value="MTA" />
+      <Property key="Synonym_4" value="5&apos;-deoxy-5&apos;-(methylsulfanyl)adenosine" />
+      <Property key="Synonym_5" value="5&apos;-deoxy-5&apos;-(methylthio)adenosine" />
+      <Property key="ChemicalFormula" value="(C 11) (H 15) (N 5) (O 3) (S 1)" />
+      <Property key="Gibbs0" value="110.0778" />
+      <Property key="Inchi" value="InChI=1S/C11H15N5O3S/c1-20-2-5-7(17)8(18)11(19-5)16-4-15-6-9(12)13-3-14-10(6)16/h3-5,7-8,11,17-18H,2H2,1H3,(H2,12,13,14)/t5-,7-,8-,11-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=WUUGFSXJNOTRMR-IOSLPCCCSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="297.331" />
+      <Property key="MonoisotopicMw" value="297.08956006380004" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Smiles" value="CSC[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3)" />
+    </DataNode>
+    <DataNode elementId="_18S-rRNA-N1-methylpseudouridine" textLabel="an 18S rRNA N¹-methylpseudouridine" type="Metabolite">
+      <Xref identifier="MNXM97900" dataSource="MetaNetX" />
+      <Graphics centerX="617.195556640625" centerY="778.5057983398438" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="18S-rRNA-N1-methylpseudouridine" />
+      <Property key="AlternativeId_Seed" value="cpd21842" />
+      <Property key="AlternativeId_Metanetx" value="MNXM97900" />
+      <Property key="Synonym_1" value="an 18S rRNA containing &lt;i&gt;N&lt;/i&gt;&lt;sup&gt;1&lt;/sup&gt;-methylpseudouridine" />
+      <Property key="Synonym_2" value="an &lt;i&gt;N&lt;/i&gt;&lt;sup&gt;1&lt;/sup&gt;-methylpseudouridine in 18S rRNA" />
+      <Property key="AtomCharges" value="(21 -1), (17 -1)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/C10H16N2O12P2/c1-12-2-4(9(14)11-10(12)15)7-6(13)8(24-26(19,20)21)5(23-7)3-22-25(16,17)18/h2,5-8,13H,3H2,1H3,(H,11,14,15)(H2,16,17,18)(H2,19,20,21)/p-2/t5-,6+,7+,8-/m1/s1" />
+      <Property key="Smiles" value="CN2(C(=O)NC(=O)C(/[C@@H]1(O[C@H](COP(=O)([O-])O[an 18S rRNA])[C@@H](OP(=O)(O[an 18S rRNA])[O-])[C@@H](O)1))=C/2)" />
+    </DataNode>
+    <DataNode elementId="_18S-rRNA-uridines" textLabel="a uridine in 18S rRNA" type="Metabolite">
+      <Graphics centerX="850.3519897460938" centerY="1025.885986328125" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="18S-rRNA-uridines" />
+      <Property key="Synonym_1" value="18S rRNA uridine" />
+      <Property key="AtomCharges" value="(20 -1), (16 -1)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/C9H14N2O12P2/c12-5-1-2-11(9(14)10-5)8-6(13)7(23-25(18,19)20)4(22-8)3-21-24(15,16)17/h1-2,4,6-8,13H,3H2,(H,10,12,14)(H2,15,16,17)(H2,18,19,20)/p-2/t4-,6-,7-,8-/m1/s1" />
+      <Property key="Smiles" value="C(OP(=O)([O-])O[an 18S rRNA])[C@H]2(O[C@@H](N1(\C=C/C(=O)NC(=O)1))[C@H](O)[C@H](OP(=O)(O[an 18S rRNA])[O-])2)" />
+    </DataNode>
+    <DataNode elementId="PROTON" textLabel="H⁺" type="Metabolite">
+      <Xref identifier="GPRLSGONYQIRFK-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="100.0" centerY="525.5509643554688" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PROTON" />
+      <Property key="AlternativeId_Bigg" value="h" />
+      <Property key="AlternativeId_Seed" value="cpd00067" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1" />
+      <Property key="AlternativeId_Hmdb" value="HMDB59597" />
+      <Property key="AlternativeId_Chemspider" value="1010" />
+      <Property key="AlternativeId_Pubchem" value="1038" />
+      <Property key="AlternativeId_Chebi" value="15378" />
+      <Property key="AlternativeId_Cas" value="12408-02-5" />
+      <Property key="AlternativeId_LigandCpd" value="C00080" />
+      <Property key="Synonym_1" value="H" />
+      <Property key="Synonym_2" value="hydrogen ion" />
+      <Property key="Synonym_3" value="proton" />
+      <Property key="ChemicalFormula" value="(H 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="0.42906138" />
+      <Property key="Inchi" value="InChI=1S/p+1" />
+      <Property key="InchiKey" value="InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1.008" />
+      <Property key="MonoisotopicMw" value="1.0078250321" />
+      <Property key="NonStandardInchi" value="InChI=1S/p+1" />
+      <Property key="Smiles" value="[H+]" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="970.16162109375" y="595.4088134765625" elementRef="OS04G0576300" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="837.69873046875" y="786.853515625" elementRef="OS04T0576300-01" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_1_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_1_0_0" x="1183.2791748046875" y="835.8812255859375" elementRef="OS11G0598700" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_1_0_0" arrowHead="TranscriptionTranslation" x="570.9423828125" y="233.54481506347656" elementRef="OS11T0598700-00" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-22911">
+      <Xref identifier="EC-2.5.1.157" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-22911_start" x="662.195556640625" y="778.5057983398438" elementRef="_18S-rRNA-N1-methylpseudouridine" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-22911_end" arrowHead="Conversion" x="232.49188232421875" y="1256.724609375" elementRef="_18S-N1mN3acp-pseudoU" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-22911_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-22911" />
+      <Property key="EC_Number" value="EC-2.5.1.157" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-8341" />
+      <Property key="ReactionEquation" value="S-ADENOSYLMETHIONINE + 18S-rRNA-N1-methylpseudouridine =&gt; 5-METHYLTHIOADENOSINE + 18S-N1mN3acp-pseudoU + PROTON" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (20 23 24 25 27 28 29 30 31 33 36 35 37 38 41 42 43 44 45 46 47 48 49 50 51 52 53 54 0 21 22 1 2 3 26 4 5 6 7 8 9 10 32 34 11 12 13 14 15 16 17 40 39 18 19) (((&quot;5-METHYLTHIOADENOSINE&quot; 0 19) (&quot;18S-N1mN3acp-pseudoU&quot; 20 54)) ((&quot;18S-rRNA-N1-methylpseudouridine&quot; 0 27) (&quot;S-ADENOSYLMETHIONINE&quot; 28 54))))" />
+      <Property key="^official?" value="NIL" />
+      <Property key="Gibbs0" value="-78.63788" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-22911_anchor_reactant_0">
+      <Xref identifier="EC-2.5.1.157" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-22911_anchor_reactant_start_0" x="1566.139892578125" y="1219.484619140625" elementRef="S-ADENOSYLMETHIONINE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-22911_anchor_reactant_end_0" x="0" y="0" elementRef="RXN-22911_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-22911_anchor_product_0">
+      <Xref identifier="EC-2.5.1.157" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-22911_anchor_product_start_0" x="0" y="0" elementRef="RXN-22911_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-22911_anchor_product_end_0" arrowHead="Conversion" x="1555.0" y="537.4297485351562" elementRef="_5-METHYLTHIOADENOSINE" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-22911_anchor_product_2">
+      <Xref identifier="EC-2.5.1.157" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-22911_anchor_product_start_2" x="0" y="0" elementRef="RXN-22911_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-22911_anchor_product_end_2" arrowHead="Conversion" x="55.0" y="525.5509643554688" elementRef="PROTON" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-13327">
+      <Xref identifier="EC-2.1.1.260" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-13327_start" x="1207.22607421875" y="50.0" elementRef="_18S-rRNAs-Pseudouridines" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-13327_end" arrowHead="Conversion" x="572.195556640625" y="778.5057983398438" elementRef="_18S-rRNA-N1-methylpseudouridine" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-13327_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-13327" />
+      <Property key="EC_Number" value="EC-2.1.1.260" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-8341" />
+      <Property key="ReactionEquation" value="S-ADENOSYLMETHIONINE + 18S-rRNAs-Pseudouridines =&gt; ADENOSYL-HOMO-CYS + 18S-rRNA-N1-methylpseudouridine + PROTON" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 1 2 3 4 5 6 7 8 9 11 10 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27) (((&quot;18S-rRNA-N1-methylpseudouridine&quot; 0 27) (&quot;ADENOSYL-HOMO-CYS&quot; 28 53)) ((&quot;S-ADENOSYLMETHIONINE&quot; 0 26) (&quot;18S-rRNAs-Pseudouridines&quot; 27 53))))" />
+      <Property key="^official?" value="NIL" />
+      <Property key="Gibbs0" value="-27.282227" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-13327_anchor_reactant_0">
+      <Xref identifier="EC-2.1.1.260" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-13327_anchor_reactant_start_0" x="1566.139892578125" y="1219.484619140625" elementRef="S-ADENOSYLMETHIONINE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-13327_anchor_reactant_end_0" x="0" y="0" elementRef="RXN-13327_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-13327_anchor_product_0">
+      <Xref identifier="EC-2.1.1.260" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-13327_anchor_product_start_0" x="0" y="0" elementRef="RXN-13327_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-13327_anchor_product_end_0" arrowHead="Conversion" x="872.6902465820312" y="1550.0" elementRef="ADENOSYL-HOMO-CYS" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-13327_anchor_product_2">
+      <Xref identifier="EC-2.1.1.260" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-13327_anchor_product_start_2" x="0" y="0" elementRef="RXN-13327_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-13327_anchor_product_end_2" arrowHead="Conversion" x="55.0" y="525.5509643554688" elementRef="PROTON" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-22910">
+      <Xref identifier="EC-5.4.99" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-22910_start" x="895.3519897460938" y="1025.885986328125" elementRef="_18S-rRNA-uridines" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-22910_end" arrowHead="Conversion" x="1117.22607421875" y="50.0" elementRef="_18S-rRNAs-Pseudouridines" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-22910_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-22910" />
+      <Property key="EC_Number" value="EC-5.4.99" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-8341" />
+      <Property key="ReactionEquation" value="18S-rRNA-uridines =&gt; 18S-rRNAs-Pseudouridines" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNN7F-65498, ENZRXNN7F-60954" />
+      <Property key="EnzymaticReactionCount" value="2" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (1 2 0 3 5 7 6 4 8 10 9 12 11 13 14 15 16 17 18 19 20 21 22 23 24 25 26) (((&quot;18S-rRNA-uridines&quot; 0 26)) ((&quot;18S-rRNAs-Pseudouridines&quot; 0 26))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-13.899963" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-22910_ENZRXNN7F-65498">
+      <Waypoints>
+        <Point elementId="RXN-22910_ENZRXNN7F-65498_start" x="882.69873046875" y="799.353515625" elementRef="OS04T0576300-01" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-22910_ENZRXNN7F-65498_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-22910_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-22910_ENZRXNN7F-60954">
+      <Waypoints>
+        <Point elementId="RXN-22910_ENZRXNN7F-60954_start" x="615.9423828125" y="246.04481506347656" elementRef="OS11T0598700-00" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-22910_ENZRXNN7F-60954_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-22910_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_PMNAIPP2024">
+      <Xref identifier="PUB-PMNAIPP2024 | This pathway was predicted to exist in this species using PathoLogic (version 28.0) and was accepted... (2024)" dataSource="BioCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_12419350">
+      <Xref identifier="12419350" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_27084949">
+      <Xref identifier="27084949" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_7630735">
+      <Xref identifier="7630735" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

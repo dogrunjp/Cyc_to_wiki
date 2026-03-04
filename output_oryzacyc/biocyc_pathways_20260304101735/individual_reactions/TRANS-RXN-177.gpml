@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="Transport of L-carnitine and &lt;i&gt;O&lt;/i&gt;-acyl-L-carnitine" organism="cellular organisms" source="PlantCyc" version="20260304101735">
+  <Description>Single reaction view for TRANS-RXN-177: Transport of L-carnitine and &lt;i&gt;O&lt;/i&gt;-acyl-L-carnitine</Description>
+  <Authors>
+    <Author name="BioCyc" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from BioCyc single reaction data.</Comment>
+  <Property key="UniqueID" value="TRANS-RXN-177" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="OS04G0527500" textLabel="Os04g0527500" type="GeneProduct">
+      <Xref identifier="OS04G0527500" dataSource="plantcyc" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS04G0527500" />
+      <Property key="Product" value="OS04T0527500-01" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os04g0527500" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS04T0527500-01" textLabel="Os04t0527500-01" type="Protein">
+      <Xref identifier="OS04T0527500-01" dataSource="plantcyc" />
+      <Graphics centerX="150" centerY="215" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS04T0527500-01" />
+      <Property key="Catalyzes" value="RXN-N7F-65582" />
+      <Property key="Accession1" value="Os04t0527500-01" />
+      <Property key="Gene" value="OS04G0527500" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="O-Long-Chain-Acyl-L-Carnitines" textLabel="an O-(long-chain-acyl)-L-carnitine" type="Metabolite">
+      <Graphics centerX="200" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="PMN, zhang, SRI, caspi">This class contains |FRAME: CARNITINE| molecules esterified at the C3 hydroxyl to long chain fatty acyl groups |CITS: [15591000] [11257506]|.</Comment>
+      <Property key="UniqueID" value="O-Long-Chain-Acyl-L-Carnitines" />
+      <Property key="AtomCharges" value="(23 -1), (21 1)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/C20H39NO4/c1-5-6-7-8-9-10-11-12-13-14-15-20(24)25-18(16-19(22)23)17-21(2,3)4/h18H,5-17H2,1-4H3/t18-/m1/s1" />
+      <Property key="Smiles" value="C(CCCCCCCCCCCC(=O)O[C@H](CC(=O)[O-])C[N+](C)(C)C)[R]" />
+      <CitationRef elementRef="citation_PUB_15591000" />
+    </DataNode>
+    <DataNode elementId="CARNITINE" textLabel="L-carnitine" type="Metabolite">
+      <Xref identifier="PHIQHXFUZVPYII-ZCFIWIBFSA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="PMN, nilo-poyanco">|FRAME: CARNITINE| is a zwitterionic, quaternary amine carboxylate that has essential and diverse roles in intermediary metabolism in all living kingdoms. Carnitine was first discovered in 1905 in muscle extracts, and the name is derived from the Latin word for flesh, Carnis |CITS: [11183736]|. In 1962 it was found that the physiological enantiomer is |FRAME: CARNITINE|, and since then the widespread distribution of L-carnitine has been established in higher and lower eukaryotes, plants, and many microorganisms |CITS: [9706218]|. In animals and yeast carnitine is best known for its contribution to fatty acid intracellular trafficking |CITS: [2199593]|. In plants L-carnitine is also associated with fatty acid metabolism, although its exact function is less well understood |CITS: [17988884][30080631]|. Bacteria are not able to synthesize carnitine &lt;i&gt;do novo&lt;/i&gt;, but are able to import the compound and use it as an osmoprotectant or to enhance thermotolerance, cryotolerance and barotolerance |CITS: [25787873]|. |FRAME: CARNITINE| is used in pharmaceutical and nutritional preparations and methods have been described for its production and separation from its |FRAME: D-CARNITINE| enantiomer |CITS: [12191705 ] [9830124]| and reviewed in |CITS: [17910757]|.</Comment>
+      <Property key="UniqueID" value="CARNITINE" />
+      <Property key="AlternativeId_Metanetx" value="MNXM173" />
+      <Property key="AlternativeId_Refmet" value="Carnitine" />
+      <Property key="AlternativeId_Bigg" value="crn" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC16347" />
+      <Property key="AlternativeId_Hmdb" value="HMDB14721" />
+      <Property key="AlternativeId_Drugbank" value="DB00583" />
+      <Property key="AlternativeId_Chemspider" value="10455" />
+      <Property key="AlternativeId_Pubchem" value="10917" />
+      <Property key="AlternativeId_Chebi" value="16347" />
+      <Property key="AlternativeId_Cas" value="541-15-1" />
+      <Property key="AlternativeId_LigandCpd" value="C00318" />
+      <Property key="Synonym_1" value="&amp;gamma;-trimethyl-hydroxybutyrobetaine" />
+      <Property key="Synonym_2" value="(3&lt;i&gt;R&lt;/i&gt;)-3-hydroxy-4-(trimethylammino)butanoate" />
+      <Property key="Synonym_3" value="vitamin B T" />
+      <Property key="Synonym_4" value="bicarnesine" />
+      <Property key="Synonym_5" value="(&lt;i&gt;R&lt;/i&gt;)-carnitine" />
+      <Property key="Synonym_6" value="&amp;gamma;-L-trimethyl-&amp;beta;-hydroxybutyrobetaine" />
+      <Property key="Synonym_7" value="vitamin Bt" />
+      <Property key="Synonym_8" value="3-carboxy-2-hydroxy-N,N,N-trimethyl-1-propanaminium" />
+      <Property key="ChemicalFormula" value="(C 7) (H 15) (N 1) (O 3)" />
+      <Property key="AtomCharges" value="(8 1), (11 -1)" />
+      <Property key="Gibbs0" value="26.8368" />
+      <Property key="Inchi" value="InChI=1S/C7H15NO3/c1-8(2,3)5-6(9)4-7(10)11/h6,9H,4-5H2,1-3H3/t6-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=PHIQHXFUZVPYII-ZCFIWIBFSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="161.2" />
+      <Property key="MonoisotopicMw" value="163.1208434172" />
+      <Property key="NonStandardInchi" value="InChI=1S/C7H15NO3/c1-8(2,3)5-6(9)4-7(10)11/h6,9H,4-5H2,1-3H3/t6-/m1/s1" />
+      <Property key="Smiles" value="C([C@H](O)CC(=O)[O-])[N+](C)(C)C" />
+      <CitationRef elementRef="citation_PUB_11183736" />
+      <CitationRef elementRef="citation_PUB_9706218" />
+      <CitationRef elementRef="citation_PUB_2199593" />
+      <CitationRef elementRef="citation_PUB_25787873" />
+      <CitationRef elementRef="citation_PUB_17910757" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="OS04G0527500" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="215" elementRef="OS04T0527500-01" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="TRANS-RXN-177">
+      <Xref identifier="TRANS-RXN-177" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="TRANS-RXN-177_start" x="245.0" y="400" elementRef="O-Long-Chain-Acyl-L-Carnitines" relX="1.0" relY="0.0" />
+        <Point elementId="TRANS-RXN-177_end" arrowHead="Conversion" x="155.0" y="400" elementRef="O-Long-Chain-Acyl-L-Carnitines" relX="-1.0" relY="0.0" />
+        <Anchor elementId="TRANS-RXN-177_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="TRANS-RXN-177" />
+      <Property key="ReactionName" value="Transport of L-carnitine and &lt;i&gt;O&lt;/i&gt;-acyl-L-carnitine" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="ReactionEquation" value="O-Long-Chain-Acyl-L-Carnitines + CARNITINE =&gt; O-Long-Chain-Acyl-L-Carnitines + CARNITINE" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXNN7F-65582" />
+      <Property key="ReactionTypes" value="TR-12, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value=":CPDS-LACK-STRUCTURE" />
+      <Property key="Gibbs0" value="0." />
+      <Property key="InstanceNameTemplate" value="TRANS-RXN-*" />
+      <Property key="^compartment" value="CCO-OUT, CCO-IN, CCO-IN, CCO-OUT" />
+    </Interaction>
+    <Interaction elementId="TRANS-RXN-177_ENZRXNN7F-65582">
+      <Waypoints>
+        <Point elementId="TRANS-RXN-177_ENZRXNN7F-65582_start" x="150" y="227.5" elementRef="OS04T0527500-01" relX="0.0" relY="1.0" />
+        <Point elementId="TRANS-RXN-177_ENZRXNN7F-65582_end" arrowHead="Catalysis" x="0" y="0" elementRef="TRANS-RXN-177_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="TRANS-RXN-177_anchor_reactant_1">
+      <Xref identifier="TRANS-RXN-177" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="TRANS-RXN-177_anchor_reactant_start_1" x="395.0" y="400" elementRef="CARNITINE" relX="1.0" relY="0.0" />
+        <Point elementId="TRANS-RXN-177_anchor_reactant_end_1" x="0" y="0" elementRef="TRANS-RXN-177_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="TRANS-RXN-177_anchor_product_1">
+      <Xref identifier="TRANS-RXN-177" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="TRANS-RXN-177_anchor_product_start_1" x="0" y="0" elementRef="TRANS-RXN-177_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="TRANS-RXN-177_anchor_product_end_1" arrowHead="Conversion" x="305.0" y="400" elementRef="CARNITINE" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_15591000">
+      <Xref identifier="15591000" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_25787873">
+      <Xref identifier="25787873" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_17910757">
+      <Xref identifier="17910757" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_9706218">
+      <Xref identifier="9706218" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_2199593">
+      <Xref identifier="2199593" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_11183736">
+      <Xref identifier="11183736" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

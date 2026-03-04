@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="ceramide de novo biosynthesis" organism="cellular organisms" source="PlantCyc" version="20260304101735">
+  <Description>&lt;b&gt;General Background&lt;/b&gt; |FRAME: Ceramides Ceramides| belong to a diverse class of lipids called sphingolipids that have important biological properties and control many aspects of cellular metabolism |CITS: [22248339]|. They are composed of |FRAME: SPHINGOSINE| linked to |FRAME: Fatty-Acids| via an amide bond. Ceramides make up a large percentage of the cell membrane and are the major lipid constituent of lamellar sheets in the intercellular spaces of the stratum corneum |CITS: [12553851]|. These lamellar sheets provide the barrier property of the epidermis. Besides having structural properties, ceramides can act as a second messengers in the sphingomyelin cycle |CITS: [8106344]|, and also play a role in cell aging, apoptosis and differentiation |CITS: [10652518]|. There are three major pathways for ceramide generation. This pathway describes &lt;i&gt;de novo&lt;/i&gt; biosynthesis. &lt;b&gt;About this Pathway&lt;/b&gt; The defining step in the &lt;i&gt;de novo&lt;/i&gt; biosynthesis of ceramides is the pyridoxal-5&apos;-phosphate-dependent condensation of |FRAME: PALMITYL-COA| with |FRAME: SER| catalyzed by |FRAME: CPLX66-305 &quot;serine palmitoyltransferase&quot;| |CITS: [9363775]|. The resultant |FRAME: DEHYDROSPHINGANINE| is immediately reduced to |FRAME: CPD-13612| in an NADPH dependent reaction catalyzed by |FRAME: HS04306-MONOMER|. |FRAME: MONOMER66-34367 &quot;Dihydroceramide synthase&quot;| catalyzes the acylation of sphinganine to yield |FRAME: CPD3DJ-82|, followed by a desaturation at the 4,5 position to form |FRAME: Ceramides| |CITS: [9312549]|. The last two steps of the pathway were decided by the discovery of the fungal secondary metabolite |FRAME: CPD-13181| |CITS: [8850625]|. Fumonisin B1 is a potent inhibitor of the N-acylation of sphingoid bases and blocks the pathway at the |FRAME: MONOMER66-34367 &quot;dihydroceramide synthase&quot;| step. This clarified that the latter part of the pathway proceeds first by acylation and then desaturation instead of vice versa |CITS: [1860857]|. The pathway occurs in the endoplasmic reticulum.</Description>
+  <Authors>
+    <Author name="chawkins" />
+    <Author name="SRI" />
+    <Author name="brito" />
+    <Author name="O3DJ-6" />
+    <Author name="AU3DJ-15" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY3DJ-12" />
+  <Property key="Type" value="Sphingolipid-Biosynthesis" />
+  <Property key="ReactionCount" value="4" />
+  <Property key="ReactionIDs" value="RXN-7792, RXN-16332, 3-DEHYDROSPHINGANINE-REDUCTASE-RXN, SERINE-C-PALMITOYLTRANSFERASE-RXN" />
+  <Property key="PredecessorCount" value="3" />
+  <Property key="PrimaryCompoundCount" value="2" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_22248339" />
+  <CitationRef elementRef="citation_PUB_12553851" />
+  <CitationRef elementRef="citation_PUB_8106344" />
+  <CitationRef elementRef="citation_PUB_10652518" />
+  <CitationRef elementRef="citation_PUB_9363775" />
+  <CitationRef elementRef="citation_PUB_9312549" />
+  <CitationRef elementRef="citation_PUB_8850625" />
+  <CitationRef elementRef="citation_PUB_1860857" />
+  <Graphics boardWidth="1800.0" boardHeight="1750.0" />
+  <DataNodes>
+    <DataNode elementId="OS03G0252800" textLabel="Os03g0252800" type="GeneProduct">
+      <Xref identifier="OS03G0252800" dataSource="plantcyc" />
+      <Graphics centerX="702.1097412109375" centerY="630.934814453125" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS03G0252800" />
+      <Property key="Product" value="OS03T0252800-01" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os03g0252800" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS01G0928600" textLabel="Os01g0928600" type="GeneProduct">
+      <Xref identifier="OS01G0928600" dataSource="plantcyc" />
+      <Graphics centerX="919.7803955078125" centerY="903.7940673828125" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS01G0928600" />
+      <Property key="Product" value="OS01T0928600-01" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os01g0928600" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS11G0516000" textLabel="Os11g0516000" type="GeneProduct">
+      <Xref identifier="OS11G0516000" dataSource="plantcyc" />
+      <Graphics centerX="803.9832763671875" centerY="800.0473022460938" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS11G0516000" />
+      <Property key="Product" value="OS11T0516000-01" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os11g0516000" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS02G0806900" textLabel="Os02g0806900" type="GeneProduct">
+      <Xref identifier="OS02G0806900" dataSource="plantcyc" />
+      <Graphics centerX="1156.9222412109375" centerY="425.29083251953125" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS02G0806900" />
+      <Property key="Product" value="OS02T0806900-01" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os02g0806900" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS02G0639600" textLabel="Os02g0639600" type="GeneProduct">
+      <Xref identifier="OS02G0639600" dataSource="plantcyc" />
+      <Graphics centerX="871.9717407226562" centerY="801.9442749023438" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS02G0639600" />
+      <Property key="Product" value="OS02T0639600-01" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os02g0639600" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS01G0928700" textLabel="Os01g0928700" type="GeneProduct">
+      <Xref identifier="OS01G0928700" dataSource="plantcyc" />
+      <Graphics centerX="260.8111877441406" centerY="1216.630126953125" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS01G0928700" />
+      <Property key="Product" value="OS01T0928700-00" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os01g0928700" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS01G0928800" textLabel="Os01g0928800" type="GeneProduct">
+      <Xref identifier="OS01G0928800" dataSource="plantcyc" />
+      <Graphics centerX="1477.019287109375" centerY="1375.6168212890625" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS01G0928800" />
+      <Property key="Product" value="OS01T0928800-01" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os01g0928800" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS10G0189600" textLabel="Os10g0189600" type="GeneProduct">
+      <Xref identifier="OS10G0189600" dataSource="plantcyc" />
+      <Graphics centerX="1498.6278076171875" centerY="346.5780334472656" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS10G0189600" />
+      <Property key="Products" value="OS10T0189600-02, OS10T0189600-01" />
+      <Property key="ProductCount" value="2" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os10g0189600" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS02T0639600-01" textLabel="Os02t0639600-01" type="Protein">
+      <Xref identifier="OS02T0639600-01" dataSource="plantcyc" />
+      <Graphics centerX="873.5538330078125" centerY="450.96844482421875" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS02T0639600-01" />
+      <Property key="Catalyzes" value="RXN-N7F-67500" />
+      <Property key="Accession1" value="Os02t0639600-01" />
+      <Property key="Gene" value="OS02G0639600" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS10T0189600-02" textLabel="Os10t0189600-02" type="Protein">
+      <Xref identifier="OS10T0189600-02" dataSource="plantcyc" />
+      <Graphics centerX="1263.444091796875" centerY="863.6446533203125" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS10T0189600-02" />
+      <Property key="Catalyzes" value="RXN-N7F-61867" />
+      <Property key="Accession1" value="Os10t0189600-02" />
+      <Property key="Gene" value="OS10G0189600" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS02T0806900-01" textLabel="Os02t0806900-01" type="Protein">
+      <Xref identifier="OS02T0806900-01" dataSource="plantcyc" />
+      <Graphics centerX="1002.8002319335938" centerY="618.93017578125" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS02T0806900-01" />
+      <Property key="Catalyzes" value="RXN-N7F-67215" />
+      <Property key="Accession1" value="Os02t0806900-01" />
+      <Property key="Gene" value="OS02G0806900" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS01T0928700-00" textLabel="Os01t0928700-00" type="Protein">
+      <Xref identifier="OS01T0928700-00" dataSource="plantcyc" />
+      <Graphics centerX="856.6343994140625" centerY="704.824951171875" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS01T0928700-00" />
+      <Property key="Catalyzes" value="RXN-N7F-68217" />
+      <Property key="Accession1" value="Os01t0928700-00" />
+      <Property key="Gene" value="OS01G0928700" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS03T0252800-01" textLabel="Os03t0252800-01" type="Protein">
+      <Xref identifier="OS03T0252800-01" dataSource="plantcyc" />
+      <Graphics centerX="234.97203063964844" centerY="342.9722595214844" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS03T0252800-01" />
+      <Property key="Catalyzes" value="RXN-N7F-66845" />
+      <Property key="Accession1" value="Os03t0252800-01" />
+      <Property key="Gene" value="OS03G0252800" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS01T0928600-01" textLabel="Os01t0928600-01" type="Protein">
+      <Xref identifier="OS01T0928600-01" dataSource="plantcyc" />
+      <Graphics centerX="561.73291015625" centerY="1433.005859375" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS01T0928600-01" />
+      <Property key="Catalyzes" value="RXN-N7F-68218" />
+      <Property key="Accession1" value="Os01t0928600-01" />
+      <Property key="Gene" value="OS01G0928600" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS11T0516000-01" textLabel="Os11t0516000-01" type="Protein">
+      <Xref identifier="OS11T0516000-01" dataSource="plantcyc" />
+      <Graphics centerX="1048.7518310546875" centerY="780.0136108398438" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS11T0516000-01" />
+      <Property key="Catalyzes" value="RXN-N7F-61039" />
+      <Property key="Accession1" value="Os11t0516000-01" />
+      <Property key="Gene" value="OS11G0516000" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS01T0928800-01" textLabel="Os01t0928800-01" type="Protein">
+      <Xref identifier="OS01T0928800-01" dataSource="plantcyc" />
+      <Graphics centerX="1279.001708984375" centerY="1185.573486328125" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS01T0928800-01" />
+      <Property key="Catalyzes" value="RXN-N7F-68216" />
+      <Property key="Accession1" value="Os01t0928800-01" />
+      <Property key="Gene" value="OS01G0928800" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="NADPH" textLabel="NADPH" type="Metabolite">
+      <Xref identifier="ACFIXJIJDZMPPO-NNYOXOHSSA-J" dataSource="InChIKey" />
+      <Graphics centerX="790.793701171875" centerY="922.6991577148438" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco">|FRAME: NAD| and |FRAME: NADP| are dinucleotides containing one |FRAME: NIACINAMIDE| base and one |FRAME: ADENINE| base. Each nucleotide is connected to a ribose sugar at position 1, and the two riboses are connected at their 5 position via a diphosphate. The only difference between the two is that in NADP there is an additional phosphate group at the 2&apos; position of the ribose that carries the adenine moiety. These molecules are biological carriers of reductive equivalents (i.e. high potential electrons). Most of the time they function as cosubstrates, and in some cases they function as |FRAME: Cofactors cofactors|. They are often referred to by the obsolete term &quot;coenzymes&quot;. The most common function of |FRAME: NAD| is to accept two electrons and a proton (a hydride ion) from a substrate that is being oxidized. This reduction converts |FRAME: NAD| to |FRAME: NADH|, the reduced form. NADH then diffuses or is transported to a terminal oxidase, where the electrons are passed on, regenerating the oxidized form. |FRAME: NADPH|, on the other hand, is mostly involved in biosynthetic reactions, where it serves as an electron donor. NADPH is formed by reduction of |FRAME: NADP|, which occurs by different mechanisms in different types of organisms. In photosynthetic organisms |FRAME: NADP| is reduced by |FRAME: CPLX-84|. In heterotrophic organisms it is reduced by central metabolism processes such as the pentose phosphate pathway (see |FRAME: OXIDATIVEPENT-PWY|).</Comment>
+      <Property key="UniqueID" value="NADPH" />
+      <Property key="AlternativeId_Seed" value="cpd00005" />
+      <Property key="AlternativeId_Metanetx" value="MNXM6" />
+      <Property key="AlternativeId_Refmet" value="NADPH" />
+      <Property key="AlternativeId_Bigg" value="nadph" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57783" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00221" />
+      <Property key="AlternativeId_Chemspider" value="10239199" />
+      <Property key="AlternativeId_Chebi" value="57783" />
+      <Property key="AlternativeId_Pubchem" value="15983949" />
+      <Property key="AlternativeId_Cas" value="2646-71-1" />
+      <Property key="AlternativeId_LigandCpd" value="C00005" />
+      <Property key="Synonym_1" value="reduced nicotinamide adenine dinucleotide phosphate" />
+      <Property key="Synonym_2" value="NADPH2" />
+      <Property key="Synonym_3" value="NADPH&lt;SUB&gt;2&lt;/SUB&gt;" />
+      <Property key="Synonym_4" value="dihydrotriphosphopyridine nucleotide" />
+      <Property key="Synonym_5" value="reduced dihydrotriphosphopyridine nucleotide" />
+      <Property key="Synonym_6" value="dihydronicotinamide adenine dinucleotide phosphate" />
+      <Property key="Synonym_7" value="dihydronicotinamide adenine dinucleotide phosphate reduced" />
+      <Property key="Synonym_8" value="reduced NADP" />
+      <Property key="Synonym_9" value="NADP-red" />
+      <Property key="Synonym_10" value="TPNH" />
+      <Property key="Synonym_11" value="dihydronicotinamide adenine dinucleotide-P" />
+      <Property key="Synonym_12" value="&amp;beta;-NADPH" />
+      <Property key="Synonym_13" value="&amp;beta;-nicotinamide adenine dinucleotide phosphate, reduced" />
+      <Property key="ChemicalFormula" value="(C 21) (H 26) (N 7) (O 17) (P 3)" />
+      <Property key="AtomCharges" value="(35 -1), (33 -1), (39 -1), (37 -1)" />
+      <Property key="Gibbs0" value="-551.72284" />
+      <Property key="Inchi" value="InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)/p-4/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=ACFIXJIJDZMPPO-NNYOXOHSSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="741.394" />
+      <Property key="MonoisotopicMw" value="745.0911021051" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG-9458, REG0-8743, REG-7365, REG-8494" />
+      <Property key="Smiles" value="C1(\N(/C=C(C\C=1)/C(=O)N)[C@@H]2(O[C@@H]([C@H]([C@H]2O)O)COP(OP(OC[C@H]5(O[C@@H](N3(C4(\C(\N=C/3)=C(N)/N=C\N=4)))[C@H](OP([O-])(=O)[O-])[C@H](O)5))(=O)[O-])(=O)[O-]))" />
+    </DataNode>
+    <DataNode elementId="SER" textLabel="L-serine" type="Metabolite">
+      <Xref identifier="MTCFGRXMJLQNBG-REOHCLBHSA-N" dataSource="InChIKey" />
+      <Graphics centerX="1007.44921875" centerY="1276.9158935546875" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="SER" />
+      <Property key="AlternativeId_Zinc" value="ZINC000000895034" />
+      <Property key="AlternativeId_Mediadb" value="compounds/63/" />
+      <Property key="AlternativeId_Refmet" value="Serine" />
+      <Property key="AlternativeId_Bigg" value="ser__L" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC33384" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00187" />
+      <Property key="AlternativeId_Chebi" value="33384" />
+      <Property key="AlternativeId_Pubchem" value="6857581" />
+      <Property key="AlternativeId_LigandCpd" value="C00065" />
+      <Property key="AlternativeId_Cas" value="56-45-1" />
+      <Property key="Synonym_1" value="S" />
+      <Property key="Synonym_2" value="serine" />
+      <Property key="Synonym_3" value="L-ser" />
+      <Property key="ChemicalFormula" value="(C 3) (H 7) (N 1) (O 3)" />
+      <Property key="AbbrevName" value="ser" />
+      <Property key="AtomCharges" value="(6 -1), (4 1)" />
+      <Property key="Gibbs0" value="-50.20216" />
+      <Property key="Inchi" value="InChI=1S/C3H7NO3/c4-2(1-5)3(6)7/h2,5H,1,4H2,(H,6,7)/t2-/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=MTCFGRXMJLQNBG-REOHCLBHSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="105.093" />
+      <Property key="MonoisotopicMw" value="105.0425930962" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG0-8906, REG0-11349" />
+      <Property key="Smiles" value="C(O)[C@H]([NH3+])C(=O)[O-]" />
+      <CitationRef elementRef="citation_PUB_16306140" />
+      <CitationRef elementRef="citation_PUB_18493048" />
+    </DataNode>
+    <DataNode elementId="DEHYDROSPHINGANINE" textLabel="3-dehydrosphinganine" type="Metabolite">
+      <Xref identifier="KBUNOSOGGAARKZ-KRWDZBQOSA-O" dataSource="InChIKey" />
+      <Graphics centerX="745.9266967773438" centerY="50.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="DEHYDROSPHINGANINE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000032786897" />
+      <Property key="AlternativeId_ReactomeCpd" value="428182" />
+      <Property key="AlternativeId_Seed" value="cpd01879" />
+      <Property key="AlternativeId_Metanetx" value="MNXM559" />
+      <Property key="AlternativeId_Refmet" value="3-ketosphinganine" />
+      <Property key="AlternativeId_Pubchem" value="49852310" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC58299" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01480" />
+      <Property key="AlternativeId_Chebi" value="58299" />
+      <Property key="AlternativeId_LigandCpd" value="C02934" />
+      <Property key="Synonym_1" value="3-dehydro-D-sphinganine (C18)" />
+      <Property key="Synonym_2" value="KDHS (C18)" />
+      <Property key="Synonym_3" value="3-ketodihydrosphingosine (C18)" />
+      <Property key="Synonym_4" value="3-dehydrosphinganine (C18)" />
+      <Property key="ChemicalFormula" value="(C 18) (H 38) (N 1) (O 2)" />
+      <Property key="AtomCharges" value="(19 1)" />
+      <Property key="Gibbs0" value="339.57053" />
+      <Property key="Inchi" value="InChI=1S/C18H37NO2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-18(21)17(19)16-20/h17,20H,2-16,19H2,1H3/p+1/t17-/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=KBUNOSOGGAARKZ-KRWDZBQOSA-O" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="300.504" />
+      <Property key="MonoisotopicMw" value="299.2824294371" />
+      <Property key="NonStandardInchi" value="InChI=1S/C18H37NO2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-18(21)17(19)16-20/h17,20H,2-16,19H2,1H3/p+1/t17-/m0/s1" />
+      <Property key="Smiles" value="CCCCCCCCCCCCCCCC([C@H](CO)[NH3+])=O" />
+    </DataNode>
+    <DataNode elementId="CPD-13612" textLabel="sphinganine" type="Metabolite">
+      <Xref identifier="OTKJDMGTUTTYMP-ZWKOTPCHSA-O" dataSource="InChIKey" />
+      <Graphics centerX="460.0980529785156" centerY="540.8374633789062" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, nilo-poyanco, PMN, dreher">|FRAME: DIHYDRO-SPHINGOSINE Sphinganines| can have C14, C16, C18 or C20 skeletons. They also exist as different stereoisomers. The |FRAME: D-erythro-Shinganines &quot;D-&lt;i&gt;erythro&lt;/i&gt; isomers&quot;| are the biologically relevant forms |CITS: [21421810]|.</Comment>
+      <Property key="UniqueID" value="CPD-13612" />
+      <Property key="AlternativeId_LigandCpd" value="C00836" />
+      <Property key="AlternativeId_Refmet" value="Sphinganine" />
+      <Property key="AlternativeId_Chemspider" value="82609" />
+      <Property key="AlternativeId_Pubchem" value="46878428" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57817" />
+      <Property key="AlternativeId_Chebi" value="57817" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00269" />
+      <Property key="Synonym_1" value="D-&lt;i&gt;erythro&lt;/i&gt;-DHS (C18)" />
+      <Property key="Synonym_2" value="D-&lt;i&gt;erythro&lt;/i&gt;-dihydrosphingosine (C18)" />
+      <Property key="Synonym_3" value="D-&lt;i&gt;erythro&lt;/i&gt;-sphinganine (C18)" />
+      <Property key="Synonym_4" value="dihydrosphingosine (C18)" />
+      <Property key="Synonym_5" value="d18:0" />
+      <Property key="Synonym_6" value="sphinganine (C18)" />
+      <Property key="Synonym_7" value="octadecasphinganine" />
+      <Property key="ChemicalFormula" value="(C 18) (H 40) (N 1) (O 2)" />
+      <Property key="AtomCharges" value="(19 1)" />
+      <Property key="Gibbs0" value="352.09277" />
+      <Property key="Inchi" value="InChI=1S/C18H39NO2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-18(21)17(19)16-20/h17-18,20-21H,2-16,19H2,1H3/p+1/t17-,18+/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=OTKJDMGTUTTYMP-ZWKOTPCHSA-O" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="302.519" />
+      <Property key="MonoisotopicMw" value="301.2980795013" />
+      <Property key="NonStandardInchi" value="InChI=1S/C18H39NO2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-18(21)17(19)16-20/h17-18,20-21H,2-16,19H2,1H3/p+1/t17-,18+/m0/s1" />
+      <Property key="Smiles" value="CCCCCCCCCCCCCCC[C@H]([C@H](CO)[NH3+])O" />
+      <CitationRef elementRef="citation_PUB_21421810" />
+    </DataNode>
+    <DataNode elementId="CARBON-DIOXIDE" textLabel="CO₂" type="Metabolite">
+      <Xref identifier="CURLTUGMZLYLDI-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="381.3048400878906" centerY="856.1297607421875" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CARBON-DIOXIDE" />
+      <Property key="AlternativeId_Seed" value="cpd00011" />
+      <Property key="AlternativeId_Metanetx" value="MNXM13" />
+      <Property key="AlternativeId_Bigg" value="co2" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC16526" />
+      <Property key="AlternativeId_LigandCpd" value="C00011" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01967" />
+      <Property key="AlternativeId_UmBbdCpd" value="c0131" />
+      <Property key="AlternativeId_Chemspider" value="274" />
+      <Property key="AlternativeId_Chebi" value="16526" />
+      <Property key="AlternativeId_Pubchem" value="280" />
+      <Property key="AlternativeId_Cas" value="124-38-9" />
+      <Property key="Synonym_1" value="carbonic anhydride" />
+      <Property key="Synonym_2" value="carbonic acid gas" />
+      <Property key="Synonym_3" value="carbon dioxide" />
+      <Property key="ChemicalFormula" value="(C 1) (O 2)" />
+      <Property key="Gibbs0" value="-92.26" />
+      <Property key="Inchi" value="InChI=1S/CO2/c2-1-3" />
+      <Property key="InchiKey" value="InChIKey=CURLTUGMZLYLDI-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="44.01" />
+      <Property key="MonoisotopicMw" value="43.989829244199996" />
+      <Property key="NonStandardInchi" value="InChI=1S/CO2/c2-1-3" />
+      <Property key="Smiles" value="C(=O)=O" />
+    </DataNode>
+    <DataNode elementId="N-Acylsphingosine" textLabel="an N-acylsphingosine" type="Metabolite">
+      <Xref identifier="52639" dataSource="ChEBI" />
+      <Graphics centerX="1065.5645751953125" centerY="1000.0946044921875" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="PMN, zhang, SRI, caspi">A |FRAME: N-Acylsphingosine &quot;sphingosine ceramide&quot;| is |FRAME: Ceramides| molecule that is composed of |FRAME: SPHINGOSINE| and |FRAME: Fatty-Acids|. This type of ceramide is common in animals, and is produced by desaturation of a sphinganine base within a ceramide (known as |FRAME: CPD3DJ-82|) by |FRAME: EC-1.14.19.17|. Ceramides are found in high concentrations within the cell membrane and are one of the component lipids that make up |FRAME: Sphingomyelins sphingomyelin|, one of the major lipids in the lipid bilayer.</Comment>
+      <Property key="UniqueID" value="N-Acylsphingosine" />
+      <Property key="AlternativeId_Metanetx" value="MNXM104" />
+      <Property key="AlternativeId_LigandCpd" value="C00195" />
+      <Property key="AlternativeId_Chebi" value="52639" />
+      <Property key="Synonym_1" value="a sphing-4-enine ceramide" />
+      <Property key="Synonym_2" value="a (4E)-sphing-4-enine ceramide" />
+      <Property key="Synonym_3" value="a sphingosine ceramide" />
+      <Property key="Synonym_4" value="an &lt;i&gt;N&lt;/i&gt;-acylsphing-4-enine" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/C19H37NO3/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-19(23)18(16-21)20-17-22/h14-15,17-19,21,23H,2-13,16H2,1H3,(H,20,22)/b15-14+/t18-,19+/m0/s1" />
+      <Property key="Smiles" value="CCCCCCCCCCCCC/C=C/[C@H]([C@@H](NC(=O)[R])CO)O" />
+      <CitationRef elementRef="citation_PUB_LYNCH04" />
+    </DataNode>
+    <DataNode elementId="FERROCYTOCHROME-B5" textLabel="FERROCYTOCHROME-B5" type="Metabolite">
+      <Xref identifier="FERROCYTOCHROME-B5" dataSource="" />
+      <Graphics centerX="915.1258544921875" centerY="794.896240234375" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="WATER" textLabel="H₂O" type="Metabolite">
+      <Xref identifier="XLYOFNOQVPJJNP-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="567.9127807617188" centerY="1090.6761474609375" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="WATER" />
+      <Property key="AlternativeId_Bigg" value="h2o" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15377" />
+      <Property key="AlternativeId_Hmdb" value="HMDB02111" />
+      <Property key="AlternativeId_Chemspider" value="937" />
+      <Property key="AlternativeId_Chebi" value="15377" />
+      <Property key="AlternativeId_Pubchem" value="962" />
+      <Property key="AlternativeId_LigandCpd" value="C00001" />
+      <Property key="AlternativeId_Cas" value="7732-18-5" />
+      <Property key="Synonym_1" value="H20" />
+      <Property key="Synonym_2" value="H&lt;sub&gt;2&lt;/sub&gt;0" />
+      <Property key="Synonym_3" value="H2O" />
+      <Property key="Synonym_4" value="hydrogen oxide" />
+      <Property key="Synonym_5" value="water" />
+      <Property key="ChemicalFormula" value="(H 2) (O 1)" />
+      <Property key="Gibbs0" value="-36.144756" />
+      <Property key="Inchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="InchiKey" value="InChIKey=XLYOFNOQVPJJNP-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="18.015" />
+      <Property key="MonoisotopicMw" value="18.0105646863" />
+      <Property key="NonStandardInchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="Smiles" value="O" />
+    </DataNode>
+    <DataNode elementId="CO-A" textLabel="coenzyme A" type="Metabolite">
+      <Xref identifier="RGJOEKWQDUBAIZ-IBOSZNHHSA-J" dataSource="InChIKey" />
+      <Graphics centerX="621.8804931640625" centerY="829.8255004882812" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco">Coenzyme A (CoA) is a ubiquitous compound found in archaea, bacteria, plants, and animals. It is a common acyl carrier in prokaryotic and eukaryotic cells, and is required for a multitude of reactions for both biosynthetic and degradative pathways, including the oxidation of fatty acids, carbohydrates, and amino acids |CITS: [16415216]|. While the name &quot;coenzyme A&quot; is well established, the correct name for the function of the compound in enzymatic reactions is &quot;cosubstrate&quot;.</Comment>
+      <Property key="UniqueID" value="CO-A" />
+      <Property key="AlternativeId_Metanetx" value="MNXM727276" />
+      <Property key="AlternativeId_Refmet" value="Coenzyme A" />
+      <Property key="AlternativeId_Bigg" value="coa" />
+      <Property key="AlternativeId_Wikipedia" value="Coenzyme_a" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57287" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01423" />
+      <Property key="AlternativeId_Chebi" value="57287" />
+      <Property key="AlternativeId_Pubchem" value="25113190" />
+      <Property key="AlternativeId_Knapsack" value="C00007258" />
+      <Property key="AlternativeId_Cas" value="85-61-0" />
+      <Property key="AlternativeId_LigandCpd" value="C00010" />
+      <Property key="Synonym_1" value="CoA" />
+      <Property key="Synonym_2" value="Co-A-SH" />
+      <Property key="Synonym_3" value="HS-CoA" />
+      <Property key="ChemicalFormula" value="(C 21) (H 32) (N 7) (O 16) (P 3) (S 1)" />
+      <Property key="AtomCharges" value="(39 -1), (37 -1), (35 -1), (33 -1)" />
+      <Property key="Gibbs0" value="-493.56613" />
+      <Property key="Inchi" value="InChI=1S/C21H36N7O16P3S/c1-21(2,16(31)19(32)24-4-3-12(29)23-5-6-48)8-41-47(38,39)44-46(36,37)40-7-11-15(43-45(33,34)35)14(30)20(42-11)28-10-27-13-17(22)25-9-26-18(13)28/h9-11,14-16,20,30-31,48H,3-8H2,1-2H3,(H,23,29)(H,24,32)(H,36,37)(H,38,39)(H2,22,25,26)(H2,33,34,35)/p-4/t11-,14-,15-,16+,20-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=RGJOEKWQDUBAIZ-IBOSZNHHSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="763.502" />
+      <Property key="MonoisotopicMw" value="767.1152083656" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG-13932, REG0-7670, REG0-7409" />
+      <Property key="Smiles" value="CC(C)(COP([O-])(=O)OP(OC[C@H]3(O[C@@H](N1(C2(\N=C/N=C(C(\N=C/1)=2)/N)))[C@H](O)[C@H](OP([O-])(=O)[O-])3))(=O)[O-])[C@@H](O)C(=O)NCCC(=O)NCCS" />
+      <CitationRef elementRef="citation_PUB_16415216" />
+    </DataNode>
+    <DataNode elementId="CPD3DJ-82" textLabel="a dihydroceramide" type="Metabolite">
+      <Xref identifier="16755624" dataSource="PubChem-compound" />
+      <Graphics centerX="1600.0" centerY="891.463134765625" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="SRI, caspi">|FRAME: Ceramides &quot;A ceramide&quot;| is a lipid molecule that is composed of the sphingoid base |FRAME: SPHINGOSINE| and |FRAME: Fatty-Acids|. |FRAME: CPD3DJ-82 &quot;A dihydroceramide&quot;| is composed of the sphingoid base |FRAME: CPD-13612| (where the double bond in the |FRAME: SPHINGOSINE| tail has been reduced) and a fatty acid. |FRAME: CPD3DJ-82 &quot;Dihydroceramides&quot;| are also known as &quot;plant ceramide (I)&quot;.</Comment>
+      <Property key="UniqueID" value="CPD3DJ-82" />
+      <Property key="AlternativeId_ReactomeCpd" value="428126" />
+      <Property key="AlternativeId_Seed" value="cpd08908" />
+      <Property key="AlternativeId_Metanetx" value="MNXM616" />
+      <Property key="AlternativeId_Pubchem" value="16755624" />
+      <Property key="AlternativeId_LigandCpd" value="C12126" />
+      <Property key="AlternativeId_Chebi" value="31488" />
+      <Property key="Synonym_1" value="a plant ceramide (I)" />
+      <Property key="Synonym_2" value="an &lt;i&gt;N&lt;/i&gt;-acylsphinganine (C18)" />
+      <Property key="Synonym_3" value="an octadecadihydroceramide" />
+      <Property key="Synonym_4" value="a dihydroceramide (C18)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/C19H39NO3/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-19(23)18(16-21)20-17-22/h17-19,21,23H,2-16H2,1H3,(H,20,22)/t18-,19+/m0/s1" />
+      <Property key="Smiles" value="CCCCCCCCCCCCCCC[C@H]([C@H](CO)NC(=O)[R])O" />
+      <CitationRef elementRef="citation_PUB_LYNCH04" />
+    </DataNode>
+    <DataNode elementId="OXYGEN-MOLECULE" textLabel="dioxygen" type="Metabolite">
+      <Xref identifier="MYMOFIZGZYHOMD-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="1378.2901611328125" centerY="633.35205078125" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OXYGEN-MOLECULE" />
+      <Property key="AlternativeId_Bigg" value="o2" />
+      <Property key="AlternativeId_Seed" value="cpd00007" />
+      <Property key="AlternativeId_Metanetx" value="MNXM4" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15379" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01377" />
+      <Property key="AlternativeId_Chemspider" value="952" />
+      <Property key="AlternativeId_Pubchem" value="977" />
+      <Property key="AlternativeId_Chebi" value="15379" />
+      <Property key="AlternativeId_LigandCpd" value="C00007" />
+      <Property key="AlternativeId_Cas" value="7782-44-7" />
+      <Property key="Synonym_1" value="oxygen molecule" />
+      <Property key="Synonym_2" value="molecular oxygen" />
+      <Property key="Synonym_3" value="oxygen" />
+      <Property key="ChemicalFormula" value="(O 2)" />
+      <Property key="AbbrevName" value="O&lt;sub&gt;2&lt;/sub&gt;" />
+      <Property key="Gibbs0" value="3.92" />
+      <Property key="Inchi" value="InChI=1S/O2/c1-2" />
+      <Property key="InchiKey" value="InChIKey=MYMOFIZGZYHOMD-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="31.999" />
+      <Property key="MonoisotopicMw" value="31.9898292442" />
+      <Property key="NonStandardInchi" value="InChI=1S/O2/c1-2" />
+      <Property key="Smiles" value="O=O" />
+      <Property key="SystematicName" value="dioxygen" />
+    </DataNode>
+    <DataNode elementId="NADP" textLabel="NADP⁺" type="Metabolite">
+      <Xref identifier="XJLXINKUBYWONI-NNYOXOHSSA-K" dataSource="InChIKey" />
+      <Graphics centerX="1112.8013916015625" centerY="116.12315368652344" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco">|FRAME: NAD| and |FRAME: NADP| are dinucleotides containing one |FRAME: NIACINAMIDE| base and one |FRAME: ADENINE| base. Each nucleotide is connected to a ribose sugar at position 1, and the two riboses are connected at their 5 position via a diphosphate. The only difference between the two is that in NADP there is an additional phosphate group at the 2&apos; position of the ribose that carries the adenine moiety. These molecules are biological carriers of reductive equivalents (i.e. high potential electrons). Most of the time they function as cosubstrates, and in some cases they function as |FRAME: Cofactors cofactors|. They are often referred to by the obsolete term &quot;coenzymes&quot;. The most common function of |FRAME: NAD| is to accept two electrons and a proton (a hydride ion) from a substrate that is being oxidized. This reduction converts |FRAME: NAD| to |FRAME: NADH|, the reduced form. NADH then diffuses or is transported to a terminal oxidase, where the electrons are passed on, regenerating the oxidized form. |FRAME: NADPH|, on the other hand, is mostly involved in biosynthetic reactions, where it serves as an electron donor. NADPH is formed by reduction of |FRAME: NADP|, which occurs by different mechanisms in different types of organisms. In photosynthetic organisms |FRAME: NADP| is reduced by |FRAME: CPLX-84|. In heterotrophic organisms it is reduced by central metabolism processes such as the pentose phosphate pathway (see |FRAME: OXIDATIVEPENT-PWY|).</Comment>
+      <Property key="UniqueID" value="NADP" />
+      <Property key="AlternativeId_Seed" value="cpd00006" />
+      <Property key="AlternativeId_Metanetx" value="MNXM5" />
+      <Property key="AlternativeId_Refmet" value="NADP+" />
+      <Property key="AlternativeId_Bigg" value="nadp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC58349" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00217" />
+      <Property key="AlternativeId_Chemspider" value="10239198" />
+      <Property key="AlternativeId_Chebi" value="58349" />
+      <Property key="AlternativeId_Pubchem" value="15938972" />
+      <Property key="AlternativeId_LigandCpd" value="C00006" />
+      <Property key="AlternativeId_Cas" value="53-59-8" />
+      <Property key="Synonym_1" value="coenzyme II" />
+      <Property key="Synonym_2" value="triphosphopyridine nucleotide" />
+      <Property key="Synonym_3" value="nicotinamide adenine dinucleotide phosphate" />
+      <Property key="Synonym_4" value="NADP-oxidized" />
+      <Property key="Synonym_5" value="NADP-ox" />
+      <Property key="Synonym_6" value="TPN" />
+      <Property key="Synonym_7" value="TPN+" />
+      <Property key="Synonym_8" value="TPN-ox" />
+      <Property key="Synonym_9" value="nicotinamide adenine dinucleotide-P" />
+      <Property key="Synonym_10" value="NADP(+)" />
+      <Property key="Synonym_11" value="NADP" />
+      <Property key="Synonym_12" value="&amp;beta;-NADP&lt;sup&gt;+&lt;/sup&gt;" />
+      <Property key="ChemicalFormula" value="(C 21) (H 25) (N 7) (O 17) (P 3)" />
+      <Property key="AtomCharges" value="(27 1), (35 -1), (33 -1), (39 -1), (37 -1)" />
+      <Property key="Gibbs0" value="-563.64954" />
+      <Property key="Inchi" value="InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p-3/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=XJLXINKUBYWONI-NNYOXOHSSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="740.386" />
+      <Property key="MonoisotopicMw" value="745.0911021051" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG0-11313, REG0-8744, REG-11605, REG-8497" />
+      <Property key="Smiles" value="C5(/C=C\C(\C(=O)N)=C/[N+](/[C@@H]1(O[C@@H]([C@H]([C@H]1O)O)COP(OP(OC[C@H]4(O[C@@H](N2(C3(\C(\N=C/2)=C(N)/N=C\N=3)))[C@H](OP([O-])(=O)[O-])[C@H](O)4))(=O)[O-])(=O)[O-]))=5)" />
+    </DataNode>
+    <DataNode elementId="FERRICYTOCHROME-B5" textLabel="FERRICYTOCHROME-B5" type="Metabolite">
+      <Xref identifier="FERRICYTOCHROME-B5" dataSource="" />
+      <Graphics centerX="645.7420654296875" centerY="320.811279296875" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="ACYL-COA" textLabel="an acyl-CoA" type="Metabolite">
+      <Xref identifier="17984" dataSource="ChEBI" />
+      <Graphics centerX="895.0936279296875" centerY="1550.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="SRI, caspi">|FRAME:ACYL-COA &quot;Acyl-CoAs&quot;| are oxoacids that have been activated by |FRAME: CO-A|. They are often classified by the length of their acyl moiety.</Comment>
+      <Property key="UniqueID" value="ACYL-COA" />
+      <Property key="AlternativeId_Metanetx" value="MNXM44" />
+      <Property key="AlternativeId_LigandCpd" value="C00040" />
+      <Property key="AlternativeId_Chebi" value="17984" />
+      <Property key="Synonym_1" value="fatty acyl thioester-CoA" />
+      <Property key="Synonym_2" value="RCH2CH2CO-CoA" />
+      <Property key="Synonym_3" value="acyl-Coenzyme A" />
+      <Property key="Synonym_4" value="acyl&lt;sub&gt;n+2&lt;/sub&gt;-CoA" />
+      <Property key="Synonym_5" value="acyl&lt;sub&gt;n-2&lt;/sub&gt;-CoA" />
+      <Property key="AtomCharges" value="(37 -1), (35 -1), (40 -1), (38 -1)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="N+1Name" value="acyl&lt;sub&gt;n+2&lt;/sub&gt;-CoA" />
+      <Property key="N1Name" value="acyl&lt;sub&gt;n-2&lt;/sub&gt;-CoA" />
+      <Property key="NonStandardInchi" value="InChI=1S/C22H36N7O17P3S/c1-22(2,17(33)20(34)25-4-3-13(31)24-5-6-50-11-30)8-43-49(40,41)46-48(38,39)42-7-12-16(45-47(35,36)37)15(32)21(44-12)29-10-28-14-18(23)26-9-27-19(14)29/h9-12,15-17,21,32-33H,3-8H2,1-2H3,(H,24,31)(H,25,34)(H,38,39)(H,40,41)(H2,23,26,27)(H2,35,36,37)/p-4/t12-,15-,16-,17+,21-/m1/s1" />
+      <Property key="Smiles" value="CC(C)([C@@H](O)C(=O)NCCC(=O)NCCSC(=O)[R])COP(=O)(OP(=O)(OC[C@H]1(O[C@H]([C@@H]([C@@H]1OP([O-])(=O)[O-])O)N2(C3(\N=C/N=C(C(\N=C/2)=3)/N))))[O-])[O-]" />
+      <Property key="Superatoms" value="COA-GROUP" />
+    </DataNode>
+    <DataNode elementId="PALMITYL-COA" textLabel="palmitoyl-CoA" type="Metabolite">
+      <Xref identifier="MNBKLUUYKPBKDU-BBECNAHFSA-J" dataSource="InChIKey" />
+      <Graphics centerX="100.0" centerY="780.4779052734375" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco">|FRAME: PALMITATE Palmitate| (palmitic acid) is one of the most common saturated fatty acids found in animals and plants. The compound was discovered by Edmond Frémy in 1840 in saponified palm oil, of which it is a major component, and was named &quot;palmitique&quot;. It is the first fatty acid produced during lipogenesis (fatty acid synthesis). In cells |FRAME: PALMITATE| is usually found in the form of |FRAME: Palmitoyl-ACPs palmitoyl-[acp]|, |FRAME: PALMITYL-COA| or |FRAME: Palmitoyl-lipid &quot;incorporated into lipids&quot;|.</Comment>
+      <Property key="UniqueID" value="PALMITYL-COA" />
+      <Property key="AlternativeId_ReactomeCpd" value="5358339" />
+      <Property key="AlternativeId_Seed" value="cpd00134" />
+      <Property key="AlternativeId_Metanetx" value="MNXM88" />
+      <Property key="AlternativeId_Refmet" value="Palmitoyl-CoA" />
+      <Property key="AlternativeId_Bigg" value="pmtcoa" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57379" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01338" />
+      <Property key="AlternativeId_Chebi" value="57379" />
+      <Property key="AlternativeId_Pubchem" value="45266605" />
+      <Property key="AlternativeId_LigandCpd" value="C00154" />
+      <Property key="AlternativeId_Cas" value="1763-10-6" />
+      <Property key="Synonym_1" value="Palmitoyl-CoA (n-C16:0CoA)" />
+      <Property key="Synonym_2" value="hexadecanoyl CoA" />
+      <Property key="Synonym_3" value="palmityl-CoA" />
+      <Property key="Synonym_4" value="palmitoyl coenzyme A" />
+      <Property key="Synonym_5" value="palmitoyl CoA" />
+      <Property key="ChemicalFormula" value="(C 37) (H 62) (N 7) (O 17) (P 3) (S 1)" />
+      <Property key="AbbrevName" value="PalCoA" />
+      <Property key="AtomCharges" value="(52 -1), (50 -1), (55 -1), (53 -1)" />
+      <Property key="Gibbs0" value="-196.59253" />
+      <Property key="Inchi" value="InChI=1S/C37H66N7O17P3S/c1-4-5-6-7-8-9-10-11-12-13-14-15-16-17-28(46)65-21-20-39-27(45)18-19-40-35(49)32(48)37(2,3)23-58-64(55,56)61-63(53,54)57-22-26-31(60-62(50,51)52)30(47)36(59-26)44-25-43-29-33(38)41-24-42-34(29)44/h24-26,30-32,36,47-48H,4-23H2,1-3H3,(H,39,45)(H,40,49)(H,53,54)(H,55,56)(H2,38,41,42)(H2,50,51,52)/p-4/t26-,30-,31-,32+,36-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=MNBKLUUYKPBKDU-BBECNAHFSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1001.915" />
+      <Property key="MonoisotopicMw" value="1005.3448739507" />
+      <Property key="NonStandardInchi" value="InChI=1S/C37H66N7O17P3S/c1-4-5-6-7-8-9-10-11-12-13-14-15-16-17-28(46)65-21-20-39-27(45)18-19-40-35(49)32(48)37(2,3)23-58-64(55,56)61-63(53,54)57-22-26-31(60-62(50,51)52)30(47)36(59-26)44-25-43-29-33(38)41-24-42-34(29)44/h24-26,30-32,36,47-48H,4-23H2,1-3H3,(H,39,45)(H,40,49)(H,53,54)(H,55,56)(H2,38,41,42)(H2,50,51,52)/p-4/t26-,30-,31-,32+,36-/m1/s1" />
+      <Property key="Smiles" value="CCCCCCCCCCCCCCCC(SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)COP(=O)(OP(=O)(OC[C@@H]1([C@@H](OP([O-])(=O)[O-])[C@@H](O)[C@@H](O1)N2(C3(\N=C/N=C(C(\N=C/2)=3)/N))))[O-])[O-])=O" />
+      <Property key="Superatoms" value="COA-GROUP" />
+    </DataNode>
+    <DataNode elementId="PROTON" textLabel="H⁺" type="Metabolite">
+      <Xref identifier="GPRLSGONYQIRFK-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="801.702392578125" centerY="1131.7327880859375" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PROTON" />
+      <Property key="AlternativeId_Bigg" value="h" />
+      <Property key="AlternativeId_Seed" value="cpd00067" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1" />
+      <Property key="AlternativeId_Hmdb" value="HMDB59597" />
+      <Property key="AlternativeId_Chemspider" value="1010" />
+      <Property key="AlternativeId_Pubchem" value="1038" />
+      <Property key="AlternativeId_Chebi" value="15378" />
+      <Property key="AlternativeId_Cas" value="12408-02-5" />
+      <Property key="AlternativeId_LigandCpd" value="C00080" />
+      <Property key="Synonym_1" value="H" />
+      <Property key="Synonym_2" value="hydrogen ion" />
+      <Property key="Synonym_3" value="proton" />
+      <Property key="ChemicalFormula" value="(H 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="0.42906138" />
+      <Property key="Inchi" value="InChI=1S/p+1" />
+      <Property key="InchiKey" value="InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1.008" />
+      <Property key="MonoisotopicMw" value="1.0078250321" />
+      <Property key="NonStandardInchi" value="InChI=1S/p+1" />
+      <Property key="Smiles" value="[H+]" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="747.1097412109375" y="630.934814453125" elementRef="OS03G0252800" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="189.97203063964844" y="342.9722595214844" elementRef="OS03T0252800-01" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_1_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_1_0_0" x="964.7803955078125" y="903.7940673828125" elementRef="OS01G0928600" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_1_0_0" arrowHead="TranscriptionTranslation" x="516.73291015625" y="1433.005859375" elementRef="OS01T0928600-01" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_2_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_2_0_0" x="848.9832763671875" y="800.0473022460938" elementRef="OS11G0516000" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_2_0_0" arrowHead="TranscriptionTranslation" x="1003.7518310546875" y="780.0136108398438" elementRef="OS11T0516000-01" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_3_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_3_0_0" x="1201.9222412109375" y="425.29083251953125" elementRef="OS02G0806900" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_3_0_0" arrowHead="TranscriptionTranslation" x="957.8002319335938" y="618.93017578125" elementRef="OS02T0806900-01" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_4_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_4_0_0" x="916.9717407226562" y="801.9442749023438" elementRef="OS02G0639600" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_4_0_0" arrowHead="TranscriptionTranslation" x="828.5538330078125" y="450.96844482421875" elementRef="OS02T0639600-01" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_5_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_5_0_0" x="305.8111877441406" y="1216.630126953125" elementRef="OS01G0928700" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_5_0_0" arrowHead="TranscriptionTranslation" x="811.6343994140625" y="704.824951171875" elementRef="OS01T0928700-00" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_6_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_6_0_0" x="1522.019287109375" y="1375.6168212890625" elementRef="OS01G0928800" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_6_0_0" arrowHead="TranscriptionTranslation" x="1234.001708984375" y="1185.573486328125" elementRef="OS01T0928800-01" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_7_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_7_0_0" x="1543.6278076171875" y="346.5780334472656" elementRef="OS10G0189600" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_7_0_0" arrowHead="TranscriptionTranslation" x="1218.444091796875" y="863.6446533203125" elementRef="OS10T0189600-02" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-7792">
+      <Xref identifier="EC-2.3.1.24" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-7792_start" x="505.0980529785156" y="540.8374633789062" elementRef="CPD-13612" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-7792_end" arrowHead="Conversion" x="1555.0" y="891.463134765625" elementRef="CPD3DJ-82" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-7792_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-7792" />
+      <Property key="EC_Number" value="EC-2.3.1.24" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY3DJ-12, PWY-5129" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="CPD-13612 + ACYL-COA =&gt; CPD3DJ-82 + CO-A + PROTON" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 17 18 19 20 22 25 24 26 27 28 29 30 31 32 33 16 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 21 52 53 54 55 58 57 56 60 59 62 61 63 64 65 66 67 68 69 70 71 23) (((&quot;CPD3DJ-82&quot; 0 23) (&quot;CO-A&quot; 24 71)) ((&quot;CPD-13612&quot; 0 20) (&quot;ACYL-COA&quot; 21 71))))" />
+      <Property key="Gibbs0" value="-77.18787" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-7792_anchor_reactant_1">
+      <Xref identifier="EC-2.3.1.24" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-7792_anchor_reactant_start_1" x="940.0936279296875" y="1550.0" elementRef="ACYL-COA" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-7792_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-7792_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-7792_anchor_product_1">
+      <Xref identifier="EC-2.3.1.24" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-7792_anchor_product_start_1" x="0" y="0" elementRef="RXN-7792_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-7792_anchor_product_end_1" arrowHead="Conversion" x="576.8804931640625" y="829.8255004882812" elementRef="CO-A" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-7792_anchor_product_2">
+      <Xref identifier="EC-2.3.1.24" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-7792_anchor_product_start_2" x="0" y="0" elementRef="RXN-7792_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-7792_anchor_product_end_2" arrowHead="Conversion" x="756.702392578125" y="1131.7327880859375" elementRef="PROTON" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-16332">
+      <Xref identifier="EC-1.14.19.17" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-16332_start" x="1645.0" y="891.463134765625" elementRef="CPD3DJ-82" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-16332_end" arrowHead="Conversion" x="1020.5645751953125" y="1000.0946044921875" elementRef="N-Acylsphingosine" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-16332_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-16332" />
+      <Property key="EC_Number" value="EC-1.14.19.17" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY3DJ-12" />
+      <Property key="ReactionEquation" value="CPD3DJ-82 + OXYGEN-MOLECULE + FERROCYTOCHROME-B5 + PROTON =&gt; N-Acylsphingosine + FERRICYTOCHROME-B5 + WATER" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXNN7F-67500" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113) ((((FERRICYTOCHROME-B5 1) 0 43) ((FERRICYTOCHROME-B5 2) 44 87) (|N-Acylsphingosine| 88 111) ((WATER 1) 112 112) ((WATER 2) 113 113)) (((FERROCYTOCHROME-B5 1) 0 43) ((FERROCYTOCHROME-B5 2) 44 87) (CPD3DJ-82 88 111) (OXYGEN-MOLECULE 112 113))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-52.83528" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^coefficient" value="2, 2, 2, 2" />
+    </Interaction>
+    <Interaction elementId="RXN-16332_ENZRXNN7F-67500">
+      <Waypoints>
+        <Point elementId="RXN-16332_ENZRXNN7F-67500_start" x="873.5538330078125" y="463.46844482421875" elementRef="OS02T0639600-01" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-16332_ENZRXNN7F-67500_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-16332_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-16332_anchor_reactant_1">
+      <Xref identifier="EC-1.14.19.17" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-16332_anchor_reactant_start_1" x="1423.2901611328125" y="633.35205078125" elementRef="OXYGEN-MOLECULE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-16332_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-16332_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-16332_anchor_reactant_2">
+      <Xref identifier="EC-1.14.19.17" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-16332_anchor_reactant_start_2" x="960.1258544921875" y="794.896240234375" elementRef="FERROCYTOCHROME-B5" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-16332_anchor_reactant_end_2" x="0" y="0" elementRef="RXN-16332_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-16332_anchor_reactant_3">
+      <Xref identifier="EC-1.14.19.17" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-16332_anchor_reactant_start_3" x="846.702392578125" y="1131.7327880859375" elementRef="PROTON" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-16332_anchor_reactant_end_3" x="0" y="0" elementRef="RXN-16332_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-16332_anchor_product_1">
+      <Xref identifier="EC-1.14.19.17" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-16332_anchor_product_start_1" x="0" y="0" elementRef="RXN-16332_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-16332_anchor_product_end_1" arrowHead="Conversion" x="600.7420654296875" y="320.811279296875" elementRef="FERRICYTOCHROME-B5" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-16332_anchor_product_2">
+      <Xref identifier="EC-1.14.19.17" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-16332_anchor_product_start_2" x="0" y="0" elementRef="RXN-16332_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-16332_anchor_product_end_2" arrowHead="Conversion" x="522.9127807617188" y="1090.6761474609375" elementRef="WATER" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN">
+      <Xref identifier="EC-1.1.1.102" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_start" x="790.9266967773438" y="50.0" elementRef="DEHYDROSPHINGANINE" relX="1.0" relY="0.0" />
+        <Point elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_end" arrowHead="Conversion" x="415.0980529785156" y="540.8374633789062" elementRef="CPD-13612" relX="-1.0" relY="0.0" />
+        <Anchor elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="3-DEHYDROSPHINGANINE-REDUCTASE-RXN" />
+      <Property key="EC_Number" value="EC-1.1.1.102" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY3DJ-12, PWY-5129" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="CPD-13612 + NADP =&gt; PROTON + NADPH + DEHYDROSPHINGANINE" />
+      <Property key="ReactionDirection" value="PHYSIOL-RIGHT-TO-LEFT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20) (((&quot;DEHYDROSPHINGANINE&quot; 0 20)) ((&quot;CPD-13612&quot; 0 20))))" />
+      <Property key="^official?" value="NIL" />
+      <Property key="Gibbs0" value="-0.16648865" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor_reactant_0">
+      <Xref identifier="EC-1.1.1.102" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor_reactant_start_0" x="505.0980529785156" y="540.8374633789062" elementRef="CPD-13612" relX="1.0" relY="0.0" />
+        <Point elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor_reactant_end_0" x="0" y="0" elementRef="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor_reactant_1">
+      <Xref identifier="EC-1.1.1.102" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor_reactant_start_1" x="1157.8013916015625" y="116.12315368652344" elementRef="NADP" relX="1.0" relY="0.0" />
+        <Point elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor_product_0">
+      <Xref identifier="EC-1.1.1.102" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor_product_start_0" x="0" y="0" elementRef="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor_product_end_0" arrowHead="Conversion" x="756.702392578125" y="1131.7327880859375" elementRef="PROTON" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor_product_1">
+      <Xref identifier="EC-1.1.1.102" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor_product_start_1" x="0" y="0" elementRef="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor_product_end_1" arrowHead="Conversion" x="745.793701171875" y="922.6991577148438" elementRef="NADPH" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor_product_2">
+      <Xref identifier="EC-1.1.1.102" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor_product_start_2" x="0" y="0" elementRef="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="_3-DEHYDROSPHINGANINE-REDUCTASE-RXN_anchor_product_end_2" arrowHead="Conversion" x="700.9266967773438" y="50.0" elementRef="DEHYDROSPHINGANINE" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN">
+      <Xref identifier="EC-2.3.1.50" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_start" x="145.0" y="780.4779052734375" elementRef="PALMITYL-COA" relX="1.0" relY="0.0" />
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_end" arrowHead="Conversion" x="700.9266967773438" y="50.0" elementRef="DEHYDROSPHINGANINE" relX="-1.0" relY="0.0" />
+        <Anchor elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="SERINE-C-PALMITOYLTRANSFERASE-RXN" />
+      <Property key="EC_Number" value="EC-2.3.1.50" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY3DJ-12, PWY-5129" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="PROTON + SER + PALMITYL-COA =&gt; CARBON-DIOXIDE + DEHYDROSPHINGANINE + CO-A" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNN7F-68218, ENZRXNN7F-68217, ENZRXNN7F-68216, ENZRXNN7F-67215, ENZRXNN7F-66845, ENZRXNN7F-61867, ENZRXNN7F-61039" />
+      <Property key="EnzymaticReactionCount" value="7" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 21 22 1 2 3 4 5 6 7 8 9 10 11 12 13 14 23 24 25 26 27 28 29 30 31 32 17 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 20 50 51 52 53 54 55 57 56 59 58 60 61 62 63 64 65 66 67 68 15 16 69 18 19 71 70) (((&quot;DEHYDROSPHINGANINE&quot; 0 20) (&quot;CO-A&quot; 21 68) (&quot;CARBON-DIOXIDE&quot; 69 71)) ((&quot;PALMITYL-COA&quot; 0 64) (&quot;SER&quot; 65 71))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="0.11001587" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-68218">
+      <Waypoints>
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-68218_start" x="561.73291015625" y="1445.505859375" elementRef="OS01T0928600-01" relX="0.0" relY="1.0" />
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-68218_end" arrowHead="Catalysis" x="0" y="0" elementRef="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-66845">
+      <Waypoints>
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-66845_start" x="234.97203063964844" y="355.4722595214844" elementRef="OS03T0252800-01" relX="0.0" relY="1.0" />
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-66845_end" arrowHead="Catalysis" x="0" y="0" elementRef="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-68216">
+      <Waypoints>
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-68216_start" x="1279.001708984375" y="1198.073486328125" elementRef="OS01T0928800-01" relX="0.0" relY="1.0" />
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-68216_end" arrowHead="Catalysis" x="0" y="0" elementRef="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-68217">
+      <Waypoints>
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-68217_start" x="856.6343994140625" y="717.324951171875" elementRef="OS01T0928700-00" relX="0.0" relY="1.0" />
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-68217_end" arrowHead="Catalysis" x="0" y="0" elementRef="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-61039">
+      <Waypoints>
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-61039_start" x="1048.7518310546875" y="792.5136108398438" elementRef="OS11T0516000-01" relX="0.0" relY="1.0" />
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-61039_end" arrowHead="Catalysis" x="0" y="0" elementRef="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-67215">
+      <Waypoints>
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-67215_start" x="1002.8002319335938" y="631.43017578125" elementRef="OS02T0806900-01" relX="0.0" relY="1.0" />
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-67215_end" arrowHead="Catalysis" x="0" y="0" elementRef="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-61867">
+      <Waypoints>
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-61867_start" x="1263.444091796875" y="876.1446533203125" elementRef="OS10T0189600-02" relX="0.0" relY="1.0" />
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_ENZRXNN7F-61867_end" arrowHead="Catalysis" x="0" y="0" elementRef="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor_reactant_0">
+      <Xref identifier="EC-2.3.1.50" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor_reactant_start_0" x="846.702392578125" y="1131.7327880859375" elementRef="PROTON" relX="1.0" relY="0.0" />
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor_reactant_end_0" x="0" y="0" elementRef="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor_reactant_1">
+      <Xref identifier="EC-2.3.1.50" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor_reactant_start_1" x="1052.44921875" y="1276.9158935546875" elementRef="SER" relX="1.0" relY="0.0" />
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor_product_0">
+      <Xref identifier="EC-2.3.1.50" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor_product_start_0" x="0" y="0" elementRef="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor_product_end_0" arrowHead="Conversion" x="336.3048400878906" y="856.1297607421875" elementRef="CARBON-DIOXIDE" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor_product_2">
+      <Xref identifier="EC-2.3.1.50" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor_product_start_2" x="0" y="0" elementRef="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="SERINE-C-PALMITOYLTRANSFERASE-RXN_anchor_product_end_2" arrowHead="Conversion" x="576.8804931640625" y="829.8255004882812" elementRef="CO-A" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_10652518">
+      <Xref identifier="10652518" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_9312549">
+      <Xref identifier="9312549" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_8106344">
+      <Xref identifier="8106344" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_1860857">
+      <Xref identifier="1860857" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_21421810">
+      <Xref identifier="21421810" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_22248339">
+      <Xref identifier="22248339" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_18493048">
+      <Xref identifier="18493048" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_12553851">
+      <Xref identifier="12553851" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_9363775">
+      <Xref identifier="9363775" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_16415216">
+      <Xref identifier="16415216" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_16306140">
+      <Xref identifier="16306140" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_LYNCH04">
+      <Xref identifier="PUB-LYNCH04 | An introduction to plant sphingolipids and a
+review of recent advances in understanding
+their metabo... (Lynch, Daniel V, Dunn, Teresa M, 2004)" dataSource="BioCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_8850625">
+      <Xref identifier="8850625" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="assimilatory Fe(III) reduction (plants)" organism="cellular organisms" source="PlantCyc" version="20260304101735">
+  <Xref identifier="PWY-5934" dataSource="MetaCyc" />
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Oryza sativa Japonica Group&lt;/i&gt;: Enzyme(s) that catalyzes one or more of the key reactions in this pathway were predicted in Oryza sativa Japonica Group. &lt;A href=&quot;http://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; Iron deficiency effects all aspects of plant development, including photosynthesis, respiration, and growth processes. Though abundant in soil, iron is frequently found in the form of insoluble oxides and oxyhydroxides, and is not available for direct uptake. Plants have evolved several tightly regulated strategies to absorb iron. Chelation of |FRAME: FE+3| by |FRAME: Phytosiderophores phytosiderophores&quot;| secreted from the plant roots is one such strategy |CITS: [17449639]|. Under low Fe conditions the enzyme |FRAME: AT5G49740-MONOMER| is induced and reduces the chelated |FRAME: FE+3| to |FRAME: FE+2|, which is taken into the plant by Fe-regulated transporters in the roots |CITS: [GUERINOT07]|. This process is widespread in non graminaceous plants.</Description>
+  <Authors>
+    <Author name="PMN" />
+    <Author name="nilo-poyanco" />
+    <Author name="O-27" />
+    <Author name="pujar" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-5934" />
+  <Property key="Type" value="Iron-Metabolism" />
+  <Property key="ReactionCount" value="3" />
+  <Property key="ReactionIDs" value="RXN-14960, TRANS-RXN-171, FERRIC-CHELATE-REDUCTASE-RXN" />
+  <Property key="PredecessorCount" value="2" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_PMNRXN2024" />
+  <CitationRef elementRef="citation_PUB_12096107" />
+  <CitationRef elementRef="citation_PUB_17449639" />
+  <Graphics boardWidth="1800.0" boardHeight="1750.0" />
+  <DataNodes>
+    <DataNode elementId="G-10691" textLabel="OsIRT1" type="GeneProduct">
+      <Xref identifier="G-10691" dataSource="plantcyc" />
+      <Graphics centerX="801.5799560546875" centerY="822.7086181640625" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="G-10691" />
+      <Property key="Product" value="MONOMER-14000" />
+      <Property key="GeneType" value="Genes" />
+      <Property key="Accession1" value="Os03g0667500" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <CitationRef elementRef="citation_PUB_12096107" />
+    </DataNode>
+    <DataNode elementId="G-10685" textLabel="OsFRO2" type="GeneProduct">
+      <Xref identifier="G-10685" dataSource="plantcyc" />
+      <Graphics centerX="536.0499267578125" centerY="1160.176513671875" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="G-10685" />
+      <Property key="Product" value="MONOMER-13992" />
+      <Property key="GeneType" value="Genes" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <CitationRef elementRef="citation_PUB_16412081" />
+    </DataNode>
+    <DataNode elementId="G-10684" textLabel="OsFRO1" type="GeneProduct">
+      <Xref identifier="G-10684" dataSource="plantcyc" />
+      <Graphics centerX="100.0" centerY="839.05859375" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="G-10684" />
+      <Property key="Product" value="MONOMER-13991" />
+      <Property key="GeneType" value="Genes" />
+      <Property key="Accession1" value="Os04g0444800" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <CitationRef elementRef="citation_PUB_16412081" />
+    </DataNode>
+    <DataNode elementId="MONOMER-14000" textLabel="MONOMER-14000" type="Protein">
+      <Xref identifier="Q8SBD0" dataSource="uniprot" />
+      <Graphics centerX="1012.5147094726562" centerY="509.7969665527344" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="O-27, pujar">A cDNA clone encoding a Fe(II) transporter gene was isolated from Fe-deficient roots of |FRAME: TAX-4527 &lt;i&gt;Oryza&lt;/i&gt;|. The cDNA was homologous to |FRAME: TAX-3701 &lt;i&gt;Arabidopsis&lt;/i&gt;| IRT1. The cDNA was recombinantly expressed in yeast and the cDNA reversed the defects of yeast iron-uptake mutant. The mRNA was expressed in roots and induced by iron and Cu-deficiency |CITS: [12096107]|.</Comment>
+      <Property key="UniqueID" value="MONOMER-14000" />
+      <Property key="AlternativeId_Phytozome" value="Os03t0667500-01" />
+      <Property key="AlternativeId_Uniprot" value="Q8SBD0" />
+      <Property key="AlternativeId_Pid" value="BAB85123" />
+      <Property key="Synonym_1" value="iron regulated metal transporter" />
+      <Property key="Catalyzes" value="RXN-15018" />
+      <Property key="Accession1" value="Os03t0667500-01" />
+      <Property key="Gene" value="G-10691" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightExp" value="39." />
+      <Property key="MolecularWeightKd" value="39., 39." />
+      <Property key="MolecularWeightSeq" value="39." />
+      <CitationRef elementRef="citation_PUB_12096107" />
+    </DataNode>
+    <DataNode elementId="MONOMER-13992" textLabel="MONOMER-13992" type="Protein">
+      <Xref identifier="Q628G2" dataSource="uniprot" />
+      <Graphics centerX="657.489990234375" centerY="569.3721923828125" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="O-27, pujar">A cDNA clone encoding a putative ferric chelate reductase OsFRO2 was isolated from |FRAME: TAX-4527 &lt;i&gt;Oryza&lt;/i&gt;|. Northern blot analysis showed that transcripts are expressed only in leaves of Fe-deficient rice plants. The reductase activity is beleived to be impaired based on imperfectly conserved cofactor-binding motifs |CITS: [16412081]|.</Comment>
+      <Property key="UniqueID" value="MONOMER-13992" />
+      <Property key="AlternativeId_Uniprot" value="Q628G2" />
+      <Property key="AlternativeId_Pid" value="BAD18963" />
+      <Property key="Catalyzes" value="RXN-15010" />
+      <Property key="Gene" value="G-10685" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightExp" value="58.4" />
+      <Property key="MolecularWeightKd" value="58.4, 58.4" />
+      <Property key="MolecularWeightSeq" value="58.4" />
+      <CitationRef elementRef="citation_PUB_16412081" />
+    </DataNode>
+    <DataNode elementId="MONOMER-13991" textLabel="MONOMER-13991" type="Protein">
+      <Xref identifier="Q6L8G3" dataSource="uniprot" />
+      <Graphics centerX="794.5136108398438" centerY="63.722618103027344" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="O-27, pujar">A cDNA clone encoding a putative ferric chelate reductase was isolated from |FRAME: TAX-4527 &lt;i&gt;Oryza&lt;/i&gt;|. It has homology to |FRAME: TAX-3701 &lt;i&gt;Arabidopsis&lt;/i&gt;| FRO1. Northern blot analysis revealed that transcripts are expressed in the leaves of Zn-, Cu- and Mn-deficient rice plants |CITS: [16412081]|.</Comment>
+      <Property key="UniqueID" value="MONOMER-13991" />
+      <Property key="AlternativeId_Phytozome" value="Os04t0444800-01" />
+      <Property key="AlternativeId_Pid" value="BAD18962" />
+      <Property key="AlternativeId_Uniprot" value="Q6L8G3" />
+      <Property key="Synonym_1" value="ferric reductase" />
+      <Property key="Catalyzes" value="RXN-N7F-69381, RXN-15009" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="Os04t0444800-01" />
+      <Property key="Gene" value="G-10684" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightExp" value="83.1" />
+      <Property key="MolecularWeightKd" value="83.1, 83.1" />
+      <Property key="MolecularWeightSeq" value="83.1" />
+      <CitationRef elementRef="citation_PUB_16412081" />
+    </DataNode>
+    <DataNode elementId="FE_2" textLabel="Fe²⁺" type="Metabolite">
+      <Xref identifier="CWYNVVGOOAEACU-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="1475.005126953125" centerY="50.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="FE+2" />
+      <Property key="AlternativeId_Mediadb" value="compounds/13227/" />
+      <Property key="AlternativeId_Seed" value="cpd10515" />
+      <Property key="AlternativeId_Metanetx" value="MNXM111" />
+      <Property key="AlternativeId_Bigg" value="fe2" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC29033" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00692" />
+      <Property key="AlternativeId_Chemspider" value="25394" />
+      <Property key="AlternativeId_LigandCpd" value="C14818" />
+      <Property key="AlternativeId_Pubchem" value="27284" />
+      <Property key="AlternativeId_Chebi" value="29033" />
+      <Property key="Synonym_1" value="ferrous iron" />
+      <Property key="Synonym_2" value="ferrous ion" />
+      <Property key="Synonym_3" value="iron(II)" />
+      <Property key="Synonym_4" value="Fe&lt;sup&gt;II&lt;/sup&gt;" />
+      <Property key="ChemicalFormula" value="(FE 1)" />
+      <Property key="AtomCharges" value="(1 2)" />
+      <Property key="Gibbs0" value="-20.098238" />
+      <Property key="Inchi" value="InChI=1S/Fe/q+2" />
+      <Property key="InchiKey" value="InChIKey=CWYNVVGOOAEACU-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="55.847" />
+      <Property key="MonoisotopicMw" value="55.9349421" />
+      <Property key="NonStandardInchi" value="InChI=1S/Fe/q+2" />
+      <Property key="Regulates" value="REG-15614, REG-8712, REG-11283, REG-11163, REG-8702, REG-11830, REG0-7415, REG-7252, REG-7254, REG-14206, REG-10828" />
+      <Property key="Smiles" value="[Fe+2]" />
+    </DataNode>
+    <DataNode elementId="Siderophore" textLabel="Siderophore" type="Metabolite">
+      <Xref identifier="Siderophore" dataSource="" />
+      <Graphics centerX="1085.097412109375" centerY="917.4286499023438" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="NAD" textLabel="NAD⁺" type="Metabolite">
+      <Xref identifier="BAWFJGJZGIEFAR-NNYOXOHSSA-M" dataSource="InChIKey" />
+      <Graphics centerX="1600.0" centerY="1162.92041015625" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco">|FRAME: NAD| and |FRAME: NADP| are dinucleotides containing one |FRAME: NIACINAMIDE| base and one |FRAME: ADENINE| base. Each nucleotide is connected to a ribose sugar at position 1, and the two riboses are connected at their 5 position via a diphosphate. The only difference between the two is that in NADP there is an additional phosphate group at the 2&apos; position of the ribose that carries the adenine moiety. These molecules are biological carriers of reductive equivalents (i.e. high potential electrons). Most of the time they function as cosubstrates, and in some cases they function as |FRAME: Cofactors cofactors|. They are often referred to by the obsolete term &quot;coenzymes&quot;. The most common function of |FRAME: NAD| is to accept two electrons and a proton (a hydride ion) from a substrate that is being oxidized. This reduction converts |FRAME: NAD| to |FRAME: NADH|, the reduced form. NADH then diffuses or is transported to a terminal oxidase, where the electrons are passed on, regenerating the oxidized form. |FRAME: NADPH|, on the other hand, is mostly involved in biosynthetic reactions, where it serves as an electron donor. NADPH is formed by reduction of |FRAME: NADP|, which occurs by different mechanisms in different types of organisms. In photosynthetic organisms |FRAME: NADP| is reduced by |FRAME: CPLX-84|. In heterotrophic organisms it is reduced by central metabolism processes such as the pentose phosphate pathway (see |FRAME: OXIDATIVEPENT-PWY|).</Comment>
+      <Property key="UniqueID" value="NAD" />
+      <Property key="AlternativeId_Mediadb" value="compounds/3/" />
+      <Property key="AlternativeId_Seed" value="cpd00003" />
+      <Property key="AlternativeId_Metanetx" value="MNXM8" />
+      <Property key="AlternativeId_Refmet" value="NAD+" />
+      <Property key="AlternativeId_Bigg" value="nad" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57540" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00902" />
+      <Property key="AlternativeId_Chemspider" value="10239196" />
+      <Property key="AlternativeId_Chebi" value="57540" />
+      <Property key="AlternativeId_Pubchem" value="15938971" />
+      <Property key="AlternativeId_LigandCpd" value="C00003" />
+      <Property key="AlternativeId_Cas" value="53-84-9" />
+      <Property key="Synonym_1" value="NAD+" />
+      <Property key="Synonym_2" value="beta-nicotinamide adenine dinucleotide" />
+      <Property key="Synonym_3" value="coenzyme I" />
+      <Property key="Synonym_4" value="diphosphopyridine nucleotide" />
+      <Property key="Synonym_5" value="diphosphopyridine nucleotide oxidized" />
+      <Property key="Synonym_6" value="nicotinamide adenine dinucleotide" />
+      <Property key="Synonym_7" value="nicotinamide adenine dinucleotide oxidized" />
+      <Property key="Synonym_8" value="NAD-oxidized" />
+      <Property key="Synonym_9" value="NAD-ox" />
+      <Property key="Synonym_10" value="DPN+" />
+      <Property key="Synonym_11" value="DPN-ox" />
+      <Property key="Synonym_12" value="DPN" />
+      <Property key="Synonym_13" value="&amp;beta;-nicotinamide adenine dinucleotide" />
+      <Property key="Synonym_14" value="NAD" />
+      <Property key="Synonym_15" value="&amp;beta;-NAD&lt;sup&gt;+&lt;/sup&gt;" />
+      <Property key="ChemicalFormula" value="(C 21) (H 26) (N 7) (O 14) (P 2)" />
+      <Property key="AtomCharges" value="(27 1), (37 -1), (35 -1)" />
+      <Property key="Gibbs0" value="-338.38196" />
+      <Property key="Inchi" value="InChI=1S/C21H27N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1-4,7-8,10-11,13-16,20-21,29-32H,5-6H2,(H5-,22,23,24,25,33,34,35,36,37)/p-1/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=BAWFJGJZGIEFAR-NNYOXOHSSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="662.422" />
+      <Property key="MonoisotopicMw" value="665.1247716966999" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG0-7672, REG0-10411, REG-8140, REG0-8746, REG-11606, REG-8498" />
+      <Property key="Smiles" value="C5(/C(/C(N)=O)=C\C=C/[N+](/[C@@H]4(O[C@H](COP(OP(OC[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3))(=O)[O-])(=O)[O-])[C@@H](O)[C@@H](O)4))=5)" />
+    </DataNode>
+    <DataNode elementId="Fe3-siderophores" textLabel="a siderophore-bound Fe(III)" type="Metabolite">
+      <Xref identifier="5975" dataSource="ChEBI" />
+      <Graphics centerX="1448.2218017578125" centerY="624.7098999023438" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="PMN, zhang, SRI, caspi">This entry stands for siderophores-bound |FRAME: FE+3| cation(s). Siderophores are small, high-affinity iron chelating compounds secreted by microorganisms. Once outside the cell, siderophores bind |FRAME: FE+3| with high affinity, and the iron-siderophore complexes are imported back into the cell by active-transport mechanisms. Siderophores are very common in pathogenic bacteria, since iron in the host organism is usually tightly bound to proteins, resulting in an extremely low concentration of free iron in the blood. Most siderophores belong to one of three major groups: the |FRAME: Catecholate-siderophores &quot;catechols&quot;|, |FRAME: Hydroxamate-siderophores &quot;hydroxamates&quot;| and |FRAME: Thiazoline-siderophores &quot;thiazolines&quot;|. Some grasses are known to make siderophores as well. These |FRAME: Phytosiderophores &quot;phytosiderophores&quot;| are also known as mugineic acids.</Comment>
+      <Property key="UniqueID" value="Fe3-siderophores" />
+      <Property key="AlternativeId_Seed" value="cpd12891" />
+      <Property key="AlternativeId_Metanetx" value="MNXM57745" />
+      <Property key="AlternativeId_Chebi" value="5975" />
+      <Property key="AlternativeId_LigandCpd" value="C06704" />
+      <Property key="Synonym_1" value="an iron(III) chelate" />
+      <Property key="Synonym_2" value="an Fe&lt;sup&gt;3+&lt;/sup&gt;-siderophore" />
+      <Property key="Synonym_3" value="a ferric-siderophore complex" />
+      <Property key="AtomCharges" value="(1 2)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/Fe.H/q+3;" />
+      <Property key="Smiles" value="[Fe+2][a siderophore]" />
+    </DataNode>
+    <DataNode elementId="Fe2-siderophores" textLabel="a siderophore-bound Fe(II)" type="Metabolite">
+      <Xref identifier="MNXM147434" dataSource="MetaNetX" />
+      <Graphics centerX="886.9102783203125" centerY="703.9298095703125" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="PMN, zhang, SRI, caspi">This entry stands for siderophores-bound |FRAME: FE+2| cation(s). Siderophores are small, high-affinity iron chelating compounds secreted by microorganisms. Once outside the cell, siderophores bind |FRAME: FE+3| with high affinity, and the iron-siderophore complexes are imported back into the cell by active-transport mechanisms. Siderophores are very common in pathogenic bacteria, since iron in the host organism is usually tightly bound to proteins, resulting in an extremely low concentration of free iron in the blood. Most siderophores belong to one of three major groups: the |FRAME: Catecholate-siderophores &quot;catechols&quot;|, |FRAME: Hydroxamate-siderophores &quot;hydroxamates&quot;| and |FRAME: Thiazoline-siderophores &quot;thiazolines&quot;|. Some grasses are known to make siderophores as well. These |FRAME: Phytosiderophores &quot;phytosiderophores&quot;| are also known as mugineic acids.</Comment>
+      <Property key="UniqueID" value="Fe2-siderophores" />
+      <Property key="AlternativeId_Metanetx" value="MNXM147434" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/Fe.H/q+3;" />
+      <Property key="Smiles" value="[Fe+][a siderophore]" />
+    </DataNode>
+    <DataNode elementId="NADH" textLabel="NADH" type="Metabolite">
+      <Xref identifier="BOPGDPNILDQYTO-NNYOXOHSSA-L" dataSource="InChIKey" />
+      <Graphics centerX="216.89102172851562" centerY="175.37266540527344" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco">|FRAME: NAD| and |FRAME: NADP| are dinucleotides containing one |FRAME: NIACINAMIDE| base and one |FRAME: ADENINE| base. Each nucleotide is connected to a ribose sugar at position 1, and the two riboses are connected at their 5 position via a diphosphate. The only difference between the two is that in NADP there is an additional phosphate group at the 2&apos; position of the ribose that carries the adenine moiety. These molecules are biological carriers of reductive equivalents (i.e. high potential electrons). Most of the time they function as cosubstrates, and in some cases they function as |FRAME: Cofactors cofactors|. They are often referred to by the obsolete term &quot;coenzymes&quot;. The most common function of |FRAME: NAD| is to accept two electrons and a proton (a hydride ion) from a substrate that is being oxidized. This reduction converts |FRAME: NAD| to |FRAME: NADH|, the reduced form. NADH then diffuses or is transported to a terminal oxidase, where the electrons are passed on, regenerating the oxidized form. |FRAME: NADPH|, on the other hand, is mostly involved in biosynthetic reactions, where it serves as an electron donor. NADPH is formed by reduction of |FRAME: NADP|, which occurs by different mechanisms in different types of organisms. In photosynthetic organisms |FRAME: NADP| is reduced by |FRAME: CPLX-84|. In heterotrophic organisms it is reduced by central metabolism processes such as the pentose phosphate pathway (see |FRAME: OXIDATIVEPENT-PWY|).</Comment>
+      <Property key="UniqueID" value="NADH" />
+      <Property key="AlternativeId_Seed" value="cpd00004" />
+      <Property key="AlternativeId_Metanetx" value="MNXM10" />
+      <Property key="AlternativeId_Refmet" value="NADH" />
+      <Property key="AlternativeId_Bigg" value="nadh" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57945" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01487" />
+      <Property key="AlternativeId_Chemspider" value="10239197" />
+      <Property key="AlternativeId_Chebi" value="57945" />
+      <Property key="AlternativeId_Pubchem" value="21604869" />
+      <Property key="AlternativeId_Cas" value="58-68-4" />
+      <Property key="AlternativeId_LigandCpd" value="C00004" />
+      <Property key="Synonym_1" value="NADH&lt;sub&gt;2&lt;/sub&gt;" />
+      <Property key="Synonym_2" value="NADH2" />
+      <Property key="Synonym_3" value="dihydrodiphosphopyridine nucleotide" />
+      <Property key="Synonym_4" value="diphosphopyridine nucleotide reduced" />
+      <Property key="Synonym_5" value="dihydronicotinamide adenine dinucleotide" />
+      <Property key="Synonym_6" value="nicotinamide adenine dinucleotide reduced" />
+      <Property key="Synonym_7" value="NAD-reduced" />
+      <Property key="Synonym_8" value="NADH+H+" />
+      <Property key="Synonym_9" value="DPNH" />
+      <Property key="Synonym_10" value="&amp;beta;-NADH" />
+      <Property key="Synonym_11" value="&amp;beta;-nicotinamide adenine dinucleotide, reduced" />
+      <Property key="ChemicalFormula" value="(C 21) (H 27) (N 7) (O 14) (P 2)" />
+      <Property key="AtomCharges" value="(35 -1), (37 -1)" />
+      <Property key="Gibbs0" value="-325.20697" />
+      <Property key="Inchi" value="InChI=1S/C21H29N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1,3-4,7-8,10-11,13-16,20-21,29-32H,2,5-6H2,(H2,23,33)(H,34,35)(H,36,37)(H2,22,24,25)/p-2/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=BOPGDPNILDQYTO-NNYOXOHSSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="663.43" />
+      <Property key="MonoisotopicMw" value="665.1247716966999" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG0-11312, REG-11451, REG-9463, REG0-8745, REG-9631, REG-11600, REG-7366, REG-8495" />
+      <Property key="Smiles" value="C1(/N(\C=C/CC(/C(N)=O)=1)[C@@H]5(O[C@H](COP(OP(OC[C@H]4(O[C@@H](N2(C3(\C(\N=C/2)=C(N)/N=C\N=3)))[C@H](O)[C@H](O)4))(=O)[O-])(=O)[O-])[C@@H](O)[C@@H](O)5))" />
+    </DataNode>
+    <DataNode elementId="PROTON" textLabel="H⁺" type="Metabolite">
+      <Xref identifier="GPRLSGONYQIRFK-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="918.3116455078125" centerY="1550.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PROTON" />
+      <Property key="AlternativeId_Bigg" value="h" />
+      <Property key="AlternativeId_Seed" value="cpd00067" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1" />
+      <Property key="AlternativeId_Hmdb" value="HMDB59597" />
+      <Property key="AlternativeId_Chemspider" value="1010" />
+      <Property key="AlternativeId_Pubchem" value="1038" />
+      <Property key="AlternativeId_Chebi" value="15378" />
+      <Property key="AlternativeId_Cas" value="12408-02-5" />
+      <Property key="AlternativeId_LigandCpd" value="C00080" />
+      <Property key="Synonym_1" value="H" />
+      <Property key="Synonym_2" value="hydrogen ion" />
+      <Property key="Synonym_3" value="proton" />
+      <Property key="ChemicalFormula" value="(H 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="0.42906138" />
+      <Property key="Inchi" value="InChI=1S/p+1" />
+      <Property key="InchiKey" value="InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1.008" />
+      <Property key="MonoisotopicMw" value="1.0078250321" />
+      <Property key="NonStandardInchi" value="InChI=1S/p+1" />
+      <Property key="Smiles" value="[H+]" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="846.5799560546875" y="822.7086181640625" elementRef="G-10691" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="967.5147094726562" y="509.7969665527344" elementRef="MONOMER-14000" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_1_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_1_0_0" x="581.0499267578125" y="1160.176513671875" elementRef="G-10685" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_1_0_0" arrowHead="TranscriptionTranslation" x="612.489990234375" y="569.3721923828125" elementRef="MONOMER-13992" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_2_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_2_0_0" x="145.0" y="839.05859375" elementRef="G-10684" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_2_0_0" arrowHead="TranscriptionTranslation" x="749.5136108398438" y="63.722618103027344" elementRef="MONOMER-13991" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-14960">
+      <Xref identifier="RXN-14960" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-14960_start" x="931.9102783203125" y="703.9298095703125" elementRef="Fe2-siderophores" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-14960_end" arrowHead="Conversion" x="1430.005126953125" y="50.0" elementRef="FE_2" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-14960_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-14960" />
+      <Property key="Spontaneous" value="T" />
+      <Property key="Pathways" value="RXN0-6555, RXN-20768, PWY-5934" />
+      <Property key="PathwayCount" value="3" />
+      <Property key="ReactionEquation" value="Fe2-siderophores + PROTON =&gt; Siderophore + FE+2" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (1 0) (((|Siderophore| 0 0) (FE+2 1 1)) ((|Fe2-siderophores| 0 1))))" />
+      <Property key="Gibbs0" value="-20.21524" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-14960_anchor_reactant_1">
+      <Xref identifier="RXN-14960" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-14960_anchor_reactant_start_1" x="963.3116455078125" y="1550.0" elementRef="PROTON" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-14960_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-14960_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-14960_anchor_product_0">
+      <Xref identifier="RXN-14960" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-14960_anchor_product_start_0" x="0" y="0" elementRef="RXN-14960_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-14960_anchor_product_end_0" arrowHead="Conversion" x="1040.097412109375" y="917.4286499023438" elementRef="Siderophore" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="TRANS-RXN-171">
+      <Xref identifier="TRANS-RXN-171" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="TRANS-RXN-171_start" x="1520.005126953125" y="50.0" elementRef="FE_2" relX="1.0" relY="0.0" />
+        <Point elementId="TRANS-RXN-171_end" arrowHead="Conversion" x="1430.005126953125" y="50.0" elementRef="FE_2" relX="-1.0" relY="0.0" />
+        <Anchor elementId="TRANS-RXN-171_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="TRANS-RXN-171" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-5934" />
+      <Property key="ReactionEquation" value="FE+2 =&gt; FE+2" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXN-15018" />
+      <Property key="ReactionTypes" value="Small-Molecule-Reactions, Transport-Reactions" />
+      <Property key="AtomMappings" value=":CPDS-LACK-STRUCTURE" />
+      <Property key="Gibbs0" value="0." />
+      <Property key="InstanceNameTemplate" value="TRANS-RXN-*" />
+      <Property key="^coefficient" value="2, 2" />
+      <Property key="^compartment" value="CCO-OUT, CCO-IN" />
+      <CitationRef elementRef="citation_PUB_SCHMIDT03" />
+    </Interaction>
+    <Interaction elementId="TRANS-RXN-171_ENZRXN-15018">
+      <Waypoints>
+        <Point elementId="TRANS-RXN-171_ENZRXN-15018_start" x="1012.5147094726562" y="522.2969970703125" elementRef="MONOMER-14000" relX="0.0" relY="1.0" />
+        <Point elementId="TRANS-RXN-171_ENZRXN-15018_end" arrowHead="Catalysis" x="0" y="0" elementRef="TRANS-RXN-171_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="FERRIC-CHELATE-REDUCTASE-RXN">
+      <Xref identifier="FERRIC-CHELATE-REDUCTASE-RXN" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="FERRIC-CHELATE-REDUCTASE-RXN_start" x="1493.2218017578125" y="624.7098999023438" elementRef="Fe3-siderophores" relX="1.0" relY="0.0" />
+        <Point elementId="FERRIC-CHELATE-REDUCTASE-RXN_end" arrowHead="Conversion" x="841.9102783203125" y="703.9298095703125" elementRef="Fe2-siderophores" relX="-1.0" relY="0.0" />
+        <Anchor elementId="FERRIC-CHELATE-REDUCTASE-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="FERRIC-CHELATE-REDUCTASE-RXN" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="RXN-20768, PWY-5934" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="Fe2-siderophores + NAD + PROTON =&gt; Fe3-siderophores + NADH" />
+      <Property key="ReactionDirection" value="PHYSIOL-RIGHT-TO-LEFT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXN-15009, ENZRXN-15010" />
+      <Property key="EnzymaticReactionCount" value="2" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3) ((((&quot;Fe2-siderophores&quot; 1) 0 1) ((&quot;Fe2-siderophores&quot; 2) 2 3)) (((&quot;Fe3-siderophores&quot; 1) 0 1) ((&quot;Fe3-siderophores&quot; 2) 2 3))))" />
+      <Property key="Gibbs0" value="10.873596" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^coefficient" value="2, 2" />
+    </Interaction>
+    <Interaction elementId="FERRIC-CHELATE-REDUCTASE-RXN_ENZRXN-15010">
+      <Waypoints>
+        <Point elementId="FERRIC-CHELATE-REDUCTASE-RXN_ENZRXN-15010_start" x="657.489990234375" y="581.8721923828125" elementRef="MONOMER-13992" relX="0.0" relY="1.0" />
+        <Point elementId="FERRIC-CHELATE-REDUCTASE-RXN_ENZRXN-15010_end" arrowHead="Catalysis" x="0" y="0" elementRef="FERRIC-CHELATE-REDUCTASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="FERRIC-CHELATE-REDUCTASE-RXN_ENZRXN-15009">
+      <Waypoints>
+        <Point elementId="FERRIC-CHELATE-REDUCTASE-RXN_ENZRXN-15009_start" x="794.5136108398438" y="76.22261810302734" elementRef="MONOMER-13991" relX="0.0" relY="1.0" />
+        <Point elementId="FERRIC-CHELATE-REDUCTASE-RXN_ENZRXN-15009_end" arrowHead="Catalysis" x="0" y="0" elementRef="FERRIC-CHELATE-REDUCTASE-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="FERRIC-CHELATE-REDUCTASE-RXN_anchor_reactant_0">
+      <Xref identifier="FERRIC-CHELATE-REDUCTASE-RXN" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="FERRIC-CHELATE-REDUCTASE-RXN_anchor_reactant_start_0" x="931.9102783203125" y="703.9298095703125" elementRef="Fe2-siderophores" relX="1.0" relY="0.0" />
+        <Point elementId="FERRIC-CHELATE-REDUCTASE-RXN_anchor_reactant_end_0" x="0" y="0" elementRef="FERRIC-CHELATE-REDUCTASE-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="FERRIC-CHELATE-REDUCTASE-RXN_anchor_reactant_1">
+      <Xref identifier="FERRIC-CHELATE-REDUCTASE-RXN" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="FERRIC-CHELATE-REDUCTASE-RXN_anchor_reactant_start_1" x="1645.0" y="1162.92041015625" elementRef="NAD" relX="1.0" relY="0.0" />
+        <Point elementId="FERRIC-CHELATE-REDUCTASE-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="FERRIC-CHELATE-REDUCTASE-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="FERRIC-CHELATE-REDUCTASE-RXN_anchor_reactant_2">
+      <Xref identifier="FERRIC-CHELATE-REDUCTASE-RXN" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="FERRIC-CHELATE-REDUCTASE-RXN_anchor_reactant_start_2" x="963.3116455078125" y="1550.0" elementRef="PROTON" relX="1.0" relY="0.0" />
+        <Point elementId="FERRIC-CHELATE-REDUCTASE-RXN_anchor_reactant_end_2" x="0" y="0" elementRef="FERRIC-CHELATE-REDUCTASE-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="FERRIC-CHELATE-REDUCTASE-RXN_anchor_product_0">
+      <Xref identifier="FERRIC-CHELATE-REDUCTASE-RXN" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="FERRIC-CHELATE-REDUCTASE-RXN_anchor_product_start_0" x="0" y="0" elementRef="FERRIC-CHELATE-REDUCTASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="FERRIC-CHELATE-REDUCTASE-RXN_anchor_product_end_0" arrowHead="Conversion" x="1403.2218017578125" y="624.7098999023438" elementRef="Fe3-siderophores" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="FERRIC-CHELATE-REDUCTASE-RXN_anchor_product_1">
+      <Xref identifier="FERRIC-CHELATE-REDUCTASE-RXN" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="FERRIC-CHELATE-REDUCTASE-RXN_anchor_product_start_1" x="0" y="0" elementRef="FERRIC-CHELATE-REDUCTASE-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="FERRIC-CHELATE-REDUCTASE-RXN_anchor_product_end_1" arrowHead="Conversion" x="171.89102172851562" y="175.37266540527344" elementRef="NADH" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_12096107">
+      <Xref identifier="12096107" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_PMNRXN2024">
+      <Xref identifier="PUB-PMNRXN2024 | This pathway, a member of the Conditionally Accepted PMN Pathways (CAPP version 6.0), was predicted ... (2024)" dataSource="BioCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_SCHMIDT03">
+      <Xref identifier="PUB-SCHMIDT03 | Iron solutions: acquisition strategies and signalling pathways in plants (Schmidt, W, 2003)" dataSource="BioCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_17449639">
+      <Xref identifier="17449639" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_16412081">
+      <Xref identifier="16412081" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

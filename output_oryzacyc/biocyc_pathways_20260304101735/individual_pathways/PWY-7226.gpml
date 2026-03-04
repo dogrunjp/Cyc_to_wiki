@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="guanosine deoxyribonucleotides de novo biosynthesis I" organism="cellular organisms" source="PlantCyc" version="20260304101735">
+  <Xref identifier="PWY-7226" dataSource="MetaCyc" />
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Oryza sativa Japonica Group&lt;/i&gt;: This pathway is on the list of Ubiquitous Plant Pathways (UPP) that was generated for the COMET project, which includes pathways that are thought to be present in all or most land plants. All UPP pathways are automatically imported into databases regardless of Pathologic predictions. &lt;A href=&quot;https://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; Once the ribonucleoside |FRAME: GDP| is formed (see |FRAME: PWY-7221|), it can be reduced to the deoxy form |FRAME: DGDP| by the enzyme ribonucleoside diphosphate reductase. This enzyme can only accept ribonucleoside diphosphates, and are inacative with the mono- or triphosphate forms. dGDP is phosphorylated to the DNA precursor |FRAME: DGTP| by the broad-substrate range |FRAME: NUCLEOSIDE-DIP-KIN-CPLX|. This pathway is universal, and is found in archaea, bacteria, plants, fungi and animals.</Description>
+  <Authors>
+    <Author name="SRI" />
+    <Author name="caspi" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-7226" />
+  <Property key="Type" value="Guanosine-Deoxy-Denovo-Biosynthesis" />
+  <Property key="ReactionCount" value="2" />
+  <Property key="ReactionIDs" value="DGDPKIN-RXN, GDPREDUCT-RXN" />
+  <Property key="PrimaryCompoundCount" value="2" />
+  <Property key="PathwayLinks" value="(GDP PWY-7221)" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_PMNIC2024" />
+  <Graphics boardWidth="1800.0" boardHeight="1750.0" />
+  <DataNodes>
+    <DataNode elementId="Ox-Thioredoxin" textLabel="Ox-Thioredoxin" type="Metabolite">
+      <Xref identifier="Ox-Thioredoxin" dataSource="" />
+      <Graphics centerX="1079.625" centerY="1017.04052734375" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="DGDP" textLabel="dGDP" type="Metabolite">
+      <Xref identifier="CIKGWCTVFSRMJU-KVQBGUIXSA-K" dataSource="InChIKey" />
+      <Graphics centerX="514.4826049804688" centerY="1404.770751953125" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="DGDP" />
+      <Property key="AlternativeId_Pubchem" value="135398594" />
+      <Property key="AlternativeId_Zinc" value="ZINC000008215878" />
+      <Property key="AlternativeId_ReactomeCpd" value="500077" />
+      <Property key="AlternativeId_Seed" value="cpd00295" />
+      <Property key="AlternativeId_Metanetx" value="MNXM436" />
+      <Property key="AlternativeId_Refmet" value="dGDP" />
+      <Property key="AlternativeId_Bigg" value="dgdp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC58595" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00960" />
+      <Property key="AlternativeId_Chebi" value="58595" />
+      <Property key="AlternativeId_LigandCpd" value="C00361" />
+      <Property key="AlternativeId_Cas" value="102783-74-4" />
+      <Property key="Synonym_1" value="2&apos;-deoxyguanosine-5&apos;-diphosphate" />
+      <Property key="Synonym_2" value="deoxyguanosine-diphosphate" />
+      <Property key="ChemicalFormula" value="(C 10) (H 12) (N 5) (O 10) (P 2)" />
+      <Property key="AtomCharges" value="(20 -1), (19 -1), (21 -1)" />
+      <Property key="Gibbs0" value="-399.69406" />
+      <Property key="Inchi" value="InChI=1S/C10H15N5O10P2/c11-10-13-8-7(9(17)14-10)12-3-15(8)6-1-4(16)5(24-6)2-23-27(21,22)25-26(18,19)20/h3-6,16H,1-2H2,(H,21,22)(H2,18,19,20)(H3,11,13,14,17)/p-3/t4-,5+,6+/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=CIKGWCTVFSRMJU-KVQBGUIXSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="424.18" />
+      <Property key="MonoisotopicMw" value="427.0294147485" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Smiles" value="C(OP(=O)([O-])OP(=O)([O-])[O-])[C@H]3(O[C@@H](N1(C2(\N=C(N)/NC(=O)C(\N=C/1)=2)))C[C@H](O)3)" />
+    </DataNode>
+    <DataNode elementId="ATP" textLabel="ATP" type="Metabolite">
+      <Xref identifier="ZKHQWZAMYRWXGA-KQYNXXCUSA-J" dataSource="InChIKey" />
+      <Graphics centerX="1600.0" centerY="600.3720703125" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ATP" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004261765" />
+      <Property key="AlternativeId_Mediadb" value="compounds/2/" />
+      <Property key="AlternativeId_Seed" value="cpd00002" />
+      <Property key="AlternativeId_Metanetx" value="MNXM3" />
+      <Property key="AlternativeId_Refmet" value="ATP" />
+      <Property key="AlternativeId_Bigg" value="atp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC30616" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00538" />
+      <Property key="AlternativeId_Chemspider" value="4574455" />
+      <Property key="AlternativeId_Chebi" value="30616" />
+      <Property key="AlternativeId_Pubchem" value="5461108" />
+      <Property key="AlternativeId_LigandCpd" value="C00002" />
+      <Property key="AlternativeId_Cas" value="56-65-5" />
+      <Property key="Synonym_1" value="adenylpyrophosphate" />
+      <Property key="Synonym_2" value="adenosine-triphosphate" />
+      <Property key="Synonym_3" value="adenosine-5&apos;-triphosphate" />
+      <Property key="ChemicalFormula" value="(C 10) (H 12) (N 5) (O 13) (P 3)" />
+      <Property key="AtomCharges" value="(20 -1), (19 -1), (24 -1), (22 -1)" />
+      <Property key="Gibbs0" value="-553.6995" />
+      <Property key="Inchi" value="InChI=1S/C10H16N5O13P3/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(26-10)1-25-30(21,22)28-31(23,24)27-29(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H,23,24)(H2,11,12,13)(H2,18,19,20)/p-4/t4-,6-,7-,10-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=ZKHQWZAMYRWXGA-KQYNXXCUSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="503.152" />
+      <Property key="MonoisotopicMw" value="506.99574515689994" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG0-7200, REG-8022, REG0-7674, REG-8066, REG0-8732, REG0-8749, REG-14419, REG-14422, REG-5951, REG-5950, REG-11599, REG-6554, REG0-12215" />
+      <Property key="Smiles" value="C(OP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3)" />
+    </DataNode>
+    <DataNode elementId="DGTP" textLabel="dGTP" type="Metabolite">
+      <Xref identifier="HAAZLUGHYHWQIW-KVQBGUIXSA-J" dataSource="InChIKey" />
+      <Graphics centerX="100.0" centerY="654.4005126953125" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="DGTP" />
+      <Property key="AlternativeId_Pubchem" value="135398598" />
+      <Property key="AlternativeId_Zinc" value="ZINC000008215755" />
+      <Property key="AlternativeId_Seed" value="cpd00241" />
+      <Property key="AlternativeId_Metanetx" value="MNXM344" />
+      <Property key="AlternativeId_Refmet" value="dGTP" />
+      <Property key="AlternativeId_Bigg" value="dgtp" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01440" />
+      <Property key="AlternativeId_Chebi" value="61429" />
+      <Property key="AlternativeId_LigandCpd" value="C00286" />
+      <Property key="AlternativeId_Cas" value="2564-35-4" />
+      <Property key="Synonym_1" value="2&apos;-deoxyguanosine-5&apos;-triphosphate" />
+      <Property key="Synonym_2" value="deoxy-GTP" />
+      <Property key="Synonym_3" value="deoxyguanosine-triphosphate" />
+      <Property key="ChemicalFormula" value="(C 10) (H 12) (N 5) (O 13) (P 3)" />
+      <Property key="AtomCharges" value="(24 -1), (21 -1), (20 -1), (19 -1)" />
+      <Property key="Gibbs0" value="-513.4785" />
+      <Property key="Inchi" value="InChI=1S/C10H16N5O13P3/c11-10-13-8-7(9(17)14-10)12-3-15(8)6-1-4(16)5(26-6)2-25-30(21,22)28-31(23,24)27-29(18,19)20/h3-6,16H,1-2H2,(H,21,22)(H,23,24)(H2,18,19,20)(H3,11,13,14,17)/p-4/t4-,5+,6+/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=HAAZLUGHYHWQIW-KVQBGUIXSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="503.152" />
+      <Property key="MonoisotopicMw" value="506.99574515689994" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG0-8731" />
+      <Property key="Smiles" value="C(OP(=O)([O-])OP(=O)([O-])OP(=O)([O-])[O-])[C@H]3(O[C@@H](N1(C2(\N=C(N)/NC(=O)C(\N=C/1)=2)))C[C@H](O)3)" />
+    </DataNode>
+    <DataNode elementId="WATER" textLabel="H₂O" type="Metabolite">
+      <Xref identifier="XLYOFNOQVPJJNP-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="1398.232666015625" centerY="1550.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="WATER" />
+      <Property key="AlternativeId_Bigg" value="h2o" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15377" />
+      <Property key="AlternativeId_Hmdb" value="HMDB02111" />
+      <Property key="AlternativeId_Chemspider" value="937" />
+      <Property key="AlternativeId_Chebi" value="15377" />
+      <Property key="AlternativeId_Pubchem" value="962" />
+      <Property key="AlternativeId_LigandCpd" value="C00001" />
+      <Property key="AlternativeId_Cas" value="7732-18-5" />
+      <Property key="Synonym_1" value="H20" />
+      <Property key="Synonym_2" value="H&lt;sub&gt;2&lt;/sub&gt;0" />
+      <Property key="Synonym_3" value="H2O" />
+      <Property key="Synonym_4" value="hydrogen oxide" />
+      <Property key="Synonym_5" value="water" />
+      <Property key="ChemicalFormula" value="(H 2) (O 1)" />
+      <Property key="Gibbs0" value="-36.144756" />
+      <Property key="Inchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="InchiKey" value="InChIKey=XLYOFNOQVPJJNP-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="18.015" />
+      <Property key="MonoisotopicMw" value="18.0105646863" />
+      <Property key="NonStandardInchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="Smiles" value="O" />
+    </DataNode>
+    <DataNode elementId="Red-Thioredoxin" textLabel="Red-Thioredoxin" type="Metabolite">
+      <Xref identifier="Red-Thioredoxin" dataSource="" />
+      <Graphics centerX="919.5747680664062" centerY="849.7426147460938" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="AAAAAA" borderStyle="Solid" borderWidth="1.0" fillColor="F0F0F0" shapeType="Rectangle" />
+      <Property key="IsPlaceholder" value="true" />
+    </DataNode>
+    <DataNode elementId="ADP" textLabel="ADP" type="Metabolite">
+      <Xref identifier="XTWYTFMLZFPYCI-KQYNXXCUSA-K" dataSource="InChIKey" />
+      <Graphics centerX="736.1954345703125" centerY="643.0485229492188" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ADP" />
+      <Property key="AlternativeId_Zinc" value="ZINC000012360703" />
+      <Property key="AlternativeId_Seed" value="cpd00008" />
+      <Property key="AlternativeId_Metanetx" value="MNXM7" />
+      <Property key="AlternativeId_Refmet" value="ADP" />
+      <Property key="AlternativeId_Bigg" value="adp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC456216" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01341" />
+      <Property key="AlternativeId_Chemspider" value="5414423" />
+      <Property key="AlternativeId_Chebi" value="456216" />
+      <Property key="AlternativeId_Pubchem" value="7058055" />
+      <Property key="AlternativeId_LigandCpd" value="C00008" />
+      <Property key="AlternativeId_Cas" value="58-64-0" />
+      <Property key="Synonym_1" value="adenosine pyrophosphate" />
+      <Property key="Synonym_2" value="adenosine 5&apos;-pyrophosphate" />
+      <Property key="Synonym_3" value="adenosine-5&apos;-diphosphate" />
+      <Property key="Synonym_4" value="adenosine-diphosphate" />
+      <Property key="Synonym_5" value="adenosine-5-diphosphate" />
+      <Property key="ChemicalFormula" value="(C 10) (H 12) (N 5) (O 10) (P 2)" />
+      <Property key="AtomCharges" value="(20 -1), (19 -1), (22 -1)" />
+      <Property key="Gibbs0" value="-344.92508" />
+      <Property key="Inchi" value="InChI=1S/C10H15N5O10P2/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(24-10)1-23-27(21,22)25-26(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H2,11,12,13)(H2,18,19,20)/p-3/t4-,6-,7-,10-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=XTWYTFMLZFPYCI-KQYNXXCUSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="424.18" />
+      <Property key="MonoisotopicMw" value="427.0294147485" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG0-10568, REG-8051, REG-7113, REG0-8726, REG-8233, REG-13527, REG0-6887, REG0-8748, REG-11598, REG-6552, REG0-6846, REG-8041, REG-8731" />
+      <Property key="Smiles" value="C(OP(=O)([O-])OP(=O)([O-])[O-])[C@H]3(O[C@@H](N1(C2(\C(\N=C/1)=C(N)/N=C\N=2)))[C@H](O)[C@H](O)3)" />
+    </DataNode>
+    <DataNode elementId="GDP" textLabel="GDP" type="Metabolite">
+      <Xref identifier="QGWNDRXFNXRZMB-UUOKFMHZSA-K" dataSource="InChIKey" />
+      <Graphics centerX="994.316650390625" centerY="50.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="GDP" />
+      <Property key="AlternativeId_Pubchem" value="135398618" />
+      <Property key="AlternativeId_Zinc" value="ZINC000008215481" />
+      <Property key="AlternativeId_Mediadb" value="compounds/35/" />
+      <Property key="AlternativeId_Seed" value="cpd00031" />
+      <Property key="AlternativeId_Metanetx" value="MNXM30" />
+      <Property key="AlternativeId_Refmet" value="GDP" />
+      <Property key="AlternativeId_Bigg" value="gdp" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC58189" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01201" />
+      <Property key="AlternativeId_Chemspider" value="10239187" />
+      <Property key="AlternativeId_Chebi" value="58189" />
+      <Property key="AlternativeId_LigandCpd" value="C00035" />
+      <Property key="AlternativeId_Cas" value="146-91-8" />
+      <Property key="Synonym_1" value="ppG" />
+      <Property key="Synonym_2" value="guanosine-5&apos;-diphosphate" />
+      <Property key="Synonym_3" value="guanosine-diphosphate" />
+      <Property key="ChemicalFormula" value="(C 10) (H 12) (N 5) (O 11) (P 2)" />
+      <Property key="AtomCharges" value="(22 -1), (21 -1), (20 -1)" />
+      <Property key="Gibbs0" value="-439.5341" />
+      <Property key="Inchi" value="InChI=1S/C10H15N5O11P2/c11-10-13-7-4(8(18)14-10)12-2-15(7)9-6(17)5(16)3(25-9)1-24-28(22,23)26-27(19,20)21/h2-3,5-6,9,16-17H,1H2,(H,22,23)(H2,19,20,21)(H3,11,13,14,18)/p-3/t3-,5-,6-,9-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=QGWNDRXFNXRZMB-UUOKFMHZSA-K" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="440.179" />
+      <Property key="MonoisotopicMw" value="443.0243293706" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG0-8729, REG0-11742, REG-7361, REGQT-472, REG-11604, REG-8491" />
+      <Property key="Smiles" value="C(OP(=O)([O-])OP(=O)([O-])[O-])[C@H]3(O[C@@H](N1(C2(\N=C(N)/NC(=O)C(\N=C/1)=2)))[C@H](O)[C@H](O)3)" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="DGDPKIN-RXN">
+      <Xref identifier="EC-2.7.4.6" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="DGDPKIN-RXN_start" x="559.4826049804688" y="1404.770751953125" elementRef="DGDP" relX="1.0" relY="0.0" />
+        <Point elementId="DGDPKIN-RXN_end" arrowHead="Conversion" x="55.0" y="654.4005126953125" elementRef="DGTP" relX="-1.0" relY="0.0" />
+        <Anchor elementId="DGDPKIN-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="DGDPKIN-RXN" />
+      <Property key="EC_Number" value="EC-2.7.4.6" />
+      <Property key="Pathways" value="PWY-7226, PWY-7224" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="DGDP + ATP =&gt; DGTP + ADP" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 49 53 50 47 48 51 52 54 57 56 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 44 46 45 20 21 17 19 22 23 18 24 55 26 25) (((&quot;ADP&quot; 0 26) (&quot;DGTP&quot; 27 57)) ((&quot;DGDP&quot; 0 26) (&quot;ATP&quot; 27 57))))" />
+      <Property key="^official?" value="NIL" />
+      <Property key="Gibbs0" value="94.98999" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="DGDPKIN-RXN_anchor_reactant_1">
+      <Xref identifier="EC-2.7.4.6" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="DGDPKIN-RXN_anchor_reactant_start_1" x="1645.0" y="600.3720703125" elementRef="ATP" relX="1.0" relY="0.0" />
+        <Point elementId="DGDPKIN-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="DGDPKIN-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="DGDPKIN-RXN_anchor_product_1">
+      <Xref identifier="EC-2.7.4.6" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="DGDPKIN-RXN_anchor_product_start_1" x="0" y="0" elementRef="DGDPKIN-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="DGDPKIN-RXN_anchor_product_end_1" arrowHead="Conversion" x="691.1954345703125" y="643.0485229492188" elementRef="ADP" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GDPREDUCT-RXN">
+      <Xref identifier="EC-1.17.4.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="GDPREDUCT-RXN_start" x="1039.316650390625" y="50.0" elementRef="GDP" relX="1.0" relY="0.0" />
+        <Point elementId="GDPREDUCT-RXN_end" arrowHead="Conversion" x="469.48260498046875" y="1404.770751953125" elementRef="DGDP" relX="-1.0" relY="0.0" />
+        <Anchor elementId="GDPREDUCT-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="GDPREDUCT-RXN" />
+      <Property key="EC_Number" value="EC-1.17.4.1" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-7226" />
+      <Property key="ReactionEquation" value="DGDP + Ox-Thioredoxin + WATER =&gt; GDP + Red-Thioredoxin" />
+      <Property key="ReactionDirection" value="PHYSIOL-RIGHT-TO-LEFT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionType" value="Protein-Modification-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (1 2 4 6 3 0 7 8 5 9 10 11 12 13 14 15 51 16 17 19 18 20 21 22 23 24 25 26 27 28 48 45 44 29 30 31 32 33 47 34 35 36 37 38 39 40 43 49 46 41 42 50) (((&quot;DGDP&quot; 0 26) (&quot;Ox-Thioredoxin&quot; 27 50) (&quot;WATER&quot; 51 51)) ((&quot;GDP&quot; 0 27) (&quot;Red-Thioredoxin&quot; 28 51))))" />
+      <Property key="^official?" value="NIL" />
+      <Property key="Gibbs0" value="-10.865234" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="GDPREDUCT-RXN_anchor_reactant_0">
+      <Xref identifier="EC-1.17.4.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="GDPREDUCT-RXN_anchor_reactant_start_0" x="559.4826049804688" y="1404.770751953125" elementRef="DGDP" relX="1.0" relY="0.0" />
+        <Point elementId="GDPREDUCT-RXN_anchor_reactant_end_0" x="0" y="0" elementRef="GDPREDUCT-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GDPREDUCT-RXN_anchor_reactant_1">
+      <Xref identifier="EC-1.17.4.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="GDPREDUCT-RXN_anchor_reactant_start_1" x="1124.625" y="1017.04052734375" elementRef="Ox-Thioredoxin" relX="1.0" relY="0.0" />
+        <Point elementId="GDPREDUCT-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="GDPREDUCT-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GDPREDUCT-RXN_anchor_reactant_2">
+      <Xref identifier="EC-1.17.4.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="GDPREDUCT-RXN_anchor_reactant_start_2" x="1443.232666015625" y="1550.0" elementRef="WATER" relX="1.0" relY="0.0" />
+        <Point elementId="GDPREDUCT-RXN_anchor_reactant_end_2" x="0" y="0" elementRef="GDPREDUCT-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GDPREDUCT-RXN_anchor_product_0">
+      <Xref identifier="EC-1.17.4.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="GDPREDUCT-RXN_anchor_product_start_0" x="0" y="0" elementRef="GDPREDUCT-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="GDPREDUCT-RXN_anchor_product_end_0" arrowHead="Conversion" x="949.316650390625" y="50.0" elementRef="GDP" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="GDPREDUCT-RXN_anchor_product_1">
+      <Xref identifier="EC-1.17.4.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="GDPREDUCT-RXN_anchor_product_start_1" x="0" y="0" elementRef="GDPREDUCT-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="GDPREDUCT-RXN_anchor_product_end_1" arrowHead="Conversion" x="874.5747680664062" y="849.7426147460938" elementRef="Red-Thioredoxin" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_PMNIC2024">
+      <Xref identifier="PUB-PMNIC2024 | This pathway was not predicted to exist in this species using PathoLogic (version 28.0), but was imp... (2024)" dataSource="BioCyc" />
+    </Citation>
+  </Citations>
+</Pathway>

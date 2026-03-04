@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="phospholipid remodeling (phosphatidate, yeast)" organism="cellular organisms" source="PlantCyc" version="20260304101735">
+  <Xref identifier="PWY-7417" dataSource="MetaCyc" />
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Oryza sativa Japonica Group&lt;/i&gt;: This pathway is on the list of Accept-If-Predicted Pathways (AIPP) generated for the COMET project, which includes pathways that are present widely throughout the plant kingdom. The AIPP list contains pathways that are automatically accepted if they are predicted for any plant species database. However, AIPP pathways are not automatically imported into databases if they are not predicted by the Pathologic program. &lt;A href=&quot;https://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; The homeostasis of glycerophospholipids constitutes an indispensable element for buildup, maintenance and component dynamics of cell membranes in all organisms. The many different phospholipid molecular species found in yeast basically vary in their composition of fatty acids esterified to the sn-1 and sn-2 position of a phosphorylated |FRAME:GLYCEROL| and a head group which can either be a |FRAME:CHOLINE|, |FRAME:ETHANOL-AMINE|, |FRAME:SER|, |FRAME:MYO-INOSITOL| or the one phospholipid without a head group, i.e. phosphatidate (for example |FRAME:CPD-8291|) |CITS:[14321173] [22345606]|. After the &lt;i&gt;de novo&lt;/i&gt; synthesis of phospholipids in the Kennedy pathway (see |FRAME:TRIGLSYN-PWY|, |FRAME:PWY3O-450|) glycerophospholipids can be degraded (see |FRAME:LIPAS-PWY|) and remodeled (this pathway; see also |FRAME:PWY-7409| and |FRAME:PWY-7417|). The latter has been proposed by William E.M. Lands |CITS:[14413818]| who describes in the eponymous &apos;Lands cycle&apos; a de-acylation-re-acylation process of phospholipids typically characterized by saturated acyl chains at the sn-1 and unsaturated acyl chains at the sn-2 position |CITS:[7871882]|. This remodeling process starts with the de-acylation at the sn-2 position of phospholipids catalyzed by phospholipases (e.g. phospholipase A2) generating the corresponding lyso-phospholipids. The resulting lyso-phospholipids represent the substrates for acyl-CoA dependent lyso-phospholipid acyltransferases or phospholipid transacylases which can re-acylate the sn-2 position. Generally, the Lands cycle constitutes an exchange of fatty acids at the sn-2 position which is an substantial factor in the maintenance of the homeostasis of phospholipids |CITS:[17010666]|. This de- and re-acylation process translates into many physiological functions, for example increasing membrane fluidity through a higher percentage of unsaturated acyl chains, re-esterification of exogenous lyso-phospholipids |CITS:[17726007]|, buffering excess toxic fatty acids |CITS:[22090344] [19608739]| and maintenance of the intrinsic membrane curvature necessary to preserve membrane integrity |CITS:[16339082] [31173]|. Phosphatidate (PA) is a central metabolite for the biosynthesis of major phospholipids such as phosphatidylcholine (PC), phosphatidylethanolamine (PE), phosphatidylserine (PS) and phosphatidylinositol (PI) because they are synthesized through the metabolization of PA via the CDP-diacylglycerol pathway (see |FRAME:PWY-5667|) |CITS:[20332534]|. It is not unexpected therefore that many of the lyso-phospholipid acyltransferases accept lyso-phosphatidate, e.g. |FRAME:L-1-LYSOPHOSPHATIDATE| as substrate and re-esterify it to the corresponding phosphatidate molecular species, e.g. |FRAME:CPD-8268| with varying efficiency. Besides the triacylglycerol lipases TGL4p |CITS:[16135509] [16267052] [20332534]| and TGL5p |CITS:[16135509] [20016004]| which also demonstrated oleoyl-CoA:lysophosphatidate acyltransferase (LPAT) activity the major LPATs in &lt;i&gt;Saccharomyces cerevisiae&lt;/i&gt; are SLC1p |CITS:[8408076] [1767529]| and LOA1p |CITS:[22090344]| which have both a dual location at the endoplasmatic reticulum and lipid droplets in the yeast cell. The reverse reaction, i.e. deacylation of phosphatidate by a phospholipase A2 activity as shown for TGL4p is possible but remains to be shown.</Description>
+  <Authors>
+    <Author name="AU4FS-1" />
+    <Author name="O-28" />
+    <Author name="hartmut" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-7417" />
+  <Property key="Type" value="Phospholipid-Biosynthesis" />
+  <Property key="ReactionCount" value="2" />
+  <Property key="ReactionIDs" value="RXN-15068, RXN-15043" />
+  <Property key="PredecessorCount" value="2" />
+  <Property key="PrimaryCompoundCount" value="2" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_PMNAIPP2024" />
+  <CitationRef elementRef="citation_PUB_14413818" />
+  <CitationRef elementRef="citation_PUB_7871882" />
+  <CitationRef elementRef="citation_PUB_17010666" />
+  <CitationRef elementRef="citation_PUB_17726007" />
+  <CitationRef elementRef="citation_PUB_20332534" />
+  <CitationRef elementRef="citation_PUB_22090344" />
+  <Graphics boardWidth="1800.0" boardHeight="1750.0" />
+  <DataNodes>
+    <DataNode elementId="OLEOYL-COA" textLabel="oleoyl-CoA" type="Metabolite">
+      <Xref identifier="XDUHQPOXLUAVEE-BPMMELMSSA-J" dataSource="InChIKey" />
+      <Graphics centerX="1600.0" centerY="50.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco">|FRAME: OLEATE-CPD Oleate| (oleic acid) is the first unsaturated fatty acid that is generated from the saturated fatty acids produced by the fatty acid synthase. It&apos;s name is derived from the olive tree, since it makes up 55-80% of olive oil. Oleate synthesis occurs with membrane-bound systems. The desaturase enzymes that produce oleate have been isolated from fungi, yeast, and mammalian liver and found to be specific for |FRAME: STEAROYL-COA|. In plants, on the other hand, oleate is produced via |FRAME: Stearoyl-ACPs|, an acyl-carrier-protein bound intermediate |CITS: [4831331]|. |FRAME: OLEATE-CPD Oleate| has also been reported from a few bacteria, including the obligate anaerobic bacterium |FRAME: TAX-1520| and the saprophytic bacterium |FRAME: TAX-1377|. Bacterial biosynthesis of |FRAME: OLEATE-CPD| does not require oxygen and involves elongation of |FRAME: CPD-17289| |CITS: [14498314][5554109][6886674][12583708][23972938]|. Like other fatty acids, |FRAME: OLEATE-CPD| is rarely found in its free form. It is usually found as either |FRAME: Oleoyl-ACPs oleoyl-[acp]|, |FRAME: OLEOYL-COA|, or |FRAME: Oleoyl-lipid &quot;incorporated into a lipid&quot;|.</Comment>
+      <Property key="UniqueID" value="OLEOYL-COA" />
+      <Property key="AlternativeId_ReactomeCpd" value="5690558" />
+      <Property key="AlternativeId_Metanetx" value="MNXM686" />
+      <Property key="AlternativeId_Refmet" value="Oleoyl-CoA" />
+      <Property key="AlternativeId_Pubchem" value="25245426" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57387" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01322" />
+      <Property key="AlternativeId_Chebi" value="57387" />
+      <Property key="AlternativeId_LigandCpd" value="C00510" />
+      <Property key="Synonym_1" value="oloeyl-CoA (&lt;i&gt;cis&lt;/i&gt;)" />
+      <Property key="Synonym_2" value="&lt;i&gt;cis&lt;/i&gt;-octadec-9-enoyl-CoA" />
+      <Property key="Synonym_3" value="(9Z)-octadec-9-enoyl-CoA" />
+      <Property key="Synonym_4" value="18:1 &lt;i&gt;cis&lt;/i&gt;-9" />
+      <Property key="Synonym_5" value="18:1(n-9)" />
+      <Property key="ChemicalFormula" value="(C 39) (H 64) (N 7) (O 17) (P 3) (S 1)" />
+      <Property key="AbbrevName" value="OleCoA" />
+      <Property key="AtomCharges" value="(57 -1), (55 -1), (54 -1), (52 -1)" />
+      <Property key="Gibbs0" value="-150.45024" />
+      <Property key="Inchi" value="InChI=1S/C39H68N7O17P3S/c1-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-30(48)67-23-22-41-29(47)20-21-42-37(51)34(50)39(2,3)25-60-66(57,58)63-65(55,56)59-24-28-33(62-64(52,53)54)32(49)38(61-28)46-27-45-31-35(40)43-26-44-36(31)46/h11-12,26-28,32-34,38,49-50H,4-10,13-25H2,1-3H3,(H,41,47)(H,42,51)(H,55,56)(H,57,58)(H2,40,43,44)(H2,52,53,54)/p-4/b12-11-/t28-,32-,33-,34+,38-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=XDUHQPOXLUAVEE-BPMMELMSSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1027.953" />
+      <Property key="MonoisotopicMw" value="1031.3605240149" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Smiles" value="CCCCCCCC\C=C/CCCCCCCC(=O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)COP(=O)(OP(=O)(OC[C@@H]1([C@@H](OP([O-])(=O)[O-])[C@@H](O)[C@@H](O1)N2(C3(\N=C/N=C(C(\N=C/2)=3)/N))))[O-])[O-]" />
+      <Property key="Superatoms" value="COA-GROUP" />
+      <CitationRef elementRef="citation_PUB_4831331" />
+    </DataNode>
+    <DataNode elementId="CPD-8268" textLabel="bisoleoyl phosphatidate" type="Metabolite">
+      <Xref identifier="MHUWZNTUIIFHAS-DSSVUWSHSA-L" dataSource="InChIKey" />
+      <Graphics centerX="666.6949462890625" centerY="880.8719482421875" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-8268" />
+      <Property key="AlternativeId_Zinc" value="ZINC000032786254" />
+      <Property key="AlternativeId_Seed" value="cpd25125" />
+      <Property key="AlternativeId_Metanetx" value="MNXM51075" />
+      <Property key="AlternativeId_Chebi" value="74546" />
+      <Property key="AlternativeId_Pubchem" value="71627209" />
+      <Property key="AlternativeId_Hmdb" value="HMDB07865" />
+      <Property key="Synonym_1" value="18:1-18:1-PA" />
+      <Property key="Synonym_2" value="1-18:1-2-18:1-phosphatidic acid" />
+      <Property key="Synonym_3" value="1,2-(9Z-octadecenoyl)-sn-glycero-3-phosphate" />
+      <Property key="Synonym_4" value="1-18:1-2-18:1-phosphatidate" />
+      <Property key="Synonym_5" value="dioleoyl phosphatidate" />
+      <Property key="ChemicalFormula" value="(C 39) (H 71) (O 8) (P 1)" />
+      <Property key="AtomCharges" value="(44 -1), (42 -1)" />
+      <Property key="Gibbs0" value="420.98138" />
+      <Property key="Inchi" value="InChI=1S/C39H73O8P/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-29-31-33-38(40)45-35-37(36-46-48(42,43)44)47-39(41)34-32-30-28-26-24-22-20-18-16-14-12-10-8-6-4-2/h17-20,37H,3-16,21-36H2,1-2H3,(H2,42,43,44)/p-2/b19-17-,20-18-/t37-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=MHUWZNTUIIFHAS-DSSVUWSHSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="698.959" />
+      <Property key="MonoisotopicMw" value="700.5043058301001" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Smiles" value="CCCCCCCC\C=C/CCCCCCCC(OC[C@@H](OC(=O)CCCCCCC\C=C/CCCCCCCC)COP([O-])(=O)[O-])=O" />
+    </DataNode>
+    <DataNode elementId="WATER" textLabel="H₂O" type="Metabolite">
+      <Xref identifier="XLYOFNOQVPJJNP-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="100.0" centerY="1550.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="WATER" />
+      <Property key="AlternativeId_Bigg" value="h2o" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15377" />
+      <Property key="AlternativeId_Hmdb" value="HMDB02111" />
+      <Property key="AlternativeId_Chemspider" value="937" />
+      <Property key="AlternativeId_Chebi" value="15377" />
+      <Property key="AlternativeId_Pubchem" value="962" />
+      <Property key="AlternativeId_LigandCpd" value="C00001" />
+      <Property key="AlternativeId_Cas" value="7732-18-5" />
+      <Property key="Synonym_1" value="H20" />
+      <Property key="Synonym_2" value="H&lt;sub&gt;2&lt;/sub&gt;0" />
+      <Property key="Synonym_3" value="H2O" />
+      <Property key="Synonym_4" value="hydrogen oxide" />
+      <Property key="Synonym_5" value="water" />
+      <Property key="ChemicalFormula" value="(H 2) (O 1)" />
+      <Property key="Gibbs0" value="-36.144756" />
+      <Property key="Inchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="InchiKey" value="InChIKey=XLYOFNOQVPJJNP-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="18.015" />
+      <Property key="MonoisotopicMw" value="18.0105646863" />
+      <Property key="NonStandardInchi" value="InChI=1S/H2O/h1H2" />
+      <Property key="Smiles" value="O" />
+    </DataNode>
+    <DataNode elementId="CO-A" textLabel="coenzyme A" type="Metabolite">
+      <Xref identifier="RGJOEKWQDUBAIZ-IBOSZNHHSA-J" dataSource="InChIKey" />
+      <Graphics centerX="1042.915283203125" centerY="730.8361206054688" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco">Coenzyme A (CoA) is a ubiquitous compound found in archaea, bacteria, plants, and animals. It is a common acyl carrier in prokaryotic and eukaryotic cells, and is required for a multitude of reactions for both biosynthetic and degradative pathways, including the oxidation of fatty acids, carbohydrates, and amino acids |CITS: [16415216]|. While the name &quot;coenzyme A&quot; is well established, the correct name for the function of the compound in enzymatic reactions is &quot;cosubstrate&quot;.</Comment>
+      <Property key="UniqueID" value="CO-A" />
+      <Property key="AlternativeId_Metanetx" value="MNXM727276" />
+      <Property key="AlternativeId_Refmet" value="Coenzyme A" />
+      <Property key="AlternativeId_Bigg" value="coa" />
+      <Property key="AlternativeId_Wikipedia" value="Coenzyme_a" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57287" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01423" />
+      <Property key="AlternativeId_Chebi" value="57287" />
+      <Property key="AlternativeId_Pubchem" value="25113190" />
+      <Property key="AlternativeId_Knapsack" value="C00007258" />
+      <Property key="AlternativeId_Cas" value="85-61-0" />
+      <Property key="AlternativeId_LigandCpd" value="C00010" />
+      <Property key="Synonym_1" value="CoA" />
+      <Property key="Synonym_2" value="Co-A-SH" />
+      <Property key="Synonym_3" value="HS-CoA" />
+      <Property key="ChemicalFormula" value="(C 21) (H 32) (N 7) (O 16) (P 3) (S 1)" />
+      <Property key="AtomCharges" value="(39 -1), (37 -1), (35 -1), (33 -1)" />
+      <Property key="Gibbs0" value="-493.56613" />
+      <Property key="Inchi" value="InChI=1S/C21H36N7O16P3S/c1-21(2,16(31)19(32)24-4-3-12(29)23-5-6-48)8-41-47(38,39)44-46(36,37)40-7-11-15(43-45(33,34)35)14(30)20(42-11)28-10-27-13-17(22)25-9-26-18(13)28/h9-11,14-16,20,30-31,48H,3-8H2,1-2H3,(H,23,29)(H,24,32)(H,36,37)(H,38,39)(H2,22,25,26)(H2,33,34,35)/p-4/t11-,14-,15-,16+,20-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=RGJOEKWQDUBAIZ-IBOSZNHHSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="763.502" />
+      <Property key="MonoisotopicMw" value="767.1152083656" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG-13932, REG0-7670, REG0-7409" />
+      <Property key="Smiles" value="CC(C)(COP([O-])(=O)OP(OC[C@H]3(O[C@@H](N1(C2(\N=C/N=C(C(\N=C/1)=2)/N)))[C@H](O)[C@H](OP([O-])(=O)[O-])3))(=O)[O-])[C@@H](O)C(=O)NCCC(=O)NCCS" />
+      <CitationRef elementRef="citation_PUB_16415216" />
+    </DataNode>
+    <DataNode elementId="OLEATE-CPD" textLabel="oleate" type="Metabolite">
+      <Xref identifier="ZQPPMHVWECSIRJ-KTKRTIGZSA-M" dataSource="InChIKey" />
+      <Graphics centerX="697.624267578125" centerY="690.3588256835938" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco">|FRAME: OLEATE-CPD Oleate| (oleic acid) is the first unsaturated fatty acid that is generated from the saturated fatty acids produced by the fatty acid synthase. It&apos;s name is derived from the olive tree, since it makes up 55-80% of olive oil. Oleate synthesis occurs with membrane-bound systems. The desaturase enzymes that produce oleate have been isolated from fungi, yeast, and mammalian liver and found to be specific for |FRAME: STEAROYL-COA|. In plants, on the other hand, oleate is produced via |FRAME: Stearoyl-ACPs|, an acyl-carrier-protein bound intermediate |CITS: [4831331]|. |FRAME: OLEATE-CPD Oleate| has also been reported from a few bacteria, including the obligate anaerobic bacterium |FRAME: TAX-1520| and the saprophytic bacterium |FRAME: TAX-1377|. Bacterial biosynthesis of |FRAME: OLEATE-CPD| does not require oxygen and involves elongation of |FRAME: CPD-17289| |CITS: [14498314][5554109][6886674][12583708][23972938]|. Like other fatty acids, |FRAME: OLEATE-CPD| is rarely found in its free form. It is usually found as either |FRAME: Oleoyl-ACPs oleoyl-[acp]|, |FRAME: OLEOYL-COA|, or |FRAME: Oleoyl-lipid &quot;incorporated into a lipid&quot;|.</Comment>
+      <Property key="UniqueID" value="OLEATE-CPD" />
+      <Property key="AlternativeId_Zinc" value="ZINC000006845860" />
+      <Property key="AlternativeId_Mediadb" value="compounds/659/" />
+      <Property key="AlternativeId_Seed" value="cpd00536" />
+      <Property key="AlternativeId_Metanetx" value="MNXM306" />
+      <Property key="AlternativeId_Refmet" value="Oleic acid" />
+      <Property key="AlternativeId_Bigg" value="ocdcea" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC30823" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00207" />
+      <Property key="AlternativeId_Chemspider" value="4573837" />
+      <Property key="AlternativeId_Pubchem" value="5460221" />
+      <Property key="AlternativeId_Chebi" value="30823" />
+      <Property key="AlternativeId_LigandCpd" value="C00712" />
+      <Property key="AlternativeId_Cas" value="112-80-1" />
+      <Property key="Synonym_1" value="oleic acid" />
+      <Property key="Synonym_2" value="(9Z)-octadec-9-enoate" />
+      <Property key="Synonym_3" value="(9Z)-octadecenoate" />
+      <Property key="Synonym_4" value="(9Z)-octadecenoic acid" />
+      <Property key="Synonym_5" value="(9Z)-octadec-9-enoic acid" />
+      <Property key="Synonym_6" value="(Z)-octadec-9-enoic acid" />
+      <Property key="Synonym_7" value="18:1 n-9" />
+      <Property key="Synonym_8" value="18:1&amp;Delta;9cis" />
+      <Property key="Synonym_9" value="C18:1 n-9" />
+      <Property key="Synonym_10" value="cis-9-octadecenoic acid" />
+      <Property key="Synonym_11" value="cis-&amp;Delta;&lt;sup&gt;9&lt;/sup&gt;-octadecenoic acid" />
+      <Property key="Synonym_12" value="cis-oleic acid" />
+      <Property key="Synonym_13" value="octadec-9-enoic acid" />
+      <Property key="Synonym_14" value="octadecenoate (n-C18:1)" />
+      <Property key="Synonym_15" value="9-octadecenoic acid" />
+      <Property key="ChemicalFormula" value="(C 18) (H 33) (O 2)" />
+      <Property key="AtomCharges" value="(20 -1)" />
+      <Property key="Gibbs0" value="300.16492" />
+      <Property key="Inchi" value="InChI=1S/C18H34O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h9-10H,2-8,11-17H2,1H3,(H,19,20)/p-1/b10-9-" />
+      <Property key="InchiKey" value="InChIKey=ZQPPMHVWECSIRJ-KTKRTIGZSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="281.457" />
+      <Property key="MonoisotopicMw" value="282.2558803356" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Smiles" value="CCCCCCCC\C=C/CCCCCCCC([O-])=O" />
+      <CitationRef elementRef="citation_PUB_4831331" />
+    </DataNode>
+    <DataNode elementId="L-1-LYSOPHOSPHATIDATE" textLabel="1-oleoyl-sn-glycerol 3-phosphate" type="Metabolite">
+      <Xref identifier="WRGQSWVCFNIUNZ-GDCKJWNLSA-L" dataSource="InChIKey" />
+      <Graphics centerX="853.2095947265625" centerY="806.0061645507812" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="L-1-LYSOPHOSPHATIDATE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000008860530" />
+      <Property key="AlternativeId_Metanetx" value="MNXM32960" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC74544" />
+      <Property key="AlternativeId_Chebi" value="74544" />
+      <Property key="AlternativeId_Pubchem" value="46173225" />
+      <Property key="Synonym_1" value="L-2-lysophosphatidate" />
+      <Property key="Synonym_2" value="lysophosphatidic acid" />
+      <Property key="Synonym_3" value="LPA" />
+      <Property key="Synonym_4" value="oleoyl lysophosphatidic acid" />
+      <Property key="Synonym_5" value="1-oleoyl-lyso-phosphatidic acid" />
+      <Property key="Synonym_6" value="1-oleyl-2-lyso-phosphatidate" />
+      <Property key="ChemicalFormula" value="(C 21) (H 39) (O 7) (P 1)" />
+      <Property key="AtomCharges" value="(25 -1), (24 -1)" />
+      <Property key="Gibbs0" value="81.47545" />
+      <Property key="Inchi" value="InChI=1S/C21H41O7P/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-21(23)27-18-20(22)19-28-29(24,25)26/h9-10,20,22H,2-8,11-19H2,1H3,(H2,24,25,26)/p-2/b10-9-/t20-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=WRGQSWVCFNIUNZ-GDCKJWNLSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="434.509" />
+      <Property key="MonoisotopicMw" value="436.25899018079997" />
+      <Property key="NonStandardInchi" value="InChI=1S/C21H41O7P/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-21(23)27-18-20(22)19-28-29(24,25)26/h9-10,20,22H,2-8,11-19H2,1H3,(H2,24,25,26)/p-2/b10-9-/t20-/m1/s1" />
+      <Property key="Smiles" value="CCCCCCCC\C=C/CCCCCCCC(=O)OC[C@H](COP([O-])([O-])=O)O" />
+    </DataNode>
+    <DataNode elementId="PROTON" textLabel="H⁺" type="Metabolite">
+      <Xref identifier="GPRLSGONYQIRFK-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="1015.701416015625" centerY="924.5130004882812" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PROTON" />
+      <Property key="AlternativeId_Bigg" value="h" />
+      <Property key="AlternativeId_Seed" value="cpd00067" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1" />
+      <Property key="AlternativeId_Hmdb" value="HMDB59597" />
+      <Property key="AlternativeId_Chemspider" value="1010" />
+      <Property key="AlternativeId_Pubchem" value="1038" />
+      <Property key="AlternativeId_Chebi" value="15378" />
+      <Property key="AlternativeId_Cas" value="12408-02-5" />
+      <Property key="AlternativeId_LigandCpd" value="C00080" />
+      <Property key="Synonym_1" value="H" />
+      <Property key="Synonym_2" value="hydrogen ion" />
+      <Property key="Synonym_3" value="proton" />
+      <Property key="ChemicalFormula" value="(H 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="0.42906138" />
+      <Property key="Inchi" value="InChI=1S/p+1" />
+      <Property key="InchiKey" value="InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1.008" />
+      <Property key="MonoisotopicMw" value="1.0078250321" />
+      <Property key="NonStandardInchi" value="InChI=1S/p+1" />
+      <Property key="Smiles" value="[H+]" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="RXN-15068">
+      <Xref identifier="EC-3.1.1.4" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-15068_start" x="711.6949462890625" y="880.8719482421875" elementRef="CPD-8268" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-15068_end" arrowHead="Conversion" x="808.2095947265625" y="806.0061645507812" elementRef="L-1-LYSOPHOSPHATIDATE" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-15068_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-15068" />
+      <Property key="ReactionName" value="phospholipase A2" />
+      <Property key="EC_Number" value="EC-3.1.1.4" />
+      <Property key="Pathways" value="PWY-7417" />
+      <Property key="ReactionEquation" value="CPD-8268 + WATER =&gt; L-1-LYSOPHOSPHATIDATE + OLEATE-CPD + PROTON" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (20 0 21 1 22 2 23 3 24 4 25 5 26 6 27 7 28 8 29 9 30 10 31 11 32 12 33 13 34 14 35 15 36 16 37 38 39 40 17 42 19 44 43 45 46 47 18 48 41) (((OLEATE-CPD 0 19) (L-1-LYSOPHOSPHATIDATE 20 48)) ((CPD-8268 0 47) (WATER 48 48))))" />
+      <Property key="Gibbs0" value="-2.767212" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-15068_anchor_reactant_1">
+      <Xref identifier="EC-3.1.1.4" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-15068_anchor_reactant_start_1" x="145.0" y="1550.0" elementRef="WATER" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-15068_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-15068_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-15068_anchor_product_1">
+      <Xref identifier="EC-3.1.1.4" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-15068_anchor_product_start_1" x="0" y="0" elementRef="RXN-15068_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-15068_anchor_product_end_1" arrowHead="Conversion" x="652.624267578125" y="690.3588256835938" elementRef="OLEATE-CPD" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-15068_anchor_product_2">
+      <Xref identifier="EC-3.1.1.4" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-15068_anchor_product_start_2" x="0" y="0" elementRef="RXN-15068_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-15068_anchor_product_end_2" arrowHead="Conversion" x="970.701416015625" y="924.5130004882812" elementRef="PROTON" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-15043">
+      <Xref identifier="EC-2.3.1.51" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-15043_start" x="898.2095947265625" y="806.0061645507812" elementRef="L-1-LYSOPHOSPHATIDATE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-15043_end" arrowHead="Conversion" x="621.6949462890625" y="880.8719482421875" elementRef="CPD-8268" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-15043_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-15043" />
+      <Property key="EC_Number" value="EC-2.3.1.51" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-7417" />
+      <Property key="ReactionEquation" value="OLEOYL-COA + L-1-LYSOPHOSPHATIDATE =&gt; CPD-8268 + CO-A" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Small-Molecule-Reactions, Chemical-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (49 51 53 55 57 59 61 63 65 67 69 71 73 75 77 79 81 82 83 84 86 94 88 89 91 90 92 93 95 48 1 0 50 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80 2 3 4 5 6 7 8 9 10 11 85 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 87 29 30 31 32 33 34 36 35 38 37 39 40 41 42 43 44 45 46 47) (((&quot;CO-A&quot; 0 47) (&quot;CPD-8268&quot; 48 95)) ((&quot;L-1-LYSOPHOSPHATIDATE&quot; 0 28) (&quot;OLEOYL-COA&quot; 29 95))))" />
+      <Property key="Gibbs0" value="-3.6099548" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-15043_anchor_reactant_0">
+      <Xref identifier="EC-2.3.1.51" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-15043_anchor_reactant_start_0" x="1645.0" y="50.0" elementRef="OLEOYL-COA" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-15043_anchor_reactant_end_0" x="0" y="0" elementRef="RXN-15043_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-15043_anchor_product_1">
+      <Xref identifier="EC-2.3.1.51" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-15043_anchor_product_start_1" x="0" y="0" elementRef="RXN-15043_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-15043_anchor_product_end_1" arrowHead="Conversion" x="997.915283203125" y="730.8361206054688" elementRef="CO-A" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_17726007">
+      <Xref identifier="17726007" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_14413818">
+      <Xref identifier="14413818" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_17010666">
+      <Xref identifier="17010666" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_22090344">
+      <Xref identifier="22090344" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_20332534">
+      <Xref identifier="20332534" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_16415216">
+      <Xref identifier="16415216" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_4831331">
+      <Xref identifier="4831331" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_PMNAIPP2024">
+      <Xref identifier="PUB-PMNAIPP2024 | This pathway was predicted to exist in this species using PathoLogic (version 28.0) and was accepted... (2024)" dataSource="BioCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_7871882">
+      <Xref identifier="7871882" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

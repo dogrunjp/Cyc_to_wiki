@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="9-lipoxygenase and 9-hydroperoxide lyase pathway" organism="cellular organisms" source="PlantCyc" version="20260304101735">
+  <Xref identifier="PWY-5408" dataSource="MetaCyc" />
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Oryza sativa Japonica Group&lt;/i&gt;: Enzyme(s) that catalyzes one or more of the key reactions in this pathway were predicted in Oryza sativa Japonica Group. &lt;A href=&quot;http://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; Lipoxygenases (LOX) are nonheme iron-containing enzymes that catalyze the dioxygenation of fatty acids with a 1,4-pentadiene structure, generating hydroperoxy fatty acids. The enzymes are ubiquitous among eukaryotes. In plants, LOX enzymes are known to insert oxygen at position C-9 (9-LOX) (|FRAME: EC-1.13.11.58|) or position C-13 (|FRAME: EC-1.13.11.12|) of |FRAME: LINOLEIC_ACID| and |FRAME: LINOLENIC_ACID|, the most abundant fatty acids in plant membrane lipids |CITS: [12452441]|. The oxygen is inserted into one of the carbons that participate in the &lt;i&gt;cis&lt;/i&gt; double bonds of the substrate. During the process that bond is moved to a neighboring carbon and changes to a &lt;i&gt;trans&lt;/i&gt; configuration. So, for example, |FRAME: LINOLEIC_ACID| ((9Z,12Z)-octadeca-9,12-dienoate) becomes |FRAME: CPD-8677| (9(S)-hydroperoxy-10(E),12(Z)-octadecadienoate) via 9-LOX activity, and |FRAME: 13-HYDROPEROXYOCTADECA-911-DIENOATE| via 13-LOX activity (see |FRAME: PWY-5410|). In plants, most reported LOXs are 13-LOXs, which catalyze the first reaction in |FRAME: PWY-735|. The hydroperoxide intermediates can be converted to aldehydes and oxoacids by hydroperoxide lyases (HPL). HPLs are divided into two groups, 9-HPL and 13-HPL, depending on their substrate preferences, either being 9-hydroperoxides, or 13-hydroperoxides. The aldehydes produced by 9-HPL are known as defense compounds, as well as imparting special flavors. For example, (2E)-nonenal gives the cardboard flavor of aged beer, and the off-flavor of aged milled rice. 9-HPL activity has only been reported from a few plant species including rice and cucumber.</Description>
+  <Authors>
+    <Author name="THE-ARABIDOPSIS-INFORMATION-RESOURCE" />
+    <Author name="zhang" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="PWY-5408" />
+  <Property key="Type" value="FATTY-ACID-DERIVATIVE-SYN" />
+  <Property key="ReactionCount" value="4" />
+  <Property key="ReactionIDs" value="RXN-8503, RXN-8502, RXN-8497, RXN-8495" />
+  <Property key="PredecessorCount" value="2" />
+  <Property key="PathwayLinks" value="(LINOLENIC_ACID (PWY-5997 . :INCOMING))" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_PMNRXN2024" />
+  <CitationRef elementRef="citation_PUB_16116284" />
+  <CitationRef elementRef="citation_PUB_12452441" />
+  <Graphics boardWidth="1800.0" boardHeight="1750.0" />
+  <DataNodes>
+    <DataNode elementId="OS06G0135460" textLabel="Os06g0135460" type="GeneProduct">
+      <Xref identifier="OS06G0135460" dataSource="plantcyc" />
+      <Graphics centerX="1509.9056396484375" centerY="576.30078125" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS06G0135460" />
+      <Property key="Product" value="OS06T0135460-00" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os06g0135460" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="G-9766" textLabel="OsHPL2" type="GeneProduct">
+      <Xref identifier="G-9766" dataSource="plantcyc" />
+      <Graphics centerX="881.891845703125" centerY="785.3839111328125" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="G-9766" />
+      <Property key="Product" value="MONOMER-12735" />
+      <Property key="GeneType" value="Genes" />
+      <Property key="Accession1" value="Os02g0218700" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <CitationRef elementRef="citation_PUB_16116284" />
+    </DataNode>
+    <DataNode elementId="OS05G0304600" textLabel="Os05g0304600" type="GeneProduct">
+      <Xref identifier="OS05G0304600" dataSource="plantcyc" />
+      <Graphics centerX="1010.593505859375" centerY="1220.15576171875" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS05G0304600" />
+      <Property key="Products" value="OS05T0304600-02, OS05T0304600-01" />
+      <Property key="ProductCount" value="2" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os05g0304600" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS03G0738600" textLabel="Os03g0738600" type="GeneProduct">
+      <Xref identifier="OS03G0738600" dataSource="plantcyc" />
+      <Graphics centerX="100.0" centerY="1040.34033203125" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS03G0738600" />
+      <Property key="Product" value="OS03T0738600-01" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os03g0738600" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS11G0575600" textLabel="Os11g0575600" type="GeneProduct">
+      <Xref identifier="OS11G0575600" dataSource="plantcyc" />
+      <Graphics centerX="1024.3414306640625" centerY="822.00732421875" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS11G0575600" />
+      <Property key="Product" value="OS11T0575600-01" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os11g0575600" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS12G0559200" textLabel="Os12g0559200" type="GeneProduct">
+      <Xref identifier="OS12G0559200" dataSource="plantcyc" />
+      <Graphics centerX="877.9794921875" centerY="50.0" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS12G0559200" />
+      <Property key="Products" value="OS12T0559200-02, OS12T0559200-01" />
+      <Property key="ProductCount" value="2" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os12g0559200" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS03G0700400" textLabel="Os03g0700400" type="GeneProduct">
+      <Xref identifier="OS03G0700400" dataSource="plantcyc" />
+      <Graphics centerX="418.2973327636719" centerY="817.6480102539062" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS03G0700400" />
+      <Property key="Product" value="OS03T0700400-01" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os03g0700400" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="G-9764" textLabel="r9-LOX1" type="GeneProduct">
+      <Xref identifier="G-9764" dataSource="plantcyc" />
+      <Graphics centerX="663.1048583984375" centerY="954.134521484375" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="G-9764" />
+      <Property key="Product" value="MONOMER-12733" />
+      <Property key="GeneType" value="Genes" />
+      <Property key="Accession1" value="Os03g0699700" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+      <CitationRef elementRef="citation_PUB_14634153" />
+    </DataNode>
+    <DataNode elementId="OS05G0355800" textLabel="Os05g0355800" type="GeneProduct">
+      <Xref identifier="OS05G0355800" dataSource="plantcyc" />
+      <Graphics centerX="903.0537109375" centerY="659.6423950195312" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS05G0355800" />
+      <Property key="Product" value="OS05T0355800-00" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os05g0355800" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="G-9765" textLabel="OsHPL1" type="GeneProduct">
+      <Xref identifier="G-9765" dataSource="plantcyc" />
+      <Graphics centerX="486.27545166015625" centerY="497.45465087890625" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="G-9765" />
+      <Property key="Product" value="MONOMER-12734" />
+      <Property key="GeneType" value="Genes" />
+      <Property key="Accession1" value="Os02g0110200" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <CitationRef elementRef="citation_PUB_12116284" />
+    </DataNode>
+    <DataNode elementId="OS03T0700400-01" textLabel="Os03t0700400-01" type="Protein">
+      <Xref identifier="OS03T0700400-01" dataSource="plantcyc" />
+      <Graphics centerX="1072.0196533203125" centerY="461.251220703125" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS03T0700400-01" />
+      <Property key="Catalyzes" value="RXN-N7F-66389" />
+      <Property key="Accession1" value="Os03t0700400-01" />
+      <Property key="Gene" value="OS03G0700400" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS05T0304600-02" textLabel="Os05t0304600-02" type="Protein">
+      <Xref identifier="OS05T0304600-02" dataSource="plantcyc" />
+      <Graphics centerX="1213.2601318359375" centerY="710.1463012695312" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS05T0304600-02" />
+      <Property key="Catalyzes" value="RXN-N7F-65046, RXN-N7F-65045, RXN-N7F-65044" />
+      <Property key="CatalyzesCount" value="3" />
+      <Property key="Accession1" value="Os05t0304600-02" />
+      <Property key="Gene" value="OS05G0304600" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS11T0575600-01" textLabel="Os11t0575600-01" type="Protein">
+      <Xref identifier="OS11T0575600-01" dataSource="plantcyc" />
+      <Graphics centerX="738.6005249023438" centerY="1166.7679443359375" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS11T0575600-01" />
+      <Property key="Catalyzes" value="RXN-N7F-60965" />
+      <Property key="Accession1" value="Os11t0575600-01" />
+      <Property key="Gene" value="OS11G0575600" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS05T0355800-00" textLabel="Os05t0355800-00" type="Protein">
+      <Xref identifier="OS05T0355800-00" dataSource="plantcyc" />
+      <Graphics centerX="708.1306762695312" centerY="782.6066284179688" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS05T0355800-00" />
+      <Property key="Catalyzes" value="RXN-N7F-65011" />
+      <Property key="Accession1" value="Os05t0355800-00" />
+      <Property key="Gene" value="OS05G0355800" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS06T0135460-00" textLabel="Os06t0135460-00" type="Protein">
+      <Xref identifier="OS06T0135460-00" dataSource="plantcyc" />
+      <Graphics centerX="932.092529296875" centerY="1550.0" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS06T0135460-00" />
+      <Property key="Catalyzes" value="RXN-N7F-64542" />
+      <Property key="Accession1" value="Os06t0135460-00" />
+      <Property key="Gene" value="OS06G0135460" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="MONOMER-12735" textLabel="9/13-hydroperoxide lyase" type="Protein">
+      <Xref identifier="MONOMER-12735" dataSource="plantcyc" />
+      <Graphics centerX="1600.0" centerY="944.0799560546875" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">Please note: The subspecies of rice associated with this enzyme was not recorded when it was originally curated.</Comment>
+      <Property key="UniqueID" value="MONOMER-12735" />
+      <Property key="AlternativeId_Phytozome" value="Os02t0218700-01" />
+      <Property key="Catalyzes" value="RXN-N7F-69388, RXN-13478, RXN-13477" />
+      <Property key="CatalyzesCount" value="3" />
+      <Property key="Accession1" value="Os02t0218700-01" />
+      <Property key="Gene" value="G-9766" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightKd" value="54.4" />
+      <Property key="MolecularWeightSeq" value="54.4" />
+    </DataNode>
+    <DataNode elementId="MONOMER-12733" textLabel="9S-lipoxygenase 1" type="Protein">
+      <Xref identifier="Q76I22" dataSource="uniprot" />
+      <Graphics centerX="790.1043701171875" centerY="357.313232421875" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="pmngroup">&lt;b&gt;General Background&lt;/b&gt; Lipoxygenases (LOX) are nonheme iron-containing enzymes that catalyze the dioxygenation of fatty acids with a 1,4-pentadiene structure and are ubiquitous among eukaryotes. In plants, LOX enzymes are known to insert oxygen at position C-9 (9-LOX) or position C-13 (13-LOX) (counting from the carboxylate group) of |FRAME: LINOLEIC_ACID linoleate| and |FRAME: LINOLENIC_ACID &amp;alpha;-linolenate|, the most abundant fatty acids in plant membrane lipids. In most, if not all, of the plant species studied so far lipoxygenases are encoded by gene families |CITS: [12452441]|. In several plants, suh as soybeans, there are three major lipoxygenase isoforms, which were named LOX1, LOX2 and LOX3. The oxygen is inserted into one of the carbons that participate in the &lt;i&gt;cis&lt;/i&gt; double bonds of the substrate. During the process that bond is moved to a neighboring carbon and changes to a &lt;i&gt;trans&lt;/i&gt; configuration. So, for example, |FRAME: LINOLEIC_ACID linoleate| ((9Z,12Z)-octadeca-9,12-dienoate) becomes |FRAME: CPD-8677 &quot;9(S)-hydroperoxy-10(E),12(Z)-octadecadienoate&quot;| via 9-LOX activity, and |FRAME: 13-HYDROPEROXYOCTADECA-911-DIENOATE (9Z,11E)-(13S)-13-hydroperoxyoctadeca-9,11-dienoate| via 13-LOX activity. &lt;b&gt;About This Enzyme&lt;/b&gt; A cDNA was isolated from rice seeds, which encodes a 9-lipoxygenase (9-LOX). The recombinant protein has equal activity towards linoleic acid and linolenic acid, and the activity is specifically a 9-LOX. Its 13-LOX activity is only 4% of the total LOX activity |CITS: [14634153]|.</Comment>
+      <Property key="UniqueID" value="MONOMER-12733" />
+      <Property key="AlternativeId_Phytozome" value="Os03t0699700-01" />
+      <Property key="AlternativeId_Uniprot" value="Q76I22" />
+      <Property key="Synonym_1" value="LOC_Os03g49260.1" />
+      <Property key="Catalyzes" value="RXN-13474, RXN-13473" />
+      <Property key="CatalyzesCount" value="2" />
+      <Property key="Accession1" value="Os03t0699700-01" />
+      <Property key="Gene" value="G-9764" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightKd" value="97.499" />
+      <Property key="MolecularWeightSeq" value="97.499" />
+      <CitationRef elementRef="citation_PUB_12452441" />
+      <CitationRef elementRef="citation_PUB_14634153" />
+    </DataNode>
+    <DataNode elementId="OS12T0559200-02" textLabel="Os12t0559200-02" type="Protein">
+      <Xref identifier="OS12T0559200-02" dataSource="plantcyc" />
+      <Graphics centerX="1364.948486328125" centerY="1374.168212890625" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS12T0559200-02" />
+      <Property key="Catalyzes" value="RXN-N7F-60542, RXN-N7F-60541, RXN-N7F-60540" />
+      <Property key="CatalyzesCount" value="3" />
+      <Property key="Accession1" value="Os12t0559200-02" />
+      <Property key="Gene" value="OS12G0559200" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="MONOMER-12734" textLabel="9/13-hydroperoxide lyase" type="Protein">
+      <Xref identifier="MONOMER-12734" dataSource="plantcyc" />
+      <Graphics centerX="722.408203125" centerY="621.613525390625" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="MONOMER-12734" />
+      <Property key="AlternativeId_Phytozome" value="Os02t0110200-01" />
+      <Property key="Catalyzes" value="RXN-N7F-69384, RXN-13476, RXN-13475" />
+      <Property key="CatalyzesCount" value="3" />
+      <Property key="Accession1" value="Os02t0110200-01" />
+      <Property key="Gene" value="G-9765" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+      <Property key="MolecularWeightKd" value="55.3" />
+      <Property key="MolecularWeightSeq" value="55.3" />
+    </DataNode>
+    <DataNode elementId="OS03T0738600-01" textLabel="Os03t0738600-01" type="Protein">
+      <Xref identifier="OS03T0738600-01" dataSource="plantcyc" />
+      <Graphics centerX="816.6454467773438" centerY="872.2215576171875" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS03T0738600-01" />
+      <Property key="Catalyzes" value="RXN-N7F-66324" />
+      <Property key="Accession1" value="Os03t0738600-01" />
+      <Property key="Gene" value="OS03G0738600" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="LINOLENIC_ACID" textLabel="α-linolenate" type="Metabolite">
+      <Xref identifier="DTOSIQBPPRVQHS-PDBXOOCHSA-M" dataSource="InChIKey" />
+      <Graphics centerX="366.4351806640625" centerY="191.1387481689453" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco, SRI, caspi">|FRAME: LINOLENIC_ACID &amp;alpha;-Linolenate| (often referred to as simply linolenate) is a polyunsaturated fatty acid (18:3) that is an important constituent of plant membranes. It is also known as an &amp;omega;-3 fatty acid, referring to the position of the first double bond relative to the methyl end of the fatty acid. Seed oils are the richest sources of |FRAME: LINOLENIC_ACID|, especially those of rapeseed (canola), soybeans, walnuts, flaxseed (Linseed), perilla, chia and hemp. It is also common in the lipids that are found in thylakoid membranes in the green leaves of broadleaf plants, and in cyanobacteria and algae |CITS:[4621688][414660]|. |FRAME: LINOLENIC_ACID| is an essential fatty acid for animals, and is considered an essential dietary requirement for all mammals. Many of the compounds derived from &amp;alpha;-linolenate are listed |FRAME: ALA-Derived-Metabolites here|. Like other fatty acids, |FRAME: LINOLENIC_ACID| is rarely found in its free form. It is usually found either as |FRAME: LINOLENOYL-COA| or |FRAME: Alpha-linolenoyl-groups &quot;incorporated into a lipid&quot;|.</Comment>
+      <Property key="UniqueID" value="LINOLENIC_ACID" />
+      <Property key="AlternativeId_Zinc" value="ZINC000003802189" />
+      <Property key="AlternativeId_ReactomeCpd" value="2046056" />
+      <Property key="AlternativeId_Seed" value="cpd03850" />
+      <Property key="AlternativeId_Metanetx" value="MNXM794" />
+      <Property key="AlternativeId_Refmet" value="Alpha-linolenic acid" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC32387" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01388" />
+      <Property key="AlternativeId_Chemspider" value="4574388" />
+      <Property key="AlternativeId_Wikipedia" value="Alpha-Linolenic_acid" />
+      <Property key="AlternativeId_Pubchem" value="5461005" />
+      <Property key="AlternativeId_Chebi" value="32387" />
+      <Property key="AlternativeId_LigandCpd" value="C06427" />
+      <Property key="AlternativeId_Cas" value="463-40-1" />
+      <Property key="Synonym_1" value="(9,12,15)-linolenic acid" />
+      <Property key="Synonym_2" value="linolenate" />
+      <Property key="Synonym_3" value="9Z,12Z,15Z-octadecatrienoate" />
+      <Property key="Synonym_4" value="9Z,12Z,15Z-octadecatrienoic acid" />
+      <Property key="Synonym_5" value="(9,12,15)-linolenate" />
+      <Property key="Synonym_6" value="&amp;alpha;-linolenic acid" />
+      <Property key="ChemicalFormula" value="(C 18) (H 29) (O 2)" />
+      <Property key="AtomCharges" value="(19 -1)" />
+      <Property key="Gibbs0" value="303.8004" />
+      <Property key="Inchi" value="InChI=1S/C18H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h3-4,6-7,9-10H,2,5,8,11-17H2,1H3,(H,19,20)/p-1/b4-3-,7-6-,10-9-" />
+      <Property key="InchiKey" value="InChIKey=DTOSIQBPPRVQHS-PDBXOOCHSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="277.426" />
+      <Property key="MonoisotopicMw" value="278.2245802072" />
+      <Property key="NonStandardInchi" value="InChI=1S/C18H30O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h3-4,6-7,9-10H,2,5,8,11-17H2,1H3,(H,19,20)/p-1/b4-3-,7-6-,10-9-" />
+      <Property key="Smiles" value="CC\C=C/C\C=C/C\C=C/CCCCCCCC(=O)[O-]" />
+    </DataNode>
+    <DataNode elementId="LINOLEIC_ACID" textLabel="linoleate" type="Metabolite">
+      <Xref identifier="OYHQOLUKZRVURQ-HZJYTTRNSA-M" dataSource="InChIKey" />
+      <Graphics centerX="414.73345947265625" centerY="1172.1171875" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco">|FRAME: LINOLEIC_ACID Linoleate| (linoleic acid) is an &amp;omega;-6 polyunsaturated fatty acid with an 18-carbon chain and two &lt;i&gt;cis&lt;/i&gt; double bonds at positions 9 and 12. Linoleate is produced by many organisms, including bacteria, plants, fungi and some insects. It is abundant in many vegetable oils, especially safflower and sunflower oils. While mammals require linoleate, which is found in their membranes and is used as the precursor for production of |FRAME: CPD-8117|, |FRAME: ARACHIDONIC_ACID|, |FRAME: Prostaglandins prostaglandins|, |FRAME: Leukotrienes leukotrienes|, and |FRAME: Thromboxanes thromboxanes|, they are not able to produce it since they lack |FRAME: EC-1.14.19.6|. Thus linoleate is an essential fatty acid, and must be obtained through the diet. Some of the compounds directly derived from linoleate are listed |FRAME: Linoleate-Derived-Metabolites here|. Like other fatty acids, |FRAME: LINOLEIC_ACID| is rarely found in its free form. It is usually found either as |FRAME: CPD-18| or |FRAME: Linoleoyl-groups &quot;incorporated into a lipid&quot;|.</Comment>
+      <Property key="UniqueID" value="LINOLEIC_ACID" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004474613" />
+      <Property key="AlternativeId_ReactomeCpd" value="2046044" />
+      <Property key="AlternativeId_Seed" value="cpd01122" />
+      <Property key="AlternativeId_Metanetx" value="MNXM293" />
+      <Property key="AlternativeId_Refmet" value="Linoleic acid" />
+      <Property key="AlternativeId_Wikipedia" value="Linoleic_acid" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC30245" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00673" />
+      <Property key="AlternativeId_Chemspider" value="4573899" />
+      <Property key="AlternativeId_Pubchem" value="5460332" />
+      <Property key="AlternativeId_Chebi" value="30245" />
+      <Property key="AlternativeId_LigandCpd" value="C01595" />
+      <Property key="AlternativeId_Nci" value="281243" />
+      <Property key="AlternativeId_Cas" value="60-33-3" />
+      <Property key="Synonym_1" value="cis,cis-9,12-octadecadienoate" />
+      <Property key="Synonym_2" value="9-cis,12-cis-octadecadienoate" />
+      <Property key="Synonym_3" value="linoleic acid" />
+      <Property key="Synonym_4" value="9,12-linoleic acid" />
+      <Property key="Synonym_5" value="(9Z,12Z)-octadeca-9,12-dienoate" />
+      <Property key="Synonym_6" value="cis,cis-9,12-octadecadienoic acid" />
+      <Property key="Synonym_7" value="9-cis,12-cis-octadecadienoic acid" />
+      <Property key="Synonym_8" value="(9Z,12Z)-octadeca-9,12-dienoic acid" />
+      <Property key="Synonym_9" value="9,12-octadecadienoic acid (ambiguous)" />
+      <Property key="ChemicalFormula" value="(C 18) (H 31) (O 2)" />
+      <Property key="AtomCharges" value="(20 -1)" />
+      <Property key="Gibbs0" value="301.98264" />
+      <Property key="Inchi" value="InChI=1S/C18H32O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h6-7,9-10H,2-5,8,11-17H2,1H3,(H,19,20)/p-1/b7-6-,10-9-" />
+      <Property key="InchiKey" value="InChIKey=OYHQOLUKZRVURQ-HZJYTTRNSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="279.442" />
+      <Property key="MonoisotopicMw" value="280.2402302714" />
+      <Property key="NonStandardInchi" value="InChI=1S/C18H32O2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18(19)20/h6-7,9-10H,2-5,8,11-17H2,1H3,(H,19,20)/p-1/b7-6-,10-9-" />
+      <Property key="Smiles" value="CCCCC\C=C/C\C=C/CCCCCCCC([O-])=O" />
+    </DataNode>
+    <DataNode elementId="CPD-8678" textLabel="9(S)-HpOTre" type="Metabolite">
+      <Xref identifier="RWKJTIHNYSIIHW-MEBVTJQTSA-M" dataSource="InChIKey" />
+      <Graphics centerX="1258.199951171875" centerY="1026.2850341796875" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-8678" />
+      <Property key="AlternativeId_Zinc" value="ZINC000030730626" />
+      <Property key="AlternativeId_Seed" value="cpd15037" />
+      <Property key="AlternativeId_Metanetx" value="MNXM2302" />
+      <Property key="AlternativeId_Refmet" value="9S-HpOTrE" />
+      <Property key="AlternativeId_Chebi" value="60962" />
+      <Property key="AlternativeId_Pubchem" value="49852426" />
+      <Property key="AlternativeId_LigandCpd" value="C16321" />
+      <Property key="Synonym_1" value="9(S)-hydroperoxy-10(E),12(Z),15(Z)-octadecatrienoic acid" />
+      <Property key="Synonym_2" value="9(S)-hydroperoxy-10(E),12(Z),15(Z)-octadecatrienoate" />
+      <Property key="Synonym_3" value="9(&lt;i&gt;S&lt;/i&gt;)-HPOTE" />
+      <Property key="ChemicalFormula" value="(C 18) (H 29) (O 4)" />
+      <Property key="AtomCharges" value="(19 -1)" />
+      <Property key="Gibbs0" value="237.74043" />
+      <Property key="Inchi" value="InChI=1S/C18H30O4/c1-2-3-4-5-6-8-11-14-17(22-21)15-12-9-7-10-13-16-18(19)20/h3-4,6,8,11,14,17,21H,2,5,7,9-10,12-13,15-16H2,1H3,(H,19,20)/p-1/b4-3-,8-6-,14-11+/t17-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=RWKJTIHNYSIIHW-MEBVTJQTSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="309.425" />
+      <Property key="MonoisotopicMw" value="310.2144094514" />
+      <Property key="NonStandardInchi" value="InChI=1S/C18H30O4/c1-2-3-4-5-6-8-11-14-17(22-21)15-12-9-7-10-13-16-18(19)20/h3-4,6,8,11,14,17,21H,2,5,7,9-10,12-13,15-16H2,1H3,(H,19,20)/p-1/b4-3-,8-6-,14-11+/t17-/m1/s1" />
+      <Property key="Smiles" value="CC\C=C/C\C=C/C=C/[C@H](CCCCCCCC([O-])=O)OO" />
+    </DataNode>
+    <DataNode elementId="OXYGEN-MOLECULE" textLabel="dioxygen" type="Metabolite">
+      <Xref identifier="MYMOFIZGZYHOMD-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="841.3794555664062" centerY="814.1842041015625" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OXYGEN-MOLECULE" />
+      <Property key="AlternativeId_Bigg" value="o2" />
+      <Property key="AlternativeId_Seed" value="cpd00007" />
+      <Property key="AlternativeId_Metanetx" value="MNXM4" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC15379" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01377" />
+      <Property key="AlternativeId_Chemspider" value="952" />
+      <Property key="AlternativeId_Pubchem" value="977" />
+      <Property key="AlternativeId_Chebi" value="15379" />
+      <Property key="AlternativeId_LigandCpd" value="C00007" />
+      <Property key="AlternativeId_Cas" value="7782-44-7" />
+      <Property key="Synonym_1" value="oxygen molecule" />
+      <Property key="Synonym_2" value="molecular oxygen" />
+      <Property key="Synonym_3" value="oxygen" />
+      <Property key="ChemicalFormula" value="(O 2)" />
+      <Property key="AbbrevName" value="O&lt;sub&gt;2&lt;/sub&gt;" />
+      <Property key="Gibbs0" value="3.92" />
+      <Property key="Inchi" value="InChI=1S/O2/c1-2" />
+      <Property key="InchiKey" value="InChIKey=MYMOFIZGZYHOMD-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="31.999" />
+      <Property key="MonoisotopicMw" value="31.9898292442" />
+      <Property key="NonStandardInchi" value="InChI=1S/O2/c1-2" />
+      <Property key="Smiles" value="O=O" />
+      <Property key="SystematicName" value="dioxygen" />
+    </DataNode>
+    <DataNode elementId="CPD-8677" textLabel="(9S)-HPODE" type="Metabolite">
+      <Xref identifier="JGUNZIWGNMQSBM-UINYOVNOSA-M" dataSource="InChIKey" />
+      <Graphics centerX="122.47381591796875" centerY="608.5374755859375" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-8677" />
+      <Property key="AlternativeId_Zinc" value="ZINC000008860471" />
+      <Property key="AlternativeId_Seed" value="cpd10524" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1867" />
+      <Property key="AlternativeId_Refmet" value="9S-HpODE" />
+      <Property key="AlternativeId_Pubchem" value="49852425" />
+      <Property key="AlternativeId_Hmdb" value="HMDB06940" />
+      <Property key="AlternativeId_Chebi" value="60955" />
+      <Property key="AlternativeId_LigandCpd" value="C14827" />
+      <Property key="Synonym_1" value="9(S)-hydroperoxy-10(E),12(Z)-octadecadienoic acid" />
+      <Property key="Synonym_2" value="(9&lt;i&gt;S&lt;/i&gt;)-HPOD" />
+      <Property key="Synonym_3" value="9(S)-hydroperoxy-10(E),12(Z)-octadecadienoate" />
+      <Property key="Synonym_4" value="(9S,10E,12Z)-9-hydroperoxy-10,12-octadecadienoate" />
+      <Property key="ChemicalFormula" value="(C 18) (H 31) (O 4)" />
+      <Property key="AtomCharges" value="(19 -1)" />
+      <Property key="Gibbs0" value="235.92265" />
+      <Property key="Inchi" value="InChI=1S/C18H32O4/c1-2-3-4-5-6-8-11-14-17(22-21)15-12-9-7-10-13-16-18(19)20/h6,8,11,14,17,21H,2-5,7,9-10,12-13,15-16H2,1H3,(H,19,20)/p-1/b8-6-,14-11+/t17-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=JGUNZIWGNMQSBM-UINYOVNOSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="311.44" />
+      <Property key="MonoisotopicMw" value="312.2300595156" />
+      <Property key="NonStandardInchi" value="InChI=1S/C18H32O4/c1-2-3-4-5-6-8-11-14-17(22-21)15-12-9-7-10-13-16-18(19)20/h6,8,11,14,17,21H,2-5,7,9-10,12-13,15-16H2,1H3,(H,19,20)/p-1/b8-6-,14-11+/t17-/m1/s1" />
+      <Property key="Smiles" value="CCCCC\C=C/C=C/[C@H](CCCCCCCC([O-])=O)OO" />
+    </DataNode>
+    <DataNode elementId="CPD-21295" textLabel="(2E,6Z)-non-2,6-dienal" type="Metabolite">
+      <Xref identifier="HZYHMHHBBBSGHB-ODYTWBPASA-N" dataSource="InChIKey" />
+      <Graphics centerX="936.6397705078125" centerY="976.00146484375" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-21295" />
+      <Property key="AlternativeId_Chebi" value="7610" />
+      <Property key="AlternativeId_LigandCpd" value="C08499" />
+      <Property key="AlternativeId_Pubchem" value="643731" />
+      <Property key="Synonym_1" value="(E,Z)-2,6-nonadienal" />
+      <Property key="Synonym_2" value="(2E,6Z)-nonadienal" />
+      <Property key="ChemicalFormula" value="(C 9) (H 14) (O 1)" />
+      <Property key="Gibbs0" value="164.25568" />
+      <Property key="Inchi" value="InChI=1S/C9H14O/c1-2-3-4-5-6-7-8-9-10/h3-4,7-9H,2,5-6H2,1H3/b4-3-,8-7+" />
+      <Property key="InchiKey" value="InChIKey=HZYHMHHBBBSGHB-ODYTWBPASA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="138.209" />
+      <Property key="MonoisotopicMw" value="138.10446507150002" />
+      <Property key="NonStandardInchi" value="InChI=1S/C9H14O/c1-2-3-4-5-6-7-8-9-10/h3-4,6-7,9H,2,5,8H2,1H3/b4-3-,7-6-" />
+      <Property key="Smiles" value="CC\C=C/CC/C=C/C=O" />
+    </DataNode>
+    <DataNode elementId="CPD-8686" textLabel="9-oxononanoate" type="Metabolite">
+      <Xref identifier="WLGDDELKYAWBBL-UHFFFAOYSA-M" dataSource="InChIKey" />
+      <Graphics centerX="1322.3455810546875" centerY="224.9329376220703" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="CPD-8686" />
+      <Property key="AlternativeId_Zinc" value="ZINC000001841160" />
+      <Property key="AlternativeId_Seed" value="cpd15038" />
+      <Property key="AlternativeId_Metanetx" value="MNXM6989" />
+      <Property key="AlternativeId_Chebi" value="77812" />
+      <Property key="AlternativeId_Chemspider" value="14712789" />
+      <Property key="AlternativeId_Pubchem" value="21270557" />
+      <Property key="AlternativeId_LigandCpd" value="C16322" />
+      <Property key="Synonym_1" value="9-oxononanoic acid" />
+      <Property key="ChemicalFormula" value="(C 9) (H 15) (O 3)" />
+      <Property key="AtomCharges" value="(11 -1)" />
+      <Property key="Gibbs0" value="51.594734" />
+      <Property key="Inchi" value="InChI=1S/C9H16O3/c10-8-6-4-2-1-3-5-7-9(11)12/h8H,1-7H2,(H,11,12)/p-1" />
+      <Property key="InchiKey" value="InChIKey=WLGDDELKYAWBBL-UHFFFAOYSA-M" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="171.216" />
+      <Property key="MonoisotopicMw" value="172.10994437989999" />
+      <Property key="NonStandardInchi" value="InChI=1S/C9H16O3/c10-8-6-4-2-1-3-5-7-9(11)12/h8H,1-7H2,(H,11,12)/p-1" />
+      <Property key="Smiles" value="C(=O)CCCCCCCC(=O)[O-]" />
+    </DataNode>
+    <DataNode elementId="T-2-NONENAL-CMPD" textLabel="(E)-2-nonen-1-al" type="Metabolite">
+      <Xref identifier="BSAIUMLZVGUGKX-BQYQJAHWSA-N" dataSource="InChIKey" />
+      <Graphics centerX="509.46337890625" centerY="1497.49072265625" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="T-2-NONENAL-CMPD" />
+      <Property key="AlternativeId_Pubchem" value="5283335" />
+      <Property key="AlternativeId_Zinc" value="ZINC000070450810" />
+      <Property key="AlternativeId_Seed" value="cpd28211" />
+      <Property key="AlternativeId_Chebi" value="61726" />
+      <Property key="AlternativeId_Metanetx" value="MNXM8071" />
+      <Property key="AlternativeId_Hmdb" value="HMDB31269" />
+      <Property key="AlternativeId_Chemspider" value="4510945" />
+      <Property key="Synonym_1" value="trans-2-nonealdehyde" />
+      <Property key="Synonym_2" value="3-hexyl-2-propenal" />
+      <Property key="Synonym_3" value="(&lt;i&gt;E&lt;/i&gt;)-2-nonenal" />
+      <Property key="Synonym_4" value="t-2-nonenal" />
+      <Property key="Synonym_5" value="trans-2-nonen-1-al" />
+      <Property key="Synonym_6" value="heptylidene acetaldehyde" />
+      <Property key="ChemicalFormula" value="(C 9) (H 16) (O 1)" />
+      <Property key="Gibbs0" value="162.43794" />
+      <Property key="Inchi" value="InChI=1S/C9H16O/c1-2-3-4-5-6-7-8-9-10/h7-9H,2-6H2,1H3/b8-7+" />
+      <Property key="InchiKey" value="InChIKey=BSAIUMLZVGUGKX-BQYQJAHWSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="140.225" />
+      <Property key="MonoisotopicMw" value="140.1201151357" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Smiles" value="CCCCCC/C=C/C=O" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="1554.9056396484375" y="576.30078125" elementRef="OS06G0135460" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="887.092529296875" y="1550.0" elementRef="OS06T0135460-00" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_1_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_1_0_0" x="926.891845703125" y="785.3839111328125" elementRef="G-9766" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_1_0_0" arrowHead="TranscriptionTranslation" x="1555.0" y="944.0799560546875" elementRef="MONOMER-12735" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_2_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_2_0_0" x="1055.593505859375" y="1220.15576171875" elementRef="OS05G0304600" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_2_0_0" arrowHead="TranscriptionTranslation" x="1168.2601318359375" y="710.1463012695312" elementRef="OS05T0304600-02" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_3_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_3_0_0" x="145.0" y="1040.34033203125" elementRef="OS03G0738600" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_3_0_0" arrowHead="TranscriptionTranslation" x="771.6454467773438" y="872.2215576171875" elementRef="OS03T0738600-01" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_4_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_4_0_0" x="1069.3414306640625" y="822.00732421875" elementRef="OS11G0575600" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_4_0_0" arrowHead="TranscriptionTranslation" x="693.6005249023438" y="1166.7679443359375" elementRef="OS11T0575600-01" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_5_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_5_0_0" x="922.9794921875" y="50.0" elementRef="OS12G0559200" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_5_0_0" arrowHead="TranscriptionTranslation" x="1319.948486328125" y="1374.168212890625" elementRef="OS12T0559200-02" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_6_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_6_0_0" x="463.2973327636719" y="817.6480102539062" elementRef="OS03G0700400" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_6_0_0" arrowHead="TranscriptionTranslation" x="1027.0196533203125" y="461.251220703125" elementRef="OS03T0700400-01" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_7_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_7_0_0" x="708.1048583984375" y="954.134521484375" elementRef="G-9764" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_7_0_0" arrowHead="TranscriptionTranslation" x="745.1043701171875" y="357.313232421875" elementRef="MONOMER-12733" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_8_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_8_0_0" x="948.0537109375" y="659.6423950195312" elementRef="OS05G0355800" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_8_0_0" arrowHead="TranscriptionTranslation" x="663.1306762695312" y="782.6066284179688" elementRef="OS05T0355800-00" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_9_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_9_0_0" x="531.2754516601562" y="497.45465087890625" elementRef="G-9765" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_9_0_0" arrowHead="TranscriptionTranslation" x="677.408203125" y="621.613525390625" elementRef="MONOMER-12734" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8503">
+      <Xref identifier="EC-4.2.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-8503_start" x="1303.199951171875" y="1026.2850341796875" elementRef="CPD-8678" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-8503_end" arrowHead="Conversion" x="1277.3455810546875" y="224.9329376220703" elementRef="CPD-8686" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-8503_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-8503" />
+      <Property key="EC_Number" value="EC-4.2.1" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-5408" />
+      <Property key="ReactionEquation" value="CPD-8678 =&gt; CPD-8686 + CPD-21295" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXN-13476, ENZRXN-13478" />
+      <Property key="EnzymaticReactionCount" value="2" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 7 10 13 20 6 8 9 11 12 14 15 16 17 21 18 19) (((&quot;CPD-8678&quot; 0 21)) ((&quot;CPD-21295&quot; 0 9) (&quot;CPD-8686&quot; 10 21))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-21.89003" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-8503_ENZRXN-13478">
+      <Waypoints>
+        <Point elementId="RXN-8503_ENZRXN-13478_start" x="1600.0" y="956.5799560546875" elementRef="MONOMER-12735" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8503_ENZRXN-13478_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8503_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8503_ENZRXN-13476">
+      <Waypoints>
+        <Point elementId="RXN-8503_ENZRXN-13476_start" x="722.408203125" y="634.113525390625" elementRef="MONOMER-12734" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8503_ENZRXN-13476_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8503_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8503_anchor_product_1">
+      <Xref identifier="EC-4.2.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-8503_anchor_product_start_1" x="0" y="0" elementRef="RXN-8503_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-8503_anchor_product_end_1" arrowHead="Conversion" x="891.6397705078125" y="976.00146484375" elementRef="CPD-21295" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8502">
+      <Xref identifier="EC-4.2.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-8502_start" x="167.47381591796875" y="608.5374755859375" elementRef="CPD-8677" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-8502_end" arrowHead="Conversion" x="1277.3455810546875" y="224.9329376220703" elementRef="CPD-8686" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-8502_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-8502" />
+      <Property key="EC_Number" value="EC-4.2.1" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-5408" />
+      <Property key="ReactionEquation" value="CPD-8677 =&gt; CPD-8686 + T-2-NONENAL-CMPD" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXN-13475, ENZRXN-13477" />
+      <Property key="EnzymaticReactionCount" value="2" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 7 10 13 20 6 8 9 11 12 14 15 16 17 21 18 19) (((&quot;CPD-8677&quot; 0 21)) ((&quot;T-2-NONENAL-CMPD&quot; 0 9) (&quot;CPD-8686&quot; 10 21))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-21.889969" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-8502_ENZRXN-13477">
+      <Waypoints>
+        <Point elementId="RXN-8502_ENZRXN-13477_start" x="1600.0" y="956.5799560546875" elementRef="MONOMER-12735" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8502_ENZRXN-13477_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8502_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8502_ENZRXN-13475">
+      <Waypoints>
+        <Point elementId="RXN-8502_ENZRXN-13475_start" x="722.408203125" y="634.113525390625" elementRef="MONOMER-12734" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8502_ENZRXN-13475_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8502_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8502_anchor_product_1">
+      <Xref identifier="EC-4.2.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-8502_anchor_product_start_1" x="0" y="0" elementRef="RXN-8502_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN-8502_anchor_product_end_1" arrowHead="Conversion" x="464.46337890625" y="1497.49072265625" elementRef="T-2-NONENAL-CMPD" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8497">
+      <Xref identifier="EC-1.13.11.58" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-8497_start" x="411.4351806640625" y="191.1387481689453" elementRef="LINOLENIC_ACID" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-8497_end" arrowHead="Conversion" x="1213.199951171875" y="1026.2850341796875" elementRef="CPD-8678" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-8497_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-8497" />
+      <Property key="EC_Number" value="EC-1.13.11.58" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-5408" />
+      <Property key="ReactionEquation" value="LINOLENIC_ACID + OXYGEN-MOLECULE =&gt; CPD-8678" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXN-13474" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 13 6 12 14 7 11 15 8 10 16 9 17 18 19 21 20) (((LINOLENIC_ACID 0 19) (OXYGEN-MOLECULE 20 21)) ((CPD-8678 0 21))))" />
+      <Property key="Gibbs0" value="-69.98" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-8497_ENZRXN-13474">
+      <Waypoints>
+        <Point elementId="RXN-8497_ENZRXN-13474_start" x="790.1043701171875" y="369.813232421875" elementRef="MONOMER-12733" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8497_ENZRXN-13474_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8497_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8497_anchor_reactant_1">
+      <Xref identifier="EC-1.13.11.58" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-8497_anchor_reactant_start_1" x="886.3794555664062" y="814.1842041015625" elementRef="OXYGEN-MOLECULE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-8497_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-8497_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8495">
+      <Xref identifier="EC-1.13.11.58" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-8495_start" x="459.73345947265625" y="1172.1171875" elementRef="LINOLEIC_ACID" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-8495_end" arrowHead="Conversion" x="77.47381591796875" y="608.5374755859375" elementRef="CPD-8677" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-8495_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-8495" />
+      <Property key="EC_Number" value="EC-1.13.11.58" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-5408" />
+      <Property key="ReactionEquation" value="LINOLEIC_ACID + OXYGEN-MOLECULE =&gt; CPD-8677" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNN7F-66389, ENZRXNN7F-66324, ENZRXNN7F-65044, ENZRXNN7F-65011, ENZRXNN7F-64542, ENZRXNN7F-60965, ENZRXNN7F-60542, ENZRXN-13473" />
+      <Property key="EnzymaticReactionCount" value="8" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 13 6 12 14 7 11 15 8 10 16 9 17 19 18 21 20) (((LINOLEIC_ACID 0 19) (OXYGEN-MOLECULE 20 21)) ((CPD-8677 0 21))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-69.979996" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN-8495_ENZRXN-13473">
+      <Waypoints>
+        <Point elementId="RXN-8495_ENZRXN-13473_start" x="790.1043701171875" y="369.813232421875" elementRef="MONOMER-12733" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8495_ENZRXN-13473_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8495_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8495_ENZRXNN7F-64542">
+      <Waypoints>
+        <Point elementId="RXN-8495_ENZRXNN7F-64542_start" x="932.092529296875" y="1562.5" elementRef="OS06T0135460-00" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8495_ENZRXNN7F-64542_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8495_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8495_ENZRXNN7F-66324">
+      <Waypoints>
+        <Point elementId="RXN-8495_ENZRXNN7F-66324_start" x="816.6454467773438" y="884.7215576171875" elementRef="OS03T0738600-01" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8495_ENZRXNN7F-66324_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8495_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8495_ENZRXNN7F-66389">
+      <Waypoints>
+        <Point elementId="RXN-8495_ENZRXNN7F-66389_start" x="1072.0196533203125" y="473.751220703125" elementRef="OS03T0700400-01" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8495_ENZRXNN7F-66389_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8495_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8495_ENZRXNN7F-60542">
+      <Waypoints>
+        <Point elementId="RXN-8495_ENZRXNN7F-60542_start" x="1364.948486328125" y="1386.668212890625" elementRef="OS12T0559200-02" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8495_ENZRXNN7F-60542_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8495_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8495_ENZRXNN7F-60965">
+      <Waypoints>
+        <Point elementId="RXN-8495_ENZRXNN7F-60965_start" x="738.6005249023438" y="1179.2679443359375" elementRef="OS11T0575600-01" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8495_ENZRXNN7F-60965_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8495_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8495_ENZRXNN7F-65011">
+      <Waypoints>
+        <Point elementId="RXN-8495_ENZRXNN7F-65011_start" x="708.1306762695312" y="795.1066284179688" elementRef="OS05T0355800-00" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8495_ENZRXNN7F-65011_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8495_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8495_ENZRXNN7F-65044">
+      <Waypoints>
+        <Point elementId="RXN-8495_ENZRXNN7F-65044_start" x="1213.2601318359375" y="722.6463012695312" elementRef="OS05T0304600-02" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-8495_ENZRXNN7F-65044_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-8495_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-8495_anchor_reactant_1">
+      <Xref identifier="EC-1.13.11.58" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN-8495_anchor_reactant_start_1" x="886.3794555664062" y="814.1842041015625" elementRef="OXYGEN-MOLECULE" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-8495_anchor_reactant_end_1" x="0" y="0" elementRef="RXN-8495_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_12452441">
+      <Xref identifier="12452441" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_14634153">
+      <Xref identifier="14634153" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_16116284">
+      <Xref identifier="16116284" dataSource="pubmed" />
+    </Citation>
+    <Citation elementId="citation_PUB_PMNRXN2024">
+      <Xref identifier="PUB-PMNRXN2024 | This pathway, a member of the Conditionally Accepted PMN Pathways (CAPP version 6.0), was predicted ... (2024)" dataSource="BioCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_12116284">
+      <Xref identifier="12116284" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

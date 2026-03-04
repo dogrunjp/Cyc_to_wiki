@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="pentose phosphate pathway (non-oxidative branch) I" organism="cellular organisms" source="PlantCyc" version="20260304101735">
+  <Xref identifier="NONOXIPENT-PWY" dataSource="MetaCyc" />
+  <Description>&lt;i&gt;Supporting evidence for this pathway in Oryza sativa Japonica Group&lt;/i&gt;: This pathway is on the list of Common Viridiplantae Pathways (CVP) generated for the COMET project, which includes pathways that are thought to be present in all or most Viridiplantae species including algae. All UPP pathways are automatically imported into databases regardless of Pathologic predictions. &lt;A href=&quot;http://www.plantcyc.org/about/savi-pipeline&quot;&gt;[more info]&lt;/A&gt; &lt;i&gt;Summary from MetaCyc:&lt;/i&gt; &lt;b&gt;General Background&lt;/b&gt; The common |FRAME: GLYCOLYSIS glycolysis| pathway, used by most organisms for the catabolism of glucose and related sugars, can be regarded as both an energy-producing catabolic pathway and an anabolic pathway, producing |FRAME: PYRUVATE|, which can be converted to |FRAME: ACETYL-COA| by |FRAME: EC-1.2.1.104|. While |FRAME: ACETYL-COA| can be fed to the TCA cycle for further energy production, it is also used as a biosynthestic precursor for many types of biomolecules (e.g. fatty acids). However, glycolysis is unable to produce 5-carbon sugars such as |FRAME: RIBOSE|, which are essential for the biosynthesis of DNA and RNA, neither can it form the 4-carbon sugar |FRAME: ERYTHROSE-4P|, a precursor of aromatic amino acids and |FRAME: PYRIDOXAL_PHOSPHATE|, or the 7-carbon sugar |FRAME: D-SEDOHEPTULOSE-7-P|, a precursor for |FRAME: Lipid-A &quot;lipid A&quot;|. The |FRAME: PENTOSE-P-PWY &quot;pentose phosphate pathway&quot;| is an alternative way of oxidizing glucose that is targeted at anabolic reactions. The pathway fulfills two anabolic roles: it produces NADPH, making it a major source of reducing equivalents for biosynthetic reactions, and it produces C4, C5, and C7 sugars |CITS: [13129245][13174590][14790817][14285485]|. &lt;b&gt;About This Pathway&lt;/b&gt; The pentose phosphate pathway is an important member of central metabolism, as it supplies three of the 13 precursor metabolites (compounds needed for the biosyntheses): |FRAME: RIBOSE-5P|, |FRAME: D-SEDOHEPTULOSE-7-P|, and |FRAME: ERYTHROSE-4P|. For convenience, the pentose phosphate pathway is commonly divided into its preliminary |FRAME: OXIDATIVEPENT-PWY &quot;oxidative portion&quot;| and the subsequent |FRAME: NONOXIPENT-PWY &quot;non-oxidative portion&quot;|. The unidirectional oxidative branch fulfills two roles of the pathway - it produces a pentose sugar (|FRAME: RIBULOSE-5P|) from the hexose |FRAME: GLC-6-P|, and it produces two equivalents of NADPH in the process. The non-oxidative branch of composed of a series of rearrangements catalyzed by an isomerase, an epimerase, a transketolase, and a transaldolase, involving a C3 compound (|FRAME: GAP|), a C4 compound (|FRAME: ERYTHROSE-4P|), C5 compounds (|FRAME: RIBULOSE-5P|, |FRAME: XYLULOSE-5-PHOSPHATE|, and |FRAME: RIBOSE-5P|), a C6 compound (|FRAME: FRUCTOSE-6P|), and a C7 compound (|FRAME: D-SEDOHEPTULOSE-7-P|). Unlike the oxidative branch, the non-oxidative branch is fully reversible, allowing for different molecules to enter the pathway at different stages and be transformed to any other intermediate in this branch. No energy or reducing power is produced by the non-oxidative branch - it&apos;s sole purpose is carbon rearrangements. It should be noted that due to its reversibility, the non-oxidative branch also participates in the catabolism of pentoses (see |FRAME: XYLCAT-PWY|). In prokaryotes and animals the pentose phosphate pathway takes place in the cytosol, the same location as glycolysis. In plants, the oxidative part of the pathway also takes place in plastids |CITS: [Foster93]|.</Description>
+  <Authors>
+    <Author name="riley" />
+    <Author name="O-18" />
+    <Author name="O0-3" />
+    <Author name="ingraham" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from PlantCyc flatfiles.</Comment>
+  <Property key="UniqueID" value="NONOXIPENT-PWY" />
+  <Property key="Type" value="Pentose-Phosphate-Cycle" />
+  <Property key="ReactionCount" value="5" />
+  <Property key="ReactionIDs" value="RIB5PISOM-RXN, RIBULP3EPIM-RXN, 1TRANSKETO-RXN, 2TRANSKETO-RXN, TRANSALDOL-RXN" />
+  <Property key="PredecessorCount" value="4" />
+  <Property key="PrimaryCompoundCount" value="2" />
+  <Property key="PathwayLinks" value="(ERYTHROSE-4P ARO-PWY)" />
+  <Property key="InstanceNameTemplate" value="PWY-*" />
+  <CitationRef elementRef="citation_PUB_PMNIC2024" />
+  <Graphics boardWidth="1800.0" boardHeight="1750.0" />
+  <DataNodes>
+    <DataNode elementId="OS03G0781400" textLabel="Os03g0781400" type="GeneProduct">
+      <Xref identifier="OS03G0781400" dataSource="plantcyc" />
+      <Graphics centerX="1226.8160400390625" centerY="453.1436767578125" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS03G0781400" />
+      <Property key="Products" value="OS03T0781400-02, OS03T0781400-01" />
+      <Property key="ProductCount" value="2" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os03g0781400" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS09G0505700" textLabel="Os09g0505700" type="GeneProduct">
+      <Xref identifier="OS09G0505700" dataSource="plantcyc" />
+      <Graphics centerX="517.9985961914062" centerY="513.472412109375" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS09G0505700" />
+      <Property key="Products" value="OS09T0505700-02, OS09T0505700-01" />
+      <Property key="ProductCount" value="2" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os09g0505700" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS07G0176900" textLabel="Os07g0176900" type="GeneProduct">
+      <Xref identifier="OS07G0176900" dataSource="plantcyc" />
+      <Graphics centerX="353.0671081542969" centerY="114.997314453125" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS07G0176900" />
+      <Property key="Products" value="OS07T0176900-02, OS07T0176900-01" />
+      <Property key="ProductCount" value="2" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os07g0176900" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS08G0154300" textLabel="Os08g0154300" type="GeneProduct">
+      <Xref identifier="OS08G0154300" dataSource="plantcyc" />
+      <Graphics centerX="469.66571044921875" centerY="993.4148559570312" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS08G0154300" />
+      <Property key="Products" value="OS08T0154300-02, OS08T0154300-01" />
+      <Property key="ProductCount" value="2" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os08g0154300" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS01G0542000" textLabel="Os01g0542000" type="GeneProduct">
+      <Xref identifier="OS01G0542000" dataSource="plantcyc" />
+      <Graphics centerX="951.3489990234375" centerY="903.9134521484375" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS01G0542000" />
+      <Property key="Product" value="OS01T0542000-00" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os01g0542000" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS04G0266900" textLabel="Os04g0266900" type="GeneProduct">
+      <Xref identifier="OS04G0266900" dataSource="plantcyc" />
+      <Graphics centerX="100.0" centerY="1022.2265014648438" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS04G0266900" />
+      <Property key="Product" value="OS04T0266900-01" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os04g0266900" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS04G0306400" textLabel="Os04g0306400" type="GeneProduct">
+      <Xref identifier="OS04G0306400" dataSource="plantcyc" />
+      <Graphics centerX="953.467529296875" centerY="767.6979370117188" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS04G0306400" />
+      <Property key="Product" value="OS04T0306400-01" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os04g0306400" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS01G0926300" textLabel="Os01g0926300" type="GeneProduct">
+      <Xref identifier="OS01G0926300" dataSource="plantcyc" />
+      <Graphics centerX="1598.26318359375" centerY="380.8849182128906" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS01G0926300" />
+      <Property key="Product" value="OS01T0926300-01" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os01g0926300" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS06G0133800" textLabel="Os06g0133800" type="GeneProduct">
+      <Xref identifier="OS06G0133800" dataSource="plantcyc" />
+      <Graphics centerX="1035.0504150390625" centerY="627.2610473632812" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS06G0133800" />
+      <Property key="Products" value="OS06T0133800-02, OS06T0133800-01" />
+      <Property key="ProductCount" value="2" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os06g0133800" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS03G0169100" textLabel="Os03g0169100" type="GeneProduct">
+      <Xref identifier="OS03G0169100" dataSource="plantcyc" />
+      <Graphics centerX="1129.6407470703125" centerY="1027.0390625" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS03G0169100" />
+      <Property key="Product" value="OS03T0169100-01" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os03g0169100" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS07T0176900-02" textLabel="Os07t0176900-02" type="Protein">
+      <Xref identifier="OS07T0176900-02" dataSource="plantcyc" />
+      <Graphics centerX="170.03134155273438" centerY="584.3994140625" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS07T0176900-02" />
+      <Property key="Catalyzes" value="RXN-N7F-63668" />
+      <Property key="Accession1" value="Os07t0176900-02" />
+      <Property key="Gene" value="OS07G0176900" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS03T0781400-02" textLabel="Os03t0781400-02" type="Protein">
+      <Xref identifier="OS03T0781400-02" dataSource="plantcyc" />
+      <Graphics centerX="1221.367431640625" centerY="1354.94287109375" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS03T0781400-02" />
+      <Property key="Catalyzes" value="RXN-N7F-66240" />
+      <Property key="Accession1" value="Os03t0781400-02" />
+      <Property key="Gene" value="OS03G0781400" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS04T0306400-01" textLabel="Os04t0306400-01" type="Protein">
+      <Xref identifier="OS04T0306400-01" dataSource="plantcyc" />
+      <Graphics centerX="800.08056640625" centerY="521.1384887695312" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS04T0306400-01" />
+      <Property key="Catalyzes" value="RXN-N7F-65903" />
+      <Property key="Accession1" value="Os04t0306400-01" />
+      <Property key="Gene" value="OS04G0306400" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS01T0542000-00" textLabel="Os01t0542000-00" type="Protein">
+      <Xref identifier="OS01T0542000-00" dataSource="plantcyc" />
+      <Graphics centerX="681.1591796875" centerY="168.01235961914062" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS01T0542000-00" />
+      <Property key="Catalyzes" value="RXN-N7F-68896" />
+      <Property key="Accession1" value="Os01t0542000-00" />
+      <Property key="Gene" value="OS01G0542000" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS08T0154300-02" textLabel="Os08t0154300-02" type="Protein">
+      <Xref identifier="OS08T0154300-02" dataSource="plantcyc" />
+      <Graphics centerX="956.3138427734375" centerY="245.98907470703125" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS08T0154300-02" />
+      <Property key="Catalyzes" value="RXN-N7F-62979" />
+      <Property key="Accession1" value="Os08t0154300-02" />
+      <Property key="Gene" value="OS08G0154300" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS01T0926300-01" textLabel="Os01t0926300-01" type="Protein">
+      <Xref identifier="OS01T0926300-01" dataSource="plantcyc" />
+      <Graphics centerX="1223.8955078125" centerY="50.0" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS01T0926300-01" />
+      <Property key="Catalyzes" value="RXN-N7F-68224" />
+      <Property key="Accession1" value="Os01t0926300-01" />
+      <Property key="Gene" value="OS01G0926300" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS03T0169100-01" textLabel="Os03t0169100-01" type="Protein">
+      <Xref identifier="OS03T0169100-01" dataSource="plantcyc" />
+      <Graphics centerX="772.202392578125" centerY="974.1781616210938" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS03T0169100-01" />
+      <Property key="Catalyzes" value="RXN-N7F-66992" />
+      <Property key="Accession1" value="Os03t0169100-01" />
+      <Property key="Gene" value="OS03G0169100" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS09T0505700-02" textLabel="Os09t0505700-02" type="Protein">
+      <Xref identifier="OS09T0505700-02" dataSource="plantcyc" />
+      <Graphics centerX="1253.702392578125" centerY="776.10009765625" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS09T0505700-02" />
+      <Property key="Catalyzes" value="RXN-N7F-62119" />
+      <Property key="Accession1" value="Os09t0505700-02" />
+      <Property key="Gene" value="OS09G0505700" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS04T0266900-01" textLabel="Os04t0266900-01" type="Protein">
+      <Xref identifier="OS04T0266900-01" dataSource="plantcyc" />
+      <Graphics centerX="598.64111328125" centerY="758.3883056640625" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS04T0266900-01" />
+      <Property key="Catalyzes" value="RXN-N7F-65929" />
+      <Property key="Accession1" value="Os04t0266900-01" />
+      <Property key="Gene" value="OS04G0266900" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="OS06T0133800-02" textLabel="Os06t0133800-02" type="Protein">
+      <Xref identifier="OS06T0133800-02" dataSource="plantcyc" />
+      <Graphics centerX="805.8695068359375" centerY="796.3853759765625" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS06T0133800-02" />
+      <Property key="Catalyzes" value="RXN-N7F-64544" />
+      <Property key="Accession1" value="Os06t0133800-02" />
+      <Property key="Gene" value="OS06G0133800" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="D-SEDOHEPTULOSE-7-P" textLabel="D-sedoheptulose 7-phosphate" type="Metabolite">
+      <Xref identifier="JDTUMPKOJBQPKX-GBNDHIKLSA-L" dataSource="InChIKey" />
+      <Graphics centerX="428.36767578125" centerY="1362.9755859375" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="PMN, nilo-poyanco">|FRAME: D-SEDOHEPTULOSE-7-P| is an intermediate molecule of primary glucose metabolism.</Comment>
+      <Property key="UniqueID" value="D-SEDOHEPTULOSE-7-P" />
+      <Property key="AlternativeId_ReactomeCpd" value="29882" />
+      <Property key="AlternativeId_Seed" value="cpd00238" />
+      <Property key="AlternativeId_Metanetx" value="MNXM271" />
+      <Property key="AlternativeId_Refmet" value="Sedoheptulose 7-phosphate" />
+      <Property key="AlternativeId_Bigg" value="s7p" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57483" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01068" />
+      <Property key="AlternativeId_LigandCpd" value="C05382" />
+      <Property key="AlternativeId_Chebi" value="57483" />
+      <Property key="AlternativeId_Pubchem" value="46878379" />
+      <Property key="AlternativeId_Cas" value="2646-35-7" />
+      <Property key="Synonym_1" value="D-Sedoheptulose-7-P" />
+      <Property key="Synonym_2" value="heptulose 7-phosphate" />
+      <Property key="Synonym_3" value="sedoheptulose-7-P" />
+      <Property key="Synonym_4" value="sedo-heptulose-7-phosphate" />
+      <Property key="ChemicalFormula" value="(C 7) (H 13) (O 10) (P 1)" />
+      <Property key="AtomCharges" value="(15 -1), (14 -1)" />
+      <Property key="Gibbs0" value="-334.0637" />
+      <Property key="Inchi" value="InChI=1S/C7H15O10P/c8-1-3(9)5(11)7(13)6(12)4(10)2-17-18(14,15)16/h4-8,10-13H,1-2H2,(H2,14,15,16)/p-2/t4-,5-,6-,7+/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=JDTUMPKOJBQPKX-GBNDHIKLSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="288.147" />
+      <Property key="MonoisotopicMw" value="290.0402832125" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Smiles" value="C(O)C([C@@H](O)[C@@H]([C@H](O)[C@@H](COP(=O)([O-])[O-])O)O)=O" />
+      <Property key="SystematicName" value="D-altro-2-heptulose, 7-(dihydrogen phosphate)" />
+    </DataNode>
+    <DataNode elementId="GAP" textLabel="D-glyceraldehyde 3-phosphate" type="Metabolite">
+      <Xref identifier="LXJXRIRHZLFYRP-VKHMYHEASA-L" dataSource="InChIKey" />
+      <Graphics centerX="784.4761962890625" centerY="1238.43310546875" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="GAP" />
+      <Property key="AlternativeId_Zinc" value="ZINC000003869936" />
+      <Property key="AlternativeId_ReactomeCpd" value="29578" />
+      <Property key="AlternativeId_Metanetx" value="MNXM74" />
+      <Property key="AlternativeId_Refmet" value="Glyceraldehyde-3-phosphate" />
+      <Property key="AlternativeId_Bigg" value="g3p" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01112" />
+      <Property key="AlternativeId_LigandCpd" value="C00118" />
+      <Property key="AlternativeId_Cas" value="591-57-1" />
+      <Property key="AlternativeId_Chebi" value="59776" />
+      <Property key="AlternativeId_Pubchem" value="24794350" />
+      <Property key="Synonym_1" value="3-phosphoglyceraldehyde" />
+      <Property key="Synonym_2" value="D-glyceraldehyde-3-P" />
+      <Property key="Synonym_3" value="glyceraldehyde 3-phosphate" />
+      <Property key="Synonym_4" value="GAP" />
+      <Property key="Synonym_5" value="glyceraldehyde-phosphate" />
+      <Property key="Synonym_6" value="glyceraldehyde-P" />
+      <Property key="Synonym_7" value="glyceraldehyde-3-P" />
+      <Property key="Synonym_8" value="(2&lt;i&gt;R&lt;/i&gt;)-2-hydroxy-3-(phosphooxy)-propanal" />
+      <Property key="Synonym_9" value="triose phosphate" />
+      <Property key="ChemicalFormula" value="(C 3) (H 5) (O 6) (P 1)" />
+      <Property key="AtomCharges" value="(7 -1), (6 -1)" />
+      <Property key="Gibbs0" value="-265.65268" />
+      <Property key="Inchi" value="InChI=1S/C3H7O6P/c4-1-3(5)2-9-10(6,7)8/h1,3,5H,2H2,(H2,6,7,8)/p-2/t3-/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=LXJXRIRHZLFYRP-VKHMYHEASA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="168.043" />
+      <Property key="MonoisotopicMw" value="169.9980244673" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG-8460" />
+      <Property key="Smiles" value="C(=O)[C@H](O)COP(=O)([O-])[O-]" />
+    </DataNode>
+    <DataNode elementId="RIBOSE-5P" textLabel="D-ribose 5-phosphate" type="Metabolite">
+      <Xref identifier="HMDB01548" dataSource="HMDB" />
+      <Graphics centerX="1600.0" centerY="799.8784790039062" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="PMN, nilo-poyanco">Please note that the structure shown here is that of |FRAME: CPD-15895|, and is not accurate for this generic class, which also contains the furanose forms of D-ribose 5-phosphate.</Comment>
+      <Property key="UniqueID" value="RIBOSE-5P" />
+      <Property key="AlternativeId_Mediadb" value="compounds/114/" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01548" />
+      <Property key="AlternativeId_LigandCpd" value="C00117" />
+      <Property key="AlternativeId_Cas" value="4300-28-1" />
+      <Property key="Synonym_1" value="D-ribose-5-phosphoric acid" />
+      <Property key="Synonym_2" value="ribose-5-phosphoric acid" />
+      <Property key="Synonym_3" value="ribose-5P" />
+      <Property key="Synonym_4" value="D-ribose-5-P" />
+      <Property key="Synonym_5" value="ribose-5-P" />
+      <Property key="Synonym_6" value="D-ribose 5&apos;-phosphate" />
+      <Property key="ChemicalFormula" value="(C 5) (H 9) (O 8) (P 1)" />
+      <Property key="AtomCharges" value="(12 -1), (11 -1)" />
+      <Property key="FastEquilibratingInstances?" value="T" />
+      <Property key="Gibbs0" value="-296.17816" />
+      <Property key="Inchi" value="InChI=1S/C5H11O8P/c6-1-3(7)5(9)4(8)2-13-14(10,11)12/h1,3-5,7-9H,2H2,(H2,10,11,12)/p-2/t3-,4+,5-/m0/s1" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="228.095" />
+      <Property key="MonoisotopicMw" value="230.01915383989999" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG-8039, REG-6553, REG-6539" />
+      <Property key="Smiles" value="C(=O)[C@H](O)[C@H](O)[C@@H](COP([O-])([O-])=O)O" />
+    </DataNode>
+    <DataNode elementId="XYLULOSE-5-PHOSPHATE" textLabel="D-xylulose 5-phosphate" type="Metabolite">
+      <Xref identifier="FNZLKVNUWIIPSJ-RFZPGFLSSA-L" dataSource="InChIKey" />
+      <Graphics centerX="913.39111328125" centerY="1550.0" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="XYLULOSE-5-PHOSPHATE" />
+      <Property key="AlternativeId_Zinc" value="ZINC000030320708" />
+      <Property key="AlternativeId_ReactomeCpd" value="29790" />
+      <Property key="AlternativeId_Seed" value="cpd00198" />
+      <Property key="AlternativeId_Metanetx" value="MNXM186" />
+      <Property key="AlternativeId_Refmet" value="Xylulose-5-phosphate" />
+      <Property key="AlternativeId_Bigg" value="xu5p__D" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57737" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00868" />
+      <Property key="AlternativeId_Chemspider" value="20015725" />
+      <Property key="AlternativeId_Chebi" value="57737" />
+      <Property key="AlternativeId_Pubchem" value="5459820" />
+      <Property key="AlternativeId_LigandCpd" value="C00231" />
+      <Property key="AlternativeId_Cas" value="60802-29-1" />
+      <Property key="Synonym_1" value="xylulose 5-phosphate" />
+      <Property key="Synonym_2" value="xylulose-phosphate" />
+      <Property key="Synonym_3" value="D-xylulose-5-P" />
+      <Property key="Synonym_4" value="xylulose-P" />
+      <Property key="ChemicalFormula" value="(C 5) (H 9) (O 8) (P 1)" />
+      <Property key="AtomCharges" value="(12 -1), (10 -1)" />
+      <Property key="Gibbs0" value="-302.30817" />
+      <Property key="Inchi" value="InChI=1S/C5H11O8P/c6-1-3(7)5(9)4(8)2-13-14(10,11)12/h4-6,8-9H,1-2H2,(H2,10,11,12)/p-2/t4-,5-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=FNZLKVNUWIIPSJ-RFZPGFLSSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="228.095" />
+      <Property key="MonoisotopicMw" value="230.01915383989999" />
+      <Property key="NonStandardInchi" value="InChI=1S/C5H11O8P/c6-1-3(7)5(9)4(8)2-13-14(10,11)12/h4-6,8-9H,1-2H2,(H2,10,11,12)/p-2/t4-,5-/m1/s1" />
+      <Property key="Smiles" value="C(OP([O-])(=O)[O-])[C@@H](O)[C@H](O)C(=O)CO" />
+    </DataNode>
+    <DataNode elementId="RIBULOSE-5P" textLabel="D-ribulose 5-phosphate" type="Metabolite">
+      <Xref identifier="FNZLKVNUWIIPSJ-UHNVWZDZSA-L" dataSource="InChIKey" />
+      <Graphics centerX="1534.7080078125" centerY="1176.8280029296875" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="RIBULOSE-5P" />
+      <Property key="AlternativeId_Zinc" value="ZINC000001532567" />
+      <Property key="AlternativeId_ReactomeCpd" value="29732" />
+      <Property key="AlternativeId_Seed" value="cpd00171" />
+      <Property key="AlternativeId_Metanetx" value="MNXM145" />
+      <Property key="AlternativeId_Refmet" value="Ribulose-5-phosphate" />
+      <Property key="AlternativeId_Bigg" value="ru5p__D" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC58121" />
+      <Property key="AlternativeId_Hmdb" value="HMDB00618" />
+      <Property key="AlternativeId_Chemspider" value="20015724" />
+      <Property key="AlternativeId_Chebi" value="58121" />
+      <Property key="AlternativeId_Pubchem" value="21144996" />
+      <Property key="AlternativeId_LigandCpd" value="C00199" />
+      <Property key="AlternativeId_Cas" value="4151-19-3" />
+      <Property key="Synonym_1" value="ribulose-5P" />
+      <Property key="Synonym_2" value="D-ribulose-5-P" />
+      <Property key="Synonym_3" value="ribulose-5-P" />
+      <Property key="ChemicalFormula" value="(C 5) (H 9) (O 8) (P 1)" />
+      <Property key="AtomCharges" value="(11 -1), (10 -1)" />
+      <Property key="Gibbs0" value="-302.30817" />
+      <Property key="Inchi" value="InChI=1S/C5H11O8P/c6-1-3(7)5(9)4(8)2-13-14(10,11)12/h4-6,8-9H,1-2H2,(H2,10,11,12)/p-2/t4-,5+/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=FNZLKVNUWIIPSJ-UHNVWZDZSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="228.095" />
+      <Property key="MonoisotopicMw" value="230.01915383989999" />
+      <Property key="NonStandardInchi" value="InChI=1S/C5H11O8P/c6-1-3(7)5(9)4(8)2-13-14(10,11)12/h4-6,8-9H,1-2H2,(H2,10,11,12)/p-2/t4-,5+/m1/s1" />
+      <Property key="Regulates" value="REG-6538" />
+      <Property key="Smiles" value="C([C@H]([C@H](C(CO)=O)O)O)OP([O-])([O-])=O" />
+    </DataNode>
+    <DataNode elementId="FRUCTOSE-6P" textLabel="β-D-fructofuranose 6-phosphate" type="Metabolite">
+      <Xref identifier="BGWGXPAPYGQALX-ARQDHWQXSA-L" dataSource="InChIKey" />
+      <Graphics centerX="854.6534423828125" centerY="684.4365234375" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="FRUCTOSE-6P" />
+      <Property key="AlternativeId_Zinc" value="ZINC000004096690" />
+      <Property key="AlternativeId_Seed" value="cpd19035" />
+      <Property key="AlternativeId_Hmdb" value="HMDB03971" />
+      <Property key="AlternativeId_Metanetx" value="MNXM89621" />
+      <Property key="AlternativeId_LigandCpd" value="C05345" />
+      <Property key="AlternativeId_Bigg" value="f6p" />
+      <Property key="AlternativeId_Chemspider" value="10239172" />
+      <Property key="AlternativeId_Chebi" value="57634" />
+      <Property key="AlternativeId_Pubchem" value="21604863" />
+      <Property key="AlternativeId_Cas" value="643-13-0" />
+      <Property key="Synonym_1" value="D-fructose-6-phosphate" />
+      <Property key="Synonym_2" value="fructose-6P" />
+      <Property key="Synonym_3" value="fructose-6-P" />
+      <Property key="Synonym_4" value="fruc6p" />
+      <Property key="Synonym_5" value="fru-6-P" />
+      <Property key="Synonym_6" value="fructose-6-phosphate" />
+      <Property key="Synonym_7" value="A-D-fructose-6-P" />
+      <Property key="Synonym_8" value="D-fructose-6-P" />
+      <Property key="Synonym_9" value="D-fructose 6-phosphate" />
+      <Property key="Synonym_10" value="D-fructofuranose 6-phosphate" />
+      <Property key="ChemicalFormula" value="(C 6) (H 11) (O 9) (P 1)" />
+      <Property key="AbbrevName" value="F6P" />
+      <Property key="AtomCharges" value="(13 -1), (12 -1)" />
+      <Property key="Gibbs0" value="-317.66592" />
+      <Property key="GroupCoords2d" value="(41 52), (41 41)" />
+      <Property key="Inchi" value="InChI=1S/C6H13O9P/c7-2-6(10)5(9)4(8)3(15-6)1-14-16(11,12)13/h3-5,7-10H,1-2H2,(H2,11,12,13)/p-2/t3-,4-,5+,6-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=BGWGXPAPYGQALX-ARQDHWQXSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="258.121" />
+      <Property key="MonoisotopicMw" value="260.0297185262" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG-8025, REG-8047, REG-8040, REG-9920" />
+      <Property key="Smiles" value="C(OP(=O)([O-])[O-])[C@H]1(O[C@@](CO)(O)[C@@H](O)[C@H](O)1)" />
+      <Property key="StructureGroups" value="B-DARA-HEX-2:5_2:KETO, GLYCO-CT-PHOSPHATE" />
+      <Property key="StructureLinks" value="(1 2 O 6 N 1)" />
+    </DataNode>
+    <DataNode elementId="ERYTHROSE-4P" textLabel="D-erythrose 4-phosphate" type="Metabolite">
+      <Xref identifier="NGHMDNPXVRFFGS-IUYQGCFVSA-L" dataSource="InChIKey" />
+      <Graphics centerX="882.6932983398438" centerY="762.3374633789062" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="ERYTHROSE-4P" />
+      <Property key="AlternativeId_Zinc" value="ZINC000032786787" />
+      <Property key="AlternativeId_ReactomeCpd" value="29878" />
+      <Property key="AlternativeId_Seed" value="cpd00236" />
+      <Property key="AlternativeId_Metanetx" value="MNXM258" />
+      <Property key="AlternativeId_Refmet" value="Erythrose 4-phosphate" />
+      <Property key="AlternativeId_Bigg" value="e4p" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC16897" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01321" />
+      <Property key="AlternativeId_Chemspider" value="4573609" />
+      <Property key="AlternativeId_Chebi" value="16897" />
+      <Property key="AlternativeId_Pubchem" value="5459862" />
+      <Property key="AlternativeId_LigandCpd" value="C00279" />
+      <Property key="AlternativeId_Cas" value="585-18-2" />
+      <Property key="Synonym_1" value="erythrose-4P" />
+      <Property key="Synonym_2" value="threose 4-phosphate" />
+      <Property key="Synonym_3" value="erythrose-4-phosphate" />
+      <Property key="Synonym_4" value="erythrose-4-P" />
+      <Property key="Synonym_5" value="D-erythrose-4-P" />
+      <Property key="ChemicalFormula" value="(C 4) (H 7) (O 7) (P 1)" />
+      <Property key="AtomCharges" value="(9 -1), (8 -1)" />
+      <Property key="Gibbs0" value="-284.9704" />
+      <Property key="Inchi" value="InChI=1S/C4H9O7P/c5-1-3(6)4(7)2-11-12(8,9)10/h1,3-4,6-7H,2H2,(H2,8,9,10)/p-2/t3-,4+/m0/s1" />
+      <Property key="InchiKey" value="InChIKey=NGHMDNPXVRFFGS-IUYQGCFVSA-L" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="198.069" />
+      <Property key="MonoisotopicMw" value="200.0085891536" />
+      <Property key="NonStandardInchi" value="InChI=1S/C4H9O7P/c5-1-3(6)4(7)2-11-12(8,9)10/h1,3-4,6-7H,2H2,(H2,8,9,10)/p-2/t3-,4+/m0/s1" />
+      <Property key="Regulates" value="REG-9526" />
+      <Property key="Smiles" value="C([C@@H]([C@@H](COP([O-])([O-])=O)O)O)=O" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="1271.8160400390625" y="453.1436767578125" elementRef="OS03G0781400" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="1176.367431640625" y="1354.94287109375" elementRef="OS03T0781400-02" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_1_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_1_0_0" x="562.9985961914062" y="513.472412109375" elementRef="OS09G0505700" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_1_0_0" arrowHead="TranscriptionTranslation" x="1208.702392578125" y="776.10009765625" elementRef="OS09T0505700-02" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_2_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_2_0_0" x="398.0671081542969" y="114.997314453125" elementRef="OS07G0176900" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_2_0_0" arrowHead="TranscriptionTranslation" x="125.03134155273438" y="584.3994140625" elementRef="OS07T0176900-02" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_3_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_3_0_0" x="514.6657104492188" y="993.4148559570312" elementRef="OS08G0154300" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_3_0_0" arrowHead="TranscriptionTranslation" x="911.3138427734375" y="245.98907470703125" elementRef="OS08T0154300-02" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_4_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_4_0_0" x="996.3489990234375" y="903.9134521484375" elementRef="OS01G0542000" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_4_0_0" arrowHead="TranscriptionTranslation" x="636.1591796875" y="168.01235961914062" elementRef="OS01T0542000-00" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_5_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_5_0_0" x="145.0" y="1022.2265014648438" elementRef="OS04G0266900" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_5_0_0" arrowHead="TranscriptionTranslation" x="553.64111328125" y="758.3883056640625" elementRef="OS04T0266900-01" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_6_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_6_0_0" x="998.467529296875" y="767.6979370117188" elementRef="OS04G0306400" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_6_0_0" arrowHead="TranscriptionTranslation" x="755.08056640625" y="521.1384887695312" elementRef="OS04T0306400-01" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_7_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_7_0_0" x="1643.26318359375" y="380.8849182128906" elementRef="OS01G0926300" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_7_0_0" arrowHead="TranscriptionTranslation" x="1178.8955078125" y="50.0" elementRef="OS01T0926300-01" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_8_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_8_0_0" x="1080.0504150390625" y="627.2610473632812" elementRef="OS06G0133800" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_8_0_0" arrowHead="TranscriptionTranslation" x="760.8695068359375" y="796.3853759765625" elementRef="OS06T0133800-02" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="gene_protein_9_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_9_0_0" x="1174.6407470703125" y="1027.0390625" elementRef="OS03G0169100" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_9_0_0" arrowHead="TranscriptionTranslation" x="727.202392578125" y="974.1781616210938" elementRef="OS03T0169100-01" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RIB5PISOM-RXN">
+      <Xref identifier="EC-5.3.1.6" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RIB5PISOM-RXN_start" x="1579.7080078125" y="1176.8280029296875" elementRef="RIBULOSE-5P" relX="1.0" relY="0.0" />
+        <Point elementId="RIB5PISOM-RXN_end" arrowHead="Conversion" x="1555.0" y="799.8784790039062" elementRef="RIBOSE-5P" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RIB5PISOM-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RIB5PISOM-RXN" />
+      <Property key="EC_Number" value="EC-5.3.1.6" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-5723, CALVIN-PWY, NONOXIPENT-PWY" />
+      <Property key="PathwayCount" value="3" />
+      <Property key="ReactionEquation" value="RIBOSE-5P &lt;=&gt; RIBULOSE-5P" />
+      <Property key="ReactionDirection" value="REVERSIBLE" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNN7F-68896, ENZRXNN7F-66240, ENZRXNN7F-65903, ENZRXNN7F-63668" />
+      <Property key="EnzymaticReactionCount" value="4" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 10 11 9 12 13) (((RIBOSE-5P 0 13)) ((RIBULOSE-5P 0 13))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-6.130005" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RIB5PISOM-RXN_ENZRXNN7F-65903">
+      <Waypoints>
+        <Point elementId="RIB5PISOM-RXN_ENZRXNN7F-65903_start" x="800.08056640625" y="533.6384887695312" elementRef="OS04T0306400-01" relX="0.0" relY="1.0" />
+        <Point elementId="RIB5PISOM-RXN_ENZRXNN7F-65903_end" arrowHead="Catalysis" x="0" y="0" elementRef="RIB5PISOM-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RIB5PISOM-RXN_ENZRXNN7F-66240">
+      <Waypoints>
+        <Point elementId="RIB5PISOM-RXN_ENZRXNN7F-66240_start" x="1221.367431640625" y="1367.44287109375" elementRef="OS03T0781400-02" relX="0.0" relY="1.0" />
+        <Point elementId="RIB5PISOM-RXN_ENZRXNN7F-66240_end" arrowHead="Catalysis" x="0" y="0" elementRef="RIB5PISOM-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RIB5PISOM-RXN_ENZRXNN7F-63668">
+      <Waypoints>
+        <Point elementId="RIB5PISOM-RXN_ENZRXNN7F-63668_start" x="170.03134155273438" y="596.8994140625" elementRef="OS07T0176900-02" relX="0.0" relY="1.0" />
+        <Point elementId="RIB5PISOM-RXN_ENZRXNN7F-63668_end" arrowHead="Catalysis" x="0" y="0" elementRef="RIB5PISOM-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RIB5PISOM-RXN_ENZRXNN7F-68896">
+      <Waypoints>
+        <Point elementId="RIB5PISOM-RXN_ENZRXNN7F-68896_start" x="681.1591796875" y="180.51235961914062" elementRef="OS01T0542000-00" relX="0.0" relY="1.0" />
+        <Point elementId="RIB5PISOM-RXN_ENZRXNN7F-68896_end" arrowHead="Catalysis" x="0" y="0" elementRef="RIB5PISOM-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RIB5PISOM-RXN_anchor_reactant_0">
+      <Xref identifier="EC-5.3.1.6" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RIB5PISOM-RXN_anchor_reactant_start_0" x="1645.0" y="799.8784790039062" elementRef="RIBOSE-5P" relX="1.0" relY="0.0" />
+        <Point elementId="RIB5PISOM-RXN_anchor_reactant_end_0" x="0" y="0" elementRef="RIB5PISOM-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RIB5PISOM-RXN_anchor_product_0">
+      <Xref identifier="EC-5.3.1.6" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RIB5PISOM-RXN_anchor_product_start_0" x="0" y="0" elementRef="RIB5PISOM-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RIB5PISOM-RXN_anchor_product_end_0" arrowHead="Conversion" x="1489.7080078125" y="1176.8280029296875" elementRef="RIBULOSE-5P" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RIBULP3EPIM-RXN">
+      <Xref identifier="EC-5.1.3.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RIBULP3EPIM-RXN_start" x="1579.7080078125" y="1176.8280029296875" elementRef="RIBULOSE-5P" relX="1.0" relY="0.0" />
+        <Point elementId="RIBULP3EPIM-RXN_end" arrowHead="Conversion" x="868.39111328125" y="1550.0" elementRef="XYLULOSE-5-PHOSPHATE" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RIBULP3EPIM-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RIBULP3EPIM-RXN" />
+      <Property key="EC_Number" value="EC-5.1.3.1" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-5723, CALVIN-PWY, NONOXIPENT-PWY" />
+      <Property key="PathwayCount" value="3" />
+      <Property key="ReactionEquation" value="RIBULOSE-5P &lt;=&gt; XYLULOSE-5-PHOSPHATE" />
+      <Property key="ReactionDirection" value="REVERSIBLE" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNN7F-66992, ENZRXNN7F-62119" />
+      <Property key="EnzymaticReactionCount" value="2" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 1 2 3 4 5 6 7 8 9 11 10 12 13) (((RIBULOSE-5P 0 13)) ((XYLULOSE-5-PHOSPHATE 0 13))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="0." />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RIBULP3EPIM-RXN_ENZRXNN7F-66992">
+      <Waypoints>
+        <Point elementId="RIBULP3EPIM-RXN_ENZRXNN7F-66992_start" x="772.202392578125" y="986.6781616210938" elementRef="OS03T0169100-01" relX="0.0" relY="1.0" />
+        <Point elementId="RIBULP3EPIM-RXN_ENZRXNN7F-66992_end" arrowHead="Catalysis" x="0" y="0" elementRef="RIBULP3EPIM-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RIBULP3EPIM-RXN_ENZRXNN7F-62119">
+      <Waypoints>
+        <Point elementId="RIBULP3EPIM-RXN_ENZRXNN7F-62119_start" x="1253.702392578125" y="788.60009765625" elementRef="OS09T0505700-02" relX="0.0" relY="1.0" />
+        <Point elementId="RIBULP3EPIM-RXN_ENZRXNN7F-62119_end" arrowHead="Catalysis" x="0" y="0" elementRef="RIBULP3EPIM-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_1TRANSKETO-RXN">
+      <Xref identifier="EC-2.2.1.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_1TRANSKETO-RXN_start" x="1645.0" y="799.8784790039062" elementRef="RIBOSE-5P" relX="1.0" relY="0.0" />
+        <Point elementId="_1TRANSKETO-RXN_end" arrowHead="Conversion" x="383.36767578125" y="1362.9755859375" elementRef="D-SEDOHEPTULOSE-7-P" relX="-1.0" relY="0.0" />
+        <Anchor elementId="_1TRANSKETO-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="1TRANSKETO-RXN" />
+      <Property key="EC_Number" value="EC-2.2.1.1" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-5723, CALVIN-PWY, NONOXIPENT-PWY" />
+      <Property key="PathwayCount" value="3" />
+      <Property key="ReactionEquation" value="D-SEDOHEPTULOSE-7-P + GAP &lt;=&gt; RIBOSE-5P + XYLULOSE-5-PHOSPHATE" />
+      <Property key="ReactionDirection" value="REVERSIBLE" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNN7F-65929, ENZRXNN7F-64544" />
+      <Property key="EnzymaticReactionCount" value="2" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (18 15 17 22 21 25 23 24 26 27 14 1 16 3 0 4 2 19 20 7 5 8 6 10 11 9 12 13) (((RIBOSE-5P 0 13) (XYLULOSE-5-PHOSPHATE 14 27)) ((GAP 0 9) (D-SEDOHEPTULOSE-7-P 10 27))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="1.2300415" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="_1TRANSKETO-RXN_ENZRXNN7F-65929">
+      <Waypoints>
+        <Point elementId="_1TRANSKETO-RXN_ENZRXNN7F-65929_start" x="598.64111328125" y="770.8883056640625" elementRef="OS04T0266900-01" relX="0.0" relY="1.0" />
+        <Point elementId="_1TRANSKETO-RXN_ENZRXNN7F-65929_end" arrowHead="Catalysis" x="0" y="0" elementRef="_1TRANSKETO-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_1TRANSKETO-RXN_ENZRXNN7F-64544">
+      <Waypoints>
+        <Point elementId="_1TRANSKETO-RXN_ENZRXNN7F-64544_start" x="805.8695068359375" y="808.8853759765625" elementRef="OS06T0133800-02" relX="0.0" relY="1.0" />
+        <Point elementId="_1TRANSKETO-RXN_ENZRXNN7F-64544_end" arrowHead="Catalysis" x="0" y="0" elementRef="_1TRANSKETO-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_1TRANSKETO-RXN_anchor_reactant_0">
+      <Xref identifier="EC-2.2.1.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_1TRANSKETO-RXN_anchor_reactant_start_0" x="473.36767578125" y="1362.9755859375" elementRef="D-SEDOHEPTULOSE-7-P" relX="1.0" relY="0.0" />
+        <Point elementId="_1TRANSKETO-RXN_anchor_reactant_end_0" x="0" y="0" elementRef="_1TRANSKETO-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_1TRANSKETO-RXN_anchor_reactant_1">
+      <Xref identifier="EC-2.2.1.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_1TRANSKETO-RXN_anchor_reactant_start_1" x="829.4761962890625" y="1238.43310546875" elementRef="GAP" relX="1.0" relY="0.0" />
+        <Point elementId="_1TRANSKETO-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="_1TRANSKETO-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_1TRANSKETO-RXN_anchor_product_0">
+      <Xref identifier="EC-2.2.1.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_1TRANSKETO-RXN_anchor_product_start_0" x="0" y="0" elementRef="_1TRANSKETO-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="_1TRANSKETO-RXN_anchor_product_end_0" arrowHead="Conversion" x="1555.0" y="799.8784790039062" elementRef="RIBOSE-5P" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_1TRANSKETO-RXN_anchor_product_1">
+      <Xref identifier="EC-2.2.1.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_1TRANSKETO-RXN_anchor_product_start_1" x="0" y="0" elementRef="_1TRANSKETO-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="_1TRANSKETO-RXN_anchor_product_end_1" arrowHead="Conversion" x="868.39111328125" y="1550.0" elementRef="XYLULOSE-5-PHOSPHATE" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_2TRANSKETO-RXN">
+      <Xref identifier="EC-2.2.1.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_2TRANSKETO-RXN_start" x="927.6932983398438" y="762.3374633789062" elementRef="ERYTHROSE-4P" relX="1.0" relY="0.0" />
+        <Point elementId="_2TRANSKETO-RXN_end" arrowHead="Conversion" x="809.6534423828125" y="684.4365234375" elementRef="FRUCTOSE-6P" relX="-1.0" relY="0.0" />
+        <Anchor elementId="_2TRANSKETO-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="2TRANSKETO-RXN" />
+      <Property key="EC_Number" value="EC-2.2.1.1" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-5723, CALVIN-PWY, NONOXIPENT-PWY" />
+      <Property key="PathwayCount" value="3" />
+      <Property key="ReactionEquation" value="ERYTHROSE-4P + XYLULOSE-5-PHOSPHATE &lt;=&gt; FRUCTOSE-6P + GAP" />
+      <Property key="ReactionDirection" value="REVERSIBLE" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (0 10 2 1 3 4 8 22 21 20 23 25 11 12 15 13 14 16 19 17 18 5 7 6 24 9) (((&quot;GAP&quot; 0 9) (&quot;FRUCTOSE-6P&quot; 10 25)) ((&quot;ERYTHROSE-4P&quot; 0 11) (&quot;XYLULOSE-5-PHOSPHATE&quot; 12 25))))" />
+      <Property key="^official?" value="NIL" />
+      <Property key="Gibbs0" value="3.959961" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="_2TRANSKETO-RXN_anchor_reactant_1">
+      <Xref identifier="EC-2.2.1.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_2TRANSKETO-RXN_anchor_reactant_start_1" x="958.39111328125" y="1550.0" elementRef="XYLULOSE-5-PHOSPHATE" relX="1.0" relY="0.0" />
+        <Point elementId="_2TRANSKETO-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="_2TRANSKETO-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="_2TRANSKETO-RXN_anchor_product_1">
+      <Xref identifier="EC-2.2.1.1" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="_2TRANSKETO-RXN_anchor_product_start_1" x="0" y="0" elementRef="_2TRANSKETO-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="_2TRANSKETO-RXN_anchor_product_end_1" arrowHead="Conversion" x="739.4761962890625" y="1238.43310546875" elementRef="GAP" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="TRANSALDOL-RXN">
+      <Xref identifier="EC-2.2.1.2" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="TRANSALDOL-RXN_start" x="473.36767578125" y="1362.9755859375" elementRef="D-SEDOHEPTULOSE-7-P" relX="1.0" relY="0.0" />
+        <Point elementId="TRANSALDOL-RXN_end" arrowHead="Conversion" x="809.6534423828125" y="684.4365234375" elementRef="FRUCTOSE-6P" relX="-1.0" relY="0.0" />
+        <Anchor elementId="TRANSALDOL-RXN_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="TRANSALDOL-RXN" />
+      <Property key="EC_Number" value="EC-2.2.1.2" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="Pathways" value="PWY-5723, NONOXIPENT-PWY" />
+      <Property key="PathwayCount" value="2" />
+      <Property key="ReactionEquation" value="D-SEDOHEPTULOSE-7-P + GAP &lt;=&gt; FRUCTOSE-6P + ERYTHROSE-4P" />
+      <Property key="ReactionDirection" value="REVERSIBLE" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReactions" value="ENZRXNN7F-68224, ENZRXNN7F-62979" />
+      <Property key="EnzymaticReactionCount" value="2" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (15 12 14 19 26 24 23 22 25 27 13 1 17 3 16 2 0 18 21 6 20 5 4 8 7 9 10 11) (((&quot;ERYTHROSE-4P&quot; 0 11) (&quot;FRUCTOSE-6P&quot; 12 27)) ((&quot;GAP&quot; 0 9) (&quot;D-SEDOHEPTULOSE-7-P&quot; 10 27))))" />
+      <Property key="^official?" value="T" />
+      <Property key="Gibbs0" value="-2.920044" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="TRANSALDOL-RXN_ENZRXNN7F-62979">
+      <Waypoints>
+        <Point elementId="TRANSALDOL-RXN_ENZRXNN7F-62979_start" x="956.3138427734375" y="258.48907470703125" elementRef="OS08T0154300-02" relX="0.0" relY="1.0" />
+        <Point elementId="TRANSALDOL-RXN_ENZRXNN7F-62979_end" arrowHead="Catalysis" x="0" y="0" elementRef="TRANSALDOL-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="TRANSALDOL-RXN_ENZRXNN7F-68224">
+      <Waypoints>
+        <Point elementId="TRANSALDOL-RXN_ENZRXNN7F-68224_start" x="1223.8955078125" y="62.5" elementRef="OS01T0926300-01" relX="0.0" relY="1.0" />
+        <Point elementId="TRANSALDOL-RXN_ENZRXNN7F-68224_end" arrowHead="Catalysis" x="0" y="0" elementRef="TRANSALDOL-RXN_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="TRANSALDOL-RXN_anchor_reactant_1">
+      <Xref identifier="EC-2.2.1.2" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="TRANSALDOL-RXN_anchor_reactant_start_1" x="829.4761962890625" y="1238.43310546875" elementRef="GAP" relX="1.0" relY="0.0" />
+        <Point elementId="TRANSALDOL-RXN_anchor_reactant_end_1" x="0" y="0" elementRef="TRANSALDOL-RXN_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="TRANSALDOL-RXN_anchor_product_1">
+      <Xref identifier="EC-2.2.1.2" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="TRANSALDOL-RXN_anchor_product_start_1" x="0" y="0" elementRef="TRANSALDOL-RXN_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="TRANSALDOL-RXN_anchor_product_end_1" arrowHead="Conversion" x="837.6932983398438" y="762.3374633789062" elementRef="ERYTHROSE-4P" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_PMNIC2024">
+      <Xref identifier="PUB-PMNIC2024 | This pathway was not predicted to exist in this species using PathoLogic (version 28.0), but was imp... (2024)" dataSource="BioCyc" />
+    </Citation>
+  </Citations>
+</Pathway>

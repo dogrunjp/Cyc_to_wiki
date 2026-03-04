@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="4-hydroxysphinganine &lt;i&gt;N&lt;/i&gt;-acyltransferase" organism="cellular organisms" source="PlantCyc" version="20260304101735">
+  <Description>Single reaction view for RXN3O-328: 4-hydroxysphinganine &lt;i&gt;N&lt;/i&gt;-acyltransferase</Description>
+  <Authors>
+    <Author name="BioCyc" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from BioCyc single reaction data.</Comment>
+  <Property key="UniqueID" value="RXN3O-328" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="CO-A" textLabel="coenzyme A" type="Metabolite">
+      <Xref identifier="RGJOEKWQDUBAIZ-IBOSZNHHSA-J" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="xue, PMN, nilo-poyanco">Coenzyme A (CoA) is a ubiquitous compound found in archaea, bacteria, plants, and animals. It is a common acyl carrier in prokaryotic and eukaryotic cells, and is required for a multitude of reactions for both biosynthetic and degradative pathways, including the oxidation of fatty acids, carbohydrates, and amino acids |CITS: [16415216]|. While the name &quot;coenzyme A&quot; is well established, the correct name for the function of the compound in enzymatic reactions is &quot;cosubstrate&quot;.</Comment>
+      <Property key="UniqueID" value="CO-A" />
+      <Property key="AlternativeId_Metanetx" value="MNXM727276" />
+      <Property key="AlternativeId_Refmet" value="Coenzyme A" />
+      <Property key="AlternativeId_Bigg" value="coa" />
+      <Property key="AlternativeId_Wikipedia" value="Coenzyme_a" />
+      <Property key="AlternativeId_Metabolights" value="MTBLC57287" />
+      <Property key="AlternativeId_Hmdb" value="HMDB01423" />
+      <Property key="AlternativeId_Chebi" value="57287" />
+      <Property key="AlternativeId_Pubchem" value="25113190" />
+      <Property key="AlternativeId_Knapsack" value="C00007258" />
+      <Property key="AlternativeId_Cas" value="85-61-0" />
+      <Property key="AlternativeId_LigandCpd" value="C00010" />
+      <Property key="Synonym_1" value="CoA" />
+      <Property key="Synonym_2" value="Co-A-SH" />
+      <Property key="Synonym_3" value="HS-CoA" />
+      <Property key="ChemicalFormula" value="(C 21) (H 32) (N 7) (O 16) (P 3) (S 1)" />
+      <Property key="AtomCharges" value="(39 -1), (37 -1), (35 -1), (33 -1)" />
+      <Property key="Gibbs0" value="-493.56613" />
+      <Property key="Inchi" value="InChI=1S/C21H36N7O16P3S/c1-21(2,16(31)19(32)24-4-3-12(29)23-5-6-48)8-41-47(38,39)44-46(36,37)40-7-11-15(43-45(33,34)35)14(30)20(42-11)28-10-27-13-17(22)25-9-26-18(13)28/h9-11,14-16,20,30-31,48H,3-8H2,1-2H3,(H,23,29)(H,24,32)(H,36,37)(H,38,39)(H2,22,25,26)(H2,33,34,35)/p-4/t11-,14-,15-,16+,20-/m1/s1" />
+      <Property key="InchiKey" value="InChIKey=RGJOEKWQDUBAIZ-IBOSZNHHSA-J" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="763.502" />
+      <Property key="MonoisotopicMw" value="767.1152083656" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Regulates" value="REG-13932, REG0-7670, REG0-7409" />
+      <Property key="Smiles" value="CC(C)(COP([O-])(=O)OP(OC[C@H]3(O[C@@H](N1(C2(\N=C/N=C(C(\N=C/1)=2)/N)))[C@H](O)[C@H](OP([O-])(=O)[O-])3))(=O)[O-])[C@@H](O)C(=O)NCCC(=O)NCCS" />
+      <CitationRef elementRef="citation_PUB_16415216" />
+    </DataNode>
+    <DataNode elementId="Phytosphingosines" textLabel="a phytosphingosine" type="Metabolite">
+      <Graphics centerX="350" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="SRI, caspi">Phytosphingosines can have either a C18 or a C20 skeleton. They are the most common sphingoid base used in yeast.</Comment>
+      <Property key="UniqueID" value="Phytosphingosines" />
+      <Property key="Synonym_1" value="a phytosphingenine" />
+      <Property key="AtomCharges" value="(19 1)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value=":STANDARD-INCHI" />
+      <Property key="Smiles" value="C([R])CCCCCCCCCCCCC[C@@H](O)[C@H]([C@H](CO)[NH3+])O" />
+    </DataNode>
+    <DataNode elementId="VERY-LONG-CHAIN-FATTY-ACYL-COA" textLabel="a very-long-chain fatty acyl-CoA" type="Metabolite">
+      <Xref identifier="61910" dataSource="ChEBI" />
+      <Graphics centerX="500" centerY="210" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="SRI, caspi">Fatty acyl-CoAs are |FRAME: ACYL-COA &quot;acyl-CoAs&quot;| derived from |FRAME: Fatty-Acids &quot;fatty acids&quot;|. Many enzymes that act on fatty acids, as well as the corresponding |FRAME: Fatty-Acyl-CoAs &quot;fatty acyl-CoAs&quot;|, alcohols, and aldehydes, have evolved to recognize substrates with a limited range of chain lengths. To classify these enzymes, it is helpful to divide the substrates into smaller groups based on their chain length. The following subgroups have been defined: |FRAME: Short-Chain-Acyl-CoAs &quot;Short-chain acyl-CoAs&quot;| are derived from |FRAME: Short-chain-fatty-acids &quot;fatty acids that have 3-5 carbons in the longest chain&quot;|. |FRAME: Medium-Chain-Acyl-CoAs &quot;Medium-chain acyl-CoAs&quot;| are derived from |FRAME: Medium-chain-fatty-acids &quot;fatty acids that have 6-12 carbons in the longest chain&quot;|. |FRAME: Long-Chain-Acyl-CoAs &quot;Long-chain acyl-CoAs&quot;| are derived from |FRAME: Long-Chain-Fatty-Acids &quot;fatty acids that have 13-22 carbons in the longest chain&quot;|. |FRAME: VERY-LONG-CHAIN-FATTY-ACYL-COA &quot;Very-long-chain fatty acyl-CoAs&quot;| are derived from |FRAME: Very-long-chain-fatty-acids &quot;fatty acids that have 23-27 carbons in the longest chain&quot;|. |FRAME: Ultra-Long-Chain-Acyl-CoAs &quot;Ultra-long-chain fatty acyl-CoAs&quot;| are derived from |FRAME: Ultra-long-chain-fatty-acids &quot;fatty acids that have more than 27 carbons in the longest chain&quot;|.</Comment>
+      <Property key="UniqueID" value="VERY-LONG-CHAIN-FATTY-ACYL-COA" />
+      <Property key="AlternativeId_Seed" value="cpd28320" />
+      <Property key="AlternativeId_Chebi" value="61910" />
+      <Property key="AlternativeId_Metanetx" value="MNXM13258" />
+      <Property key="Synonym_1" value="a very-long-chain fatty acyl-coenzyme A" />
+      <Property key="Synonym_2" value="a very-long-chain acyl-CoA" />
+      <Property key="AtomCharges" value="(62 -1), (60 -1), (59 -1), (57 -1)" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="N+1Name" value="acyl&lt;sub&gt;n+2&lt;/sub&gt;-CoA" />
+      <Property key="N1Name" value="acyl&lt;sub&gt;n-2&lt;/sub&gt;-CoA" />
+      <Property key="NonStandardInchi" value="InChI=1S/C44H80N7O17P3S/c1-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22-23-24-35(53)72-28-27-46-34(52)25-26-47-42(56)39(55)44(2,3)30-65-71(62,63)68-70(60,61)64-29-33-38(67-69(57,58)59)37(54)43(66-33)51-32-50-36-40(45)48-31-49-41(36)51/h31-33,37-39,43,54-55H,4-30H2,1-3H3,(H,46,52)(H,47,56)(H,60,61)(H,62,63)(H2,45,48,49)(H2,57,58,59)/p-4/t33-,37-,38-,39+,43-/m1/s1" />
+      <Property key="Smiles" value="C(CCCCCCCCCCCCCCCCCCCCCC(=O)SCCNC(=O)CCNC(=O)[C@H](O)C(C)(C)COP(=O)(OP(=O)(OC[C@@H]1([C@@H](OP([O-])(=O)[O-])[C@@H](O)[C@@H](O1)N2(C3(\N=C/N=C(C(\N=C/2)=3)/N))))[O-])[O-])[R]" />
+      <Property key="Superatoms" value="COA-GROUP" />
+      <CitationRef elementRef="citation__plantbiochemistry97_" />
+    </DataNode>
+    <DataNode elementId="Very-Long-Chain-Phytoceramides" textLabel="a very-long-chain phytoceramide" type="Metabolite">
+      <Graphics centerX="200" centerY="310" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="Very-Long-Chain-Phytoceramides" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="NonStandardInchi" value="InChI=1S/C41H83NO4/c1-3-5-7-9-11-13-15-17-18-19-20-21-22-23-24-26-28-30-32-34-36-40(45)42-38(37-43)41(46)39(44)35-33-31-29-27-25-16-14-12-10-8-6-4-2/h38-39,41,43-44,46H,3-37H2,1-2H3,(H,42,45)/t38-,39+,41-/m0/s1" />
+      <Property key="Smiles" value="C(CCCCCCCCCCCCCCCCCCCCCC(=O)N[C@@H](CO)[C@H](O)[C@H](O)CCCCCCCCCCCCCC[R1])[R2]" />
+    </DataNode>
+    <DataNode elementId="PROTON" textLabel="H⁺" type="Metabolite">
+      <Xref identifier="GPRLSGONYQIRFK-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="350" centerY="310" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="PROTON" />
+      <Property key="AlternativeId_Bigg" value="h" />
+      <Property key="AlternativeId_Seed" value="cpd00067" />
+      <Property key="AlternativeId_Metanetx" value="MNXM1" />
+      <Property key="AlternativeId_Hmdb" value="HMDB59597" />
+      <Property key="AlternativeId_Chemspider" value="1010" />
+      <Property key="AlternativeId_Pubchem" value="1038" />
+      <Property key="AlternativeId_Chebi" value="15378" />
+      <Property key="AlternativeId_Cas" value="12408-02-5" />
+      <Property key="AlternativeId_LigandCpd" value="C00080" />
+      <Property key="Synonym_1" value="H" />
+      <Property key="Synonym_2" value="hydrogen ion" />
+      <Property key="Synonym_3" value="proton" />
+      <Property key="ChemicalFormula" value="(H 1)" />
+      <Property key="AtomCharges" value="(1 1)" />
+      <Property key="Gibbs0" value="0.42906138" />
+      <Property key="Inchi" value="InChI=1S/p+1" />
+      <Property key="InchiKey" value="InChIKey=GPRLSGONYQIRFK-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="1.008" />
+      <Property key="MonoisotopicMw" value="1.0078250321" />
+      <Property key="NonStandardInchi" value="InChI=1S/p+1" />
+      <Property key="Smiles" value="[H+]" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="RXN3O-328">
+      <Xref identifier="EC-2.3.1.297" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN3O-328_start" x="545.0" y="210" elementRef="VERY-LONG-CHAIN-FATTY-ACYL-COA" relX="1.0" relY="0.0" />
+        <Point elementId="RXN3O-328_end" arrowHead="Conversion" x="155.0" y="310" elementRef="Very-Long-Chain-Phytoceramides" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN3O-328_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN3O-328" />
+      <Property key="ReactionName" value="4-hydroxysphinganine &lt;i&gt;N&lt;/i&gt;-acyltransferase" />
+      <Property key="EC_Number" value="EC-2.3.1.297" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="ReactionEquation" value="VERY-LONG-CHAIN-FATTY-ACYL-COA + Phytosphingosines =&gt; Very-Long-Chain-Phytoceramides + CO-A + PROTON" />
+      <Property key="ReactionDirection" value="PHYSIOL-LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="ReactionTypes" value="Chemical-Reactions, Small-Molecule-Reactions" />
+      <Property key="AtomMappings" value="(:NO-HYDROGEN-ENCODING (49 51 53 55 57 59 61 63 72 74 76 78 80 82 84 85 86 88 89 90 91 93 94 48 1 0 50 52 54 56 58 60 62 64 65 66 67 68 69 70 71 73 75 77 79 81 83 2 3 4 5 6 7 8 9 10 11 87 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 92 29 30 31 32 33 34 36 35 38 37 39 40 41 42 43 44 45 46 47 95) (((&quot;CO-A&quot; 0 47) (&quot;Very-Long-Chain-Phytoceramides&quot; 48 95)) ((&quot;Phytosphingosines&quot; 0 22) (&quot;VERY-LONG-CHAIN-FATTY-ACYL-COA&quot; 23 95))))" />
+      <Property key="Gibbs0" value="-112.82785" />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+    </Interaction>
+    <Interaction elementId="RXN3O-328_anchor_reactant_1">
+      <Xref identifier="EC-2.3.1.297" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN3O-328_anchor_reactant_start_1" x="395.0" y="210" elementRef="Phytosphingosines" relX="1.0" relY="0.0" />
+        <Point elementId="RXN3O-328_anchor_reactant_end_1" x="0" y="0" elementRef="RXN3O-328_anchor" relX="0.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN3O-328_anchor_product_1">
+      <Xref identifier="EC-2.3.1.297" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN3O-328_anchor_product_start_1" x="0" y="0" elementRef="RXN3O-328_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN3O-328_anchor_product_end_1" arrowHead="Conversion" x="155.0" y="210" elementRef="CO-A" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN3O-328_anchor_product_2">
+      <Xref identifier="EC-2.3.1.297" dataSource="Enzyme Nomenclature" />
+      <Waypoints>
+        <Point elementId="RXN3O-328_anchor_product_start_2" x="0" y="0" elementRef="RXN3O-328_anchor" relX="0.0" relY="0.0" />
+        <Point elementId="RXN3O-328_anchor_product_end_2" arrowHead="Conversion" x="305.0" y="310" elementRef="PROTON" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation__plantbiochemistry97_">
+      <Xref identifier="[plantbiochemistry97]" dataSource="PlantCyc" />
+    </Citation>
+    <Citation elementId="citation_PUB_16415216">
+      <Xref identifier="16415216" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>

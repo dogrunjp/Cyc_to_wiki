@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2021" title="RXN-22351" organism="cellular organisms" source="PlantCyc" version="20260304101735">
+  <Description>Single reaction view for RXN-22351: RXN-22351</Description>
+  <Authors>
+    <Author name="BioCyc" />
+  </Authors>
+  <Comment source="Automated Conversion">This GPML file was automatically generated from BioCyc single reaction data.</Comment>
+  <Property key="UniqueID" value="RXN-22351" />
+  <Graphics boardWidth="1200" boardHeight="800" />
+  <DataNodes>
+    <DataNode elementId="OS02G0745100" textLabel="Os02g0745100" type="GeneProduct">
+      <Xref identifier="OS02G0745100" dataSource="plantcyc" />
+      <Graphics centerX="100" centerY="50" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS02G0745100" />
+      <Property key="Product" value="OS02T0745100-01" />
+      <Property key="GeneType" value="Unclassified-Genes" />
+      <Property key="Accession1" value="Os02g0745100" />
+      <Property key="InstanceNameTemplate" value="G-*" />
+      <Property key="UnmappedComponentOf" value="ORYZA-SATIVA" />
+    </DataNode>
+    <DataNode elementId="OS02T0745100-01" textLabel="Os02t0745100-01" type="Protein">
+      <Xref identifier="OS02T0745100-01" dataSource="plantcyc" />
+      <Graphics centerX="150" centerY="215" width="90.0" height="25.0" textColor="000000" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="000000" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Property key="UniqueID" value="OS02T0745100-01" />
+      <Property key="Catalyzes" value="RXN-N7F-67329, RXN-N7F-67328, RXN-N7F-67327, RXN-N7F-67326, RXN-N7F-67325, RXN-N7F-67324, RXN-N7F-67323" />
+      <Property key="CatalyzesCount" value="7" />
+      <Property key="Accession1" value="Os02t0745100-01" />
+      <Property key="Gene" value="OS02G0745100" />
+      <Property key="InstanceNameTemplate" value="MONOMER-*" />
+    </DataNode>
+    <DataNode elementId="CPD-24361" textLabel="methylarsonic acid" type="Metabolite">
+      <Xref identifier="QYPPRTNMGCREIM-UHFFFAOYSA-N" dataSource="InChIKey" />
+      <Graphics centerX="200" centerY="400" width="90.0" height="25.0" textColor="3955e7" fontName="Arial" fontWeight="Normal" fontStyle="Normal" fontDecoration="Normal" fontStrikethru="Normal" fontSize="12" hAlign="Center" vAlign="Middle" borderColor="3955e7" borderStyle="Solid" borderWidth="1.0" fillColor="FFFFFF" shapeType="Rectangle" />
+      <Comment source="chawkins, SRI, caspi">Methylarsonate is currently used as an herbicide on cotton fields or for postemergence control of crabgrass and other turf weeds in the United States |CITS: [28936873]|.</Comment>
+      <Property key="UniqueID" value="CPD-24361" />
+      <Property key="AlternativeId_LigandCpd" value="C07294" />
+      <Property key="AlternativeId_Chebi" value="29852" />
+      <Property key="Synonym_1" value="MMA&lt;sup&gt;V&lt;/sup&gt;" />
+      <Property key="Synonym_2" value="MeAsO(OH)&lt;sub&gt;2&lt;/sub&gt;" />
+      <Property key="Synonym_3" value="methanearsonic acid" />
+      <Property key="Synonym_4" value="monomethylarsonic acid" />
+      <Property key="ChemicalFormula" value="(C 1) (H 5) (O 3) (AS 1)" />
+      <Property key="Gibbs0" value="-68.0944" />
+      <Property key="Inchi" value="InChI=1S/CH5AsO3/c1-2(3,4)5/h1H3,(H2,3,4,5)" />
+      <Property key="InchiKey" value="InChIKey=QYPPRTNMGCREIM-UHFFFAOYSA-N" />
+      <Property key="InstanceNameTemplate" value="CPD-*" />
+      <Property key="MolecularWeight" value="139.97" />
+      <Property key="MonoisotopicMw" value="139.9454654268" />
+      <Property key="NonStandardInchi" value="InChI=1S/CH5AsO3/c1-2(3,4)5/h1H3,(H2,3,4,5)/p-1" />
+      <Property key="Smiles" value="C[As](=O)(O)O" />
+      <CitationRef elementRef="citation_PUB_28936873" />
+    </DataNode>
+  </DataNodes>
+  <Interactions>
+    <Interaction elementId="gene_protein_0_0_0">
+      <Waypoints>
+        <Point elementId="gene_protein_start_0_0_0" x="145.0" y="50" elementRef="OS02G0745100" relX="1.0" relY="0.0" />
+        <Point elementId="gene_protein_end_0_0_0" arrowHead="TranscriptionTranslation" x="105.0" y="215" elementRef="OS02T0745100-01" relX="-1.0" relY="0.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+    <Interaction elementId="RXN-22351">
+      <Xref identifier="RXN-22351" dataSource="PlantCyc" />
+      <Waypoints>
+        <Point elementId="RXN-22351_start" x="245.0" y="400" elementRef="CPD-24361" relX="1.0" relY="0.0" />
+        <Point elementId="RXN-22351_end" arrowHead="Conversion" x="155.0" y="400" elementRef="CPD-24361" relX="-1.0" relY="0.0" />
+        <Anchor elementId="RXN-22351_anchor" position="0.5" shapeType="Circle" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+      <Property key="UniqueID" value="RXN-22351" />
+      <Property key="Orphan" value=":NO" />
+      <Property key="ReactionEquation" value="CPD-24361 =&gt; CPD-24361" />
+      <Property key="ReactionDirection" value="LEFT-TO-RIGHT" />
+      <Property key="BalanceStatus" value=":BALANCED" />
+      <Property key="PhysiologicallyRelevant" value="T" />
+      <Property key="EnzymaticReaction" value="ENZRXNN7F-67328" />
+      <Property key="ReactionTypes" value="Small-Molecule-Reactions, TR-11" />
+      <Property key="AtomMappings" value=":CPDS-LACK-STRUCTURE" />
+      <Property key="Gibbs0" value="0." />
+      <Property key="InstanceNameTemplate" value="RXN-*" />
+      <Property key="^compartment" value="CCO-OUT, CCO-IN" />
+    </Interaction>
+    <Interaction elementId="RXN-22351_ENZRXNN7F-67328">
+      <Waypoints>
+        <Point elementId="RXN-22351_ENZRXNN7F-67328_start" x="150" y="227.5" elementRef="OS02T0745100-01" relX="0.0" relY="1.0" />
+        <Point elementId="RXN-22351_ENZRXNN7F-67328_end" arrowHead="Catalysis" x="0" y="0" elementRef="RXN-22351_anchor" relX="0.0" relY="-1.0" />
+      </Waypoints>
+      <Graphics lineColor="000000" lineStyle="Solid" lineWidth="1.0" connectorType="Straight" />
+    </Interaction>
+  </Interactions>
+  <Citations>
+    <Citation elementId="citation_PUB_28936873">
+      <Xref identifier="28936873" dataSource="pubmed" />
+    </Citation>
+  </Citations>
+</Pathway>
